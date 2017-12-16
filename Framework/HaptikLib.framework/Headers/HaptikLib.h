@@ -9,6 +9,7 @@
 
 #import "Haptik.h"
 #import "HPSignUpObject.h"
+#import "HPThemeService.h"
 
 #import "DemoPublicHeaders.h"
 

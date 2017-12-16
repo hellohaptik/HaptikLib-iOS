@@ -6,11 +6,10 @@
 //  Copyright © 2017 Haptik. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
+@import UIKit;
 @class HPInitObject;
 @class HPSignUpObject;
-
+@class HPThemeService;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -70,23 +69,79 @@ typedef NS_ENUM(NSUInteger, HaptikLibAuthType) {
 + (instancetype)shared;
 
 
+- (void)application:(UIApplication *)application didFinishLaunchingWithOptions:(nullable NSDictionary *)launchOptions;
+
+
 /*
- *  SignIn the User with SignUp Data.
+ *  @method
  *
- *  @param signUpData :Object of HPSignUpObject
- *  @param initialVC  :Instance of initial ViewController
- *  @param completion :Completion Handler which will have the success or error information.
+ *  Returns a Bool depecting if the user is already signed up or not.
+ */
+- (BOOL)isUserSignedUp;
+
+
+/*
+ *  @method
+ *
+ *  Returns the Initial View Controller if the User has already signed up.
+ */
+- (__kindof UIViewController * _Nullable)getInitialVC;
+
+
+/*
+ @method
+ 
+ SignIn the User with SignUp Data.
+ 
+ @param signUpData :Object of HPSignUpObject
+ @param completion :Completion Handler which will have the success or error information.
  */
 - (void)signUpWith:(HPSignUpObject *)signUpData
         completion:(void (^)(BOOL success,__kindof UIViewController * _Nullable initialVC, NSError * _Nullable error))completion;
 
 
-/*
- *  Set Device Token for Push Notifications.
- *
- *  @param token :Device Token you get on Registering Push Notifications
+/*!
+ @method
+ 
+ @abstract
+ Register the device to receive push notifications.
+ 
+ @discussion
+ This will associate the device token with the current user to allow push notifications to the user.
+ 
+ @param deviceToken     device token as returned from application:didRegisterForRemoteNotificationsWithDeviceToken:
  */
-- (void)setDeviceToken:(NSString *)token;
+- (void)setDeviceToken:(NSData *)deviceToken;
+
+
+/*!
+ @method
+ 
+ @abstract
+ Process a push notification based on its payload.
+ 
+ @discussion
+ By calling this method, Haptik will process upon the passed userInfo payload
+ 
+ @param userInfo         notification payload
+ */
+- (void)handleNotificationWithUserInfo:(NSDictionary *)userInfo;
+
+
+/*
+ *  Set HPThemeService Object.
+ *
+ *  @param theme :HPThemeService Object for applying Theming Configurations
+ */
+@property (nonatomic) HPThemeService *themeConfig;
+
+
+/*
+ *  Set Show Banners BOOL
+ *
+ *  This BOOL controls the visibility of Banners on the Inbox Screen of Haptik. By default the value will be true.
+ */
+@property (assign) BOOL showBanners;
 
 
 /*
