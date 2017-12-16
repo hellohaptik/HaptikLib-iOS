@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HaptikLib"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Say goodbye to App Fatigue. Instantly enable 40+ chatbots across various daily tasks"
 
   s.description  = <<-DESC
