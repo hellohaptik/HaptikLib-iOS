@@ -15,5 +15,3 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Inbox Cell is Configured.
 - Provide Banners Toggling Functionality to Clients.
 - Implement Archived Channels Show/Hide Toggling.
-- Module Map has been used to Inter-Operate between Private Objective-C Headers and Swift Files. (WebSelfServeScreen Added.)
-- Haptic Feedback Generator Helper Added.
