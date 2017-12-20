@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HaptikLib"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "Say goodbye to App Fatigue. Instantly enable 40+ chatbots across various daily tasks"
 
   s.description  = <<-DESC
@@ -29,5 +29,10 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/hellohaptik/HaptikLib-iOS.git", :tag => s.version.to_s }
 
   s.vendored_frameworks = 'Framework/HaptikLib.framework'
+
+  s.ios.preserve_paths = '**'
+
+  s.dependency    'PINRemoteImage', '3.0.0-beta.13'
+  s.dependency    'PINRemoteImage/WebP', '3.0.0-beta.13'
 
 end
