@@ -1,6 +1,0 @@
-framework module HaptikLib {
-  umbrella header "HaptikLib.h"
-
-  export *
-  module * { export * }
-}
