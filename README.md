@@ -23,5 +23,5 @@ Looking to be a part of the Haptik platform? Or use Haptik to create your own ch
 ### License
 Copyright (c) 2017-2018 Haptik.
 
-This product is released under [Commercial](https://raw.githubusercontent.com/hellohaptik/HaptikLib-iOS/master/LICENSE) license.
+This product is released under [Apache License 2.0](https://raw.githubusercontent.com/hellohaptik/HaptikLib-iOS/master/LICENSE) license.
 Please refer to our [Terms of Service](https://haptik.ai/terms-conditions) & [Privacy Policy](https://haptik.ai/privacy_mob).
