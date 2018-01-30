@@ -6,7 +6,9 @@
 //  Copyright © 2017 Haptik. All rights reserved.
 //
 
-@import UIKit;
+
+#import <UIKit/UIKit.h>
+
 @class HPInitObject;
 @class HPSignUpObject;
 @class HPThemeService;
@@ -51,6 +53,14 @@ typedef NS_ENUM(NSUInteger, HaptikLibAuthType) {
 };
 
 
+/*
+ *  Everytime wallet balance is updated a notification is fired by HaptikLib for observing wallet balance updates.
+ *  Updated balance can be fetched from "getHaptikWalletBalance()" method of Haptik class.
+ */
+
+static NSString *const HPWalletBalanceUpdated   = @"haptikWalletBalanceUpdated";
+
+
 @protocol HPAnalyticsServiceDelegate <NSObject>
 @optional
 
@@ -61,6 +71,13 @@ typedef NS_ENUM(NSUInteger, HaptikLibAuthType) {
 @end
 
 
+@protocol HPShareAndEarnDelegate <NSObject>
+@optional
+
+- (void)shareAndEarnTapped;
+
+@end
+
 @interface Haptik : NSObject
 
 /*
@@ -69,13 +86,27 @@ typedef NS_ENUM(NSUInteger, HaptikLibAuthType) {
 + (instancetype)shared;
 
 
+/*!
+ Initialize the Haptik session with the app launch options.
+
+ @param application Your singleton app object.
+ @param launchOptions The launch options provided by the AppDelegate's `didFinishLaunchingWithOptions:` method.
+ */
 - (void)application:(UIApplication *)application didFinishLaunchingWithOptions:(nullable NSDictionary *)launchOptions;
+
+
+/*!
+ Specifies whether Haptik Lib will handle URL redirects
+ @param url The url expected to be handled
+ @param options A dictionary of URL handling options
+ */
+- (BOOL)isRedirectHandled:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options;
 
 
 /*
  *  @method
  *
- *  Returns a Bool depecting if the user is already signed up or not.
+ *  Returns a Bool indicating if the user is already signed up or not.
  */
 - (BOOL)isUserSignedUp;
 
@@ -129,6 +160,27 @@ typedef NS_ENUM(NSUInteger, HaptikLibAuthType) {
 
 
 /*
+ *  @method
+ *
+ *  By calling this method you will get an instance of Haptik Wallet Screen. This method should only be called after the user has signed up.
+ *
+ *  @param defaultsHistory  Boolean Value indicating whether the wallet history tab should be selected by default or not.
+ *  @param delegate  If shouldUseReferrals property of Haptik is set to true, then the delegate will pass the callbacks when the Share and Earn View is Tapped in the Wallet Scene.
+ *
+ */
+- (__kindof UIViewController *)getHaptikWalletViewController:(BOOL)defaultsToHistory shareAndEarnDelegate:(nullable id <HPShareAndEarnDelegate>)delegate;
+
+
+/*
+ *  @method
+ *
+ *  By calling this method you will get an instance of Transaction History Screen. This method should only be called after the user has signed up.
+ *
+ */
+- (__kindof UIViewController *)getTransactionHistoryViewController;
+
+
+/*
  *  Set HPThemeService Object.
  *
  *  @param theme :HPThemeService Object for applying Theming Configurations
@@ -145,11 +197,38 @@ typedef NS_ENUM(NSUInteger, HaptikLibAuthType) {
 
 
 /*
+ *  Set Use Referrals BOOL
+ *
+ *  This BOOL controls the use of Referral Flows in Haptik. By default the value will be false.
+ */
+@property (assign) BOOL shouldUseReferrals;
+
+
+/*
  *  Analytics Callback Object
  *
  *  If provided, Analytics Service Class will send delegate callbacks to the provided delegate self.
  */
 @property (nonatomic, weak) id <HPAnalyticsServiceDelegate> analyticsCallbackObject;
+
+
+/*
+ *  @method
+ *
+ *  Returns boolean value indicating if User's Haptik Wallet has been created or not.
+ */
+- (BOOL)isHaptikWalletCreated;
+
+
+/*
+ *  @method
+ *
+ *  Returns String value of User's Haptik Wallet Balance. Will return nil if:
+ *
+ *  - User's wallet has not been created yet.
+ *  - Haptik Wallet Servers are currently down.
+ */
+- (NSString *)getHaptikWalletBalance;
 
 
 /*
