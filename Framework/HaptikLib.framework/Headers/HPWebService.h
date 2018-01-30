@@ -11,6 +11,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HPWebService : NSObject
 
+#pragma mark - Default Session Service
+
++ (void)performRequestFor:(NSString *)URLString
+                   method:(NSString *)method
+                   params:(nullable NSDictionary *)params
+               completion:(void (^ _Nullable)(id _Nullable serializedObject, NSURLResponse *_Nullable headers, NSError *_Nullable error))completion;
+
+
+#pragma mark -
+
 + (NSURLSessionDataTask *)getDataTaskFor:(NSURLRequest *)request
                               completion:(void (^ _Nullable)(id _Nullable serializedObject, NSURLResponse *_Nullable headers, NSError *_Nullable error))completion;
 
@@ -19,9 +29,37 @@ NS_ASSUME_NONNULL_BEGIN
          completion:(void (^ _Nullable)(id _Nullable serializedObject, NSURLResponse *_Nullable headers, NSError *_Nullable error))completion;
 
 
+#pragma mark - Bill Payments Session Service
+
++ (void)dataRequest:(NSURLRequest *)request
+            setCompletionBlockWithSuccess:(void (^ _Nullable)(NSData *dataObject, NSURLResponse *response))success
+                                  failure:(void (^ _Nullable)(NSError *error))failure;
+
+
++ (NSURLSessionDataTask *)getPlanListForServiceProvider:(NSNumber *)operatorID
+                                               inCircle:(NSNumber *)circleID
+                                            forCategory:(nullable NSNumber *)categoryID
+                                             withAmount:(nullable NSNumber *)amount
+                          setCompletionBlockWithSuccess:(void (^ _Nullable)(NSData *dataObject, NSURLResponse * response))success
+                                                failure:(void (^ _Nullable)(NSError * error))failure;
+
+
+#pragma mark - Request Serializer
+
++ (NSURL *)createGETRequestUrlWith:(NSString *)URLString params:(NSDictionary *)params;
+
+
 + (NSMutableURLRequest *)requestForMethod:(NSString *)method
                                 URLString:(NSString *)URLString
-                                   params:(NSDictionary *_Nullable)params
+                                   params:(nullable NSDictionary *)params
+                                    error:(NSError *_Nullable __autoreleasing *)error;
+
+
++ (NSMutableURLRequest *)requestForMethod:(NSString *)method
+                                URLString:(NSString *)URLString
+                                   params:(nullable NSDictionary *)params
+                              cachePolicy:(NSURLRequestCachePolicy)cachePolicy
+                          timeoutInterval:(NSUInteger)timeoutInterval
                                     error:(NSError *_Nullable __autoreleasing *)error;
 
 @end
