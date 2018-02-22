@@ -1,9 +1,11 @@
 //
 //  HaptikLib.h
-//  HaptikLib
+//  HaptikLib - Haptik Personal Assistant SDK for iOS
 //
-//  Created by SimranJot Singh on 13/09/17.
-//  Copyright © 2017 Haptik. All rights reserved.
+//  Copyright © 2018 Haptik. All rights reserved.
+//
+//  Usage of this SDK is subject to the Haptik Terms of
+//  Service: https://haptik.ai/terms-conditions
 //
 
 
@@ -13,8 +15,7 @@
 
 #import "DemoPublicHeaders.h"
 
-//! Project version number for HaptikLib.
+
 FOUNDATION_EXPORT double HaptikLibVersionNumber;
 
-//! Project version string for HaptikLib.
 FOUNDATION_EXPORT const unsigned char HaptikLibVersionString[];

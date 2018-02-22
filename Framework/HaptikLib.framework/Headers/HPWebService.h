@@ -29,6 +29,12 @@ NS_ASSUME_NONNULL_BEGIN
          completion:(void (^ _Nullable)(id _Nullable serializedObject, NSURLResponse *_Nullable headers, NSError *_Nullable error))completion;
 
 
++ (void)uploadImage:(UIImage *)image
+          urlString:(NSString *)urlString
+             params:(NSDictionary *)params
+         completion:(void (^ _Nullable)(id _Nullable serializedObject, NSError * _Nullable error))completion;
+
+
 #pragma mark - Bill Payments Session Service
 
 + (void)dataRequest:(NSURLRequest *)request
