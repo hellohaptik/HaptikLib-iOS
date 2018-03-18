@@ -2,7 +2,76 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [0.2.0] - (XX/02/18) - Haider
+## [0.4.0] - (17/03/18) - Jaane Bhi Do Yaaron
+
+### Features
+- Added Functionality to Update User's Auth Token/Code
+
+
+### Enhancements
+- Add Theming to HaptikDemo
+- Added missing GuestSignup flows in HPFlowCoordinator
+- Using last message timestamp to update Inbox Screen Table
+- Handled Wallet Creation Notification
+- User's Saved Addresses Fetched
+- Using objectIDs for height caching on conversations screen
+- Added Wallet Creation Dialog Check on Inbox
+- Screen Title Copy is Updated in GuestSignup FLows
+- Made Image Gallery View Controller iPhone X Compatible
+- Added additional interface function to determine whether notification payload can be handled by SDK
+
+
+### Bugs
+- Corrected usage of shared suite user defaults for saving persistent configurations
+- Resolved Syncing Issue in HPSyncEngine
+- Resolved Archived Chats Filtration Bug
+- Resolved GuestSignup Notification Issue
+- Resolved late showing of Banners View on Inbox Screen
+- Resolved Connected Wallets Crash
+- Resolved Taskbox Creation Issue on Clear Chat
+- Corrected animations on conversations screen
+- Resolved Message Composer Issue on Conversations Screen
+- Corrected duplicate unfilled chatforms being shown to user
+- Corrected validation if self serve screen is kept blank and user taps on proceed button
+- Drawing banners page controller only if more than one banners are available
+- Fixed Black Bar Bug on SmartForms
+- Removed PhonePe from HaptikLib
+
+---
+
+## [0.3.0] - (23/02/18) - Insaan
+
+### Features
+- Added Onboarding Loading Screen Functionality
+- Added functionality to launch channels using specific viaName
+- Unread Count of Inbox Chats provided
+- Handled CleverTap Notifications & Deeplinking
+
+
+### Enhancements
+- Removed usage of deprecated functions
+- Added validation checks for mobile number
+- Added checks for succesful signup before transition to restricted channels
+- Firing sync requests only on presentation SDK root inbox screen
+- Performing intial setup for channels on initialising SDK
+- Using standard defaults for storing sync update timestamps
+- Setting MQTT end-points dynamically via user attributes
+- Modified accesses to SDK init attributes
+- Presenting Wallet Not Created Screen after Signup if required
+- Handled Notification Flows from Clients Screen
+- Add Inbox Scene in Notifications Flows
+- MessageID is now used for Sorting Chat Messages
+
+
+### Bugs
+- Fix AmazonPay Payment Bug
+- Corrected non-main queue accesses of UIKit objects
+- Fix Notification Handling Bug
+
+
+---
+
+## [0.2.0] - (14/02/18) - Haider
 
 ### Features
 - Added functionality for Guest User Signups on Basic Auth clients
@@ -19,6 +88,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Updated HaptikLib interfaces for public accesses
 - Firing Sync Service requests on app launch
 - Fetching lost messages via get_unreceived_messages on app launch
+- Modified firing of network requests on initialization of SDK
 
 
 ### Bugs
@@ -121,3 +191,4 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Resolved Card Message layout on Inbox screen
 - Resolved User2 Put Call Failiure Case
 ---
+

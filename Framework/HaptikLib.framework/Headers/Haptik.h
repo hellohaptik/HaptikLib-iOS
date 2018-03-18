@@ -88,6 +88,21 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 
 /*!
  Sets HPThemeService Object used for applying Theming Configurations
+ 
+ @code
+ 
+ [Haptik sharedSDK].themeConfig = [HPThemeService buildWithData:^(HPThemeServiceBuilder * _Nullable builder) {
+ 
+     builder.brandColor = [UIColor colorWithRed:(33/250.0) green:(150/255.0) blue:(243/255.0) alpha:1];
+     builder.businessChatBackground = [UIColor colorWithRed:(240/255.0) green:(240/255.0) blue:(240/255.0) alpha:1];
+     builder.businessChatText = [UIColor colorWithRed:(51/255.0) green:(51/255.0) blue:(51/255.0) alpha:1];
+     builder.messageTimeStamp = [UIColor colorWithRed:(119/255.0) green:(119/255.0) blue:(119/255.0) alpha:1];
+     builder.lightFont = @"SFUIText-Light";
+     builder.regularFont = @"SFUIText-Regular";
+     builder.mediumFont =  @"SFUIText-Medium";
+ }];
+ 
+ @endcode
  */
 @property (nonatomic) HPThemeService *themeConfig;
 
@@ -157,21 +172,84 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  
  @param signUpData   Object of HPSignUpObject
  @param completion   Completion Handler which will have the success or error information.
+ 
+ @code
+ 
+ HPSignUpObject *signupObj = [HPSignUpObject buildWith:HaptikLibAuthTypeBasic data:^(HPSignUpBuilder * _Nonnull builder) {
+ 
+     builder.userFullName = @"John Appleseed";
+     builder.userPhoneNumber = @"9870000000";
+     builder.userEmail = @"john@apple.com";
+     builder.userCity = @"Mumbai";
+     builder.authToken = @"";
+ }];
+ 
+ [[Haptik sharedSDK] signUpWith:signupObj completion:^(BOOL success, UIViewController * _Nullable initialVC, NSError * _Nullable error) {
+ 
+     dispatch_async(dispatch_get_main_queue(), ^{
+ 
+         if (success) {
+ 
+             [self.navigationController pushViewController:initialVC animated:YES];
+         }
+         else {
+             UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oops!"
+             message:error.localizedDescription
+             preferredStyle:UIAlertControllerStyleAlert];
+ 
+             UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
+             [alert addAction:action];
+             [self presentViewController:alert animated:YES completion:nil];
+         }
+     });
+ }];
+ 
+ @endcode
  */
 - (void)signUpWith:(HPSignUpObject *)signUpData
         completion:(void (^)(BOOL success,__kindof UIViewController * _Nullable initialVC, NSError * _Nullable error))completion;
 
 
-/*
+/*!
  @abstract
  SignIn the User with SignUp Data.
  
  @discussion
- -  This function immediately returns the Initial View Controller. The loading view will be shown till the inital data is synced.
- -  If an error comes up, the user will be popped back.
+ This function immediately returns the Initial View Controller. The loading view will be shown till the inital data is synced. If an error comes up, the user will be popped back.
  
  @param signUpData  Object of HPSignUpObject
  @param completion  Completion Handler which will have the success or error information.
+ 
+ @code
+ 
+ HPSignUpObject *signupObj = [HPSignUpObject buildWith:HaptikLibAuthTypeBasic data:^(HPSignUpBuilder * _Nonnull builder) {
+ 
+     builder.userFullName = @"John Appleseed";
+     builder.userPhoneNumber = @"9870000000";
+     builder.userEmail = @"john@apple.com";
+     builder.userCity = @"Mumbai";
+     builder.authToken = @"";
+ }];
+ 
+ UIViewController *initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success, NSError * _Nullable error) {
+ 
+     if (success) {
+         // do housekeeping
+     }
+     else {
+         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oops!"
+         message:error.localizedDescription
+         preferredStyle:UIAlertControllerStyleAlert];
+ 
+         UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
+         [alert addAction:action];
+         [self presentViewController:alert animated:YES completion:nil];
+     }
+ }];
+ 
+ [self.navigationController pushViewController:initialVC animated:YES];
+ 
+ @endcode
  */
 - (__kindof UIViewController *_Nullable)signUpWithLoadingScreenFor:(HPSignUpObject *)signUpData
                                                         completion:(void (^)(BOOL success, NSError * _Nullable error))completion;
@@ -187,8 +265,55 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 /*!
  @method
  Returns the Initial View Controller if the User has already signed up.
+ 
+ @code
+ 
+ #import "MyViewController.h"
+ 
+ - (void)launchInbox:(UIButton *)sender {
+ 
+     if ([[Haptik sharedSDK] isUserSignedUp]) {
+ 
+         UIViewController *initialVC = [[Haptik sharedSDK] getInitialVC];
+ 
+         [self.navigationController pushViewController:initialVC animated:YES];
+     }
+ }
+ 
+ @endcode
  */
 - (__kindof UIViewController * _Nullable)getInitialVC;
+
+
+/*!
+ @abstract
+ Update user token of logged in user.
+ 
+ @param token       Token that need to be updated.
+ @param authID      AuthenticationID of the loggedIn user.
+ @param authType    AuthenticationType of the loggedIn user.
+ @param completion  Completion Handler which will have the success information.
+ 
+ @code
+ 
+ [[Haptik sharedSDK] updateUserToken:@"Updated Auth Token/Code"
+                              authID:@"User's Auth ID"
+                            authType:@"User's Auth Type"
+                          completion:^(BOOL success) {
+ 
+     if (success) {
+ 
+     } else {
+
+     }
+ }];
+ 
+ @endcode
+ */
+- (void)updateUserToken:(NSString *)token
+                 authID:(NSString *)authID
+               authType:(NSString *)authType
+             completion:(void (^)(BOOL success))completion;
 
 
 /*!
@@ -236,6 +361,25 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
     @param defaultsToHistory    A boolean indicating whether the wallet history tab should be selected by default or not.
     @param delegate     If shouldUseReferrals property of Haptik is set to true, then the delegate will pass the callbacks when the Share and Earn View is Tapped in the Wallet Scene.
  
+ @code
+ 
+ #import "MyViewController.h"
+ 
+ __weak typeof(self) weakSelf = self;
+ 
+ [[Haptik sharedSDK] getHaptikWalletViewController:NO
+                              shareAndEarnDelegate:nil
+                                        controller:weakSelf
+                                        completion:^(BOOL success, __kindof UIViewController * _Nullable haptikWalletVC) {
+ 
+     typeof(self) strongSelf = weakSelf;
+
+     if (success) {
+         [strongSelf.navigationController pushViewController:haptikWalletVC animated:YES];
+     }
+ }];
+ 
+ @endcode
  */
 - (void)getHaptikWalletViewController:(BOOL)defaultsToHistory
                  shareAndEarnDelegate:(nullable id <HPShareAndEarnDelegate>)delegate
@@ -253,8 +397,15 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 
 
 /*!
-    @method
-    By calling this method you will get an instance of Offers Screen.
+ @method
+ By calling this method you will get an instance of Offers Screen.
+ 
+ @code
+ 
+ UIViewController *offersVC = [[Haptik sharedSDK] getOffersViewContoller];
+ [delegateController.navigationController pushViewController:offersVC animated:YES];
+ 
+ @endcode
  */
 - (__kindof UIViewController *_Nullable)getOffersViewContoller;
 
@@ -271,6 +422,19 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  This will associate the device token with the current user to allow push notifications to the user.
  
  @param deviceToken  device token as returned from application:didRegisterForRemoteNotificationsWithDeviceToken:
+ 
+ @code
+ 
+ #import "MyAppDelegate.h"
+ 
+ - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+ 
+    ...
+ 
+    [[Haptik sharedSDK] setDeviceToken:deviceToken];
+ }
+ 
+ @endcode
  */
 - (void)setDeviceToken:(NSData *)deviceToken;
 
@@ -279,13 +443,116 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  @method
  
  @abstract
- Informs the caller whether passed notification userinfo payload can be handled by HaptikLib.
- If YES, the payload is processed by HaptikLib.
+ Specifies to caller that whether passed in notification payload can be processed by Haptik SDK. This will immediately return boolean indicating if the remote notification payload received is from Haptik SDK.
  
  @param userInfo     The received remote notification payload to be processed
  @return    Returns a BOOL indicating indicating the payload will be handled by HaptikLib
+ 
+ @code
+ 
+ #import "MyAppDelegate.h"
+ 
+ // For iOS 10.x & later
+ - (void)userNotificationCenter:(UNUserNotificationCenter *)center
+    didReceiveNotificationResponse:(UNNotificationResponse *)response
+             withCompletionHandler:(void(^)(void))completionHandler {
+ 
+     ...
+ 
+     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:response.notification.request.content.userInfo];
+ 
+     if (canBeHandledByHaptik) {
+        NSLog(@"do housekeeping");
+        [[Haptik sharedSDK] handleNotificationWithUserInfo:response.notification.request.content.userInfo controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+     }
+ }
+ 
+ // For iOS 9.x
+ - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+ 
+     ...
+ 
+     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
+ 
+     if (canBeHandledByHaptik) {
+        NSLog(@"do housekeeping");
+     }
+ }
+ 
+ // optional
+ - (void)userNotificationCenter:(UNUserNotificationCenter *)center
+        willPresentNotification:(UNNotification *)notification
+          withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler {
+ 
+     ...
+ 
+     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:response.notification.request.content.userInfo];
+ 
+     if (canBeHandledByHaptik) {
+         NSLog(@"do housekeeping");
+         [[Haptik sharedSDK] handleNotificationWithUserInfo:response.notification.request.content.userInfo controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+     }
+ }
+ 
+ @endcode
  */
-- (BOOL)handleNotificationWithUserInfo:(NSDictionary<NSString *, id> *)userInfo;
+- (BOOL)canHandleNotificationWithUserInfo:(NSDictionary<NSString *, id> *)userInfo;
+
+
+/*!
+ @method
+ 
+ @abstract
+ Informs the caller whether passed notification userinfo payload can be handled by HaptikLib.
+ 
+ @discussion
+ If YES, the payload is processed by HaptikLib.
+ 
+ 
+ @param userInfo     The received remote notification payload to be processed
+ @param controller   The current view controller over which the notification is expected to be handled
+ @return    Returns a BOOL indicating indicating the payload will be handled by HaptikLib
+ 
+ @code
+ 
+ #import "MyAppDelegate.h"
+ 
+ // For iOS 10.x & later
+ - (void)userNotificationCenter:(UNUserNotificationCenter *)center
+    didReceiveNotificationResponse:(UNNotificationResponse *)response
+             withCompletionHandler:(void(^)(void))completionHandler {
+ 
+    ...
+ 
+     BOOL isHandledByHaptik = [[Haptik sharedSDK] handleNotificationWithUserInfo:response.notification.request.content.userInfo controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+ 
+     if (isHandledByHaptik) {
+         NSLog(@"do housekeeping");
+     }
+ }
+ 
+ // For iOS 9.x
+ - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+ 
+    ...
+ 
+    [[Haptik sharedSDK] handleNotificationWithUserInfo:userInfo controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+ }
+ 
+ // optional
+ - (void)userNotificationCenter:(UNUserNotificationCenter *)center
+        willPresentNotification:(UNNotification *)notification
+          withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler {
+ 
+    ...
+ 
+    [[Haptik sharedSDK] handleNotificationWithUserInfo:notification.request.content.userInfo controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+ }
+ 
+ @endcode
+ */
+- (BOOL)handleNotificationWithUserInfo:(NSDictionary<NSString *, id> *)userInfo
+                            controller:(__kindof UIViewController *)controller;
 
 
 #pragma mark -
@@ -318,6 +585,16 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  Specifies whether Haptik Lib will handle URL redirects
  @param url  The url expected to be handled
  @param options  A dictionary of URL handling options
+ 
+ @code
+ 
+ #import "MyAppDelegate.h"
+ 
+ - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+     return [[Haptik sharedSDK] isRedirectHandled:url options:options];
+ }
+ 
+ @endcode
  */
 - (BOOL)isRedirectHandled:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options;
 
@@ -325,6 +602,24 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 /*!
  @method
  By calling this method you will get an instance of Transaction History Screen.
+ 
+ @code
+ 
+ #import "MyViewController.h"
+ 
+ __weak typeof(self) weakSelf = self;
+ 
+ [[Haptik sharedSDK] getTransactionHistoryFor:weakSelf
+                                   completion:^(BOOL success, __kindof UIViewController * _Nullable transactionsVC) {
+ 
+     typeof(self) strongSelf = weakSelf;
+ 
+     if (success) {
+         [strongSelf.navigationController pushViewController:transactionsVC animated:YES];
+     }
+ }];
+ 
+ @endcode
  */
 - (void)getTransactionHistoryFor:(__kindof UIViewController *__weak)controller
                       completion:(void(^)(BOOL success, __kindof UIViewController *_Nullable transactionsVC))completion;
