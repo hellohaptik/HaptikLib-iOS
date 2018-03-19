@@ -13,8 +13,6 @@
 #import "HPSignUpObject.h"
 #import "HPThemeService.h"
 
-#import "DemoPublicHeaders.h"
-
 
 FOUNDATION_EXPORT double HaptikLibVersionNumber;
 

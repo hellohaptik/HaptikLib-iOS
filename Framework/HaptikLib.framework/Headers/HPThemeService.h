@@ -21,9 +21,24 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Theme Service Initialier
 
-/*
- *  A class method which builds the "HPThemeServiceBuilder" object and initalizes your "HPThemeService" object with the data provided.
- *  @param builderData : The builder data provided in the block.
+/*!
+ A class method which builds the "HPThemeServiceBuilder" object and initalizes your "HPThemeService" object with the data provided.
+ @param builderData : The builder data provided in the block.
+ 
+ @code
+ 
+ [Haptik sharedSDK].themeConfig = [HPThemeService buildWithData:^(HPThemeServiceBuilder * _Nullable builder) {
+ 
+     builder.brandColor = [UIColor colorWithRed:(33/250.0) green:(150/255.0) blue:(243/255.0) alpha:1];
+     builder.businessChatBackground = [UIColor colorWithRed:(240/255.0) green:(240/255.0) blue:(240/255.0) alpha:1];
+     builder.businessChatText = [UIColor colorWithRed:(51/255.0) green:(51/255.0) blue:(51/255.0) alpha:1];
+     builder.messageTimeStamp = [UIColor colorWithRed:(119/255.0) green:(119/255.0) blue:(119/255.0) alpha:1];
+     builder.lightFont = @"SFUIText-Light";
+     builder.regularFont = @"SFUIText-Regular";
+     builder.mediumFont =  @"SFUIText-Medium";
+ }];
+ 
+ @endcode
  */
 + (instancetype)buildWithData:(void (^ _Nullable)(HPThemeServiceBuilder * _Nullable builder))builderData;
 

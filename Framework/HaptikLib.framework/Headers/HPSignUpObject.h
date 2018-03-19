@@ -26,6 +26,37 @@ NS_ASSUME_NONNULL_BEGIN
  
  @param authType :The HaptikLibAuthType you wish to signup your user
  @param builderData : The builder data provided in the block.
+ 
+ @code
+ 
+ HPSignUpObject *signupObj = [HPSignUpObject buildWith:[self getAuthTypeForSelectedSegment] data:^(HPSignUpBuilder * _Nonnull builder) {
+ 
+     builder.userFullName = @"John Appleseed";
+     builder.userPhoneNumber = @"9870000000";
+     builder.userEmail = @"john@apple.com";
+     builder.userCity = @"Mumbai";
+     builder.authToken = @"";
+ }];
+ 
+ UIViewController *initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success, NSError * _Nullable error) {
+ 
+     if (success) {
+         // do housekeeping
+     }
+     else {
+         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oops!"
+         message:error.localizedDescription
+         preferredStyle:UIAlertControllerStyleAlert];
+ 
+         UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
+         [alert addAction:action];
+         [self presentViewController:alert animated:YES completion:nil];
+     }
+ }];
+ 
+ [self.navigationController pushViewController:initialVC animated:YES];
+ 
+ @endcode
  */
 + (instancetype)buildWith:(HaptikLibAuthType)authType data:(void (^)(HPSignUpBuilder * builder))builderData;
 
