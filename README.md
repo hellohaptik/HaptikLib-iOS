@@ -1,4 +1,4 @@
-# [Haptik Personal Assistant](https://haptik.ai/) &middot; [Your assistant on chat](https://haptik.ai/contact-us)
+# [Haptik Chat SDK](https://haptik.ai/) &middot; [Build Chatbots that Work](https://haptik.ai/contact-us)
 
 [![App Store](https://img.shields.io/badge/App%20Store-Haptik-2196F3.svg)](https://itunes.apple.com/in/app/haptik-personal-assistant/id640450339)
 [![Support](https://img.shields.io/badge/support-iOS%209%2B-2196F3.svg)](https://img.shields.io/badge/support-iOS%209%2B-2196F3.svg)
