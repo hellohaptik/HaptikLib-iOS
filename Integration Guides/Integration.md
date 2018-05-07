@@ -28,7 +28,11 @@ Supported Device Orientation: **Portrait**
 
 ## Step 1 (Installation)
 
-Add **HaptikLib** to your `Podfile` and run `pod install`.
+Add  the following dependencies to your `Podfile` and run `pod install`:
+
+- **'HaptikLib'**
+- **'NativeSSOLogin', :git=>'https://bitbucket.org/agi_sso/nativessologin.git', :tag => '1.0.12'**
+
 
 ---
 

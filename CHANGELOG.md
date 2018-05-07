@@ -2,6 +2,42 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.5.0] - (07/05/18) - Khamoshi & Maachis
+
+### Features
+- SSO is Enabled in HaptikLib
+- HPSignupObject changed to support Generic Auth Types
+
+
+### Enhancements
+- Add Assert for Requiring Application Instance
+- Transaction History is Made iPhone X Compatible
+- Objective-C Frameworks of Citrus are Added
+- Feedback Generator is rewritten in Objective-C
+- Referral Code Cell is rewritten in Objective-C
+- Referral Redeem Cell is rewritten in Objective-C
+- Web Self Serve is rewritten in Objective-C
+- Image Gallery VC is rewritten in Objective-C
+- Image CollectionView Cell is rewritten in Objective-C
+- Swift is Completely Removed from HaptikLib
+
+
+### Bugs
+- Fix Title Clipping on Smart Forms Search
+- Resolve Wallet Issue on Verifying Guest User
+- Resolve Amount going `0` in Coupons Screen from Recharge
+- Resolve Auto Switching of Postpaid to Prepaid in Recharge Screen
+- Fix Layout of Conversation Screen for iOS 10 or less
+- Fix Clear Chat Issue on Unread Messages
+- Fix Guest Signup Bug on Postpaid (Recharge)
+- Fix Push Notifications Issue for Verified User
+- Fix a bug where Offers Screen was not being pushed from Wallet Scene
+- Fix Extra Space Coming on Coupon Offers Scene
+- Corrected wrong error message on Mobikwik Signin
+
+
+---
+
 ## [0.4.0] - (17/03/18) - Jaane Bhi Do Yaaron
 
 ### Features
@@ -191,4 +227,3 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Resolved Card Message layout on Inbox screen
 - Resolved User2 Put Call Failiure Case
 ---
-
