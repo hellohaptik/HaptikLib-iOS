@@ -29,16 +29,6 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 };
 
 
-#pragma mark - User Authentication Type
-
-typedef NS_ENUM(NSUInteger, HaptikLibAuthType) {
-    
-    HaptikLibAuthTypeBasic = 0,
-    HaptikLibAuthTypeOTP,
-    HaptikLibAuthTypeSSO
-};
-
-
 #pragma mark - Analytics Service
 
 @protocol HPAnalyticsServiceDelegate <NSObject>
@@ -141,6 +131,19 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 
 
 /*!
+ Gets the navigation bar tint color used for tinting on individual screens.
+ To set a tint color, use as -
+ 
+ @code
+ 
+ [[Haptik sharedSDK] configureNavigationBarWithTintColor:[UIColor blackColor]];
+ 
+ @endcode
+ */
+@property (nonatomic, readonly) UIColor *navigationBarTintColor;
+
+
+/*!
  Gets the API key for the current app. This should only be called after the SDK has been initialized otherwise will return nil
  */
 @property (nonatomic, readonly) NSString *apiKey;
@@ -175,7 +178,7 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  
  @code
  
- HPSignUpObject *signupObj = [HPSignUpObject buildWith:HaptikLibAuthTypeBasic data:^(HPSignUpBuilder * _Nonnull builder) {
+ HPSignUpObject *signupObj = [HPSignUpObject buildWith:@"AUTH_TYPE_HERE" data:^(HPSignUpBuilder * _Nonnull builder) {
  
      builder.userFullName = @"John Appleseed";
      builder.userPhoneNumber = @"9870000000";
@@ -222,7 +225,7 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  
  @code
  
- HPSignUpObject *signupObj = [HPSignUpObject buildWith:HaptikLibAuthTypeBasic data:^(HPSignUpBuilder * _Nonnull builder) {
+ HPSignUpObject *signupObj = [HPSignUpObject buildWith:@"AUTH_TYPE_HERE" data:^(HPSignUpBuilder * _Nonnull builder) {
  
      builder.userFullName = @"John Appleseed";
      builder.userPhoneNumber = @"9870000000";
@@ -253,6 +256,41 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  */
 - (__kindof UIViewController *_Nullable)signUpWithLoadingScreenFor:(HPSignUpObject *)signUpData
                                                         completion:(void (^)(BOOL success, NSError * _Nullable error))completion;
+
+
+/*!
+ @abstract
+ SignIn the User with SSO.
+ 
+ @discussion
+ The user will be signed up with Basic Auth Type if the details are not available on SSO else the user will be signed up using SSO.
+ This function immediately returns the Initial View Controller. The loading view will be shown till the inital data is synced. If an error comes up, the user will be popped back.
+ 
+ @param completion  Completion Handler which will have the success or error information.
+ 
+ @code
+ 
+ UIViewController *initialVC = [[Haptik sharedSDK] signUpUserWithSSO:^(BOOL success, NSError * _Nullable error) {
+ 
+     if (success) {
+         // do housekeeping
+     }
+     else {
+         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oops!"
+         message:error.localizedDescription
+         preferredStyle:UIAlertControllerStyleAlert];
+ 
+         UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
+         [alert addAction:action];
+         [self presentViewController:alert animated:YES completion:nil];
+     }
+ }];
+ 
+ [self.navigationController pushViewController:initialVC animated:YES];
+ 
+ @endcode
+ */
+- (__kindof UIViewController *_Nullable)signUpUserWithSSO:(void (^)(BOOL success, NSError * _Nullable error))completion;
 
 
 /*!
@@ -558,7 +596,19 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 #pragma mark -
 
 /*!
- Allows you to take user to a specific channel.
+ Allows SDK Clients to modify tint color of navigation bar of the SDK View Controllers
+ @param tintColor Color to be used for tinting navigation bar items. Defaults to [UIColor blackColor].
+ 
+ @code
+ 
+[[Haptik sharedSDK] configureNavigationBarWithTintColor:[UIColor colorWithRed:(165.0/255.0) green:(35.0/255.0) blue:(41.0/255.0) alpha:1.0]];
+ 
+ @endcode
+ */
+- (void)configureNavigationBarWithTintColor:(UIColor *)tintColor;
+
+/*!
+ Allows SDK clients to take user to a specific channel.
  @param viaName Represents the string key used to uniquely specify channel inside Haptik
  @param message String message to be sent from user-side on opening channel screen
  @param controller The current view controller over which the channel is expected to be pushed

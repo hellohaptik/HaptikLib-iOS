@@ -28,7 +28,11 @@ Supported Device Orientation: **Portrait**
 
 ## Step 1 (Installation)
 
-Add **HaptikLib** to your `Podfile` and run `pod install`.
+Add  the following dependencies to your `Podfile` and run `pod install`:
+
+- **'HaptikLib'**
+- **'NativeSSOLogin', :git=>'https://bitbucket.org/agi_sso/nativessologin.git', :tag => '1.0.12'**
+
 
 ---
 
@@ -161,19 +165,22 @@ Import HaptikLib in your AppDelegate Class either by writing `#import <HaptikLib
     }
     ```
 
-- For HaptikLib to handle it's own notifications, you have to pass the **notification dictionary** that you get in the **notifications payload** and the instance of the `viewController` from where the notifications should be handled. HaptikLib automatically checks if the notification is for Haptik and performs the required actions.
-
+- For HaptikLib to handle it's own notifications, you have to pass the **notification dictionary** that you get in the **notifications payload** and the instance of the `viewController` from where the notifications should be handled. You can also check if the notification belongs to HaptikLib or not.
 	Example:
 
 	```
 	- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
 
-    	[[Haptik sharedSDK] handleNotificationWithUserInfo:PASS_NOTIFICATION_DICTIONARY_HERE
-                                            controller:PASS_VIEWCONTROLLER_INSTANCE_HERE];
+     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:response.notification.request.content.userInfo];
+
+     if (canBeHandledByHaptik) {
+         NSLog(@"do housekeeping");
+         [[Haptik sharedSDK] handleNotificationWithUserInfo:PASS_NOTIFICATION_DICTIONARY_HERE controller:PASS_VIEWCONTROLLER_INSTANCE_HERE;
+       }
 	}
 	```
 
-	> The function also returns a `BOOL` value if the notification is Handled by Haptik or not. You should add this function in all the different Notification Delegate methods in which you get the Notification Payload.
+	> You should add this function in all the different Notification Delegate methods in which you get the Notification Payload.
 
 ---
 
@@ -184,27 +191,25 @@ After successfully configuring & setting up HaptikLib, you'll be able to proceed
 
 ###### Signup Types
 
+HaptikLib gives a public class `HPSignUpObject` which you can use to collect the required parameters. Each auth flows require a different set of parameters passed to HPSignUpObject. Contact Haptik for knowing more about your `Auth-Type` & `Auth-ID`.
 
-Different ways to sign up a user into the Haptik SDK are -
-
-- Basic Auth		
-
-- OTP Auth
-
-HaptikLib gives a public class `HPSignUpObject` which you can use to collect the required parameters. Each auth flows require a different set of parameters passed to HPSignUpObject. This class follows the builder pattern. Here's an example of how to make use of it:
+This class follows the builder pattern. Here's an example of how to make use of it:
 
 ```
-HPSignUpObject *signupObj = [HPSignUpObject buildWith:INSERT_TYPE_OF_AUTH data:^(HPSignUpBuilder * _Nonnull builder) {
+HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE" data:^(HPSignUpBuilder * _Nonnull builder) {
 
         builder.userFullName = INSERT_NAME_HERE;
         builder.userPhoneNumber = INSERT_PHONE_NUMBER_HERE;
         builder.userEmail = INSERT_EMAIL_HERE;
         builder.userCity = INSERT_CITY_HERE;
         builder.authToken = INSERT_AUTH_TOKEN_HERE;
+        builder.authID = INSERT_AUTH_ID_HERE;
     }];   
 ```
 
 - **Basic Auth**
+
+  **Auth_Type = @"basic";**
 
 	Basic Authentication is a guest form of signup that does not require any sort of server-server/ 3rd party verification. This is ideal for chat bots that are either informational in nature or where user identity is handled by a 3rd party provider.
 
@@ -217,6 +222,8 @@ HPSignUpObject *signupObj = [HPSignUpObject buildWith:INSERT_TYPE_OF_AUTH data:^
 
 
 - **OTP**
+
+  **Auth_Type = @"otp";**
 
 	An end user’s mobile number OTP verification can be done by Haptik. Please contact us for utilising this feature.
 
