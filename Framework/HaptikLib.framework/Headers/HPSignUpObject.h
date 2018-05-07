@@ -24,18 +24,19 @@ NS_ASSUME_NONNULL_BEGIN
  @method
  A class method which builds the "HPSignUpBuilder" object and initalizes your "HPSignUpObject" object with the data provided.
  
- @param authType :The HaptikLibAuthType you wish to signup your user
+ @param authType :The Auth_Type you wish to signup your user. Contact Haptik for getting the value of this parameter and use the EXACT value.
  @param builderData : The builder data provided in the block.
  
  @code
  
- HPSignUpObject *signupObj = [HPSignUpObject buildWith:[self getAuthTypeForSelectedSegment] data:^(HPSignUpBuilder * _Nonnull builder) {
+ HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE" data:^(HPSignUpBuilder * _Nonnull builder) {
  
      builder.userFullName = @"John Appleseed";
      builder.userPhoneNumber = @"9870000000";
      builder.userEmail = @"john@apple.com";
      builder.userCity = @"Mumbai";
      builder.authToken = @"";
+     builder.authID = @"";
  }];
  
  UIViewController *initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success, NSError * _Nullable error) {
@@ -58,7 +59,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @endcode
  */
-+ (instancetype)buildWith:(HaptikLibAuthType)authType data:(void (^)(HPSignUpBuilder * builder))builderData;
++ (instancetype)buildWithAuthType:(NSString *)authType data:(void (^)(HPSignUpBuilder * builder))builderData;
 
 
 - (instancetype)init NS_UNAVAILABLE;
@@ -67,45 +68,52 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - Signup Configuration Attributes
 
 /*!
-    Three different authentication types are there in order to sign up the user.
-    For HaptikLibAuthTypeSSO & HaptikLibAuthTypeOTP types of authentication, verified phone number and authToken are the required fields.
+    Different authentication types are there in order to sign up the user.
+    For (Auth_Type = (TOI_SSO | OTP)) types of authentication, verified phone number and authToken are the required fields.
  */
-@property (nonatomic, readonly) HaptikLibAuthType authType;
+@property (nonatomic, readonly) NSString *authType;
 
 
 /*!
     The name of the user for signUp.
-    Required in all HaptikLibAuthTypes.
+    Required in all types except Basic Auth Type.
  */
 @property (nullable, nonatomic, readonly) NSString *userFullName;
 
 
 /*!
     The email of the user for signUp.
-    Required in HaptikLibAuthTypeOTP.
+    Required in OTP Auth Type.
  */
 @property (nullable, nonatomic, readonly) NSString *userEmail;
 
 
 /*!
     The phone number of the user for signUp.
-    Required in HaptikLibAuthTypeOTP and HaptikLibAuthTypeSSO.
+    Required in all types except Basic Auth Type.
  */
 @property (nullable, nonatomic, readonly) NSString *userPhoneNumber;
 
 
 /*!
     The city of the user for signUp.
-    Required in HaptikLibAuthTypeOTP and HaptikLibAuthTypeSSO.
+    Required in OTP Auth Type.
  */
 @property (nullable, nonatomic, readonly) NSString *userCity;
 
 
 /*!
     The authentication token for signUp.
-    Required in HaptikLibAuthTypeOTP and HaptikLibAuthTypeSSO.
+    Required in all types except Basic Auth Type.
  */
 @property (nullable, nonatomic, readonly) NSString *authToken;
+
+
+/*!
+ The authentication ID for signUp.
+ Required in all types except Basic Auth Type.
+ */
+@property (nullable, nonatomic, readonly) NSString *authID;
 
 
 /*!
@@ -145,8 +153,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic) NSString *authToken;
 
+@property (nonatomic) NSString *authID;
 
-- (HPSignUpObject *)buildWithAuthType:(HaptikLibAuthType)authType;
+
+- (HPSignUpObject *)buildWithAuthType:(NSString *)authType;
 
 @end
 
