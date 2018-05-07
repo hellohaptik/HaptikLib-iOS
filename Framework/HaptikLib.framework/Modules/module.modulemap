@@ -4,8 +4,3 @@ framework module HaptikLib {
   export *
   module * { export * }
 }
-
-module HaptikLib.Swift {
-    header "HaptikLib-Swift.h"
-    requires objc
-}
