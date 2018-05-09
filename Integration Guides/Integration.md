@@ -1,5 +1,5 @@
 # HAPTIK iOS SDK
-INTEGRATION GUIDE (v0.3.0)
+INTEGRATION GUIDE (v0.5.0)
 
 ### Authors
 
@@ -28,11 +28,13 @@ Supported Device Orientation: **Portrait**
 
 ## Step 1 (Installation)
 
-Add  the following dependencies to your `Podfile` and run `pod install`:
+1. Add the following dependencies in `Podfile`:
+	```
+	pod 'HaptikLib'
+	pod 'NativeSSOLogin', :git=>'https://bitbucket.org/agi_sso/nativessologin.git', :tag => '1.0.12'
+	```
 
-- **'HaptikLib'**
-- **'NativeSSOLogin', :git=>'https://bitbucket.org/agi_sso/nativessologin.git', :tag => '1.0.12'**
-
+2. Run `pod install`
 
 ---
 
