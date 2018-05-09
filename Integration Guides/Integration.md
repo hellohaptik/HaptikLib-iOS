@@ -1,5 +1,4 @@
-# HAPTIK iOS SDK
-## INTEGRATION GUIDE
+# INTEGRATION GUIDE
 
 This Integration Guide contains chronological steps required to integrate Haptik iOS SDK. The document is divided in a progressing way as what is needed to be done step by step so as to integrate it successfully.
 
