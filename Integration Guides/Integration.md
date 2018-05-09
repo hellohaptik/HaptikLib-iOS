@@ -126,13 +126,14 @@ Open your app’s *.plist* file in *Source Code* format & add the required keys 
 </dict>
 ```
 
-> Note: You can set runEnvironment with the following options. The Base URL will be different for different runenvironments.
+**Note:** The Base URL will be different for different `runEnvironment` as specified below -
 
-```
-HaptikLibEnvProduction = 0,
-HaptikLibEnvStaging = 1,
-HaptikLibEnvDev = 2
-```
+
+	```
+	HaptikLibEnvProduction = 0,
+	HaptikLibEnvStaging = 1,
+	HaptikLibEnvDev = 2
+	```
 
 ---
 
