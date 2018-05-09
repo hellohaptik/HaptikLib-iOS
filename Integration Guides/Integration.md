@@ -42,7 +42,7 @@ Supported Device Orientation: **Portrait**
 
 ### I. Installation
 
-1. Add the following dependencies in `Podfile`:
+1. Add the following dependencies in `Podfile` -
 	```
 	pod 'HaptikLib'
 	pod 'NativeSSOLogin', :git=>'https://bitbucket.org/agi_sso/nativessologin.git', :tag => '1.0.12'
@@ -98,15 +98,15 @@ Add the following snippets in your `info.plist` file -
 ### III. Initialization
 
 1. The Haptik SDK should be initialized before it can perform any operations
-2. *Initialization* here implies providing appropriate **API Key**, **Client ID**, **Base URL** & **Run Environment** to Haptik SDK
-3. The following `key-value` pairs should be present in the Custom Dictionary `HaptikLib`:
+2. _Initialization_ here implies providing appropriate **API Key**, **Client ID**, **Base URL** & **Run Environment** to Haptik SDK
+3. The following `key-value` pairs should be present in the Custom Dictionary `HaptikLib` -
 
-	| Key 					| Value					 |
-	|-----------------------|--------------------|
-	|apiKey								|INSERT_API_KEY_HERE|
-	|baseUrl							|INSERT_BASE_URL_HERE|
-	|clientID							|INSERT_CLIENT_ID_HERE|
-	|runEnvironment							|INSERT_APPROPRIATE_RUN_ENVIRONMENT|
+	| Key 			| Value			|
+	|-----------------------|-----------------------|
+	|apiKey			|INSERT_API_KEY_HERE|
+	|baseUrl		|INSERT_BASE_URL_HERE|
+	|clientID		|INSERT_CLIENT_ID_HERE|
+	|runEnvironment		|INSERT_APPROPRIATE_RUN_ENVIRONMENT|
 
 4. The Haptik SDK takes all the necessary things from app's `Info.plist` file automatically
 5. Add these initialization keys substituted with their appropriate values in a custom dictionary named `HaptikLib`
@@ -191,8 +191,9 @@ Add the following snippets in your `info.plist` file -
 	     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:response.notification.request.content.userInfo];
 
 	     if (canBeHandledByHaptik) {
-		 NSLog(@"do housekeeping");
-		 [[Haptik sharedSDK] handleNotificationWithUserInfo:PASS_NOTIFICATION_DICTIONARY_HERE controller:PASS_VIEWCONTROLLER_INSTANCE_HERE;
+	     	...
+		NSLog(@"do housekeeping");
+		[[Haptik sharedSDK] handleNotificationWithUserInfo:PASS_NOTIFICATION_DICTIONARY_HERE controller:PASS_VIEWCONTROLLER_INSTANCE_HERE;
 	     }
 	}
 	```
