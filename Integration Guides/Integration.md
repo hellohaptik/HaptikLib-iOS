@@ -207,23 +207,19 @@ Add the following snippets in your `info.plist` file -
 	- Collecting required parameters of user according to Signup Type: _Guest_ or _Verified_ user
 	- Passing over the collected parameters to Haptik
 
-###### Signup Types
+3. The public class `HPSignUpObject` is to be used for _collecting the required parameters_ as illustrated below -
 
-Haptik gives a public class `HPSignUpObject` which you can use to collect the required parameters. Each auth flows require a different set of parameters passed to HPSignUpObject. Contact Haptik for knowing more about your `Auth-Type` & `Auth-ID`.
+	```
+	HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE" data:^(HPSignUpBuilder * _Nonnull builder) {
 
-This class follows the builder pattern. Here's an example of how to make use of it:
-
-```
-HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE" data:^(HPSignUpBuilder * _Nonnull builder) {
-
-        builder.userFullName = INSERT_NAME_HERE;
-        builder.userPhoneNumber = INSERT_PHONE_NUMBER_HERE;
-        builder.userEmail = INSERT_EMAIL_HERE;
-        builder.userCity = INSERT_CITY_HERE;
-        builder.authToken = INSERT_AUTH_TOKEN_HERE;
-        builder.authID = INSERT_AUTH_ID_HERE;
-    }];   
-```
+		builder.userFullName = INSERT_NAME_HERE;
+		builder.userPhoneNumber = INSERT_PHONE_NUMBER_HERE;
+		builder.userEmail = INSERT_EMAIL_HERE;
+		builder.userCity = INSERT_CITY_HERE;
+		builder.authToken = INSERT_AUTH_TOKEN_HERE;
+		builder.authID = INSERT_AUTH_ID_HERE;
+	    }];   
+	```
 
 - **Basic Auth**
 
