@@ -5,7 +5,7 @@ This Integration Guide contains chronological steps required to integrate Haptik
 ---
 
 
-## Prerequisites
+### Prerequisites
 
 Minimum Deployment Target: **iOS 9.0**
 
@@ -40,7 +40,7 @@ Supported Device Orientation: **Portrait**
 ---
 
 
-## Step 1 (Installation)
+### I. Installation
 
 1. Add the following dependencies in `Podfile`:
 	```
@@ -50,10 +50,8 @@ Supported Device Orientation: **Portrait**
 
 2. Run `pod install`
 
----
 
-
-## Step 2 (Required Permissions)
+### II. Required Permissions
 
 HaptikLib requires some permissions and custom properties to function. Add the following snippets in your `info.plist` file.
 
@@ -100,7 +98,7 @@ HaptikLib requires some permissions and custom properties to function. Add the f
 ---
 
 
-## Step 3 (Initialization)
+### III. Initialization
 
 The HaptikLib SDK should be initialized before it can perform any operations. *Initialization* here implies providing appropriate **API Key**, **Client ID**, **Base URL** & **Run Environment** to HaptikLib SDK. These would be sent over by Haptik via appropriate communication channels. Once above mentioned keys are made available perform the following things:
 
@@ -142,7 +140,7 @@ HaptikLibEnvDev = 2
 ---
 
 
-## Step 4 (AppDelegate Configurations)
+### IV. AppDelegate Configurations
 
 Import HaptikLib in your AppDelegate Class either by writing `#import <HaptikLib/Haptik.h>` or `@import HaptikLib;`
 
@@ -201,7 +199,7 @@ Import HaptikLib in your AppDelegate Class either by writing `#import <HaptikLib
 ---
 
 
-## Step 5 (User Authentication)
+### V. User Authentication
 
 After successfully configuring & setting up HaptikLib, you'll be able to proceed to the user signup flow. Signup includes mainly two steps. First, collecting the required parameters of the end user according to the type they are signing up (`Guest user` or `verified user`) and second passing the collected parameters to HaptikLib.
 
@@ -283,7 +281,7 @@ HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE" 
 ---
 
 
-## Step 6 (User Signup Flow)
+### VI. User Signup Flow
 
 To continue from the User Authentication, the signUp object is now passed to Haptik for signing up the user. Signing up the user is an API call and can take up some time. HaptikLib provides two different ways for that, one with a customised loading screen and other without it.
 
@@ -336,11 +334,11 @@ You can set these properties before pushing the viewController and set the `titl
 ---
 
 
-## Step 7 (Existing Users flow)
+### VII. Existing Users flow
 
 You need to handle the flow where the user has already signed up and you want to directly take the user to Haptik's `Inbox Screen`. HaptikLib provides a function named `isUserSignedUp` that returns a `BOOL` value for the same. If `YES` you can get the desired `viewController` from the method `getInitialVC` and push the user directly. The function will return `nil` if the user hasn't been signed up.
 
-Example:
+##### Example:
 
 ```
 if ([[Haptik sharedSDK] isUserSignedUp]) {
@@ -356,7 +354,7 @@ if ([[Haptik sharedSDK] isUserSignedUp]) {
 ---
 
 
-## Step 8 (Share Functionality)
+## VIII. Share Functionality
 
 HaptikLib provides **inbuilt share functionality** where user can share the client app with others via social media apps or any other medium.
 
@@ -378,7 +376,7 @@ The dictionary should be named `shareAndRate` and the following **key-value** sh
 |shareText							|INSERT_SHARE_TEXT|
 |shareUrl								|INSERT_SHARE_URL|
 
-Example:
+##### Example:
 
 ```
 <key>HaptikLib</key>
