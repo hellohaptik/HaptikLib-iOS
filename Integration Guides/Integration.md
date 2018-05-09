@@ -97,42 +97,42 @@ Add the following snippets in your `info.plist` file -
 
 ### III. Initialization
 
-The Haptik SDK should be initialized before it can perform any operations. *Initialization* here implies providing appropriate **API Key**, **Client ID**, **Base URL** & **Run Environment** to Haptik SDK. These would be sent over by Haptik via appropriate communication channels. Once above mentioned keys are made available perform the following things:
+1. The Haptik SDK should be initialized before it can perform any operations
+2. *Initialization* here implies providing appropriate **API Key**, **Client ID**, **Base URL** & **Run Environment** to Haptik SDK
+3. The following `key-value` pairs should be present in the Custom Dictionary `HaptikLib`:
 
-> Note: The Haptik SDK takes all the necessary things from your *Info.plist* file automatically. So you need to add all the required initialization and other required keys along with their appropriate values in a dictionary under a custom key called `HaptikLib` only once.
+	| Key 					| Value					 |
+	|-----------------------|--------------------|
+	|apiKey								|INSERT_API_KEY_HERE|
+	|baseUrl							|INSERT_BASE_URL_HERE|
+	|clientID							|INSERT_CLIENT_ID_HERE|
+	|runEnvironment							|INSERT_APPROPRIATE_RUN_ENVIRONMENT|
 
-The following `key-value` pairs should be present in a Custom Dictionary `HaptikLib`:
+4. The Haptik SDK takes all the necessary things from app's `Info.plist` file automatically
+5. Add these initialization keys substituted with their appropriate values in a custom dictionary named `HaptikLib`
+6. On opening app's `Info.plist` in _Source Code_ format & add the required keys as illustrated below -
 
-| Key 									| Value							 |
-|-----------------------|--------------------|
-|apiKey								|INSERT_API_KEY_HERE|
-|baseUrl							|INSERT_BASE_URL_HERE|
-|clientID							|INSERT_CLIENT_ID_HERE|
-|runEnvironment				|INSERT_APPROPRIATE_RUN_ENVIRONMENT|
+	```
+	<key>HaptikLib</key>
+	<dict>
+	  <key>apiKey</key>
+	  <string>INSERT_API_KEY_HERE</string>
+	  <key>baseUrl</key>
+	  <string>INSERT_BASE_URL_HERE</string>
+	  <key>clientID</key>
+	  <string>INSERT_CLIENT_ID_HERE</string>
+	  <key>runEnvironment</key>
+	  <string>INSERT_APPROPRIATE_RUN_ENVIRONMENT</string>
+	</dict>
+	```
 
-Open your app’s *.plist* file in *Source Code* format & add the required keys as illustrated in snippet below.
+	**Note:** The Base URL will be different for different `runEnvironment` as specified below -
 
-```
-<key>HaptikLib</key>
-<dict>
-  <key>apiKey</key>
-  <string>INSERT_API_KEY_HERE</string>
-  <key>baseUrl</key>
-  <string>INSERT_BASE_URL_HERE</string>
-  <key>clientID</key>
-  <string>INSERT_CLIENT_ID_HERE</string>
-  <key>runEnvironment</key>
-  <string>INSERT_APPROPRIATE_RUN_ENVIRONMENT</string>
-</dict>
-```
-
-**Note:** The Base URL will be different for different `runEnvironment` as specified below -
-
-
+	```
 	HaptikLibEnvProduction = 0,
 	HaptikLibEnvStaging = 1,
 	HaptikLibEnvDev = 2
-
+	```
 ---
 
 
