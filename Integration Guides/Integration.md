@@ -1,18 +1,8 @@
 # HAPTIK iOS SDK
 INTEGRATION GUIDE (v0.5.0)
 
-### Authors
-
-[Simranjot Singh](mailto:simranjyot@haptik.co)
-[Yogesh Singh](mailto:yogesh@haptik.ai)
-
 ## Introduction
-
-Say goodbye to App Fatigue. Instantly enable 100+ chatbots across various daily tasks.
-The mobile apps industry is about a decade old but publishers are still trying to figure out hacks to improve user retention. App fatigue is not just a theory any more: 60% of apps are uninstalled within the first week. The Haptik Assistant SDK enables a layer of daily use chatbots in any mobile app. Instantly provide a lot more reasons for users to keep using your app. You can also monetize through transactions and the Haptik ads platform.
-
-
-This documentation contains the information that will be required to integrate the Haptik iOS SDK end to end. The document is divided in a progressing way as what is needed to be done step by step so as to integrate it successfully.
+This Integration Guide contains chronological steps required to integrate Haptik iOS SDK. The document is divided in a progressing way as what is needed to be done step by step so as to integrate it successfully.
 
 ---
 
@@ -425,3 +415,9 @@ Example:
 
 
 ---
+
+
+### Authors
+
+[Simranjot Singh](mailto:simranjyot@haptik.co)
+[Yogesh Singh](mailto:yogesh@haptik.ai)
