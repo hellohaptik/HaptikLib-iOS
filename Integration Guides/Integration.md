@@ -54,9 +54,10 @@ Supported Device Orientation: **Portrait**
 
 ### II. Required Permissions
 
-HaptikLib requires some permissions and custom properties to function. Add the following snippets in your `info.plist` file.
+HaptikLib requires some permissions and custom properties to function.
+Add the following snippets in your `info.plist` file -
 
-1. Allow arbitrary network loads to be requested. Add the following snippet in your `Info.plist` file:
+1. Allow arbitrary network loads to be requested
 
 	```
 	<key>NSAppTransportSecurity</key>
@@ -66,34 +67,29 @@ HaptikLib requires some permissions and custom properties to function. Add the f
 	  </dict>
 	```
 
-2. HaptikLib only supports UIInterfaceOrientationPortrait. Add the following snippet in your `Info.plist` file:
+2. HaptikLib only supports UIInterfaceOrientationPortrait
 
 	```
 	<key>UISupportedInterfaceOrientations</key>
-		<array>
-			<string>UIInterfaceOrientationPortrait</string>
-		</array>
+	<array>
+	<string>UIInterfaceOrientationPortrait</string>
+	</array>
 	```
 
-3. Privacy - Photo Library Usage Description. The user can upload photos from the photos gallery in the chat flows, hence this permission is required. Add the following snippet:
+3. Privacy - Photo Library Usage Description to enable a user to upload photos from the photos gallery in the chat flows
 
 	```
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>INSERT_YOUR_DESCRIPTION_HERE</string
-	```
-
-4. Privacy - Photo Library Additions Usage Description. The user can upload photos from the photos gallery in the chat flows, hence this permission is required. A user can Add the following snippet:
-
-	```
+	<string>To enable usage & saving of photos</string
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>INSERT_YOUR_DESCRIPTION_HERE</string>
+	<string>To enable usage & saving of photos</string>
 	```
 
-5. Privacy - Camera Usage Description. The user can upload photos from directly from the camera in the chat flows, hence this permission is required. Add the following snippet:
+4. Privacy - Camera Usage Description to enable a user to upload photos from camera within chat flows
 
 	```
 	<key>NSCameraUsageDescription</key>
-	<string>INSERT_YOUR_DESCRIPTION_HERE</string>
+	<string>To enable camera usage for uploading photos</string>
 	```
 
 ---
