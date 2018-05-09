@@ -50,6 +50,7 @@ Supported Device Orientation: **Portrait**
 
 2. Run `pod install`
 
+---
 
 ### II. Required Permissions
 
@@ -57,43 +58,43 @@ HaptikLib requires some permissions and custom properties to function. Add the f
 
 1. Allow arbitrary network loads to be requested. Add the following snippet in your `Info.plist` file:
 
-```
-<key>NSAppTransportSecurity</key>
-  <dict>
-       <key>NSAllowsArbitraryLoads</key>
-       <true/>
-  </dict>
-```
+	```
+	<key>NSAppTransportSecurity</key>
+	  <dict>
+	       <key>NSAllowsArbitraryLoads</key>
+	       <true/>
+	  </dict>
+	```
 
 2. HaptikLib only supports UIInterfaceOrientationPortrait. Add the following snippet in your `Info.plist` file:
 
-```
-<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-	</array>
-```
+	```
+	<key>UISupportedInterfaceOrientations</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+		</array>
+	```
 
 3. Privacy - Photo Library Usage Description. The user can upload photos from the photos gallery in the chat flows, hence this permission is required. Add the following snippet:
 
-```
-<key>NSPhotoLibraryUsageDescription</key>
+	```
+	<key>NSPhotoLibraryUsageDescription</key>
 	<string>INSERT_YOUR_DESCRIPTION_HERE</string
-```
+	```
 
 4. Privacy - Photo Library Additions Usage Description. The user can upload photos from the photos gallery in the chat flows, hence this permission is required. A user can Add the following snippet:
 
-```
-<key>NSPhotoLibraryAddUsageDescription</key>
+	```
+	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>INSERT_YOUR_DESCRIPTION_HERE</string>
-```
+	```
 
 5. Privacy - Camera Usage Description. The user can upload photos from directly from the camera in the chat flows, hence this permission is required. Add the following snippet:
 
-```
-<key>NSCameraUsageDescription</key>
+	```
+	<key>NSCameraUsageDescription</key>
 	<string>INSERT_YOUR_DESCRIPTION_HERE</string>
-```
+	```
 
 ---
 
@@ -252,31 +253,31 @@ HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE" 
 > **NOTE** that city name **MUST** be either one of the cities mentioned on Haptik SDK or provide "Other" as a String.
 
 **City Appendix**:
-```
-[@"Mumbai", @"Bombay"]
+	```
+	[@"Mumbai", @"Bombay"]
 
-[@"New Delhi", @"Delhi"]
+	[@"New Delhi", @"Delhi"]
 
-[@"Bengaluru", @"Bangalore", @"Bengaluru South"]
+	[@"Bengaluru", @"Bangalore", @"Bengaluru South"]
 
-[@"Chennai", @"Madras"]
+	[@"Chennai", @"Madras"]
 
-[@"Pune", @"Poona"]
+	[@"Pune", @"Poona"]
 
-[@"Hyderabad", @"Secunderabad"]
+	[@"Hyderabad", @"Secunderabad"]
 
-[@"Kolkata", @"Calcutta"]
+	[@"Kolkata", @"Calcutta"]
 
-[@"Ahmedabad", @"Ahmadabad"]
+	[@"Ahmedabad", @"Ahmadabad"]
 
-[@"Thane", @"Mira Bhayandar", @"Mira Bhayander"]
+	[@"Thane", @"Mira Bhayandar", @"Mira Bhayander"]
 
-[@"Navi Mumbai"]
+	[@"Navi Mumbai"]
 
-[@"Gurugram", @"Gurgaon"]
+	[@"Gurugram", @"Gurgaon"]
 
-[@"Noida", @"Greater Noida"]
-```
+	[@"Noida", @"Greater Noida"]
+	```
 
 ---
 
@@ -411,9 +412,3 @@ The dictionary should be named `shareAndRate` and the following **key-value** sh
 
 
 ---
-
-
-### Authors
-
-[Simranjot Singh](mailto:simranjyot@haptik.co)
-[Yogesh Singh](mailto:yogesh@haptik.ai)
