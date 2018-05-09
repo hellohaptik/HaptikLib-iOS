@@ -205,7 +205,7 @@ Add the following snippets in your `info.plist` file -
 
 1. After successful Initialization & App Delegate Configuration, SDK can enable a user to Signup for using Haptik services
 2. Haptik Signup is sub-divided in following 2 parts -
-	- Collecting required parameters of user according to Signup Type: _Guest_ or _Verified_ user
+	- Collecting required parameters of user according to Authentication(Signup) Type: _Basic(Guest)_ or _OTP Verified_ user
 	- Passing over the collected parameters to Haptik
 
 3. The public class `HPSignUpObject` is to be used for _collecting the required parameters_ as illustrated below -
@@ -220,20 +220,21 @@ Add the following snippets in your `info.plist` file -
 		builder.authToken = INSERT_AUTH_TOKEN_HERE;
 		builder.authID = INSERT_AUTH_ID_HERE;
 	    }];   
+
 	```
 
-- **Basic Auth**
+#### Authentication Types 
+	
+A. **Basic Authentication**
+1. Basic Authentication is a Guest signup that does not require any verification `auth_type = @"basic"`
+2. This is ideal for informational chatbots or when user verification is handled by a Third Party Service
+3. The `Name` parameter is _required_ while signing up as Basic type
+	```
+	HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"basic" data:^(HPSignUpBuilder * _Nonnull builder) {
 
-  **Auth_Type = @"basic";**
-
-	Basic Authentication is a guest form of signup that does not require any sort of server-server/ 3rd party verification. This is ideal for chat bots that are either informational in nature or where user identity is handled by a 3rd party provider.
-
-	The following parameter is required while signing up with **BASIC** authType:
-
-	- *Optional*: Name
-
-
-  > Although name is optional, but it is recommended to provide user's name as it does help in customising user experience.
+		builder.userFullName = @"John Appleseed";
+	    }];
+	```
 
 
 - **OTP**
