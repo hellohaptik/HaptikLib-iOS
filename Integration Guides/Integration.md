@@ -202,7 +202,10 @@ Add the following snippets in your `info.plist` file -
 
 ### V. User Authentication
 
-After successfully configuring & setting up Haptik, you'll be able to proceed to the user signup flow. Signup includes mainly two steps. First, collecting the required parameters of the end user according to the type they are signing up (`Guest user` or `verified user`) and second passing the collected parameters to Haptik.
+1. After successful Initialization & App Delegate Configuration, Haptik can enable a user to Signup for using services
+2. Haptik Signup is sub-divided in following 2 parts -
+	- Collecting required parameters of user according to Signup Type - _Guest user_ or _Verified user_
+	- Passing over the collected parameters to Haptik
 
 ###### Signup Types
 
