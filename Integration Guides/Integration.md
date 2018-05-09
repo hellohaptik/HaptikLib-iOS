@@ -67,7 +67,7 @@ Add the following snippets in your `info.plist` file -
 	  </dict>
 	```
 
-2. HaptikLib only supports UIInterfaceOrientationPortrait
+2. Haptik only supports Portrait orientation
 
 	```
 	<key>UISupportedInterfaceOrientations</key>
@@ -97,9 +97,9 @@ Add the following snippets in your `info.plist` file -
 
 ### III. Initialization
 
-The HaptikLib SDK should be initialized before it can perform any operations. *Initialization* here implies providing appropriate **API Key**, **Client ID**, **Base URL** & **Run Environment** to HaptikLib SDK. These would be sent over by Haptik via appropriate communication channels. Once above mentioned keys are made available perform the following things:
+The Haptik SDK should be initialized before it can perform any operations. *Initialization* here implies providing appropriate **API Key**, **Client ID**, **Base URL** & **Run Environment** to Haptik SDK. These would be sent over by Haptik via appropriate communication channels. Once above mentioned keys are made available perform the following things:
 
-> Note: The HaptikLib SDK takes all the necessary things from your *Info.plist* file automatically. So you need to add all the required initialization and other required keys along with their appropriate values in a dictionary under a custom key called `HaptikLib` only once.
+> Note: The Haptik SDK takes all the necessary things from your *Info.plist* file automatically. So you need to add all the required initialization and other required keys along with their appropriate values in a dictionary under a custom key called `HaptikLib` only once.
 
 The following `key-value` pairs should be present in a Custom Dictionary `HaptikLib`:
 
@@ -141,7 +141,7 @@ HaptikLibEnvDev = 2
 
 Import HaptikLib in your AppDelegate Class either by writing `#import <HaptikLib/Haptik.h>` or `@import HaptikLib;`
 
-- HaptikLib uses the *application* instance and the *launchOptions* dictionary internally. The `Haptik.h` class provides a method to pass the required parameters.
+- Haptik uses the *application* instance and the *launchOptions* dictionary internally. The `Haptik.h` class provides a method to pass the required parameters.
 
     Example:
 
@@ -154,7 +154,7 @@ Import HaptikLib in your AppDelegate Class either by writing `#import <HaptikLib
     }
     ```
 
-- HaptikLib internally also opens urls which the client needs to return it true.
+- Haptik internally also opens urls which the client needs to return it true.
 
     Example:
 
@@ -165,7 +165,7 @@ Import HaptikLib in your AppDelegate Class either by writing `#import <HaptikLib
     }
     ```
 
-- HaptikLib can also be configured to send Push Notifications to the user. The client application needs to configure push notifications on their own end and have to pass the deviceToken which the application gets after requesting the user to send them Push Notifications.
+- Haptik can also be configured to send Push Notifications to the user. The client application needs to configure push notifications on their own end and have to pass the deviceToken which the application gets after requesting the user to send them Push Notifications.
 
     Example:
 
@@ -176,7 +176,7 @@ Import HaptikLib in your AppDelegate Class either by writing `#import <HaptikLib
     }
     ```
 
-- For HaptikLib to handle it's own notifications, you have to pass the **notification dictionary** that you get in the **notifications payload** and the instance of the `viewController` from where the notifications should be handled. You can also check if the notification belongs to HaptikLib or not.
+- For Haptik to handle it's own notifications, you have to pass the **notification dictionary** that you get in the **notifications payload** and the instance of the `viewController` from where the notifications should be handled. You can also check if the notification belongs to Haptik or not.
 	Example:
 
 	```
@@ -198,11 +198,11 @@ Import HaptikLib in your AppDelegate Class either by writing `#import <HaptikLib
 
 ### V. User Authentication
 
-After successfully configuring & setting up HaptikLib, you'll be able to proceed to the user signup flow. Signup includes mainly two steps. First, collecting the required parameters of the end user according to the type they are signing up (`Guest user` or `verified user`) and second passing the collected parameters to HaptikLib.
+After successfully configuring & setting up Haptik, you'll be able to proceed to the user signup flow. Signup includes mainly two steps. First, collecting the required parameters of the end user according to the type they are signing up (`Guest user` or `verified user`) and second passing the collected parameters to Haptik.
 
 ###### Signup Types
 
-HaptikLib gives a public class `HPSignUpObject` which you can use to collect the required parameters. Each auth flows require a different set of parameters passed to HPSignUpObject. Contact Haptik for knowing more about your `Auth-Type` & `Auth-ID`.
+Haptik gives a public class `HPSignUpObject` which you can use to collect the required parameters. Each auth flows require a different set of parameters passed to HPSignUpObject. Contact Haptik for knowing more about your `Auth-Type` & `Auth-ID`.
 
 This class follows the builder pattern. Here's an example of how to make use of it:
 
@@ -280,11 +280,11 @@ HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE" 
 
 ### VI. User Signup Flow
 
-To continue from the User Authentication, the signUp object is now passed to Haptik for signing up the user. Signing up the user is an API call and can take up some time. HaptikLib provides two different ways for that, one with a customised loading screen and other without it.
+To continue from the User Authentication, the signUp object is now passed to Haptik for signing up the user. Signing up the user is an API call and can take up some time. Haptik provides two different ways for that, one with a customised loading screen and other without it.
 
 ###### Type I  (Without Loading Screen)
 
-HaptikLib defines a method that takes up the `HPSignUpObject` and returns the a `UIViewController` instance for you to push in the completion after the user has successfully signed up. The completion is returned on `mainQueue` by default.
+Haptik defines a method that takes up the `HPSignUpObject` and returns the a `UIViewController` instance for you to push in the completion after the user has successfully signed up. The completion is returned on `mainQueue` by default.
 
 Here an example:
 
@@ -333,7 +333,7 @@ You can set these properties before pushing the viewController and set the `titl
 
 ### VII. Existing Users flow
 
-You need to handle the flow where the user has already signed up and you want to directly take the user to Haptik's `Inbox Screen`. HaptikLib provides a function named `isUserSignedUp` that returns a `BOOL` value for the same. If `YES` you can get the desired `viewController` from the method `getInitialVC` and push the user directly. The function will return `nil` if the user hasn't been signed up.
+You need to handle the flow where the user has already signed up and you want to directly take the user to Haptik's `Inbox Screen`. Haptik provides a function named `isUserSignedUp` that returns a `BOOL` value for the same. If `YES` you can get the desired `viewController` from the method `getInitialVC` and push the user directly. The function will return `nil` if the user hasn't been signed up.
 
 ##### Example:
 
@@ -353,11 +353,11 @@ if ([[Haptik sharedSDK] isUserSignedUp]) {
 
 ## VIII. Share Functionality
 
-HaptikLib provides **inbuilt share functionality** where user can share the client app with others via social media apps or any other medium.
+Haptik provides inbuilt share functionality where user can share the client app with others via social media apps or any other medium.
 
 - When user shares something from inside the HaptikSDK, a **custom content message** gets shared. Client can **override this message** with their own custom content along with their `deeplink` URL.
 
-- HaptikLib also provides an inbuilt feature where it can take the users **directly to the client application’s App Store Page** to rate the application.
+- Haptik also provides an inbuilt feature where it can take the users **directly to the client application’s App Store Page** to rate the application.
 
 The option to set these values is given in the `Info.plist` file of the application.
 
