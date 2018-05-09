@@ -223,7 +223,7 @@ Add the following snippets in your `info.plist` file -
 
 	```
 
-#### Authentication Types 
+#### Authentication Types -
 	
 A. **Basic Authentication**
 1. Basic Authentication is a Guest signup that does not require any verification `auth_type = @"basic"`
@@ -236,24 +236,16 @@ A. **Basic Authentication**
 	    }];
 	```
 
+B. **OTP Authentication**
 
-- **OTP**
+1. An user’s mobile number OTP verification can be done by Haptik. Contact us for enabling server component for this.
+2. The following parameters are required -
+	- OTP Verified Mobile Number
+	- Token/TicketId for OTP verification
+	- User City
+	- User Email Address
 
-  **Auth_Type = @"otp";**
-
-	An end user’s mobile number OTP verification can be done by Haptik. Please contact us for utilising this feature.
-
-  The following parameter is compulsory while signing up with **OTP** authType:
-
-  - *Mandatory*: OTP Verified Mobile Number
-  - *Mandatory*: Token/TicketId for OTP verification (for 3-way handshake, creation of Wallet)
-  - *Optional*: Resident City
-	- *Optional*: Email (unverified is OK)
-
-
-> **NOTE** that city name **MUST** be either one of the cities mentioned on Haptik SDK or provide "Other" as a String.
-
-**City Appendix**:
+	**NOTE:** User City _must_ be one of following string types - 
 	```
 	[@"Mumbai", @"Bombay"]
 
@@ -278,8 +270,11 @@ A. **Basic Authentication**
 	[@"Gurugram", @"Gurgaon"]
 
 	[@"Noida", @"Greater Noida"]
-	```
+	
+	OR
 
+	[@"Other"]
+	```
 ---
 
 
