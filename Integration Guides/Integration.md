@@ -139,59 +139,64 @@ HaptikLibEnvDev = 2
 
 ### IV. AppDelegate Configurations
 
-Import HaptikLib in your AppDelegate Class either by writing `#import <HaptikLib/Haptik.h>` or `@import HaptikLib;`
+1. Import HaptikLib in your AppDelegate Class
+	```
+	@import HaptikLib;
+	```
 
-- Haptik uses the *application* instance and the *launchOptions* dictionary internally. The `Haptik.h` class provides a method to pass the required parameters.
+2. Haptik uses the *application* instance and the *launchOptions* dictionary internally. The `Haptik.h` class provides a method to pass the required parameters.
 
-    Example:
+	```
+	- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    ```
-    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	   ...
 
-    [[Haptik sharedSDK] notifyApplication:application launchedWithOptions:launchOptions];    
+	   [[Haptik sharedSDK] notifyApplication:application launchedWithOptions:launchOptions];    
 
-    	return YES;
-    }
-    ```
+	   return YES;
+	}
+	```
 
-- Haptik internally also opens urls which the client needs to return it true.
+3. Haptik internally also opens urls which the client needs to return it true.
 
-    Example:
 
     ```
     (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
 
-     return [[Haptik sharedSDK] isRedirectHandled:url options:options];
+      ...
+
+      BOOL isRedirectHandledByHaptik = [[Haptik sharedSDK] isRedirectHandled:url options:options];
+
+      return isRedirectHandledByHaptik;
     }
     ```
 
-- Haptik can also be configured to send Push Notifications to the user. The client application needs to configure push notifications on their own end and have to pass the deviceToken which the application gets after requesting the user to send them Push Notifications.
+4. Haptik can also be configured to send Push Notifications to the user. The client application needs to configure push notifications on their own end and have to pass the deviceToken which the application gets after requesting the user to send them Push Notifications.
 
-    Example:
+	```
+	- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 
-    ```
-    - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+	    ...
 
-    	[[Haptik sharedSDK] setDeviceToken:deviceToken];
-    }
-    ```
+	    [[Haptik sharedSDK] setDeviceToken:deviceToken];
+	}
+	```
 
-- For Haptik to handle it's own notifications, you have to pass the **notification dictionary** that you get in the **notifications payload** and the instance of the `viewController` from where the notifications should be handled. You can also check if the notification belongs to Haptik or not.
-	Example:
+5. For Haptik to handle it's own notifications, you have to pass the **notification dictionary** that you get in the **notifications payload** and the instance of the `viewController` from where the notifications should be handled. It's also possible to determine whether notification payload is Haptik-specific or not.
 
 	```
 	- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
 
-     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:response.notification.request.content.userInfo];
+	     ...
 
-     if (canBeHandledByHaptik) {
-         NSLog(@"do housekeeping");
-         [[Haptik sharedSDK] handleNotificationWithUserInfo:PASS_NOTIFICATION_DICTIONARY_HERE controller:PASS_VIEWCONTROLLER_INSTANCE_HERE;
-       }
+	     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:response.notification.request.content.userInfo];
+
+	     if (canBeHandledByHaptik) {
+		 NSLog(@"do housekeeping");
+		 [[Haptik sharedSDK] handleNotificationWithUserInfo:PASS_NOTIFICATION_DICTIONARY_HERE controller:PASS_VIEWCONTROLLER_INSTANCE_HERE;
+	     }
 	}
 	```
-
-	> You should add this function in all the different Notification Delegate methods in which you get the Notification Payload.
 
 ---
 
