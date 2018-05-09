@@ -202,9 +202,9 @@ Add the following snippets in your `info.plist` file -
 
 ### V. User Authentication
 
-1. After successful Initialization & App Delegate Configuration, Haptik can enable a user to Signup for using services
+1. After successful Initialization & App Delegate Configuration, SDK can enable a user to Signup for using Haptik services
 2. Haptik Signup is sub-divided in following 2 parts -
-	- Collecting required parameters of user according to Signup Type - _Guest user_ or _Verified user_
+	- Collecting required parameters of user according to Signup Type: _Guest_ or _Verified_ user
 	- Passing over the collected parameters to Haptik
 
 ###### Signup Types
