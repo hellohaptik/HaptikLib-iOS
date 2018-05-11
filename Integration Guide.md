@@ -280,20 +280,27 @@ B. **OTP Authentication**
 
 ### VI. User Signup Flow
 
-To continue from the User Authentication, the signUp object is now passed to Haptik for signing up the user. Signing up the user is an API call and can take up some time. Haptik provides two different ways for that, one with a customised loading screen and other without it.
+1. The `HPSignUpObject *signupObj` instance created in above step is now to be passed to SDK
+2. This step involves a network request so to maintain state of the application & update a user about current progress, the SDK provides following 2 APIs for flexibility -
 
-###### Type I  (Without Loading Screen)
+A. **Asynchronous (without Loading Screen)**
 
-Haptik defines a method that takes up the `HPSignUpObject` and returns the a `UIViewController` instance for you to push in the completion after the user has successfully signed up. The completion is returned on `mainQueue` by default.
-
-Here an example:
+1. `[[Haptik sharedSDK] signUpWith: completion:]` takes a `HPSignUpObject` instance and returns a `UIViewController` instance expected to be added on app's navigation stack
+2. The `UIViewController` instance returned on succesful signup represents the root _Inbox Screen_ of SDK
+3. Completion block is invoked `mainQueue` 
+4. Using `success` & `error` objects, any analytics / app state update / general housekeeping can be performed
 
 ```
 [[Haptik sharedSDK] signUpWith:signupObj completion:^(BOOL success, UIViewController * _Nullable initialVC, NSError * _Nullable error) {
 
+	NSLog(@"Do housekeeping using success & error");
+
         if (success) {
             [self.navigationController pushViewController:initialVC animated:YES];
         }
+	else {
+	    NSLog(@"User signup failed!");
+	}
     }];
 ```
 
