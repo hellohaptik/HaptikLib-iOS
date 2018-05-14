@@ -11,32 +11,6 @@ Minimum Deployment Target: **iOS 9.0**
 
 Supported Device Orientation: **Portrait**
 
-#### Linked Frameworks 
-```
-1. Accelerate.framework		(Required)
-2. CFNetwork.framework		(Required)
-3. CleverTapSDK.framework 	(Required)
-4. CoreGraphics.framework 	(Required)
-5. CoreLocation.framework	(Required)
-6. CoreTelephony.framework 	(Required)
-7. CoreText.framework 		(Required)
-8. GLKit.framework 		(Required)
-9. GoogleMaps.framework 	 (Optional)
-10. GoogleMapsBase.framework	 (Optional)
-11. GoogleMapsCore.framework 	 (Optional)
-12. GooglePlacePicker.framework	 (Optional)
-13. GooglePlaces.framework	 (Optional)
-14. ImageIO.framework 		  (Required)
-15. libicucore.tbd		  (Required)
-16. libz.tbd			  (Required)
-17. libc++.tbd			  (Required)
-18. OpenGLES.framework		  (Required)
-19. PayWithAmazon.framework	  (Required)
-20. QuartzCore.framework	  (Required)
-21. SystemConfiguration.framework (Required)
-22. UIKit.framework		  (Required)
-```
-
 ---
 
 
