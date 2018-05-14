@@ -285,9 +285,9 @@ B. **OTP Authentication**
 
 A. **Asynchronous (without Loading Screen)**
 
-1. `[[Haptik sharedSDK] signUpWith: completion:]` takes a `HPSignUpObject` instance and returns a `UIViewController` instance expected to be added on app's navigation stack
+1. `[[Haptik sharedSDK] signUpWith: completion:]` takes a `HPSignUpObject` instance and _on completion_ returns a `UIViewController` instance expected to be added on app's navigation stack
 2. The `UIViewController` instance returned on succesful signup represents the root _Inbox Screen_ of SDK
-3. Completion block is invoked `mainQueue` 
+3. The completion block is invoked on `mainQueue` 
 4. Using `success` & `error` objects, any analytics / app state update / general housekeeping can be performed
 
 ```
@@ -299,27 +299,32 @@ A. **Asynchronous (without Loading Screen)**
             [self.navigationController pushViewController:initialVC animated:YES];
         }
 	else {
-	    NSLog(@"User signup failed!");
+	    NSLog(@"User Signup Failed!");
 	}
     }];
 ```
 
-###### Type II (With Loading Screen)
+B. **Synchronous (with Customisable Loading Screen)**
 
-This method also takes the same parameters just as the above method takes. The key difference is that the function returns a `UIViewController` instance to push immediately irrespectively if the API call is still in progress. The returned view controller itself takes up the responsibility of showing the customised loading screen and the switching back to the desired `Inbox View`.
-
-Here an example:
+1. `[[Haptik sharedSDK] signUpWithLoadingScreenFor: completion:]` takes a `HPSignUpObject` instance and _immediately returns_ `UIViewController` instance expected to be added on app's navigation stack
+2. The `UIViewController` instance returned immediately represents the root _Inbox Screen_ of SDK
+3. The returned `UIViewController` instance has a built in _Customisable Loading Screen_ shown while signup network request is in progress
+4. The root _Inbox Screen_ of SDK is automatically presented on succesful signup
 
 ```
-UIViewController * __block initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success, NSError * _Nullable error) {
+UIViewController * __block initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success,    						NSError * _Nullable error) {
 
-        if (success) {                        
-        }
-        else {            
-        }
-    }];    
+					NSLog(@"Do housekeeping using success & error");
 
-    [self.navigationController pushViewController:initialVC animated:YES];
+					if (success) {                        
+						NSLog(@"User Signup Success! Can do Analytics, state update, etc here");
+					}
+					else {   
+						NSLog(@"User Signup Failed!");         
+					}
+				    }];    
+
+[self.navigationController pushViewController:initialVC animated:YES];
 ```
 
 This viewController takes custom text attributes individually to display the titles and subtitles on the Loading Screen. `Haptik.h` declares two properties named:
