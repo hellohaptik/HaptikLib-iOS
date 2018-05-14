@@ -193,7 +193,7 @@ Add the following snippets in your `info.plist` file -
 	     if (canBeHandledByHaptik) {
 	     	...
 		NSLog(@"do housekeeping");
-		[[Haptik sharedSDK] handleNotificationWithUserInfo:PASS_NOTIFICATION_DICTIONARY_HERE controller:PASS_VIEWCONTROLLER_INSTANCE_HERE;
+		[[Haptik sharedSDK] handleNotificationWithUserInfo:PASS_NOTIFICATION_DICTIONARY_HERE controller:PASS_VIEWCONTROLLER_INSTANCE_HERE];
 	     }
 	}
 	```
