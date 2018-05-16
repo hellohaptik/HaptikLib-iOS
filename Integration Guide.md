@@ -311,22 +311,25 @@ B. **Synchronous (with Customisable Loading Screen)**
 ---
 
 
-### VII. Existing Users flow
+### VII. Existing Users Flow (Signed-up users)
 
-You need to handle the flow where the user has already signed up and you want to directly take the user to Haptik's `Inbox Screen`. Haptik provides a function named `isUserSignedUp` that returns a `BOOL` value for the same. If `YES` you can get the desired `viewController` from the method `getInitialVC` and push the user directly. The function will return `nil` if the user hasn't been signed up.
+1. If a user is already signed-up in Haptik SDK such a user should be directly presented SDK's root _Inbox Screen_
+2. The SDK provides a BOOL attribute `isUserSignedUp` to verify whether the user is successfully signed up or not
+ - If YES, then the user should be presented the root _Inbox Screen_ using the `getInitialVC` function
+ - If NO, then the user should be taken to Sign Up flows as mentioned above in Step V & VI
+3. The `getInitialVC` function returns nil if a user is not signed-up in Haptik SDK
 
-##### Example:
+	```
+	if ([[Haptik sharedSDK] isUserSignedUp]) {
 
-```
-if ([[Haptik sharedSDK] isUserSignedUp]) {
-
-        [self.navigationController pushViewController:[[Haptik sharedSDK] getInitialVC] animated:YES];
+		// perform analytics, state update, etc
+		UIViewController *haptikInboxScreen = [[Haptik sharedSDK] getInitialVC];
+		[self.navigationController pushViewController:haptikInboxScreen animated:YES];
     }
     else {
-
-        // Continue with the SignUp flow here
+		// Continue with the SignUp flow here
     }
-```
+	```
 
 ---
 
