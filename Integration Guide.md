@@ -297,9 +297,16 @@ B. **Synchronous (with Customisable Loading Screen)**
 
 												NSLog(@"Do housekeeping using success & error");
 
-	- **Default text**: @"Coming right up…"
+												if (success) {
+													NSLog(@"User Signup Success! Can do Analytics, state update, etc here");
+												}
+												else {
+													NSLog(@"User Signup Failed!");
+												}
+										    }];
 
-You can set these properties before pushing the viewController and set the `title` & `subtitle` text on the loading screen, otherwise default text will be set. It is highly recommended to show this viewController while user is signing up on Haptik SDK to make a smooth user experience.
+	[self.navigationController pushViewController:initialVC animated:YES];
+	```
 
 ---
 
