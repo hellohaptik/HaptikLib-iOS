@@ -363,7 +363,7 @@ The dictionary should be named `shareAndRate` and the following **key-value** sh
 
 ```
 <key>HaptikLib</key>
-	<dict>		
+	<dict>
 		<key>apiKey</key>
 		<string>INSERT_API_KEY_HERE</string>
 		<key>baseUrl</key>
