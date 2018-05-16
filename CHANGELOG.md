@@ -2,6 +2,14 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.5.1] - (16/05/18) - Oh My God!
+
+### Bugs
+- CleverTap Issue is Resolved where Swift Clients were not able to cast AppDelegate.
+
+
+---
+
 ## [0.5.0] - (07/05/18) - Khamoshi & Maachis
 
 ### Features
