@@ -261,22 +261,22 @@ A. **Asynchronous (without Loading Screen)**
 
 1. `[[Haptik sharedSDK] signUpWith: completion:]` takes a `HPSignUpObject` instance and _on completion_ returns a `UIViewController` instance expected to be added on app's navigation stack
 2. The `UIViewController` instance returned on succesful signup represents the root _Inbox Screen_ of SDK
-3. The completion block is invoked on `mainQueue` 
+3. The completion block is invoked on `mainQueue`
 4. Using `success` & `error` objects, any analytics / app state update / general housekeeping can be performed
 
-```
-[[Haptik sharedSDK] signUpWith:signupObj completion:^(BOOL success, UIViewController * _Nullable initialVC, NSError * _Nullable error) {
+	```
+	[[Haptik sharedSDK] signUpWith:signupObj completion:^(BOOL success, UIViewController * _Nullable initialVC, NSError * _Nullable error) {
 
-	NSLog(@"Do housekeeping using success & error");
+		NSLog(@"Do housekeeping using success & error");
 
-        if (success) {
-            [self.navigationController pushViewController:initialVC animated:YES];
-        }
-	else {
-	    NSLog(@"User Signup Failed!");
-	}
-    }];
-```
+	        if (success) {
+	            [self.navigationController pushViewController:initialVC animated:YES];
+	        }
+		else {
+		    NSLog(@"User Signup Failed!");
+		}
+	}];
+	```
 
 B. **Synchronous (with Customisable Loading Screen)**
 
