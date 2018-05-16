@@ -207,7 +207,7 @@ A. **Basic Authentication**
 	HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"basic" data:^(HPSignUpBuilder * _Nonnull builder) {
 
 		builder.userFullName = @"John Appleseed";
-	    }];
+	}];
 	```
 
 B. **OTP Authentication**
@@ -309,7 +309,6 @@ B. **Synchronous (with Customisable Loading Screen)**
 	```
 
 ---
-
 
 ### VII. Existing Users Flow (Signed-up users)
 
