@@ -293,30 +293,9 @@ B. **Synchronous (with Customisable Loading Screen)**
 	[Haptik sharedSDK].loadingTitleText = @"My custom title text for user";
     [Haptik sharedSDK].loadingSubtitleText = @"My custom subtitle text for user";
 
-```
-UIViewController * __block initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success,    						NSError * _Nullable error) {
+	UIViewController * __block initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success, NSError * _Nullable error) {
 
-					NSLog(@"Do housekeeping using success & error");
-
-					if (success) {                        
-						NSLog(@"User Signup Success! Can do Analytics, state update, etc here");
-					}
-					else {   
-						NSLog(@"User Signup Failed!");         
-					}
-				    }];    
-
-[self.navigationController pushViewController:initialVC animated:YES];
-```
-
-This viewController takes custom text attributes individually to display the titles and subtitles on the Loading Screen. `Haptik.h` declares two properties named:
-
-- loadingTitleText:
-
-	- **Default text**: @"Behind every successful person is an Assistant!"
-
-
-- loadingSubtitleText:
+												NSLog(@"Do housekeeping using success & error");
 
 	- **Default text**: @"Coming right up…"
 
