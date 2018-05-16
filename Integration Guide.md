@@ -193,12 +193,12 @@ Add the following snippets in your `info.plist` file -
 		builder.userCity = INSERT_CITY_HERE;
 		builder.authToken = INSERT_AUTH_TOKEN_HERE;
 		builder.authID = INSERT_AUTH_ID_HERE;
-	    }];   
+    }];
 
 	```
 
 #### Authentication Types -
-	
+
 A. **Basic Authentication**
 1. Basic Authentication is a Guest signup that does not require any verification `auth_type = @"basic"`
 2. This is ideal for informational chatbots or when user verification is handled by a Third Party Service
@@ -219,7 +219,7 @@ B. **OTP Authentication**
 	- User City
 	- User Email Address
 
-	**NOTE:** User City _must_ be one of following string types - 
+	**NOTE:** User City _must_ be one of following string types -
 	```
 	[@"Mumbai", @"Bombay"]
 
@@ -244,7 +244,7 @@ B. **OTP Authentication**
 	[@"Gurugram", @"Gurgaon"]
 
 	[@"Noida", @"Greater Noida"]
-	
+
 	OR
 
 	[@"Other"]
