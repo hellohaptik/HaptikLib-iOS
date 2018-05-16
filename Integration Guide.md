@@ -194,7 +194,6 @@ Add the following snippets in your `info.plist` file -
 		builder.authToken = INSERT_AUTH_TOKEN_HERE;
 		builder.authID = INSERT_AUTH_ID_HERE;
     }];
-
 	```
 
 #### Authentication Types -
@@ -295,15 +294,15 @@ B. **Synchronous (with Customisable Loading Screen)**
 
 	UIViewController * __block initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success, NSError * _Nullable error) {
 
-												NSLog(@"Do housekeeping using success & error");
+									NSLog(@"Do housekeeping using success & error");
 
-												if (success) {
-													NSLog(@"User Signup Success! Can do Analytics, state update, etc here");
-												}
-												else {
-													NSLog(@"User Signup Failed!");
-												}
-										    }];
+									if (success) {
+										NSLog(@"User Signup Success! Can do Analytics, state update, etc here");
+									}
+									else {
+										NSLog(@"User Signup Failed!");
+									}
+							    }];
 
 	[self.navigationController pushViewController:initialVC animated:YES];
 	```
@@ -321,12 +320,12 @@ B. **Synchronous (with Customisable Loading Screen)**
 	```
 	if ([[Haptik sharedSDK] isUserSignedUp]) {
 
-		// perform analytics, state update, etc
-		UIViewController *haptikInboxScreen = [[Haptik sharedSDK] getInitialVC];
-		[self.navigationController pushViewController:haptikInboxScreen animated:YES];
+	// perform analytics, state update, etc
+	UIViewController *haptikInboxScreen = [[Haptik sharedSDK] getInitialVC];
+	[self.navigationController pushViewController:haptikInboxScreen animated:YES];
     }
     else {
-		// Continue with the SignUp flow here
+	// Continue with the SignUp flow here
     }
 	```
 
