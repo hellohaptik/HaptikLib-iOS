@@ -124,7 +124,7 @@ Add the following snippets in your `info.plist` file -
 
 	   ...
 
-	   [[Haptik sharedSDK] notifyApplication:application launchedWithOptions:launchOptions];    
+	   [[Haptik sharedSDK] notifyApplication:application launchedWithOptions:launchOptions];
 
 	   return YES;
 	}
