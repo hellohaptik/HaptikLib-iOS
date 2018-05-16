@@ -124,7 +124,7 @@ Add the following snippets in your `info.plist` file -
 
 	   ...
 
-	   [[Haptik sharedSDK] notifyApplication:application launchedWithOptions:launchOptions];    
+	   [[Haptik sharedSDK] notifyApplication:application launchedWithOptions:launchOptions];
 
 	   return YES;
 	}
@@ -193,12 +193,11 @@ Add the following snippets in your `info.plist` file -
 		builder.userCity = INSERT_CITY_HERE;
 		builder.authToken = INSERT_AUTH_TOKEN_HERE;
 		builder.authID = INSERT_AUTH_ID_HERE;
-	    }];   
-
+    }];
 	```
 
 #### Authentication Types -
-	
+
 A. **Basic Authentication**
 1. Basic Authentication is a Guest signup that does not require any verification `auth_type = @"basic"`
 2. This is ideal for informational chatbots or when user verification is handled by a Third Party Service
@@ -207,7 +206,7 @@ A. **Basic Authentication**
 	HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"basic" data:^(HPSignUpBuilder * _Nonnull builder) {
 
 		builder.userFullName = @"John Appleseed";
-	    }];
+	}];
 	```
 
 B. **OTP Authentication**
@@ -219,7 +218,7 @@ B. **OTP Authentication**
 	- User City
 	- User Email Address
 
-	**NOTE:** User City _must_ be one of following string types - 
+	**NOTE:** User City _must_ be one of following string types -
 	```
 	[@"Mumbai", @"Bombay"]
 
@@ -244,7 +243,7 @@ B. **OTP Authentication**
 	[@"Gurugram", @"Gurgaon"]
 
 	[@"Noida", @"Greater Noida"]
-	
+
 	OR
 
 	[@"Other"]
@@ -261,22 +260,22 @@ A. **Asynchronous (without Loading Screen)**
 
 1. `[[Haptik sharedSDK] signUpWith: completion:]` takes a `HPSignUpObject` instance and _on completion_ returns a `UIViewController` instance expected to be added on app's navigation stack
 2. The `UIViewController` instance returned on succesful signup represents the root _Inbox Screen_ of SDK
-3. The completion block is invoked on `mainQueue` 
+3. The completion block is invoked on `mainQueue`
 4. Using `success` & `error` objects, any analytics / app state update / general housekeeping can be performed
 
-```
-[[Haptik sharedSDK] signUpWith:signupObj completion:^(BOOL success, UIViewController * _Nullable initialVC, NSError * _Nullable error) {
+	```
+	[[Haptik sharedSDK] signUpWith:signupObj completion:^(BOOL success, UIViewController * _Nullable initialVC, NSError * _Nullable error) {
 
-	NSLog(@"Do housekeeping using success & error");
+		NSLog(@"Do housekeeping using success & error");
 
-        if (success) {
-            [self.navigationController pushViewController:initialVC animated:YES];
-        }
-	else {
-	    NSLog(@"User Signup Failed!");
-	}
-    }];
-```
+	        if (success) {
+	            [self.navigationController pushViewController:initialVC animated:YES];
+	        }
+		else {
+		    NSLog(@"User Signup Failed!");
+		}
+	}];
+	```
 
 B. **Synchronous (with Customisable Loading Screen)**
 
@@ -284,55 +283,51 @@ B. **Synchronous (with Customisable Loading Screen)**
 2. The `UIViewController` instance returned immediately represents the root _Inbox Screen_ of SDK
 3. The returned `UIViewController` instance has a built in _Customisable Loading Screen_ shown while signup network request is in progress
 4. The root _Inbox Screen_ of SDK is automatically presented on succesful signup
+5. String attributes of `loadingTitleText` & `loadingSubtitleText` can be set to present a custom message to user while signup network request is in progess
+6. If not set, the default string values of the above mentioned attributes is as follows -
+	- `loadingTitleText`: @"Behind every successful person is an Assistant!"
+	- `loadingSubtitleText`: @"Coming right up…"
+7. These attributes should be set before `[[Haptik sharedSDK] signUpWithLoadingScreenFor: completion:]` function is invoked
+	```
+	[Haptik sharedSDK].loadingTitleText = @"My custom title text for user";
+    [Haptik sharedSDK].loadingSubtitleText = @"My custom subtitle text for user";
 
-```
-UIViewController * __block initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success,    						NSError * _Nullable error) {
+	UIViewController * __block initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success, NSError * _Nullable error) {
 
-					NSLog(@"Do housekeeping using success & error");
+						NSLog(@"Do housekeeping using success & error");
 
-					if (success) {                        
-						NSLog(@"User Signup Success! Can do Analytics, state update, etc here");
-					}
-					else {   
-						NSLog(@"User Signup Failed!");         
-					}
-				    }];    
+						if (success) {
+							NSLog(@"User Signup Success! Can do Analytics, state update, etc here");
+						}
+						else {
+							NSLog(@"User Signup Failed!");
+						}
+					    }];
 
-[self.navigationController pushViewController:initialVC animated:YES];
-```
-
-This viewController takes custom text attributes individually to display the titles and subtitles on the Loading Screen. `Haptik.h` declares two properties named:
-
-- loadingTitleText:
-
-	- **Default text**: @"Behind every successful person is an Assistant!"
-
-
-- loadingSubtitleText:
-
-	- **Default text**: @"Coming right up…"
-
-You can set these properties before pushing the viewController and set the `title` & `subtitle` text on the loading screen, otherwise default text will be set. It is highly recommended to show this viewController while user is signing up on Haptik SDK to make a smooth user experience.
+	[self.navigationController pushViewController:initialVC animated:YES];
+	```
 
 ---
 
+### VII. Existing Users Flow (Signed-up users)
 
-### VII. Existing Users flow
+1. If a user is already signed-up in Haptik SDK such a user should be directly presented SDK's root _Inbox Screen_
+2. The SDK provides a BOOL attribute `isUserSignedUp` to verify whether the user is successfully signed up or not
+ - If YES, then the user should be presented the root _Inbox Screen_ using the `getInitialVC` function
+ - If NO, then the user should be taken to Sign Up flows as mentioned above in Step V & VI
+3. The `getInitialVC` function returns nil if a user is not signed-up in Haptik SDK
 
-You need to handle the flow where the user has already signed up and you want to directly take the user to Haptik's `Inbox Screen`. Haptik provides a function named `isUserSignedUp` that returns a `BOOL` value for the same. If `YES` you can get the desired `viewController` from the method `getInitialVC` and push the user directly. The function will return `nil` if the user hasn't been signed up.
+	```
+	if ([[Haptik sharedSDK] isUserSignedUp]) {
 
-##### Example:
-
-```
-if ([[Haptik sharedSDK] isUserSignedUp]) {
-
-        [self.navigationController pushViewController:[[Haptik sharedSDK] getInitialVC] animated:YES];
+		// perform analytics, state update, etc
+		UIViewController *haptikInboxScreen = [[Haptik sharedSDK] getInitialVC];
+		[self.navigationController pushViewController:haptikInboxScreen animated:YES];
     }
     else {
-
-        // Continue with the SignUp flow here
+		// Continue with the SignUp flow here
     }
-```
+	```
 
 ---
 
@@ -363,7 +358,7 @@ The dictionary should be named `shareAndRate` and the following **key-value** sh
 
 ```
 <key>HaptikLib</key>
-	<dict>		
+	<dict>
 		<key>apiKey</key>
 		<string>INSERT_API_KEY_HERE</string>
 		<key>baseUrl</key>
