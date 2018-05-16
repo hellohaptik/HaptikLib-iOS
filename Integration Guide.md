@@ -284,6 +284,14 @@ B. **Synchronous (with Customisable Loading Screen)**
 2. The `UIViewController` instance returned immediately represents the root _Inbox Screen_ of SDK
 3. The returned `UIViewController` instance has a built in _Customisable Loading Screen_ shown while signup network request is in progress
 4. The root _Inbox Screen_ of SDK is automatically presented on succesful signup
+5. String attributes of `loadingTitleText` & `loadingSubtitleText` can be set to present a custom message to user while signup network request is in progess
+6. If not set, the default string values of the above mentioned attributes is as follows -
+	- `loadingTitleText`: @"Behind every successful person is an Assistant!"
+	- `loadingSubtitleText`: @"Coming right up…"
+7. These attributes should be set before `[[Haptik sharedSDK] signUpWithLoadingScreenFor: completion:]` function is invoked
+	```
+	[Haptik sharedSDK].loadingTitleText = @"My custom title text for user";
+    [Haptik sharedSDK].loadingSubtitleText = @"My custom subtitle text for user";
 
 ```
 UIViewController * __block initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success,    						NSError * _Nullable error) {
