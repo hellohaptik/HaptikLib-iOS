@@ -2,7 +2,7 @@
 
 [![App Store](https://img.shields.io/badge/App%20Store-Haptik-2196F3.svg)](https://itunes.apple.com/in/app/haptik-personal-assistant/id640450339)
 [![Support](https://img.shields.io/badge/support-iOS%209%2B-2196F3.svg)](https://img.shields.io/badge/support-iOS%209%2B-2196F3.svg)
-[![CocoaPods Compatible](https://img.shields.io/badge/pod-v0.4.0-2196F3.svg)](https://img.shields.io/badge/pod-v0.4.0-2196F3.svg)
+[![CocoaPods Compatible](https://img.shields.io/badge/pod-v0.5.1-2196F3.svg)](https://img.shields.io/badge/pod-v0.5.1-2196F3.svg)
 [![License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://raw.githubusercontent.com/hellohaptik/HaptikLib-iOS/master/LICENSE)
 [![Twitter](https://img.shields.io/badge/twitter-%40haptik-2196F3.svg)](http://twitter.com/haptik)
 
