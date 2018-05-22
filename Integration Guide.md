@@ -224,7 +224,7 @@ B. **OTP Authentication**
 	HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"otp" data:^(HPSignUpBuilder * _Nonnull builder) {
 
 		builder.userFullName = @"John Appleseed";
-		builder.userEmail = @"john@haptik.a";
+		builder.userEmail = @"john@haptik.ai";
 		builder.userCity = @"Mumbai";	// must be one of valid string types mentioned below
 		builder.userPhoneNumber = @"9879999999";
 		builder.authID = @"9879999999";	// same as phone number
