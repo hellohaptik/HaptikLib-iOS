@@ -229,8 +229,6 @@ B. **OTP Authentication**
 		builder.userPhoneNumber = @"9879999999";
 		builder.authID = @"9879999999";	// same as phone number
 		builder.authToken = @"123456"; // otp code received by user
-		builder.shouldUseSmartWallet = YES;
-		builder.shouldUseReferralSystem = YES;
     }];
 	```
 
