@@ -213,10 +213,24 @@ B. **OTP Authentication**
 
 1. An user’s mobile number OTP verification can be done by Haptik. Contact us for enabling server component for this.
 2. The following parameters are required -
+	- User Name
 	- OTP Verified Mobile Number
 	- Token/TicketId for OTP verification
 	- User City
 	- User Email Address
+3. Implementation of OTP authentication flow can vary vastly & depends on specific app use-cases. An example is below -
+
+	```
+	HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"otp" data:^(HPSignUpBuilder * _Nonnull builder) {
+
+		builder.userFullName = @"John Appleseed";
+		builder.userEmail = @"john@haptik.ai";
+		builder.userCity = @"Mumbai";	// must be one of valid string types mentioned below
+		builder.userPhoneNumber = @"9879999999";
+		builder.authID = @"9879999999";	// same as phone number
+		builder.authToken = @"123456"; // otp code received by user
+    }];
+	```
 
 	**NOTE:** User City _must_ be one of following string types -
 	```
