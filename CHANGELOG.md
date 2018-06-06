@@ -2,6 +2,19 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.6.0] - (06/06/18) - Raabta
+
+### Features
+- Support for toggling Inbox Scene is Given
+
+
+### Bugs
+- Crash on pushing Conversation Scene directly with a message is fixed.
+
+
+---
+
+
 ## [0.5.1] - (16/05/18) - Oh My God!
 
 ### Bugs

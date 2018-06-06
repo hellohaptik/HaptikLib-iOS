@@ -98,6 +98,13 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 
 
 /*!
+ Set Use Inbox BOOL
+ This BOOL controls the visibility of Inbox Scene of Haptik. By default the value will be true.
+ */
+@property (nonatomic, assign) BOOL useInbox;
+
+
+/*!
  Set Show Banners BOOL
  This BOOL controls the visibility of Banners on the Inbox Screen of Haptik. By default the value will be true.
  */
