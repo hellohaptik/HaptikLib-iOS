@@ -138,6 +138,13 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 
 
 /*!
+ Sets the application group identifier of the form of "group.com.mycompanyname". If not provided, default will be nil.
+ Used for saving the SQLite Persistent Store in a shared app folder which can be accessed by multiple targets & extensions.
+ */
+@property (nullable, nonatomic) NSString *appGroupIdentifier;
+
+
+/*!
  Gets the navigation bar tint color used for tinting on individual screens.
  To set a tint color, use as -
  
