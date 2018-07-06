@@ -2,6 +2,16 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.6.1] - (04/07/18) - Udta Punjab
+
+### Bugs
+- Taskbox not showing-up on launching a channel directly is fixed.
+- ChatForm Getting Updated even on Form-Field type Search is fixed.
+- Google Maps as a dependency is Removed from HaptikLib.
+
+---
+
+
 ## [0.6.0] - (06/06/18) - Raabta
 
 ### Features
