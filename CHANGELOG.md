@@ -2,14 +2,26 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.6.2] - (17/07/18) - Vicky Donor
+
+### Bugs
+- Share & Rate not taking Client Applications Name is Fixed
+
+
+---
+
 ## [0.6.1] - (04/07/18) - Udta Punjab
+
+### Enhancements
+- Implementation of Configuring Navigation Bar for SDK ViewControllers is enhanced to accomodate more configurations and will now not affect the configurations globally across the client application.
+
 
 ### Bugs
 - Taskbox not showing-up on launching a channel directly is fixed.
 - ChatForm Getting Updated even on Form-Field type Search is fixed.
 
----
 
+---
 
 ## [0.6.0] - (06/06/18) - Raabta
 
@@ -22,7 +34,6 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 
 ---
-
 
 ## [0.5.1] - (16/05/18) - Oh My God!
 
