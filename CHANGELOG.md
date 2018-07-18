@@ -6,6 +6,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ### Bugs
 - Share & Rate not taking Client Applications Name is Fixed
+- Previously HaptikLib was Dynamically Registering Fonts on Initialization which was causing crash in some scenarios, now the fonts are to registered by the clients itself to keep it consistent.
 
 
 ---
