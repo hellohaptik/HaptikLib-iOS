@@ -23,3 +23,19 @@ Example:
 > To find out where all the different properties are used like, where all `brandColor` is used, etc, please refer to the **Design Guidelines Document for HaptikLib**.
 
 ---
+
+## NavigationBar Theme Configurations
+
+HaptikLib does not control the Navigation Controller (hence the navigation bar), but the client does. HaptikLib only gives an instance of a `ViewController` that the client application pushes on their navigation stack. To configure that navigation bar of that navigationController (modify `tint color` and `barTintColor` of navigation bar of the SDK View Controllers), use the following helper method:
+
+
+```
+[[Haptik sharedSDK] configureNavigationBarWithTintColor:[UIColor redColor]
+                                            barTintColor:[UIColor whiteColor]
+                                         makeTranslucent:YES
+                                 forNavigationController:navController];
+```
+
+The params `tintColor` & `barTintColor` are `nullable`, i.e. you can pass `nil` for the respective param which you want to set to default (don't want to set).
+
+---
