@@ -138,6 +138,13 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 
 
 /*!
+ Sets the application group identifier of the form of "group.com.mycompanyname". If not provided, default will be nil.
+ Used for saving the SQLite Persistent Store in a shared app folder which can be accessed by multiple targets & extensions.
+ */
+@property (nullable, nonatomic) NSString *appGroupIdentifier;
+
+
+/*!
  Gets the navigation bar tint color used for tinting on individual screens.
  To set a tint color, use as -
  
@@ -603,16 +610,29 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 #pragma mark -
 
 /*!
- Allows SDK Clients to modify tint color of navigation bar of the SDK View Controllers
+ @abstract
+ Allows SDK Clients to modify tint color and barTintColor of navigation bar of the SDK View Controllers
+ 
  @param tintColor Color to be used for tinting navigation bar items. Defaults to [UIColor blackColor].
+ @param barTintColor Color to be used for tinting the navigation bar. Defaults to default navigation bar tint of iOS
+ @param translucent BOOL value to set the translucent property of navigation bar.
+ @param navigationController Instance of the navigationController for which the configurations are to be done
+ 
+ @discussion
+ The params tintColor & barTintColor are nullable, i.e. you can pass nil for the respective param which you want to set to default (don't want to set).
  
  @code
  
-[[Haptik sharedSDK] configureNavigationBarWithTintColor:[UIColor colorWithRed:(165.0/255.0) green:(35.0/255.0) blue:(41.0/255.0) alpha:1.0]];
+ [[Haptik sharedSDK] configureNavigationBarWithTintColor:[UIColor redColor]
+                                            barTintColor:[UIColor whiteColor]
+                                 forNavigationController:navController];
  
  @endcode
  */
-- (void)configureNavigationBarWithTintColor:(UIColor *)tintColor;
+- (void)configureNavigationBarWithTintColor:(nullable UIColor *)tintColor
+                               barTintColor:(nullable UIColor *)barTintColor
+                            makeTranslucent:(BOOL)translucent
+                      forNavigationController:(UINavigationController *)navigationController;
 
 /*!
  Allows SDK clients to take user to a specific channel.
