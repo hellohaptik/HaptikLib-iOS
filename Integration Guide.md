@@ -367,6 +367,7 @@ The dictionary should be named `shareAndRate` and the following **key-value** sh
 |appStoreUrl						|INSERT_APP_STORE_URL|
 |shareText							|INSERT_SHARE_TEXT|
 |shareUrl								|INSERT_SHARE_URL|
+|iTunesItemIdentifier   |INSERT_ITEM_IDENTIFIER_HERE|
 
 ##### Example:
 
@@ -392,6 +393,8 @@ The dictionary should be named `shareAndRate` and the following **key-value** sh
 			<string>INSERT_SHARE_TEXT</string>
 			<key>shareUrl</key>
 			<string>INSERT_SHARE_URL</string>
+			<key>iTunesItemIdentifier</key>
+			<string>INSERT_ITEM_IDENTIFIER_HERE</string>
 		</dict>
 
 		***
