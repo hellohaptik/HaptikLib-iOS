@@ -2,7 +2,27 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [0.6.2] - (17/07/18) - Vicky Donor
+## [0.6.5] - (27/07/18) - Waigankar
+
+### Features
+- New Home Screen is Integrated
+- Logout Feature is Given to Clients
+
+
+### Enhancements
+
+
+### Bugs
+- Fix Share Action not Working for Share Actionable
+- Rate & Share is Fixed in RechargeVC
+- SDK Crashing on Logging in again after SignOut is Fixed
+- MQTT not connecting back after SignOut is Fixed.
+
+
+---
+
+
+## [0.6.4] - (17/07/18) - Vicky Donor
 
 ### Bugs
 - Share & Rate not taking Client Applications Name is Fixed
