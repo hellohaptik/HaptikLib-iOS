@@ -388,6 +388,31 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 - (void)notifyApplication:(UIApplication *)application launchedWithOptions:(nullable NSDictionary<UIApplicationLaunchOptionsKey, id> *)launchOptions;
 
 
+#pragma mark - SDK Signout Helpers
+
+/*!
+ @method
+ Signouts the current user from Haptik
+ 
+ @param completion  Completion Handler which will have the success information.
+ 
+ @code
+ 
+ [[Haptik sharedSDK] signoutFromHaptik:^(BOOL success, NSError * _Nullable error) {
+ 
+     if (success) {
+ 
+     }
+     else {
+ 
+     }
+ }];
+ 
+ @endcode
+ */
+- (void)signoutFromHaptik:(void (^)(BOOL success, NSError * _Nullable error))completion;
+
+
 #pragma mark - Haptik Wallet
 
 /*!
@@ -634,6 +659,7 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
                             makeTranslucent:(BOOL)translucent
                       forNavigationController:(UINavigationController *)navigationController;
 
+
 /*!
  Allows SDK clients to take user to a specific channel.
  @param viaName Represents the string key used to uniquely specify channel inside Haptik
@@ -655,6 +681,36 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  */
 - (void)launchChannelWith:(NSString *)viaName
                   message:(nullable NSString *)message
+               controller:(__kindof UIViewController *)controller;
+
+
+/*!
+ Allows SDK clients to take user to a specific channel and trigger the Bot
+ @param viaName Represents the string key used to uniquely specify channel inside Haptik
+ @param message String message to be sent to the backend on opening channel screen
+ @param messageType Represents the messageType to be sent to the backend on opening channel screen
+ @param source Represents the source from where the specific channel is launched and the Bot is triggered
+ @param controller The current view controller over which the channel is expected to be presented
+ 
+ @code
+ 
+ #import "MyViewController.h"
+ 
+ - (void)openChannelInHaptikAndTriggerBot {
+ 
+ [[Haptik sharedSDK] launchChannelToTriggerBotFor:@"mychannelinhaptik"
+                                           message:@"MESSAGE_FOR_TRIGGERING_BOT"
+                                       messageType:@(MESSAGE_TYPE_HERE)
+                                            source:@"SOURCE_HERE"
+                                        controller:self];
+ }
+ 
+ @endcode
+ */
+- (void)launchChannelToTriggerBotFor:(NSString *)viaName
+                               message:(nullable NSString *)message
+                           messageType:(NSNumber *)messageType
+                                source:(NSString *)source
                controller:(__kindof UIViewController *)controller;
 
 
