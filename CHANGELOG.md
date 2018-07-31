@@ -2,10 +2,41 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [0.6.2] - (17/07/18) - Vicky Donor
+## [0.6.6] - (31/07/18) - X-Men
+
+### Enhancements
+- Negative Response Options are Updated
+
+
+---
+
+
+## [0.6.5] - (27/07/18) - Waigankar
+
+### Features
+- New Home Screen is Integrated
+- Logout Feature is Given to Clients
+
+
+### Enhancements
+
+
+### Bugs
+- Fix Share Action not Working for Share Actionable
+- Rate & Share is Fixed in RechargeVC
+- SDK Crashing on Logging in again after SignOut is Fixed
+- MQTT not connecting back after SignOut is Fixed.
+
+
+---
+
+## [0.6.4] - (17/07/18) - Vicky Donor
 
 ### Bugs
 - Share & Rate not taking Client Applications Name is Fixed
+- Previously HaptikLib was Dynamically Registering Fonts on Initialization which was causing crash in some scenarios, now the fonts are to registered by the clients itself to keep it consistent.
+- Previously Entered Text coming in ChatForm is Fixed
+- Rate Us Taking to Haptik App Store is Fixed
 
 
 ---
