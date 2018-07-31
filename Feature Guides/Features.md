@@ -1,12 +1,20 @@
-## Banners Toggling
+## SignOut
 
-You have an option to toggle, whether you want to show banners on the `Inbox Screen` or not. You just have to set a `BOOL` on the `Haptik.h` class named `showBanners`.
-
-Example:
+To Signout the current user from Haptik, use the following method on `[Haptik sharedSDK]`:
 
 ```
-[Haptik sharedSDK].showBanners = YES;
+[[Haptik sharedSDK] signoutFromHaptik:^(BOOL success, NSError * _Nullable error) {
+
+if (success) {
+
+}
+else {
+
+}
+}];
 ```
+
+> **Note**: You have to set the device token again after the SignOut.
 
 ---
 
