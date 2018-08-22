@@ -2,6 +2,46 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.0.0] - (21/08/18) - Zeher
+
+### Features
+
+
+### Enhancements
+
+- HPAnalyticsService is made Public
+- Redundant Params are removed from Triggering Bot on Channel Launching
+- Allow Clients to use Custom CleverTap Account on Staging & Dev Environment
+
+
+### Bugs
+- Offers Scene Title Tint is Fixed
+- Conversation Connecting Spinner is Tinted to Navigation Items Tint
+- Fixed a bug where user was not taken to Conversation Scene on Payment Success.
+- Pushing of Not Required View Controller is Fixed
+- Fixed the TabList Title Not Showing Issue
+- Fixed the Date-String Parsing Issue 
+
+---
+
+
+## [0.6.7] - (14/08/18) - Yamla Pagla Deewana
+
+### Features
+
+
+### Enhancements
+- Recharge URL's are Updated
+
+
+### Bugs
+- Third Party Wallets not showing up on Logout State is Fixed
+- Logging Issue is fixed for CleverTap Analytics
+
+
+---
+
+
 ## [0.6.6] - (31/07/18) - X-Men
 
 ### Enhancements
