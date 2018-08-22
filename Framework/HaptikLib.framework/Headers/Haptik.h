@@ -46,6 +46,14 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 @end
 
 
+#pragma mark - Referral Code
+
+@protocol ReferalCodeDelegate <NSObject>
+@optional
+- (void)onSuccess:(BOOL)success withDictionary:(NSDictionary *)dictionary;
+@end
+
+
 #pragma mark -
 
 /*!
@@ -309,6 +317,14 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 
 /*!
  @method
+ Update an user's details with an existing unique identifier.
+ Doesn't requires the user to perform OTP verification.
+ */
+- (void)updateExistingUserWith:(NSDictionary<NSString *, NSString *> *)data
+                    completion:(void (^ _Nullable)(BOOL success, NSError * _Nullable error))completion;;
+
+/*!
+ @method
  Returns a Bool indicating if the user is already signed up or not.
  */
 - (BOOL)isUserSignedUp;
@@ -462,6 +478,29 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
                  shareAndEarnDelegate:(nullable id <HPShareAndEarnDelegate>)delegate
                            controller:(__kindof UIViewController *__weak)controller
                            completion:(void(^)(BOOL success, __kindof UIViewController *_Nullable haptikWalletVC))completion;
+
+
+#pragma mark - Referral Code
+
+/*!
+ @method
+ By calling this method you will get an instance of ReferralCode Sene.
+ 
+ @param mobileNumber    If applying referral code before signup, pass the users mobile number else, nil
+ @param delegate        ReferalCodeDelegate, if passed and confirmed, will give callback after applying and success of it.
+ 
+ @code
+ 
+ #import "MyViewController.h"
+ 
+ UIViewController *controller = [[Haptik sharedSDK] getReferralCodeViewControllerFor:@"MOBILE_NO" referralDelegate:self];
+ 
+ [self.navigationController pushViewController:controller animated:YES]
+ 
+ @endcode
+ */
+- (__kindof UIViewController * _Nullable)getReferralCodeViewControllerFor:(nullable NSString *)mobileNumber
+                                                         referralDelegate:(nullable id <ReferalCodeDelegate>)delegate;
 
 
 #pragma mark - Current Offers
@@ -688,7 +727,6 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  Allows SDK clients to take user to a specific channel and trigger the Bot
  @param viaName Represents the string key used to uniquely specify channel inside Haptik
  @param message String message to be sent to the backend on opening channel screen
- @param messageType Represents the messageType to be sent to the backend on opening channel screen
  @param source Represents the source from where the specific channel is launched and the Bot is triggered
  @param controller The current view controller over which the channel is expected to be presented
  
@@ -700,7 +738,6 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  
  [[Haptik sharedSDK] launchChannelToTriggerBotFor:@"mychannelinhaptik"
                                            message:@"MESSAGE_FOR_TRIGGERING_BOT"
-                                       messageType:@(MESSAGE_TYPE_HERE)
                                             source:@"SOURCE_HERE"
                                         controller:self];
  }
@@ -708,8 +745,7 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  @endcode
  */
 - (void)launchChannelToTriggerBotFor:(NSString *)viaName
-                               message:(nullable NSString *)message
-                           messageType:(NSNumber *)messageType
+                               message:(nullable NSString *)message                           
                                 source:(NSString *)source
                controller:(__kindof UIViewController *)controller;
 
@@ -763,6 +799,24 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  By calling this method you will get the Unread Count of the Users Inbox Chats.
  */
 - (void)getUnreadCountWithCompletion:(void(^)(NSUInteger unreadCount))completion;
+
+
+/*!
+ @method
+ By calling this method you will get an instance of User Details Screen
+ 
+ @code
+ 
+ #import "MyViewController.h"
+ 
+ UIViewController *viewController = [[Haptik sharedSDK] getUserDetailsScreen];
+ if (viewController) {
+     [self.navigationController pushViewController:viewController animated:YES];
+ }
+ 
+ @endcode
+ */
+- (nullable __kindof UIViewController *)getUserDetailsScreen;
 
 @end
 
