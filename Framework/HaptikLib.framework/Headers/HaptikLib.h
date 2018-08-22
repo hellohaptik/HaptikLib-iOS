@@ -12,7 +12,7 @@
 #import "Haptik.h"
 #import "HPSignUpObject.h"
 #import "HPThemeService.h"
-
+#import "HPAnalyticsService.h"
 
 FOUNDATION_EXPORT double HaptikLibVersionNumber;
 
