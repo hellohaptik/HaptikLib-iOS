@@ -2,6 +2,23 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - (29/08/18) - Abba Dabba Jabba
+
+### Features
+
+
+### Enhancements
+- Previously filled User Details are now updated for the user
+
+### Bugs
+- Core Data Section Offset Crash is Fixed
+- Conversation Scene's Table's Data Source Exception Crash is Fixed
+- Inbox Scene's estimatedRowHeight Crash is Fixed
+- Fix the Initial Sync Check
+
+---
+
+
 ## [1.0.0] - (21/08/18) - Zeher
 
 ### Features
