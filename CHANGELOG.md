@@ -2,15 +2,80 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - (05/09/18) - Balwant Rai ke Bugs
+
+### Enhancements
+- Support for iOS 12
+- Conversation Height Helper is Introduced to Tackle the Lagging Issue
+
+### Bugs
+- Inbox FRC Delegate is set properly
+- Resolved deleted messages coming back due to incorrect getUnreceivedMessages flow
+- Conversation Flicker Issue is Resolved
+- HTML Tags Issue is Resolved
+
+---
+
+
+## [1.0.1] - (29/08/18) - Abba Dabba Jabba
+
+### Enhancements
+- Previously filled User Details are now updated for the user
+
+### Bugs
+- Core Data Section Offset Crash is Fixed
+- Conversation Scene's Table's Data Source Exception Crash is Fixed
+- Inbox Scene's estimatedRowHeight Crash is Fixed
+- Fix the Initial Sync Check
+
+---
+
+
+## [1.0.0] - (21/08/18) - Zeher
+
+### Enhancements
+- HPAnalyticsService is made Public
+- Redundant Params are removed from Triggering Bot on Channel Launching
+- Allow Clients to use Custom CleverTap Account on Staging & Dev Environment
+
+
+### Bugs
+- Offers Scene Title Tint is Fixed
+- Conversation Connecting Spinner is Tinted to Navigation Items Tint
+- Fixed a bug where user was not taken to Conversation Scene on Payment Success.
+- Pushing of Not Required View Controller is Fixed
+- Fixed the TabList Title Not Showing Issue
+- Fixed the Date-String Parsing Issue 
+
+---
+
+
+## [0.6.7] - (14/08/18) - Yamla Pagla Deewana
+
+### Enhancements
+- Recharge URL's are Updated
+
+
+### Bugs
+- Third Party Wallets not showing up on Logout State is Fixed
+- Logging Issue is fixed for CleverTap Analytics
+
+---
+
+
+## [0.6.6] - (31/07/18) - X-Men
+
+### Enhancements
+- Negative Response Options are Updated
+
+---
+
+
 ## [0.6.5] - (27/07/18) - Waigankar
 
 ### Features
 - New Home Screen is Integrated
 - Logout Feature is Given to Clients
-
-
-### Enhancements
-
 
 ### Bugs
 - Fix Share Action not Working for Share Actionable
