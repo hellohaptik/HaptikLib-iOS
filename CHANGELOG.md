@@ -4,9 +4,6 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## [1.1.0] - (05/09/18) - Balwant Rai ke Bugs
 
-### Features
-
-
 ### Enhancements
 - Support for iOS 12
 - Conversation Height Helper is Introduced to Tackle the Lagging Issue
@@ -22,9 +19,6 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## [1.0.1] - (29/08/18) - Abba Dabba Jabba
 
-### Features
-
-
 ### Enhancements
 - Previously filled User Details are now updated for the user
 
@@ -38,9 +32,6 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 
 ## [1.0.0] - (21/08/18) - Zeher
-
-### Features
-
 
 ### Enhancements
 - HPAnalyticsService is made Public
@@ -61,9 +52,6 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## [0.6.7] - (14/08/18) - Yamla Pagla Deewana
 
-### Features
-
-
 ### Enhancements
 - Recharge URL's are Updated
 
@@ -72,20 +60,13 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Third Party Wallets not showing up on Logout State is Fixed
 - Logging Issue is fixed for CleverTap Analytics
 
-
 ---
 
 
 ## [0.6.6] - (31/07/18) - X-Men
 
-### Features
-
-
 ### Enhancements
 - Negative Response Options are Updated
-
-
-### Bugs
 
 ---
 
@@ -95,10 +76,6 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ### Features
 - New Home Screen is Integrated
 - Logout Feature is Given to Clients
-
-
-### Enhancements
-
 
 ### Bugs
 - Fix Share Action not Working for Share Actionable
