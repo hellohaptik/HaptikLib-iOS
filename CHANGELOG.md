@@ -2,6 +2,24 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - (08/09/18) - Balwant Rai ke Bugs
+
+### Features
+
+
+### Enhancements
+- Support for iOS 12
+- Conversation Height Helper is Introduced to Tackle the Lagging Issue
+
+### Bugs
+- Inbox FRC Delegate is set properly
+- Resolved deleted messages coming back due to incorrect getUnreceivedMessages flow
+- Conversation Flicker Issue is Resolved
+- HTML Tags Issue is Resolved
+
+---
+
+
 ## [1.0.1] - (29/08/18) - Abba Dabba Jabba
 
 ### Features
