@@ -2,10 +2,22 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - (08/09/18) - Balwant Rai ke Bugs
+
+### Enhancements
+- Support for iOS 12
+- Conversation Height Helper is Introduced to Tackle the Lagging Issue
+
+### Bugs
+- Inbox FRC Delegate is set properly
+- Resolved deleted messages coming back due to incorrect getUnreceivedMessages flow
+- Conversation Flicker Issue is Resolved
+- HTML Tags Issue is Resolved
+
+---
+
+
 ## [1.0.1] - (29/08/18) - Abba Dabba Jabba
-
-### Features
-
 
 ### Enhancements
 - Previously filled User Details are now updated for the user
@@ -20,9 +32,6 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 
 ## [1.0.0] - (21/08/18) - Zeher
-
-### Features
-
 
 ### Enhancements
 
@@ -44,9 +53,6 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## [0.6.7] - (14/08/18) - Yamla Pagla Deewana
 
-### Features
-
-
 ### Enhancements
 - Recharge URL's are Updated
 
@@ -54,7 +60,6 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ### Bugs
 - Third Party Wallets not showing up on Logout State is Fixed
 - Logging Issue is fixed for CleverTap Analytics
-
 
 ---
 
@@ -64,7 +69,6 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ### Enhancements
 - Negative Response Options are Updated
 
-
 ---
 
 
@@ -73,9 +77,6 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ### Features
 - New Home Screen is Integrated
 - Logout Feature is Given to Clients
-
-
-### Enhancements
 
 
 ### Bugs
