@@ -2,7 +2,16 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [1.1.0] - (05/09/18) - Balwant Rai ke Bugs
+## [1.1.1] - (14/09/18) - Carpe Diem
+
+
+### Bugs
+- Resolved Migration Issue
+- Corrected Mapping Model & Model Version
+
+---
+
+## [1.1.0] - (08/09/18) - Balwant Rai ke Bugs
 
 ### Enhancements
 - Support for iOS 12
