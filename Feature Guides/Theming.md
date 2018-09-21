@@ -17,8 +17,19 @@ Example:
         builder.lightFont =                 // Light font name here
         builder.regularFont =               // Regular font name here
         builder.mediumFont =                // Medium font name here
+
+        builder.boldFont =                  // Bold font name here
+        builder.semiBoldFont =              // Semi Bold font name here
+        builder.italicFont =                // Italic font name here
     }];
 ```
+
+If you don't provide custom colors to HPThemeService then HaptikLib will use the default colors.
+
+ It's mandatory to provide all the font's to HPThemeService. Haptik provides it's custom font files that you have to add in your project and
+ register them in your info.plist file. HaptikLib will then automatically use them even if you don't pass the names in the builder.
+
+ If you wish to use your own font, pass all the required fonts in the builder, else the SDK will give an assert and exit.
 
 > To find out where all the different properties are used like, where all `brandColor` is used, etc, please refer to the **Design Guidelines Document for HaptikLib**.
 
