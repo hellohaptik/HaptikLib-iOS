@@ -20,6 +20,7 @@ Supported Device Orientation: **Portrait**
 	```
 	pod 'HaptikLib'
 	pod 'NativeSSOLogin', :git=>'https://bitbucket.org/agi_sso/nativessologin.git', :tag => '1.0.12'
+	pod 'Branch'
 	```
 
 2. Run `pod install`
@@ -364,9 +365,10 @@ The dictionary should be named `shareAndRate` and the following **key-value** sh
 
 | Key 									| Value							 |
 |-----------------------|--------------------|
-|appStoreUrl						|INSERT_APP_STORE_URL|
+|appStoreUrl          						|INSERT_APP_STORE_URL|
 |shareText							|INSERT_SHARE_TEXT|
 |shareUrl								|INSERT_SHARE_URL|
+|iTunesItemIdentifier                                     |INSERT_ITUNES_IDENTIFIER||                                    
 
 ##### Example:
 
@@ -392,6 +394,8 @@ The dictionary should be named `shareAndRate` and the following **key-value** sh
 			<string>INSERT_SHARE_TEXT</string>
 			<key>shareUrl</key>
 			<string>INSERT_SHARE_URL</string>
+			<key>iTunesItemIdentifier</key>
+			<string>INSERT_ITUNES_IDENTIFIER</string>
 		</dict>
 
 		***

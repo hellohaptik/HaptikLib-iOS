@@ -18,6 +18,16 @@ else {
 
 ---
 
+## InteractivePopGesture
+
+This BOOL controls the functionality of the `EdgePanGestureRecognizer` feature of UINavigationController that allows to set the slide to go back functionality for Haptik Screens. By default the value will be true.
+
+```
+[Haptik sharedSDK].useInteractivePopGesture = YES;
+```
+
+---
+
 
 ## Opening Conversation View Directly
 
