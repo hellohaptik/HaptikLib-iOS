@@ -9,6 +9,9 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Clients are given an option to use their Custom Fonts without adding Haptik's Custom Font Files
 - Clients are given the option to configure the functionality of InteractivePopGesture for Haptik Screens
 
+### Enhancements
+- CitrusPay is Removed as a Dependency
+
 ### Bugs
 - Black Bar Issue is Resolved
 - Navigation Bar Translucency Issue is FIxed
