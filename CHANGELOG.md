@@ -2,6 +2,22 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - (24/09/18) - Don't Angry Me
+
+
+### Features
+- Clients are given an option to use their Custom Fonts without adding Haptik's Custom Font Files
+- Clients are given the option to configure the functionality of InteractivePopGesture for Haptik Screens
+
+### Enhancements
+- CitrusPay is Removed as a Dependency
+
+### Bugs
+- Black Bar Issue is Resolved
+- Navigation Bar Translucency Issue is FIxed
+---
+
+
 ## [1.1.1] - (14/09/18) - Carpe Diem
 
 
