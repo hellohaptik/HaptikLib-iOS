@@ -19,7 +19,7 @@ Supported Device Orientation: **Portrait**
 1. Add the following dependencies in `Podfile` -
 	```
      pod 'HaptikLib', :git => 'https://github.com/hellohaptik/HaptikLib-iOS.git', :branch => 'master-enterprise'	
-	pod 'NativeSSOLogin', :git=>'https://bitbucket.org/agi_sso/nativessologin.git', :tag => '1.0.12'
+     pod 'NativeSSOLogin', :git=>'https://bitbucket.org/agi_sso/nativessologin.git', :tag => '1.0.12'
      pod 'Branch'
 	```
 
