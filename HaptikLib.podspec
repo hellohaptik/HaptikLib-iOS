@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.ios.preserve_paths = '**'
   s.dependency    'PINRemoteImage', '3.0.0-beta.13'
   s.dependency    'PINRemoteImage/WebP', '3.0.0-beta.13'
-  s.dependency    'PayUIndia-Custom-Browser'
+  s.dependency    'PayUIndia-Custom-Browser', '5.8.1'
   s.dependency    'GoogleMaps'
   s.dependency    'GooglePlaces'
   s.dependency    'GooglePlacePicker'
