@@ -2,6 +2,13 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - (26/10/18) - Hasee to Phasee
+
+### Features
+- Payment Gateway is Migrated to PayU from CitrusPay
+
+---
+
 ## [1.1.1] - (14/09/18) - Carpe Diem
 
 
