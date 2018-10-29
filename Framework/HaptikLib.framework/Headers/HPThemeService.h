@@ -25,6 +25,15 @@ NS_ASSUME_NONNULL_BEGIN
  A class method which builds the "HPThemeServiceBuilder" object and initalizes your "HPThemeService" object with the data provided.
  @param builderData : The builder data provided in the block.
  
+ @discussion
+ If you don't provide custom colors to HPThemeService then HaptikLib will use the default colors.
+ 
+ It's mandatory to provide all the font's to HPThemeService. Haptik provides it's custom font files that you have to add in your project and
+ register them in your info.plist file. HaptikLib will then automatically use them even if you don't pass the names in the builder.
+ 
+ If you wish to use your own font, pass all the required fonts in the builder, else the SDK will give an assert and exit.
+ 
+ 
  @code
  
  [Haptik sharedSDK].themeConfig = [HPThemeService buildWithData:^(HPThemeServiceBuilder * _Nullable builder) {
@@ -66,6 +75,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nullable, nonatomic, readonly) NSString *mediumFont;
 
+@property (nullable, nonatomic, readonly) NSString *boldFont;
+
+@property (nullable, nonatomic, readonly) NSString *semiBoldFont;
+
+@property (nullable, nonatomic, readonly) NSString *italicFont;
+
 @end
 
 
@@ -89,6 +104,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic) NSString *regularFont;
 
 @property (nullable, nonatomic) NSString *mediumFont;
+
+@property (nullable, nonatomic) NSString *boldFont;
+
+@property (nullable, nonatomic) NSString *semiBoldFont;
+
+@property (nullable, nonatomic) NSString *italicFont;
 
 
 - (HPThemeService *)build;

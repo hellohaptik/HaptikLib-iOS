@@ -113,10 +113,10 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 
 
 /*!
- Set Show Banners BOOL
- This BOOL controls the visibility of Banners on the Inbox Screen of Haptik. By default the value will be true.
+ Set Use InteractivePopGesture BOOL
+ This BOOL controls the functionality of the EdgePanGestureRecognizer feature of UINavigationController that allows to set the slide to go back functionality for Haptik Screens. By default the value will be true.
  */
-@property (nonatomic, assign) BOOL showBanners;
+@property (nonatomic, assign) BOOL useInteractivePopGesture;
 
 
 /*!
