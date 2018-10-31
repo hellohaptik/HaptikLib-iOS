@@ -5,16 +5,26 @@ To Signout the current user from Haptik, use the following method on `[Haptik sh
 ```
 [[Haptik sharedSDK] signoutFromHaptik:^(BOOL success, NSError * _Nullable error) {
 
-     if (success) {
+      if (success) {
 
-     }
-     else {
+      }
+      else {
 
-     }
- }];
+      }
+}];
 ```
 
 > **Note**: You have to set the device token again after the SignOut.
+
+---
+
+## InteractivePopGesture
+
+This BOOL controls the functionality of the `EdgePanGestureRecognizer` feature of UINavigationController that allows to set the slide to go back functionality for Haptik Screens. By default the value will be true.
+
+```
+[Haptik sharedSDK].useInteractivePopGesture = YES;
+```
 
 ---
 
