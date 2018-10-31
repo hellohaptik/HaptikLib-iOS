@@ -18,9 +18,7 @@ Supported Device Orientation: **Portrait**
 
 1. Add the following dependencies in `Podfile` -
 	```
-     pod 'HaptikLib', :git => 'https://github.com/hellohaptik/HaptikLib-iOS.git', :branch => 'master-enterprise'	
-     pod 'NativeSSOLogin', :git=>'https://bitbucket.org/agi_sso/nativessologin.git', :tag => '1.0.12'
-     pod 'Branch'
+     pod 'HaptikLib', :git => 'https://github.com/hellohaptik/HaptikLib-iOS.git', :branch => 'master-enterprise'     
 	```
 
 2. Run `pod install`
@@ -32,14 +30,53 @@ Supported Device Orientation: **Portrait**
 HaptikLib requires some permissions and custom properties to function.
 Add the following snippets in your `info.plist` file -
 
-1. Allow arbitrary network loads to be requested
+1. Enter the following exception domains for HaptikLib to work properly
 
 	```
 	<key>NSAppTransportSecurity</key>
-	  <dict>
-	       <key>NSAllowsArbitraryLoads</key>
-	       <true/>
-	  </dict>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>haptik-staging.s3.amazonaws.com</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+			<key>haptikapi.com</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+			<key>haptikdev.s3.amazonaws.com</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+			<key>staging.hellohaptik.com</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	```
+
+	or, you can allow Arbitrary Loads:
+
+	```
+	<key>NSAppTransportSecurity</key>
+  <dict>
+       <key>NSAllowsArbitraryLoads</key>
+       <true/>
+  </dict>
 	```
 
 2. Haptik only supports Portrait orientation
