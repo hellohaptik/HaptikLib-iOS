@@ -2,12 +2,27 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.4.0] - (05/12/18) - Keh Ke Loonga
+
+### Features
+- Convenience Fee is Added in Payments
+
+### Bugs
+- Fixes Coupons and Referral API Calls Failing Bug when the amount was in Float 
+- Fixes Haptik Wallet UI Distortion Bug when users balance was in Float
+- Fixes Closing Balance Discremency in the WalletHistoryTableView and WalletHistoryDetailVC
+- Fixes CleverTap Identity not found Fix
+
+---
+
+
 ## [1.3.0] - (26/10/18) - Hasee to Phasee
 
 ### Features
 - Payment Gateway is Migrated to PayU from CitrusPay
 
 ---
+
 
 ## [1.1.1] - (14/09/18) - Carpe Diem
 
