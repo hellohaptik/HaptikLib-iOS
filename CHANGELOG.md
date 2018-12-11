@@ -2,6 +2,14 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.4.1] - (11/12/18) - Lagi Shart
+
+### Bugs
+- Fixes previous coupon detail not showing on entering invalid promo code 
+
+---
+
+
 ## [1.4.0] - (05/12/18) - Keh Ke Loonga
 
 ### Features

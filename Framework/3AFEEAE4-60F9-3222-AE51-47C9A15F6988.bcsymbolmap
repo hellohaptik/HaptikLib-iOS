@@ -9966,16 +9966,14 @@ ___51-[EnterCodeViewController performCouponValidation:]_block_invoke_2
 ___51-[EnterCodeViewController performCouponValidation:]_block_invoke_3
 -[EnterCodeViewController performReferralValidation]
 ___52-[EnterCodeViewController performReferralValidation]_block_invoke
-___copy_helper_block_.1676
-___destroy_helper_block_.1677
 -[EnterCodeViewController dismissKeyboardOnTap]
 -[EnterCodeViewController textField:shouldChangeCharactersInRange:replacementString:]
 -[EnterCodeViewController textFieldShouldClear:]
 -[EnterCodeViewController textFieldShouldReturn:]
 -[EnterCodeViewController fireReferralAppliedAnalyticsForCode:]
 ___63-[EnterCodeViewController fireReferralAppliedAnalyticsForCode:]_block_invoke
-___copy_helper_block_.1700
-___destroy_helper_block_.1701
+___copy_helper_block_.1702
+___destroy_helper_block_.1703
 -[EnterCodeViewController dataObject]
 -[EnterCodeViewController setDataObject:]
 -[EnterCodeViewController codeField]
@@ -9992,8 +9990,9 @@ _OBJC_IVAR_$_EnterCodeViewController.applyReferral
 _OBJC_IVAR_$_EnterCodeViewController.codeField
 _OBJC_IVAR_$_EnterCodeViewController.enterLab
 _OBJC_IVAR_$_EnterCodeViewController._delegate
-___block_descriptor_tmp.1679
-___block_descriptor_tmp.1702
+___block_descriptor_tmp.1670
+___block_descriptor_tmp.1681
+___block_descriptor_tmp.1704
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Payments/Coupon Offers/Promo Code VC/EnterCodeViewController.m
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Payments/Coupon Offers/Promo Code VC/EnterCodeViewController.h
 __63-[EnterCodeViewController fireReferralAppliedAnalyticsForCode:]_block_invoke
@@ -12658,6 +12657,8 @@ ___destroy_helper_block_.1664
 ___48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke
 ___48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke_2
 ___48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke_3
+___copy_helper_block_.1676
+___destroy_helper_block_.1677
 ___48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke.1679
 -[Haptik signUpUserWithSSO:]
 ___28-[Haptik signUpUserWithSSO:]_block_invoke
