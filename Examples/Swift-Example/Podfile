@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+  platform :ios, '9.0'
+
+target 'Swift-Example' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Swift-Example
+  pod 'HaptikLib', :path => '../../'
+    
+  # You don't need this pod if you are using the Enterprise SDK
+  pod 'NativeSSOLogin', :git=>'https://bitbucket.org/agi_sso/nativessologin.git', :tag => '1.0.12'
+
+end

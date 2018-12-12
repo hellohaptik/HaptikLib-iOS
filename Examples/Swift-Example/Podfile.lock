@@ -1,0 +1,112 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.7.0):
+    - GoogleMaps (= 2.7.0)
+    - GooglePlaces (= 2.7.0)
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - HaptikLib (1.4.1):
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - PayUIndia-Custom-Browser (= 5.8.1)
+    - PINRemoteImage (= 3.0.0-beta.13)
+    - PINRemoteImage/WebP (= 3.0.0-beta.13)
+  - libwebp (1.0.0):
+    - libwebp/core (= 1.0.0)
+    - libwebp/dec (= 1.0.0)
+    - libwebp/demux (= 1.0.0)
+    - libwebp/dsp (= 1.0.0)
+    - libwebp/enc (= 1.0.0)
+    - libwebp/mux (= 1.0.0)
+    - libwebp/utils (= 1.0.0)
+    - libwebp/webp (= 1.0.0)
+  - libwebp/core (1.0.0):
+    - libwebp/webp
+  - libwebp/dec (1.0.0):
+    - libwebp/core
+  - libwebp/demux (1.0.0):
+    - libwebp/core
+  - libwebp/dsp (1.0.0):
+    - libwebp/core
+  - libwebp/enc (1.0.0):
+    - libwebp/core
+  - libwebp/mux (1.0.0):
+    - libwebp/core
+  - libwebp/utils (1.0.0):
+    - libwebp/core
+  - libwebp/webp (1.0.0)
+  - NativeSSOLogin (1.0.12)
+  - PayUIndia-Custom-Browser (5.8.1)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage (3.0.0-beta.13):
+    - PINRemoteImage/FLAnimatedImage (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache (= 3.0.0-beta.13)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/FLAnimatedImage (3.0.0-beta.13):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - PINRemoteImage/WebP (3.0.0-beta.13):
+    - libwebp
+    - PINRemoteImage/Core
+
+DEPENDENCIES:
+  - HaptikLib (from `../../`)
+  - NativeSSOLogin (from `https://bitbucket.org/agi_sso/nativessologin.git`, tag `1.0.12`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FLAnimatedImage
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - libwebp
+    - PayUIndia-Custom-Browser
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+
+EXTERNAL SOURCES:
+  HaptikLib:
+    :path: "../../"
+  NativeSSOLogin:
+    :git: https://bitbucket.org/agi_sso/nativessologin.git
+    :tag: 1.0.12
+
+CHECKOUT OPTIONS:
+  NativeSSOLogin:
+    :git: https://bitbucket.org/agi_sso/nativessologin.git
+    :tag: 1.0.12
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlacePicker: 59ea44db173c58486ad6123993e81feefcbce9c3
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  HaptikLib: ace83e34c8517477988508574cd9d38b46ac67f1
+  libwebp: d7e0c95fe97245c97e08101eba10702ebb0f6101
+  NativeSSOLogin: b81acc6e47bef8f4d55776d7cd0c778cd6a1b7f8
+  PayUIndia-Custom-Browser: 27dc0dc866f817dcd96e9ffca8b002827a0912b2
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+
+PODFILE CHECKSUM: 8f9429fa0d25b143bb1b990c20e72e6fc45b3149
+
+COCOAPODS: 1.5.3
