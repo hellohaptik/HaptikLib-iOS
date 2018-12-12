@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		36AD21DB3733FBB10062D87F /* Pods_Swift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E42887D871BEC4EBCAFFC4 /* Pods_Swift_Example.framework */; };
 		701A85A521C0B656004C49DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701A85A421C0B656004C49DD /* AppDelegate.swift */; };
-		701A85A721C0B656004C49DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701A85A621C0B656004C49DD /* ViewController.swift */; };
+		701A85A721C0B656004C49DD /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701A85A621C0B656004C49DD /* RootViewController.swift */; };
 		701A85AA21C0B656004C49DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701A85A821C0B656004C49DD /* Main.storyboard */; };
 		701A85AC21C0B658004C49DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701A85AB21C0B658004C49DD /* Assets.xcassets */; };
 		701A85C521C0BFDB004C49DD /* SF-UI-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 701A85BC21C0BFDB004C49DD /* SF-UI-Text-LightItalic.otf */; };
@@ -28,7 +28,7 @@
 		09CD2E240BB46EC049F48C5D /* Pods-Swift-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-Example/Pods-Swift-Example.release.xcconfig"; sourceTree = "<group>"; };
 		701A85A121C0B656004C49DD /* Swift-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		701A85A421C0B656004C49DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		701A85A621C0B656004C49DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		701A85A621C0B656004C49DD /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		701A85A921C0B656004C49DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		701A85AB21C0B658004C49DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		701A85BC21C0BFDB004C49DD /* SF-UI-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-LightItalic.otf"; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		701A85B721C0BC4E004C49DD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				701A85A621C0B656004C49DD /* ViewController.swift */,
+				701A85A621C0B656004C49DD /* RootViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -335,7 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				701A85A721C0B656004C49DD /* ViewController.swift in Sources */,
+				701A85A721C0B656004C49DD /* RootViewController.swift in Sources */,
 				701A85A521C0B656004C49DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
