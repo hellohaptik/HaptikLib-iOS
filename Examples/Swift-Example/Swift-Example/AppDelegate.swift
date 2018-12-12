@@ -25,6 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If you need the callbacks of the analytics data that haptik sends
         Haptik.sharedSDK().analyticsCallbackObject = self;
         
+        setHaptikTheme()
+        
         return true
     }
 
@@ -73,6 +75,30 @@ extension AppDelegate {
                 
                 Haptik.sharedSDK().handleNotification(userInfo: userInfo, controller: controller.visibleViewController!)
             }
+        }
+    }
+    
+    func setHaptikTheme() {
+        
+        // NOTE: Haptik only gives instances of viewControllers. When you push them on your stack, the navigationBar is still the yours, hence it's appearance too.
+        
+        // The following there configuration is the default configuration. If you don't provide one then the SDK will try to adopt the following.
+        
+        Haptik.sharedSDK().themeConfig = HPThemeService.build { (builder) in
+            
+            builder?.brandColor = UIColor(hexString: "#2196f3")
+            builder?.businessChatBackground = UIColor(hexString: "#f0f0f0")
+            builder?.businessChatText = UIColor(hexString: "#333333")
+            builder?.messageTimeStamp = UIColor(hexString: "#777777")
+            
+            // Providing Fonts are Madatory else the SDK will Assert
+            
+            builder?.lightFont = "SFUIText-Light"
+            builder?.regularFont = "SFUIText-Regular"
+            builder?.mediumFont = "SFUIText-Medium"
+            builder?.boldFont = "SFUIText-Bold"
+            builder?.semiBoldFont = "SFUIText-Semibold"
+            builder?.italicFont = "SFUIText-Italic"
         }
     }
 }
