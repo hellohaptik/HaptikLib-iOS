@@ -23,6 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Required for Enterprise Clients
         Haptik.sharedSDK().useInbox = false
         
+        // If you need the callbacks of the analytics data that haptik sends
+        Haptik.sharedSDK().analyticsCallbackObject = self;
+        
         return true
     }
 
@@ -64,6 +67,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 Haptik.sharedSDK().handleNotification(userInfo: userInfo, controller: controller.visibleViewController!)
             }
         }
+    }
+}
+
+// MARK: - HPAnalytics Service Delegates
+
+extension AppDelegate: HPAnalyticsServiceDelegate {
+    
+    func eventTracked(_ eventName: String, forParams params: [AnyHashable : Any]?) {
+     
+        // Get all the events tracked here
+    }
+    
+    func errorTracked(_ errorMessage: String, forError error: Error?) {
+     
+        // Get all the errors tracked here
     }
 }
 
