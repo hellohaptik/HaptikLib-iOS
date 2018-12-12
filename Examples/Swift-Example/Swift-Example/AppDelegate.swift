@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import HaptikLib
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,32 +16,54 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Required at the Initial Launch of the Application
+        Haptik.sharedSDK().notify(application, launchedWithOptions: launchOptions)
+        
+        // Required for Enterprise Clients
+        Haptik.sharedSDK().useInbox = false
+        
         return true
     }
 
-    func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        // Let Haptik handle the redirect if required
+        
+        let isHandledByHaptik = Haptik.sharedSDK().isRedirectHandled(url, options: options)
+        return isHandledByHaptik
     }
 
-    func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        
+        // You need to pass the Device Token after the user successfully signs up in Haptik. Till that you need to store it in your application.
+        
+        UserDefaults.standard.set(deviceToken, forKey: "kDeviceToken")
+        UserDefaults.standard.synchronize()
     }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
+        
+        let isHaptikNotification = Haptik.sharedSDK().canHandleNotification(userInfo: userInfo as! [String : Any])
+        
+        if isHaptikNotification {
+            
+            print("Do Housekeeping")
+            handleNotificationInteraction(userInfo as! [String : Any])
+        }
     }
-
-    func applicationDidBecomeActive(_ application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    func handleNotificationInteraction(_ userInfo: [String: Any]) {
+        
+        if let rootVC = self.window?.rootViewController {
+            if let controller = rootVC as? UINavigationController {
+                
+                // You need to pass an instance of a viewController from which the user will be taken to the conversationViewController (where the user will be conversing)
+                // on the tap of the Notification
+                
+                Haptik.sharedSDK().handleNotification(userInfo: userInfo, controller: controller.visibleViewController!)
+            }
+        }
     }
-
-    func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    }
-
-
 }
 

@@ -41,6 +41,7 @@ PODS:
   - libwebp/utils (1.0.0):
     - libwebp/core
   - libwebp/webp (1.0.0)
+  - NativeSSOLogin (1.0.12)
   - PayUIndia-Custom-Browser (5.8.1)
   - PINCache (3.0.1-beta.6):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
@@ -67,6 +68,7 @@ PODS:
 
 DEPENDENCIES:
   - HaptikLib (from `../../`)
+  - NativeSSOLogin (from `https://bitbucket.org/agi_sso/nativessologin.git`, tag `1.0.12`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -83,6 +85,14 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   HaptikLib:
     :path: "../../"
+  NativeSSOLogin:
+    :git: https://bitbucket.org/agi_sso/nativessologin.git
+    :tag: 1.0.12
+
+CHECKOUT OPTIONS:
+  NativeSSOLogin:
+    :git: https://bitbucket.org/agi_sso/nativessologin.git
+    :tag: 1.0.12
 
 SPEC CHECKSUMS:
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
@@ -91,11 +101,12 @@ SPEC CHECKSUMS:
   GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
   HaptikLib: ace83e34c8517477988508574cd9d38b46ac67f1
   libwebp: d7e0c95fe97245c97e08101eba10702ebb0f6101
+  NativeSSOLogin: b81acc6e47bef8f4d55776d7cd0c778cd6a1b7f8
   PayUIndia-Custom-Browser: 27dc0dc866f817dcd96e9ffca8b002827a0912b2
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
 
-PODFILE CHECKSUM: 542330f790119466203e45659186171e77b7eedd
+PODFILE CHECKSUM: 8f9429fa0d25b143bb1b990c20e72e6fc45b3149
 
 COCOAPODS: 1.5.3
