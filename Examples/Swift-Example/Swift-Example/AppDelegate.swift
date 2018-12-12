@@ -25,7 +25,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If you need the callbacks of the analytics data that haptik sends
         Haptik.sharedSDK().analyticsCallbackObject = self;
         
+        // Setup UI Theme for Haptik
         setHaptikTheme()
+        
+        // Interactive Pop Gesture
+        
+        // This BOOL controls the functionality of the EdgePanGestureRecognizer feature of UINavigationController
+        // that allows to set the slide to go back functionality for Haptik Screens. By default the value will be true.
+        
+        Haptik.sharedSDK().useInteractivePopGesture = true
         
         return true
     }
