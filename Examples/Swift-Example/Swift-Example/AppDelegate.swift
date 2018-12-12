@@ -14,7 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         // Required at the Initial Launch of the Application
@@ -47,6 +46,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
         
+        // Check if the notification received belongs to haptik and take action accordingly
+        
         let isHaptikNotification = Haptik.sharedSDK().canHandleNotification(userInfo: userInfo as! [String : Any])
         
         if isHaptikNotification {
@@ -55,6 +56,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             handleNotificationInteraction(userInfo as! [String : Any])
         }
     }
+}
+
+
+//MARK: Helper Methods
+
+extension AppDelegate {
     
     func handleNotificationInteraction(_ userInfo: [String: Any]) {
         
@@ -69,6 +76,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 }
+
 
 // MARK: - HPAnalytics Service Delegates
 
