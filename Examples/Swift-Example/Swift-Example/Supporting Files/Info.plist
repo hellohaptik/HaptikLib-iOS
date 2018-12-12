@@ -30,11 +30,11 @@
 			<string></string>
 		</dict>
 		<key>apiKey</key>
-		<string>ApiKey oyo-rooms:dabe06a194f7978a0df62a3e76d081edb08d1831</string>
+		<string>API_KEY_HERE</string>
 		<key>baseUrl</key>
-		<string>https://staging.hellohaptik.com</string>
+		<string>BASE_URL_HERE</string>
 		<key>clientID</key>
-		<string>0c41d12935733f4ceab7073966e752ab77a58b3e</string>
+		<string>CLIENT_ID_HERE</string>
 		<key>runEnvironment</key>
 		<string>1</string>
 		<key>shareAndRate</key>
