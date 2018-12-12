@@ -128,7 +128,7 @@ Add the following snippets in your `info.plist` file -
 	<key>HaptikLib</key>
 	<dict>
 	  <key>apiKey</key>
-	  <string>INSERT_API_KEY_HERE</string>
+	  <string> in format: "ApiKey `CLIENT_NAME_HERE`:`INSERT_API_KEY_HERE`"</string>
 	  <key>baseUrl</key>
 	  <string>INSERT_BASE_URL_HERE</string>
 	  <key>clientID</key>
