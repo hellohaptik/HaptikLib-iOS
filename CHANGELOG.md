@@ -2,6 +2,14 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.4.2] - (21/12/18) - Lagi Shart
+
+### Bugs
+- Fixes Smart Action Crashes
+
+---
+
+
 ## [1.3.2] - (13/11/18) - Ishq Tera Tadpave
 
 ### Bugs
