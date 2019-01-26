@@ -1,6 +1,4 @@
 .framework filter=lfs diff=lfs merge=lfs -text
-Framework/HaptikLib.framework/HaptikLib filter=lfs diff=lfs merge=lfs -text
-Framework/HaptikLib.framework/Frameworks/libswiftCore.dylib filter=lfs diff=lfs merge=lfs -text
-Framework/HaptikLib.framework/Frameworks/libswiftDispatch.dylib filter=lfs diff=lfs merge=lfs -text
-Framework/HaptikLib.framework/Frameworks/libswiftFoundation.dylib filter=lfs diff=lfs merge=lfs -text
-Framework/HaptikLib.framework.dSYM/Contents/Resources/DWARF/HaptikLib filter=lfs diff=lfs merge=lfs -text
+Frameworks/Core/HaptikLib.framework/HaptikLib filter=lfs diff=lfs merge=lfs -text
+Frameworks/Core/HaptikLib.framework.dSYM/Contents/Resources/DWARF/HaptikLib filter=lfs diff=lfs merge=lfs -text
+Frameworks/Core/HaptikLib.framework/Assets.car filter=lfs diff=lfs merge=lfs -text
