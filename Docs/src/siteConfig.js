@@ -19,15 +19,15 @@ const siteConfig = {
 
   headerLinks: [
     {
-      page: '#getting-started',
+      page: '/docs_haptik/#getting-started',
       label: 'Getting Started',
     },
     {
-      page: '#tools',
+      page: '/docs_haptik/#tools',
       label: 'Tools',
     },
     {
-      page: '#integrations',
+      page: 'docs_haptik/#integrations',
       label: 'Integrations',
     },
   ],

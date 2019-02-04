@@ -69,6 +69,10 @@
 .footer-column-link {
   display: block;
   margin-bottom: 8px;
+  color: #FFF;
+}
+.footer-column-link:hover {
+  color: #FFF;
 }
 
 .copyright {
