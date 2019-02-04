@@ -1,13 +1,17 @@
+---
+title: Payments
+---
+
 ## Step 1 (Permissions Needed)
 
-* Privacy - Contacts Usage Description. For user to select phone numbers from it's contacts list (to make a recharge, etc), this permission is required. Add the following snippet:
+- Privacy - Contacts Usage Description. For user to select phone numbers from it's contacts list (to make a recharge, etc), this permission is required. Add the following snippet:
 
 ```
 <key>NSContactsUsageDescription</key>
 	<string>INSERT_YOUR_DESCRIPTION_HERE</string>
 ```
 
-* For making work payments through AmazonPay, you need to add a Custom URL Type in your `Info.plist` file. Add the following snippet:
+- For making work payments through AmazonPay, you need to add a Custom URL Type in your `Info.plist` file. Add the following snippet:
 
 ```
 <key>CFBundleURLTypes</key>
@@ -77,10 +81,9 @@ Example:
 
 - In the `completion`, you get two parameters:
 
-	- `success`: Indicates whether the user is verified or not.
+      	- `success`: Indicates whether the user is verified or not.
 
-	- `haptikWalletVC`: You'll get the instance of the `Haptik Wallet VC` only if the user is verified, which you'll know from the `success` param.
-
+      	- `haptikWalletVC`: You'll get the instance of the `Haptik Wallet VC` only if the user is verified, which you'll know from the `success` param.
 
 ###### Can I get the current wallet balance of the user?
 
@@ -95,11 +98,9 @@ Returns `String` value of User's **Haptik Wallet Balance**. Will return `nil` if
 - User's wallet has not been created yet.
 - Haptik Wallet Servers are currently down.
 
-
 ###### How will I know if the user's wallet balance is updated?
 
 Everytime the user's wallet balance is updated, HaptikLib fires a Notification named `HPWalletBalanceUpdated` for you to observe. You'll get the updated wallet balance of the user in the same function mentioned above.
-
 
 ---
 
@@ -134,9 +135,8 @@ Example:
 
 - In the `completion`, you get two parameters:
 
-	- `success`: Indicates whether the user is verified or not.
+      	- `success`: Indicates whether the user is verified or not.
 
-	- `transactionsVC`: You'll get the instance of the `Transaction History VC` only if the user is verified, which you'll know from the `success` param.
-
+      	- `transactionsVC`: You'll get the instance of the `Transaction History VC` only if the user is verified, which you'll know from the `success` param.
 
 ---
