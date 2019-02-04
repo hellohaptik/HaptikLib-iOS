@@ -1,3 +1,7 @@
+---
+title: Features
+---
+
 ## SignOut
 
 To Signout the current user from Haptik, use the following method on `[Haptik sharedSDK]`:
@@ -28,7 +32,6 @@ This BOOL controls the functionality of the `EdgePanGestureRecognizer` feature o
 
 ---
 
-
 ## Opening Conversation View Directly
 
 Once the user has been signed up, you also have the ability to open Conversation View for a specific channel directly. It needs to be Initialized with the unique business name of the channel that you wish to open Conversation for and an optional message text (can be `nil`) if you want to log any.
@@ -40,7 +43,6 @@ Example:
                                   message:@"INSERT_CUSTOM_MESSAGE_TEXT_HERE"
                                controller:visibleViewController];
 ```
-
 
 ---
 
@@ -59,7 +61,7 @@ Example:
 ```
 [[Haptik sharedSDK] getUnreadCountWithCompletion:^(NSUInteger unreadCount) {
 
-        // Use the unread count here        
+        // Use the unread count here
     }];
 ```
 
