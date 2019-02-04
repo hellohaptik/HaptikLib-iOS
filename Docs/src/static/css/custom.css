@@ -57,6 +57,10 @@ a {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+.fixedHeaderContainer h3 {
+  color: #0C4DA2 !important;
+}
+
 @media only screen and (max-width: 1023px) {
   .slidingNav {
     background-color: #FFF;
