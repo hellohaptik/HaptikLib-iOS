@@ -5,7 +5,7 @@ module.exports = () => (
   <script
     dangerouslySetInnerHTML={{
       __html: `
-        window.location = '${siteConfig.baseUrl}docs/integration-guide'
+        window.location = '${siteConfig.baseUrl}integration-guide'
       `
     }}
   />

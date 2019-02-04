@@ -12,24 +12,24 @@ const siteConfig = {
   title: 'Haptik iOS SDK' /* title for your website */,
   tagline: 'Integration Documentation',
   url: 'https://hellohaptik.github.io/' /* your website url */,
-  baseUrl: '/ios_sdk/' /* base url for your project */,
+  baseUrl: '/HaptikLib-iOS/' /* base url for your project */,
   cleanUrl: true,
   projectName: 'HaptikLib-iOS',
   organizationName: 'hellohaptik',
 
   headerLinks: [
     {
-      page: '/docs_haptik/#getting-started',
-      label: 'Getting Started',
+      href: '/docs_haptik/#getting-started',
+      label: 'Getting Started'
     },
     {
-      page: '/docs_haptik/#tools',
-      label: 'Tools',
+      href: '/docs_haptik/#tools',
+      label: 'Tools'
     },
     {
-      page: 'docs_haptik/#integrations',
-      label: 'Integrations',
-    },
+      href: '/docs_haptik/#integrations',
+      label: 'Integrations'
+    }
   ],
 
   headerIcon: 'img/image_0.png',
@@ -38,7 +38,7 @@ const siteConfig = {
 
   colors: {
     primaryColor: '#333',
-    secondaryColor: '#205C3B',
+    secondaryColor: '#205C3B'
   },
 
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
@@ -46,7 +46,7 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
-    theme: 'default',
+    theme: 'default'
   },
 
   // Add custom scripts here that would be placed in <script> tags
@@ -60,6 +60,14 @@ const siteConfig = {
   twitterImage: 'img/image_0.png',
 
   customDocsPath: 'pages',
+  enableUpdateTime: true,
+  docsUrl: '',
+  fonts: {
+    myFont: ['Roboto', 'sans-serif'],
+    myOtherFont: ['Roboto', 'sans-serif']
+  },
+
+  gaTrackingId: 'UA-106563119-5'
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
