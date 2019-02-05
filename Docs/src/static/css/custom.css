@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1500px) {
+  .wrapper {
+    max-width: 1300px !important;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #0C4DA2;
+}
+
+.headerTitleWithLogo {
+  font-weight: 500;
+  color: #333;
+  display: flex !important;
+  align-items: center;
+}
+
+.headerTitleWithLogo span {
+  font-size: 14px;
+  color: #666;
+  padding-left: 6px;
+  padding-top: 2px;
+}
+
+.slidingNav .nav-site {
+  margin-bottom: 0;
+}
+
+.nav-site li a {
+  font-weight: 500 !important;
+  color: #666 !important;
+  background-color: #fff !important;
+}
+
+.nav-site li:hover {
+  background-color: #fff !important;
+}
+
+.nav-site li a:hover {
+  color: #000 !important;
+  background-color: transparent !important;
+}
+
+.nav-site li.siteNavGroupActive a {
+  color: #0C4DA2 !important;
+  background-color: transparent !important;
+  pointer-events: none;
+}
+
+.fixedHeaderContainer {
+  background-color: #FFF;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.fixedHeaderContainer h3 {
+  color: #0C4DA2 !important;
+}
+
+@media only screen and (max-width: 1023px) {
+  .slidingNav {
+    background-color: #FFF;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+}
+
+
+.fbOpenSource {
+  width: auto !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
