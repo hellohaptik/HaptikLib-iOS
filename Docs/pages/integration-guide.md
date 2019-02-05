@@ -416,8 +416,8 @@ The dictionary should be named `shareAndRate` and the following **key-value** sh
 ```
 <key>HaptikLib</key>
 	<dict>
-    <key>clientID</key>
-    <string>INSERT_CLIENT_ID_HERE</string>
+    		<key>clientID</key>
+    		<string>INSERT_CLIENT_ID_HERE</string>
 		<key>baseUrl</key>
 		<string>INSERT_BASE_URL_HERE</string>
 		<key>runEnvironment</key>
