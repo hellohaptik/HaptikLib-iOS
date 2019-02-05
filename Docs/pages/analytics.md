@@ -1,6 +1,10 @@
+---
+title: Analytics
+---
+
 ## HaptikLib Analytics
 
-HaptikLib uses **Analytics** internally and also *provides the functionality of giving callbacks for every event tracking*. `HPAnalyticsServiceDelegate` **protocol** is defined in `Haptik.h` class under which two optional methods are defined which are called if you confirm to the respective protocol. The class has a property named `analyticsCallbackObject` of type `HPAnalyticsServiceDelegate` which the application needs to set with the object that will confirm to the protocol.
+HaptikLib uses **Analytics** internally and also _provides the functionality of giving callbacks for every event tracking_. `HPAnalyticsServiceDelegate` **protocol** is defined in `Haptik.h` class under which two optional methods are defined which are called if you confirm to the respective protocol. The class has a property named `analyticsCallbackObject` of type `HPAnalyticsServiceDelegate` which the application needs to set with the object that will confirm to the protocol.
 
 Example:
 
@@ -29,23 +33,22 @@ Example:
 
 ---
 
-
 ## CleverTap Setup
 
 HaptikLib also comes with CleverTap inbuilt 🙌🏻. You just have to enter the CleverTap Credentials provided to you in the `HapikLib` dictionary which you added for the credentials during the initialization.
 
 A dictionary with the name `CleverTap` is to be added in `HaptikLib`. The dictionary will have the following two **key-value** pairs:
 
-| Key 									| Value							 |
-|-----------------------|--------------------|
-|CleverTapAccountID			|INSERT_CLEVER_TAP_ACCOUNT_ID|
-|CleverTapToken					|INSERT_CLEVER_TAP_TOKEN|
+| Key                | Value                        |
+| ------------------ | ---------------------------- |
+| CleverTapAccountID | INSERT_CLEVER_TAP_ACCOUNT_ID |
+| CleverTapToken     | INSERT_CLEVER_TAP_TOKEN      |
 
 Example:
 
 ```
 <key>HaptikLib</key>
-	<dict>		
+	<dict>
     <key>apiKey</key>
     <string>INSERT_API_KEY_HERE</string>
     <key>baseUrl</key>
