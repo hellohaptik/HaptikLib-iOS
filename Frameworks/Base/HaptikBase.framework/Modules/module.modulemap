@@ -1,0 +1,6 @@
+framework module HaptikBase {
+  umbrella header "HaptikBase.h"
+
+  export *
+  module * { export * }
+}
