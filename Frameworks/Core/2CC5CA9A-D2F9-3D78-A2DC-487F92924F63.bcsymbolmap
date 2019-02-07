@@ -1245,7 +1245,7 @@ ___93+[ChatformViewHelper getContactPickerField:formFields:actionHelper:sendButt
 +[ChatformViewHelper getFinalChatformViewWith:chatMessage:]
 ___block_descriptor_tmp.385
 ___block_literal_global.386
-___block_descriptor_tmp.526
+___block_descriptor_tmp.528
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Chatforms/ChatformViewHelper.m
 __93+[ChatformViewHelper getContactPickerField:formFields:actionHelper:sendButton:referenceRect:]_block_invoke
 __43+[ChatformViewHelper containsSmartFormsIn:]_block_invoke
@@ -1546,11 +1546,8 @@ ___38+[HPCoreLocationHelper sharedInstance]_block_invoke
 -[HPCoreLocationHelper getAddressFor:longitude:success:]
 ___56-[HPCoreLocationHelper getAddressFor:longitude:success:]_block_invoke
 ___56-[HPCoreLocationHelper getAddressFor:longitude:success:]_block_invoke_2
-___56-[HPCoreLocationHelper getAddressFor:longitude:success:]_block_invoke_3
-___copy_helper_block_.1214
-___destroy_helper_block_.1215
-___copy_helper_block_.1219
-___destroy_helper_block_.1220
+___copy_helper_block_.1209
+___destroy_helper_block_.1210
 -[HPCoreLocationHelper coreLocationManager]
 -[HPCoreLocationHelper setCoreLocationManager:]
 -[HPCoreLocationHelper controller]
@@ -1558,15 +1555,13 @@ ___destroy_helper_block_.1220
 -[HPCoreLocationHelper .cxx_destruct]
 _sharedInstance.once
 _OBJC_IVAR_$_HPCoreLocationHelper.coreLocationManager
-___block_descriptor_tmp.1213
-___block_descriptor_tmp.1216
-___block_descriptor_tmp.1222
+___block_descriptor_tmp.1208
+___block_descriptor_tmp.1212
 _OBJC_IVAR_$_HPCoreLocationHelper._controller
 l_OBJC_PROTOCOL_$_CLLocationManagerDelegate
 l_OBJC_LABEL_PROTOCOL_$_CLLocationManagerDelegate
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Location Services/Core Location Helper/HPCoreLocationHelper.m
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Location Services/Core Location Helper/HPCoreLocationHelper.h
-__56-[HPCoreLocationHelper getAddressFor:longitude:success:]_block_invoke_3
 __56-[HPCoreLocationHelper getAddressFor:longitude:success:]_block_invoke_2
 __56-[HPCoreLocationHelper getAddressFor:longitude:success:]_block_invoke
 __38+[HPCoreLocationHelper sharedInstance]_block_invoke
@@ -2414,8 +2409,6 @@ _OBJC_IVAR_$_SmartFormTableViewCell.imageView
 -[HaptikWalletViewModel fetchTransactionHistory]
 ___48-[HaptikWalletViewModel fetchTransactionHistory]_block_invoke
 ___48-[HaptikWalletViewModel fetchTransactionHistory]_block_invoke_2
-___copy_helper_block_.1209
-___destroy_helper_block_.1210
 -[HaptikWalletViewModel fetchUserWalletData]
 ___44-[HaptikWalletViewModel fetchUserWalletData]_block_invoke
 ___44-[HaptikWalletViewModel fetchUserWalletData]_block_invoke_2
@@ -2453,7 +2446,6 @@ ___destroy_helper_block_.1258
 _OBJC_IVAR_$_HaptikWalletViewModel.start
 _OBJC_IVAR_$_HaptikWalletViewModel.isComingBackFromRefund
 _OBJC_IVAR_$_HaptikWalletViewModel.shouldDisableRefresh
-___block_descriptor_tmp.1212
 ___block_descriptor_tmp.1219
 ___block_descriptor_tmp.1223
 _OBJC_IVAR_$_HaptikWalletViewModel.shouldLoadNextPage
@@ -4437,33 +4429,30 @@ ___80-[AddressPickerHelper customIOS7dialogButtonTouchUpInside:clickedButtonAtIn
 ___48-[AddressPickerHelper placePicker:didPickPlace:]_block_invoke
 ___copy_helper_block_.1378
 ___destroy_helper_block_.1379
-___48-[AddressPickerHelper placePicker:didPickPlace:]_block_invoke.1387
-___48-[AddressPickerHelper placePicker:didPickPlace:]_block_invoke_2
-___copy_helper_block_.1403
-___destroy_helper_block_.1404
-___copy_helper_block_.1406
-___destroy_helper_block_.1407
+___48-[AddressPickerHelper placePicker:didPickPlace:]_block_invoke.1397
+___copy_helper_block_.1398
+___destroy_helper_block_.1399
 +[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]
 ___75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke
 ___75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke_2
 ___75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke_3
 ___75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke_4
-___copy_helper_block_.1419
-___destroy_helper_block_.1420
-___copy_helper_block_.1424
-___destroy_helper_block_.1425
-___75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke.1434
-___75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke_2.1435
+___copy_helper_block_.1414
+___destroy_helper_block_.1415
+___75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke.1424
+___75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke_2.1425
+___copy_helper_block_.1426
+___destroy_helper_block_.1427
+___copy_helper_block_.1431
+___destroy_helper_block_.1432
 ___copy_helper_block_.1436
 ___destroy_helper_block_.1437
-___copy_helper_block_.1446
-___destroy_helper_block_.1447
-___copy_helper_block_.1449
-___destroy_helper_block_.1450
+___copy_helper_block_.1439
+___destroy_helper_block_.1440
 +[AddressPickerHelper trackAddressActivityWithDescription:onScreen:fieldName:]
 ___78+[AddressPickerHelper trackAddressActivityWithDescription:onScreen:fieldName:]_block_invoke
-___copy_helper_block_.1455
-___destroy_helper_block_.1456
+___copy_helper_block_.1445
+___destroy_helper_block_.1446
 -[AddressPickerHelper addressIndexPath]
 -[AddressPickerHelper setAddressIndexPath:]
 -[AddressPickerHelper actionable]
@@ -4491,14 +4480,13 @@ ___block_literal_global.1326
 ___block_descriptor_tmp.1330
 _OBJC_IVAR_$_AddressPickerHelper.placePickerCompletion
 ___block_descriptor_tmp.1381
-___block_descriptor_tmp.1405
-___block_descriptor_tmp.1408
-___block_descriptor_tmp.1421
-___block_descriptor_tmp.1427
+___block_descriptor_tmp.1400
+___block_descriptor_tmp.1417
+___block_descriptor_tmp.1428
+___block_descriptor_tmp.1433
 ___block_descriptor_tmp.1438
-___block_descriptor_tmp.1448
-___block_descriptor_tmp.1452
-___block_descriptor_tmp.1457
+___block_descriptor_tmp.1442
+___block_descriptor_tmp.1447
 _OBJC_IVAR_$_AddressPickerHelper.delegate
 l_OBJC_PROTOCOL_$_CustomIOSAlertViewDelegate
 l_OBJC_LABEL_PROTOCOL_$_CustomIOSAlertViewDelegate
@@ -4507,14 +4495,13 @@ l_OBJC_LABEL_PROTOCOL_$_GMSPlacePickerViewControllerDelegate
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Location Services/Address Picker/AddressPickerHelper.m
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Location Services/Address Picker/AddressPickerHelper.h
 __78+[AddressPickerHelper trackAddressActivityWithDescription:onScreen:fieldName:]_block_invoke
-__75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke_2.1435
-__75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke.1434
+__75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke_2.1425
+__75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke.1424
 __75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke_4
 __75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke_3
 __75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke_2
 __75+[AddressPickerHelper getAddressToController:inEditingMode:withCompletion:]_block_invoke
-__48-[AddressPickerHelper placePicker:didPickPlace:]_block_invoke_2
-__48-[AddressPickerHelper placePicker:didPickPlace:]_block_invoke.1387
+__48-[AddressPickerHelper placePicker:didPickPlace:]_block_invoke.1397
 __48-[AddressPickerHelper placePicker:didPickPlace:]_block_invoke
 __80-[AddressPickerHelper customIOS7dialogButtonTouchUpInside:clickedButtonAtIndex:]_block_invoke_2
 __80-[AddressPickerHelper customIOS7dialogButtonTouchUpInside:clickedButtonAtIndex:]_block_invoke
@@ -4609,7 +4596,6 @@ ___45-[ReferralViewController onShareButtonClick:]_block_invoke.1539
 ___56-[ReferralViewController onEnterReferralCodeButtonClick]_block_invoke
 -[ReferralViewController onBackButtonPressed]
 -[ReferralViewController onSuccess:withDic:]
-___44-[ReferralViewController onSuccess:withDic:]_block_invoke
 -[ReferralViewController messageComposeViewController:didFinishWithResult:]
 -[ReferralViewController dismissOnTap]
 -[ReferralViewController showTermsAndConditions]
@@ -4672,8 +4658,6 @@ _OBJC_IVAR_$_ReferralViewController.shareString
 _OBJC_IVAR_$_ReferralViewController.hasModifiedShareString
 ___block_descriptor_tmp.1585
 ___block_literal_global.1586
-___block_descriptor_tmp.1592
-___block_literal_global.1593
 _OBJC_IVAR_$_ReferralViewController.urlString
 l_OBJC_PROTOCOL_$_ReferalCodeDelegate
 l_OBJC_LABEL_PROTOCOL_$_ReferalCodeDelegate
@@ -4681,7 +4665,6 @@ l_OBJC_PROTOCOL_$_MFMessageComposeViewControllerDelegate
 l_OBJC_LABEL_PROTOCOL_$_MFMessageComposeViewControllerDelegate
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Referral/Referral VC/ReferralViewController.m
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Referral/Referral VC/ReferralViewController.h
-__44-[ReferralViewController onSuccess:withDic:]_block_invoke
 __56-[ReferralViewController onEnterReferralCodeButtonClick]_block_invoke
 __45-[ReferralViewController onShareButtonClick:]_block_invoke.1539
 __45-[ReferralViewController onShareButtonClick:]_block_invoke
@@ -6072,6 +6055,7 @@ ___block_descriptor_tmp.496
 ___block_descriptor_tmp.500
 ___block_descriptor_tmp.505
 ___block_descriptor_tmp.509
+___block_descriptor_tmp.526
 ___block_descriptor_tmp.530
 ___block_descriptor_tmp.535
 ___block_descriptor_tmp.539
@@ -7589,10 +7573,10 @@ ___destroy_helper_block_.704
 +[HPSyncService mostRecentModifiedAtDateForEntity:completion:]
 ___62+[HPSyncService mostRecentModifiedAtDateForEntity:completion:]_block_invoke
 ___62+[HPSyncService mostRecentModifiedAtDateForEntity:completion:]_block_invoke_2
-___copy_helper_block_.793
-___destroy_helper_block_.794
-___copy_helper_block_.796
-___destroy_helper_block_.797
+___copy_helper_block_.795
+___destroy_helper_block_.796
+___copy_helper_block_.798
+___destroy_helper_block_.799
 +[HPSyncService shouldSyncForEntity:]
 +[HPSyncService updateLastSuccessfulSyncCheckFor:]
 +[HPSyncService updateInboxChatFor:]
@@ -7601,8 +7585,8 @@ ___40+[HPSyncService updateInboxChatIndexing]_block_invoke
 ___40+[HPSyncService updateInboxChatIndexing]_block_invoke_2
 ___copy_helper_block_.828
 ___destroy_helper_block_.829
-+[HPSyncService discardPreviousInboxChatIndexing]
-+[HPSyncService getFilteredInboxChats:]
++[HPSyncService getInboxChatsToIndex]
++[HPSyncService getInboxChats]
 +[HPSyncService getBanners]
 +[HPSyncService getBannersSetFrom:]
 ___block_descriptor_tmp.495
@@ -7616,8 +7600,8 @@ ___block_descriptor_tmp.605
 ___block_descriptor_tmp.629
 ___block_descriptor_tmp.659
 ___block_descriptor_tmp.706
-___block_descriptor_tmp.795
-___block_descriptor_tmp.798
+___block_descriptor_tmp.797
+___block_descriptor_tmp.800
 ___block_descriptor_tmp.832
 ___block_descriptor_tmp.838
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Sync Service/HPSyncService.m
@@ -8183,13 +8167,11 @@ _OBJC_IVAR_$_MQTTSSLSecurityPolicyTransport._encoder
 _OBJC_IVAR_$_MQTTSSLSecurityPolicyTransport._decoder
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyTransport.m
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyTransport.h
--[HPInitObject initWithApiKey:clientID:baseUrl:runEnvironment:]
--[HPInitObject apiKey]
--[HPInitObject baseUrl]
+-[HPInitObject initWithClientID:baseUrl:runEnvironment:]
 -[HPInitObject clientID]
+-[HPInitObject baseUrl]
 -[HPInitObject runEnvironment]
 -[HPInitObject .cxx_destruct]
-_OBJC_IVAR_$_HPInitObject._apiKey
 _OBJC_IVAR_$_HPInitObject._clientID
 _OBJC_IVAR_$_HPInitObject._baseUrl
 _OBJC_IVAR_$_HPInitObject._runEnvironment
@@ -8844,7 +8826,7 @@ _OBJC_IVAR_$_SystemEventItem.payload
 -[InboxTableViewCell setBusinessImageFor:]
 -[InboxTableViewCell setLastMessageFor:]
 ___40-[InboxTableViewCell setLastMessageFor:]_block_invoke
-___40-[InboxTableViewCell setLastMessageFor:]_block_invoke.444
+___40-[InboxTableViewCell setLastMessageFor:]_block_invoke.442
 -[InboxTableViewCell configureCardFor:]
 -[InboxTableViewCell businessImage]
 -[InboxTableViewCell setBusinessImage:]
@@ -8882,7 +8864,7 @@ _OBJC_IVAR_$_InboxTableViewCell.disclosureIndicator
 _OBJC_IVAR_$_InboxTableViewCell.cardHeight
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Table View Cells/Inbox Table View Cell/InboxTableViewCell.m
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Table View Cells/Inbox Table View Cell/InboxTableViewCell.h
-__40-[InboxTableViewCell setLastMessageFor:]_block_invoke.444
+__40-[InboxTableViewCell setLastMessageFor:]_block_invoke.442
 __40-[InboxTableViewCell setLastMessageFor:]_block_invoke
 +[TaskboxAnimationHelper performTaskboxAnimationFor:ptButton:]
 ___62+[TaskboxAnimationHelper performTaskboxAnimationFor:ptButton:]_block_invoke
@@ -9208,6 +9190,8 @@ ___copy_helper_block_.1422
 ___destroy_helper_block_.1423
 +[TaskboxActionHandler hanldeChatformsOnTapForTask:business:sortID:actionHelper:]
 ___81+[TaskboxActionHandler hanldeChatformsOnTapForTask:business:sortID:actionHelper:]_block_invoke
+___copy_helper_block_.1455
+___destroy_helper_block_.1456
 ___81+[TaskboxActionHandler hanldeChatformsOnTapForTask:business:sortID:actionHelper:]_block_invoke.1458
 ___copy_helper_block_.1468
 ___destroy_helper_block_.1469
@@ -9233,6 +9217,7 @@ ___71+[TaskboxActionHandler fireTaskTappedAnalyticsWith:business:indexPath:]_blo
 ___block_descriptor_tmp.1377
 ___block_descriptor_tmp.1380
 ___block_descriptor_tmp.1424
+___block_descriptor_tmp.1457
 ___block_descriptor_tmp.1470
 ___block_descriptor_tmp.1481
 ___block_descriptor_tmp.1489
@@ -11120,6 +11105,8 @@ ___copy_helper_block_.1432
 ___destroy_helper_block_.1433
 ___copy_helper_block_.1435
 ___destroy_helper_block_.1436
+___copy_helper_block_.1446
+___destroy_helper_block_.1447
 +[HPFlowCoordinator segueToUserProfileWith:fromDeepLink:fromSmartAction:]
 ___73+[HPFlowCoordinator segueToUserProfileWith:fromDeepLink:fromSmartAction:]_block_invoke
 +[HPFlowCoordinator segueToAddToWalletWith:viewWalletHistory:]
@@ -12577,100 +12564,89 @@ ___23-[Haptik configureUser]_block_invoke
 -[Haptik signUpWith:completion:]
 ___32-[Haptik signUpWith:completion:]_block_invoke
 ___32-[Haptik signUpWith:completion:]_block_invoke_2
-___copy_helper_block_.1595
-___destroy_helper_block_.1596
-___32-[Haptik signUpWith:completion:]_block_invoke.1598
-___copy_helper_block_.1599
-___destroy_helper_block_.1600
-___copy_helper_block_.1602
-___destroy_helper_block_.1603
+___32-[Haptik signUpWith:completion:]_block_invoke.1596
+___copy_helper_block_.1597
+___destroy_helper_block_.1598
+___copy_helper_block_.1600
+___destroy_helper_block_.1601
 -[Haptik signUpWithLoadingScreenFor:completion:]
 ___48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke
 ___48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke_2
 ___48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke_3
-___copy_helper_block_.1612
-___destroy_helper_block_.1613
-___48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke.1615
-___copy_helper_block_.1625
-___destroy_helper_block_.1626
+___copy_helper_block_.1610
+___destroy_helper_block_.1611
+___48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke.1613
+___copy_helper_block_.1620
+___destroy_helper_block_.1621
+___copy_helper_block_.1623
+___destroy_helper_block_.1624
+___copy_helper_block_.1626
+___destroy_helper_block_.1627
 -[Haptik signUpUserWithSSO:]
 ___28-[Haptik signUpUserWithSSO:]_block_invoke
 ___28-[Haptik signUpUserWithSSO:]_block_invoke_2
 ___28-[Haptik signUpUserWithSSO:]_block_invoke_3
-___copy_helper_block_.1633
-___destroy_helper_block_.1634
-___28-[Haptik signUpUserWithSSO:]_block_invoke.1636
-___copy_helper_block_.1637
-___destroy_helper_block_.1638
-___copy_helper_block_.1640
-___destroy_helper_block_.1641
+___copy_helper_block_.1631
+___destroy_helper_block_.1632
+___28-[Haptik signUpUserWithSSO:]_block_invoke.1634
+___copy_helper_block_.1643
+___destroy_helper_block_.1644
 -[Haptik updateExistingUserWith:completion:]
 ___44-[Haptik updateExistingUserWith:completion:]_block_invoke
 ___44-[Haptik updateExistingUserWith:completion:]_block_invoke_2
 ___44-[Haptik updateExistingUserWith:completion:]_block_invoke_3
 ___44-[Haptik updateExistingUserWith:completion:]_block_invoke_4
-___copy_helper_block_.1670
-___destroy_helper_block_.1671
-___copy_helper_block_.1673
-___destroy_helper_block_.1674
-___copy_helper_block_.1676
-___destroy_helper_block_.1677
-___copy_helper_block_.1681
-___destroy_helper_block_.1682
+___copy_helper_block_.1671
+___destroy_helper_block_.1672
+___copy_helper_block_.1679
+___destroy_helper_block_.1680
 -[Haptik isUserSignedUp]
 -[Haptik getInitialVC]
 -[Haptik updateUserToken:authID:authType:completion:]
 ___53-[Haptik updateUserToken:authID:authType:completion:]_block_invoke
-___copy_helper_block_.1691
-___destroy_helper_block_.1692
+___copy_helper_block_.1689
+___destroy_helper_block_.1690
 -[Haptik notifyApplication:launchedWithOptions:]
 -[Haptik setAppGroupIdentifier:]
 -[Haptik signoutFromHaptik:]
 ___28-[Haptik signoutFromHaptik:]_block_invoke
 ___28-[Haptik signoutFromHaptik:]_block_invoke_2
 ___28-[Haptik signoutFromHaptik:]_block_invoke_3
-___copy_helper_block_.1718
-___destroy_helper_block_.1719
 -[Haptik isHaptikWalletCreated]
 -[Haptik getHaptikWalletBalance]
 -[Haptik getHaptikWalletViewController:shareAndEarnDelegate:controller:completion:]
 ___83-[Haptik getHaptikWalletViewController:shareAndEarnDelegate:controller:completion:]_block_invoke
-___copy_helper_block_.1738
-___destroy_helper_block_.1739
 -[Haptik getOffersCount]
 -[Haptik getOffersViewContoller]
 -[Haptik setDeviceToken:]
 ___25-[Haptik setDeviceToken:]_block_invoke
 ___25-[Haptik setDeviceToken:]_block_invoke_2
-___copy_helper_block_.1770
-___destroy_helper_block_.1771
+___copy_helper_block_.1768
+___destroy_helper_block_.1769
 -[Haptik canHandleNotificationWithUserInfo:]
 -[Haptik handleNotificationWithUserInfo:controller:]
 ___52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke
 ___52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke_2
 ___52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke_3
-___copy_helper_block_.1811
-___destroy_helper_block_.1812
-___52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke.1814
-___copy_helper_block_.1824
-___destroy_helper_block_.1825
-___copy_helper_block_.1827
-___destroy_helper_block_.1828
+___copy_helper_block_.1809
+___destroy_helper_block_.1810
+___52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke.1812
+___copy_helper_block_.1822
+___destroy_helper_block_.1823
+___copy_helper_block_.1825
+___destroy_helper_block_.1826
 -[Haptik launchChannelWith:message:controller:]
 -[Haptik launchChannelToTriggerBotFor:message:source:controller:]
 -[Haptik isRedirectHandled:options:]
 -[Haptik getTransactionHistoryFor:completion:]
 ___46-[Haptik getTransactionHistoryFor:completion:]_block_invoke
+___copy_helper_block_.1844
+___destroy_helper_block_.1845
 -[Haptik getUnreadCountWithCompletion:]
 ___39-[Haptik getUnreadCountWithCompletion:]_block_invoke
 ___39-[Haptik getUnreadCountWithCompletion:]_block_invoke_2
-___copy_helper_block_.1850
-___destroy_helper_block_.1851
-___copy_helper_block_.1853
-___destroy_helper_block_.1854
 -[Haptik getUserDetailsScreen]
 -[Haptik navigationBarTintColor]
--[Haptik apiKey]
 -[Haptik baseUrl]
 -[Haptik clientID]
 -[Haptik runEnvironment]
@@ -12699,26 +12675,29 @@ ___block_descriptor_tmp.1543
 _OBJC_IVAR_$_Haptik.themeConfig
 ___block_descriptor_tmp.1573
 ___block_literal_global.1574
-___block_descriptor_tmp.1597
-___block_descriptor_tmp.1601
-___block_descriptor_tmp.1630
-___block_descriptor_tmp.1635
-___block_descriptor_tmp.1642
-___block_descriptor_tmp.1672
-___block_descriptor_tmp.1675
-___block_descriptor_tmp.1678
-___block_descriptor_tmp.1693
-___block_descriptor_tmp.1720
-___block_descriptor_tmp.1766
-___block_literal_global.1767
-___block_descriptor_tmp.1772
-___block_literal_global.1786
-___block_descriptor_tmp.1813
-___block_descriptor_tmp.1826
-___block_descriptor_tmp.1829
-___block_descriptor_tmp.1848
-___block_descriptor_tmp.1852
-___block_descriptor_tmp.1856
+___block_descriptor_tmp.1599
+___block_descriptor_tmp.1602
+___block_descriptor_tmp.1612
+___block_descriptor_tmp.1622
+___block_descriptor_tmp.1625
+___block_descriptor_tmp.1628
+___block_descriptor_tmp.1633
+___block_descriptor_tmp.1645
+___block_descriptor_tmp.1673
+___block_descriptor_tmp.1676
+___block_descriptor_tmp.1681
+___block_descriptor_tmp.1691
+___block_descriptor_tmp.1764
+___block_literal_global.1765
+___block_descriptor_tmp.1770
+___block_descriptor_tmp.1783
+___block_literal_global.1784
+___block_descriptor_tmp.1811
+___block_descriptor_tmp.1824
+___block_descriptor_tmp.1827
+___block_descriptor_tmp.1846
+___block_descriptor_tmp.1850
+___block_descriptor_tmp.1854
 _OBJC_IVAR_$_Haptik.useInbox
 _OBJC_IVAR_$_Haptik.useInteractivePopGesture
 _OBJC_IVAR_$_Haptik.shouldUseReferrals
@@ -12731,7 +12710,7 @@ _OBJC_IVAR_$_Haptik._appGroupIdentifier
 __39-[Haptik getUnreadCountWithCompletion:]_block_invoke_2
 __39-[Haptik getUnreadCountWithCompletion:]_block_invoke
 __46-[Haptik getTransactionHistoryFor:completion:]_block_invoke
-__52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke.1814
+__52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke.1812
 __52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke_3
 __52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke_2
 __52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke
@@ -12746,15 +12725,15 @@ __44-[Haptik updateExistingUserWith:completion:]_block_invoke_4
 __44-[Haptik updateExistingUserWith:completion:]_block_invoke_3
 __44-[Haptik updateExistingUserWith:completion:]_block_invoke_2
 __44-[Haptik updateExistingUserWith:completion:]_block_invoke
-__28-[Haptik signUpUserWithSSO:]_block_invoke.1636
+__28-[Haptik signUpUserWithSSO:]_block_invoke.1634
 __28-[Haptik signUpUserWithSSO:]_block_invoke_3
 __28-[Haptik signUpUserWithSSO:]_block_invoke_2
 __28-[Haptik signUpUserWithSSO:]_block_invoke
-__48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke.1615
+__48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke.1613
 __48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke_3
 __48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke_2
 __48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke
-__32-[Haptik signUpWith:completion:]_block_invoke.1598
+__32-[Haptik signUpWith:completion:]_block_invoke.1596
 __32-[Haptik signUpWith:completion:]_block_invoke_2
 __32-[Haptik signUpWith:completion:]_block_invoke
 __23-[Haptik configureUser]_block_invoke
@@ -13546,6 +13525,8 @@ ___destroy_helper_block_.1569
 -[UserDetailsViewController editImageAction:]
 ___45-[UserDetailsViewController editImageAction:]_block_invoke
 ___45-[UserDetailsViewController editImageAction:]_block_invoke_2
+___copy_helper_block_.1602
+___destroy_helper_block_.1603
 ___45-[UserDetailsViewController editImageAction:]_block_invoke.1607
 ___copy_helper_block_.1608
 ___destroy_helper_block_.1609
@@ -13571,8 +13552,6 @@ ___copy_helper_block_.1778
 ___destroy_helper_block_.1779
 ___63-[UserDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.1782
 -[UserDetailsViewController textFieldDidEndEditing:]
-___52-[UserDetailsViewController textFieldDidEndEditing:]_block_invoke
-___52-[UserDetailsViewController textFieldDidEndEditing:]_block_invoke_2
 -[UserDetailsViewController textFieldShouldReturn:]
 -[UserDetailsViewController textField:shouldChangeCharactersInRange:replacementString:]
 -[UserDetailsViewController table]
@@ -13616,13 +13595,7 @@ ___block_descriptor_tmp.1755
 ___block_literal_global.1758
 ___block_descriptor_tmp.1784
 ___block_literal_global.1785
-___block_descriptor_tmp.1809
-___block_literal_global.1810
-___block_descriptor_tmp.1811
-___block_literal_global.1812
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/User Details/User Details Scene/UserDetailsViewController.m
-__52-[UserDetailsViewController textFieldDidEndEditing:]_block_invoke_2
-__52-[UserDetailsViewController textFieldDidEndEditing:]_block_invoke
 __63-[UserDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.1782
 __63-[UserDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke_2
 __63-[UserDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.1756
@@ -13959,6 +13932,8 @@ ___69+[ChatFormActionHandler performSavedAddressOperationWith:businessID:]_block
 +[ChatFormActionHandler getFormattedAddressStringFor:]
 +[ChatFormActionHandler fireFormFieldTappedAnalyticsWith:form:business:]
 ___72+[ChatFormActionHandler fireFormFieldTappedAnalyticsWith:form:business:]_block_invoke
+___copy_helper_block_.1738
+___destroy_helper_block_.1739
 +[ChatFormActionHandler fireFormSubmittedAnalyticsWith:business:filledFields:unfilledTypes:unfilledKeys:]
 ___105+[ChatFormActionHandler fireFormSubmittedAnalyticsWith:business:filledFields:unfilledTypes:unfilledKeys:]_block_invoke
 ___copy_helper_block_.1747
@@ -14280,16 +14255,13 @@ ___destroy_helper_block_.441
 +[ReferralViewModel applyReferralCode:withRetryLogic:completion:]
 ___65+[ReferralViewModel applyReferralCode:withRetryLogic:completion:]_block_invoke
 +[ReferralViewModel updateUserReferralUsedTo:]
-___46+[ReferralViewModel updateUserReferralUsedTo:]_block_invoke
 +[ReferralViewModel shareToFacebookFromViewController:]
 ___55+[ReferralViewModel shareToFacebookFromViewController:]_block_invoke
 +[ReferralViewModel getReferralParameters]
 ___block_descriptor_tmp.443
 _counter
-___block_descriptor_tmp.468
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Referrals/Referral View Model/ReferralViewModel.m
 __55+[ReferralViewModel shareToFacebookFromViewController:]_block_invoke
-__46+[ReferralViewModel updateUserReferralUsedTo:]_block_invoke
 __65+[ReferralViewModel applyReferralCode:withRetryLogic:completion:]_block_invoke
 __60+[ReferralViewModel checkReferalCodeWithCode:andCompletion:]_block_invoke_3
 __60+[ReferralViewModel checkReferalCodeWithCode:andCompletion:]_block_invoke_2
@@ -14878,8 +14850,9 @@ ___block_descriptor_tmp.1539
 ___block_descriptor_tmp.1551
 ___block_descriptor_tmp.1611
 ___block_literal_global.1724
-___block_descriptor_tmp.1824
 ___block_descriptor_tmp.1842
+___block_descriptor_tmp.1848
+___block_descriptor_tmp.1852
 ___block_descriptor_tmp.1925
 ___block_descriptor_tmp.2000
 ___block_descriptor_tmp.2006
@@ -15835,8 +15808,6 @@ ___copy_helper_block_.1391
 ___destroy_helper_block_.1392
 ___71-[CompactAddressViewController tableView:editActionsForRowAtIndexPath:]_block_invoke.1401
 ___71-[CompactAddressViewController tableView:editActionsForRowAtIndexPath:]_block_invoke_2
-___copy_helper_block_.1414
-___destroy_helper_block_.1415
 ___copy_helper_block_.1420
 ___destroy_helper_block_.1421
 -[CompactAddressViewController deleteAddressAtIndexPath:]
@@ -15852,6 +15823,8 @@ ___destroy_helper_block_.1483
 -[CompactAddressViewController tableView:didSelectRowAtIndexPath:]
 -[CompactAddressViewController pushAddNewAddressViewController:savedAddressArray:]
 ___82-[CompactAddressViewController pushAddNewAddressViewController:savedAddressArray:]_block_invoke
+___copy_helper_block_.1595
+___destroy_helper_block_.1596
 -[CompactAddressViewController showNoAddressesIllustration]
 -[CompactAddressViewController removeNoAddressesIllustrationIfAny]
 -[CompactAddressViewController addNewAddress:]
@@ -15875,7 +15848,6 @@ _OBJC_IVAR_$_CompactAddressViewController._fromSmartAction
 _OBJC_IVAR_$_CompactAddressViewController._formField
 _OBJC_IVAR_$_CompactAddressViewController.addressesFetchedResultsController
 ___block_descriptor_tmp.1394
-___block_descriptor_tmp.1417
 ___block_descriptor_tmp.1422
 ___block_descriptor_tmp.1598
 _OBJC_IVAR_$_CompactAddressViewController._isEditing

@@ -13,7 +13,6 @@
 #pragma mark - HaptikLib Credential Keys
 
 FOUNDATION_EXPORT NSString *const HPCredentialsDict;
-FOUNDATION_EXPORT NSString *const HPApiKey;
 FOUNDATION_EXPORT NSString *const HPClientID;
 FOUNDATION_EXPORT NSString *const HPBaseURL;
 FOUNDATION_EXPORT NSString *const HPRunEnvironment;
@@ -22,7 +21,6 @@ FOUNDATION_EXPORT NSString *const HPRunEnvironment;
 #pragma mark - Assert Description Constants
 
 FOUNDATION_EXPORT NSString *const HPLibNoCredentialsDict;
-FOUNDATION_EXPORT NSString *const HPLibNoAPIKey;
 FOUNDATION_EXPORT NSString *const HPLibNoClientIDKey;
 FOUNDATION_EXPORT NSString *const HPLibNoBaseURLKey;
 FOUNDATION_EXPORT NSString *const HPLibNoEnvironmentKey;

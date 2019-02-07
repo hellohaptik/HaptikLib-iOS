@@ -2,6 +2,23 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.5.0] - (06/02/19) - Oh Bug Kal Aana
+
+### Features
+- New Base Module is Created for Modularising HaptikLib
+- Support for new message type called SystemMessages is Provided
+
+### Enhancements
+- API Key is Deprecated and is not necessary to initialise HaptikLib
+- FormFields Images are now accessed from Haptik's Server
+
+### Bugs
+- Inbox Scene Crashes and Bugs are Fixed
+- GetUnreceivedMessages API Call is Fixed
+
+---
+
+
 ## [1.4.1] - (11/12/18) - Lagi Shart
 
 ### Bugs

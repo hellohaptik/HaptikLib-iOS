@@ -166,21 +166,15 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 
 
 /*!
- Gets the API key for the current app. This should only be called after the SDK has been initialized otherwise will return nil
+ Gets the client id for the current app. This should only be called after the SDK has been initialized otherwise will return nil
  */
-@property (nonatomic, readonly) NSString *apiKey;
+@property (nonatomic, readonly) NSString *clientID;
 
 
 /*!
  Gets the base endpoint to use. This should only be called after the SDK has been initialized otherwise will return nil
  */
 @property (nonatomic, readonly) NSString *baseUrl;
-
-
-/*!
- Gets the client id for the current app. This should only be called after the SDK has been initialized otherwise will return nil
- */
-@property (nonatomic, readonly) NSString *clientID;
 
 
 /*!
