@@ -111,12 +111,11 @@ Add the following snippets in your `info.plist` file -
 ## III. Initialization
 
 1. The Haptik SDK should be initialized before it can perform any operations
-2. _Initialization_ here implies providing appropriate **API Key**, **Client ID**, **Base URL** & **Run Environment** to Haptik SDK
+2. _Initialization_ here implies providing appropriate **Client ID**, **Base URL** & **Run Environment** to Haptik SDK
 3. The following `key-value` pairs should be present in the Custom Dictionary `HaptikLib` -
 
    | Key            | Value                              |
    | -------------- | ---------------------------------- |
-   | apiKey         | INSERT_API_KEY_HERE                |
    | baseUrl        | INSERT_BASE_URL_HERE               |
    | clientID       | INSERT_CLIENT_ID_HERE              |
    | runEnvironment | INSERT_APPROPRIATE_RUN_ENVIRONMENT |
@@ -128,12 +127,10 @@ Add the following snippets in your `info.plist` file -
    ```
    <key>HaptikLib</key>
    <dict>
-     <key>apiKey</key>
-     <string>INSERT_API_KEY_HERE</string>
-     <key>baseUrl</key>
-     <string>INSERT_BASE_URL_HERE</string>
      <key>clientID</key>
      <string>INSERT_CLIENT_ID_HERE</string>
+     <key>baseUrl</key>
+     <string>INSERT_BASE_URL_HERE</string>
      <key>runEnvironment</key>
      <string>INSERT_APPROPRIATE_RUN_ENVIRONMENT</string>
    </dict>
@@ -419,12 +416,10 @@ The dictionary should be named `shareAndRate` and the following **key-value** sh
 ```
 <key>HaptikLib</key>
 	<dict>
-		<key>apiKey</key>
-		<string>INSERT_API_KEY_HERE</string>
+    		<key>clientID</key>
+    		<string>INSERT_CLIENT_ID_HERE</string>
 		<key>baseUrl</key>
 		<string>INSERT_BASE_URL_HERE</string>
-		<key>clientID</key>
-		<string>INSERT_CLIENT_ID_HERE</string>
 		<key>runEnvironment</key>
 		<string>INSERT_APPROPRIATE_RUN_ENVIRONMENT</string>
 
