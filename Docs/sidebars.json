@@ -1,6 +1,0 @@
-{
-  "docs": {
-    "Introduction": ["integration-guide"],
-    "Feature Guides": ["payments", "theming", "features", "analytics"]
-  }
-}
