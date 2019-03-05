@@ -206,7 +206,7 @@ Add the following snippets in your `info.plist` file -
 	     
 	     if (canBeHandledByHaptik) {
 	     	NSLog(@"do housekeeping");
-		}
+	     }
 		
 		[[Haptik sharedSDK] didReceiveHaptikRemoteNotification:PASS_NOTIFICATION_DICTIONARY_HERE 
 							    controller:PASS_VIEWCONTROLLER_INSTANCE_HERE];
@@ -227,7 +227,8 @@ Add the following snippets in your `info.plist` file -
 		NSLog(@"do housekeeping");
 	    }
 
-	    [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:PASS_NOTIFICATION_RESPONSE_HERE controller:PASS_VIEWCONTROLLER_INSTANCE_HERE];
+	    [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:PASS_NOTIFICATION_RESPONSE_HERE 
+	    						  controller:PASS_VIEWCONTROLLER_INSTANCE_HERE];
 
 	    completionHandler();
 	}
