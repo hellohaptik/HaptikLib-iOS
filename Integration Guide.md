@@ -193,23 +193,46 @@ Add the following snippets in your `info.plist` file -
 	}
 	```
 
-5. For Haptik to handle it's own notifications, you have to pass the **notification dictionary** that you get in the **notifications payload** and the instance of the `viewController` from where the notifications should be handled. It's also possible to determine whether notification payload is Haptik-specific or not.
+5. For Haptik to handle it's own notifications, you have to pass the required **notification response** that you get in the **notifications payload** and the instance of the `viewController` from where the notifications should be handled. It's also possible to determine whether notification payload is Haptik-specific or not.
+
+> For iOS 9.x and below iOS 10.x
 
 	```
 	- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
 
 	     ...
-
-	     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:response.notification.request.content.userInfo];
-
+	     
+	     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
+	     
 	     if (canBeHandledByHaptik) {
-	     	...
-		NSLog(@"do housekeeping");
-		[[Haptik sharedSDK] handleNotificationWithUserInfo:PASS_NOTIFICATION_DICTIONARY_HERE controller:PASS_VIEWCONTROLLER_INSTANCE_HERE];
-	     }
+	     	NSLog(@"do housekeeping");
+		}
+		
+		[[Haptik sharedSDK] didReceiveHaptikRemoteNotification:PASS_NOTIFICATION_DICTIONARY_HERE 
+							    controller:PASS_VIEWCONTROLLER_INSTANCE_HERE];
 	}
 	```
+	
+> For iOS 10.x and above
 
+	```
+	- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response
+         withCompletionHandler:(void(^)(void))completionHandler {
+    
+	    ...
+
+	    BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
+
+	    if (canBeHandledByHaptik) {
+		NSLog(@"do housekeeping");
+	    }
+
+	    [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:PASS_NOTIFICATION_RESPONSE_HERE controller:PASS_VIEWCONTROLLER_INSTANCE_HERE];
+
+	    completionHandler();
+	}
+	
+	```
 ---
 
 
