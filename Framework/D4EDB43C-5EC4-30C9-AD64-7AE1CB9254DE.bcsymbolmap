@@ -191,8 +191,6 @@ l_OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
 l_OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHGalleryPresenterImageView/MHPresenterImageView.m
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHGalleryPresenterImageView/MHPresenterImageView.h
-CGPointMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 +[Forms getFormEntityForObjectID:]
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Forms/Forms+CoreDataClass.m
 +[DDLog sharedInstance]
@@ -699,6 +697,7 @@ __tg_cos
 __tg_sin
 compareViewDepth
 __CGSizeEqualToSize
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 -[SendAgainButton chatMessage]
 -[SendAgainButton setChatMessage:]
 -[SendAgainButton .cxx_destruct]
@@ -795,39 +794,41 @@ ___copy_helper_block_.390
 ___destroy_helper_block_.391
 -[SVProgressHUD showImage:status:duration:]
 ___43-[SVProgressHUD showImage:status:duration:]_block_invoke
+___copy_helper_block_.399
+___destroy_helper_block_.400
 -[SVProgressHUD fadeIn:]
 ___24-[SVProgressHUD fadeIn:]_block_invoke
-___copy_helper_block_.421
-___destroy_helper_block_.422
-___24-[SVProgressHUD fadeIn:]_block_invoke.424
-___copy_helper_block_.427
-___destroy_helper_block_.428
-___24-[SVProgressHUD fadeIn:]_block_invoke.432
-___copy_helper_block_.433
-___destroy_helper_block_.434
-___24-[SVProgressHUD fadeIn:]_block_invoke.436
-___copy_helper_block_.437
-___destroy_helper_block_.438
+___copy_helper_block_.418
+___destroy_helper_block_.419
+___24-[SVProgressHUD fadeIn:]_block_invoke.421
+___copy_helper_block_.424
+___destroy_helper_block_.425
+___24-[SVProgressHUD fadeIn:]_block_invoke.429
+___copy_helper_block_.430
+___destroy_helper_block_.431
+___24-[SVProgressHUD fadeIn:]_block_invoke.433
+___copy_helper_block_.434
+___destroy_helper_block_.435
 -[SVProgressHUD dismiss]
 -[SVProgressHUD dismissWithDelay:completion:]
 ___45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke
 ___45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke_2
-___copy_helper_block_.443
-___destroy_helper_block_.444
-___45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke.446
-___copy_helper_block_.457
-___destroy_helper_block_.458
-___45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke.460
-___45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke_2.463
-___copy_helper_block_.464
-___destroy_helper_block_.465
-___45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke.467
+___copy_helper_block_.440
+___destroy_helper_block_.441
+___45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke.443
+___copy_helper_block_.454
+___destroy_helper_block_.455
+___45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke.457
+___45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke_2.460
+___copy_helper_block_.461
+___destroy_helper_block_.462
+___45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke.464
+___copy_helper_block_.465
+___destroy_helper_block_.466
 ___copy_helper_block_.468
 ___destroy_helper_block_.469
 ___copy_helper_block_.471
 ___destroy_helper_block_.472
-___copy_helper_block_.474
-___destroy_helper_block_.475
 -[SVProgressHUD indefiniteAnimatedView]
 -[SVProgressHUD ringView]
 -[SVProgressHUD backgroundRingView]
@@ -952,17 +953,17 @@ _OBJC_IVAR_$_SVProgressHUD._graceTimer
 _OBJC_IVAR_$_SVProgressHUD._fadeOutTimer
 ___block_descriptor_tmp.324
 ___block_descriptor_tmp.392
-___block_descriptor_tmp.404
-___block_descriptor_tmp.423
-___block_descriptor_tmp.429
-___block_descriptor_tmp.435
-___block_descriptor_tmp.440
-___block_descriptor_tmp.445
-___block_descriptor_tmp.459
-___block_descriptor_tmp.466
+___block_descriptor_tmp.401
+___block_descriptor_tmp.420
+___block_descriptor_tmp.426
+___block_descriptor_tmp.432
+___block_descriptor_tmp.437
+___block_descriptor_tmp.442
+___block_descriptor_tmp.456
+___block_descriptor_tmp.463
+___block_descriptor_tmp.467
 ___block_descriptor_tmp.470
 ___block_descriptor_tmp.473
-___block_descriptor_tmp.477
 _OBJC_IVAR_$_SVProgressHUD._indefiniteAnimatedView
 _OBJC_IVAR_$_SVProgressHUD._ringView
 _OBJC_IVAR_$_SVProgressHUD._backgroundRingView
@@ -980,15 +981,15 @@ _OBJC_IVAR_$_SVProgressHUD._progress
 _OBJC_IVAR_$_SVProgressHUD._activityCount
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/UIViews/SVProgress HUD/SVProgressHUD.m
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/UIViews/SVProgress HUD/SVProgressHUD.h
-__45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke.467
-__45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke_2.463
-__45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke.460
-__45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke.446
+__45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke.464
+__45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke_2.460
+__45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke.457
+__45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke.443
 __45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke_2
 __45-[SVProgressHUD dismissWithDelay:completion:]_block_invoke
-__24-[SVProgressHUD fadeIn:]_block_invoke.436
-__24-[SVProgressHUD fadeIn:]_block_invoke.432
-__24-[SVProgressHUD fadeIn:]_block_invoke.424
+__24-[SVProgressHUD fadeIn:]_block_invoke.433
+__24-[SVProgressHUD fadeIn:]_block_invoke.429
+__24-[SVProgressHUD fadeIn:]_block_invoke.421
 __24-[SVProgressHUD fadeIn:]_block_invoke
 __43-[SVProgressHUD showImage:status:duration:]_block_invoke
 __37-[SVProgressHUD showProgress:status:]_block_invoke
@@ -996,7 +997,6 @@ __29-[SVProgressHUD positionHUD:]_block_invoke
 UIInterfaceOrientationIsLandscape
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h
 UIInterfaceOrientationIsPortrait
-CGRectMake
 __46+[SVProgressHUD showErrorWithStatus:maskType:]_block_invoke
 __37+[SVProgressHUD showErrorWithStatus:]_block_invoke
 __48+[SVProgressHUD showSuccessWithStatus:maskType:]_block_invoke
@@ -1082,6 +1082,8 @@ ___block_descriptor_tmp.536
 __93+[ChatformViewHelper getContactPickerField:formFields:actionHelper:sendButton:referenceRect:]_block_invoke
 __43+[ChatformViewHelper containsSmartFormsIn:]_block_invoke
 __49+[ChatformViewHelper getCountOfAddressFieldsFor:]_block_invoke
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 +[UIResponder(SLKAdditions) slk_currentFirstResponder]
 -[UIResponder(SLKAdditions) slk_findFirstResponder:]
 ____currentFirstResponder
@@ -1155,15 +1157,15 @@ ___destroy_helper_block_.1726
 +[MessageLogger deleteExistingChatFormsInBusiness:]
 +[MessageLogger startDownloadingAvailableEmojisInMessage:]
 ___58+[MessageLogger startDownloadingAvailableEmojisInMessage:]_block_invoke
-___copy_helper_block_.1776
-___destroy_helper_block_.1777
+___copy_helper_block_.1778
+___destroy_helper_block_.1779
 ___block_descriptor_tmp.1495
 ___block_literal_global.1496
 ___block_descriptor_tmp.1509
 ___block_descriptor_tmp.1576
 ___block_descriptor_tmp.1711
 ___block_descriptor_tmp.1727
-___block_descriptor_tmp.1779
+___block_descriptor_tmp.1781
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Database Logger/MessageLogger.m
 __58+[MessageLogger startDownloadingAvailableEmojisInMessage:]_block_invoke
 __54+[MessageLogger logNewCustomMessageInDBWith:business:]_block_invoke
@@ -1369,7 +1371,6 @@ __51-[AddressDetailsViewController updateSavedAddress:]_block_invoke
 __53-[AddressDetailsViewController saveAddressOnBackend:]_block_invoke
 __51-[AddressDetailsViewController saveEnteredAddress:]_block_invoke
 __66-[AddressDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke
-CGSizeMake
 +[HPCoreLocationHelper sharedInstance]
 ___38+[HPCoreLocationHelper sharedInstance]_block_invoke
 -[HPCoreLocationHelper initializeLocationManager]
@@ -2387,8 +2388,6 @@ __39-[RechargeViewController chooseContact]_block_invoke_2
 __39-[RechargeViewController chooseContact]_block_invoke
 __69-[RechargeViewController fetchMobileOperatorAndCircleForMobileNumber]_block_invoke.2796
 __69-[RechargeViewController fetchMobileOperatorAndCircleForMobileNumber]_block_invoke
-UIEdgeInsetsMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
 __38-[RechargeViewController changeCircle]_block_invoke.2769
 __38-[RechargeViewController changeCircle]_block_invoke
 __40-[RechargeViewController changeOperator]_block_invoke.2712
@@ -2872,8 +2871,8 @@ ___45-[MASCompositeConstraint equalToWithRelation]_block_invoke
 -[MASCompositeConstraint addConstraintWithLayoutAttribute:]
 -[MASCompositeConstraint key]
 ___29-[MASCompositeConstraint key]_block_invoke
-___copy_helper_block_.58
-___destroy_helper_block_.59
+___copy_helper_block_.59
+___destroy_helper_block_.60
 -[MASCompositeConstraint setInsets:]
 -[MASCompositeConstraint setInset:]
 -[MASCompositeConstraint setOffset:]
@@ -2890,7 +2889,7 @@ ___destroy_helper_block_.59
 -[MASCompositeConstraint .cxx_destruct]
 _OBJC_IVAR_$_MASCompositeConstraint._childConstraints
 ___block_descriptor_tmp.36
-___block_descriptor_tmp.61
+___block_descriptor_tmp.50
 _OBJC_IVAR_$_MASCompositeConstraint._mas_key
 l_OBJC_PROTOCOL_$_MASConstraintDelegate
 l_OBJC_LABEL_PROTOCOL_$_MASConstraintDelegate
@@ -3291,6 +3290,7 @@ _OBJC_IVAR_$_UnderlinedLabelledTextField._tagString
 -[UnderlinedTextField setTextLabel:]
 -[UnderlinedTextField textLabel]
 UIEdgeInsetsInsetRect
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
 -[HPSignupNumberVC initWith:flowType:completion:]
 -[HPSignupNumberVC viewDidLoad]
 ___31-[HPSignupNumberVC viewDidLoad]_block_invoke
@@ -3800,27 +3800,25 @@ ___destroy_helper_block_.285
 -[MHTransitionDismissMHGallery updateInteractiveTransition:]
 -[MHTransitionDismissMHGallery finishInteractiveTransition]
 ___59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke
-___copy_helper_block_.324
-___destroy_helper_block_.325
-___59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke.327
+___copy_helper_block_.323
+___destroy_helper_block_.324
+___59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke.326
 ___59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke_2
 ___59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke_3
-___copy_helper_block_.343
-___destroy_helper_block_.344
-___59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke.346
+___copy_helper_block_.342
+___destroy_helper_block_.343
+___59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke.345
+___copy_helper_block_.353
+___destroy_helper_block_.354
 -[MHTransitionDismissMHGallery cancelInteractiveTransition]
 ___59-[MHTransitionDismissMHGallery cancelInteractiveTransition]_block_invoke
-___copy_helper_block_.361
-___destroy_helper_block_.362
-___59-[MHTransitionDismissMHGallery cancelInteractiveTransition]_block_invoke.364
+___copy_helper_block_.360
+___destroy_helper_block_.361
+___59-[MHTransitionDismissMHGallery cancelInteractiveTransition]_block_invoke.363
 ___59-[MHTransitionDismissMHGallery cancelInteractiveTransition]_block_invoke_2
-___copy_helper_block_.377
-___destroy_helper_block_.378
-___59-[MHTransitionDismissMHGallery cancelInteractiveTransition]_block_invoke.387
-___copy_helper_block_.388
-___destroy_helper_block_.389
-___copy_helper_block_.391
-___destroy_helper_block_.392
+___copy_helper_block_.376
+___destroy_helper_block_.377
+___59-[MHTransitionDismissMHGallery cancelInteractiveTransition]_block_invoke.386
 -[MHTransitionDismissMHGallery doOrientationwithFromViewController:]
 -[MHTransitionDismissMHGallery transitionDuration:]
 -[MHTransitionDismissMHGallery moviePlayer]
@@ -3861,13 +3859,13 @@ ___destroy_helper_block_.392
 ___block_descriptor_tmp.269
 ___block_descriptor_tmp.278
 ___block_descriptor_tmp.283
-___block_descriptor_tmp.287
-___block_descriptor_tmp.326
-___block_descriptor_tmp.328
-___block_descriptor_tmp.345
-___block_descriptor_tmp.363
-___block_descriptor_tmp.390
-___block_descriptor_tmp.393
+___block_descriptor_tmp.286
+___block_descriptor_tmp.325
+___block_descriptor_tmp.327
+___block_descriptor_tmp.344
+___block_descriptor_tmp.355
+___block_descriptor_tmp.362
+___block_descriptor_tmp.378
 _OBJC_IVAR_$_MHTransitionDismissMHGallery._moviePlayer
 _OBJC_IVAR_$_MHTransitionDismissMHGallery._transitionImageView
 _OBJC_IVAR_$_MHTransitionDismissMHGallery._changedPoint
@@ -3887,14 +3885,14 @@ _OBJC_IVAR_$_MHTransitionDismissMHGallery._containerView
 _OBJC_IVAR_$_MHTransitionDismissMHGallery._cellImageSnapshot
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/Transitions/MHTransitionDismissMHGallery.m
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/Transitions/MHTransitionDismissMHGallery.h
-__59-[MHTransitionDismissMHGallery cancelInteractiveTransition]_block_invoke.387
+__59-[MHTransitionDismissMHGallery cancelInteractiveTransition]_block_invoke.386
 __59-[MHTransitionDismissMHGallery cancelInteractiveTransition]_block_invoke_2
-__59-[MHTransitionDismissMHGallery cancelInteractiveTransition]_block_invoke.364
+__59-[MHTransitionDismissMHGallery cancelInteractiveTransition]_block_invoke.363
 __59-[MHTransitionDismissMHGallery cancelInteractiveTransition]_block_invoke
-__59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke.346
+__59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke.345
 __59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke_3
 __59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke_2
-__59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke.327
+__59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke.326
 __59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke
 __50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke.270
 __50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke_3
@@ -4101,8 +4099,6 @@ ___destroy_helper_block_.332
 ___53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke.334
 ___53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke_2.335
 ___53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke.341
-___copy_helper_block_.342
-___destroy_helper_block_.343
 ___copy_helper_block_.345
 ___destroy_helper_block_.346
 ___copy_helper_block_.348
@@ -4148,9 +4144,7 @@ ___block_descriptor_tmp.296
 ___block_descriptor_tmp.309
 ___block_descriptor_tmp.317
 ___block_descriptor_tmp.320
-___block_descriptor_tmp.327
 ___block_descriptor_tmp.333
-___block_descriptor_tmp.344
 ___block_descriptor_tmp.347
 ___block_descriptor_tmp.350
 _OBJC_IVAR_$_MHTransitionShowDetail._angle
@@ -5026,8 +5020,6 @@ _OBJC_IVAR_$_SharePayload.whatsappShareMessage
 ___65+[HPDeepLinkingErrorView showDeepLinkingErrorWithActiveBusiness:]_block_invoke
 ___65+[HPDeepLinkingErrorView showDeepLinkingErrorWithActiveBusiness:]_block_invoke.318
 ___65+[HPDeepLinkingErrorView showDeepLinkingErrorWithActiveBusiness:]_block_invoke_2
-___copy_helper_block_.323
-___destroy_helper_block_.324
 ___65+[HPDeepLinkingErrorView showDeepLinkingErrorWithActiveBusiness:]_block_invoke.327
 ___copy_helper_block_.334
 ___destroy_helper_block_.335
@@ -5036,6 +5028,7 @@ ___54+[HPDeepLinkingErrorView animateBlurViewPresentation:]_block_invoke
 ___copy_helper_block_.339
 ___destroy_helper_block_.340
 _OBJC_IVAR_$_ActionButton._tapAction
+___block_descriptor_tmp.326
 ___block_descriptor_tmp.331
 ___block_descriptor_tmp.336
 ___block_descriptor_tmp.341
@@ -5481,45 +5474,45 @@ ___42-[DDLogFileManagerDefault applicationName]_block_invoke
 -[DDFileLogger dealloc]
 -[DDFileLogger maximumFileSize]
 ___31-[DDFileLogger maximumFileSize]_block_invoke
-___copy_helper_block_.312
-___destroy_helper_block_.313
-___31-[DDFileLogger maximumFileSize]_block_invoke.333
-___copy_helper_block_.336
-___destroy_helper_block_.337
+___copy_helper_block_.308
+___destroy_helper_block_.309
+___31-[DDFileLogger maximumFileSize]_block_invoke.329
 -[DDFileLogger setMaximumFileSize:]
 ___35-[DDFileLogger setMaximumFileSize:]_block_invoke
-___35-[DDFileLogger setMaximumFileSize:]_block_invoke.344
+___copy_helper_block_.337
+___destroy_helper_block_.338
+___35-[DDFileLogger setMaximumFileSize:]_block_invoke.340
 -[DDFileLogger rollingFrequency]
 ___32-[DDFileLogger rollingFrequency]_block_invoke
-___32-[DDFileLogger rollingFrequency]_block_invoke.351
-___copy_helper_block_.352
-___destroy_helper_block_.353
+___copy_helper_block_.344
+___destroy_helper_block_.345
+___32-[DDFileLogger rollingFrequency]_block_invoke.347
 -[DDFileLogger setRollingFrequency:]
 ___36-[DDFileLogger setRollingFrequency:]_block_invoke
+___36-[DDFileLogger setRollingFrequency:]_block_invoke.356
 ___copy_helper_block_.357
 ___destroy_helper_block_.358
-___36-[DDFileLogger setRollingFrequency:]_block_invoke.360
 -[DDFileLogger scheduleTimerToRollLogFileDueToAge]
 ___50-[DDFileLogger scheduleTimerToRollLogFileDueToAge]_block_invoke
-___copy_helper_block_.368
-___destroy_helper_block_.369
+___copy_helper_block_.364
+___destroy_helper_block_.365
 -[DDFileLogger rollLogFile]
 -[DDFileLogger rollLogFileWithCompletionBlock:]
 ___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke
 ___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke_2
+___copy_helper_block_.373
+___destroy_helper_block_.374
+___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke.379
 ___copy_helper_block_.380
 ___destroy_helper_block_.381
-___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke.383
-___copy_helper_block_.384
-___destroy_helper_block_.385
 -[DDFileLogger rollLogFileNow]
 -[DDFileLogger maybeRollLogFileDueToAge]
 -[DDFileLogger maybeRollLogFileDueToSize]
 -[DDFileLogger currentLogFileInfo]
 -[DDFileLogger currentLogFileHandle]
 ___36-[DDFileLogger currentLogFileHandle]_block_invoke
-___copy_helper_block_.412
-___destroy_helper_block_.413
+___copy_helper_block_.408
+___destroy_helper_block_.409
 -[DDFileLogger logMessage:]
 -[DDFileLogger willLogMessage]
 -[DDFileLogger didLogMessage]
@@ -5573,15 +5566,14 @@ _OBJC_IVAR_$_DDFileLogger.logFileManager
 _OBJC_IVAR_$_DDFileLogger._currentLogFileHandle
 _OBJC_IVAR_$_DDFileLogger._currentLogFileVnode
 _OBJC_IVAR_$_DDFileLogger._rollingTimer
-___block_descriptor_tmp.314
-___block_descriptor_tmp.338
-___block_descriptor_tmp.354
+___block_descriptor_tmp.310
+___block_descriptor_tmp.346
 ___block_descriptor_tmp.359
-___block_descriptor_tmp.370
+___block_descriptor_tmp.366
+___block_descriptor_tmp.375
 ___block_descriptor_tmp.382
-___block_descriptor_tmp.386
 _OBJC_IVAR_$_DDFileLogger._doNotReuseLogFiles
-___block_descriptor_tmp.414
+___block_descriptor_tmp.410
 _exception_count
 _OBJC_IVAR_$_DDFileLogger._logFileManager
 _OBJC_IVAR_$_DDLogFileInfo.filePath
@@ -5594,17 +5586,17 @@ _OBJC_IVAR_$_DDLogFileInfo._filePath
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDFileLogger.m
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDFileLogger.h
 __36-[DDFileLogger currentLogFileHandle]_block_invoke
-__47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke.383
+__47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke.379
 __47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke_2
 __47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke
 __50-[DDFileLogger scheduleTimerToRollLogFileDueToAge]_block_invoke
-__36-[DDFileLogger setRollingFrequency:]_block_invoke.360
+__36-[DDFileLogger setRollingFrequency:]_block_invoke.356
 __36-[DDFileLogger setRollingFrequency:]_block_invoke
-__32-[DDFileLogger rollingFrequency]_block_invoke.351
+__32-[DDFileLogger rollingFrequency]_block_invoke.347
 __32-[DDFileLogger rollingFrequency]_block_invoke
-__35-[DDFileLogger setMaximumFileSize:]_block_invoke.344
+__35-[DDFileLogger setMaximumFileSize:]_block_invoke.340
 __35-[DDFileLogger setMaximumFileSize:]_block_invoke
-__31-[DDFileLogger maximumFileSize]_block_invoke.333
+__31-[DDFileLogger maximumFileSize]_block_invoke.329
 __31-[DDFileLogger maximumFileSize]_block_invoke
 __42-[DDLogFileManagerDefault applicationName]_block_invoke
 doesAppRunInBackground
@@ -5716,23 +5708,23 @@ ___destroy_helper_block_.803
 +[HPUserService getUser2PutOnlineParametersWithUnreadCount:]
 +[HPUserService fireUserPutRequestWith:completion:]
 ___51+[HPUserService fireUserPutRequestWith:completion:]_block_invoke
-___copy_helper_block_.830
-___destroy_helper_block_.831
+___copy_helper_block_.828
+___destroy_helper_block_.829
 +[HPUserService fireUser2PutRequestWithoutParsingWith:completion:]
 ___66+[HPUserService fireUser2PutRequestWithoutParsingWith:completion:]_block_invoke
-___copy_helper_block_.835
-___destroy_helper_block_.836
+___copy_helper_block_.833
+___destroy_helper_block_.834
 +[HPUserService parseUserPutSuccessResponseWith:completion:]
 ___60+[HPUserService parseUserPutSuccessResponseWith:completion:]_block_invoke
 ___60+[HPUserService parseUserPutSuccessResponseWith:completion:]_block_invoke_2
-___copy_helper_block_.844
-___destroy_helper_block_.845
-___copy_helper_block_.847
-___destroy_helper_block_.848
+___copy_helper_block_.842
+___destroy_helper_block_.843
+___copy_helper_block_.845
+___destroy_helper_block_.846
 +[HPUserService signoutUserWithCompletion:]
 ___43+[HPUserService signoutUserWithCompletion:]_block_invoke
-___copy_helper_block_.851
-___destroy_helper_block_.852
+___copy_helper_block_.849
+___destroy_helper_block_.850
 ___block_descriptor_tmp.604
 ___block_descriptor_tmp.641
 ___block_descriptor_tmp.646
@@ -5741,11 +5733,11 @@ ___block_descriptor_tmp.730
 ___block_descriptor_tmp.782
 ___block_descriptor_tmp.799
 ___block_descriptor_tmp.805
-___block_descriptor_tmp.832
-___block_descriptor_tmp.837
-___block_descriptor_tmp.846
-___block_descriptor_tmp.850
-___block_descriptor_tmp.853
+___block_descriptor_tmp.830
+___block_descriptor_tmp.835
+___block_descriptor_tmp.844
+___block_descriptor_tmp.848
+___block_descriptor_tmp.851
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/User Service/HPUserService.m
 __43+[HPUserService signoutUserWithCompletion:]_block_invoke
 __60+[HPUserService parseUserPutSuccessResponseWith:completion:]_block_invoke_2
@@ -5864,8 +5856,6 @@ ___destroy_helper_block_.34
 ___block_descriptor_tmp.25
 ___block_descriptor_tmp.35
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextView+SLKAdditions.m
-NSMakeRange
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 __51-[SLKTextView(SLKAdditions) slk_insertNewLineBreak]_block_invoke
 __56-[SLKTextView(SLKAdditions) slk_scrollToBottomAnimated:]_block_invoke
 __62-[SLKTextView(SLKAdditions) slk_scrollToCaretPositonAnimated:]_block_invoke
@@ -5909,12 +5899,12 @@ ___84-[InboxViewModel controller:didChangeObject:atIndexPath:forChangeType:newIn
 ___copy_helper_block_.444
 ___destroy_helper_block_.445
 ___84-[InboxViewModel controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:]_block_invoke.451
-___copy_helper_block_.454
-___destroy_helper_block_.455
 ___84-[InboxViewModel controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:]_block_invoke.457
 ___copy_helper_block_.458
 ___destroy_helper_block_.459
 ___84-[InboxViewModel controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:]_block_invoke.461
+___copy_helper_block_.464
+___destroy_helper_block_.465
 -[InboxViewModel controllerDidChangeContent:]
 ___45-[InboxViewModel controllerDidChangeContent:]_block_invoke
 ___copy_helper_block_.473
@@ -5976,8 +5966,8 @@ ___block_descriptor_tmp.418
 _OBJC_IVAR_$_InboxViewModel.blockOperations
 _OBJC_IVAR_$_InboxViewModel.fetchedItems
 ___block_descriptor_tmp.446
-___block_descriptor_tmp.456
 ___block_descriptor_tmp.460
+___block_descriptor_tmp.466
 ___block_descriptor_tmp.475
 _OBJC_IVAR_$_InboxViewModel.loadingView
 ___block_descriptor_tmp.553
@@ -6195,6 +6185,8 @@ ___destroy_helper_block_.432
 -[SLKTextViewController setTextInputbarHidden:]
 -[SLKTextViewController setTextInputbarHidden:animated:]
 ___56-[SLKTextViewController setTextInputbarHidden:animated:]_block_invoke
+___copy_helper_block_.443
+___destroy_helper_block_.444
 ___56-[SLKTextViewController setTextInputbarHidden:animated:]_block_invoke.446
 ___copy_helper_block_.449
 ___destroy_helper_block_.450
@@ -6381,8 +6373,8 @@ _OBJC_IVAR_$_SLKTextViewController._inverted
 _OBJC_IVAR_$_SLKTextViewController._bounces
 _OBJC_IVAR_$_SLKTextViewController._keyboardStatus
 ___block_descriptor_tmp.316
-___block_descriptor_tmp.325
 ___block_descriptor_tmp.434
+___block_descriptor_tmp.445
 ___block_descriptor_tmp.452
 ___block_descriptor_tmp.461
 _slk_handlePanGestureRecognizer:.startPoint
@@ -6450,6 +6442,7 @@ __40-[SLKTextViewController willRequestUndo]_block_invoke
 __39-[SLKTextViewController textDidUpdate:]_block_invoke
 __41-[SLKTextViewController dismissKeyboard:]_block_invoke
 __41-[SLKTextViewController presentKeyboard:]_block_invoke
+__CGAffineTransformMake
 __40-[SLKTextViewController viewWillAppear:]_block_invoke
 -[BillPaymentViewModel init]
 -[BillPaymentViewModel fetchRechargeTransactionDataWithCompletion:]
@@ -6458,11 +6451,11 @@ ___67-[BillPaymentViewModel fetchRechargeTransactionDataWithCompletion:]_block_i
 -[BillPaymentViewModel fetchDTHTransactionDataWithCompletion:]
 ___62-[BillPaymentViewModel fetchDTHTransactionDataWithCompletion:]_block_invoke
 ___62-[BillPaymentViewModel fetchDTHTransactionDataWithCompletion:]_block_invoke_2
-___copy_helper_block_.337
-___destroy_helper_block_.338
 -[BillPaymentViewModel fetchElectricityTransactionDataWithCompletion:]
 ___70-[BillPaymentViewModel fetchElectricityTransactionDataWithCompletion:]_block_invoke
 ___70-[BillPaymentViewModel fetchElectricityTransactionDataWithCompletion:]_block_invoke_2
+___copy_helper_block_.343
+___destroy_helper_block_.344
 -[BillPaymentViewModel getDataDictForTransaction:]
 -[BillPaymentViewModel setRechargePlanDataWithDict:]
 -[BillPaymentViewModel getCTAText]
@@ -6496,6 +6489,7 @@ ___destroy_helper_block_.584
 _OBJC_IVAR_$_BillPaymentViewModel.mobileTransactions
 _OBJC_IVAR_$_BillPaymentViewModel.dthTransactions
 _OBJC_IVAR_$_BillPaymentViewModel.electricityTransactions
+___block_descriptor_tmp.345
 _OBJC_IVAR_$_BillPaymentViewModel.selectedPlan
 _OBJC_IVAR_$_BillPaymentViewModel.serviceProviderDict
 _OBJC_IVAR_$_BillPaymentViewModel.isBillFetch
@@ -6587,7 +6581,6 @@ _OBJC_IVAR_$_MultiSelectActionSheet.selectClearBtn
 _OBJC_IVAR_$_MultiSelectActionSheet.selectedArray
 _OBJC_IVAR_$_MultiSelectActionSheet.optionsArray
 ___block_descriptor_tmp.396
-___block_descriptor_tmp.401
 ___block_descriptor_tmp.406
 ___block_descriptor_tmp.412
 _OBJC_IVAR_$_MultiSelectActionSheet._donePressed
@@ -6799,6 +6792,8 @@ ___40+[HPSyncService updateInboxChatIndexing]_block_invoke
 ___40+[HPSyncService updateInboxChatIndexing]_block_invoke_2
 ___copy_helper_block_.837
 ___destroy_helper_block_.838
+___copy_helper_block_.844
+___destroy_helper_block_.845
 +[HPSyncService discardPreviousInboxChatIndexing]
 +[HPSyncService getFilteredInboxChats:]
 +[HPSyncService getBanners]
@@ -6888,8 +6883,6 @@ _OBJC_IVAR_$_SRSecurityPolicy._certificateChainValidationEnabled
 -[MQTTSession decoder:didReceiveMessage:]
 ___41-[MQTTSession decoder:didReceiveMessage:]_block_invoke
 ___41-[MQTTSession decoder:didReceiveMessage:]_block_invoke.421
-___copy_helper_block_.424
-___destroy_helper_block_.425
 -[MQTTSession handlePublish:]
 -[MQTTSession handlePuback:]
 -[MQTTSession handleSuback:]
@@ -7027,7 +7020,6 @@ ___destroy_helper_block_.425
 _OBJC_IVAR_$_MQTTSession.certificates
 _OBJC_IVAR_$_MQTTSession._transport
 _OBJC_IVAR_$_MQTTSession._clientId
-___block_descriptor_tmp.426
 _OBJC_IVAR_$_MQTTSession._delegate
 _OBJC_IVAR_$_MQTTSession._persistence
 _OBJC_IVAR_$_MQTTSession._connectHandler
@@ -7840,17 +7832,19 @@ ___destroy_helper_block_.1490
 +[TaskboxActionHandler sendTaskMessageFor:business:]
 ___52+[TaskboxActionHandler sendTaskMessageFor:business:]_block_invoke
 ___52+[TaskboxActionHandler sendTaskMessageFor:business:]_block_invoke_2
-___copy_helper_block_.1495
-___destroy_helper_block_.1496
-___52+[TaskboxActionHandler sendTaskMessageFor:business:]_block_invoke.1500
-___copy_helper_block_.1507
-___destroy_helper_block_.1508
-___copy_helper_block_.1514
-___destroy_helper_block_.1515
+___copy_helper_block_.1497
+___destroy_helper_block_.1498
+___52+[TaskboxActionHandler sendTaskMessageFor:business:]_block_invoke.1502
+___copy_helper_block_.1516
+___destroy_helper_block_.1517
 +[TaskboxActionHandler performTaskMessageSendSuccessOperationsWith:business:]
 ___77+[TaskboxActionHandler performTaskMessageSendSuccessOperationsWith:business:]_block_invoke
+___copy_helper_block_.1536
+___destroy_helper_block_.1537
 +[TaskboxActionHandler fireTaskTappedAnalyticsWith:business:indexPath:]
 ___71+[TaskboxActionHandler fireTaskTappedAnalyticsWith:business:indexPath:]_block_invoke
+___copy_helper_block_.1547
+___destroy_helper_block_.1548
 +[TaskboxActionHandler fireMessageSendingAnalyticsFor:success:error:]
 ___block_descriptor_tmp.1387
 ___block_descriptor_tmp.1390
@@ -7858,11 +7852,14 @@ ___block_descriptor_tmp.1434
 ___block_descriptor_tmp.1467
 ___block_descriptor_tmp.1480
 ___block_descriptor_tmp.1491
-___block_descriptor_tmp.1499
+___block_descriptor_tmp.1513
+___block_descriptor_tmp.1518
+___block_descriptor_tmp.1538
+___block_descriptor_tmp.1549
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Action Helpers/Taskbox/TaskboxActionHandler.m
 __71+[TaskboxActionHandler fireTaskTappedAnalyticsWith:business:indexPath:]_block_invoke
 __77+[TaskboxActionHandler performTaskMessageSendSuccessOperationsWith:business:]_block_invoke
-__52+[TaskboxActionHandler sendTaskMessageFor:business:]_block_invoke.1500
+__52+[TaskboxActionHandler sendTaskMessageFor:business:]_block_invoke.1502
 __52+[TaskboxActionHandler sendTaskMessageFor:business:]_block_invoke_2
 __52+[TaskboxActionHandler sendTaskMessageFor:business:]_block_invoke
 __81+[TaskboxActionHandler logChatformOnTapFor:business:message:sortID:actionHelper:]_block_invoke
@@ -7907,26 +7904,22 @@ ___44-[ConversationViewController viewDidAppear:]_block_invoke
 -[ConversationViewController didSelectTaskAtIndexPath:]
 ___55-[ConversationViewController didSelectTaskAtIndexPath:]_block_invoke
 ___55-[ConversationViewController didSelectTaskAtIndexPath:]_block_invoke_2
-___copy_helper_block_.1665
-___destroy_helper_block_.1666
-___55-[ConversationViewController didSelectTaskAtIndexPath:]_block_invoke.1668
-___copy_helper_block_.1681
-___destroy_helper_block_.1682
-___copy_helper_block_.1684
-___destroy_helper_block_.1685
+___copy_helper_block_.1667
+___destroy_helper_block_.1668
+___55-[ConversationViewController didSelectTaskAtIndexPath:]_block_invoke.1670
+___copy_helper_block_.1683
+___destroy_helper_block_.1684
+___copy_helper_block_.1686
+___destroy_helper_block_.1687
 -[ConversationViewController sendTaskMessageToBackend]
 ___54-[ConversationViewController sendTaskMessageToBackend]_block_invoke
 ___54-[ConversationViewController sendTaskMessageToBackend]_block_invoke_2
 ___54-[ConversationViewController sendTaskMessageToBackend]_block_invoke_3
-___copy_helper_block_.1718
-___destroy_helper_block_.1719
-___copy_helper_block_.1721
-___destroy_helper_block_.1722
-___54-[ConversationViewController sendTaskMessageToBackend]_block_invoke.1725
-___copy_helper_block_.1734
-___destroy_helper_block_.1735
-___copy_helper_block_.1740
-___destroy_helper_block_.1741
+___copy_helper_block_.1720
+___destroy_helper_block_.1721
+___54-[ConversationViewController sendTaskMessageToBackend]_block_invoke.1727
+___copy_helper_block_.1742
+___destroy_helper_block_.1743
 -[ConversationViewController closeModal]
 -[ConversationViewController dismissKeyboard:]
 -[ConversationViewController disablesAutomaticKeyboardDismissal]
@@ -7939,79 +7932,79 @@ ___destroy_helper_block_.1741
 ___74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke
 ___74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke_2
 ___74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke_3
-___copy_helper_block_.1829
-___destroy_helper_block_.1830
-___74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke.1832
-___copy_helper_block_.1860
-___destroy_helper_block_.1861
-___copy_helper_block_.1863
-___destroy_helper_block_.1864
-___74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke.1867
-___74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke_2.1868
-___copy_helper_block_.1869
-___destroy_helper_block_.1870
-___copy_helper_block_.1874
-___destroy_helper_block_.1875
-___74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke.1880
-___copy_helper_block_.1881
-___destroy_helper_block_.1882
-___copy_helper_block_.1884
-___destroy_helper_block_.1885
+___copy_helper_block_.1831
+___destroy_helper_block_.1832
+___74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke.1834
+___copy_helper_block_.1862
+___destroy_helper_block_.1863
+___copy_helper_block_.1865
+___destroy_helper_block_.1866
+___74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke.1869
+___74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke_2.1870
+___copy_helper_block_.1871
+___destroy_helper_block_.1872
+___copy_helper_block_.1876
+___destroy_helper_block_.1877
+___74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke.1882
+___copy_helper_block_.1883
+___destroy_helper_block_.1884
+___copy_helper_block_.1886
+___destroy_helper_block_.1887
 -[ConversationViewController sendBusinessToUserMessage:withType:]
 ___65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke
 ___65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke_2
 ___65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke_3
-___copy_helper_block_.1889
-___destroy_helper_block_.1890
-___65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke.1892
-___65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke_2.1893
-___copy_helper_block_.1894
-___destroy_helper_block_.1895
-___copy_helper_block_.1897
-___destroy_helper_block_.1898
+___65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke.1894
+___65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke_2.1895
+___copy_helper_block_.1896
+___destroy_helper_block_.1897
+___copy_helper_block_.1899
+___destroy_helper_block_.1900
+___copy_helper_block_.1904
+___destroy_helper_block_.1905
 -[ConversationViewController createFormInConversationWithBody:withSelfObject:]
 ___78-[ConversationViewController createFormInConversationWithBody:withSelfObject:]_block_invoke
-___copy_helper_block_.1905
-___destroy_helper_block_.1906
+___copy_helper_block_.1907
+___destroy_helper_block_.1908
 -[ConversationViewController performTaskActionWithSelfObject:]
 ___62-[ConversationViewController performTaskActionWithSelfObject:]_block_invoke
 ___62-[ConversationViewController performTaskActionWithSelfObject:]_block_invoke_2
-___copy_helper_block_.1912
-___destroy_helper_block_.1913
-___copy_helper_block_.1915
-___destroy_helper_block_.1916
-___62-[ConversationViewController performTaskActionWithSelfObject:]_block_invoke.1918
-___copy_helper_block_.1919
-___destroy_helper_block_.1920
+___copy_helper_block_.1914
+___destroy_helper_block_.1915
+___copy_helper_block_.1917
+___destroy_helper_block_.1918
+___62-[ConversationViewController performTaskActionWithSelfObject:]_block_invoke.1920
+___copy_helper_block_.1921
+___destroy_helper_block_.1922
 -[ConversationViewController sendImage:]
 ___40-[ConversationViewController sendImage:]_block_invoke
 ___40-[ConversationViewController sendImage:]_block_invoke_2
-___copy_helper_block_.1926
-___destroy_helper_block_.1927
-___40-[ConversationViewController sendImage:]_block_invoke.1929
-___copy_helper_block_.1930
-___destroy_helper_block_.1931
-___copy_helper_block_.1933
-___destroy_helper_block_.1934
-___40-[ConversationViewController sendImage:]_block_invoke.1937
-___40-[ConversationViewController sendImage:]_block_invoke_2.1942
-___copy_helper_block_.1943
-___destroy_helper_block_.1944
-___copy_helper_block_.1946
-___destroy_helper_block_.1947
+___copy_helper_block_.1928
+___destroy_helper_block_.1929
+___40-[ConversationViewController sendImage:]_block_invoke.1931
+___copy_helper_block_.1932
+___destroy_helper_block_.1933
+___copy_helper_block_.1935
+___destroy_helper_block_.1936
+___40-[ConversationViewController sendImage:]_block_invoke.1939
+___40-[ConversationViewController sendImage:]_block_invoke_2.1944
+___copy_helper_block_.1945
+___destroy_helper_block_.1946
+___copy_helper_block_.1948
+___destroy_helper_block_.1949
 -[ConversationViewController sendMessage:withType:]
 -[ConversationViewController performBannerTapActionsForPayload:source:]
 ___71-[ConversationViewController performBannerTapActionsForPayload:source:]_block_invoke
-___copy_helper_block_.1955
-___destroy_helper_block_.1956
-___71-[ConversationViewController performBannerTapActionsForPayload:source:]_block_invoke.1965
+___copy_helper_block_.1957
+___destroy_helper_block_.1958
+___71-[ConversationViewController performBannerTapActionsForPayload:source:]_block_invoke.1967
 ___71-[ConversationViewController performBannerTapActionsForPayload:source:]_block_invoke_2
 ___71-[ConversationViewController performBannerTapActionsForPayload:source:]_block_invoke_3
 ___71-[ConversationViewController performBannerTapActionsForPayload:source:]_block_invoke_4
-___copy_helper_block_.1974
-___destroy_helper_block_.1975
-___copy_helper_block_.1979
-___destroy_helper_block_.1980
+___copy_helper_block_.1976
+___destroy_helper_block_.1977
+___copy_helper_block_.1981
+___destroy_helper_block_.1982
 -[ConversationViewController startPendingOperations]
 -[ConversationViewController sendMessageToExpertWithoutStoring:withMessageType:]
 ___80-[ConversationViewController sendMessageToExpertWithoutStoring:withMessageType:]_block_invoke
@@ -8020,169 +8013,169 @@ ___80-[ConversationViewController sendMessageToExpertWithoutStoring:withMessageT
 -[ConversationViewController sendNewUserWelcomeMessage:]
 ___56-[ConversationViewController sendNewUserWelcomeMessage:]_block_invoke
 ___56-[ConversationViewController sendNewUserWelcomeMessage:]_block_invoke_2
-___copy_helper_block_.2015
-___destroy_helper_block_.2016
+___copy_helper_block_.2017
+___destroy_helper_block_.2018
+___copy_helper_block_.2020
+___destroy_helper_block_.2021
 -[ConversationViewController showLocationAlertView]
 ___51-[ConversationViewController showLocationAlertView]_block_invoke
-___copy_helper_block_.2033
-___destroy_helper_block_.2034
-___51-[ConversationViewController showLocationAlertView]_block_invoke.2041
+___copy_helper_block_.2035
+___destroy_helper_block_.2036
+___51-[ConversationViewController showLocationAlertView]_block_invoke.2043
 -[ConversationViewController fetchCustomMessageAndSendNoteToExpert]
 -[ConversationViewController shouldEnableSendButton]
 -[ConversationViewController showPickerInTextField:WithTitle:WithValues:]
 ___73-[ConversationViewController showPickerInTextField:WithTitle:WithValues:]_block_invoke
-___copy_helper_block_.2091
-___destroy_helper_block_.2092
-___73-[ConversationViewController showPickerInTextField:WithTitle:WithValues:]_block_invoke.2095
+___copy_helper_block_.2093
+___destroy_helper_block_.2094
+___73-[ConversationViewController showPickerInTextField:WithTitle:WithValues:]_block_invoke.2097
 -[ConversationViewController showDatePickerWithFormField:inTextField:]
 ___70-[ConversationViewController showDatePickerWithFormField:inTextField:]_block_invoke
-___copy_helper_block_.2136
-___destroy_helper_block_.2137
+___copy_helper_block_.2138
+___destroy_helper_block_.2139
 -[ConversationViewController showActionSheetWithTitle:forTextField:]
 ___68-[ConversationViewController showActionSheetWithTitle:forTextField:]_block_invoke
-___copy_helper_block_.2146
-___destroy_helper_block_.2147
-___68-[ConversationViewController showActionSheetWithTitle:forTextField:]_block_invoke.2151
-___copy_helper_block_.2170
-___destroy_helper_block_.2171
+___copy_helper_block_.2148
+___destroy_helper_block_.2149
+___68-[ConversationViewController showActionSheetWithTitle:forTextField:]_block_invoke.2153
+___copy_helper_block_.2172
+___destroy_helper_block_.2173
 -[ConversationViewController showTimePickerWithTitle:inTextField:]
 ___66-[ConversationViewController showTimePickerWithTitle:inTextField:]_block_invoke
-___copy_helper_block_.2176
-___destroy_helper_block_.2177
-___66-[ConversationViewController showTimePickerWithTitle:inTextField:]_block_invoke.2180
+___copy_helper_block_.2178
+___destroy_helper_block_.2179
+___66-[ConversationViewController showTimePickerWithTitle:inTextField:]_block_invoke.2182
 -[ConversationViewController imagePickerController:didFinishPickingMediaWithInfo:]
 -[ConversationViewController imagePickerControllerDidCancel:]
 -[ConversationViewController textViewDidChange:]
 -[ConversationViewController showToolbarOptions]
 ___48-[ConversationViewController showToolbarOptions]_block_invoke
-___48-[ConversationViewController showToolbarOptions]_block_invoke.2204
-___copy_helper_block_.2205
-___destroy_helper_block_.2206
-___48-[ConversationViewController showToolbarOptions]_block_invoke.2208
+___copy_helper_block_.2201
+___destroy_helper_block_.2202
+___48-[ConversationViewController showToolbarOptions]_block_invoke.2206
+___copy_helper_block_.2207
+___destroy_helper_block_.2208
+___48-[ConversationViewController showToolbarOptions]_block_invoke.2210
 -[ConversationViewController performItemAction:]
 ___48-[ConversationViewController performItemAction:]_block_invoke
-___copy_helper_block_.2233
-___destroy_helper_block_.2234
-___48-[ConversationViewController performItemAction:]_block_invoke.2242
-___copy_helper_block_.2247
-___destroy_helper_block_.2248
+___copy_helper_block_.2235
+___destroy_helper_block_.2236
+___48-[ConversationViewController performItemAction:]_block_invoke.2244
+___copy_helper_block_.2249
+___destroy_helper_block_.2250
 -[ConversationViewController carouselViewTapped:]
 ___49-[ConversationViewController carouselViewTapped:]_block_invoke
-___copy_helper_block_.2252
-___destroy_helper_block_.2253
-___49-[ConversationViewController carouselViewTapped:]_block_invoke.2259
+___copy_helper_block_.2254
+___destroy_helper_block_.2255
+___49-[ConversationViewController carouselViewTapped:]_block_invoke.2261
 ___49-[ConversationViewController carouselViewTapped:]_block_invoke_2
-___copy_helper_block_.2278
-___destroy_helper_block_.2279
-___copy_helper_block_.2281
-___destroy_helper_block_.2282
-___49-[ConversationViewController carouselViewTapped:]_block_invoke.2284
-___copy_helper_block_.2289
-___destroy_helper_block_.2290
+___copy_helper_block_.2283
+___destroy_helper_block_.2284
+___49-[ConversationViewController carouselViewTapped:]_block_invoke.2286
+___copy_helper_block_.2291
+___destroy_helper_block_.2292
 -[ConversationViewController handleImageViewTap:]
 ___49-[ConversationViewController handleImageViewTap:]_block_invoke
-___copy_helper_block_.2299
-___destroy_helper_block_.2300
+___copy_helper_block_.2301
+___destroy_helper_block_.2302
 -[ConversationViewController shareOrderReceiptWith:withMessage:]
 -[ConversationViewController addressSelected:forTaskAtIndexPath:andTask:]
 ___73-[ConversationViewController addressSelected:forTaskAtIndexPath:andTask:]_block_invoke
-___copy_helper_block_.2320
-___destroy_helper_block_.2321
+___copy_helper_block_.2322
+___destroy_helper_block_.2323
 -[ConversationViewController addressSelected:forActionable:andViewController:]
 ___78-[ConversationViewController addressSelected:forActionable:andViewController:]_block_invoke
-___copy_helper_block_.2326
-___destroy_helper_block_.2327
+___copy_helper_block_.2328
+___destroy_helper_block_.2329
 -[ConversationViewController dismissButtonTapped]
 -[ConversationViewController setInfoButton]
 -[ConversationViewController pushInfoScreen]
 -[ConversationViewController showAssistantFeedbackActionSheet]
 ___62-[ConversationViewController showAssistantFeedbackActionSheet]_block_invoke
-___copy_helper_block_.2352
-___destroy_helper_block_.2353
-___62-[ConversationViewController showAssistantFeedbackActionSheet]_block_invoke.2355
-___copy_helper_block_.2359
-___destroy_helper_block_.2360
-___62-[ConversationViewController showAssistantFeedbackActionSheet]_block_invoke.2364
+___copy_helper_block_.2354
+___destroy_helper_block_.2355
+___62-[ConversationViewController showAssistantFeedbackActionSheet]_block_invoke.2357
+___62-[ConversationViewController showAssistantFeedbackActionSheet]_block_invoke.2366
 ___62-[ConversationViewController showAssistantFeedbackActionSheet]_block_invoke_2
-___copy_helper_block_.2380
-___destroy_helper_block_.2381
+___copy_helper_block_.2382
+___destroy_helper_block_.2383
+___copy_helper_block_.2387
+___destroy_helper_block_.2388
 -[ConversationViewController productViewControllerDidFinish:]
 -[ConversationViewController removeAgentInfoOverlay]
 ___52-[ConversationViewController removeAgentInfoOverlay]_block_invoke
-___copy_helper_block_.2396
-___destroy_helper_block_.2397
-___52-[ConversationViewController removeAgentInfoOverlay]_block_invoke.2401
-___copy_helper_block_.2406
-___destroy_helper_block_.2407
-___52-[ConversationViewController removeAgentInfoOverlay]_block_invoke.2409
-___copy_helper_block_.2414
-___destroy_helper_block_.2415
+___52-[ConversationViewController removeAgentInfoOverlay]_block_invoke.2403
+___copy_helper_block_.2408
+___destroy_helper_block_.2409
+___52-[ConversationViewController removeAgentInfoOverlay]_block_invoke.2411
 -[ConversationViewController giveFeedbackFromAgentInfo]
 -[ConversationViewController showFeedbackOverlay]
 ___49-[ConversationViewController showFeedbackOverlay]_block_invoke
-___copy_helper_block_.2463
-___destroy_helper_block_.2464
-___49-[ConversationViewController showFeedbackOverlay]_block_invoke.2466
-___copy_helper_block_.2467
-___destroy_helper_block_.2468
+___copy_helper_block_.2465
+___destroy_helper_block_.2466
+___49-[ConversationViewController showFeedbackOverlay]_block_invoke.2468
+___copy_helper_block_.2469
+___destroy_helper_block_.2470
 -[ConversationViewController submitFeedback]
 ___44-[ConversationViewController submitFeedback]_block_invoke
-___copy_helper_block_.2492
-___destroy_helper_block_.2493
-___44-[ConversationViewController submitFeedback]_block_invoke.2504
+___copy_helper_block_.2494
+___destroy_helper_block_.2495
+___44-[ConversationViewController submitFeedback]_block_invoke.2506
 ___44-[ConversationViewController submitFeedback]_block_invoke_2
-___copy_helper_block_.2509
-___destroy_helper_block_.2510
-___copy_helper_block_.2512
-___destroy_helper_block_.2513
+___copy_helper_block_.2511
+___destroy_helper_block_.2512
+___copy_helper_block_.2514
+___destroy_helper_block_.2515
 -[ConversationViewController shareToWhatsAppFromAgentInfo]
 -[ConversationViewController shareToFacebookFromAgentInfo]
 -[ConversationViewController shareToTwitterFromAgentInfo]
 ___57-[ConversationViewController shareToTwitterFromAgentInfo]_block_invoke
+___copy_helper_block_.2535
+___destroy_helper_block_.2536
 -[ConversationViewController tapDidRateView:rating:]
 ___52-[ConversationViewController tapDidRateView:rating:]_block_invoke
-___copy_helper_block_.2569
-___destroy_helper_block_.2570
+___copy_helper_block_.2571
+___destroy_helper_block_.2572
 -[ConversationViewController feedbackSubmitPressed:]
 ___52-[ConversationViewController feedbackSubmitPressed:]_block_invoke
-___copy_helper_block_.2592
-___destroy_helper_block_.2593
-___52-[ConversationViewController feedbackSubmitPressed:]_block_invoke.2597
-___copy_helper_block_.2598
-___destroy_helper_block_.2599
-___52-[ConversationViewController feedbackSubmitPressed:]_block_invoke.2601
-___copy_helper_block_.2602
-___destroy_helper_block_.2603
+___copy_helper_block_.2594
+___destroy_helper_block_.2595
+___52-[ConversationViewController feedbackSubmitPressed:]_block_invoke.2599
+___copy_helper_block_.2600
+___destroy_helper_block_.2601
+___52-[ConversationViewController feedbackSubmitPressed:]_block_invoke.2603
+___copy_helper_block_.2604
+___destroy_helper_block_.2605
 -[ConversationViewController showNegativeOptionsOverlay]
 ___56-[ConversationViewController showNegativeOptionsOverlay]_block_invoke
-___copy_helper_block_.2645
-___destroy_helper_block_.2646
+___copy_helper_block_.2647
+___destroy_helper_block_.2648
 -[ConversationViewController negativeOptionClicked:]
 -[ConversationViewController showCommentBoxOverlay]
 ___51-[ConversationViewController showCommentBoxOverlay]_block_invoke
-___copy_helper_block_.2652
-___destroy_helper_block_.2653
-___51-[ConversationViewController showCommentBoxOverlay]_block_invoke.2670
-___copy_helper_block_.2671
-___destroy_helper_block_.2672
+___copy_helper_block_.2654
+___destroy_helper_block_.2655
+___51-[ConversationViewController showCommentBoxOverlay]_block_invoke.2672
+___copy_helper_block_.2673
+___destroy_helper_block_.2674
 -[ConversationViewController dismissTopOverlay]
 ___47-[ConversationViewController dismissTopOverlay]_block_invoke
-___copy_helper_block_.2674
-___destroy_helper_block_.2675
-___47-[ConversationViewController dismissTopOverlay]_block_invoke.2677
-___copy_helper_block_.2678
-___destroy_helper_block_.2679
+___copy_helper_block_.2676
+___destroy_helper_block_.2677
+___47-[ConversationViewController dismissTopOverlay]_block_invoke.2679
+___copy_helper_block_.2680
+___destroy_helper_block_.2681
 -[ConversationViewController rateHaptikOnAppStore]
 ___50-[ConversationViewController rateHaptikOnAppStore]_block_invoke
-___copy_helper_block_.2681
-___destroy_helper_block_.2682
-___50-[ConversationViewController rateHaptikOnAppStore]_block_invoke.2684
-___copy_helper_block_.2687
-___destroy_helper_block_.2688
+___copy_helper_block_.2683
+___destroy_helper_block_.2684
+___50-[ConversationViewController rateHaptikOnAppStore]_block_invoke.2686
+___copy_helper_block_.2689
+___destroy_helper_block_.2690
 -[ConversationViewController showShareOverlay]
 ___46-[ConversationViewController showShareOverlay]_block_invoke
-___copy_helper_block_.2710
-___destroy_helper_block_.2711
+___copy_helper_block_.2712
+___destroy_helper_block_.2713
 -[ConversationViewController socialShareButtonClicked:]
 -[ConversationViewController fromDeepLink]
 -[ConversationViewController setFromDeepLink:]
@@ -8234,96 +8227,99 @@ _OBJC_IVAR_$_ConversationViewController.blockOperations
 ___block_descriptor_tmp.1552
 ___block_descriptor_tmp.1567
 ___block_literal_global.1568
-___block_descriptor_tmp.1683
-___block_descriptor_tmp.1686
-___block_descriptor_tmp.1720
-___block_descriptor_tmp.1737
-___block_descriptor_tmp.1742
-___block_descriptor_tmp.1831
-___block_descriptor_tmp.1862
-___block_descriptor_tmp.1866
-___block_descriptor_tmp.1871
-___block_descriptor_tmp.1877
-___block_descriptor_tmp.1883
-___block_descriptor_tmp.1886
-___block_descriptor_tmp.1887
-___block_literal_global.1888
-___block_descriptor_tmp.1891
-___block_descriptor_tmp.1896
-___block_descriptor_tmp.1899
-___block_descriptor_tmp.1907
-___block_descriptor_tmp.1914
-___block_descriptor_tmp.1917
-___block_descriptor_tmp.1921
-___block_descriptor_tmp.1928
-___block_descriptor_tmp.1932
-___block_descriptor_tmp.1936
-___block_descriptor_tmp.1945
-___block_descriptor_tmp.1948
-___block_descriptor_tmp.1957
-___block_descriptor_tmp.1970
-___block_literal_global.1971
+___block_descriptor_tmp.1669
+___block_descriptor_tmp.1685
+___block_descriptor_tmp.1688
+___block_descriptor_tmp.1722
+___block_descriptor_tmp.1726
+___block_descriptor_tmp.1739
+___block_descriptor_tmp.1744
+___block_descriptor_tmp.1833
+___block_descriptor_tmp.1864
+___block_descriptor_tmp.1868
+___block_descriptor_tmp.1873
+___block_descriptor_tmp.1879
+___block_descriptor_tmp.1885
+___block_descriptor_tmp.1888
+___block_descriptor_tmp.1889
+___block_literal_global.1890
+___block_descriptor_tmp.1898
+___block_descriptor_tmp.1901
+___block_descriptor_tmp.1906
+___block_descriptor_tmp.1909
+___block_descriptor_tmp.1916
+___block_descriptor_tmp.1919
+___block_descriptor_tmp.1923
+___block_descriptor_tmp.1930
+___block_descriptor_tmp.1934
+___block_descriptor_tmp.1938
+___block_descriptor_tmp.1947
+___block_descriptor_tmp.1950
+___block_descriptor_tmp.1959
 ___block_descriptor_tmp.1972
 ___block_literal_global.1973
-___block_descriptor_tmp.1976
-___block_descriptor_tmp.1981
-___block_descriptor_tmp.1990
-___block_literal_global.1991
+___block_descriptor_tmp.1974
+___block_literal_global.1975
+___block_descriptor_tmp.1978
+___block_descriptor_tmp.1983
 ___block_descriptor_tmp.1992
 ___block_literal_global.1993
-___block_descriptor_tmp.2017
-___block_descriptor_tmp.2036
-___block_descriptor_tmp.2042
-___block_literal_global.2043
-___block_descriptor_tmp.2094
-___block_descriptor_tmp.2097
-___block_literal_global.2098
+___block_literal_global.1995
+___block_descriptor_tmp.2019
+___block_descriptor_tmp.2022
+___block_descriptor_tmp.2038
+___block_descriptor_tmp.2044
+___block_literal_global.2045
+___block_descriptor_tmp.2096
+___block_descriptor_tmp.2099
+___block_literal_global.2100
 _OBJC_IVAR_$_ConversationViewController.formsFieldsArray
 _OBJC_IVAR_$_ConversationViewController.textFieldDict
-___block_descriptor_tmp.2139
-___block_descriptor_tmp.2148
-___block_descriptor_tmp.2179
-___block_descriptor_tmp.2182
-___block_literal_global.2183
+___block_descriptor_tmp.2141
+___block_descriptor_tmp.2150
+___block_descriptor_tmp.2174
+___block_descriptor_tmp.2181
+___block_descriptor_tmp.2184
+___block_literal_global.2185
 _OBJC_IVAR_$_ConversationViewController.didClickOnCamera
 _OBJC_IVAR_$_ConversationViewController.hasEditedForm
-___block_descriptor_tmp.2207
-___block_literal_global.2210
-___block_descriptor_tmp.2235
-___block_descriptor_tmp.2249
-___block_descriptor_tmp.2254
-___block_descriptor_tmp.2280
-___block_descriptor_tmp.2283
-___block_descriptor_tmp.2291
-___block_descriptor_tmp.2302
-___block_descriptor_tmp.2323
-___block_descriptor_tmp.2328
-___block_descriptor_tmp.2354
-___block_descriptor_tmp.2361
-___block_descriptor_tmp.2382
+___block_descriptor_tmp.2203
+___block_descriptor_tmp.2211
+___block_literal_global.2212
+___block_descriptor_tmp.2237
+___block_descriptor_tmp.2251
+___block_descriptor_tmp.2256
+___block_descriptor_tmp.2285
+___block_descriptor_tmp.2293
+___block_descriptor_tmp.2304
+___block_descriptor_tmp.2325
+___block_descriptor_tmp.2330
+___block_descriptor_tmp.2356
+___block_descriptor_tmp.2363
+___block_descriptor_tmp.2384
+___block_descriptor_tmp.2389
 _OBJC_IVAR_$_ConversationViewController.agentInfoView
-___block_descriptor_tmp.2398
-___block_descriptor_tmp.2408
-___block_descriptor_tmp.2417
+___block_descriptor_tmp.2410
 _OBJC_IVAR_$_ConversationViewController.feedbackGivenFromAgentInfo
 _OBJC_IVAR_$_ConversationViewController.tapToRate
-___block_descriptor_tmp.2465
-___block_descriptor_tmp.2469
-___block_descriptor_tmp.2494
-___block_descriptor_tmp.2511
-___block_descriptor_tmp.2515
-___block_descriptor_tmp.2571
-___block_descriptor_tmp.2594
-___block_descriptor_tmp.2600
-___block_descriptor_tmp.2604
-___block_descriptor_tmp.2647
-___block_descriptor_tmp.2654
-___block_descriptor_tmp.2673
-___block_descriptor_tmp.2676
-___block_descriptor_tmp.2680
-___block_descriptor_tmp.2683
-___block_descriptor_tmp.2689
-___block_descriptor_tmp.2712
+___block_descriptor_tmp.2467
+___block_descriptor_tmp.2471
+___block_descriptor_tmp.2496
+___block_descriptor_tmp.2513
+___block_descriptor_tmp.2517
+___block_descriptor_tmp.2538
+___block_descriptor_tmp.2573
+___block_descriptor_tmp.2596
+___block_descriptor_tmp.2602
+___block_descriptor_tmp.2606
+___block_descriptor_tmp.2649
+___block_descriptor_tmp.2656
+___block_descriptor_tmp.2675
+___block_descriptor_tmp.2678
+___block_descriptor_tmp.2682
+___block_descriptor_tmp.2685
+___block_descriptor_tmp.2691
+___block_descriptor_tmp.2714
 _OBJC_IVAR_$_ConversationViewController.selectedTask
 _OBJC_IVAR_$_ConversationViewController.feedbackRating
 _OBJC_IVAR_$_ConversationViewController.feedbackComment
@@ -8348,50 +8344,50 @@ l_OBJC_LABEL_PROTOCOL_$_AddressPickerDelegate
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/ConversationViewController.m
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/ConversationViewController.h
 __46-[ConversationViewController showShareOverlay]_block_invoke
-__50-[ConversationViewController rateHaptikOnAppStore]_block_invoke.2684
+__50-[ConversationViewController rateHaptikOnAppStore]_block_invoke.2686
 __50-[ConversationViewController rateHaptikOnAppStore]_block_invoke
-__47-[ConversationViewController dismissTopOverlay]_block_invoke.2677
+__47-[ConversationViewController dismissTopOverlay]_block_invoke.2679
 __47-[ConversationViewController dismissTopOverlay]_block_invoke
-__51-[ConversationViewController showCommentBoxOverlay]_block_invoke.2670
+__51-[ConversationViewController showCommentBoxOverlay]_block_invoke.2672
 __51-[ConversationViewController showCommentBoxOverlay]_block_invoke
 __56-[ConversationViewController showNegativeOptionsOverlay]_block_invoke
-__52-[ConversationViewController feedbackSubmitPressed:]_block_invoke.2601
-__52-[ConversationViewController feedbackSubmitPressed:]_block_invoke.2597
+__52-[ConversationViewController feedbackSubmitPressed:]_block_invoke.2603
+__52-[ConversationViewController feedbackSubmitPressed:]_block_invoke.2599
 __52-[ConversationViewController feedbackSubmitPressed:]_block_invoke
 __52-[ConversationViewController tapDidRateView:rating:]_block_invoke
 __57-[ConversationViewController shareToTwitterFromAgentInfo]_block_invoke
 __44-[ConversationViewController submitFeedback]_block_invoke_2
-__44-[ConversationViewController submitFeedback]_block_invoke.2504
+__44-[ConversationViewController submitFeedback]_block_invoke.2506
 __44-[ConversationViewController submitFeedback]_block_invoke
-__49-[ConversationViewController showFeedbackOverlay]_block_invoke.2466
+__49-[ConversationViewController showFeedbackOverlay]_block_invoke.2468
 __49-[ConversationViewController showFeedbackOverlay]_block_invoke
-__52-[ConversationViewController removeAgentInfoOverlay]_block_invoke.2409
-__52-[ConversationViewController removeAgentInfoOverlay]_block_invoke.2401
+__52-[ConversationViewController removeAgentInfoOverlay]_block_invoke.2411
+__52-[ConversationViewController removeAgentInfoOverlay]_block_invoke.2403
 __52-[ConversationViewController removeAgentInfoOverlay]_block_invoke
 __62-[ConversationViewController showAssistantFeedbackActionSheet]_block_invoke_2
-__62-[ConversationViewController showAssistantFeedbackActionSheet]_block_invoke.2364
-__62-[ConversationViewController showAssistantFeedbackActionSheet]_block_invoke.2355
+__62-[ConversationViewController showAssistantFeedbackActionSheet]_block_invoke.2366
+__62-[ConversationViewController showAssistantFeedbackActionSheet]_block_invoke.2357
 __62-[ConversationViewController showAssistantFeedbackActionSheet]_block_invoke
 __78-[ConversationViewController addressSelected:forActionable:andViewController:]_block_invoke
 __73-[ConversationViewController addressSelected:forTaskAtIndexPath:andTask:]_block_invoke
 __49-[ConversationViewController handleImageViewTap:]_block_invoke
-__49-[ConversationViewController carouselViewTapped:]_block_invoke.2284
+__49-[ConversationViewController carouselViewTapped:]_block_invoke.2286
 __49-[ConversationViewController carouselViewTapped:]_block_invoke_2
-__49-[ConversationViewController carouselViewTapped:]_block_invoke.2259
+__49-[ConversationViewController carouselViewTapped:]_block_invoke.2261
 __49-[ConversationViewController carouselViewTapped:]_block_invoke
-__48-[ConversationViewController performItemAction:]_block_invoke.2242
+__48-[ConversationViewController performItemAction:]_block_invoke.2244
 __48-[ConversationViewController performItemAction:]_block_invoke
-__48-[ConversationViewController showToolbarOptions]_block_invoke.2208
-__48-[ConversationViewController showToolbarOptions]_block_invoke.2204
+__48-[ConversationViewController showToolbarOptions]_block_invoke.2210
+__48-[ConversationViewController showToolbarOptions]_block_invoke.2206
 __48-[ConversationViewController showToolbarOptions]_block_invoke
-__66-[ConversationViewController showTimePickerWithTitle:inTextField:]_block_invoke.2180
+__66-[ConversationViewController showTimePickerWithTitle:inTextField:]_block_invoke.2182
 __66-[ConversationViewController showTimePickerWithTitle:inTextField:]_block_invoke
-__68-[ConversationViewController showActionSheetWithTitle:forTextField:]_block_invoke.2151
+__68-[ConversationViewController showActionSheetWithTitle:forTextField:]_block_invoke.2153
 __68-[ConversationViewController showActionSheetWithTitle:forTextField:]_block_invoke
 __70-[ConversationViewController showDatePickerWithFormField:inTextField:]_block_invoke
-__73-[ConversationViewController showPickerInTextField:WithTitle:WithValues:]_block_invoke.2095
+__73-[ConversationViewController showPickerInTextField:WithTitle:WithValues:]_block_invoke.2097
 __73-[ConversationViewController showPickerInTextField:WithTitle:WithValues:]_block_invoke
-__51-[ConversationViewController showLocationAlertView]_block_invoke.2041
+__51-[ConversationViewController showLocationAlertView]_block_invoke.2043
 __51-[ConversationViewController showLocationAlertView]_block_invoke
 __56-[ConversationViewController sendNewUserWelcomeMessage:]_block_invoke_2
 __56-[ConversationViewController sendNewUserWelcomeMessage:]_block_invoke
@@ -8400,34 +8396,34 @@ __80-[ConversationViewController sendMessageToExpertWithoutStoring:withMessageTy
 __71-[ConversationViewController performBannerTapActionsForPayload:source:]_block_invoke_4
 __71-[ConversationViewController performBannerTapActionsForPayload:source:]_block_invoke_3
 __71-[ConversationViewController performBannerTapActionsForPayload:source:]_block_invoke_2
-__71-[ConversationViewController performBannerTapActionsForPayload:source:]_block_invoke.1965
+__71-[ConversationViewController performBannerTapActionsForPayload:source:]_block_invoke.1967
 __71-[ConversationViewController performBannerTapActionsForPayload:source:]_block_invoke
-__40-[ConversationViewController sendImage:]_block_invoke_2.1942
-__40-[ConversationViewController sendImage:]_block_invoke.1937
-__40-[ConversationViewController sendImage:]_block_invoke.1929
+__40-[ConversationViewController sendImage:]_block_invoke_2.1944
+__40-[ConversationViewController sendImage:]_block_invoke.1939
+__40-[ConversationViewController sendImage:]_block_invoke.1931
 __40-[ConversationViewController sendImage:]_block_invoke_2
 __40-[ConversationViewController sendImage:]_block_invoke
-__62-[ConversationViewController performTaskActionWithSelfObject:]_block_invoke.1918
+__62-[ConversationViewController performTaskActionWithSelfObject:]_block_invoke.1920
 __62-[ConversationViewController performTaskActionWithSelfObject:]_block_invoke_2
 __62-[ConversationViewController performTaskActionWithSelfObject:]_block_invoke
 __78-[ConversationViewController createFormInConversationWithBody:withSelfObject:]_block_invoke
-__65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke_2.1893
-__65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke.1892
+__65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke_2.1895
+__65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke.1894
 __65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke_3
 __65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke_2
 __65-[ConversationViewController sendBusinessToUserMessage:withType:]_block_invoke
-__74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke.1880
-__74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke_2.1868
-__74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke.1867
-__74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke.1832
+__74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke.1882
+__74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke_2.1870
+__74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke.1869
+__74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke.1834
 __74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke_3
 __74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke_2
 __74-[ConversationViewController sendMessageToExpert:withName:andMessageType:]_block_invoke
-__54-[ConversationViewController sendTaskMessageToBackend]_block_invoke.1725
+__54-[ConversationViewController sendTaskMessageToBackend]_block_invoke.1727
 __54-[ConversationViewController sendTaskMessageToBackend]_block_invoke_3
 __54-[ConversationViewController sendTaskMessageToBackend]_block_invoke_2
 __54-[ConversationViewController sendTaskMessageToBackend]_block_invoke
-__55-[ConversationViewController didSelectTaskAtIndexPath:]_block_invoke.1668
+__55-[ConversationViewController didSelectTaskAtIndexPath:]_block_invoke.1670
 __55-[ConversationViewController didSelectTaskAtIndexPath:]_block_invoke_2
 __55-[ConversationViewController didSelectTaskAtIndexPath:]_block_invoke
 __44-[ConversationViewController viewDidAppear:]_block_invoke
@@ -8728,14 +8724,14 @@ ___40-[TTTAttributedLabel tintColorDidChange]_block_invoke
 -[TTTAttributedLabelLink setLinkLongPressBlock:]
 -[TTTAttributedLabelLink .cxx_destruct]
 ___NSAttributedStringBySettingColorFromContext_block_invoke
-___copy_helper_block_.850
-___destroy_helper_block_.851
+___copy_helper_block_.848
+___destroy_helper_block_.849
 ___NSAttributedStringByScalingFontSize_block_invoke
-___copy_helper_block_.860
-___destroy_helper_block_.861
+___copy_helper_block_.858
+___destroy_helper_block_.859
 ___convertNSAttributedStringAttributesToCTAttributes_block_invoke
-___copy_helper_block_.865
-___destroy_helper_block_.866
+___copy_helper_block_.863
+___destroy_helper_block_.864
 _OBJC_IVAR_$_TTTAccessibilityElement._superview
 _OBJC_IVAR_$_TTTAccessibilityElement._boundingRect
 _load.onceToken
@@ -8782,9 +8778,9 @@ _OBJC_IVAR_$_TTTAttributedLabelLink._linkTapBlock
 _OBJC_IVAR_$_TTTAttributedLabelLink._linkLongPressBlock
 l_OBJC_PROTOCOL_$_NSCoding
 l_OBJC_LABEL_PROTOCOL_$_NSCoding
-___block_descriptor_tmp.852
-___block_descriptor_tmp.862
-___block_descriptor_tmp.868
+___block_descriptor_tmp.850
+___block_descriptor_tmp.860
+___block_descriptor_tmp.866
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Labels/TTTAttributedLabel/TTTAttributedLabel.m
 __convertNSAttributedStringAttributesToCTAttributes_block_invoke
 CTFontRefFromUIFont
@@ -8794,6 +8790,8 @@ __NSAttributedStringBySettingColorFromContext_block_invoke
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Labels/TTTAttributedLabel/TTTAttributedLabel.h
 __40-[TTTAttributedLabel tintColorDidChange]_block_invoke
 NSMaxRange
+CFRangeMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
 NSAttributedStringByScalingFontSize
 CGFloat_ceil
 convertNSAttributedStringAttributesToCTAttributes
@@ -9087,15 +9085,13 @@ ___copy_helper_block_.87
 ___destroy_helper_block_.88
 -[MASViewConstraint equalToWithRelation]
 ___40-[MASViewConstraint equalToWithRelation]_block_invoke
-___copy_helper_block_.111
-___destroy_helper_block_.112
 -[MASViewConstraint with]
 -[MASViewConstraint and]
 -[MASViewConstraint addConstraintWithLayoutAttribute:]
 -[MASViewConstraint key]
 ___24-[MASViewConstraint key]_block_invoke
-___copy_helper_block_.121
-___destroy_helper_block_.122
+___copy_helper_block_.122
+___destroy_helper_block_.123
 -[MASViewConstraint setInsets:]
 -[MASViewConstraint setInset:]
 -[MASViewConstraint setOffset:]
@@ -9130,8 +9126,7 @@ _OBJC_IVAR_$_MASViewConstraint._firstViewAttribute
 _OBJC_IVAR_$_MASViewConstraint._layoutConstant
 _OBJC_IVAR_$_MASViewConstraint._layoutRelation
 _OBJC_IVAR_$_MASViewConstraint._secondViewAttribute
-___block_descriptor_tmp.89
-___block_descriptor_tmp.124
+___block_descriptor_tmp.125
 _OBJC_IVAR_$_MASViewConstraint._installedView
 _OBJC_IVAR_$_MASViewConstraint._layoutConstraint
 _OBJC_IVAR_$_MASViewConstraint._layoutPriority
@@ -9627,6 +9622,8 @@ ___destroy_helper_block_.1487
 +[MessageNetworkHelper fetchCustomMessageTypeFor:business:]
 ___59+[MessageNetworkHelper fetchCustomMessageTypeFor:business:]_block_invoke
 ___59+[MessageNetworkHelper fetchCustomMessageTypeFor:business:]_block_invoke_2
+___copy_helper_block_.1507
+___destroy_helper_block_.1508
 +[MessageNetworkHelper getUnreceivedMessagesWithCompletion:]
 ___60+[MessageNetworkHelper getUnreceivedMessagesWithCompletion:]_block_invoke
 ___60+[MessageNetworkHelper getUnreceivedMessagesWithCompletion:]_block_invoke_2
@@ -9689,8 +9686,6 @@ ___copy_helper_block_.419
 ___destroy_helper_block_.420
 -[MHOverviewController collectionView:performAction:forItemAtIndexPath:withSender:]
 ___83-[MHOverviewController collectionView:performAction:forItemAtIndexPath:withSender:]_block_invoke
-___copy_helper_block_.440
-___destroy_helper_block_.441
 -[MHOverviewController willRotateToInterfaceOrientation:duration:]
 -[MHOverviewController collectionView]
 -[MHOverviewController setCollectionView:]
@@ -9710,9 +9705,9 @@ ___destroy_helper_block_.441
 _OBJC_IVAR_$_MHIndexPinchGestureRecognizer._indexPath
 ___block_descriptor_tmp.297
 ___block_descriptor_tmp.398
+___block_descriptor_tmp.404
 ___block_descriptor_tmp.408
 ___block_descriptor_tmp.421
-___block_descriptor_tmp.442
 _OBJC_IVAR_$_MHOverviewController._collectionView
 _OBJC_IVAR_$_MHOverviewController._clickedCell
 _OBJC_IVAR_$_MHOverviewController._currentPage
@@ -10038,8 +10033,6 @@ ___59-[MHTransitionPresentMHGallery finishInteractiveTransition]_block_invoke.33
 ___59-[MHTransitionPresentMHGallery finishInteractiveTransition]_block_invoke_2
 ___59-[MHTransitionPresentMHGallery finishInteractiveTransition]_block_invoke.342
 ___59-[MHTransitionPresentMHGallery finishInteractiveTransition]_block_invoke_2.343
-___copy_helper_block_.344
-___destroy_helper_block_.345
 ___59-[MHTransitionPresentMHGallery finishInteractiveTransition]_block_invoke.347
 -[MHTransitionPresentMHGallery transitionImageView]
 -[MHTransitionPresentMHGallery setTransitionImageView:]
@@ -10072,7 +10065,6 @@ ___block_descriptor_tmp.273
 ___block_descriptor_tmp.276
 ___block_descriptor_tmp.315
 ___block_descriptor_tmp.335
-___block_descriptor_tmp.346
 _OBJC_IVAR_$_MHTransitionPresentMHGallery._transitionImageView
 _OBJC_IVAR_$_MHTransitionPresentMHGallery._presentingImageView
 _OBJC_IVAR_$_MHTransitionPresentMHGallery._angle
@@ -10491,7 +10483,6 @@ ___50-[MHTransitionShowShareView sortObjectsWithFrame:]_block_invoke
 -[MHTransitionShowShareView context]
 -[MHTransitionShowShareView setContext:]
 ___block_descriptor_tmp.264
-___block_descriptor_tmp.310
 ___block_descriptor_tmp.322
 ___block_literal_global.323
 _OBJC_IVAR_$_MHTransitionShowShareView._interactionInProgress
@@ -10516,11 +10507,14 @@ ___38+[HPCoreDataController sharedInstance]_block_invoke
 -[HPCoreDataController saveContext]
 ___35-[HPCoreDataController saveContext]_block_invoke
 ___35-[HPCoreDataController saveContext]_block_invoke_2
+___copy_helper_block_.423
+___destroy_helper_block_.424
 -[HPCoreDataController destroyPersistentStoreCoordinator]
 -[HPCoreDataController sourceStoreURL]
 -[HPCoreDataController sourceStoreType]
 -[HPCoreDataController sourceMetadata:]
 -[HPCoreDataController persistentStoreOptions]
+-[HPCoreDataController doPersistentStoreCompatibilityChecks]
 -[HPCoreDataController isMigrationNeeded]
 -[HPCoreDataController migrate:]
 -[HPCoreDataController migrationManager:migrationProgress:]
@@ -10533,6 +10527,7 @@ _OBJC_IVAR_$_HPCoreDataController._managedObjectModel
 _OBJC_IVAR_$_HPCoreDataController._persistentStoreCoordinator
 _OBJC_IVAR_$_HPCoreDataController._parentContext
 _OBJC_IVAR_$_HPCoreDataController._childMOC
+___block_descriptor_tmp.425
 l_OBJC_PROTOCOL_$_HPMigrationManagerDelegate
 l_OBJC_LABEL_PROTOCOL_$_HPMigrationManagerDelegate
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/HPCoreDataController.m
@@ -10763,6 +10758,10 @@ ___48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke
 ___48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke_2
 ___48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke_3
 ___48-[Haptik signUpWithLoadingScreenFor:completion:]_block_invoke.1671
+___copy_helper_block_.1681
+___destroy_helper_block_.1682
+___copy_helper_block_.1684
+___destroy_helper_block_.1685
 -[Haptik signUpUserWithSSO:]
 ___28-[Haptik signUpUserWithSSO:]_block_invoke
 ___28-[Haptik signUpUserWithSSO:]_block_invoke_2
@@ -10782,8 +10781,8 @@ ___44-[Haptik updateExistingUserWith:completion:]_block_invoke_2
 ___44-[Haptik updateExistingUserWith:completion:]_block_invoke_3
 ___44-[Haptik updateExistingUserWith:completion:]_block_invoke_4
 ___44-[Haptik updateExistingUserWith:completion:]_block_invoke_5
-___copy_helper_block_.1720
-___destroy_helper_block_.1721
+___copy_helper_block_.1734
+___destroy_helper_block_.1735
 -[Haptik isUserSignedUp]
 -[Haptik getInitialVC]
 -[Haptik updateUserToken:authID:authType:completion:]
@@ -10819,26 +10818,33 @@ ___destroy_helper_block_.1811
 ___copy_helper_block_.1813
 ___destroy_helper_block_.1814
 -[Haptik canHandleNotificationWithUserInfo:]
--[Haptik handleNotificationWithUserInfo:controller:]
-___52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke
-___52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke_2
-___52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke_3
-___52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke_4
-___52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke.1859
-___copy_helper_block_.1872
-___destroy_helper_block_.1873
+-[Haptik didReceiveHaptikNotificationResponse:controller:]
+-[Haptik didReceiveHaptikRemoteNotification:controller:]
+-[Haptik handleNotificationWithUserInfo:controller:respectApplicationState:]
+___76-[Haptik handleNotificationWithUserInfo:controller:respectApplicationState:]_block_invoke
+___76-[Haptik handleNotificationWithUserInfo:controller:respectApplicationState:]_block_invoke_2
+___76-[Haptik handleNotificationWithUserInfo:controller:respectApplicationState:]_block_invoke_3
+___copy_helper_block_.1848
+___destroy_helper_block_.1849
+-[Haptik startHaptikNotificationFlow:controller:]
+___49-[Haptik startHaptikNotificationFlow:controller:]_block_invoke
+___49-[Haptik startHaptikNotificationFlow:controller:]_block_invoke.1874
+___copy_helper_block_.1884
+___destroy_helper_block_.1885
 -[Haptik launchChannelWith:message:controller:]
 -[Haptik launchChannelToTriggerBotFor:message:source:controller:]
 -[Haptik isRedirectHandled:options:]
 -[Haptik getTransactionHistoryFor:completion:]
 ___46-[Haptik getTransactionHistoryFor:completion:]_block_invoke
+___copy_helper_block_.1901
+___destroy_helper_block_.1902
 -[Haptik getUnreadCountWithCompletion:]
 ___39-[Haptik getUnreadCountWithCompletion:]_block_invoke
 ___39-[Haptik getUnreadCountWithCompletion:]_block_invoke_2
-___copy_helper_block_.1896
-___destroy_helper_block_.1897
-___copy_helper_block_.1899
-___destroy_helper_block_.1900
+___copy_helper_block_.1908
+___destroy_helper_block_.1909
+___copy_helper_block_.1911
+___destroy_helper_block_.1912
 -[Haptik getUserDetailsScreen]
 -[Haptik navigationBarTintColor]
 -[Haptik apiKey]
@@ -10877,10 +10883,11 @@ ___block_descriptor_tmp.1653
 ___block_descriptor_tmp.1657
 ___block_descriptor_tmp.1660
 ___block_descriptor_tmp.1670
+___block_descriptor_tmp.1683
+___block_descriptor_tmp.1686
 ___block_descriptor_tmp.1691
 ___block_descriptor_tmp.1698
 ___block_descriptor_tmp.1703
-___block_descriptor_tmp.1722
 ___block_descriptor_tmp.1736
 ___block_descriptor_tmp.1746
 ___block_descriptor_tmp.1765
@@ -10891,15 +10898,14 @@ ___block_descriptor_tmp.1806
 ___block_literal_global.1807
 ___block_descriptor_tmp.1812
 ___block_descriptor_tmp.1815
-___block_descriptor_tmp.1828
-___block_literal_global.1829
-___block_descriptor_tmp.1832
-___block_literal_global.1833
-___block_descriptor_tmp.1858
-___block_descriptor_tmp.1874
-___block_descriptor_tmp.1892
-___block_descriptor_tmp.1898
-___block_descriptor_tmp.1902
+___block_descriptor_tmp.1838
+___block_literal_global.1839
+___block_descriptor_tmp.1842
+___block_literal_global.1843
+___block_descriptor_tmp.1850
+___block_descriptor_tmp.1886
+___block_descriptor_tmp.1910
+___block_descriptor_tmp.1914
 _OBJC_IVAR_$_Haptik.useInbox
 _OBJC_IVAR_$_Haptik.useInteractivePopGesture
 _OBJC_IVAR_$_Haptik.shouldUseReferrals
@@ -10912,11 +10918,11 @@ _OBJC_IVAR_$_Haptik._appGroupIdentifier
 __39-[Haptik getUnreadCountWithCompletion:]_block_invoke_2
 __39-[Haptik getUnreadCountWithCompletion:]_block_invoke
 __46-[Haptik getTransactionHistoryFor:completion:]_block_invoke
-__52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke.1859
-__52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke_4
-__52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke_3
-__52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke_2
-__52-[Haptik handleNotificationWithUserInfo:controller:]_block_invoke
+__49-[Haptik startHaptikNotificationFlow:controller:]_block_invoke.1874
+__49-[Haptik startHaptikNotificationFlow:controller:]_block_invoke
+__76-[Haptik handleNotificationWithUserInfo:controller:respectApplicationState:]_block_invoke_3
+__76-[Haptik handleNotificationWithUserInfo:controller:respectApplicationState:]_block_invoke_2
+__76-[Haptik handleNotificationWithUserInfo:controller:respectApplicationState:]_block_invoke
 __25-[Haptik setDeviceToken:]_block_invoke_3
 __25-[Haptik setDeviceToken:]_block_invoke_2
 __25-[Haptik setDeviceToken:]_block_invoke
@@ -11075,7 +11081,6 @@ ___destroy_helper_block_.493
 +[HSLTabListViewHelper getInformationButton:actionHelper:]
 +[HSLTabListViewHelper setInformationButtonConstraints:cell:]
 ___61+[HSLTabListViewHelper setInformationButtonConstraints:cell:]_block_invoke
-___block_descriptor_tmp.420
 ___block_descriptor_tmp.465
 ___block_descriptor_tmp.472
 ___block_descriptor_tmp.484
@@ -11146,6 +11151,8 @@ ___83-[FLAnimatedImage initWithAnimatedGIFData:optimalFrameCacheSize:predrawingE
 ___copy_helper_block_.80
 ___destroy_helper_block_.81
 ___83-[FLAnimatedImage initWithAnimatedGIFData:optimalFrameCacheSize:predrawingEnabled:]_block_invoke.108
+___copy_helper_block_.111
+___destroy_helper_block_.112
 ___83-[FLAnimatedImage initWithAnimatedGIFData:optimalFrameCacheSize:predrawingEnabled:]_block_invoke.116
 ___copy_helper_block_.119
 ___destroy_helper_block_.120
@@ -11560,11 +11567,8 @@ _OBJC_IVAR_$_ActionSheetCustomPicker._initialSelections
 +[ChatMessages getMaxMessageIDWithCompletion:]
 ___46+[ChatMessages getMaxMessageIDWithCompletion:]_block_invoke
 ___46+[ChatMessages getMaxMessageIDWithCompletion:]_block_invoke_2
-___copy_helper_block_.430
-___destroy_helper_block_.431
 +[ChatMessages getLastChatMessageIn:]
 +[ChatMessages disableQuickRepliesIn:]
-___block_descriptor_tmp.432
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Chat Messages/ChatMessages+CoreDataClass.m
 __46+[ChatMessages getMaxMessageIDWithCompletion:]_block_invoke_2
 __46+[ChatMessages getMaxMessageIDWithCompletion:]_block_invoke
@@ -11676,8 +11680,6 @@ ___54-[UserDetailsViewController showActionSheetPickerFor:]_block_invoke.1642
 -[UserDetailsViewController tableView:cellForRowAtIndexPath:]
 -[UserDetailsViewController tableView:didSelectRowAtIndexPath:]
 ___63-[UserDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke
-___copy_helper_block_.1742
-___destroy_helper_block_.1743
 ___63-[UserDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.1759
 ___copy_helper_block_.1762
 ___destroy_helper_block_.1763
@@ -11869,53 +11871,47 @@ ___67-[MHGallerySharedManager getYoutubeURLforMediaPlayer:successBlock:]_block_i
 -[MHGallerySharedManager getYoutubeURLWithData:]
 -[MHGallerySharedManager getURLForMediaPlayer:successBlock:]
 ___60-[MHGallerySharedManager getURLForMediaPlayer:successBlock:]_block_invoke
-___copy_helper_block_.365
-___destroy_helper_block_.366
-___60-[MHGallerySharedManager getURLForMediaPlayer:successBlock:]_block_invoke.373
-___copy_helper_block_.374
-___destroy_helper_block_.375
+___copy_helper_block_.367
+___destroy_helper_block_.368
+___60-[MHGallerySharedManager getURLForMediaPlayer:successBlock:]_block_invoke.375
 -[MHGallerySharedManager getVimeoURLforMediaPlayer:successBlock:]
 ___65-[MHGallerySharedManager getVimeoURLforMediaPlayer:successBlock:]_block_invoke
 ___65-[MHGallerySharedManager getVimeoURLforMediaPlayer:successBlock:]_block_invoke_2
-___copy_helper_block_.403
-___destroy_helper_block_.404
+___copy_helper_block_.402
+___destroy_helper_block_.403
 -[MHGallerySharedManager setObjectToUserDefaults:]
 -[MHGallerySharedManager durationDict]
 -[MHGallerySharedManager getYoutubeThumbImage:successBlock:]
 ___60-[MHGallerySharedManager getYoutubeThumbImage:successBlock:]_block_invoke
 ___60-[MHGallerySharedManager getYoutubeThumbImage:successBlock:]_block_invoke_2
 ___60-[MHGallerySharedManager getYoutubeThumbImage:successBlock:]_block_invoke_3
-___copy_helper_block_.423
-___destroy_helper_block_.424
-___copy_helper_block_.429
-___destroy_helper_block_.430
-___copy_helper_block_.432
-___destroy_helper_block_.433
+___copy_helper_block_.425
+___destroy_helper_block_.426
 -[MHGallerySharedManager getVimdeoThumbImage:successBlock:]
 ___59-[MHGallerySharedManager getVimdeoThumbImage:successBlock:]_block_invoke
 ___59-[MHGallerySharedManager getVimdeoThumbImage:successBlock:]_block_invoke_2
 ___59-[MHGallerySharedManager getVimdeoThumbImage:successBlock:]_block_invoke_3
-___copy_helper_block_.445
-___destroy_helper_block_.446
-___copy_helper_block_.448
-___destroy_helper_block_.449
-___copy_helper_block_.451
-___destroy_helper_block_.452
+___copy_helper_block_.447
+___destroy_helper_block_.448
+___copy_helper_block_.450
+___destroy_helper_block_.451
+___copy_helper_block_.453
+___destroy_helper_block_.454
 -[MHGallerySharedManager startDownloadingThumbImage:successBlock:]
 ___66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke
-___66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke.460
-___copy_helper_block_.461
-___destroy_helper_block_.462
-___66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke.466
-___copy_helper_block_.467
-___destroy_helper_block_.468
+___copy_helper_block_.456
+___destroy_helper_block_.457
+___66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke.462
+___66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke.468
+___copy_helper_block_.469
+___destroy_helper_block_.470
 -[MHGallerySharedManager getMHGalleryObjectsForYoutubeChannel:withTitle:successBlock:]
 ___86-[MHGallerySharedManager getMHGalleryObjectsForYoutubeChannel:withTitle:successBlock:]_block_invoke
 ___86-[MHGallerySharedManager getMHGalleryObjectsForYoutubeChannel:withTitle:successBlock:]_block_invoke_2
-___copy_helper_block_.496
-___destroy_helper_block_.497
-___copy_helper_block_.499
-___destroy_helper_block_.500
+___copy_helper_block_.498
+___destroy_helper_block_.499
+___copy_helper_block_.501
+___destroy_helper_block_.502
 +[MHGallerySharedManager stringForMinutesAndSeconds:addMinus:]
 -[MHGallerySharedManager youtubeThumbQuality]
 -[MHGallerySharedManager setYoutubeThumbQuality:]
@@ -11939,17 +11935,18 @@ ___block_descriptor_tmp.260
 ___block_descriptor_tmp.285
 _languageIdentifier.applicationLanguageIdentifier
 _languageIdentifier.onceToken
-___block_descriptor_tmp.286
-___block_descriptor_tmp.368
-___block_descriptor_tmp.376
-___block_descriptor_tmp.405
-___block_descriptor_tmp.431
-___block_descriptor_tmp.447
-___block_descriptor_tmp.450
-___block_descriptor_tmp.453
-___block_descriptor_tmp.463
-___block_descriptor_tmp.469
-___block_descriptor_tmp.498
+___block_descriptor_tmp.328
+___block_descriptor_tmp.370
+___block_descriptor_tmp.407
+___block_descriptor_tmp.428
+___block_descriptor_tmp.433
+___block_descriptor_tmp.436
+___block_descriptor_tmp.449
+___block_descriptor_tmp.455
+___block_descriptor_tmp.459
+___block_descriptor_tmp.471
+___block_descriptor_tmp.500
+___block_descriptor_tmp.503
 _OBJC_IVAR_$_MHGallerySharedManager._youtubeThumbQuality
 _OBJC_IVAR_$_MHGallerySharedManager._vimeoThumbQuality
 _OBJC_IVAR_$_MHGallerySharedManager._webThumbQuality
@@ -11960,8 +11957,8 @@ _OBJC_IVAR_$_MHGallerySharedManager._youtubeVideoQuality
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHGallerySharedManager/MHGallerySharedManager.h
 __86-[MHGallerySharedManager getMHGalleryObjectsForYoutubeChannel:withTitle:successBlock:]_block_invoke_2
 __86-[MHGallerySharedManager getMHGalleryObjectsForYoutubeChannel:withTitle:successBlock:]_block_invoke
-__66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke.466
-__66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke.460
+__66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke.468
+__66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke.462
 __66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke
 __59-[MHGallerySharedManager getVimdeoThumbImage:successBlock:]_block_invoke_3
 __59-[MHGallerySharedManager getVimdeoThumbImage:successBlock:]_block_invoke_2
@@ -11971,7 +11968,7 @@ __60-[MHGallerySharedManager getYoutubeThumbImage:successBlock:]_block_invoke_2
 __60-[MHGallerySharedManager getYoutubeThumbImage:successBlock:]_block_invoke
 __65-[MHGallerySharedManager getVimeoURLforMediaPlayer:successBlock:]_block_invoke_2
 __65-[MHGallerySharedManager getVimeoURLforMediaPlayer:successBlock:]_block_invoke
-__60-[MHGallerySharedManager getURLForMediaPlayer:successBlock:]_block_invoke.373
+__60-[MHGallerySharedManager getURLForMediaPlayer:successBlock:]_block_invoke.375
 __60-[MHGallerySharedManager getURLForMediaPlayer:successBlock:]_block_invoke
 __67-[MHGallerySharedManager getYoutubeURLforMediaPlayer:successBlock:]_block_invoke_2
 __67-[MHGallerySharedManager getYoutubeURLforMediaPlayer:successBlock:]_block_invoke
@@ -12096,6 +12093,7 @@ ___block_literal_global.1483
 ___block_descriptor_tmp.1492
 ___block_descriptor_tmp.1562
 ___block_descriptor_tmp.1569
+___block_descriptor_tmp.1720
 ___block_literal_global.1721
 ___block_descriptor_tmp.1749
 ___block_descriptor_tmp.1758
@@ -12375,10 +12373,6 @@ __72-[InboxViewController presentClearConversationConfirmationAlertForChat:]_blo
 ___60+[ReferralViewModel checkReferalCodeWithCode:andCompletion:]_block_invoke
 ___60+[ReferralViewModel checkReferalCodeWithCode:andCompletion:]_block_invoke_2
 ___60+[ReferralViewModel checkReferalCodeWithCode:andCompletion:]_block_invoke_3
-___copy_helper_block_.450
-___destroy_helper_block_.451
-___copy_helper_block_.456
-___destroy_helper_block_.457
 +[ReferralViewModel applyReferralCode:withRetryLogic:completion:]
 ___65+[ReferralViewModel applyReferralCode:withRetryLogic:completion:]_block_invoke
 ___copy_helper_block_.462
@@ -12388,10 +12382,10 @@ ___46+[ReferralViewModel updateUserReferralUsedTo:]_block_invoke
 +[ReferralViewModel shareToFacebookFromViewController:]
 ___55+[ReferralViewModel shareToFacebookFromViewController:]_block_invoke
 +[ReferralViewModel getReferralParameters]
+___block_descriptor_tmp.453
 ___block_descriptor_tmp.458
 _counter
 ___block_descriptor_tmp.478
-___block_descriptor_tmp.500
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Referrals/Referral View Model/ReferralViewModel.m
 __55+[ReferralViewModel shareToFacebookFromViewController:]_block_invoke
 __46+[ReferralViewModel updateUserReferralUsedTo:]_block_invoke
@@ -12781,8 +12775,6 @@ ___destroy_helper_block_.1505
 ___40-[SmartActionHelper handleTabHeaderTap:]_block_invoke.1507
 -[SmartActionHelper handleTabCellTap:]
 ___38-[SmartActionHelper handleTabCellTap:]_block_invoke
-___copy_helper_block_.1547
-___destroy_helper_block_.1548
 ___38-[SmartActionHelper handleTabCellTap:]_block_invoke.1556
 -[SmartActionHelper updateTabListActionableWithPrice:inView:]
 -[SmartActionHelper handleTabListActionableTap:]
@@ -12804,8 +12796,6 @@ ___copy_helper_block_.1757
 ___destroy_helper_block_.1758
 +[SmartActionHelper switchWithActionable:controller:sender:actionHelper:]
 ___73+[SmartActionHelper switchWithActionable:controller:sender:actionHelper:]_block_invoke
-___copy_helper_block_.1831
-___destroy_helper_block_.1832
 +[SmartActionHelper handleLaunchChannelCaseWithActionable:controller:sender:]
 +[SmartActionHelper launchBotInConversationForPayload:source:controller:]
 ___73+[SmartActionHelper launchBotInConversationForPayload:source:controller:]_block_invoke
@@ -12821,13 +12811,13 @@ ___destroy_helper_block_.1860
 +[SmartActionHelper handleSendLocationCaseWithActionable:controller:]
 ___69+[SmartActionHelper handleSendLocationCaseWithActionable:controller:]_block_invoke
 ___69+[SmartActionHelper handleSendLocationCaseWithActionable:controller:]_block_invoke_2
+___copy_helper_block_.1894
+___destroy_helper_block_.1895
 +[SmartActionHelper handleSendMultipleLocationsCaseWithActionable:controller:]
 ___78+[SmartActionHelper handleSendMultipleLocationsCaseWithActionable:controller:]_block_invoke
 ___78+[SmartActionHelper handleSendMultipleLocationsCaseWithActionable:controller:]_block_invoke_2
 ___copy_helper_block_.1927
 ___destroy_helper_block_.1928
-___copy_helper_block_.1932
-___destroy_helper_block_.1933
 +[SmartActionHelper handleEmptyCaseWithActionable:controller:]
 -[SmartActionHelper createOrderReceiptViewWithSmartAction:]
 ___59-[SmartActionHelper createOrderReceiptViewWithSmartAction:]_block_invoke
@@ -12840,8 +12830,6 @@ ___59-[SmartActionHelper createOrderReceiptViewWithSmartAction:]_block_invoke.20
 ___copy_helper_block_.2014
 ___destroy_helper_block_.2015
 ___59-[SmartActionHelper createOrderReceiptViewWithSmartAction:]_block_invoke.2019
-___copy_helper_block_.2020
-___destroy_helper_block_.2021
 ___59-[SmartActionHelper createOrderReceiptViewWithSmartAction:]_block_invoke.2027
 ___copy_helper_block_.2028
 ___destroy_helper_block_.2029
@@ -12849,6 +12837,8 @@ ___destroy_helper_block_.2029
 -[SmartActionHelper createView:withOrderDetails:]
 -[SmartActionHelper createLabelWithAttributes:]
 ___47-[SmartActionHelper createLabelWithAttributes:]_block_invoke
+___copy_helper_block_.2091
+___destroy_helper_block_.2092
 -[SmartActionHelper getEstimatedFrame:]
 +[SmartActionHelper onShareButtonClickWithSender:]
 +[SmartActionHelper imageWithView:]
@@ -12868,7 +12858,6 @@ ___block_descriptor_tmp.1456
 _OBJC_IVAR_$_SmartActionHelper.delegate
 ___block_descriptor_tmp.1506
 ___block_descriptor_tmp.1535
-___block_descriptor_tmp.1549
 ___block_descriptor_tmp.1561
 ___block_descriptor_tmp.1621
 ___block_literal_global.1734
@@ -12876,13 +12865,14 @@ ___block_descriptor_tmp.1759
 ___block_descriptor_tmp.1834
 ___block_descriptor_tmp.1852
 ___block_descriptor_tmp.1855
+___block_descriptor_tmp.1858
+___block_descriptor_tmp.1862
 ___block_descriptor_tmp.1897
 ___block_descriptor_tmp.1929
 ___block_descriptor_tmp.1935
 ___block_descriptor_tmp.1982
 ___block_descriptor_tmp.2010
 ___block_descriptor_tmp.2016
-___block_descriptor_tmp.2022
 ___block_descriptor_tmp.2030
 ___block_descriptor_tmp.2093
 ___block_descriptor_tmp.2114
@@ -13033,8 +13023,6 @@ ___70-[MHShareViewController removeBlurBlurBackgorundToolbarFromSuperView:]_bloc
 ___copy_helper_block_.843
 ___destroy_helper_block_.844
 ___70-[MHShareViewController removeBlurBlurBackgorundToolbarFromSuperView:]_block_invoke.846
-___copy_helper_block_.849
-___destroy_helper_block_.850
 -[MHShareViewController addDataToDownloadArray:]
 -[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]
 ___74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke
@@ -13151,10 +13139,10 @@ ___block_descriptor_tmp.811
 ___block_descriptor_tmp.814
 ___block_descriptor_tmp.817
 ___block_descriptor_tmp.828
+___block_descriptor_tmp.832
 ___block_descriptor_tmp.840
 _OBJC_IVAR_$_MHShareViewController._saveCounter
 ___block_descriptor_tmp.845
-___block_descriptor_tmp.851
 ___block_descriptor_tmp.871
 ___block_descriptor_tmp.878
 ___block_descriptor_tmp.924
@@ -13921,8 +13909,6 @@ ___64+[QRViewHelper createQuickRepliesViewFor:actionHelper:objectID:]_block_invo
 -[QRViewHelper collectionView:layout:sizeForItemAtIndexPath:]
 -[QRViewHelper collectionView:willDisplayCell:forItemAtIndexPath:]
 ___66-[QRViewHelper collectionView:willDisplayCell:forItemAtIndexPath:]_block_invoke
-___copy_helper_block_.425
-___destroy_helper_block_.426
 -[QRViewHelper collectionView:cellForItemAtIndexPath:]
 -[QRViewHelper quickReplies]
 -[QRViewHelper setQuickReplies:]
@@ -14444,6 +14430,8 @@ ___27-[SRWebSocket _pumpWriting]_block_invoke
 ___copy_helper_block_.369
 ___destroy_helper_block_.370
 ___27-[SRWebSocket _pumpWriting]_block_invoke.385
+___copy_helper_block_.388
+___destroy_helper_block_.389
 -[SRWebSocket _addConsumerWithScanner:callback:]
 -[SRWebSocket _addConsumerWithDataLength:callback:readToCurrentFrame:unmaskBytes:]
 -[SRWebSocket _addConsumerWithScanner:callback:dataLength:]
@@ -14458,6 +14446,8 @@ ___32-[SRWebSocket _innerPumpScanner]_block_invoke
 ___copy_helper_block_.426
 ___destroy_helper_block_.427
 ___32-[SRWebSocket _innerPumpScanner]_block_invoke.429
+___copy_helper_block_.432
+___destroy_helper_block_.433
 ___32-[SRWebSocket _innerPumpScanner]_block_invoke.437
 ___copy_helper_block_.438
 ___destroy_helper_block_.439
@@ -14467,6 +14457,8 @@ ___destroy_helper_block_.439
 ___34-[SRWebSocket stream:handleEvent:]_block_invoke
 ___34-[SRWebSocket stream:handleEvent:]_block_invoke.467
 ___34-[SRWebSocket stream:handleEvent:]_block_invoke.471
+___copy_helper_block_.474
+___destroy_helper_block_.475
 -[SRWebSocket safeHandleEvent:stream:]
 ___38-[SRWebSocket safeHandleEvent:stream:]_block_invoke
 ___38-[SRWebSocket safeHandleEvent:stream:]_block_invoke_2
@@ -14527,18 +14519,19 @@ ___block_descriptor_tmp.295
 ___block_descriptor_tmp.301
 _OBJC_IVAR_$_SRWebSocket._currentFrameOpcode
 _OBJC_IVAR_$_SRWebSocket._currentFrameCount
+___block_descriptor_tmp.338
 _OBJC_IVAR_$_SRWebSocket._currentReadMaskKey
 ___block_descriptor_tmp.361
 _OBJC_IVAR_$_SRWebSocket._readOpCount
 _OBJC_IVAR_$_SRWebSocket._currentStringScanPosition
 _OBJC_IVAR_$_SRWebSocket._outputBufferOffset
 _OBJC_IVAR_$_SRWebSocket._sentClose
+___block_descriptor_tmp.390
 _OBJC_IVAR_$_SRWebSocket._cleanupScheduled
-___block_descriptor_tmp.407
 _CRLFCRLFBytes
 _OBJC_IVAR_$_SRWebSocket._readBufferOffset
 _OBJC_IVAR_$_SRWebSocket._currentReadMaskOffset
-___block_descriptor_tmp.428
+___block_descriptor_tmp.440
 _OBJC_IVAR_$_SRWebSocket._isPumping
 _OBJC_IVAR_$_SRWebSocket._streamSecurityValidated
 ___block_descriptor_tmp.476
@@ -14609,7 +14602,7 @@ importCategories
 _OBJC_IVAR_$_OptionsUrlPayload.optionUrl
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/OptionsUrlPayload.m
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/OptionsUrlPayload.h
-/Users/iamsimranjot/Library/Developer/Xcode/DerivedData/HaptikDemo-gkhsfnrghsfwccdzfhugynbnmsvt/Build/Intermediates.noindex/ArchiveIntermediates/HaptikLib/IntermediateBuildFilesPath/HaptikLib.build/Release-iphoneos/HaptikLib.build/DerivedSources/HaptikLib_vers.c
+/Users/iamsimranjot/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikLib.build/Release-iphoneos/HaptikLib.build/DerivedSources/HaptikLib_vers.c
 +[CleverTapLocalDataStore initializeWithAccountId:]
 +[CleverTapLocalDataStore initProfileCache]
 ___43+[CleverTapLocalDataStore initProfileCache]_block_invoke
@@ -14866,7 +14859,6 @@ _localRegion
 _appLaunchedReportingDisabled
 _serialEventQueue
 _processingLoginUserIdentifierLockObj
-_userSetLocation
 _appForeground
 _lastLocationPingTime
 _inSerialQueue.queueToken
@@ -14908,6 +14900,8 @@ _OBJC_IVAR_$_CleverTapAPI._radio
 _OBJC_IVAR_$_CleverTapAPI._wifi
 _OBJC_IVAR_$_CleverTapAPI._currentUserOptedOut
 _OBJC_IVAR_$_CleverTapAPI._enableNetworkInfoReporting
+_userSetLocation.0
+_userSetLocation.1
 /Users/peter/CleverTap/sdk-ios-source/work/CleverTapSDK/CleverTapAPI.m
 /Users/peter/CleverTap/sdk-ios-source/work/CleverTapSDK/CleverTapAPI.h
 __54-[CleverTapAPI didHandleInAppTestFromPushNotificaton:]_block_invoke
@@ -15071,7 +15065,6 @@ __55-[CleverTapInAppView _slideInContentViewFromDirection:]_block_invoke.241
 __55-[CleverTapInAppView _slideInContentViewFromDirection:]_block_invoke_2
 __55-[CleverTapInAppView _slideInContentViewFromDirection:]_block_invoke.237
 __55-[CleverTapInAppView _slideInContentViewFromDirection:]_block_invoke
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 __38-[CleverTapInAppView removeInAppView:]_block_invoke.48
 __38-[CleverTapInAppView removeInAppView:]_block_invoke.39
 __38-[CleverTapInAppView removeInAppView:]_block_invoke
@@ -15382,7 +15375,6 @@ ___41-[CleverTapQueueManager doHandshakeAsync]_block_invoke
 -[CleverTapQueueManager .cxx_destruct]
 _OBJC_IVAR_$_CleverTapQueueManager._redirectDomain
 _OBJC_IVAR_$_CleverTapQueueManager._lastMutedTs
-___block_descriptor_tmp.125
 _OBJC_IVAR_$_CleverTapQueueManager._eventsQueue
 _OBJC_IVAR_$_CleverTapQueueManager._profileQueue
 ___block_descriptor_tmp.280
@@ -15396,6 +15388,7 @@ _OBJC_IVAR_$_CleverTapQueueManager._sendQueueFails
 __41-[CleverTapQueueManager doHandshakeAsync]_block_invoke
 __37-[CleverTapQueueManager _doHandshake]_block_invoke
 __35-[CleverTapQueueManager sendQueue:]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 __38-[CleverTapQueueManager persistQueues]_block_invoke
 __43-[CleverTapQueueManager scheduleQueueFlush]_block_invoke
 __50-[CleverTapQueueManager addToQueue:withEventType:]_block_invoke

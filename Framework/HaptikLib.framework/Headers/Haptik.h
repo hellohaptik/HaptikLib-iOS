@@ -14,6 +14,7 @@
 @class HPInitObject;
 @class HPSignUpObject;
 @class HPThemeService;
+@class UNNotificationResponse;
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -480,29 +481,6 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
                            completion:(void(^)(BOOL success, __kindof UIViewController *_Nullable haptikWalletVC))completion;
 
 
-#pragma mark - Referral Code
-
-/*!
- @method
- By calling this method you will get an instance of ReferralCode Sene.
- 
- @param mobileNumber    If applying referral code before signup, pass the users mobile number else, nil
- @param delegate        ReferalCodeDelegate, if passed and confirmed, will give callback after applying and success of it.
- 
- @code
- 
- #import "MyViewController.h"
- 
- UIViewController *controller = [[Haptik sharedSDK] getReferralCodeViewControllerFor:@"MOBILE_NO" referralDelegate:self];
- 
- [self.navigationController pushViewController:controller animated:YES]
- 
- @endcode
- */
-- (__kindof UIViewController * _Nullable)getReferralCodeViewControllerFor:(nullable NSString *)mobileNumber
-                                                         referralDelegate:(nullable id <ReferalCodeDelegate>)delegate;
-
-
 #pragma mark - Current Offers
 
 /*!
@@ -569,45 +547,30 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  #import "MyAppDelegate.h"
  
  // For iOS 10.x & later
- - (void)userNotificationCenter:(UNUserNotificationCenter *)center
-    didReceiveNotificationResponse:(UNNotificationResponse *)response
-             withCompletionHandler:(void(^)(void))completionHandler {
+ - (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response
+                                                                            withCompletionHandler:(void(^)(void))completionHandler {
  
-     ...
+        ...
  
-     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:response.notification.request.content.userInfo];
+        BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
  
-     if (canBeHandledByHaptik) {
-        NSLog(@"do housekeeping");
-        [[Haptik sharedSDK] handleNotificationWithUserInfo:response.notification.request.content.userInfo controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
-     }
+         if (canBeHandledByHaptik) {
+             NSLog(@"do housekeeping");
+             [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+         }
  }
  
  // For iOS 9.x
  - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
  
-     ...
+        ...
  
-     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
+        BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
  
-     if (canBeHandledByHaptik) {
-        NSLog(@"do housekeeping");
-     }
- }
- 
- // optional
- - (void)userNotificationCenter:(UNUserNotificationCenter *)center
-        willPresentNotification:(UNNotification *)notification
-          withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler {
- 
-     ...
- 
-     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:response.notification.request.content.userInfo];
- 
-     if (canBeHandledByHaptik) {
-         NSLog(@"do housekeeping");
-         [[Haptik sharedSDK] handleNotificationWithUserInfo:response.notification.request.content.userInfo controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
-     }
+         if (canBeHandledByHaptik) {
+             NSLog(@"do housekeeping");
+             [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+         }
  }
  
  @endcode
@@ -619,15 +582,10 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  @method
  
  @abstract
- Informs the caller whether passed notification userinfo payload can be handled by HaptikLib.
+ Handles the Haptik notification when the user responded to the notification by opening the application, dismissing the notification or choosing a UNNotificationAction.
  
- @discussion
- If YES, the payload is processed by HaptikLib.
- 
- 
- @param userInfo     The received remote notification payload to be processed
+ @param response     The received remote notification UNNotificationResponse to be processed
  @param controller   The current view controller over which the notification is expected to be handled
- @return    Returns a BOOL indicating indicating the payload will be handled by HaptikLib
  
  @code
  
@@ -640,35 +598,49 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  
     ...
  
-     BOOL isHandledByHaptik = [[Haptik sharedSDK] handleNotificationWithUserInfo:response.notification.request.content.userInfo controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
  
-     if (isHandledByHaptik) {
+     if (canBeHandledByHaptik) {
          NSLog(@"do housekeeping");
+         [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
      }
  }
+ 
+ @endcode
+ */
+- (void)didReceiveHaptikNotificationResponse:(UNNotificationResponse *)response
+                                  controller:(__kindof UIViewController *)controller;
+
+/*!
+ @method
+ 
+ @abstract
+ Handles the Haptik notification when the user responded to the notification by opening the application from background or killed state.
+ 
+ @param userInfo     The received remote notification userInfo to be processed
+ @param controller   The current view controller over which the notification is expected to be handled
+ 
+ @code
+ 
+ #import "MyAppDelegate.h"
  
  // For iOS 9.x
  - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
  
     ...
  
-    [[Haptik sharedSDK] handleNotificationWithUserInfo:userInfo controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
- }
+     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
  
- // optional
- - (void)userNotificationCenter:(UNUserNotificationCenter *)center
-        willPresentNotification:(UNNotification *)notification
-          withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler {
- 
-    ...
- 
-    [[Haptik sharedSDK] handleNotificationWithUserInfo:notification.request.content.userInfo controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+     if (canBeHandledByHaptik) {
+        NSLog(@"do housekeeping");
+        [[Haptik sharedSDK] didReceiveHaptikRemoteNotification:userInfo controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+     }
  }
  
  @endcode
  */
-- (BOOL)handleNotificationWithUserInfo:(NSDictionary<NSString *, id> *)userInfo
-                            controller:(__kindof UIViewController *)controller;
+- (void)didReceiveHaptikRemoteNotification:(NSDictionary<NSString *, id> *)userInfo
+                                controller:(__kindof UIViewController *)controller;
 
 
 #pragma mark -
