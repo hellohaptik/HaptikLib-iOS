@@ -1,6 +1,6 @@
 //
 //  UIButton+HPNetwork.h
-//  HaptikLib
+//  HaptikBase
 //
 //  Created by SimranJot Singh on 09/11/17.
 //  Copyright © 2017 Haptik. All rights reserved.
@@ -26,11 +26,11 @@ NS_ASSUME_NONNULL_BEGIN
                       completion:(void (^)(HPImageManagerResult * result))completion;
 
 
-#pragma mark - Haptik Image Factory Methods
+#pragma mark - Haptik Image Fetching Methods
 
-- (void)hp_setImage:(NSString *)imageName placeholderImage:(nullable UIImage *)placeholderImage;
+- (void)hp_setHaptikImage:(NSString *)imageName placeholderImage:(nullable UIImage *)placeholderImage;
 
-- (void)hp_setImage:(NSString *)imageName placeholderImage:(nullable UIImage *)placeholderImage completion:(void (^)(HPImageManagerResult * result))completion;
+- (void)hp_setHaptikImage:(NSString *)imageName placeholderImage:(nullable UIImage *)placeholderImage completion:(void (^)(HPImageManagerResult * result))completion;
 
 @end
 

@@ -1,6 +1,6 @@
 //
 //  HPImageFactory.h
-//  HaptikLib
+//  HaptikBase
 //
 //  Created by SimranJot Singh on 18/10/18.
 //  Copyright © 2018 Haptik. All rights reserved.
@@ -8,6 +8,8 @@
 
 
 #import "HPImageManagerResult.h"
+
+#import "HPSharedConstants.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -19,6 +21,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)downloadImageWithURLString:(NSString *)urlString completion:(void (^ _Nullable)(HPImageManagerResult * _Nonnull result))completion;
 
 + (void)downloadHaptikImageNamed:(NSString *)imageName completion:(void (^ _Nullable)(HPImageManagerResult * _Nonnull result))completion;
+
+
+#pragma mark - Haptik In-App Images
+
++ (nullable UIImage *)haptikImageNamed:(NSString *)imageName fromBundle:(NSBundle *)moduleBundle;
 
 
 #pragma mark - Prefetcher Helpers
@@ -39,9 +46,18 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIImage *)getImageObjectFromDiskForKey:(NSString *)key;
 
 
-#pragma mark - Image URL Helpers
+#pragma mark - Haptik Server Images URL Helpers
 
-+ (NSString *)getFetchURLForImage:(NSString *)imageName;
++ (NSString *)getFetchURLForHaptikImage:(NSString *)imageName;
+
+
+#pragma mark - Image Resizing Helpers
+
++ (UIImage *)resizePNGImage:(UIImage *)image toSize:(CGSize)size;
+
++ (UIImage *)getPDFImage:(NSString *)image fromBundle:(NSBundle *)resourceBundle;
+
++ (UIImage *)getResizedPDFImage:(NSString *)imageName fromBundle:(NSBundle *)resourceBundle toSize:(CGSize)size;
 
 @end
 

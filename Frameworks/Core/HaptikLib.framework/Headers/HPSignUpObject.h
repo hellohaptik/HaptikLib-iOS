@@ -9,8 +9,6 @@
 //
 
 
-#import "Haptik.h"
-
 @class HPSignUpBuilder;
 
 

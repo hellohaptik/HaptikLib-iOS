@@ -40,7 +40,17 @@ Pod::Spec.new do |s|
     base.dependency    'PINRemoteImage/WebP', '3.0.0-beta.13'
   end
 
-  s.dependency    'PayUIndia-Custom-Browser', '5.8.1'
+  # Haptik Payment Module Subspec
+
+  s.subspec 'Payments' do |payments|
+    payments.ios.deployment_target = '9.0'
+    payments.vendored_frameworks = "Frameworks/Payments/HaptikPayments.framework"
+    payments.source_files = "Frameworks/Payments/HaptikPayments.framework/Headers/*.h"
+    payments.public_header_files = "Frameworks/Payments/HaptikPayments.framework/Headers/*.h"
+
+    payments.dependency    'PayUIndia-Custom-Browser', '5.8.1'
+  end
+
   s.dependency    'GoogleMaps'
   s.dependency    'GooglePlaces'
   s.dependency    'GooglePlacePicker'

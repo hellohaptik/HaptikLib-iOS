@@ -14,7 +14,8 @@ FOUNDATION_EXPORT double HaptikBaseVersionNumber;
 //! Project version string for HaptikBase.
 FOUNDATION_EXPORT const unsigned char HaptikBaseVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <HaptikBase/PublicHeader.h>
+
+#import <HaptikBase/HPPaymentAPI.h>
 
 #import <HaptikBase/HaptikUser.h>
 #import <HaptikBase/HaptikWallet.h>
@@ -29,4 +30,30 @@ FOUNDATION_EXPORT const unsigned char HaptikBaseVersionString[];
 #import <HaptikBase/UIButton+HPNetwork.h>
 #import <HaptikBase/UIImageView+HPNetwork.h>
 
+#import <HaptikBase/HPThemeService.h>
+#import <HaptikBase/HPConfiguration.h>
+#import <HaptikBase/HPProgressStateView.h>
+#import <HaptikBase/HPEmoji.h>
 
+#import <HaptikBase/HPCalenderDatePicker.h>
+#import <HaptikBase/HPBaseUtilities.h>
+
+#import <HaptikBase/HPBaseModel.h>
+
+#import <HaptikBase/HPDatePicker.h>
+#import <HaptikBase/HPStringPicker.h>
+
+#import <HaptikBase/HPTextField.h>
+#import <HaptikBase/HPUnderlinedTextField.h>
+
+#import <HaptikBase/HPKeyboardAdjustingTableView.h>
+#import <HaptikBase/HPKeyboardAdjustingScrollView.h>
+
+#import <HaptikBase/HPAnalyticsService.h>
+#import <HaptikBase/HPReachabilityNotifier.h>
+
+#import <HaptikBase/UIView+HPAdditions.h>
+#import <HaptikBase/UIColor+HPAdditions.h>
+#import <HaptikBase/UIButton+HPAdditions.h>
+#import <HaptikBase/UIViewController+HPAdditions.h>
+#import <HaptikBase/NSMutableDictionary+HPAdditions.h>
