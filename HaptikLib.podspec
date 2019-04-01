@@ -21,28 +21,36 @@ Pod::Spec.new do |s|
 
   s.frameworks =  'Accelerate', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'CoreText', 'OpenGLES', 'QuartzCore', 'SystemConfiguration', 'UIKit'
 
-  s.vendored_frameworks = 'Frameworks/Core/HaptikLib.framework'
-  s.source_files = "Frameworks/Core/HaptikLib.framework/Headers/*.h"
-  s.public_header_files = "Frameworks/Core/HaptikLib.framework/Headers/*.h"
   s.ios.preserve_paths = '**'
 
-  s.default_subspec = 'Base'
+  s.default_subspec = 'Core'
+
+  # Haptik Core Module Subspec
+
+  s.subspec 'Core' do |core|
+    core.ios.deployment_target = '9.0'
+    core.dependency    'GoogleMaps', '2.7.0'
+    core.dependency    'GooglePlaces', '2.7.0'
+    core.dependency    'GooglePlacePicker', '2.7.0'
+    core.dependency    'HaptikLib/Base'
+    core.vendored_frameworks = "Frameworks/Core/HaptikLib.framework"
+  end
 
   # Haptik Base Module Subspec
 
   s.subspec 'Base' do |base|
     base.ios.deployment_target = '9.0'
-    base.vendored_frameworks = "Frameworks/Base/HaptikBase.framework"
-    base.source_files = "Frameworks/Base/HaptikBase.framework/Headers/*.h"
-    base.public_header_files = "Frameworks/Base/HaptikBase.framework/Headers/*.h"
-
     base.dependency    'PINRemoteImage', '3.0.0-beta.13'
     base.dependency    'PINRemoteImage/WebP', '3.0.0-beta.13'
+    base.vendored_frameworks = "Frameworks/Base/HaptikBase.framework"
   end
 
-  s.dependency    'PayUIndia-Custom-Browser', '5.8.1'
-  s.dependency    'GoogleMaps'
-  s.dependency    'GooglePlaces'
-  s.dependency    'GooglePlacePicker'
+  # Haptik Payment Module Subspec
+
+  s.subspec 'Payments' do |payments|
+    payments.ios.deployment_target = '9.0'
+    payments.dependency    'PayUIndia-Custom-Browser', '5.8.1'
+    payments.vendored_frameworks = "Frameworks/Payments/HaptikPayments.framework"
+  end
 
 end
