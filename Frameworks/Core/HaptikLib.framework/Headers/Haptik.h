@@ -11,9 +11,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class HPInitObject;
 @class HPSignUpObject;
-@class HPThemeService;
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -29,39 +27,7 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 };
 
 
-#pragma mark - Analytics Service
-
-@protocol HPAnalyticsServiceDelegate <NSObject>
-@optional
-- (void)eventTracked:(NSString *)eventName forParams:(nullable NSDictionary *)params;
-- (void)errorTracked:(NSString *)errorMessage forError:(nullable NSError *)error;
-@end
-
-
-#pragma mark - Share Haptik
-
-@protocol HPShareAndEarnDelegate <NSObject>
-@optional
-- (void)shareAndEarnTapped;
-@end
-
-
-#pragma mark - Referral Code
-
-@protocol ReferalCodeDelegate <NSObject>
-@optional
-- (void)onSuccess:(BOOL)success withDictionary:(NSDictionary *)dictionary;
-@end
-
-
 #pragma mark -
-
-/*!
-    Everytime wallet balance is updated a notification is fired by HaptikLib for observing wallet balance updates.
-    Updated balance can also be fetched from `getHaptikWalletBalance()`
- */
-UIKIT_EXTERN NSNotificationName const HPWalletBalanceUpdated;
-
 
 /*!
     Everytime available offers count is updated a notification is fired by HaptikLib
@@ -82,88 +48,7 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 - (instancetype)init NS_UNAVAILABLE;
 
 
-#pragma mark - Configuration Attributes
-
-/*!
- Sets HPThemeService Object used for applying Theming Configurations
- 
- @code
- 
- [Haptik sharedSDK].themeConfig = [HPThemeService buildWithData:^(HPThemeServiceBuilder * _Nullable builder) {
- 
-     builder.brandColor = [UIColor colorWithRed:(33/250.0) green:(150/255.0) blue:(243/255.0) alpha:1];
-     builder.businessChatBackground = [UIColor colorWithRed:(240/255.0) green:(240/255.0) blue:(240/255.0) alpha:1];
-     builder.businessChatText = [UIColor colorWithRed:(51/255.0) green:(51/255.0) blue:(51/255.0) alpha:1];
-     builder.messageTimeStamp = [UIColor colorWithRed:(119/255.0) green:(119/255.0) blue:(119/255.0) alpha:1];
-     builder.lightFont = @"SFUIText-Light";
-     builder.regularFont = @"SFUIText-Regular";
-     builder.mediumFont =  @"SFUIText-Medium";
- }];
- 
- @endcode
- */
-@property (nonatomic) HPThemeService *themeConfig;
-
-
-/*!
- Set Use Inbox BOOL
- This BOOL controls the visibility of Inbox Scene of Haptik. By default the value will be true.
- */
-@property (nonatomic, assign) BOOL useInbox;
-
-
-/*!
- Set Use InteractivePopGesture BOOL
- This BOOL controls the functionality of the EdgePanGestureRecognizer feature of UINavigationController that allows to set the slide to go back functionality for Haptik Screens. By default the value will be true.
- */
-@property (nonatomic, assign) BOOL useInteractivePopGesture;
-
-
-/*!
- Set Use Referrals BOOL
- This BOOL controls the use of Referral Flows in Haptik. By default the value will be false.
- */
-@property (nonatomic, assign) BOOL shouldUseReferrals;
-
-
-/*!
- Analytics Callback Object
- If provided, Analytics Service Class will send delegate callbacks to the provided delegate self.
- */
-@property (nullable, nonatomic, weak) id <HPAnalyticsServiceDelegate> analyticsCallbackObject;
-
-
-/*!
- Sets the Custom Title text to be shown on the Loading Screen. If not provided, default text will be shown.
- */
-@property (nullable, nonatomic) NSString *loadingTitleText;
-
-
-/*!
- Sets the Custom Subtitle text to be shown on the Loading Screen. If not provided, default text will be shown.
- */
-@property (nullable, nonatomic) NSString *loadingSubtitleText;
-
-
-/*!
- Sets the application group identifier of the form of "group.com.mycompanyname". If not provided, default will be nil.
- Used for saving the SQLite Persistent Store in a shared app folder which can be accessed by multiple targets & extensions.
- */
-@property (nullable, nonatomic) NSString *appGroupIdentifier;
-
-
-/*!
- Gets the navigation bar tint color used for tinting on individual screens.
- To set a tint color, use as -
- 
- @code
- 
- [[Haptik sharedSDK] configureNavigationBarWithTintColor:[UIColor blackColor]];
- 
- @endcode
- */
-@property (nonatomic, readonly) UIColor *navigationBarTintColor;
-
+#pragma mark - Attributes
 
 /*!
  Gets the client id for the current app. This should only be called after the SDK has been initialized otherwise will return nil
@@ -272,42 +157,6 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  */
 - (__kindof UIViewController *_Nullable)signUpWithLoadingScreenFor:(HPSignUpObject *)signUpData
                                                         completion:(void (^)(BOOL success, NSError * _Nullable error))completion;
-
-
-/*!
- @abstract
- SignIn the User with SSO.
- 
- @discussion
- The user will be signed up with Basic Auth Type if the details are not available on SSO else the user will be signed up using SSO.
- This function immediately returns the Initial View Controller. The loading view will be shown till the inital data is synced. If an error comes up, the user will be popped back.
- 
- @param completion  Completion Handler which will have the success or error information.
- 
- @code
- 
- UIViewController *initialVC = [[Haptik sharedSDK] signUpUserWithSSO:^(BOOL success, NSError * _Nullable error) {
- 
-     if (success) {
-         // do housekeeping
-     }
-     else {
-         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oops!"
-         message:error.localizedDescription
-         preferredStyle:UIAlertControllerStyleAlert];
- 
-         UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
-         [alert addAction:action];
-         [self presentViewController:alert animated:YES completion:nil];
-     }
- }];
- 
- [self.navigationController pushViewController:initialVC animated:YES];
- 
- @endcode
- */
-- (__kindof UIViewController *_Nullable)signUpUserWithSSO:(void (^)(BOOL success, NSError * _Nullable error))completion;
-
 
 /*!
  @method
@@ -445,56 +294,26 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
     @method
     By calling this method you will get an instance of Haptik Wallet Screen.
 
-    @param defaultsToHistory    A boolean indicating whether the wallet history tab should be selected by default or not.
-    @param delegate     If shouldUseReferrals property of Haptik is set to true, then the delegate will pass the callbacks when the Share and Earn View is Tapped in the Wallet Scene.
+    @param showHistory    A boolean indicating whether the wallet history tab should be selected by default or not.
  
  @code
  
  #import "MyViewController.h"
  
- __weak typeof(self) weakSelf = self;
- 
- [[Haptik sharedSDK] getHaptikWalletViewController:NO
-                              shareAndEarnDelegate:nil
-                                        controller:weakSelf
-                                        completion:^(BOOL success, __kindof UIViewController * _Nullable haptikWalletVC) {
- 
-     typeof(self) strongSelf = weakSelf;
+ [[Haptik sharedSDK] pushToHaptikWalletFrom:self
+                                showHistory:NO
+                                completion:^(BOOL success) {
 
      if (success) {
-         [strongSelf.navigationController pushViewController:haptikWalletVC animated:YES];
+        NSLog(@"do housekeeping");
      }
  }];
  
  @endcode
  */
-- (void)getHaptikWalletViewController:(BOOL)defaultsToHistory
-                 shareAndEarnDelegate:(nullable id <HPShareAndEarnDelegate>)delegate
-                           controller:(__kindof UIViewController *__weak)controller
-                           completion:(void(^)(BOOL success, __kindof UIViewController *_Nullable haptikWalletVC))completion;
-
-
-#pragma mark - Referral Code
-
-/*!
- @method
- By calling this method you will get an instance of ReferralCode Sene.
- 
- @param mobileNumber    If applying referral code before signup, pass the users mobile number else, nil
- @param delegate        ReferalCodeDelegate, if passed and confirmed, will give callback after applying and success of it.
- 
- @code
- 
- #import "MyViewController.h"
- 
- UIViewController *controller = [[Haptik sharedSDK] getReferralCodeViewControllerFor:@"MOBILE_NO" referralDelegate:self];
- 
- [self.navigationController pushViewController:controller animated:YES]
- 
- @endcode
- */
-- (__kindof UIViewController * _Nullable)getReferralCodeViewControllerFor:(nullable NSString *)mobileNumber
-                                                         referralDelegate:(nullable id <ReferalCodeDelegate>)delegate;
+- (void)pushToHaptikWalletFrom:(__kindof UIViewController *__weak)sourceController
+                   showHistory:(BOOL)showHistory
+                    completion:(void(^ _Nullable)(BOOL success))completion;
 
 
 #pragma mark - Current Offers
@@ -668,32 +487,6 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 #pragma mark -
 
 /*!
- @abstract
- Allows SDK Clients to modify tint color and barTintColor of navigation bar of the SDK View Controllers
- 
- @param tintColor Color to be used for tinting navigation bar items. Defaults to [UIColor blackColor].
- @param barTintColor Color to be used for tinting the navigation bar. Defaults to default navigation bar tint of iOS
- @param translucent BOOL value to set the translucent property of navigation bar.
- @param navigationController Instance of the navigationController for which the configurations are to be done
- 
- @discussion
- The params tintColor & barTintColor are nullable, i.e. you can pass nil for the respective param which you want to set to default (don't want to set).
- 
- @code
- 
- [[Haptik sharedSDK] configureNavigationBarWithTintColor:[UIColor redColor]
-                                            barTintColor:[UIColor whiteColor]
-                                 forNavigationController:navController];
- 
- @endcode
- */
-- (void)configureNavigationBarWithTintColor:(nullable UIColor *)tintColor
-                               barTintColor:(nullable UIColor *)barTintColor
-                            makeTranslucent:(BOOL)translucent
-                      forNavigationController:(UINavigationController *)navigationController;
-
-
-/*!
  Allows SDK clients to take user to a specific channel.
  @param viaName Represents the string key used to uniquely specify channel inside Haptik
  @param message String message to be sent from user-side on opening channel screen
@@ -770,22 +563,18 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  
  #import "MyViewController.h"
  
- __weak typeof(self) weakSelf = self;
+ [[Haptik sharedSDK] pushToTransactionHistoryFrom:self
+                                       completion:^(BOOL success) {
  
- [[Haptik sharedSDK] getTransactionHistoryFor:weakSelf
-                                   completion:^(BOOL success, __kindof UIViewController * _Nullable transactionsVC) {
- 
-     typeof(self) strongSelf = weakSelf;
- 
-     if (success) {
-         [strongSelf.navigationController pushViewController:transactionsVC animated:YES];
-     }
+         if (success) {
+             NSLog(@"do housekeeping");
+         }
  }];
  
  @endcode
  */
-- (void)getTransactionHistoryFor:(__kindof UIViewController *__weak)controller
-                      completion:(void(^)(BOOL success, __kindof UIViewController *_Nullable transactionsVC))completion;
+- (void)pushToTransactionHistoryFrom:(__kindof UIViewController *__weak)sourceController
+                          completion:(void(^ _Nullable)(BOOL success))completion;
 
 
 /*!

@@ -9,8 +9,6 @@
 //
 
 
-#import "Haptik.h"
-
 @class HPSignUpBuilder;
 
 
@@ -69,7 +67,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /*!
     Different authentication types are there in order to sign up the user.
-    For (Auth_Type = (TOI_SSO | OTP)) types of authentication, verified phone number and authToken are the required fields.
+    For (Auth_Type = (BASIC | OTP)) types of authentication, verified phone number and authToken are the required fields.
  */
 @property (nonatomic, readonly) NSString *authType;
 

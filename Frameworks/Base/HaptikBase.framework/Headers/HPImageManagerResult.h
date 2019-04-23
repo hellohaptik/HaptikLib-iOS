@@ -1,6 +1,6 @@
 //
 //  HPImageManagerResult.h
-//  HaptikLib
+//  HaptikBase
 //
 //  Created by SimranJot Singh on 18/10/18.
 //  Copyright © 2018 Haptik. All rights reserved.
