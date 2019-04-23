@@ -158,42 +158,6 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 - (__kindof UIViewController *_Nullable)signUpWithLoadingScreenFor:(HPSignUpObject *)signUpData
                                                         completion:(void (^)(BOOL success, NSError * _Nullable error))completion;
 
-
-/*!
- @abstract
- SignIn the User with SSO.
- 
- @discussion
- The user will be signed up with Basic Auth Type if the details are not available on SSO else the user will be signed up using SSO.
- This function immediately returns the Initial View Controller. The loading view will be shown till the inital data is synced. If an error comes up, the user will be popped back.
- 
- @param completion  Completion Handler which will have the success or error information.
- 
- @code
- 
- UIViewController *initialVC = [[Haptik sharedSDK] signUpUserWithSSO:^(BOOL success, NSError * _Nullable error) {
- 
-     if (success) {
-         // do housekeeping
-     }
-     else {
-         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oops!"
-         message:error.localizedDescription
-         preferredStyle:UIAlertControllerStyleAlert];
- 
-         UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
-         [alert addAction:action];
-         [self presentViewController:alert animated:YES completion:nil];
-     }
- }];
- 
- [self.navigationController pushViewController:initialVC animated:YES];
- 
- @endcode
- */
-- (__kindof UIViewController *_Nullable)signUpUserWithSSO:(void (^)(BOOL success, NSError * _Nullable error))completion;
-
-
 /*!
  @method
  Update an user's details with an existing unique identifier.
