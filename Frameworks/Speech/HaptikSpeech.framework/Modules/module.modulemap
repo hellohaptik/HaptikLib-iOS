@@ -1,0 +1,6 @@
+framework module HaptikSpeech {
+  umbrella header "HaptikSpeech.h"
+
+  export *
+  module * { export * }
+}

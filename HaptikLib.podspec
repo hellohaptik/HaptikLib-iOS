@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HaptikLib"
-  s.version      = "1.6.0"
+  s.version      = "1.7.0"
   s.summary      = "Say goodbye to App Fatigue. Instantly enable 100+ chatbots across various daily tasks"
 
   s.description  = <<-DESC
@@ -52,5 +52,14 @@ Pod::Spec.new do |s|
     payments.dependency    'PayUIndia-Custom-Browser', '5.8.1'
     payments.vendored_frameworks = "Frameworks/Payments/HaptikPayments.framework"
   end
+
+  # Haptik Speech Module Subspec
+
+  s.subspec 'Speech' do |speech|
+    speech.ios.deployment_target = '10.0'
+    speech.frameworks = 'AudioToolbox', 'AVFoundation', 'Speech'
+    speech.vendored_frameworks = "Frameworks/Payments/HaptikSpeech.framework"
+  end
+
 
 end

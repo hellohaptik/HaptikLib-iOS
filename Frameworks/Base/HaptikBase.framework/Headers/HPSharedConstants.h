@@ -56,6 +56,7 @@ FOUNDATION_EXPORT NSString *const HPHTTPMethodPOST;
 UIKIT_EXTERN NSNotificationName const HPInternetReachabilityChanged;
 UIKIT_EXTERN NSNotificationName const HPReloadConversation;
 UIKIT_EXTERN NSNotificationName const HPWalletBalanceUpdated;
+UIKIT_EXTERN NSNotificationName const HPTTSQueueFinishedPlayingEnqueuedItems;
 
 
 #pragma mark - Enum Declarations
@@ -64,7 +65,8 @@ typedef NS_ENUM(NSUInteger, HPModuleType) {
     
     HPModuleCore = 0,
     HPModuleBase,
-    HPModulePayments
+    HPModulePayments,
+    HPModuleSpeech
 };
 
 #endif /* HaptikSharedConstants_h */

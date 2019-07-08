@@ -16,6 +16,8 @@ FOUNDATION_EXPORT const unsigned char HaptikBaseVersionString[];
 
 
 #import <HaptikBase/HPPaymentAPI.h>
+#import <HaptikBase/HPSpeechAPI.h>
+#import <HaptikBase/HPAudioAPI.h>
 
 #import <HaptikBase/HaptikUser.h>
 #import <HaptikBase/HaptikWallet.h>
