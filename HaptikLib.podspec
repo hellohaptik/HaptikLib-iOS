@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
   s.subspec 'Speech' do |speech|
     speech.ios.deployment_target = '10.0'
     speech.frameworks = 'AudioToolbox', 'AVFoundation', 'Speech'
-    speech.vendored_frameworks = "Frameworks/Payments/HaptikSpeech.framework"
+    speech.vendored_frameworks = "Frameworks/Speech/HaptikSpeech.framework"
   end
 
 
