@@ -8,6 +8,7 @@
 
 import UIKit
 import HaptikLib
+import HaptikBase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,10 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Haptik.sharedSDK().notify(application, launchedWithOptions: launchOptions)
         
         // Required for Enterprise Clients
-        Haptik.sharedSDK().useInbox = false
+        HPConfiguration.shared().useInbox = false;
         
         // If you need the callbacks of the analytics data that haptik sends
-        Haptik.sharedSDK().analyticsCallbackObject = self;
+        HPConfiguration.shared().analyticsCallbackObject = self;
         
         // Setup UI Theme for Haptik
         setHaptikTheme()
@@ -33,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // This BOOL controls the functionality of the EdgePanGestureRecognizer feature of UINavigationController
         // that allows to set the slide to go back functionality for Haptik Screens. By default the value will be true.
         
-        Haptik.sharedSDK().useInteractivePopGesture = true
+        HPConfiguration.shared().useInteractivePopGesture = true
         
         return true
     }
@@ -92,7 +93,7 @@ extension AppDelegate {
         
         // The following there configuration is the default configuration. If you don't provide one then the SDK will try to adopt the following.
         
-        Haptik.sharedSDK().themeConfig = HPThemeService.build { (builder) in
+        HPConfiguration.shared().themeConfig = HPThemeService.build { (builder) in
             
             builder?.brandColor = UIColor(hexString: "#2196f3")
             builder?.businessChatBackground = UIColor(hexString: "#f0f0f0")
