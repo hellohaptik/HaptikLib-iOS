@@ -283,15 +283,16 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Swift-Example/Pods-Swift-Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Swift-Example/Pods-Swift-Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
-				"${PODS_ROOT}/../../../Framework/HaptikLib.framework",
-				"${PODS_ROOT}/../../../Framework/HaptikLib.framework.dSYM",
+				"${PODS_ROOT}/../../../Frameworks/Base/HaptikBase.framework",
+				"${PODS_ROOT}/../../../Frameworks/Base/HaptikBase.framework.dSYM",
+				"${PODS_ROOT}/../../../Frameworks/Core/HaptikLib.framework",
+				"${PODS_ROOT}/../../../Frameworks/Core/HaptikLib.framework.dSYM",
 				"${BUILT_PRODUCTS_DIR}/NativeSSOLogin/NativeSSOLogin.framework",
 				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
 				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
 				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
-				"${PODS_ROOT}/PayUIndia-Custom-Browser/PayUCustomBrowser.framework",
 				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -299,18 +300,19 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HaptikBase.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/HaptikBase.framework.dSYM",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HaptikLib.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/HaptikLib.framework.dSYM",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NativeSSOLogin.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUCustomBrowser.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift-Example/Pods-Swift-Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift-Example/Pods-Swift-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F63CCF1BD7D334EA8D87692B /* [CP] Copy Pods Resources */ = {
@@ -321,7 +323,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Swift-Example/Pods-Swift-Example-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Swift-Example/Pods-Swift-Example-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
 				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
@@ -336,7 +338,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift-Example/Pods-Swift-Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift-Example/Pods-Swift-Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
