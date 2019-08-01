@@ -15,7 +15,7 @@ title: Payments
 
 ```
 <key>CFBundleURLTypes</key>
- <array>a
+ <array>
      <dict>
         <key>CFBundleURLName</key>
         <string>com.amazon.pwain</string>
