@@ -20,7 +20,6 @@ Supported Device Orientation: **Portrait**
 
    ```
    pod 'HaptikLib'
-   pod 'NativeSSOLogin', :git=>'https://bitbucket.org/agi_sso/nativessologin.git', :tag => '1.0.12'
    ```
 
 2. Run `pod install`
@@ -170,16 +169,16 @@ Add the following snippets in your `info.plist` file -
 3. Haptik internally also opens urls which the client needs to return it true.
 
 
-    ```
-    (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+   ```
+   - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
 
       ...
 
       BOOL isRedirectHandledByHaptik = [[Haptik sharedSDK] isRedirectHandled:url options:options];
 
       return isRedirectHandledByHaptik;
-    }
-    ```
+   }
+   ```
 
 4. Haptik can also be configured to send Push Notifications to the user. The client application needs to configure push notifications on their own end and have to pass the deviceToken which the application gets after requesting the user to send them Push Notifications.
 
