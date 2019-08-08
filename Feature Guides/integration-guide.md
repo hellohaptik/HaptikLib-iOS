@@ -12,6 +12,8 @@ Minimum Deployment Target: **iOS 9.0**
 
 Supported Device Orientation: **Portrait**
 
+You also need to have [git-lfs](https://git-lfs.github.com/) installed for using the sdk
+
 ---
 
 ## I. Installation
