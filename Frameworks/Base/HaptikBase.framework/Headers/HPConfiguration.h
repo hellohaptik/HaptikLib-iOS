@@ -63,6 +63,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL useInbox;
 
 /**
+ *  Set Use Voice BOOL
+ *  This BOOL controls the voice support of Haptik. This will determine if the user can interact via voice using TTS/STT. By default the value will be true.
+ */
+@property (nonatomic, assign) BOOL useVoice;
+
+/**
  *  Set Use InteractivePopGesture BOOL
  *  This BOOL controls the functionality of the EdgePanGestureRecognizer feature of UINavigationController that allows to set
  *  the slide to go back functionality for Haptik Screens. By default the value will be true.
