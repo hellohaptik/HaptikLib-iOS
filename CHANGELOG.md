@@ -2,6 +2,65 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.7.1] - (XX/07/19) - L iOS
+
+### Bugs
+- Message Composer Bar height issue is fixed
+
+---
+
+## [1.7.0] - (5/07/19) - I iOS
+
+### Features
+- Haptik has now newly designed Taskbox
+
+### Bugs
+- Conversation Scene Distortion on Chatform is fixed
+
+---
+
+## [1.7.0] - (25/06/19) - G iOS
+
+### Features
+- WebSelfServe now supports flexible height functionality
+
+### Enhancements
+- Cabs is removed from HaptikLib
+
+### Bugs
+- Wrong webView height for negative values is fixed
+
+---
+
+## [1.7.0] - (12/04/19) - V iOS
+
+### Features
+- Haptik Speech Module is added for TTS & STT 
+
+### Enhancements
+
+### Bugs
+- Payment Navigation Issues Fixed
+
+---
+
+## [1.6.0] - (08/04/19) - U iOS
+
+### Features
+- Payments is Modularised in HaptikLib. It's now optional to use.
+
+### Enhancements
+- SSO Dependency is removed from HaptikLib
+- Dev Server configuraions are given
+
+
+### Bugs
+- Email validation crash on signup is fixed 
+- Wallet Balance displayed as (null) is fixed.
+
+---
+
+
 ## [1.5.0] - (06/02/19) - Oh Bug Kal Aana
 
 ### Features
