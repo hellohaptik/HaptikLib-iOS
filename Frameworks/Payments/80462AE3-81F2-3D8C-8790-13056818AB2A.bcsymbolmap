@@ -9,11 +9,11 @@ BCSymbolMap Version: 2.0
 _OBJC_IVAR_$_ApplyCodeTableCell.applyCodeBtn
 _OBJC_IVAR_$_ApplyCodeTableCell._controllerDelegate
 Apple LLVM version 10.0.1 (clang-1001.0.46.4)
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Promo Code Cell/ApplyCodeTableCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Promo Code Cell/ApplyCodeTableCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Promo Code Cell/ApplyCodeTableCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Promo Code Cell/ApplyCodeTableCell.h
 CGRectMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 -[PayOptionsFetchHelper initWithObject:]
 -[PayOptionsFetchHelper performFetch]
 -[PayOptionsFetchHelper addPayUPaymentOptions]
@@ -40,8 +40,8 @@ ___block_literal_global
 ___block_descriptor_24_e4_20bs_e16_v8@?0@"NSError"4l
 ___block_descriptor_36_e4_20s24s28bs32w_e25_v8@?0@"ThirdPartyWallet"4l
 ___block_descriptor_32_e4_20s24s28w_e13_v8@?0@?<v@?>4l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Payment Options Fetch/PayOptionsFetchHelper.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Payment Options Fetch/PayOptionsFetchHelper.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Payment Options Fetch/PayOptionsFetchHelper.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Payment Options Fetch/PayOptionsFetchHelper.h
 __destroy_helper_block_e4_20s24s28w
 __copy_helper_block_e4_20s24s28w
 __destroy_helper_block_e4_20s24s28s32w
@@ -60,7 +60,7 @@ ___copy_helper_block_e4_20s
 ___39+[RequestFactory queryParamsFromQuery:]_block_invoke
 ___block_descriptor_24_e4_20s_e44_v8@?0@"<PWAINProcessPaymentRequestBuilder>"4l
 ___block_descriptor_24_e4_20s_e24_v16@?0@"NSString"4I8^c12l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Amazon Pay Request Factory/RequestFactory.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Amazon Pay Request Factory/RequestFactory.m
 __39+[RequestFactory queryParamsFromQuery:]_block_invoke
 __copy_helper_block_e4_20s
 __47+[RequestFactory getRequestWithResponseString:]_block_invoke
@@ -75,8 +75,8 @@ __47+[RequestFactory getRequestWithResponseString:]_block_invoke
 _OBJC_IVAR_$_BillPaymentOption.name
 _OBJC_IVAR_$_BillPaymentOption.value
 _OBJC_IVAR_$_BillPaymentOption.imageUrl
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Bill Payments/Bill Payment Option/BillPaymentOption.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Bill Payments/Bill Payment Option/BillPaymentOption.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Bill Payments/Bill Payment Option/BillPaymentOption.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Bill Payments/Bill Payment Option/BillPaymentOption.h
 -[WalletHistoryTableCell initWithStyle:reuseIdentifier:]
 -[WalletHistoryTableCell initSubviews]
 -[WalletHistoryTableCell setSubviewData]
@@ -109,8 +109,8 @@ _OBJC_IVAR_$_WalletHistoryTableCell.transactionAmntLbl
 _OBJC_IVAR_$_WalletHistoryTableCell.notificationLbl
 _OBJC_IVAR_$_WalletHistoryTableCell.arrowImage
 _OBJC_IVAR_$_WalletHistoryTableCell._walletTransactionData
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Wallet History Table Cell/WalletHistoryTableCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Wallet History Table Cell/WalletHistoryTableCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Wallet History Table Cell/WalletHistoryTableCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Wallet History Table Cell/WalletHistoryTableCell.h
 -[NetBankingTableViewCell initWithStyle:reuseIdentifier:]
 -[NetBankingTableViewCell layoutSubviews]
 -[NetBankingTableViewCell configureCellForBankDetails:]
@@ -121,7 +121,7 @@ _OBJC_IVAR_$_WalletHistoryTableCell._walletTransactionData
 -[NetBankingTableViewCell .cxx_destruct]
 _OBJC_IVAR_$_NetBankingTableViewCell.bankImage
 _OBJC_IVAR_$_NetBankingTableViewCell.bankTitle
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Net Banking Cell/NetBankingTableViewCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Net Banking Cell/NetBankingTableViewCell.m
 -[TransactionDetailViewController initWithBusinessData:]
 -[TransactionDetailViewController viewDidLoad]
 -[TransactionDetailViewController initSubviews]
@@ -182,8 +182,8 @@ _OBJC_IVAR_$_TransactionDetailViewController.repeatButton
 _OBJC_IVAR_$_TransactionDetailViewController.businessData
 _OBJC_IVAR_$_TransactionDetailViewController.helpLab
 _OBJC_IVAR_$_TransactionDetailViewController.supportButton
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Transactions/Transaction Detail VC/TransactionDetailViewController.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Transactions/Transaction Detail VC/TransactionDetailViewController.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Transactions/Transaction Detail VC/TransactionDetailViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Transactions/Transaction Detail VC/TransactionDetailViewController.h
 -[BillSummary initWithController:dataObject:summaryState:]
 -[BillSummary setProceedCTATitle:]
 -[BillSummary setSwipeDownGesture]
@@ -290,8 +290,8 @@ _OBJC_IVAR_$_BillSummary.proceedCTATapped
 _OBJC_IVAR_$_BillSummary.currentState
 ___block_descriptor_24_e4_20s_e5_v4@?0l
 ___block_descriptor_24_e4_20s_e7_v8@?0c4l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/UIViews/Bill Summary/BillSummary.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/UIViews/Bill Summary/BillSummary.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/UIViews/Bill Summary/BillSummary.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/UIViews/Bill Summary/BillSummary.h
 __30-[BillSummary addCouponsStack]_block_invoke
 __34-[BillSummary popDescriptionStack]_block_invoke_4
 __34-[BillSummary popDescriptionStack]_block_invoke_3
@@ -325,7 +325,7 @@ l_OBJC_PROTOCOL_$_NSObject
 l_OBJC_LABEL_PROTOCOL_$_NSObject
 l_OBJC_PROTOCOL_$_HPPaymentAPI
 l_OBJC_LABEL_PROTOCOL_$_HPPaymentAPI
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Service/HPPaymentService.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Service/HPPaymentService.m
 __45+[HPPaymentService fetchHaptikWalletDetails:]_block_invoke
 __destroy_helper_block_e4_20s24s
 __copy_helper_block_e4_20s24s
@@ -341,7 +341,7 @@ ___50+[HPPaymentUtilities proceedForWalletErrorChecks:]_block_invoke_2
 +[HPPaymentUtilities getOffersVCInstance]
 ___block_descriptor_25_e4_20bs_e5_v4@?0l
 ___block_descriptor_24_e4_20bs_e7_v8@?0c4l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Utilities/Payment Utilities/HPPaymentUtilities.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Utilities/Payment Utilities/HPPaymentUtilities.m
 __50+[HPPaymentUtilities proceedForWalletErrorChecks:]_block_invoke_2
 __50+[HPPaymentUtilities proceedForWalletErrorChecks:]_block_invoke
 +[ReferralViewModel checkReferalCodeWithCode:andCompletion:]
@@ -354,14 +354,14 @@ ___copy_helper_block_e4_20s24b
 ___block_descriptor_29_e4_20bs24s_e5_v4@?0l
 ___block_descriptor_24_e4_20bs_e24_v12@?0@"NSDictionary"4c8l
 ___block_descriptor_28_e4_20s24bs_e5_v4@?0l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Referral/ReferralViewModel.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Referral/ReferralViewModel.m
 __copy_helper_block_e4_20s24b
 __copy_helper_block_e4_20b24s
 __60+[ReferralViewModel checkReferalCodeWithCode:andCompletion:]_block_invoke_3
 __60+[ReferralViewModel checkReferalCodeWithCode:andCompletion:]_block_invoke_2
 __60+[ReferralViewModel checkReferalCodeWithCode:andCompletion:]_block_invoke
 -[BrowsePlansTableViewCell initWithStyle:reuseIdentifier:]
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Browse Plans Cell/BrowsePlansTableViewCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Browse Plans Cell/BrowsePlansTableViewCell.m
 +[HPPayUPaymentOptionsHelper sharedInstance]
 ___44+[HPPayUPaymentOptionsHelper sharedInstance]_block_invoke
 -[HPPayUPaymentOptionsHelper fetchPayUPaymentOptionsWithCompletion:]
@@ -428,8 +428,8 @@ _OBJC_IVAR_$_HPPayUPaymentOptionsHelper.paymentRelatedDetailedHash
 _OBJC_IVAR_$_HPPayUPaymentOptionsHelper.deleteUserCardHash
 _OBJC_IVAR_$_HPPayUPaymentOptionsHelper._bankImageDetails
 _OBJC_IVAR_$_HPPayUPaymentOptionsHelper._cardIssuerImageDetails
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/PayU Helpers/PayU Payment Options Helper/HPPayUPaymentOptionsHelper.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/PayU Helpers/PayU Payment Options Helper/HPPayUPaymentOptionsHelper.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/PayU Helpers/PayU Payment Options Helper/HPPayUPaymentOptionsHelper.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/PayU Helpers/PayU Payment Options Helper/HPPayUPaymentOptionsHelper.h
 __copy_helper_block_e4_20b24s28w
 __copy_helper_block_e4_20s24b28s32w
 __69-[HPPayUPaymentOptionsHelper deleteStoredCardwithDetails:completion:]_block_invoke_2
@@ -442,7 +442,7 @@ __copy_helper_block_e4_20s24b28w
 __68-[HPPayUPaymentOptionsHelper fetchPayUPaymentOptionsWithCompletion:]_block_invoke_2
 __68-[HPPayUPaymentOptionsHelper fetchPayUPaymentOptionsWithCompletion:]_block_invoke
 __44+[HPPayUPaymentOptionsHelper sharedInstance]_block_invoke
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/dispatch/once.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/dispatch/once.h
 -[RechargeViewController initWithBusinessData:transaction:selectedTab:]
 -[RechargeViewController initWithBusinessData:transactionData:selectedTab:]
 -[RechargeViewController viewDidLoad]
@@ -656,8 +656,8 @@ l_OBJC_PROTOCOL_$_UITabBarDelegate
 l_OBJC_LABEL_PROTOCOL_$_UITabBarDelegate
 l_OBJC_PROTOCOL_$_SKStoreProductViewControllerDelegate
 l_OBJC_LABEL_PROTOCOL_$_SKStoreProductViewControllerDelegate
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Recharge VC/RechargeViewController.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Recharge VC/RechargeViewController.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Recharge VC/RechargeViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Recharge VC/RechargeViewController.h
 __destroy_helper_block_e4_20w24w
 __copy_helper_block_e4_20w24w
 __58-[RechargeViewController tableView:cellForRowAtIndexPath:]_block_invoke
@@ -674,7 +674,7 @@ __destroy_helper_block_e4_20s24s28s32s36s40s44w
 __copy_helper_block_e4_20s24s28s32s36s40s44w
 __69-[RechargeViewController fetchMobileOperatorAndCircleForMobileNumber]_block_invoke
 UIEdgeInsetsMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
 __38-[RechargeViewController changeCircle]_block_invoke
 __40-[RechargeViewController changeOperator]_block_invoke_2
 __40-[RechargeViewController changeOperator]_block_invoke
@@ -722,8 +722,8 @@ __37-[RechargeViewController viewDidLoad]_block_invoke
 -[RechargeButton setRechargePlan:]
 -[RechargeButton .cxx_destruct]
 _OBJC_IVAR_$_RechargeButton.rechargePlan
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Buttons/Recharge Button/RechargeButton.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Buttons/Recharge Button/RechargeButton.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Buttons/Recharge Button/RechargeButton.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Buttons/Recharge Button/RechargeButton.h
 -[EnterCodeViewController initWithCoder:]
 -[EnterCodeViewController initWithNibName:bundle:]
 -[EnterCodeViewController initWithObject:]
@@ -764,8 +764,8 @@ _OBJC_IVAR_$_EnterCodeViewController.delegate
 ___block_descriptor_33_e4_20s24s28w_e5_v4@?0l
 ___block_descriptor_24_e4_20w_e37_v16@?0c4@"CouponDetail"8@"NSString"12l
 ___block_descriptor_24_e4_20w_e24_v12@?0c4@"NSDictionary"8l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Enter Code VC/EnterCodeViewController.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Enter Code VC/EnterCodeViewController.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Enter Code VC/EnterCodeViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Enter Code VC/EnterCodeViewController.h
 __63-[EnterCodeViewController fireReferralAppliedAnalyticsForCode:]_block_invoke
 __52-[EnterCodeViewController performReferralValidation]_block_invoke
 __51-[EnterCodeViewController performCouponValidation:]_block_invoke_3
@@ -779,13 +779,13 @@ __51-[EnterCodeViewController performCouponValidation:]_block_invoke
 _OBJC_IVAR_$_BusinessData.businessName
 _OBJC_IVAR_$_BusinessData.businessViaName
 _OBJC_IVAR_$_BusinessData.businessObjectId
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Business Data/BusinessData.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Business Data/BusinessData.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Business Data/BusinessData.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Business Data/BusinessData.h
 +[TransactionAnalyticsHelper trackPaymentCheckoutActivity:]
 ___59+[TransactionAnalyticsHelper trackPaymentCheckoutActivity:]_block_invoke
 +[TransactionAnalyticsHelper trackPaymentWithPaymentDict:businessName:]
 ___71+[TransactionAnalyticsHelper trackPaymentWithPaymentDict:businessName:]_block_invoke
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Transactions/Transaction Analytics Helper/TransactionAnalyticsHelper.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Transactions/Transaction Analytics Helper/TransactionAnalyticsHelper.m
 __71+[TransactionAnalyticsHelper trackPaymentWithPaymentDict:businessName:]_block_invoke
 __59+[TransactionAnalyticsHelper trackPaymentCheckoutActivity:]_block_invoke
 -[BillPaymentViewModel init]
@@ -837,8 +837,8 @@ ___block_descriptor_24_e4_20bs_e37_v16@?0@4@"NSURLResponse"8@"NSError"12l
 ___block_descriptor_28_e4_20bs24w_e5_v4@?0l
 _OBJC_IVAR_$_BillPaymentViewModel.categoryTabBar
 _OBJC_IVAR_$_BillPaymentViewModel._isRecentTransaction
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Recharge VC/View Model/BillPaymentViewModel.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Recharge VC/View Model/BillPaymentViewModel.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Recharge VC/View Model/BillPaymentViewModel.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Recharge VC/View Model/BillPaymentViewModel.h
 __53-[BillPaymentViewModel fetchBillDueAmountCompletion:]_block_invoke_2
 __53-[BillPaymentViewModel fetchBillDueAmountCompletion:]_block_invoke
 __70-[BillPaymentViewModel fetchElectricityTransactionDataWithCompletion:]_block_invoke_2
@@ -852,8 +852,8 @@ __67-[BillPaymentViewModel fetchRechargeTransactionDataWithCompletion:]_block_in
 -[HPTabBar height]
 -[HPTabBar setHeight:]
 _OBJC_IVAR_$_HPTabBar._height
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/HPTabBar/HPTabBar.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/HPTabBar/HPTabBar.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/HPTabBar/HPTabBar.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/HPTabBar/HPTabBar.h
 -[Transactions initWithDictionary:]
 +[Transactions parseReceivedTransactions:]
 -[Transactions active]
@@ -929,8 +929,8 @@ _OBJC_IVAR_$_Transactions.refund_date
 _OBJC_IVAR_$_Transactions.refund_message
 _OBJC_IVAR_$_Transactions.refund_status
 _OBJC_IVAR_$_Transactions.remark
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Transactions/Transactions.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Transactions/Transactions.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Transactions/Transactions.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Transactions/Transactions.h
 -[HPPayUTransactionHelper initWithDataObject:]
 -[HPPayUTransactionHelper performPayUPaymentForPaymentParams:paymentType:merchantKey:dataObject:]
 ___97-[HPPayUTransactionHelper performPayUPaymentForPaymentParams:paymentType:merchantKey:dataObject:]_block_invoke
@@ -951,7 +951,7 @@ ___destroy_helper_block_e4_20s24s28s32s
 _OBJC_IVAR_$_HPPayUTransactionHelper.dataObject
 ___block_descriptor_32_e4_20s24s28s_e54_v16@?0@"NSMutableURLRequest"4@"NSString"8@"NSString"12l
 ___block_descriptor_36_e4_20s24s28s32s_e5_v4@?0l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/PayU Helpers/PayU Trasaction Helper/HPPayUTransactionHelper.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/PayU Helpers/PayU Trasaction Helper/HPPayUTransactionHelper.m
 __destroy_helper_block_e4_20s24s28s32s
 __copy_helper_block_e4_20s24s28s32s
 __92-[HPPayUTransactionHelper launchPayUCustomBrowserWithParams:request:merchantKey:dataObject:]_block_invoke
@@ -966,8 +966,8 @@ __97-[HPPayUTransactionHelper performPayUPaymentForPaymentParams:paymentType:mer
 -[HPTextEntryTVCell .cxx_destruct]
 _OBJC_IVAR_$_HPTextEntryTVCell.textFieldLbl
 _OBJC_IVAR_$_HPTextEntryTVCell.textField
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/HP Text Entry Cell/HPTextEntryTVCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/HP Text Entry Cell/HPTextEntryTVCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/HP Text Entry Cell/HPTextEntryTVCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/HP Text Entry Cell/HPTextEntryTVCell.h
 +[CouponsHelper getUpdatedAmountWithConvenienceFeeFor:merchant:data:transactionAmount:completion:]
 ___98+[CouponsHelper getUpdatedAmountWithConvenienceFeeFor:merchant:data:transactionAmount:completion:]_block_invoke
 +[CouponsHelper getCouponCodesForBusinessID:merchant:data:transactionAmount:success:failure:]
@@ -986,7 +986,7 @@ ___block_literal_global.267
 ___block_descriptor_28_e4_20bs24s_e5_v4@?0l
 ___block_descriptor_28_e4_20bs24bs_e36_v16@?0c4@"NSDictionary"8@"NSError"12l
 ___block_descriptor_28_e4_20s24bs_e36_v16@?0c4@"NSDictionary"8@"NSError"12l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Coupons Helper/CouponsHelper.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Coupons Helper/CouponsHelper.m
 __79+[CouponsHelper validateCouponCode:businessID:merchant:data:amount:completion:]_block_invoke
 __copy_helper_block_e4_20b24b
 __93+[CouponsHelper getCouponCodesForBusinessID:merchant:data:transactionAmount:success:failure:]_block_invoke_2.291
@@ -1058,8 +1058,8 @@ ___block_descriptor_32_e4_20s24s28s_e5_v4@?0l
 ___block_descriptor_32_e4_20s24s28w_e5_v4@?0l
 ___block_descriptor_32_e4_20s24s_e5_v4@?0l
 _OBJC_IVAR_$_ThirdPartyWalletLoginViewController.completion
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Third Party Wallets/Third Party Wallet Login VC/ThirdPartyWalletLoginViewController.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Third Party Wallets/Third Party Wallet Login VC/ThirdPartyWalletLoginViewController.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Third Party Wallets/Third Party Wallet Login VC/ThirdPartyWalletLoginViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Third Party Wallets/Third Party Wallet Login VC/ThirdPartyWalletLoginViewController.h
 __71+[ThirdPartyWalletLoginViewController trackAction:business:walletType:]_block_invoke
 __61-[ThirdPartyWalletLoginViewController configureResendButton:]_block_invoke
 __62-[ThirdPartyWalletLoginViewController resetFramesAfterFailure]_block_invoke
@@ -1118,8 +1118,8 @@ ___block_descriptor_24_e4_20w_e7_v8@?0c4l
 ___block_descriptor_24_e4_20w_e7_v8@?0I4l
 l_OBJC_PROTOCOL_$_PaymentOptionsDelegate
 l_OBJC_LABEL_PROTOCOL_$_PaymentOptionsDelegate
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Payment Options VC/PaymentOptionsViewController.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Payment Options VC/PaymentOptionsViewController.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Payment Options VC/PaymentOptionsViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Payment Options VC/PaymentOptionsViewController.h
 __64-[PaymentOptionsViewController tableView:cellForRowAtIndexPath:]_block_invoke_2
 __64-[PaymentOptionsViewController tableView:cellForRowAtIndexPath:]_block_invoke.384
 __64-[PaymentOptionsViewController tableView:cellForRowAtIndexPath:]_block_invoke
@@ -1157,7 +1157,7 @@ _OBJC_IVAR_$_NetBankingOptionsViewController.banksData
 _OBJC_IVAR_$_NetBankingOptionsViewController.banksTable
 l_OBJC_PROTOCOL_$_PUCBWebVCDelegate
 l_OBJC_LABEL_PROTOCOL_$_PUCBWebVCDelegate
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/NetBanking Options/NetBankingOptionsViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/NetBanking Options/NetBankingOptionsViewController.m
 __64-[NetBankingOptionsViewController firePaymentAttemptedAnalytics]_block_invoke
 -[OffersTermsViewController initWithCoder:]
 -[OffersTermsViewController initWithNibName:bundle:]
@@ -1185,7 +1185,7 @@ _OBJC_IVAR_$_OffersTermsViewController.scrollView
 _OBJC_IVAR_$_OffersTermsViewController.offerTypeIcon
 _OBJC_IVAR_$_OffersTermsViewController.titleLab
 _OBJC_IVAR_$_OffersTermsViewController.descriptionWebView
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Offer Terms VC/OffersTermsViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Offer Terms VC/OffersTermsViewController.m
 -[BillPaymentField initWithDictionary:]
 -[BillPaymentField getDictionary]
 -[BillPaymentField name]
@@ -1210,8 +1210,8 @@ _OBJC_IVAR_$_BillPaymentField.type
 _OBJC_IVAR_$_BillPaymentField.userValue
 _OBJC_IVAR_$_BillPaymentField.value
 _OBJC_IVAR_$_BillPaymentField.editable
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Bill Payments/Bill Payment Field/BillPaymentField.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Bill Payments/Bill Payment Field/BillPaymentField.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Bill Payments/Bill Payment Field/BillPaymentField.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Bill Payments/Bill Payment Field/BillPaymentField.h
 -[WalletTransaction initWithDictionary:]
 -[WalletTransaction convertFromDateFormat:toFormat:dateString:]
 -[WalletTransaction calculateShouldAllowRefundToBank]
@@ -1276,8 +1276,8 @@ _OBJC_IVAR_$_WalletTransaction.transactionStatus
 _OBJC_IVAR_$_WalletTransaction.transactionDescription
 _OBJC_IVAR_$_WalletTransaction.shouldAllowRefundToBank
 _OBJC_IVAR_$_WalletTransaction._transactionType
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Wallet Transaction/WalletTransaction.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Wallet Transaction/WalletTransaction.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Wallet Transaction/WalletTransaction.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Wallet Transaction/WalletTransaction.h
 -[TransactionsTableViewCell initWithStyle:reuseIdentifier:]
 -[TransactionsTableViewCell setFrame:]
 -[TransactionsTableViewCell setCurrentTransaction:]
@@ -1303,8 +1303,8 @@ _OBJC_IVAR_$_TransactionsTableViewCell.amountLabel
 _OBJC_IVAR_$_TransactionsTableViewCell.formatter
 _OBJC_IVAR_$_TransactionsTableViewCell._currentTransaction
 _OBJC_IVAR_$_TransactionsTableViewCell.purchaseStatus
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Transactions Table Cell/TransactionsTableViewCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Transactions Table Cell/TransactionsTableViewCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Transactions Table Cell/TransactionsTableViewCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Transactions Table Cell/TransactionsTableViewCell.h
 -[BrowsePlansViewController viewDidLoad]
 -[BrowsePlansViewController viewWillDisappear:]
 -[BrowsePlansViewController getPlansList]
@@ -1339,8 +1339,8 @@ _OBJC_IVAR_$_BrowsePlansViewController._serviceProviderID
 _OBJC_IVAR_$_BrowsePlansViewController._circleID
 _OBJC_IVAR_$_BrowsePlansViewController._categoryID
 ___block_descriptor_24_e4_20w_e33_v12@?0@"NSData"4@"NSURLResponse"8l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Browse Plans/BrowsePlansViewController.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Browse Plans/BrowsePlansViewController.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Browse Plans/BrowsePlansViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Browse Plans/BrowsePlansViewController.h
 __60-[BrowsePlansViewController performPlanListParsingWithData:]_block_invoke
 __41-[BrowsePlansViewController getPlansList]_block_invoke_2
 __41-[BrowsePlansViewController getPlansList]_block_invoke.73
@@ -1415,8 +1415,8 @@ _OBJC_IVAR_$_PaymentDataObject._addToWalletAndPayDict
 _OBJC_IVAR_$_PaymentDataObject._originVC
 _OBJC_IVAR_$_PaymentDataObject._payUCustomBrowserDelegate
 _OBJC_IVAR_$_PaymentDataObject._amazonPayDelegate
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Payment Data Object/PaymentDataObject.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Payment Data Object/PaymentDataObject.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Payment Data Object/PaymentDataObject.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Payment Data Object/PaymentDataObject.h
 -[HPBillPaymentTextField initWithFrame:borderColor:]
 -[HPBillPaymentTextField initWithFrame:borderColor:labelText:]
 -[HPBillPaymentTextField initWithFrame:label:billPaymentFormData:]
@@ -1427,8 +1427,8 @@ _OBJC_IVAR_$_PaymentDataObject._amazonPayDelegate
 -[HPBillPaymentTextField .cxx_destruct]
 _OBJC_IVAR_$_HPBillPaymentTextField._billPaymentFieldData
 _OBJC_IVAR_$_HPBillPaymentTextField._regExpr
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Text Fields/Bill Payment Text Field/HPBillPaymentTextField.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Text Fields/Bill Payment Text Field/HPBillPaymentTextField.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Text Fields/Bill Payment Text Field/HPBillPaymentTextField.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Text Fields/Bill Payment Text Field/HPBillPaymentTextField.h
 -[RechargePlan initWithDictionary:]
 -[RechargePlan isExpired]
 -[RechargePlan setIsExpired:]
@@ -1476,8 +1476,8 @@ _OBJC_IVAR_$_RechargePlan.validity
 _OBJC_IVAR_$_RechargePlan.category
 _OBJC_IVAR_$_RechargePlan.validNumDays
 _OBJC_IVAR_$_RechargePlan.serviceProvider
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Bill Payments/Recharge Plan/RechargePlan.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Bill Payments/Recharge Plan/RechargePlan.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Bill Payments/Recharge Plan/RechargePlan.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Bill Payments/Recharge Plan/RechargePlan.h
 -[SavedCardsOptionsViewController initWithObject:]
 -[SavedCardsOptionsViewController viewDidLoad]
 -[SavedCardsOptionsViewController viewWillDisappear:]
@@ -1517,7 +1517,7 @@ ___block_descriptor_24_e4_20s_e20_v8@?0@"UITextField"4l
 ___block_descriptor_28_e4_20s24s_e22_v8@?0@"UIAlertAction"4l
 _OBJC_IVAR_$_SavedCardsOptionsViewController.proceedAlertAction
 _OBJC_IVAR_$_SavedCardsOptionsViewController.selectedCard
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Saved Cards Options/SavedCardsOptionsViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Saved Cards Options/SavedCardsOptionsViewController.m
 __61-[SavedCardsOptionsViewController presentEnterCvvAlertDialog]_block_invoke.629
 __61-[SavedCardsOptionsViewController presentEnterCvvAlertDialog]_block_invoke
 -[ThirdPartyWalletWebViewPaymentVC initWithWalletPaymentData:dataObject:]
@@ -1544,8 +1544,8 @@ _OBJC_IVAR_$_ThirdPartyWalletWebViewPaymentVC.webview
 _OBJC_IVAR_$_ThirdPartyWalletWebViewPaymentVC.completion
 l_OBJC_PROTOCOL_$_UIWebViewDelegate
 l_OBJC_LABEL_PROTOCOL_$_UIWebViewDelegate
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Third Party Wallets/Third Party Payment WebView/ThirdPartyWalletWebViewPaymentVC.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Third Party Wallets/Third Party Payment WebView/ThirdPartyWalletWebViewPaymentVC.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Third Party Wallets/Third Party Payment WebView/ThirdPartyWalletWebViewPaymentVC.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Third Party Wallets/Third Party Payment WebView/ThirdPartyWalletWebViewPaymentVC.h
 __54-[ThirdPartyWalletWebViewPaymentVC cancelButtontapped]_block_invoke_2
 __54-[ThirdPartyWalletWebViewPaymentVC cancelButtontapped]_block_invoke
 -[OffersDetailTableCell initWithStyle:reuseIdentifier:]
@@ -1572,8 +1572,8 @@ _OBJC_IVAR_$_OffersDetailTableCell.termsBtn
 _OBJC_IVAR_$_OffersDetailTableCell.lineView
 _OBJC_IVAR_$_OffersDetailTableCell._couponDetail
 ___block_descriptor_24_e4_20w_e27_v8@?0@"NSAttributedString"4l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Offers Details/OffersDetailTableCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Offers Details/OffersDetailTableCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Offers Details/OffersDetailTableCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Offers Details/OffersDetailTableCell.h
 __41-[OffersDetailTableCell setCouponDetail:]_block_invoke
 -[ReferralCodeCell initWithStyle:reuseIdentifier:]
 -[ReferralCodeCell layoutSubviews]
@@ -1611,8 +1611,8 @@ _OBJC_IVAR_$_ReferralCodeCell.subtitle
 _OBJC_IVAR_$_ReferralCodeCell.enterReferralBtn
 _OBJC_IVAR_$_ReferralCodeCell.termsBtn
 _OBJC_IVAR_$_ReferralCodeCell.controllerDelegate
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Referral Code Cell/ReferralCodeCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Referral Code Cell/ReferralCodeCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Referral Code Cell/ReferralCodeCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Referral Code Cell/ReferralCodeCell.h
 -[AppliedCouponTableCell initWithStyle:reuseIdentifier:]
 -[AppliedCouponTableCell setFrame:]
 -[AppliedCouponTableCell setCouponDetail:]
@@ -1632,8 +1632,8 @@ _OBJC_IVAR_$_AppliedCouponTableCell.appliedCouponLab
 _OBJC_IVAR_$_AppliedCouponTableCell.crossBtn
 _OBJC_IVAR_$_AppliedCouponTableCell._couponDetail
 _OBJC_IVAR_$_AppliedCouponTableCell._delegate
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Applied Coupon Cell/AppliedCouponTableCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Applied Coupon Cell/AppliedCouponTableCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Applied Coupon Cell/AppliedCouponTableCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Applied Coupon Cell/AppliedCouponTableCell.h
 -[WalletHistoryDetailViewController initWithWalletTransaction:]
 -[WalletHistoryDetailViewController viewDidLoad]
 -[WalletHistoryDetailViewController viewWillAppear:]
@@ -1657,8 +1657,8 @@ ___57-[WalletHistoryDetailViewController performRefundToBank:]_block_invoke_3.43
 _OBJC_IVAR_$_WalletHistoryDetailViewController.walletTransaction
 ___block_descriptor_24_e4_20s_e21_v8@?0@"NSDictionary"4l
 _OBJC_IVAR_$_WalletHistoryDetailViewController._refreshHistory
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Wallet History/WalletHistoryDetailViewController.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Wallet History/WalletHistoryDetailViewController.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Wallet History/WalletHistoryDetailViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Wallet History/WalletHistoryDetailViewController.h
 __57-[WalletHistoryDetailViewController performRefundToBank:]_block_invoke_3.431
 __57-[WalletHistoryDetailViewController performRefundToBank:]_block_invoke_2.428
 __57-[WalletHistoryDetailViewController performRefundToBank:]_block_invoke.427
@@ -1669,7 +1669,7 @@ __57-[WalletHistoryDetailViewController performRefundToBank:]_block_invoke
 ___96+[TransactionsDataHelper fetchTransactionHistoryWithLimit:andOffset:transactionType:completion:]_block_invoke
 ___96+[TransactionsDataHelper fetchTransactionHistoryWithLimit:andOffset:transactionType:completion:]_block_invoke_2
 ___block_descriptor_36_e4_20bs_e5_v4@?0l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Transactions/Transactions Data Helper/TransactionsDataHelper.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Transactions/Transactions Data Helper/TransactionsDataHelper.m
 __96+[TransactionsDataHelper fetchTransactionHistoryWithLimit:andOffset:transactionType:completion:]_block_invoke_2
 __96+[TransactionsDataHelper fetchTransactionHistoryWithLimit:andOffset:transactionType:completion:]_block_invoke
 -[FetchingOffersStatusCell initWithStyle:reuseIdentifier:]
@@ -1689,8 +1689,8 @@ _OBJC_IVAR_$_FetchingOffersStatusCell.offersImage
 _OBJC_IVAR_$_FetchingOffersStatusCell.activityIndicator
 _OBJC_IVAR_$_FetchingOffersStatusCell.statusLab
 _OBJC_IVAR_$_FetchingOffersStatusCell._isFetching
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Fetching Offers Status Cell/FetchingOffersStatusCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Fetching Offers Status Cell/FetchingOffersStatusCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Fetching Offers Status Cell/FetchingOffersStatusCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Fetching Offers Status Cell/FetchingOffersStatusCell.h
 -[HaptikPayableAmountCell initWithStyle:reuseIdentifier:]
 -[HaptikPayableAmountCell setPaymentDataObject:]
 -[HaptikPayableAmountCell initSubviews]
@@ -1728,8 +1728,8 @@ _OBJC_IVAR_$_HaptikPayableAmountCell.proceedForPayment
 _OBJC_IVAR_$_HaptikPayableAmountCell.payableAmount
 _OBJC_IVAR_$_HaptikPayableAmountCell.formatter
 _OBJC_IVAR_$_HaptikPayableAmountCell._useHaptikWallet
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Haptik Payable Amount Cell/HaptikPayableAmountCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Haptik Payable Amount Cell/HaptikPayableAmountCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Haptik Payable Amount Cell/HaptikPayableAmountCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Haptik Payable Amount Cell/HaptikPayableAmountCell.h
 __41-[HaptikPayableAmountCell trackCTAEvent:]_block_invoke
 __54-[HaptikPayableAmountCell trackWalletSelectionsEvents]_block_invoke
 __41-[HaptikPayableAmountCell couponInfoView]_block_invoke.466
@@ -1772,8 +1772,8 @@ ___block_descriptor_28_e4_20s24w_e28_v12@?0@"NSArray"4@"NSError"8l
 _OBJC_IVAR_$_HaptikWalletViewModel.shouldLoadNextPage
 _OBJC_IVAR_$_HaptikWalletViewModel._walletTransactions
 _OBJC_IVAR_$_HaptikWalletViewModel._delegate
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Haptik Wallet VC/View Model/HaptikWalletViewModel.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Haptik Wallet VC/View Model/HaptikWalletViewModel.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Haptik Wallet VC/View Model/HaptikWalletViewModel.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Haptik Wallet VC/View Model/HaptikWalletViewModel.h
 __59-[HaptikWalletViewModel tableView:didSelectRowAtIndexPath:]_block_invoke
 __44-[HaptikWalletViewModel fetchUserWalletData]_block_invoke_2
 __44-[HaptikWalletViewModel fetchUserWalletData]_block_invoke
@@ -1810,8 +1810,8 @@ _OBJC_IVAR_$_HPSegmentSwitch._selectedIndex
 _OBJC_IVAR_$_HPSegmentSwitch._selectedLabelColor
 _OBJC_IVAR_$_HPSegmentSwitch._unselectedLabelColor
 _OBJC_IVAR_$_HPSegmentSwitch._thumbColor
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/UIControl/HPSegment Switch/HPSegmentSwitch.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/UIControl/HPSegment Switch/HPSegmentSwitch.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/UIControl/HPSegment Switch/HPSegmentSwitch.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/UIControl/HPSegment Switch/HPSegmentSwitch.h
 __42-[HPSegmentSwitch displayNewSelectedIndex]_block_invoke
 +[TransactionsHelper performWalletPaymentWithPaymentObject:]
 ___60+[TransactionsHelper performWalletPaymentWithPaymentObject:]_block_invoke
@@ -1896,7 +1896,7 @@ ___block_descriptor_28_e4_24bs_e5_v4@?0l
 ___block_descriptor_28_e4_24s_e55_v16@?0@"NSDictionary"4@"NSDictionary"8@"NSDictionary"12l
 ___block_descriptor_24_e4_20s_e38_v8@?0@"<PWAINMerchantBackendBuilder>"4l
 ___block_descriptor_28_e4_20s_e19_v12@?0c4@"NSError"8l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Transactions/Transactions Helper/TransactionsHelper.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Transactions/Transactions Helper/TransactionsHelper.m
 __62+[TransactionsHelper performAddToWalletFailureTransitionsFor:]_block_invoke_3
 __62+[TransactionsHelper performAddToWalletFailureTransitionsFor:]_block_invoke_2
 __62+[TransactionsHelper performAddToWalletFailureTransitionsFor:]_block_invoke
@@ -1965,8 +1965,8 @@ _OBJC_IVAR_$_ThirdPartyWalletPaymentData.requestFailUrl
 _OBJC_IVAR_$_ThirdPartyWalletPaymentData.debitSuccessUrl
 _OBJC_IVAR_$_ThirdPartyWalletPaymentData.addSuccessDebitFailUrl
 _OBJC_IVAR_$_ThirdPartyWalletPaymentData._transactionId
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Third Party Wallet Payment Data/ThirdPartyWalletPaymentData.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Third Party Wallet Payment Data/ThirdPartyWalletPaymentData.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Third Party Wallet Payment Data/ThirdPartyWalletPaymentData.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Third Party Wallet Payment Data/ThirdPartyWalletPaymentData.h
 -[HaptikWalletViewController initWithWalletTabType:]
 -[HaptikWalletViewController viewDidLoad]
 -[HaptikWalletViewController viewWillAppear:]
@@ -2053,7 +2053,7 @@ ___block_descriptor_24_e5_v4@?0l
 _OBJC_IVAR_$_HaptikWalletViewController.shareView
 l_OBJC_PROTOCOL_$_HaptikWalletProtocol
 l_OBJC_LABEL_PROTOCOL_$_HaptikWalletProtocol
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Haptik Wallet VC/HaptikWalletViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Haptik Wallet VC/HaptikWalletViewController.m
 __62-[HaptikWalletViewController trackCardViewTappedEventForCard:]_block_invoke
 __60-[HaptikWalletViewController trackSegmentedControlAnalytics]_block_invoke
 __78-[HaptikWalletViewController trackWalletEventForActionType:ctaName:entryType:]_block_invoke
@@ -2111,8 +2111,8 @@ l_OBJC_PROTOCOL_$_UIBarPositioningDelegate
 l_OBJC_LABEL_PROTOCOL_$_UIBarPositioningDelegate
 l_OBJC_PROTOCOL_$_UISearchBarDelegate
 l_OBJC_LABEL_PROTOCOL_$_UISearchBarDelegate
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Options List VC/HPOptionsSearchListVC.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Options List VC/HPOptionsSearchListVC.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Options List VC/HPOptionsSearchListVC.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Options List VC/HPOptionsSearchListVC.h
 __41-[HPOptionsSearchListVC fetchOptionsData]_block_invoke_3
 __41-[HPOptionsSearchListVC fetchOptionsData]_block_invoke_2
 __41-[HPOptionsSearchListVC fetchOptionsData]_block_invoke
@@ -2148,8 +2148,8 @@ _OBJC_IVAR_$_ReferralRedeemCell.subtitle
 _OBJC_IVAR_$_ReferralRedeemCell.termsBtn
 _OBJC_IVAR_$_ReferralRedeemCell.controllerDelegate
 _OBJC_IVAR_$_ReferralRedeemCell.message
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Referral Redeem Cell/ReferralRedeemCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Referral Redeem Cell/ReferralRedeemCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Referral Redeem Cell/ReferralRedeemCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Referral Redeem Cell/ReferralRedeemCell.h
 +[ThirdPartyWalletHelper otpForThirdPartyWalletType:mobileNumber:isResendRequest:otpId:completion:]
 ___99+[ThirdPartyWalletHelper otpForThirdPartyWalletType:mobileNumber:isResendRequest:otpId:completion:]_block_invoke
 +[ThirdPartyWalletHelper requestOTPForThirdPartyWalletType:mobileNumber:completion:]
@@ -2179,7 +2179,7 @@ ___block_descriptor_33_e4_20bs24s28s_e5_v4@?0l
 ___block_descriptor_40_e4_20s24s28s32bs_e5_v4@?0l
 ___block_descriptor_28_e4_20bs_e5_v4@?0l
 ___block_descriptor_28_e4_20s24bs_e55_v16@?0@"NSDictionary"4@"NSDictionary"8@"NSDictionary"12l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Third Party Wallet Helper/ThirdPartyWalletHelper.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Payment Helpers/Third Party Wallet Helper/ThirdPartyWalletHelper.m
 __57+[ThirdPartyWalletHelper initiateTransaction:completion:]_block_invoke.299
 __57+[ThirdPartyWalletHelper initiateTransaction:completion:]_block_invoke
 __77+[ThirdPartyWalletHelper debitThirdPartyWallet:walletPaymentData:completion:]_block_invoke_2
@@ -2220,8 +2220,8 @@ _OBJC_IVAR_$_RecentBillPaymentCell.repeatButton
 _OBJC_IVAR_$_RecentBillPaymentCell._dataDict
 _OBJC_IVAR_$_RecentBillPaymentCell.selectedTab
 _OBJC_IVAR_$_RecentBillPaymentCell._repeatTapAction
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Recent Bill Payment Cell/RecentBillPaymentCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Recent Bill Payment Cell/RecentBillPaymentCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Recent Bill Payment Cell/RecentBillPaymentCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Recent Bill Payment Cell/RecentBillPaymentCell.h
 +[WalletNotCreatedViewController showWithProceedButton:dismissCompletion:]
 ___74+[WalletNotCreatedViewController showWithProceedButton:dismissCompletion:]_block_invoke
 -[WalletNotCreatedViewController initWithProceedButton:]
@@ -2239,7 +2239,7 @@ ___57-[WalletNotCreatedViewController dismissAndProceedToPay:]_block_invoke
 -[WalletNotCreatedViewController .cxx_destruct]
 _OBJC_IVAR_$_WalletNotCreatedViewController._showProceedButton
 _OBJC_IVAR_$_WalletNotCreatedViewController._dismissCompletion
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Wallet Not Created/WalletNotCreatedViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Wallet Not Created/WalletNotCreatedViewController.m
 __57-[WalletNotCreatedViewController dismissAndProceedToPay:]_block_invoke
 __74+[WalletNotCreatedViewController showWithProceedButton:dismissCompletion:]_block_invoke
 -[CouponDetail initWithDictionary:]
@@ -2286,8 +2286,8 @@ _OBJC_IVAR_$_CouponDetail._amount
 _OBJC_IVAR_$_CouponDetail._subText
 _OBJC_IVAR_$_CouponDetail._isSelected
 _OBJC_IVAR_$_CouponDetail._isManuallyTyped
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Coupon Detail/CouponDetail.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Coupon Detail/CouponDetail.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Coupon Detail/CouponDetail.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Coupon Detail/CouponDetail.h
 CGSizeMake
 -[ThirdPartyWallet initWithDictionary:]
 -[ThirdPartyWallet walletDetails]
@@ -2302,8 +2302,8 @@ _OBJC_IVAR_$_ThirdPartyWallet.balance
 _OBJC_IVAR_$_ThirdPartyWallet.loginRequired
 _OBJC_IVAR_$_ThirdPartyWallet.iconUrl
 _OBJC_IVAR_$_ThirdPartyWallet._sourceType
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Third Party Wallet/ThirdPartyWallet.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Third Party Wallet/ThirdPartyWallet.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Third Party Wallet/ThirdPartyWallet.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Models/Third Party Wallet/ThirdPartyWallet.h
 -[ThirdPartyWalletPayableAmtCell initWithStyle:reuseIdentifier:]
 -[ThirdPartyWalletPayableAmtCell setPaymentDataObj:]
 -[ThirdPartyWalletPayableAmtCell initSubviews]
@@ -2331,8 +2331,8 @@ _OBJC_IVAR_$_ThirdPartyWalletPayableAmtCell.paymentDataObj
 _OBJC_IVAR_$_ThirdPartyWalletPayableAmtCell.proceedForPayment
 _OBJC_IVAR_$_ThirdPartyWalletPayableAmtCell.formatter
 _OBJC_IVAR_$_ThirdPartyWalletPayableAmtCell._payableAmount
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Third Party Wallet Payable Cell/ThirdPartyWalletPayableAmtCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Third Party Wallet Payable Cell/ThirdPartyWalletPayableAmtCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Third Party Wallet Payable Cell/ThirdPartyWalletPayableAmtCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Third Party Wallet Payable Cell/ThirdPartyWalletPayableAmtCell.h
 __48-[ThirdPartyWalletPayableAmtCell trackCTAEvent:]_block_invoke
 __48-[ThirdPartyWalletPayableAmtCell couponInfoView]_block_invoke.459
 __48-[ThirdPartyWalletPayableAmtCell couponInfoView]_block_invoke
@@ -2389,8 +2389,8 @@ ___block_descriptor_32_e4_20s24bs28w_e5_v4@?0l
 _OBJC_IVAR_$_CouponOffersViewModel._operationsCompletion
 _OBJC_IVAR_$_CouponOffersViewModel.isEligibleForReferral
 _OBJC_IVAR_$_CouponOffersViewModel.referralMessage
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Couon Offers VC/View Model/CouponOffersViewModel.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Couon Offers VC/View Model/CouponOffersViewModel.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Couon Offers VC/View Model/CouponOffersViewModel.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Couon Offers VC/View Model/CouponOffersViewModel.h
 __60-[CouponOffersViewModel performCouponValidation:completion:]_block_invoke_3
 __60-[CouponOffersViewModel performCouponValidation:completion:]_block_invoke_2
 __60-[CouponOffersViewModel performCouponValidation:completion:]_block_invoke
@@ -2432,7 +2432,7 @@ ___block_descriptor_24_e4_20w_e16_v8@?0@"NSArray"4l
 _OBJC_IVAR_$_TransactionsViewController.transactionsTable
 _OBJC_IVAR_$_TransactionsViewController.transactionsArray
 _OBJC_IVAR_$_TransactionsViewController.businessData
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Transactions/Transactions VC/TransactionsViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Transactions/Transactions VC/TransactionsViewController.m
 __53-[TransactionsViewController fetchTransactionHistory]_block_invoke_2
 __53-[TransactionsViewController fetchTransactionHistory]_block_invoke
 __41-[TransactionsViewController viewDidLoad]_block_invoke
@@ -2516,8 +2516,8 @@ l_OBJC_PROTOCOL_$_ApplyCodeDelegate
 l_OBJC_LABEL_PROTOCOL_$_ApplyCodeDelegate
 l_OBJC_PROTOCOL_$_AppliedCouponDelegate
 l_OBJC_LABEL_PROTOCOL_$_AppliedCouponDelegate
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Couon Offers VC/CouponOffersViewController.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Couon Offers VC/CouponOffersViewController.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Couon Offers VC/CouponOffersViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Coupon Offers/Couon Offers VC/CouponOffersViewController.h
 __42-[CouponOffersViewController trackAction:]_block_invoke
 __58-[CouponOffersViewController fireEnterCodeTappedAnalytics]_block_invoke
 __70-[CouponOffersViewController fireAnalyticsForProceedPaymentWithTitle:]_block_invoke
@@ -2553,8 +2553,8 @@ _OBJC_IVAR_$_ThirdPartyWalletViewModel.mobileNumber
 ___block_descriptor_33_e4_20bs24w_e5_v4@?0l
 _OBJC_IVAR_$_ThirdPartyWalletViewModel.otpId
 _OBJC_IVAR_$_ThirdPartyWalletViewModel.otp
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Third Party Wallets/Third Party Wallet Login VC/View Model/ThirdPartyWalletViewModel.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Third Party Wallets/Third Party Wallet Login VC/View Model/ThirdPartyWalletViewModel.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Third Party Wallets/Third Party Wallet Login VC/View Model/ThirdPartyWalletViewModel.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Third Party Wallets/Third Party Wallet Login VC/View Model/ThirdPartyWalletViewModel.h
 __68-[ThirdPartyWalletViewModel handleOTPRequest:sourceType:completion:]_block_invoke.238
 __68-[ThirdPartyWalletViewModel handleOTPRequest:sourceType:completion:]_block_invoke_2
 __68-[ThirdPartyWalletViewModel handleOTPRequest:sourceType:completion:]_block_invoke
@@ -2634,8 +2634,8 @@ l_OBJC_PROTOCOL_$_PWAINCallbackDelegate
 l_OBJC_LABEL_PROTOCOL_$_PWAINCallbackDelegate
 l_OBJC_PROTOCOL_$_PWAINMerchantBackendResponseProcessorDelegate
 l_OBJC_LABEL_PROTOCOL_$_PWAINMerchantBackendResponseProcessorDelegate
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Payment Options VC/View Model/PaymentOptionsViewModel.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Payment Options VC/View Model/PaymentOptionsViewModel.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Payment Options VC/View Model/PaymentOptionsViewModel.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Payment Options VC/View Model/PaymentOptionsViewModel.h
 __61-[PaymentOptionsViewModel updateWalletAfterLogin:completion:]_block_invoke
 __49-[PaymentOptionsViewModel makePaymentFromWallet:]_block_invoke.984
 __49-[PaymentOptionsViewModel makePaymentFromWallet:]_block_invoke.982
@@ -2657,7 +2657,7 @@ ___53-[WalletPayProcessingViewController initCancelButton]_block_invoke
 -[WalletPayProcessingViewController initSubviews]
 -[WalletPayProcessingViewController cancelBtnTapped:]
 -[WalletPayProcessingViewController arcWithStart:end:]
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Wallet Processing/WalletPayProcessingViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Haptik Wallet/Wallet Processing/WalletPayProcessingViewController.m
 __53-[WalletPayProcessingViewController initCancelButton]_block_invoke
 -[BillPaymentOptionsTableViewCell initWithStyle:reuseIdentifier:]
 -[BillPaymentOptionsTableViewCell setFrame:]
@@ -2671,8 +2671,8 @@ __53-[WalletPayProcessingViewController initCancelButton]_block_invoke
 _OBJC_IVAR_$_BillPaymentOptionsTableViewCell.bankImage
 _OBJC_IVAR_$_BillPaymentOptionsTableViewCell.bankTitle
 _OBJC_IVAR_$_BillPaymentOptionsTableViewCell.hidesImageView
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Bill Payment Options Cell/BillPaymentOptionsTableViewCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Bill Payment Options Cell/BillPaymentOptionsTableViewCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Bill Payment Options Cell/BillPaymentOptionsTableViewCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Bill Payment Options Cell/BillPaymentOptionsTableViewCell.h
 +[AsyncBlockOperation asyncBlockOperationWithBlock:]
 -[AsyncBlockOperation initWithAsyncBlock:]
 -[AsyncBlockOperation start]
@@ -2687,8 +2687,8 @@ ___28-[AsyncBlockOperation start]_block_invoke
 _OBJC_IVAR_$_AsyncBlockOperation.executing
 _OBJC_IVAR_$_AsyncBlockOperation.finished
 _OBJC_IVAR_$_AsyncBlockOperation._block
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Utilities/Async Block Operaion/AsyncBlockOperation.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Utilities/Async Block Operaion/AsyncBlockOperation.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Utilities/Async Block Operaion/AsyncBlockOperation.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Utilities/Async Block Operaion/AsyncBlockOperation.h
 __28-[AsyncBlockOperation start]_block_invoke
 -[AvailablePlansTableViewCell initWithStyle:reuseIdentifier:]
 -[AvailablePlansTableViewCell setFrame:]
@@ -2705,8 +2705,8 @@ _OBJC_IVAR_$_AvailablePlansTableViewCell._descriptionValueLabel
 _OBJC_IVAR_$_AvailablePlansTableViewCell._talkTimeValueLabel
 _OBJC_IVAR_$_AvailablePlansTableViewCell._costButton
 _OBJC_IVAR_$_AvailablePlansTableViewCell._validityValueLabel
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Available Plans Cell/AvailablePlansTableViewCell.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Available Plans Cell/AvailablePlansTableViewCell.h
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Available Plans Cell/AvailablePlansTableViewCell.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/Available Plans Cell/AvailablePlansTableViewCell.h
 -[CardPaymentViewController initWithObject:]
 -[CardPaymentViewController viewDidLoad]
 -[CardPaymentViewController viewWillDisappear:]
@@ -2768,7 +2768,7 @@ _OBJC_IVAR_$_CardPaymentViewController.isCreditCard
 _OBJC_IVAR_$_CardPaymentViewController.cardScheme
 _OBJC_IVAR_$_CardPaymentViewController.previousTextFieldContent
 _OBJC_IVAR_$_CardPaymentViewController.previousSelection
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Card Payment Option/CardPaymentViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Payment Options/Card Payment Option/CardPaymentViewController.m
 __62-[CardPaymentViewController fireTransactionCheckOutAnalytics:]_block_invoke
 +[HPPaymentWebService billPaymentSession]
 ___41+[HPPaymentWebService billPaymentSession]_block_invoke
@@ -2779,7 +2779,7 @@ ___123+[HPPaymentWebService getPlanListForServiceProvider:inCircle:forCategory:w
 _billPaymentSession.billPaymentSession
 _billPaymentSession.onceToken
 ___block_descriptor_28_e4_20bs24bs_e45_v16@?0@"NSData"4@"NSURLResponse"8@"NSError"12l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Utilities/Payments Web Service/HPPaymentWebService.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Utilities/Payments Web Service/HPPaymentWebService.m
 __123+[HPPaymentWebService getPlanListForServiceProvider:inCircle:forCategory:withAmount:setCompletionBlockWithSuccess:failure:]_block_invoke
 __73+[HPPaymentWebService dataRequest:setCompletionBlockWithSuccess:failure:]_block_invoke
 __41+[HPPaymentWebService billPaymentSession]_block_invoke
@@ -2826,7 +2826,7 @@ ___block_literal_global.802
 ___block_literal_global.807
 ___block_literal_global.812
 _OBJC_IVAR_$_SavedCardsViewController.cardToDelete
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Saved Cards/SavedCardsViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Saved Cards/SavedCardsViewController.m
 __75-[SavedCardsViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke.842
 __75-[SavedCardsViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke
 __61-[SavedCardsViewController deleteCardWithDetails:completion:]_block_invoke_2
@@ -2844,7 +2844,7 @@ ___50+[HPOptionsHelper fetchDataURL:params:completion:]_block_invoke
 ___63+[HPOptionsHelper getFieldDataForBillType:operator:completion:]_block_invoke
 +[HPOptionsHelper getFormFieldsArray:]
 ___block_descriptor_28_e4_20bs_e37_v16@?0@4@"NSURLResponse"8@"NSError"12l
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Options List VC/Options Helper/HPOptionsHelper.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Options List VC/Options Helper/HPOptionsHelper.m
 __63+[HPOptionsHelper getFieldDataForBillType:operator:completion:]_block_invoke
 __50+[HPOptionsHelper fetchDataURL:params:completion:]_block_invoke
 -[AvailablePlansViewController initWithCoder:]
@@ -2864,7 +2864,7 @@ __50+[HPOptionsHelper fetchDataURL:params:completion:]_block_invoke
 -[AvailablePlansViewController .cxx_destruct]
 _OBJC_IVAR_$_AvailablePlansViewController.table
 _OBJC_IVAR_$_AvailablePlansViewController.plans
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Available Plans/AvailablePlansViewController.m
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/View Controllers/Recharge/Available Plans/AvailablePlansViewController.m
 -[HPLoadingCell initWithStyle:reuseIdentifier:]
 -[HPLoadingCell prepareForReuse]
 -[HPLoadingCell setFrame:]
@@ -2872,8 +2872,8 @@ _OBJC_IVAR_$_AvailablePlansViewController.plans
 -[HPLoadingCell setSpinner:]
 -[HPLoadingCell .cxx_destruct]
 _OBJC_IVAR_$_HPLoadingCell.spinner
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/HPLoadingCell/HPLoadingCell.m
-/Users/iamsimranjot/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikPayments.build/Release-iphoneos/HaptikPayments.build/DerivedSources/HaptikPayments_vers.c
+/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikPayments/HaptikPayments/Views/Table View Cells/HPLoadingCell/HPLoadingCell.m
+/Users/hap-86/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikPayments.build/Release-iphoneos/HaptikPayments.build/DerivedSources/HaptikPayments_vers.c
 +[PWAINProcessPaymentResponse build:]
 -[PWAINProcessPaymentResponse withIsSuccess:]
 -[PWAINProcessPaymentResponse withAmazonOrderId:]
