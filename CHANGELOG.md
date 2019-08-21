@@ -2,10 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [1.7.1] - (XX/07/19) - L iOS
+## [1.7.1] - (21/08/19) - O iOS
 
-### Bugs
-- Message Composer Bar height issue is fixed
+### Features
+- Voice features STT & TTS can now be turned off
 
 ---
 
@@ -13,36 +13,19 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ### Features
 - Haptik has now newly designed Taskbox
-
-### Bugs
-- Conversation Scene Distortion on Chatform is fixed
-
----
-
-## [1.7.0] - (25/06/19) - G iOS
-
-### Features
 - WebSelfServe now supports flexible height functionality
+- Haptik Speech Module is added for TTS & STT 
 
 ### Enhancements
 - Cabs is removed from HaptikLib
 
 ### Bugs
+- Conversation Scene Distortion on Chatform is fixed
 - Wrong webView height for negative values is fixed
-
----
-
-## [1.7.0] - (12/04/19) - V iOS
-
-### Features
-- Haptik Speech Module is added for TTS & STT 
-
-### Enhancements
-
-### Bugs
 - Payment Navigation Issues Fixed
 
 ---
+
 
 ## [1.6.0] - (08/04/19) - U iOS
 
