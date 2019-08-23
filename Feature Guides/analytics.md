@@ -4,7 +4,7 @@ title: Analytics
 
 ## HaptikLib Analytics
 
-HaptikLib uses **Analytics** internally and also _provides the functionality of giving callbacks for every event tracking_. `HPAnalyticsServiceDelegate` **protocol** is defined in `Haptik.h` class under which two optional methods are defined which are called if you confirm to the respective protocol. The class has a property named `analyticsCallbackObject` of type `HPAnalyticsServiceDelegate` which the application needs to set with the object that will confirm to the protocol.
+HaptikLib uses **Analytics** internally and also _provides the functionality of giving callbacks for every event tracking_. `HPAnalyticsServiceDelegate` **protocol** is defined in `HPConfiguration.h` class under which two optional methods are defined which are called if you confirm to the respective protocol. The class has a property named `analyticsCallbackObject` of type `HPAnalyticsServiceDelegate` which the application needs to set with the object that will confirm to the protocol.
 
 Example:
 
@@ -15,7 +15,7 @@ Example:
 
 - (void)viewDidLoad {
 
-    [Haptik sharedSDK].analyticsCallbackObject = self;
+    [HPConfiguration shared].analyticsCallbackObject = self;
 }
 
 - (void)eventTracked:(NSString *)eventName forParams:(NSDictionary *)params {

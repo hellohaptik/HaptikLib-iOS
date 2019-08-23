@@ -2,12 +2,21 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.7.2] - (23/08/19) - O iOS
+
+### Bugs
+- SDK crashing during social media login is fixed
+
+---
+
+
 ## [1.7.1] - (21/08/19) - O iOS
 
 ### Features
 - Voice features STT & TTS can now be turned off
 
 ---
+
 
 ## [1.7.0] - (5/07/19) - I iOS
 

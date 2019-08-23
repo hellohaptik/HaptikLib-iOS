@@ -12,7 +12,7 @@ Minimum Deployment Target: **iOS 9.0**
 
 Supported Device Orientation: **Portrait**
 
-You also need to have [git-lfs](https://git-lfs.github.com/) installed for using the sdk
+You also need to have [git-lfs](https://git-lfs.github.com/) installed on your machine for running the SDK
 
 ---
 
@@ -23,6 +23,13 @@ You also need to have [git-lfs](https://git-lfs.github.com/) installed for using
    ```
    pod 'HaptikLib'
    ```
+   
+   You need to install a submodule of HaptikLib too if you want to make use of Voice Capabilities
+   
+   ```
+   pod 'HaptikLib/Speech'
+   ```
+   
 
 2. Run `pod install`
 
@@ -171,16 +178,16 @@ Add the following snippets in your `info.plist` file -
 3. Haptik internally also opens urls which the client needs to return it true.
 
 
-   ```
-   - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    ```
+    (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
 
       ...
 
       BOOL isRedirectHandledByHaptik = [[Haptik sharedSDK] isRedirectHandled:url options:options];
 
       return isRedirectHandledByHaptik;
-   }
-   ```
+    }
+    ```
 
 4. Haptik can also be configured to send Push Notifications to the user. The client application needs to configure push notifications on their own end and have to pass the deviceToken which the application gets after requesting the user to send them Push Notifications.
 
