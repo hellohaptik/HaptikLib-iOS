@@ -37,7 +37,7 @@ HaptikLib has an inbuilt wallet information screen to which you can push the use
 
 ###### Is Haptik Wallet Created?
 
-Haptik only creates `Wallet` for the users which are verified(phone number of the user must verified). If the user is not verified and the `Haptik Wallet VC` is pushed, then the user is automatically taken to the **user verification flow**.
+Haptik only creates `wallet` for the users which are verified(phone number of the user must verified). If the user is not verified and the `Haptik Wallet VC` is pushed, then the user is automatically taken to the **user verification flow**.
 
 HapikLib give a helper function which tells if the `Wallet` is created for the user or not. You can use the below function to check:
 
@@ -50,34 +50,40 @@ HapikLib give a helper function which tells if the `Wallet` is created for the u
 Haptik class provides custom method to route to this screen:
 
 ```
-- (void)pushToHaptikWalletFrom:(__kindof UIViewController *__weak)controller
-                   showHistory:(BOOL)showHistory
-                    completion:(void(^)(BOOL success))completion;
+- (void)getHaptikWalletViewController:(BOOL)defaultsToHistory
+                 shareAndEarnDelegate:(nullable id <HPShareAndEarnDelegate>)delegate
+                           controller:(__kindof UIViewController *__weak)controller
+                           completion:(void(^)(BOOL success, __kindof UIViewController *_Nullable haptikWalletVC))completion;
 ```
 
 Example:
 
 ```
-[[Haptik sharedSDK] pushToHaptikWalletFrom:self
-                               showHistory:NO
-                                completion:^(BOOL success) {
-     if (success) {
-        NSLog(@"do housekeeping");
-     }
- }];
+[[Haptik sharedSDK] getHaptikWalletViewController:NO
+                                  shareAndEarnDelegate:nil
+                                            controller:controller
+                                            completion:^(BOOL success, __kindof UIViewController * _Nullable haptikWalletVC) {
+            if (success) {
+                [controller.navigationController pushViewController:haptikWalletVC animated:YES];
+            }
+        }];
 ```
 
 **Discussion**
 
 > The user should be a verified user (phone number of the user is verified) in order to see & use the wallet scene. If the user is not verified and this scene is pushed, HaptikLib takes the user through the verification flow. You don't have to do anything else for it. You'll just get the `Haptik Wallet VC` in the completion.
 
+- The `param`: `defaultsToHistory` indicates which tab should selected by default when the scene is pushed.
+
+- The `param`: `shareAndEarnDelegate` should be passed nil as referral flow is not yet supported for clients other than `Haptik` itself.
+
 - The `param`: `controller` requires the current controller from where this scene is to be pushed potentially. This controller is required for `HaptikLib` in order to handle the user verification flow.
 
-- The `param`: `showHistory` A boolean indicating whether the wallet history tab should be selected by default or not.
+- In the `completion`, you get two parameters:
 
-- In the `completion`, you get one parameter:
+      	- `success`: Indicates whether the user is verified or not.
 
-    	- `success`: Indicates whether the user is verified or not.
+      	- `haptikWalletVC`: You'll get the instance of the `Haptik Wallet VC` only if the user is verified, which you'll know from the `success` param.
 
 ###### Can I get the current wallet balance of the user?
 
@@ -105,29 +111,32 @@ HaptikLib has an inbuilt transaction history screen to which you can push the us
 Haptik class provides custom method to route to this screen:
 
 ```
-- (void)pushToTransactionHistoryFrom:(__kindof UIViewController *__weak)controller
-                          completion:(void(^)(BOOL success))completion;
+- (void)getTransactionHistoryFor:(__kindof UIViewController *__weak)controller
+                      completion:(void(^)(BOOL success, __kindof UIViewController *_Nullable transactionsVC))completion;
 ```
 
 Example:
 
 ```
-[[Haptik sharedSDK] pushToTransactionHistoryFrom:self
-                                      completion:^(BOOL success) {
-     if (success) {
-        NSLog(@"do housekeeping");
-     }
- }];
+[[Haptik sharedSDK] getTransactionHistoryFor:controller
+                                       completion:^(BOOL success, __kindof UIViewController * _Nullable transactionsVC) {
+
+            if (success) {
+                [controller.navigationController pushViewController:transactionsVC animated:YES];
+            }
+        }];
 ```
 
-> Just like the case with the `Haptik Wallet Screen`, the user should be a verified user (phone number of the user is verified) in order to see & use the `Transaction History` scene. If the user is not verified and this scene is pushed, HaptikLib takes the user through the verification flow. You don't have to do anything else for it.
+> Just like the case with the `Haptik Wallet Screen`, the user should be a verified user (phone number of the user is verified) in order to see & use the `Transaction History` scene. If the user is not verified and this scene is pushed, HaptikLib takes the user through the verification flow. You don't have to do anything else for it. You'll just get the `Transaction History VC` in the completion.
 
 **Discussion**
 
 - The `param`: `controller` requires the current controller from where this scene is to be pushed potentially. This controller is required for `HaptikLib` in order to handle the user verification flow.
 
-- In the `completion`, you get one parameter:
+- In the `completion`, you get two parameters:
 
-    	- `success`: Indicates whether the user is verified or not.
+      	- `success`: Indicates whether the user is verified or not.
+
+      	- `transactionsVC`: You'll get the instance of the `Transaction History VC` only if the user is verified, which you'll know from the `success` param.
 
 ---

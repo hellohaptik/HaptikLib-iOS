@@ -23,8 +23,8 @@ ___54+[HPImageFactory downloadHaptikImageNamed:completion:]_block_invoke
 ___block_descriptor_24_e4_20bs_e36_v8@?0@"PINRemoteImageManagerResult"4l
 ___block_descriptor_24_e4_20bs_e29_v8@?0@"HPImageManagerResult"4l
 Apple LLVM version 10.0.1 (clang-1001.0.46.4)
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HP Image Factory/Image Factory/HPImageFactory.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HP Image Factory/Image Factory/HPImageFactory.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase
 CGRectMake
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 __54+[HPImageFactory downloadHaptikImageNamed:completion:]_block_invoke
@@ -32,7 +32,7 @@ __destroy_helper_block_e4_20s
 __copy_helper_block_e4_20b
 __56+[HPImageFactory downloadImageWithURLString:completion:]_block_invoke
 -[UIButton(HPAdditions) setBackgroundColor:forState:]
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Extensions/UIButton Addtions/UIButton+HPAdditions.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Extensions/UIButton Addtions/UIButton+HPAdditions.m
 +[ActionSheetStringPicker showPickerWithTitle:rows:initialSelection:doneBlock:cancelBlock:origin:]
 -[ActionSheetStringPicker initWithTitle:rows:initialSelection:doneBlock:cancelBlock:origin:]
 +[ActionSheetStringPicker showPickerWithTitle:rows:initialSelection:target:successAction:cancelAction:origin:]
@@ -66,15 +66,15 @@ l_OBJC_PROTOCOL_$_UIPickerViewDelegate
 l_OBJC_LABEL_PROTOCOL_$_UIPickerViewDelegate
 l_OBJC_PROTOCOL_$_UIPickerViewDataSource
 l_OBJC_LABEL_PROTOCOL_$_UIPickerViewDataSource
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/ActionSheetStringPicker.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/ActionSheetStringPicker.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/ActionSheetStringPicker.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/ActionSheetStringPicker.h
 +[HPProgressStateView dismiss]
 +[HPProgressStateView isVisible]
 +[HPProgressStateView showLoading]
 +[HPProgressStateView showWithDescription:]
 +[HPProgressStateView showErrorWithDescription:]
 +[HPProgressStateView showSuccessWithDescription:]
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Progress State View/HPProgressStateView.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Progress State View/HPProgressStateView.m
 +[HPWebService defaultSession]
 +[HPWebService performRequestFor:method:params:completion:]
 ___59+[HPWebService performRequestFor:method:params:completion:]_block_invoke
@@ -89,7 +89,7 @@ ___56+[HPWebService uploadImage:urlString:params:completion:]_block_invoke
 +[HPWebService createGETRequestUrlWith:params:]
 ___block_descriptor_24_e4_20bs_e37_v16@?0@4@"NSURLResponse"8@"NSError"12l
 ___block_descriptor_24_e4_20bs_e45_v16@?0@"NSData"4@"NSURLResponse"8@"NSError"12l
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Web Service/HPWebService.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Web Service/HPWebService.m
 __56+[HPWebService uploadImage:urlString:params:completion:]_block_invoke
 __42+[HPWebService getDataTaskFor:completion:]_block_invoke
 __59+[HPWebService performRequestFor:method:params:completion:]_block_invoke
@@ -149,8 +149,8 @@ _OBJC_IVAR_$_HPThemeServiceBuilder._mediumFont
 _OBJC_IVAR_$_HPThemeServiceBuilder._boldFont
 _OBJC_IVAR_$_HPThemeServiceBuilder._semiBoldFont
 _OBJC_IVAR_$_HPThemeServiceBuilder._italicFont
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Theme Service/HPThemeService.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Theme Service/HPThemeService.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Theme Service/HPThemeService.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Theme Service/HPThemeService.h
 -[UIImageView(HPNetwork) hp_updateWithProgress:]
 -[UIImageView(HPNetwork) hp_setImageFromURLString:placeholderImage:]
 -[UIImageView(HPNetwork) hp_setImageFromURLString:placeholderImage:completion:]
@@ -158,7 +158,7 @@ ___79-[UIImageView(HPNetwork) hp_setImageFromURLString:placeholderImage:completi
 -[UIImageView(HPNetwork) hp_setHaptikImage:placeholderImage:]
 -[UIImageView(HPNetwork) hp_setHaptikImage:placeholderImage:completion:]
 ___72-[UIImageView(HPNetwork) hp_setHaptikImage:placeholderImage:completion:]_block_invoke
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HP Image Factory/Network Image View/UIImageView+HPNetwork.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HP Image Factory/Network Image View/UIImageView+HPNetwork.m
 __72-[UIImageView(HPNetwork) hp_setHaptikImage:placeholderImage:completion:]_block_invoke
 __79-[UIImageView(HPNetwork) hp_setImageFromURLString:placeholderImage:completion:]_block_invoke
 +[HaptikUserInfo sharedInstance]
@@ -180,7 +180,7 @@ _sharedInstance.sharedInstance
 ___block_descriptor_24_e4__e5_v4@?0l
 _OBJC_IVAR_$_HaptikUserInfo.__attributes
 _OBJC_IVAR_$_HaptikUserInfo.attributes
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik User Configs/Haptik User Info/HaptikUserInfo.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik User Configs/Haptik User Info/HaptikUserInfo.m
 __destroy_helper_block_e4_
 __copy_helper_block_e4_
 __32+[HaptikUserInfo sharedInstance]_block_invoke
@@ -189,7 +189,7 @@ __32+[HaptikUserInfo sharedInstance]_block_invoke
 +[UIColor(HPAdditions) disabledTextColor]
 +[UIColor(HPAdditions) lightHaptikGrayColor]
 +[UIColor(HPAdditions) colorFromRed:green:blue:alpha:]
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Extensions/UIColor Additions/UIColor+HPAdditions.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Extensions/UIColor Additions/UIColor+HPAdditions.m
 -[HaptikWallet encodeWithCoder:]
 -[HaptikWallet initWithCoder:]
 +[HaptikWallet supportsSecureCoding]
@@ -217,8 +217,8 @@ l_OBJC_PROTOCOL_$_NSCoding
 l_OBJC_LABEL_PROTOCOL_$_NSCoding
 l_OBJC_PROTOCOL_$_NSSecureCoding
 l_OBJC_LABEL_PROTOCOL_$_NSSecureCoding
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik User Configs/Haptik Wallet/HaptikWallet.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik User Configs/Haptik Wallet/HaptikWallet.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik User Configs/Haptik Wallet/HaptikWallet.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik User Configs/Haptik Wallet/HaptikWallet.h
 -[HPIndefiniteAnimatedView willMoveToSuperview:]
 -[HPIndefiniteAnimatedView layoutAnimatedLayer]
 -[HPIndefiniteAnimatedView indefiniteAnimatedLayer]
@@ -236,11 +236,11 @@ _OBJC_IVAR_$_HPIndefiniteAnimatedView._indefiniteAnimatedLayer
 _OBJC_IVAR_$_HPIndefiniteAnimatedView._radius
 _OBJC_IVAR_$_HPIndefiniteAnimatedView._strokeColor
 _OBJC_IVAR_$_HPIndefiniteAnimatedView._strokeThickness
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPIndefiniteAnimatedView.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPIndefiniteAnimatedView.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPIndefiniteAnimatedView.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPIndefiniteAnimatedView.h
 CGSizeMake
 CGPointMake
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Constants/Shared Constants/HPSharedConstants.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Constants/Shared Constants/HPSharedConstants.m
 +[HPCalenderDatePicker presentCalenderDatePickerWithStartDate:endDate:selectedDate:textField:completion:]
 ___105+[HPCalenderDatePicker presentCalenderDatePickerWithStartDate:endDate:selectedDate:textField:completion:]_block_invoke
 -[HPCalenderDatePicker initWithStartDate:endDate:selectedDate:textField:]
@@ -294,7 +294,7 @@ _OBJC_IVAR_$_HPCalenderDatePicker._numberOfTabButtons
 _OBJC_IVAR_$_HPCalenderDatePicker._dateSelectedBlock
 l_OBJC_PROTOCOL_$_CKCalendarDelegate
 l_OBJC_LABEL_PROTOCOL_$_CKCalendarDelegate
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Calendar Date Picker/HPCalendarDate Picker/HPCalenderDatePicker.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Calendar Date Picker/HPCalendarDate Picker/HPCalenderDatePicker.m
 __copy_helper_block_e4_20s
 __35-[HPCalenderDatePicker dismissView]_block_invoke.132
 __35-[HPCalenderDatePicker dismissView]_block_invoke
@@ -423,8 +423,8 @@ _OBJC_IVAR_$_AbstractActionSheetPicker._context
 _OBJC_IVAR_$_AbstractActionSheetPicker._selfReference
 l_OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
 l_OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/AbstractActionSheetPicker.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/AbstractActionSheetPicker.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/AbstractActionSheetPicker.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/AbstractActionSheetPicker.h
 UIInterfaceOrientationIsPortrait
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h
 __66-[AbstractActionSheetPicker addCustomButtonWithTitle:actionBlock:]_block_invoke
@@ -433,8 +433,8 @@ isIPhone4
 -[HPRadialGradientLayer gradientCenter]
 -[HPRadialGradientLayer setGradientCenter:]
 _OBJC_IVAR_$_HPRadialGradientLayer._gradientCenter
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPRadialGradientLayer.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPRadialGradientLayer.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPRadialGradientLayer.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPRadialGradientLayer.h
 -[SWActionSheet dismissWithClickedButtonIndex:animated:]
 ___56-[SWActionSheet dismissWithClickedButtonIndex:animated:]_block_invoke
 ___56-[SWActionSheet dismissWithClickedButtonIndex:animated:]_block_invoke.9
@@ -466,8 +466,8 @@ _OBJC_IVAR_$_SWActionSheet.SWActionSheetWindow
 _OBJC_IVAR_$_SWActionSheet._bgView
 _OBJC_IVAR_$_SWActionSheet._presented
 _OBJC_IVAR_$_SWActionSheetVC._actionSheet
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/SWActionSheet.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/SWActionSheet.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/SWActionSheet.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/SWActionSheet.h
 __45-[SWActionSheet showInContainerViewAnimated:]_block_invoke
 __56-[SWActionSheet dismissWithClickedButtonIndex:animated:]_block_invoke.9
 __56-[SWActionSheet dismissWithClickedButtonIndex:animated:]_block_invoke
@@ -490,7 +490,7 @@ l_OBJC_PROTOCOL_$_UIScrollViewDelegate
 l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
 l_OBJC_PROTOCOL_$_UITextViewDelegate
 l_OBJC_LABEL_PROTOCOL_$_UITextViewDelegate
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Keyboard Adjusting Views/Keyboard Adjusting TableView/HPKeyboardAdjustingTableView.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Keyboard Adjusting Views/Keyboard Adjusting TableView/HPKeyboardAdjustingTableView.m
 __CGSizeEqualToSize
 +[HPEmoji getEmojiAttributedTextFrom:withTextAttributes:completion:]
 +[HPEmoji getParagraphStyledAttributesFor:]
@@ -509,7 +509,7 @@ ___copy_helper_block_e4_20s24s28s32b
 ___destroy_helper_block_e4_20s24s28s32s
 ___block_descriptor_28_e4_20bs24s_e5_v4@?0l
 ___block_descriptor_36_e4_20s24s28s32bs_e29_v8@?0@"HPImageManagerResult"4l
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Emoji Helper/HPEmoji.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Emoji Helper/HPEmoji.m
 __destroy_helper_block_e4_20s24s28s32s
 __copy_helper_block_e4_20s24s28s32b
 __destroy_helper_block_e4_20s24s
@@ -526,7 +526,7 @@ __Block_byref_object_copy_
 -[HPUnderlinedTextField setTextLabel:]
 -[HPUnderlinedTextField .cxx_destruct]
 _OBJC_IVAR_$_HPUnderlinedTextField.textLabel
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Views/Underlined TextField/HPUnderlinedTextField.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Views/Underlined TextField/HPUnderlinedTextField.m
 UIEdgeInsetsInsetRect
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
 +[HPProgressHUD sharedView]
@@ -773,8 +773,8 @@ _OBJC_IVAR_$_HPProgressHUD._viewForExtension
 _OBJC_IVAR_$_HPProgressHUD._offsetFromCenter
 _OBJC_IVAR_$_HPProgressHUD._progress
 _OBJC_IVAR_$_HPProgressHUD._activityCount
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPProgressHUD.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPProgressHUD.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPProgressHUD.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPProgressHUD.h
 __destroy_helper_block_e8_20s36s40w
 __copy_helper_block_e8_20s36b40w
 __destroy_helper_block_e4_20s24r28r
@@ -819,7 +819,7 @@ __27+[HPProgressHUD sharedView]_block_invoke
 +[HPBaseUtilities getRunningApplicationsName]
 +[HPBaseUtilities isProductionEnvironment]
 +[HPBaseUtilities getApplicationShareInfo]
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Base Utilities/HPBaseUtilities.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Base Utilities/HPBaseUtilities.m
 -[GradientView init]
 +[GradientView layerClass]
 -[GradientView gradientLayer]
@@ -959,8 +959,8 @@ _OBJC_IVAR_$_CKCalendarView._calendar
 _OBJC_IVAR_$_CKCalendarView._cellWidth
 _OBJC_IVAR_$_CKCalendarView._minDate
 _OBJC_IVAR_$_CKCalendarView._maxDate
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Calendar Date Picker/CKCalendar View/CKCalendarView.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Calendar Date Picker/CKCalendar View/CKCalendarView.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Calendar Date Picker/CKCalendar View/CKCalendarView.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Calendar Date Picker/CKCalendar View/CKCalendarView.h
 -[HaptikUser encodeWithCoder:]
 -[HaptikUser initWithCoder:]
 +[HaptikUser supportsSecureCoding]
@@ -1076,8 +1076,8 @@ _OBJC_IVAR_$_HaptikUser._location_address
 _OBJC_IVAR_$_HaptikUser._location_updated_at
 _OBJC_IVAR_$_HaptikUser._location_address_updated_at
 _OBJC_IVAR_$_HaptikUser._wallet
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik User Configs/Haptik User/HaptikUser.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik User Configs/Haptik User/HaptikUser.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik User Configs/Haptik User/HaptikUser.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik User Configs/Haptik User/HaptikUser.h
 +[ActionSheetDatePicker showPickerWithTitle:datePickerMode:selectedDate:target:action:origin:]
 +[ActionSheetDatePicker showPickerWithTitle:datePickerMode:selectedDate:target:action:origin:cancelAction:]
 +[ActionSheetDatePicker showPickerWithTitle:datePickerMode:selectedDate:minimumDate:maximumDate:target:action:origin:]
@@ -1128,8 +1128,8 @@ _OBJC_IVAR_$_ActionSheetDatePicker._onActionSheetDone
 _OBJC_IVAR_$_ActionSheetDatePicker._onActionSheetCancel
 _OBJC_IVAR_$_ActionSheetDatePicker._datePickerMode
 _OBJC_IVAR_$_ActionSheetDatePicker._selectedDate
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/ActionSheetDatePicker.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/ActionSheetDatePicker.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/ActionSheetDatePicker.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/Action Sheet Pickers/ActionSheetDatePicker.h
 __45-[ActionSheetDatePicker configuredPickerView]_block_invoke
 +[HPReachabilityNotifier sharedInstance]
 ___40+[HPReachabilityNotifier sharedInstance]_block_invoke
@@ -1143,13 +1143,13 @@ ___40+[HPReachabilityNotifier sharedInstance]_block_invoke
 _sharedInstance.onceToken
 _OBJC_IVAR_$_HPReachabilityNotifier.reachability
 _OBJC_IVAR_$_HPReachabilityNotifier.isReachable
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Reachability/HPReachabilityNotifier.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Reachability/HPReachabilityNotifier.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Reachability/HPReachabilityNotifier.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Reachability/HPReachabilityNotifier.h
 __40+[HPReachabilityNotifier sharedInstance]_block_invoke
 +[UIViewController(HPAdditions) topViewController]
 -[UIViewController(HPAdditions) topVisibleViewController]
 -[UIViewController(HPAdditions) previousViewController]
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Extensions/UIViewController Additions/UIViewController+HPAdditions.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Extensions/UIViewController Additions/UIViewController+HPAdditions.m
 +[HPConfiguration shared]
 ___25+[HPConfiguration shared]_block_invoke
 -[HPConfiguration brandColor]
@@ -1205,8 +1205,8 @@ _OBJC_IVAR_$_HPConfiguration._useInteractivePopGesture
 _OBJC_IVAR_$_HPConfiguration._shouldUseReferrals
 _OBJC_IVAR_$_HPConfiguration._loadingTitleText
 _OBJC_IVAR_$_HPConfiguration._loadingSubtitleText
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik Configurations/HPConfiguration.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik Configurations/HPConfiguration.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik Configurations/HPConfiguration.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Haptik Configurations/HPConfiguration.h
 __destroy_helper_block_e4_20s24s28s32s36w
 __copy_helper_block_e4_20s24s28s32s36w
 __115-[HPConfiguration configureNavigationBarTintColor:navigationItemTintColor:makeTranslucent:forNavigationController:]_block_invoke
@@ -1231,14 +1231,14 @@ _OBJC_IVAR_$_HPProgressAnimatedView._radius
 _OBJC_IVAR_$_HPProgressAnimatedView._strokeColor
 _OBJC_IVAR_$_HPProgressAnimatedView._strokeThickness
 _OBJC_IVAR_$_HPProgressAnimatedView._strokeEnd
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPProgressAnimatedView.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPProgressAnimatedView.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPProgressAnimatedView.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Progress HUD/Helpers/HPProgressAnimatedView.h
 +[HPDatePicker showDatePickerWithTitle:datePickerMode:selectedDate:minimumDate:maximumDate:origin:doneBlock:cancelBlock:]
 ___121+[HPDatePicker showDatePickerWithTitle:datePickerMode:selectedDate:minimumDate:maximumDate:origin:doneBlock:cancelBlock:]_block_invoke
 ___121+[HPDatePicker showDatePickerWithTitle:datePickerMode:selectedDate:minimumDate:maximumDate:origin:doneBlock:cancelBlock:]_block_invoke.8
 ___block_descriptor_24_e4_20bs_e36_v16@?0@"ActionSheetDatePicker"4@8@12l
 ___block_descriptor_24_e4_20bs_e30_v8@?0@"ActionSheetDatePicker"4l
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/HPDatePicker/HPDatePicker.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/HPDatePicker/HPDatePicker.m
 __121+[HPDatePicker showDatePickerWithTitle:datePickerMode:selectedDate:minimumDate:maximumDate:origin:doneBlock:cancelBlock:]_block_invoke.8
 __121+[HPDatePicker showDatePickerWithTitle:datePickerMode:selectedDate:minimumDate:maximumDate:origin:doneBlock:cancelBlock:]_block_invoke
 +[Reachability reachabilityWithHostName:]
@@ -1252,7 +1252,7 @@ _ReachabilityCallback
 -[Reachability connectionRequired]
 -[Reachability currentReachabilityStatus]
 _OBJC_IVAR_$_Reachability._reachabilityRef
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Reachability/Reachability.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Reachability/Reachability.m
 PrintReachabilityFlags
 ReachabilityCallback
 -[HPTextField initWithFrame:]
@@ -1290,8 +1290,8 @@ _OBJC_IVAR_$_HPTextField._tapAction
 _OBJC_IVAR_$_HPTextField._tagString
 _OBJC_IVAR_$_HPTextField._isProtectedField
 _OBJC_IVAR_$_HPTextField._textChanged
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Views/HPTextField.m
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Views/HPTextField.h
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Views/HPTextField.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Views/HPTextField.h
 -[HPImageManagerResult initWithResult:]
 -[HPImageManagerResult image]
 -[HPImageManagerResult error]
@@ -1301,7 +1301,7 @@ _OBJC_IVAR_$_HPTextField._textChanged
 _OBJC_IVAR_$_HPImageManagerResult.result
 _OBJC_IVAR_$_HPImageManagerResult.error
 _OBJC_IVAR_$_HPImageManagerResult.image
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HP Image Factory/Image Manager Result/HPImageManagerResult.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HP Image Factory/Image Manager Result/HPImageManagerResult.m
 +[HPAnalyticsService setupCleverTap]
 +[HPAnalyticsService enablePersonalizationOnCleverTap]
 +[HPAnalyticsService optOutFromCleverTap:]
@@ -1313,7 +1313,7 @@ _OBJC_IVAR_$_HPImageManagerResult.image
 +[HPAnalyticsService setAttributes:]
 l_OBJC_PROTOCOL_$_HPAnalyticsServiceDelegate
 l_OBJC_LABEL_PROTOCOL_$_HPAnalyticsServiceDelegate
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Analytics/Analytics Service/HPAnalyticsService.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Analytics/Analytics Service/HPAnalyticsService.m
 -[HPKeyboardAdjustingScrollView initWithFrame:]
 -[HPKeyboardAdjustingScrollView layoutSubviews]
 -[HPKeyboardAdjustingScrollView awakeFromNib]
@@ -1327,13 +1327,13 @@ l_OBJC_LABEL_PROTOCOL_$_HPAnalyticsServiceDelegate
 -[HPKeyboardAdjustingScrollView touchesEnded:withEvent:]
 -[HPKeyboardAdjustingScrollView textFieldShouldReturn:]
 -[HPKeyboardAdjustingScrollView setup]
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Keyboard Adjusting Views/Keyboard Adjusting ScrollView/HPKeyboardAdjustingScrollView.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Keyboard Adjusting Views/Keyboard Adjusting ScrollView/HPKeyboardAdjustingScrollView.m
 +[HPStringPicker showStringPickerWithTitle:rowItems:initialSelection:originView:doneBlock:cancelBlock:]
 ___103+[HPStringPicker showStringPickerWithTitle:rowItems:initialSelection:originView:doneBlock:cancelBlock:]_block_invoke
 ___103+[HPStringPicker showStringPickerWithTitle:rowItems:initialSelection:originView:doneBlock:cancelBlock:]_block_invoke.8
 ___block_descriptor_24_e4_20bs_e38_v16@?0@"ActionSheetStringPicker"4i8@12l
 ___block_descriptor_24_e4_20bs_e32_v8@?0@"ActionSheetStringPicker"4l
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/HPStringPicker/HPStringPicker.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HPPickerViews/HPStringPicker/HPStringPicker.m
 __103+[HPStringPicker showStringPickerWithTitle:rowItems:initialSelection:originView:doneBlock:cancelBlock:]_block_invoke.8
 __103+[HPStringPicker showStringPickerWithTitle:rowItems:initialSelection:originView:doneBlock:cancelBlock:]_block_invoke
 -[UIView(HPAdditions) $origin]
@@ -1365,7 +1365,7 @@ __103+[HPStringPicker showStringPickerWithTitle:rowItems:initialSelection:origin
 -[UIView(HPAdditions) animateLayoutIfNeededWithDuration:bounce:options:animations:completion:]
 ___94-[UIView(HPAdditions) animateLayoutIfNeededWithDuration:bounce:options:animations:completion:]_block_invoke
 ___94-[UIView(HPAdditions) animateLayoutIfNeededWithDuration:bounce:options:animations:completion:]_block_invoke.66
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Extensions/UIView Additions/UIView+HPAdditions.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Extensions/UIView Additions/UIView+HPAdditions.m
 __94-[UIView(HPAdditions) animateLayoutIfNeededWithDuration:bounce:options:animations:completion:]_block_invoke.66
 __94-[UIView(HPAdditions) animateLayoutIfNeededWithDuration:bounce:options:animations:completion:]_block_invoke
 -[UIScrollView(TPKeyboardAvoidingAdditions) keyboardAvoidingState]
@@ -1426,22 +1426,22 @@ _OBJC_IVAR_$_TPKeyboardAvoidingState._priorContentSize
 _OBJC_IVAR_$_TPKeyboardAvoidingState._priorPagingEnabled
 _OBJC_IVAR_$_TPKeyboardAvoidingState._ignoringNotifications
 _OBJC_IVAR_$_TPKeyboardAvoidingState._keyboardAnimationInProgress
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Keyboard Adjusting Views/TPKeyboardAvoiding ScrollView Additions/UIScrollView+TPKeyboardAvoidingAdditions.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Keyboard Adjusting Views/TPKeyboardAvoiding ScrollView Additions/UIScrollView+TPKeyboardAvoidingAdditions.m
 __105-[UIScrollView(TPKeyboardAvoidingAdditions) TPKeyboardAvoiding_idealOffsetForView:withViewingAreaHeight:]_block_invoke
 __87-[UIScrollView(TPKeyboardAvoidingAdditions) TPKeyboardAvoiding_scrollToActiveTextField]_block_invoke
 __82-[UIScrollView(TPKeyboardAvoidingAdditions) TPKeyboardAvoiding_focusNextTextField]_block_invoke
 __81-[UIScrollView(TPKeyboardAvoidingAdditions) TPKeyboardAvoiding_keyboardWillShow:]_block_invoke
 +[HPBaseModel modelObjectWithDictionary:]
 -[HPBaseModel optionalObjectForKey:fromDictionary:]
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Base Model/HPBaseModel.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Base Model/HPBaseModel.m
 -[NSMutableDictionary(HPAdditions) setObjectOrNil:forKey:]
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Extensions/NSMutableDictionary/NSMutableDictionary+HPAdditions.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Extensions/NSMutableDictionary/NSMutableDictionary+HPAdditions.m
 +[HPWebServiceDelegate sharedInstance]
 ___38+[HPWebServiceDelegate sharedInstance]_block_invoke
 -[HPWebServiceDelegate URLSession:didReceiveChallenge:completionHandler:]
 l_OBJC_PROTOCOL_$_NSURLSessionDelegate
 l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Web Service/Delegate/HPWebServiceDelegate.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Web Service/Delegate/HPWebServiceDelegate.m
 __38+[HPWebServiceDelegate sharedInstance]_block_invoke
 -[UIButton(HPNetwork) hp_updateWithProgress:]
 -[UIButton(HPNetwork) hp_setImageFromURLString:placeholderImage:]
@@ -1450,10 +1450,10 @@ ___76-[UIButton(HPNetwork) hp_setImageFromURLString:placeholderImage:completion:
 -[UIButton(HPNetwork) hp_setHaptikImage:placeholderImage:]
 -[UIButton(HPNetwork) hp_setHaptikImage:placeholderImage:completion:]
 ___69-[UIButton(HPNetwork) hp_setHaptikImage:placeholderImage:completion:]_block_invoke
-/Users/hap-86/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HP Image Factory/Network Button/UIButton+HPNetwork.m
+/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/HP Image Factory/Network Button/UIButton+HPNetwork.m
 __69-[UIButton(HPNetwork) hp_setHaptikImage:placeholderImage:completion:]_block_invoke
 __76-[UIButton(HPNetwork) hp_setImageFromURLString:placeholderImage:completion:]_block_invoke
-/Users/hap-86/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikBase.build/Release-iphoneos/HaptikBase.build/DerivedSources/HaptikBase_vers.c
+/Users/iamsimranjot/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikBase.build/Release-iphoneos/HaptikBase.build/DerivedSources/HaptikBase_vers.c
 +[CleverTapLocalDataStore initializeWithAccountId:]
 +[CleverTapLocalDataStore initProfileCache]
 ___43+[CleverTapLocalDataStore initProfileCache]_block_invoke

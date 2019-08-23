@@ -27,7 +27,7 @@ else {
 This BOOL controls the functionality of the `EdgePanGestureRecognizer` feature of UINavigationController that allows to set the slide to go back functionality for Haptik Screens. By default the value will be true.
 
 ```
-[Haptik sharedSDK].useInteractivePopGesture = YES;
+[HPConfiguration shared].useInteractivePopGesture = YES;
 ```
 
 ---
@@ -35,6 +35,8 @@ This BOOL controls the functionality of the `EdgePanGestureRecognizer` feature o
 ## Opening Conversation View Directly
 
 Once the user has been signed up, you also have the ability to open Conversation View for a specific channel directly. It needs to be Initialized with the unique business name of the channel that you wish to open Conversation for and an optional message text (can be `nil`) if you want to log any.
+
+> Make sure to turn the `useInbox` flag on **HPConfiguration** to `NO` for it
 
 Example:
 
