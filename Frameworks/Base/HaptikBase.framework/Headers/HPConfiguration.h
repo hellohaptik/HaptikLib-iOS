@@ -10,12 +10,14 @@
 @class HPThemeService;
 
 #import <HaptikBase/HPAnalyticsService.h>
+#import <HaptikBase/HPMessagingListenerAPI.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HPConfiguration : NSObject
 
 #define HaptikConfigs [HPConfiguration shared]
+#define HPLanguages [NSArray arrayWithObjects:@"hi",@"en", nil]
 
 /**
  *  Returns the shared instance of HPConfiguration
@@ -37,6 +39,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, weak) id <HPAnalyticsServiceDelegate> analyticsCallbackObject;
 
 /**
+ Messaging Listener Object
+ If the object is confirmed by any class, the SDK will try to ask for some data needed for a Haptik's Chat Message from the application through the methods provided in the HPMessagingListenerAPI.
+ */
+@property (nullable, nonatomic, weak) id <HPMessagingListenerAPI> messagingListenerObject;
+
+/**
  Sets HPThemeService Object used for applying Theming Configurations
  
  @code
@@ -55,6 +63,11 @@ NS_ASSUME_NONNULL_BEGIN
  @endcode
  */
 @property (nonatomic) HPThemeService *themeConfig;
+
+/*
+ *  Language used by the SDK
+ */
+@property (nonatomic, readonly) NSString *currentHaptikLocale;
 
 /**
  *  Set Use Inbox BOOL
@@ -194,6 +207,15 @@ NS_ASSUME_NONNULL_BEGIN
  @endcode
  */
 - (UINavigationController *)embeddInNavigationController:(__kindof UIViewController *)viewController;
+
+
+/**
+ Set the language that will be used in the SDK
+
+ @param locale language Code from HPlanguages array which is to be set
+ @param completion this block will be called with TRUE if language change is sucessful else FALSE
+ */
+- (void)setHaptikLocale:(NSString *)locale with:(void (^ _Nullable)(BOOL success))completion;
 
 @end
 
