@@ -18,6 +18,7 @@ FOUNDATION_EXPORT const unsigned char HaptikBaseVersionString[];
 #import <HaptikBase/HPPaymentAPI.h>
 #import <HaptikBase/HPSpeechAPI.h>
 #import <HaptikBase/HPAudioAPI.h>
+#import <HaptikBase/HPMessagingListenerAPI.h>
 
 #import <HaptikBase/HaptikUser.h>
 #import <HaptikBase/HaptikWallet.h>
@@ -54,8 +55,10 @@ FOUNDATION_EXPORT const unsigned char HaptikBaseVersionString[];
 #import <HaptikBase/HPAnalyticsService.h>
 #import <HaptikBase/HPReachabilityNotifier.h>
 
+#import <HaptikBase/NSArray+HPAdditions.h>
 #import <HaptikBase/UIView+HPAdditions.h>
 #import <HaptikBase/UIColor+HPAdditions.h>
 #import <HaptikBase/UIButton+HPAdditions.h>
+#import <HaptikBase/NSFileManager+HPAdditions.h>
 #import <HaptikBase/UIViewController+HPAdditions.h>
 #import <HaptikBase/NSMutableDictionary+HPAdditions.h>

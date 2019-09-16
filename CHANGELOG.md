@@ -2,6 +2,26 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.8.0] - (13/09/19) - Q iOS
+
+### Features
+- Added Language Support for hindi
+- Native Communications bridge is added
+
+### Enhancements
+- CoreData architecture is revamped
+- GoogleMaps dependency is removed from core
+- Saved Addresses are not used anymore
+
+### Bugs
+- Conversation Scene fetching redundant messages is fixed
+- Message Composer Bar height issue is fixed
+- Fix voice permissions not being asked for later attempts after denying once
+- Fix unread count bug for messages received while in other chat screens
+
+---
+
+
 ## [1.7.2] - (23/08/19) - O iOS
 
 ### Bugs

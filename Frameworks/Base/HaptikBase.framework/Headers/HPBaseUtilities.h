@@ -15,6 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - HaptikLib Credential Helpers
 
 /**
+ *  Returns the HaptikLib Info Dictionary in the info.plist file.
+ */
++ (NSDictionary *)haptikLibCredentialsInfoDict;
+
+/**
  *  Returns the clientID provied in HaptikLib Dictionary in the info.plist file.
  *  It's necessary to provide this argument there else HaptikLib will exit with an assert on initialization.
  */
@@ -30,8 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  Returns the runEnvironment provied in HaptikLib Dictionary in the info.plist file.
  *  It's necessary to provide this argument there else HaptikLib will exit with an assert on initialization.
  */
-+ (NSUInteger)runEnvironment;
-
++ (NSString *)runEnvironment;
 
 /**
  *  Returns the CleverTapDict provied in HaptikLib Dictionary in the info.plist file.

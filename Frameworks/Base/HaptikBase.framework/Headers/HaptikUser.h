@@ -45,6 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic) NSString *userIdentifier;
 
 @property (nullable, nonatomic) NSString *city;
+@property (nullable, nonatomic) NSString *languageCode;
 @property (nullable, nonatomic) NSString *timezone;
 @property (nullable, nonatomic) NSString *mobile_no;
 @property (nullable, nonatomic) NSString *airportCode;

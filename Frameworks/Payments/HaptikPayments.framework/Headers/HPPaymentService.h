@@ -6,7 +6,7 @@
 //  Copyright © 2019 Haptik. All rights reserved.
 //
 
-#import <HaptikBase/HPPaymentAPI.h>
+#import <HaptikBase/HaptikBase.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

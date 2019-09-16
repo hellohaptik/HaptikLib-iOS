@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <HaptikBase/HaptikUser.h>
-#import <HaptikBase/HaptikWallet.h>
+#import <HaptikBase/HaptikBase.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

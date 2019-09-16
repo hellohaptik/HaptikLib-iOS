@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HaptikLib"
-  s.version      = "1.7.2"
+  s.version      = "1.8.0"
   s.summary      = "Say goodbye to App Fatigue. Instantly enable 100+ chatbots across various daily tasks"
 
   s.description  = <<-DESC
@@ -29,9 +29,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |core|
     core.ios.deployment_target = '9.0'
-    core.dependency    'GoogleMaps', '2.7.0'
-    core.dependency    'GooglePlaces', '2.7.0'
-    core.dependency    'GooglePlacePicker', '2.7.0'
     core.dependency    'HaptikLib/Base'
     core.vendored_frameworks = "Frameworks/Core/HaptikLib.framework"
   end

@@ -6,7 +6,7 @@
 //  Copyright © 2019 Haptik. All rights reserved.
 //
 
-#import <HaptikBase/HPSharedConstants.h>
+
 
 NS_ASSUME_NONNULL_BEGIN
 
