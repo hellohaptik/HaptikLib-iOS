@@ -1,24 +1,11 @@
 PODS:
   - FLAnimatedImage (1.0.12)
-  - GoogleMaps (2.7.0):
-    - GoogleMaps/Maps (= 2.7.0)
-  - GoogleMaps/Base (2.7.0)
-  - GoogleMaps/Maps (2.7.0):
-    - GoogleMaps/Base
-  - GooglePlacePicker (2.7.0):
-    - GoogleMaps (= 2.7.0)
-    - GooglePlaces (= 2.7.0)
-  - GooglePlaces (2.7.0):
-    - GoogleMaps/Base (= 2.7.0)
-  - HaptikLib (1.7.1):
-    - HaptikLib/Core (= 1.7.1)
-  - HaptikLib/Base (1.7.1):
+  - HaptikLib (1.8.0):
+    - HaptikLib/Core (= 1.8.0)
+  - HaptikLib/Base (1.8.0):
     - PINRemoteImage (= 3.0.0-beta.13)
     - PINRemoteImage/WebP (= 3.0.0-beta.13)
-  - HaptikLib/Core (1.7.1):
-    - GoogleMaps (= 2.7.0)
-    - GooglePlacePicker (= 2.7.0)
-    - GooglePlaces (= 2.7.0)
+  - HaptikLib/Core (1.8.0):
     - HaptikLib/Base
   - libwebp (1.0.0):
     - libwebp/core (= 1.0.0)
@@ -73,9 +60,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FLAnimatedImage
-    - GoogleMaps
-    - GooglePlacePicker
-    - GooglePlaces
     - libwebp
     - PINCache
     - PINOperation
@@ -87,10 +71,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
-  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
-  GooglePlacePicker: 59ea44db173c58486ad6123993e81feefcbce9c3
-  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
-  HaptikLib: 93be97e66e44fb3b5abd3a891a34667a490c99ea
+  HaptikLib: 12493b1cb48068747b48323426d913f4ccf919fd
   libwebp: d7e0c95fe97245c97e08101eba10702ebb0f6101
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac

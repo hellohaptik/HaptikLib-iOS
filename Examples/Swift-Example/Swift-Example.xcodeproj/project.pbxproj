@@ -186,7 +186,6 @@
 				701A859E21C0B656004C49DD /* Frameworks */,
 				701A859F21C0B656004C49DD /* Resources */,
 				D68E83430D5FB985D7A06F3E /* [CP] Embed Pods Frameworks */,
-				F63CCF1BD7D334EA8D87692B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,23 +289,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift-Example/Pods-Swift-Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F63CCF1BD7D334EA8D87692B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Swift-Example/Pods-Swift-Example-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Swift-Example/Pods-Swift-Example-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift-Example/Pods-Swift-Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

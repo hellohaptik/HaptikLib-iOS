@@ -80,9 +80,9 @@ extension AppDelegate {
             if let controller = rootVC as? UINavigationController {
                 
                 // You need to pass an instance of a viewController from which the user will be taken to the conversationViewController (where the user will be conversing)
-                // on the tap of the Notification
+                // on the tap of the Notification                
+                Haptik.sharedSDK().didReceiveRemoteNotification(userInfo, controller: controller.visibleViewController!)
                 
-                Haptik.sharedSDK().handleNotification(userInfo: userInfo, controller: controller.visibleViewController!)
             }
         }
     }
