@@ -15,8 +15,6 @@
 		7019E72523471BD1008EA97A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7019E72323471BD1008EA97A /* LaunchScreen.storyboard */; };
 		7019E73D23471F53008EA97A /* HaptikLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E73A23471EA7008EA97A /* HaptikLib.framework */; };
 		7019E73E23471F53008EA97A /* HaptikLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E73A23471EA7008EA97A /* HaptikLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7019E74123471F5A008EA97A /* HaptikBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E74023471F5A008EA97A /* HaptikBase.framework */; };
-		7019E74223471F5A008EA97A /* HaptikBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E74023471F5A008EA97A /* HaptikBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7019E74A2347205E008EA97A /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E7462347204D008EA97A /* PINCache.framework */; };
 		7019E74B2347205E008EA97A /* PINCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E7462347204D008EA97A /* PINCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7019E74C2347205F008EA97A /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E7442347204C008EA97A /* PINOperation.framework */; };
@@ -33,6 +31,8 @@
 		7019E77A23472378008EA97A /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E77123472378008EA97A /* SF-UI-Text-Medium.otf */; };
 		7019E77B23472378008EA97A /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E77223472378008EA97A /* SF-UI-Text-Semibold.otf */; };
 		7019E78123472975008EA97A /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7019E78023472975008EA97A /* HelperExtensions.swift */; };
+		7019E78223472D97008EA97A /* HaptikBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E74023471F5A008EA97A /* HaptikBase.framework */; };
+		7019E78323472D97008EA97A /* HaptikBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E74023471F5A008EA97A /* HaptikBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,9 +43,9 @@
 			dstSubfolderSpec = 10;
 			files = (
 				7019E74F23472060008EA97A /* PINRemoteImage.framework in Embed Frameworks */,
-				7019E74223471F5A008EA97A /* HaptikBase.framework in Embed Frameworks */,
 				7019E73E23471F53008EA97A /* HaptikLib.framework in Embed Frameworks */,
 				7019E74D2347205F008EA97A /* PINOperation.framework in Embed Frameworks */,
+				7019E78323472D97008EA97A /* HaptikBase.framework in Embed Frameworks */,
 				7019E74B2347205E008EA97A /* PINCache.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -87,7 +87,7 @@
 				7019E74E23472060008EA97A /* PINRemoteImage.framework in Frameworks */,
 				7019E74C2347205F008EA97A /* PINOperation.framework in Frameworks */,
 				7019E74A2347205E008EA97A /* PINCache.framework in Frameworks */,
-				7019E74123471F5A008EA97A /* HaptikBase.framework in Frameworks */,
+				7019E78223472D97008EA97A /* HaptikBase.framework in Frameworks */,
 				7019E73D23471F53008EA97A /* HaptikLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
