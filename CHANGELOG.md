@@ -2,6 +2,14 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.8.2] - (16/10/19) - W iOS
+
+### Enhancements
+
+- New API for launching the conversation view directly
+
+---
+
 ## [1.8.1] - (03/10/19) - U iOS
 
 ### Bugs

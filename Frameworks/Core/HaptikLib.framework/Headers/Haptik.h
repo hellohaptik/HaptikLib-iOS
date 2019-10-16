@@ -485,6 +485,14 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
                controller:(__kindof UIViewController *)controller;
 
 
+/// Gets you an instance of the conversation window
+///
+/// @param viaName Represents the key that haptik uses to find your conversation
+/// @param error It requires an NSError object pointer that will be populated in case of a potential fail during the process
+- (__kindof UIViewController *)getConversationForViaName:(NSString *)viaName
+                                                   error:(NSError * __autoreleasing *)error;
+
+
 /*!
  Allows SDK clients to take user to a specific channel and trigger the Bot
  @param viaName Represents the string key used to uniquely specify channel inside Haptik

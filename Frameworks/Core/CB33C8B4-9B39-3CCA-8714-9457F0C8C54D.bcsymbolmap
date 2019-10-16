@@ -6022,15 +6022,16 @@ HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/La
 ___47-[Haptik(Additions) handleSyncOnInitialization]_block_invoke
 -[Haptik(Additions) handleNotificationWithUserInfo:controller:respectBackgroundApplicationState:]
 ___97-[Haptik(Additions) handleNotificationWithUserInfo:controller:respectBackgroundApplicationState:]_block_invoke
+-[Haptik(Additions) fetchConversationForViaName:error:]
 -[Haptik(Additions) startHaptikNotificationFlow:controller:]
 ___60-[Haptik(Additions) startHaptikNotificationFlow:controller:]_block_invoke
-___60-[Haptik(Additions) startHaptikNotificationFlow:controller:]_block_invoke.360
+___60-[Haptik(Additions) startHaptikNotificationFlow:controller:]_block_invoke.536
 -[Haptik(Additions) getForcesEntityTypes]
 ___block_descriptor_48_e8_32s40s_e22_v16?0"NSDictionary"8l
 ___block_descriptor_65_e8_32s40s48s_e5_v8?0l
 /Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Haptik/Additions/Haptik+Additions.m
 HaptikLib/Haptik/Additions/Haptik+Additions.m
-__60-[Haptik(Additions) startHaptikNotificationFlow:controller:]_block_invoke.360
+__60-[Haptik(Additions) startHaptikNotificationFlow:controller:]_block_invoke.536
 __60-[Haptik(Additions) startHaptikNotificationFlow:controller:]_block_invoke
 __97-[Haptik(Additions) handleNotificationWithUserInfo:controller:respectBackgroundApplicationState:]_block_invoke
 __47-[Haptik(Additions) handleSyncOnInitialization]_block_invoke
@@ -7468,6 +7469,7 @@ ___25-[Haptik setDeviceToken:]_block_invoke_2
 -[Haptik didReceiveHaptikNotificationResponse:controller:]
 -[Haptik didReceiveHaptikRemoteNotification:controller:]
 -[Haptik launchChannelWith:message:controller:]
+-[Haptik getConversationForViaName:error:]
 -[Haptik launchChannelToTriggerBotFor:message:source:controller:]
 -[Haptik isRedirectHandled:options:]
 -[Haptik pushToTransactionHistoryFrom:completion:]
