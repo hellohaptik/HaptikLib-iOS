@@ -70,39 +70,16 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) NSString *currentHaptikLocale;
 
 /**
- *  Set Use Inbox BOOL
- *  This BOOL controls the visibility of Inbox Scene of Haptik. By default the value will be true.
- */
-@property (nonatomic, assign) BOOL useInbox;
-
-/**
  *  Set Use Voice BOOL
  *  This BOOL controls the voice support of Haptik. This will determine if the user can interact via voice using TTS/STT. By default the value will be true.
  */
 @property (nonatomic, assign) BOOL useVoice;
 
 /**
- *  Set Use InteractivePopGesture BOOL
- *  This BOOL controls the functionality of the EdgePanGestureRecognizer feature of UINavigationController that allows to set
- *  the slide to go back functionality for Haptik Screens. By default the value will be true.
+ *  Set useNativeTTS BOOL
+ *  When set TRUE this will use the offline native TTS, the default option will be an online TTS service
  */
-@property (nonatomic, assign) BOOL useInteractivePopGesture;
-
-/**
- *  Set Use Referrals BOOL
- *  This BOOL controls the use of Referral Flows in Haptik. By default the value will be false.
- */
-@property (nonatomic, assign) BOOL shouldUseReferrals;
-
-/**
- *  Sets the Custom Title text to be shown on the Loading Screen. If not provided, default text will be shown.
- */
-@property (nullable, nonatomic) NSString *loadingTitleText;
-
-/**
- *  Sets the Custom Subtitle text to be shown on the Loading Screen. If not provided, default text will be shown.
- */
-@property (nullable, nonatomic) NSString *loadingSubtitleText;
+@property (nonatomic, assign) BOOL useNativeTTS;
 
 
 #pragma mark - Getters

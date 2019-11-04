@@ -1,0 +1,166 @@
+BCSymbolMap Version: 2.0
+-[HPPlaceSearchVC initWithCompletion:]
+-[HPPlaceSearchVC viewDidLoad]
+-[HPPlaceSearchVC viewWillAppear:]
+-[HPPlaceSearchVC viewDidAppear:]
+___33-[HPPlaceSearchVC viewDidAppear:]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+-[HPPlaceSearchVC viewWillDisappear:]
+-[HPPlaceSearchVC setUpViews]
+-[HPPlaceSearchVC setupTableView]
+-[HPPlaceSearchVC setupSearch]
+-[HPPlaceSearchVC setupNavigationBar]
+-[HPPlaceSearchVC searchBar:textDidChange:]
+-[HPPlaceSearchVC searchBarSearchButtonClicked:]
+-[HPPlaceSearchVC completerDidUpdateResults:]
+-[HPPlaceSearchVC completer:didFailWithError:]
+-[HPPlaceSearchVC tableView:didSelectRowAtIndexPath:]
+___53-[HPPlaceSearchVC tableView:didSelectRowAtIndexPath:]_block_invoke
+-[HPPlaceSearchVC tableView:cellForRowAtIndexPath:]
+-[HPPlaceSearchVC tableView:numberOfRowsInSection:]
+-[HPPlaceSearchVC selectPlace:]
+-[HPPlaceSearchVC cancelSearch]
+-[HPPlaceSearchVC resizeScroll:]
+-[HPPlaceSearchVC dealloc]
+-[HPPlaceSearchVC table]
+-[HPPlaceSearchVC setTable:]
+-[HPPlaceSearchVC searchBar]
+-[HPPlaceSearchVC setSearchBar:]
+-[HPPlaceSearchVC searchCompleter]
+-[HPPlaceSearchVC setSearchCompleter:]
+-[HPPlaceSearchVC results]
+-[HPPlaceSearchVC setResults:]
+-[HPPlaceSearchVC completionHandler]
+-[HPPlaceSearchVC setCompletionHandler:]
+-[HPPlaceSearchVC .cxx_destruct]
+___llvm_profile_runtime_user
+___block_descriptor_40_e8_32s_e5_v8?0l
+___block_descriptor_40_e8_32s_e43_v24?0"MKLocalSearchResponse"8"NSError"16l
+_OBJC_IVAR_$_HPPlaceSearchVC._table
+_OBJC_IVAR_$_HPPlaceSearchVC._searchBar
+_OBJC_IVAR_$_HPPlaceSearchVC._searchCompleter
+_OBJC_IVAR_$_HPPlaceSearchVC._results
+_OBJC_IVAR_$_HPPlaceSearchVC._completionHandler
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_UIBarPositioningDelegate
+__OBJC_LABEL_PROTOCOL_$_UIBarPositioningDelegate
+__OBJC_PROTOCOL_$_UISearchBarDelegate
+__OBJC_LABEL_PROTOCOL_$_UISearchBarDelegate
+__OBJC_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_PROTOCOL_$_UITableViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+__OBJC_PROTOCOL_$_UITableViewDataSource
+__OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+__OBJC_PROTOCOL_$_MKLocalSearchCompleterDelegate
+__OBJC_LABEL_PROTOCOL_$_MKLocalSearchCompleterDelegate
+___llvm_coverage_mapping
+Apple clang version 11.0.0 (clang-1100.0.33.8)
+/Users/hap-86/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Search /HPPlaceSearchVC.m
+/Users/hap-86/haptik-ios-framework/Source Libraries/HaptikLocation
+HaptikLocation/Place Search /HPPlaceSearchVC.m
+__53-[HPPlaceSearchVC tableView:didSelectRowAtIndexPath:]_block_invoke
+MKCoordinateRegionMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKGeometry.h
+MKCoordinateSpanMake
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
+__33-[HPPlaceSearchVC viewDidAppear:]_block_invoke
+-[HPPlacePickerVC viewDidLoad]
+-[HPPlacePickerVC viewWillAppear:]
+-[HPPlacePickerVC viewDidAppear:]
+-[HPPlacePickerVC viewWillDisappear:]
+-[HPPlacePickerVC viewDidDisappear:]
+-[HPPlacePickerVC viewWillLayoutSubviews]
+-[HPPlacePickerVC locationManager:didUpdateLocations:]
+-[HPPlacePickerVC locationManager:didFailWithError:]
+-[HPPlacePickerVC locationManager:didChangeAuthorizationStatus:]
+-[HPPlacePickerVC addMapView]
+-[HPPlacePickerVC addBottomPane]
+-[HPPlacePickerVC getSearchView]
+-[HPPlacePickerVC getAddressView]
+-[HPPlacePickerVC getLoaderView]
+-[HPPlacePickerVC mapView:regionWillChangeAnimated:]
+-[HPPlacePickerVC mapView:regionDidChangeAnimated:]
+-[HPPlacePickerVC scrollViewDidScroll:]
+-[HPPlacePickerVC requestLocationAccess]
+-[HPPlacePickerVC askPermissionsAlert]
+___38-[HPPlacePickerVC askPermissionsAlert]_block_invoke
+___38-[HPPlacePickerVC askPermissionsAlert]_block_invoke_2
+-[HPPlacePickerVC updateAddress]
+___32-[HPPlacePickerVC updateAddress]_block_invoke
+___copy_helper_block_e8_32w
+___destroy_helper_block_e8_32w
+-[HPPlacePickerVC showSearchScreen]
+___35-[HPPlacePickerVC showSearchScreen]_block_invoke
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
+-[HPPlacePickerVC goHome]
+-[HPPlacePickerVC selectLocation]
+-[HPPlacePickerVC manager]
+-[HPPlacePickerVC setManager:]
+-[HPPlacePickerVC map]
+-[HPPlacePickerVC setMap:]
+-[HPPlacePickerVC pane]
+-[HPPlacePickerVC setPane:]
+-[HPPlacePickerVC addressLabel]
+-[HPPlacePickerVC setAddressLabel:]
+-[HPPlacePickerVC homingBtn]
+-[HPPlacePickerVC setHomingBtn:]
+-[HPPlacePickerVC completionHandler]
+-[HPPlacePickerVC setCompletionHandler:]
+-[HPPlacePickerVC isPlaceValid]
+-[HPPlacePickerVC setIsPlaceValid:]
+-[HPPlacePickerVC isSetToUserLocation]
+-[HPPlacePickerVC setIsSetToUserLocation:]
+-[HPPlacePickerVC initialNavBarHidden]
+-[HPPlacePickerVC setInitialNavBarHidden:]
+-[HPPlacePickerVC .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+___clang_at_available_requires_core_foundation_framework.cold.1
+_OBJC_IVAR_$_HPPlacePickerVC.manager
+_OBJC_IVAR_$_HPPlacePickerVC.map
+_OBJC_IVAR_$_HPPlacePickerVC.addressLabel
+_OBJC_IVAR_$_HPPlacePickerVC.homingBtn
+_OBJC_IVAR_$_HPPlacePickerVC.pane
+___block_descriptor_32_e23_v16?0"UIAlertAction"8l
+___block_literal_global
+___block_literal_global.280
+___block_descriptor_40_e8_32w_e29_v24?0"NSArray"8"NSError"16l
+___block_descriptor_48_e8_32s40s_e22_v20?0"MKMapItem"8B16l
+_OBJC_IVAR_$_HPPlacePickerVC._completionHandler
+_OBJC_IVAR_$_HPPlacePickerVC._isPlaceValid
+_OBJC_IVAR_$_HPPlacePickerVC._isSetToUserLocation
+_OBJC_IVAR_$_HPPlacePickerVC._initialNavBarHidden
+__OBJC_PROTOCOL_$_CLLocationManagerDelegate
+__OBJC_LABEL_PROTOCOL_$_CLLocationManagerDelegate
+__OBJC_PROTOCOL_$_MKMapViewDelegate
+__OBJC_LABEL_PROTOCOL_$_MKMapViewDelegate
+/Users/hap-86/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Picker/HPPlacePickerVC.m
+HaptikLocation/Place Picker/HPPlacePickerVC.m
+HaptikLocation/Place Picker/HPPlacePickerVC.h
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40s
+__35-[HPPlacePickerVC showSearchScreen]_block_invoke
+__destroy_helper_block_e8_32w
+__copy_helper_block_e8_32w
+__32-[HPPlacePickerVC updateAddress]_block_invoke
+__38-[HPPlacePickerVC askPermissionsAlert]_block_invoke_2
+__38-[HPPlacePickerVC askPermissionsAlert]_block_invoke
+CGPointMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+UIEdgeInsetsMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+-[HPLocationService getLocationPicker:]
+___39-[HPLocationService getLocationPicker:]_block_invoke
+___copy_helper_block_e8_32b
+___block_descriptor_40_e8_32bs_e50_v36?0B8{CLLocationCoordinate2D=dd}12"NSString"28l
+__OBJC_PROTOCOL_$_HPLocationAPI
+__OBJC_LABEL_PROTOCOL_$_HPLocationAPI
+/Users/hap-86/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Location Service/HPLocationService.m
+__copy_helper_block_e8_32b
+__39-[HPLocationService getLocationPicker:]_block_invoke
+HaptikLocation/Location Service/HPLocationService.m
+/Users/hap-86/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikLocation.build/Release-iphoneos/HaptikLocation.build/DerivedSources/HaptikLocation_vers.c

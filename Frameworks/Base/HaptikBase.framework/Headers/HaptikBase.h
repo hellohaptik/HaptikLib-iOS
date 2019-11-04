@@ -15,13 +15,12 @@ FOUNDATION_EXPORT double HaptikBaseVersionNumber;
 FOUNDATION_EXPORT const unsigned char HaptikBaseVersionString[];
 
 
-#import <HaptikBase/HPPaymentAPI.h>
 #import <HaptikBase/HPSpeechAPI.h>
 #import <HaptikBase/HPAudioAPI.h>
 #import <HaptikBase/HPMessagingListenerAPI.h>
+#import <HaptikBase/HPLocationAPI.h>
 
 #import <HaptikBase/HaptikUser.h>
-#import <HaptikBase/HaptikWallet.h>
 #import <HaptikBase/HaptikUserInfo.h>
 
 #import <HaptikBase/HPWebService.h>
@@ -48,6 +47,8 @@ FOUNDATION_EXPORT const unsigned char HaptikBaseVersionString[];
 
 #import <HaptikBase/HPTextField.h>
 #import <HaptikBase/HPUnderlinedTextField.h>
+
+#import <HaptikBase/HPViewController.h>
 
 #import <HaptikBase/HPKeyboardAdjustingTableView.h>
 #import <HaptikBase/HPKeyboardAdjustingScrollView.h>
