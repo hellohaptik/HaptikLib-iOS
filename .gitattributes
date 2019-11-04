@@ -2,8 +2,6 @@
 Frameworks/Core/HaptikLib.framework/HaptikLib filter=lfs diff=lfs merge=lfs -text
 Frameworks/Core/HaptikLib.framework.dSYM/Contents/Resources/DWARF/HaptikLib filter=lfs diff=lfs merge=lfs -text
 Frameworks/Core/HaptikLib.framework/Assets.car filter=lfs diff=lfs merge=lfs -text
-Frameworks/Payments/HaptikPayments.framework/HaptikPayments filter=lfs diff=lfs merge=lfs -text
-Frameworks/Payments/HaptikPayments.framework.dSYM/Contents/Resources/DWARF/HaptikPayments filter=lfs diff=lfs merge=lfs -text
 Frameworks/Speech/HaptikSpeech.framework.dSYM/Contents/Resources/DWARF/HaptikSpeech filter=lfs diff=lfs merge=lfs -text
 Frameworks/Speech/HaptikSpeech.framework/HaptikSpeech filter=lfs diff=lfs merge=lfs -text
 frameworks/location/haptiklocation.framework/haptiklocation filter=lfs diff=lfs merge=lfs -text
