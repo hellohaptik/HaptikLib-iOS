@@ -8,11 +8,10 @@ This Integration Guide contains chronological steps required to integrate the Ha
 
 ## Prerequisites
 
-Minimum Deployment Target: **iOS 9.0**
+- Minimum Deployment Target: **iOS 9.0**
+- Supported Device Orientation: **Portrait**
 
-Supported Device Orientation: **Portrait**
-
-You also need to have [git-lfs](https://git-lfs.github.com/) installed on your machine for running the SDK
+> You also need to have [git-lfs](https://git-lfs.github.com/) installed on your machine for running the SDK
 
 ---
 
@@ -23,104 +22,105 @@ You also need to have [git-lfs](https://git-lfs.github.com/) installed on your m
    ```
    pod 'HaptikLib'
    ```
-   
-   You need to install a submodule of HaptikLib too if you want to make use of Voice Capabilities
-   
+
+   To make use of Voice Capabilities
+
    ```
    pod 'HaptikLib/Speech'
    ```
-   
 
-2. Run `pod install`
+2) Run `pod install`
 
 ---
 
 ## II. Required Permissions
 
-HaptikLib requires some permissions and custom properties to function.
-Add the following snippets in your `info.plist` file -
+HaptikLib requires some permissions and custom properties to function properly. Add the following snippets in your `info.plist` file.
 
-1. Enter the following exception domains for HaptikLib to work properly
+<details open>
+   <summary> Haptik only supports <b>Portrait</b> orientation </summary>
 
-   ```
-   <key>NSAppTransportSecurity</key>
-   <dict>
-   	<key>NSExceptionDomains</key>
-   	<dict>
-   		<key>haptik-staging.s3.amazonaws.com</key>
-   		<dict>
-   			<key>NSIncludesSubdomains</key>
-   			<true/>
-   			<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
-   			<true/>
-   		</dict>
-   		<key>haptikapi.com</key>
-   		<dict>
-   			<key>NSIncludesSubdomains</key>
-   			<true/>
-   			<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
-   			<true/>
-   		</dict>
-   		<key>haptikdev.s3.amazonaws.com</key>
-   		<dict>
-   			<key>NSIncludesSubdomains</key>
-   			<true/>
-   			<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
-   			<true/>
-   		</dict>
-   		<key>staging.hellohaptik.com</key>
-   		<dict>
-   			<key>NSIncludesSubdomains</key>
-   			<true/>
-   			<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
-   			<true/>
-   		</dict>
-   	</dict>
-   </dict>
-   ```
+```ObjC
+<key>UISupportedInterfaceOrientations</key>
+<array>
+<string>UIInterfaceOrientationPortrait</string>
+</array>
+```
 
-   or, you can allow Arbitrary Loads:
+</details>
 
-   ```
-   <key>NSAppTransportSecurity</key>
-   <dict>
-   <key>NSAllowsArbitraryLoads</key>
-   <true/>
-   </dict>
-   ```
+<details open>
+   <summary> <b>Privacy - Photo Library Usage Description</b> to enable a user to upload photos from the photos gallery in the chat flows </summary>
 
-2. Haptik only supports Portrait orientation
+```ObjC
+<key>NSPhotoLibraryUsageDescription</key>
+<string>To enable usage & saving of photos</string>
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>To enable usage & saving of photos</string>
+```
 
-   ```
-   <key>UISupportedInterfaceOrientations</key>
-   <array>
-   <string>UIInterfaceOrientationPortrait</string>
-   </array>
-   ```
+</details>
 
-3. Privacy - Photo Library Usage Description to enable a user to upload photos from the photos gallery in the chat flows
-
-   ```
-   <key>NSPhotoLibraryUsageDescription</key>
-   <string>To enable usage & saving of photos</string
-   <key>NSPhotoLibraryAddUsageDescription</key>
-   <string>To enable usage & saving of photos</string>
-   ```
-
-4. Privacy - Camera Usage Description to enable a user to upload photos from camera within chat flows
-
-   ```
+<details open>
+   <summary> <b>Privacy - Camera Usage Description</b> to enable a user to upload photos from camera within chat flows </summary>
+   
+   ```ObjC
    <key>NSCameraUsageDescription</key>
    <string>To enable camera usage for uploading photos</string>
    ```
+</details>
+
+If you already allow <b>Arbitrary Loads</b> then you can skip adding the exception domains given below.
+
+<details open>
+   <summary> Enter the following <b>exception domains</b> for HaptikLib to work properly: </summary>
+
+```ObjC
+<key>NSAppTransportSecurity</key>
+<dict>
+   <key>NSExceptionDomains</key>
+   <dict>
+      <key>haptik-staging.s3.amazonaws.com</key>
+      <dict>
+         <key>NSIncludesSubdomains</key>
+         <true/>
+         <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+         <true/>
+      </dict>
+      <key>haptikapi.com</key>
+      <dict>
+         <key>NSIncludesSubdomains</key>
+         <true/>
+         <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+         <true/>
+      </dict>
+      <key>haptikdev.s3.amazonaws.com</key>
+      <dict>
+         <key>NSIncludesSubdomains</key>
+         <true/>
+         <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+         <true/>
+      </dict>
+      <key>staging.hellohaptik.com</key>
+      <dict>
+         <key>NSIncludesSubdomains</key>
+         <true/>
+         <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+         <true/>
+      </dict>
+   </dict>
+</dict>
+```
+
+</details>
 
 ---
 
 ## III. Initialization
 
-1. The Haptik SDK should be initialized before it can perform any operations
-2. _Initialization_ here implies providing appropriate **Client ID**, **Base URL** & **Run Environment** to Haptik SDK
-3. The following `key-value` pairs should be present in the Custom Dictionary `HaptikLib` -
+1. The Haptik SDK should be initialized before it can perform any operations. _Initialization_ here implies providing appropriate **Client ID**, **Base URL** & **Run Environment** to Haptik SDK.
+
+2. The following `key-value` pairs should be present in the Custom Dictionary `HaptikLib` -
 
    | Key            | Value                              |
    | -------------- | ---------------------------------- |
@@ -128,11 +128,11 @@ Add the following snippets in your `info.plist` file -
    | clientID       | INSERT_CLIENT_ID_HERE              |
    | runEnvironment | INSERT_APPROPRIATE_RUN_ENVIRONMENT |
 
-4. The Haptik SDK takes all the necessary things from app's `Info.plist` file automatically
-5. Add these initialization keys substituted with their appropriate values in a custom dictionary named `HaptikLib`
-6. On opening app's `Info.plist` in _Source Code_ format & add the required keys as illustrated below -
+3. The Haptik SDK takes all the necessary things from app's `Info.plist` file automatically
+4. Add these initialization keys substituted with their appropriate values in a custom dictionary named `HaptikLib`
+5. On opening app's `Info.plist` in _Source Code_ format & add the required keys as illustrated below -
 
-   ```
+   ```ObjC
    <key>HaptikLib</key>
    <dict>
      <key>clientID</key>
@@ -146,7 +146,7 @@ Add the following snippets in your `info.plist` file -
 
    **Note:** The Base URL will be different for different `runEnvironment` as specified below -
 
-   ```
+   ```ObjC
    HaptikLibEnvProduction = 0,
    HaptikLibEnvStaging = 1,
    HaptikLibEnvDev = 2
@@ -158,13 +158,13 @@ Add the following snippets in your `info.plist` file -
 
 1. Import HaptikLib in your AppDelegate Class
 
-   ```
+   ```ObjC
    @import HaptikLib;
    ```
 
 2. Haptik uses the _application_ instance and the _launchOptions_ dictionary internally. The `Haptik.h` class provides a method to pass the required parameters.
 
-   ```
+   ```ObjC
    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
       ...
@@ -175,23 +175,9 @@ Add the following snippets in your `info.plist` file -
    }
    ```
 
-3. Haptik internally also opens urls which the client needs to return it true.
+3. Haptik can also be configured to send Push Notifications to the user. The client application needs to configure push notifications on their own end and have to pass the deviceToken which the application gets after requesting the user to send them Push Notifications.
 
-
-    ```
-    (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-
-      ...
-
-      BOOL isRedirectHandledByHaptik = [[Haptik sharedSDK] isRedirectHandled:url options:options];
-
-      return isRedirectHandledByHaptik;
-    }
-    ```
-
-4. Haptik can also be configured to send Push Notifications to the user. The client application needs to configure push notifications on their own end and have to pass the deviceToken which the application gets after requesting the user to send them Push Notifications.
-
-   ```
+   ```ObjC
    - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 
        ...
@@ -200,22 +186,47 @@ Add the following snippets in your `info.plist` file -
    }
    ```
 
-5. For Haptik to handle it's own notifications, you have to pass the **notification dictionary** that you get in the **notifications payload** and the instance of the `viewController` from where the notifications should be handled. It's also possible to determine whether notification payload is Haptik-specific or not.
+4. For Haptik to handle it's own notifications, you have to pass the required **notification response** that you get in the **notifications payload** and the instance of the `viewController` from where the notifications should be handled. It's also possible to determine whether notification payload is Haptik-specific or not.
 
-   ```
-   - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+> For iOS 9.x and below iOS 10.x
 
-        ...
+```ObjC
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
 
-        BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:response.notification.request.content.userInfo];
+   ...
 
-        if (canBeHandledByHaptik) {
-        	...
-   	NSLog(@"do housekeeping");
-   	[[Haptik sharedSDK] handleNotificationWithUserInfo:PASS_NOTIFICATION_DICTIONARY_HERE controller:PASS_VIEWCONTROLLER_INSTANCE_HERE];
-        }
+   BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
+
+   if (canBeHandledByHaptik) {
+      NSLog(@"do housekeeping");
    }
-   ```
+
+[[Haptik sharedSDK] didReceiveHaptikRemoteNotification:PASS_NOTIFICATION_DICTIONARY_HERE
+                     controller:PASS_VIEWCONTROLLER_INSTANCE_HERE];
+}
+```
+
+> For iOS 10.x and above
+
+```ObjC
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response
+   withCompletionHandler:(void(^)(void))completionHandler {
+
+   ...
+
+   BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
+
+   if (canBeHandledByHaptik) {
+NSLog(@"do housekeeping");
+   }
+
+   [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:PASS_NOTIFICATION_RESPONSE_HERE
+                     controller:PASS_VIEWCONTROLLER_INSTANCE_HERE];
+
+   completionHandler();
+}
+
+```
 
 ---
 
@@ -229,15 +240,15 @@ Add the following snippets in your `info.plist` file -
 
 3. The public class `HPSignUpObject` is to be used for _collecting the required parameters_ as illustrated below -
 
-   ```
+   ```ObjC
    HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE" data:^(HPSignUpBuilder * _Nonnull builder) {
 
-   	builder.userFullName = INSERT_NAME_HERE;
-   	builder.userPhoneNumber = INSERT_PHONE_NUMBER_HERE;
-   	builder.userEmail = INSERT_EMAIL_HERE;
-   	builder.userCity = INSERT_CITY_HERE;
-   	builder.authToken = INSERT_AUTH_TOKEN_HERE;
-   	builder.authID = INSERT_AUTH_ID_HERE;
+      builder.userFullName = INSERT_NAME_HERE;
+      builder.userPhoneNumber = INSERT_PHONE_NUMBER_HERE;
+      builder.userEmail = INSERT_EMAIL_HERE;
+      builder.authToken = INSERT_AUTH_TOKEN_HERE;
+      builder.authID = INSERT_AUTH_ID_HERE;
+      builder.viaName = INSERT_VIA_NAME;
    }];
    ```
 
@@ -249,7 +260,7 @@ A. **Basic Authentication**
 2. This is ideal for informational chatbots or when user verification is handled by a Third Party Service
 3. The `Name` parameter is _required_ while signing up as Basic type
 
-   ```
+   ```ObjC
    HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"basic" data:^(HPSignUpBuilder * _Nonnull builder) {
 
    	builder.userFullName = @"John Appleseed";
@@ -263,52 +274,18 @@ B. **OTP Authentication**
    - User Name
    - OTP Verified Mobile Number
    - Token/TicketId for OTP verification
-   - User City
    - User Email Address
 3. Implementation of OTP authentication flow can vary vastly & depends on specific app use-cases. An example is below -
 
-   ```
+   ```ObjC
    HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"otp" data:^(HPSignUpBuilder * _Nonnull builder) {
 
    	builder.userFullName = @"John Appleseed";
    	builder.userEmail = @"john@haptik.ai";
-   	builder.userCity = @"Mumbai";	// must be one of valid string types mentioned below
    	builder.userPhoneNumber = @"9879999999";
    	builder.authID = @"9879999999";	// same as phone number
    	builder.authToken = @"123456"; // otp code received by user
    }];
-   ```
-
-   **NOTE:** User City _must_ be one of following string types -
-
-   ```
-   [@"Mumbai", @"Bombay"]
-
-   [@"New Delhi", @"Delhi"]
-
-   [@"Bengaluru", @"Bangalore", @"Bengaluru South"]
-
-   [@"Chennai", @"Madras"]
-
-   [@"Pune", @"Poona"]
-
-   [@"Hyderabad", @"Secunderabad"]
-
-   [@"Kolkata", @"Calcutta"]
-
-   [@"Ahmedabad", @"Ahmadabad"]
-
-   [@"Thane", @"Mira Bhayandar", @"Mira Bhayander"]
-
-   [@"Navi Mumbai"]
-
-   [@"Gurugram", @"Gurgaon"]
-
-   [@"Noida", @"Greater Noida"]
-
-   OR
-
-   [@"Other"]
    ```
 
 ---
@@ -316,83 +293,49 @@ B. **OTP Authentication**
 ## VI. User Signup Flow
 
 1. The `HPSignUpObject *signupObj` instance created in above step is now to be passed to SDK
-2. This step involves a network request so to maintain state of the application & update a user about current progress, the SDK provides following 2 APIs for flexibility -
+2. This step involves a network request so to maintain state of the application & update a user about current progress, the SDK provides following API.
 
-A. **Asynchronous (without Loading Screen)**
+3. `[[Haptik sharedSDK] signUpWith:completion:]` takes a `HPSignUpObject` instance and _on completion handler_ that is passed the result of signUp attempt
+4. The completion block is invoked on `mainQueue`
+5. Using `success` & `error` objects, any analytics / app state update / general housekeeping can be performed
 
-1. `[[Haptik sharedSDK] signUpWith: completion:]` takes a `HPSignUpObject` instance and _on completion_ returns a `UIViewController` instance expected to be added on app's navigation stack
-2. The `UIViewController` instance returned on succesful signup represents the root _Inbox Screen_ of SDK
-3. The completion block is invoked on `mainQueue`
-4. Using `success` & `error` objects, any analytics / app state update / general housekeeping can be performed
-
-   ```
-   [[Haptik sharedSDK] signUpWith:signupObj completion:^(BOOL success, UIViewController * _Nullable initialVC, NSError * _Nullable error) {
+   ```ObjC
+   [[Haptik sharedSDK] signUpWith:signupObj
+                        completion:^(BOOL success, __kindof UIViewController * _Nullable viewController, NSError * _Nullable error) {
 
    	NSLog(@"Do housekeeping using success & error");
 
            if (success) {
-               [self.navigationController pushViewController:initialVC animated:YES];
+
+               //redirect the user to a channel
            }
-   	else {
-   	    NSLog(@"User Signup Failed!");
-   	}
+            else {
+               NSLog(@"User Signup Failed!");
+            }
    }];
-   ```
-
-B. **Synchronous (with Customisable Loading Screen)**
-
-1. `[[Haptik sharedSDK] signUpWithLoadingScreenFor: completion:]` takes a `HPSignUpObject` instance and _immediately returns_ `UIViewController` instance expected to be added on app's navigation stack
-2. The `UIViewController` instance returned immediately represents the root _Inbox Screen_ of SDK
-3. The returned `UIViewController` instance has a built in _Customisable Loading Screen_ shown while signup network request is in progress
-4. The root _Inbox Screen_ of SDK is automatically presented on succesful signup
-5. String attributes of `loadingTitleText` & `loadingSubtitleText` can be set to present a custom message to user while signup network request is in progess
-6. If not set, the default string values of the above mentioned attributes is as follows -
-   - `loadingTitleText`: @"Behind every successful person is an Assistant!"
-   - `loadingSubtitleText`: @"Coming right up…"
-7. These attributes should be set before `[[Haptik sharedSDK] signUpWithLoadingScreenFor: completion:]` function is invoked
-
-   ```
-   [Haptik sharedSDK].loadingTitleText = @"My custom title text for user";
-   [Haptik sharedSDK].loadingSubtitleText = @"My custom subtitle text for user";
-
-   UIViewController * __block initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success, NSError * _Nullable error) {
-
-   					NSLog(@"Do housekeeping using success & error");
-
-   					if (success) {
-   						NSLog(@"User Signup Success! Can do Analytics, state update, etc here");
-   					}
-   					else {
-   						NSLog(@"User Signup Failed!");
-   					}
-   				    }];
-
-   [self.navigationController pushViewController:initialVC animated:YES];
    ```
 
 ---
 
 ## VII. Existing Users Flow (Signed-up users)
 
-1. If a user is already signed-up in Haptik SDK such a user should be directly presented SDK's root _Inbox Screen_
+1. If a user is already signed-up in Haptik SDK such a user should be directly presented the Channel screen
 2. The SDK provides a BOOL attribute `isUserSignedUp` to verify whether the user is successfully signed up or not
 
-- If YES, then the user should be presented the root _Inbox Screen_ using the `getInitialVC` function
+- If YES, then the user should be presented the Conversation Screen
 - If NO, then the user should be taken to Sign Up flows as mentioned above in Step V & VI
 
-3. The `getInitialVC` function returns nil if a user is not signed-up in Haptik SDK
-
-   ```
-   if ([[Haptik sharedSDK] isUserSignedUp]) {
-
-   	// perform analytics, state update, etc
-   	UIViewController *haptikInboxScreen = [[Haptik sharedSDK] getInitialVC];
-   	[self.navigationController pushViewController:haptikInboxScreen animated:YES];
-   }
-   else {
-   	// Continue with the SignUp flow here
-   }
-   ```
+```ObjC
+if ([[Haptik sharedSDK] isUserSignedUp]) {
+	// perform analytics, state update, etc
+   [[Haptik sharedSDK] launchChannelWith:@"INSERT_BUSINESS_VIA_NAME_HERE"
+                                 message:@"INSERT_CUSTOM_MESSAGE_TEXT_HERE"
+                              controller:visibleViewController];
+}
+else {
+	// Continue with the SignUp flow here
+}
+```
 
 ---
 
@@ -421,7 +364,7 @@ The dictionary should be named `shareAndRate` and the following **key-value** sh
 
 #### Example:
 
-```
+```ObjC
 <key>HaptikLib</key>
 	<dict>
     		<key>clientID</key>
