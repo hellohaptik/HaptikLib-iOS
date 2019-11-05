@@ -2,6 +2,46 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - (04/11/19) - X iOS
+
+### Features
+- AutoLaunch actions of URI type `AUTOLAUNCH` are added
+- Add analytics for Text to Speech and Speech to Text
+- Add Support for Native TTS
+- Blur the SDK screens when app goes in background
+- Conversation sorting now supports offline messaging
+- Add viaName extension to HPSignupObject to directly push to channel after signup
+
+### Enhancements
+- Extend language support to inbox 
+- TTS will only occur for text in `voice_text` parameter
+- Removed guest user verification 
+- Removed `HaptikPayments` Support
+- Removed Inbox screen
+- Removed Cities related functionality
+- Added Location functionality 
+- Update `firstResponder` handling for location search
+- Allow user entered feedback comments for one star feedback
+- Disable submit feedback button when the user has not entered any feedback
+
+### Bugs
+- Fix typing indicator being shown for some time after language switch
+- Fix Mic turn off sound being delayed when exiting conversation screen
+- User Language not synced for new signup is fixed
+- Fix bug where deactivated business were still shown in inbox
+- TTS reading out random messages sometimes is fixed
+- Fix Crash caused when opening new channel
+- fix messages dissapearing on updating sdk
+- Fix previous address sent for non-hsl location smartaction
+- Fix location required tasks not being logged
+- Fix HSL location smartaction response not formatted properly
+- Fix location pin not being overlayed on user location
+- Fix bug where STT would not be interrupted on redirecting user to map picker/web view
+- Fix taskbox being dismissed when showing location picker for location required tasks
+- Fix navigation stack not being arranged on receiving a background notification
+
+---
+
 ## [1.8.2] - (16/10/19) - W iOS
 
 ### Enhancements
