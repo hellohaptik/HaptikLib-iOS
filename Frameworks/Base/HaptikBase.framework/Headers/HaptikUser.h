@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@class HaptikWallet;
-
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HaptikUser : NSObject < NSSecureCoding >
@@ -31,7 +29,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic) NSUInteger unread;
 @property (nonatomic) NSUInteger protocol_version;
-@property (nonatomic) NSUInteger bannersPerCarousel;
 
 @property (nullable, nonatomic) NSString *mqtt_url;
 @property (nullable, nonatomic) NSString *auth_code;
@@ -44,11 +41,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic) NSString *guest_user_id;
 @property (nullable, nonatomic) NSString *userIdentifier;
 
-@property (nullable, nonatomic) NSString *city;
 @property (nullable, nonatomic) NSString *languageCode;
 @property (nullable, nonatomic) NSString *timezone;
 @property (nullable, nonatomic) NSString *mobile_no;
-@property (nullable, nonatomic) NSString *airportCode;
 @property (nullable, nonatomic) NSString *mobileOperator;
 
 @property (nullable, nonatomic) NSString *password;
@@ -59,8 +54,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic) NSString *location_address;
 @property (nullable, nonatomic) NSString *location_updated_at;
 @property (nullable, nonatomic) NSString *location_address_updated_at;
-
-@property (nullable, nonatomic) HaptikWallet *wallet;
 
 @end
 

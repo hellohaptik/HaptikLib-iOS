@@ -30,12 +30,6 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 
 #pragma mark -
 
-/*!
-    Everytime available offers count is updated a notification is fired by HaptikLib
-    Updated available offers count can also be fetched from `getOffersCount()`
- */
-UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
-
 
 
 @interface Haptik : NSObject
@@ -60,122 +54,48 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  
  @code
  
- HPSignUpObject *signupObj = [HPSignUpObject buildWith:@"AUTH_TYPE_HERE" data:^(HPSignUpBuilder * _Nonnull builder) {
+ HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE" data:^(HPSignUpBuilder * _Nonnull builder) {
  
      builder.userFullName = @"John Appleseed";
      builder.userPhoneNumber = @"9870000000";
      builder.userEmail = @"john@apple.com";
-     builder.userCity = @"Mumbai";
      builder.authToken = @"";
+     builder.authID = @"";
+     builder.viaName = @"mychannelinhaptik";
  }];
  
- [[Haptik sharedSDK] signUpWith:signupObj completion:^(BOOL success, UIViewController * _Nullable initialVC, NSError * _Nullable error) {
- 
-     dispatch_async(dispatch_get_main_queue(), ^{
- 
-         if (success) {
- 
-             [self.navigationController pushViewController:initialVC animated:YES];
-         }
-         else {
-             UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oops!"
-             message:error.localizedDescription
-             preferredStyle:UIAlertControllerStyleAlert];
- 
-             UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
-             [alert addAction:action];
-             [self presentViewController:alert animated:YES completion:nil];
-         }
-     });
- }];
- 
- @endcode
- */
-- (void)signUpWith:(HPSignUpObject *)signUpData
-        completion:(void (^)(BOOL success,__kindof UIViewController * _Nullable initialVC, NSError * _Nullable error))completion;
-
-
-/*!
- @abstract
- SignIn the User with SignUp Data.
- 
- @discussion
- This function immediately returns the Initial View Controller. The loading view will be shown till the inital data is synced. If an error comes up, the user will be popped back.
- 
- @param signUpData  Object of HPSignUpObject
- @param completion  Completion Handler which will have the success or error information.
- 
- @code
- 
- HPSignUpObject *signupObj = [HPSignUpObject buildWith:@"AUTH_TYPE_HERE" data:^(HPSignUpBuilder * _Nonnull builder) {
- 
-     builder.userFullName = @"John Appleseed";
-     builder.userPhoneNumber = @"9870000000";
-     builder.userEmail = @"john@apple.com";
-     builder.userCity = @"Mumbai";
-     builder.authToken = @"";
- }];
- 
- UIViewController *initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success, NSError * _Nullable error) {
+ [[Haptik sharedSDK] signUpWith:signupObj
+                     completion:^(BOOL success, __kindof UIViewController * _Nullable viewController, NSError * _Nullable error) {
  
      if (success) {
-         // do housekeeping
+ 
+        //If via name is provided then after signup the SDK will give back an instance of UIViewController that you can directly push the user too.
+        [self.navigationController pushViewController:viewController animated:YES];
      }
      else {
-         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oops!"
-         message:error.localizedDescription
-         preferredStyle:UIAlertControllerStyleAlert];
  
-         UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
+         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oops!"
+                                                                        message:error.localizedDescription
+                                                                 preferredStyle:UIAlertControllerStyleAlert];
+ 
+         UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK"
+                                                          style:UIAlertActionStyleCancel
+                                                        handler:nil];
          [alert addAction:action];
          [self presentViewController:alert animated:YES completion:nil];
      }
  }];
  
- [self.navigationController pushViewController:initialVC animated:YES];
- 
  @endcode
  */
-- (__kindof UIViewController *_Nullable)signUpWithLoadingScreenFor:(HPSignUpObject *)signUpData
-                                                        completion:(void (^)(BOOL success, NSError * _Nullable error))completion;
-
-/*!
- @method
- Update an user's details with an existing unique identifier.
- Doesn't requires the user to perform OTP verification.
- */
-- (void)updateExistingUserWith:(NSDictionary<NSString *, NSString *> *)data
-                    completion:(void (^ _Nullable)(BOOL success, NSError * _Nullable error))completion;;
+- (void)signUpWith:(HPSignUpObject *)signUpData
+        completion:(void (^)(BOOL success, __kindof UIViewController * _Nullable viewController, NSError * _Nullable error))completion;
 
 /*!
  @method
  Returns a Bool indicating if the user is already signed up or not.
  */
 - (BOOL)isUserSignedUp;
-
-
-/*!
- @method
- Returns the Initial View Controller if the User has already signed up.
- 
- @code
- 
- #import "MyViewController.h"
- 
- - (void)launchInbox:(UIButton *)sender {
- 
-     if ([[Haptik sharedSDK] isUserSignedUp]) {
- 
-         UIViewController *initialVC = [[Haptik sharedSDK] getInitialVC];
- 
-         [self.navigationController pushViewController:initialVC animated:YES];
-     }
- }
- 
- @endcode
- */
-- (__kindof UIViewController * _Nullable)getInitialVC;
-
 
 /*!
  @abstract
@@ -251,73 +171,6 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
  @endcode
  */
 - (void)signoutFromHaptik:(void (^)(BOOL success, NSError * _Nullable error))completion;
-
-
-#pragma mark - Haptik Wallet
-
-/*!
- @method
- Returns boolean value indicating if User's Haptik Wallet has been created or not.
- */
-- (BOOL)isHaptikWalletCreated;
-
-
-/*!
- @method
- Returns String value of User's Haptik Wallet Balance. Will return nil if:
- - User's wallet has not been created yet.
- - Haptik Wallet Servers are currently down.
- */
-- (NSString *)getHaptikWalletBalance;
-
-
-/*!
-    @method
-    By calling this method you will get an instance of Haptik Wallet Screen.
-
-    @param showHistory    A boolean indicating whether the wallet history tab should be selected by default or not.
- 
- @code
- 
- #import "MyViewController.h"
- 
- [[Haptik sharedSDK] pushToHaptikWalletFrom:self
-                                showHistory:NO
-                                completion:^(BOOL success) {
-
-     if (success) {
-        NSLog(@"do housekeeping");
-     }
- }];
- 
- @endcode
- */
-- (void)pushToHaptikWalletFrom:(__kindof UIViewController *__weak)sourceController
-                   showHistory:(BOOL)showHistory
-                    completion:(void(^ _Nullable)(BOOL success))completion;
-
-
-#pragma mark - Current Offers
-
-/*!
- @method
- By calling this method you will get current offers count
- */
-- (NSUInteger)getOffersCount;
-
-
-/*!
- @method
- By calling this method you will get an instance of Offers Screen.
- 
- @code
- 
- UIViewController *offersVC = [[Haptik sharedSDK] getOffersViewContoller];
- [delegateController.navigationController pushViewController:offersVC animated:YES];
- 
- @endcode
- */
-- (__kindof UIViewController *_Nullable)getOffersViewContoller;
 
 
 #pragma mark - Remote Notifications
@@ -489,8 +342,8 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 ///
 /// @param viaName Represents the key that haptik uses to find your conversation
 /// @param error It requires an NSError object pointer that will be populated in case of a potential fail during the process
-- (__kindof UIViewController *)getConversationForViaName:(NSString *)viaName
-                                                   error:(NSError * __autoreleasing *)error;
+- (__kindof UIViewController * _Nullable)getConversationForViaName:(NSString *)viaName
+                                                             error:(NSError * __autoreleasing *)error;
 
 
 /*!
@@ -521,50 +374,14 @@ UIKIT_EXTERN NSNotificationName const HPOffersUpdatedNotification;
 
 
 /*!
- Specifies whether Haptik Lib will handle URL redirects
- @param url  The url expected to be handled
- @param options  A dictionary of URL handling options
- 
- @code
- 
- #import "MyAppDelegate.h"
- 
- - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-     return [[Haptik sharedSDK] isRedirectHandled:url options:options];
- }
- 
- @endcode
- */
-- (BOOL)isRedirectHandled:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options;
-
-
-/*!
  @method
- By calling this method you will get an instance of Transaction History Screen.
+ By calling this method you'll get the count of the messages that the user hasn't read in the conversation for the specified channel.
  
- @code
- 
- #import "MyViewController.h"
- 
- [[Haptik sharedSDK] pushToTransactionHistoryFrom:self
-                                       completion:^(BOOL success) {
- 
-         if (success) {
-             NSLog(@"do housekeeping");
-         }
- }];
- 
- @endcode
+ @param viaName Represents the string key used to uniquely specify channel inside Haptik
+ @param completion this will be called with  an NSUInteger for number of unread messages,  an optional error object which will be populated in case of failure else nil be returned
  */
-- (void)pushToTransactionHistoryFrom:(__kindof UIViewController *__weak)sourceController
-                          completion:(void(^ _Nullable)(BOOL success))completion;
-
-
-/*!
- @method
- By calling this method you will get the Unread Count of the Users Inbox Chats.
- */
-- (void)getUnreadCountWithCompletion:(void(^)(NSUInteger unreadCount))completion;
+- (void)getUnreadCountFor:(NSString *)viaName
+           WithCompletion:(void(^)(NSUInteger unreadCount, NSError * _Nullable error))completion;
 
 
 /*!

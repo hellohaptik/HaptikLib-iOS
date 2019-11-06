@@ -1,6 +1,0 @@
-framework module HaptikPayments {
-  umbrella header "HaptikPayments.h"
-
-  export *
-  module * { export * }
-}

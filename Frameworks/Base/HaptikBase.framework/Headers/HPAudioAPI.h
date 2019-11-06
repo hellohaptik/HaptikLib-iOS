@@ -86,21 +86,12 @@ typedef NS_ENUM(NSUInteger, HPRecordPermissionStatus) {
 
 /**
  @discussion
- Appends the message to be streamed to the queue.
+ Appends the message to the queue.
+ Will start playing automatically if it is the first message
 
  @param message Text message to be spoken
- @return An indication of whether the message can be inserted into the queue/
  */
-- (BOOL)insertTTSMessageToQueue:(NSString *)message;
-
-/**
- @abstract
- Equivalent to setting the value of rate to 1.0.
- 
- @discussion
- Signals the desire to begin playback at the queues current item's natural rate.
- */
-- (void)play;
+- (void)insertTTSMessageToPlaybackQueue:(NSString *)message;
 
 /**
  @abstract

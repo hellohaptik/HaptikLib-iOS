@@ -32,28 +32,32 @@ NS_ASSUME_NONNULL_BEGIN
      builder.userFullName = @"John Appleseed";
      builder.userPhoneNumber = @"9870000000";
      builder.userEmail = @"john@apple.com";
-     builder.userCity = @"Mumbai";
      builder.authToken = @"";
      builder.authID = @"";
+     builder.viaName = @"mychannelinhaptik";
  }];
  
- UIViewController *initialVC = [[Haptik sharedSDK] signUpWithLoadingScreenFor:signupObj completion:^(BOOL success, NSError * _Nullable error) {
+ [[Haptik sharedSDK] signUpWith:signupObj
+                     completion:^(BOOL success, __kindof UIViewController * _Nullable viewController, NSError * _Nullable error) {
  
      if (success) {
-         // do housekeeping
+ 
+        //If via name is provided then after signup the SDK will give back an instance of UIViewController that you can directly push the user too.
+        [self.navigationController pushViewController:viewController animated:YES];
      }
      else {
-         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oops!"
-         message:error.localizedDescription
-         preferredStyle:UIAlertControllerStyleAlert];
  
-         UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
+         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oops!"
+                                                                        message:error.localizedDescription
+                                                                 preferredStyle:UIAlertControllerStyleAlert];
+ 
+         UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK"
+                                                          style:UIAlertActionStyleCancel
+                                                        handler:nil];
          [alert addAction:action];
          [self presentViewController:alert animated:YES completion:nil];
      }
  }];
- 
- [self.navigationController pushViewController:initialVC animated:YES];
  
  @endcode
  */
@@ -65,73 +69,31 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Signup Configuration Attributes
 
-/*!
-    Different authentication types are there in order to sign up the user.
-    For (Auth_Type = (BASIC | OTP)) types of authentication, verified phone number and authToken are the required fields.
- */
+/// Different authentication types are there in order to sign up the user. Contact Haptik to get your authType.
 @property (nonatomic, readonly) NSString *authType;
 
-
-/*!
-    The name of the user for signUp.
-    Required in all types except Basic Auth Type.
- */
+/// The name of the user for signUp.
 @property (nullable, nonatomic, readonly) NSString *userFullName;
 
-
-/*!
-    The email of the user for signUp.
-    Required in OTP Auth Type.
- */
+/// The email of the user for signUp.
 @property (nullable, nonatomic, readonly) NSString *userEmail;
 
-
-/*!
-    The phone number of the user for signUp.
-    Required in all types except Basic Auth Type.
- */
+/// The phone number of the user for signUp.
 @property (nullable, nonatomic, readonly) NSString *userPhoneNumber;
 
-
-/*!
-    The city of the user for signUp.
-    Required in OTP Auth Type.
- */
-@property (nullable, nonatomic, readonly) NSString *userCity;
-
-
-/*!
-    The authentication token for signUp.
-    Required in all types except Basic Auth Type.
- */
+/// The authentication token for signUp.
 @property (nullable, nonatomic, readonly) NSString *authToken;
 
-
-/*!
- The authentication ID for signUp.
- Required in all types except Basic Auth Type.
- */
+/// The authentication ID for signUp. Required in all types except Basic Auth Type.
 @property (nullable, nonatomic, readonly) NSString *authID;
 
-
-/*!
-    If true then user's smartwallet would be created, and system wide wallet functionality would be possible to use.
-    Note that if this is true then other information such as phone, email and city are also passed.
- */
-@property (nonatomic, readonly) BOOL shouldUseSmartWallet;
-
-
-/*!
-    If true then user will be able to make use of Referral's.
- */
-@property (nonatomic, readonly) BOOL shouldUseReferralSystem;
-
+/// Optional attribute if provided then after signup the SDK will give back an instance of UIViewController that you can directly push the user too.
+@property (nullable, nonatomic, readonly) NSString *viaName;
 
 @end
 
 
 /*--------------------------------------------*/
-
 
 #pragma mark - Signup Builder
 
@@ -143,16 +105,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic) NSString *userPhoneNumber;
 
-@property (nonatomic) NSString *userCity;
-
-@property (nonatomic) BOOL shouldUseSmartWallet;
-
-@property (nonatomic) BOOL shouldUseReferralSystem;
-
 @property (nonatomic) NSString *authToken;
 
 @property (nonatomic) NSString *authID;
 
+@property (nonatomic) NSString *viaName;
 
 - (HPSignUpObject *)buildWithAuthType:(NSString *)authType;
 

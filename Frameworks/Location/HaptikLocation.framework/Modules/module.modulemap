@@ -1,0 +1,6 @@
+framework module HaptikLocation {
+  umbrella header "HaptikLocation.h"
+
+  export *
+  module * { export * }
+}

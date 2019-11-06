@@ -31,8 +31,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)updateUserWith:(HaptikUser *)user;
 
-- (void)resetWallet;
-
 - (nullable NSError *)deleteUserInfo;
 
 @end
