@@ -23,6 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If you need the callbacks of the analytics data that haptik sends
         HPConfiguration.shared().analyticsCallbackObject = self;
         
+        // If you don't need the mic button
+        HPConfiguration.shared().useVoice = false;
+        
         // Setup UI Theme for Haptik
         setHaptikTheme()
         
