@@ -31,18 +31,18 @@ class RootViewController: UIViewController {
         
         if Haptik.sharedSDK().isUserSignedUp() {
             
-            // NOTE: For Publishers:
-            // initialVC gives a list of channels that are available to that client
+            // Option A
             
-            // Haptik.sharedSDK().getInitialVC() gives you the initialVC that you can push on your stack
+            /*Haptik.sharedSDK().launchChannel(with: "channel_via_name",
+                                             message: "any_message_you_wanna_start_With",
+                                             controller: self);*/
             
-            // NOTE: For Enterprise:
-            // You don't need to push to the initialVC that Haptik gives. You need to directly go to the conversation channel with the "viaName" that will be provided to you.
-            // You can use:
+            // Option B
             
-            /*Haptik.sharedSDK().launchChannel(with: "provided_via_name",
-             message: "any_message_you_wanna_start_With",
-             controller: <#instance_of_vc_from_which_the_conversationVC_is_pushed#>)*/
+            let conversation = try? Haptik.sharedSDK().getConversationFor(viaName: "channel_via_name")
+            if let conversation = conversation {
+                present(conversation, animated: true, completion: nil)
+            }
         }
         else {
             
@@ -52,6 +52,7 @@ class RootViewController: UIViewController {
             let signupObject = HPSignUpObject.build(withAuthType: "basic") { (builder) in
                 
                 builder.userFullName = "Simranjot"
+                builder.viaName = "channel_via_name"
                 
                 // You can set more properties on the builder according to the requirements
             }
@@ -60,7 +61,14 @@ class RootViewController: UIViewController {
                 
                 if success {
                     
-                    // From here you can either push to the specific conversation controller or to the list of channel controller according to your requirements
+                    // From here you can either push to the specific conversation controller if you pass in the via name in the builder
+                    
+                    if let initialVC = initialVC {
+                        self.present(initialVC, animated: true, completion: nil)
+                    }
+                    else {
+                        // Handle Error here
+                    }
                 }
                 else {
                     
