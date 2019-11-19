@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UIViewController * _Nullable)previousViewController;
 
+- (BOOL)isPresentedModally;
+
 @end
 
 NS_ASSUME_NONNULL_END

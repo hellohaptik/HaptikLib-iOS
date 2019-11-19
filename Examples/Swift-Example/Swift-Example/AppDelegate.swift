@@ -20,32 +20,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Required at the Initial Launch of the Application
         Haptik.sharedSDK().notify(application, launchedWithOptions: launchOptions)
         
-        // Required for Enterprise Clients
-        HPConfiguration.shared().useInbox = false;
-        
         // If you need the callbacks of the analytics data that haptik sends
         HPConfiguration.shared().analyticsCallbackObject = self;
         
         // Setup UI Theme for Haptik
         setHaptikTheme()
         
-        // Interactive Pop Gesture
-        
-        // This BOOL controls the functionality of the EdgePanGestureRecognizer feature of UINavigationController
-        // that allows to set the slide to go back functionality for Haptik Screens. By default the value will be true.
-        
-        HPConfiguration.shared().useInteractivePopGesture = true
-        
         return true
-    }
-
-    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        
-        // Let Haptik handle the redirect if required
-        
-        let isHandledByHaptik = Haptik.sharedSDK().isRedirectHandled(url, options: options)
-        return isHandledByHaptik
-    }
+    }    
 
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         
