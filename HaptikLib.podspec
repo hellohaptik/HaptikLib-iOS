@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HaptikLib"
-  s.version      = "2.0.1"
+  s.version      = "2.1.0"
   s.summary      = "Say goodbye to App Fatigue. Instantly enable 100+ chatbots across various daily tasks"
 
   s.description  = <<-DESC
@@ -20,13 +20,14 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/hellohaptik/HaptikLib-iOS.git", :tag => s.version.to_s }
 
   s.frameworks =  'Accelerate', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'CoreText', 'OpenGLES', 'QuartzCore', 'SystemConfiguration', 'UIKit'
-
   s.ios.preserve_paths = '**'
-
   s.default_subspec = 'Core'
+  
+  s.pod_target_xcconfig = {
+    'VALID_ARCHS' => 'x86_64 armv7 arm64',
+  }
 
   # Haptik Core Module Subspec
-
   s.subspec 'Core' do |core|
     core.ios.deployment_target = '9.0'
     core.dependency    'HaptikLib/Base'
@@ -34,7 +35,6 @@ Pod::Spec.new do |s|
   end
 
   # Haptik Base Module Subspec
-
   s.subspec 'Base' do |base|
     base.ios.deployment_target = '9.0'
     base.dependency    'PINRemoteImage', '3.0.0-beta.13'
@@ -43,19 +43,28 @@ Pod::Spec.new do |s|
   end
 
   # Haptik Location Module Subspec
-
   s.subspec 'Location' do |location|
     location.ios.deployment_target = '10.0'
     location.vendored_frameworks = "Frameworks/Location/HaptikLocation.framework"
   end
 
   # Haptik Speech Module Subspec
-
   s.subspec 'Speech' do |speech|
     speech.ios.deployment_target = '10.0'
     speech.frameworks = 'AudioToolbox', 'AVFoundation', 'Speech'
     speech.vendored_frameworks = "Frameworks/Speech/HaptikSpeech.framework"
   end
-
-
+  
+  # Haptik Offline Module Subspec
+  s.subspec 'Offline' do |offline|
+    offline.ios.deployment_target = '9.0'
+    offline.library = 'c++'
+    offline.vendored_frameworks = "Frameworks/Offline/HaptikOffline.framework"
+  end
+  
+  # Haptik Analytics Module Subspec
+  s.subspec 'Analytics' do |analytics|
+    analytics.ios.deployment_target = '9.0'
+    analytics.vendored_frameworks = "Frameworks/Analytics/HaptikAnalytics.framework"
+  end
 end
