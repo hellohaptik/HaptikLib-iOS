@@ -12,7 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Analytics Service
 
-
 /**
  @protocol  HPAnalyticsServiceDelegate
  
@@ -25,7 +24,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)eventTracked:(NSString *)eventName forParams:(nullable NSDictionary *)params;
 
 @end
-
 
 /**
  @class HPAnalyticsService
@@ -55,17 +53,6 @@ NS_ASSUME_NONNULL_BEGIN
  @param params      parameters dictionary
  */
 + (void)trackEvent:(NSString *)eventName withParams:(NSMutableDictionary * _Nullable)params;
-
-/**
- @abstract
- Set attributes on the current user analyics profile.
- 
- @discussion
- Attribute keys must be NSString and values must be one of NSString, NSNumber, BOOL, NSDate.
- 
- @param attributes  attributes dictionary
- */
-+ (void)setAttributes:(NSDictionary *)attributes;
 
 
 @end

@@ -1,0 +1,6 @@
+framework module HaptikOffline {
+  umbrella header "HaptikOffline.h"
+
+  export *
+  module * { export * }
+}

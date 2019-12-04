@@ -25,6 +25,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)pinAllEdgesOfSubview:(UIView *)subView;
 
+- (void)pinAllEdgesOfSubview:(UIView *)subView withPadding:(CGFloat)padding;
+
 /**
  Returns the view constraints matching a specific layout attribute (top, bottom, left, right, leading, trailing, etc.)
  

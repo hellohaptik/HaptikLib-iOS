@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface HPEmoji : NSObject
 
 + (NSAttributedString *)getEmojiAttributedTextFrom:(NSString *)string
-                                withTextAttributes:(nullable NSDictionary<NSString *, id> *)textAttributes
+                                withTextAttributes:(nullable NSDictionary<NSAttributedStringKey, id> *)textAttributes
                                         completion:(void (^ _Nullable )(NSAttributedString * _Nullable attributedString))completion;
 
 @end

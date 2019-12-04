@@ -14,9 +14,9 @@ __OBJC_LABEL_PROTOCOL_$_NSObject
 __OBJC_PROTOCOL_$_HPAudioServiceDelegate
 __OBJC_LABEL_PROTOCOL_$_HPAudioServiceDelegate
 _OBJC_IVAR_$_HPPollyTTS._queuePlayer
-Apple clang version 11.0.0 (clang-1100.0.33.8)
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Audio Service/TTS Helpers/PollyTTS/HPPollyTTS.m
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikSpeech
+Apple clang version 11.0.0 (clang-1100.0.33.12)
+/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Audio Service/TTS Helpers/PollyTTS/HPPollyTTS.m
+/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikSpeech
 HaptikSpeech/Audio Service/TTS Helpers/PollyTTS/HPPollyTTS.m
 -[HPNativeTTS init]
 -[HPNativeTTS clearTTSQueue]
@@ -32,7 +32,7 @@ __OBJC_PROTOCOL_$_AVSpeechSynthesizerDelegate
 __OBJC_LABEL_PROTOCOL_$_AVSpeechSynthesizerDelegate
 _OBJC_IVAR_$_HPNativeTTS._speechSynthesizer
 _OBJC_IVAR_$_HPNativeTTS._lastUtterance
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Audio Service/TTS Helpers/HPNativeTTS/HPNativeTTS.m
+/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Audio Service/TTS Helpers/HPNativeTTS/HPNativeTTS.m
 HaptikSpeech/Audio Service/TTS Helpers/HPNativeTTS/HPNativeTTS.m
 -[EZOutput dealloc]
 -[EZOutput init]
@@ -84,7 +84,7 @@ _OBJC_IVAR_$_EZOutput._delegate
 _OBJC_IVAR_$_EZOutput._device
 _OBJC_IVAR_$_EZOutput._floatConverter
 _OBJC_IVAR_$_EZOutput._info
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Helpers/EZAudio/EZOutput.m
+/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Helpers/EZAudio/EZOutput.m
 HaptikSpeech/Helpers/EZAudio/EZOutput.m
 HaptikSpeech/Helpers/EZAudio/EZOutput.h
 EZOutputGraphRenderCallback
@@ -92,7 +92,7 @@ EZOutputConverterInputCallback
 __destroy_helper_block_e4_
 __copy_helper_block_e4_
 __24+[EZOutput sharedOutput]_block_invoke
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/dispatch/once.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/dispatch/once.h
 -[EZAudioFFT dealloc]
 -[EZAudioFFT initWithMaximumBufferSize:sampleRate:]
 -[EZAudioFFT initWithMaximumBufferSize:sampleRate:delegate:]
@@ -122,7 +122,7 @@ _OBJC_IVAR_$_EZAudioFFT._delegate
 _OBJC_IVAR_$_EZAudioFFT._maximumBufferSize
 _OBJC_IVAR_$_EZAudioFFT._sampleRate
 _OBJC_IVAR_$_EZAudioFFT._info
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Helpers/EZAudio/EZAudioFFT.m
+/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Helpers/EZAudio/EZAudioFFT.m
 HaptikSpeech/Helpers/EZAudio/EZAudioFFT.m
 HaptikSpeech/Helpers/EZAudio/EZAudioFFT.h
 +[EZAudioUtilities setShouldExitOnCheckResultFail:]
@@ -151,13 +151,13 @@ HaptikSpeech/Helpers/EZAudio/EZAudioFFT.h
 +[EZAudioUtilities SGN:]
 +[EZAudioUtilities checkResult:operation:]
 +[EZAudioUtilities stringFromUInt32Code:]
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Helpers/EZAudio/EZAudioUtilities.m
+/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Helpers/EZAudio/EZAudioUtilities.m
 HaptikSpeech/Helpers/EZAudio/EZAudioUtilities.m
 isprint
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/_ctype.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/_ctype.h
 __istype
 CFSwapInt32HostToBig
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h
 +[EZAudioDevice currentInputDevice]
 +[EZAudioDevice currentOutputDevice]
 +[EZAudioDevice inputDevices]
@@ -183,7 +183,7 @@ ___block_descriptor_24_e4_20r_e26_v12?0"EZAudioDevice"4^c8l
 _OBJC_IVAR_$_EZAudioDevice._port
 _OBJC_IVAR_$_EZAudioDevice._dataSource
 _OBJC_IVAR_$_EZAudioDevice._name
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Helpers/EZAudio/EZAudioDevice.m
+/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Helpers/EZAudio/EZAudioDevice.m
 HaptikSpeech/Helpers/EZAudio/EZAudioDevice.m
 HaptikSpeech/Helpers/EZAudio/EZAudioDevice.h
 __30+[EZAudioDevice outputDevices]_block_invoke
@@ -220,7 +220,7 @@ __OBJC_PROTOCOL_$_HPAudioAPI
 __OBJC_LABEL_PROTOCOL_$_HPAudioAPI
 _OBJC_IVAR_$_HPAudioService.isAudioSessionActiveForHaptik
 _OBJC_IVAR_$_HPAudioService.TTSDelegate
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Audio Service/HPAudioService.m
+/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Audio Service/HPAudioService.m
 HaptikSpeech/Audio Service/HPAudioService.m
 __35-[HPAudioService setupAudioSession]_block_invoke
 __destroy_helper_block_e4_20s
@@ -293,7 +293,7 @@ _OBJC_IVAR_$_HPSpeechService._microphone
 _OBJC_IVAR_$_HPSpeechService.waitingTimer
 _OBJC_IVAR_$_HPSpeechService.micOnsoundID
 _OBJC_IVAR_$_HPSpeechService.micOffsoundID
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Speech Service/HPSpeechService.m
+/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Speech Service/HPSpeechService.m
 HaptikSpeech/Speech Service/HPSpeechService.m
 __destroy_helper_block_e4_20w
 __copy_helper_block_e4_20w
@@ -319,7 +319,7 @@ __40-[HPSpeechService requestAuthorization:]_block_invoke
 _OBJC_IVAR_$_EZAudioFloatConverter._info
 _OBJC_IVAR_$_EZAudioFloatConverter._inputFormat
 _OBJC_IVAR_$_EZAudioFloatConverter._floatFormat
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Helpers/EZAudio/EZAudioFloatConverter.m
+/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Helpers/EZAudio/EZAudioFloatConverter.m
 HaptikSpeech/Helpers/EZAudio/EZAudioFloatConverter.m
 HaptikSpeech/Helpers/EZAudio/EZAudioFloatConverter.h
 EZAudioFloatConverterCallback
@@ -374,7 +374,7 @@ _OBJC_IVAR_$_EZMicrophone._device
 _OBJC_IVAR_$_EZMicrophone._output
 _OBJC_IVAR_$_EZMicrophone._floatConverter
 _OBJC_IVAR_$_EZMicrophone._info
-/Users/iamsimranjot/Desktop/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Helpers/EZAudio/EZMicrophone.m
+/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikSpeech/HaptikSpeech/Helpers/EZAudio/EZMicrophone.m
 HaptikSpeech/Helpers/EZAudio/EZMicrophone.m
 HaptikSpeech/Helpers/EZAudio/EZMicrophone.h
 EZAudioMicrophoneCallback
