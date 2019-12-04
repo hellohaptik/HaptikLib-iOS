@@ -6,7 +6,7 @@ title: Features
 
 To Signout the current user from Haptik, use the following method on `[Haptik sharedSDK]`:
 
-```
+```ObjC
 [[Haptik sharedSDK] signoutFromHaptik:^(BOOL success, NSError * _Nullable error) {
 
 if (success) {
@@ -22,22 +22,12 @@ else {
 
 ---
 
-## InteractivePopGesture
-
-This BOOL controls the functionality of the `EdgePanGestureRecognizer` feature of UINavigationController that allows to set the slide to go back functionality for Haptik Screens. By default the value will be true.
-
-```
-[HPConfiguration shared].useInteractivePopGesture = YES;
-```
-
----
-
 ## Opening Conversation View
 Once the user has been signed up, you also have the ability to open Conversation View for a specific channel directly. It needs to be Initialized with the unique business name of the channel that you wish to open Conversation for and an optional message text (can be `nil`) if you want to log any.
 
 Example:
 
-```
+```ObjC
 [[Haptik sharedSDK] launchChannelWith:@"INSERT_BUSINESS_VIA_NAME_HERE"
                               message:@"INSERT_CUSTOM_MESSAGE_TEXT_HERE"
                            controller:visibleViewController];
@@ -45,7 +35,7 @@ Example:
 
 If you wish to push to the conversation view by yourself you can use the following API:
 
-```
+```ObjC
     NSError *error;
     UIViewController *haptikConversation = [[Haptik sharedSDK] getConversationForViaName:@"INSERT_BUSINESS_VIA_NAME_HERE"
                                                                                    error:&error];
@@ -58,7 +48,6 @@ If you wish to push to the conversation view by yourself you can use the followi
 ```
 
 - Check for selected [language](#localization) before pushing to a conversation screen.
-- Make sure to turn the `useInbox` flag on **HPConfiguration** to `NO` for it
 
 ---
 
@@ -66,7 +55,7 @@ If you wish to push to the conversation view by yourself you can use the followi
 
 HaptikLib provides the `unreadCount` of the chat that the user has not read.
 
-```
+```ObjC
 - (void)getUnreadCountFor:(NSString *)viaName
            WithCompletion:(void(^)(NSUInteger unreadCount, NSError * _Nullable error))completion;
 ```
@@ -127,3 +116,4 @@ You can change the current language of the SDK using the following method in `Ha
 Also users can change the language from conversation screen. So make sure you check `HaptikConfigs.currentHaptikLocale`
 
 ---
+

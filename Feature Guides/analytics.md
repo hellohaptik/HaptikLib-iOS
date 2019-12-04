@@ -4,11 +4,13 @@ title: Analytics
 
 ## HaptikLib Analytics
 
-HaptikLib uses **Analytics** internally and also _provides the functionality of giving callbacks for every event tracking_. `HPAnalyticsServiceDelegate` **protocol** is defined in `HPConfiguration.h` class under which two optional methods are defined which are called if you confirm to the respective protocol. The class has a property named `analyticsCallbackObject` of type `HPAnalyticsServiceDelegate` which the application needs to set with the object that will confirm to the protocol.
+HaptikLib is geared up with **analytics** internally and also _provides the functionality of giving callbacks for every event tracking_. The `HPAnalyticsServiceDelegate` **protocol** gives an optional method (_see example below_) which is called if you confirm to the protocol.
+
+**HPConfiguration** class exposes a property named `analyticsCallbackObject` of type `HPAnalyticsServiceDelegate` which the application needs to set with the object that will confirm to the protocol.
 
 Example:
 
-```
+```ObjC
 @interface ViewController () < HPAnalyticsServiceDelegate >
 
 @implementation ViewController
@@ -21,11 +23,6 @@ Example:
 - (void)eventTracked:(NSString *)eventName forParams:(NSDictionary *)params {
 
     // Callback for every event recorded
-}
-
-- (void)errorTracked:(NSString *)errorMessage forError:(NSError *)error {
-
-    // Callback for every error recorded
 }
 
 @end
@@ -46,9 +43,9 @@ A dictionary with the name `CleverTap` is to be added in `HaptikLib`. The dictio
 
 Example:
 
-```
+```XML
 <key>HaptikLib</key>
-	<dict>
+<dict>
     <key>apiKey</key>
     <string>INSERT_API_KEY_HERE</string>
     <key>baseUrl</key>
@@ -58,19 +55,20 @@ Example:
     <key>runEnvironment</key>
     <string>INSERT_APPROPRIATE_RUN_ENVIRONMENT</string>
 
-		***
+        ***
 
-		<key>CleverTap</key>
-		<dict>
-			<key>CleverTapAccountID</key>
-			<string>INSERT_CLEVER_TAP_ACCOUNT_ID</string>
-			<key>CleverTapToken</key>
-			<string>INSERT_CLEVER_TAP_TOKEN</string>
-		</dict>
+        <key>CleverTap</key>
+        <dict>
+            <key>CleverTapAccountID</key>
+            <string>INSERT_CLEVER_TAP_ACCOUNT_ID</string>
+            <key>CleverTapToken</key>
+            <string>INSERT_CLEVER_TAP_TOKEN</string>
+        </dict>
 
-		***
+        ***
 
-	</dict>
+</dict>
 ```
 
 ---
+
