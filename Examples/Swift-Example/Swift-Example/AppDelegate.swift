@@ -106,10 +106,5 @@ extension AppDelegate: HPAnalyticsServiceDelegate {
      
         // Get all the events tracked here
     }
-    
-    func errorTracked(_ errorMessage: String, forError error: Error?) {
-     
-        // Get all the errors tracked here
-    }
 }
 
