@@ -7,3 +7,7 @@ Frameworks/Speech/HaptikSpeech.framework/HaptikSpeech filter=lfs diff=lfs merge=
 frameworks/location/haptiklocation.framework/haptiklocation filter=lfs diff=lfs merge=lfs -text
 frameworks/location/haptiklocation.framework.dsym/contents/resources/dwarf/haptiklocation filter=lfs diff=lfs merge=lfs -text
 frameworks/core/haptiklocation.framework/assets.car filter=lfs diff=lfs merge=lfs -text
+Frameworks/Analytics/HaptikAnalytics.framework/HaptikAnalytics filter=lfs diff=lfs merge=lfs -text
+Frameworks/Analytics/HaptikAnalytics.framework.dSYM/Contents/Resources/DWARF/HaptikAnalytics filter=lfs diff=lfs merge=lfs -text
+Frameworks/Offline/HaptikOffline.framework/HaptikOffline filter=lfs diff=lfs merge=lfs -text
+Frameworks/Offline/HaptikOffline.framework.dSYM/Contents/Resources/DWARF/HaptikOffline filter=lfs diff=lfs merge=lfs -text

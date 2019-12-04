@@ -10,6 +10,8 @@
 @class HPThemeService;
 
 #import <HaptikBase/HPAnalyticsService.h>
+
+#import <HaptikBase/HPAnalyticsAPI.h>
 #import <HaptikBase/HPMessagingListenerAPI.h>
 
 NS_ASSUME_NONNULL_BEGIN

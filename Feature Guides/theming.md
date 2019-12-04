@@ -12,7 +12,7 @@ You have to set the instance of `HPThemeService` to the `themeConfig` property o
 
 Example:
 
-```
+```ObjC
 [HPConfiguration shared].themeConfig = [HPThemeService buildWithData:^(HPThemeServiceBuilder * _Nullable builder) {
 
         builder.brandColor =                // UIColor object here
@@ -33,7 +33,7 @@ Example:
 If you don't provide custom colors to HPThemeService then HaptikLib will use the default colors.
 
 It's mandatory to provide all the font's to HPThemeService. Haptik provides it's custom font files that you have to add in your project and
-register them in your info.plist file. HaptikLib will then automatically use them even if you don't pass the names in the builder.
+register them in your Info.plist file. HaptikLib will then automatically use them even if you don't pass the names in the builder.
 
 If you wish to use your own font, pass all the required fonts in the builder, else the SDK will give an assert and exit.
 
@@ -45,7 +45,7 @@ If you wish to use your own font, pass all the required fonts in the builder, el
 
 HaptikLib does not control the Navigation Controller (hence the navigation bar), but the client does. HaptikLib only gives an instance of a `ViewController` that the client application pushes on their navigation stack. To configure that navigation bar of that navigationController (modify `tint color` and `barTintColor` of navigation bar of the SDK View Controllers), use the following helper method:
 
-```
+```Objc
 [[HPConfiguration shared] configureNavigationBarWithTintColor:[UIColor redColor]
                                             barTintColor:[UIColor whiteColor]
                                          makeTranslucent:YES
@@ -55,3 +55,4 @@ HaptikLib does not control the Navigation Controller (hence the navigation bar),
 The params `tintColor` & `barTintColor` are `nullable`, i.e. you can pass `nil` for the respective param which you want to set to default (don't want to set).
 
 ---
+

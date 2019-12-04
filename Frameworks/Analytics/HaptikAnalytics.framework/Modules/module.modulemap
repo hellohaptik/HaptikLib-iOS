@@ -1,0 +1,6 @@
+framework module HaptikAnalytics {
+  umbrella header "HaptikAnalytics.h"
+
+  export *
+  module * { export * }
+}

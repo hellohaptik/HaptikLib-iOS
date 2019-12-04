@@ -2,6 +2,46 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - (04/12/19) - A iOS
+
+### Features
+
+- Message level feedback functionality is added
+- Offline conversation functionality added
+- Analytics is abstracted out in a separate spec
+
+### Enhancements
+
+- Added Unit tests in `HaptikBase`
+- Taskbox to be presented after every 8 minutes of last message sent
+- Add loader animation in place picker when detecting user location
+- Show location address while searching for places
+- Removed support of i386 architecture from the SDK
+- Analytics added for offline module
+- Only active forms are fetched while syncing
+- Use ChildVC for feedback overlay
+- Refactor Location Module
+- Refactor Localisation in HPConfiguration
+
+### Bugs
+
+- Fix place picker loader animation not being dismissed
+- Fix unsafe typecasting crash while dismissing taskbox overlay
+
+---
+
+## [2.0.1] - (19/11/19) - Y iOS
+
+### Bugs
+
+- Fix back button not working if the conversation is presented modally
+
+### Enhancements
+
+- Haptik Branding is now configurable from the backend
+
+---
+
 ## [2.0.0] - (04/11/19) - X iOS
 
 ### Features

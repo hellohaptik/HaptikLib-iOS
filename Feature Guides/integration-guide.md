@@ -19,13 +19,13 @@ This Integration Guide contains chronological steps required to integrate the Ha
 
 1. Add the following dependencies in `Podfile` -
 
-   ```
+   ```ruby
    pod 'HaptikLib'
    ```
 
    To make use of Voice Capabilities
 
-   ```
+   ```ruby
    pod 'HaptikLib/Speech'
    ```
 
@@ -35,15 +35,15 @@ This Integration Guide contains chronological steps required to integrate the Ha
 
 ## II. Required Permissions
 
-HaptikLib requires some permissions and custom properties to function properly. Add the following snippets in your `info.plist` file.
+HaptikLib requires some permissions and custom properties to function properly. Add the following snippets in your `Info.plist` file.
 
 <details open>
    <summary> Haptik only supports <b>Portrait</b> orientation </summary>
 
-```ObjC
+```XML
 <key>UISupportedInterfaceOrientations</key>
 <array>
-<string>UIInterfaceOrientationPortrait</string>
+   <string>UIInterfaceOrientationPortrait</string>
 </array>
 ```
 
@@ -52,7 +52,7 @@ HaptikLib requires some permissions and custom properties to function properly. 
 <details open>
    <summary> <b>Privacy - Photo Library Usage Description</b> to enable a user to upload photos from the photos gallery in the chat flows </summary>
 
-```ObjC
+```XML
 <key>NSPhotoLibraryUsageDescription</key>
 <string>To enable usage & saving of photos</string>
 <key>NSPhotoLibraryAddUsageDescription</key>
@@ -64,9 +64,18 @@ HaptikLib requires some permissions and custom properties to function properly. 
 <details open>
    <summary> <b>Privacy - Camera Usage Description</b> to enable a user to upload photos from camera within chat flows </summary>
    
-   ```ObjC
+   ```XML
    <key>NSCameraUsageDescription</key>
    <string>To enable camera usage for uploading photos</string>
+   ```
+</details>
+
+<details open>
+   <summary> <b>Privacy - Contacts Usage Description</b> To access phone contacts</summary>
+   
+   ```XML
+   <key>NSContactsUsageDescription</key>
+   <string>With contacts access, we provide an easy way to give you app support</string>
    ```
 </details>
 
@@ -75,7 +84,7 @@ If you already allow <b>Arbitrary Loads</b> then you can skip adding the excepti
 <details open>
    <summary> Enter the following <b>exception domains</b> for HaptikLib to work properly: </summary>
 
-```ObjC
+```XML
 <key>NSAppTransportSecurity</key>
 <dict>
    <key>NSExceptionDomains</key>
@@ -132,7 +141,7 @@ If you already allow <b>Arbitrary Loads</b> then you can skip adding the excepti
 4. Add these initialization keys substituted with their appropriate values in a custom dictionary named `HaptikLib`
 5. On opening app's `Info.plist` in _Source Code_ format & add the required keys as illustrated below -
 
-   ```ObjC
+   ```XML
    <key>HaptikLib</key>
    <dict>
      <key>clientID</key>
@@ -235,7 +244,7 @@ NSLog(@"do housekeeping");
 1. After successful Initialization & App Delegate Configuration, SDK can enable a user to Signup for using Haptik services
 2. Haptik Signup is sub-divided in following 2 parts -
 
-   - Collecting required parameters of user according to Authentication(Signup) Type: _Basic(Guest)_ or _OTP Verified_ user
+   - Collecting required parameters of user 
    - Passing over the collected parameters to Haptik
 
 3. The public class `HPSignUpObject` is to be used for _collecting the required parameters_ as illustrated below -
@@ -244,49 +253,10 @@ NSLog(@"do housekeeping");
    HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE" data:^(HPSignUpBuilder * _Nonnull builder) {
 
       builder.userFullName = INSERT_NAME_HERE;
-      builder.userPhoneNumber = INSERT_PHONE_NUMBER_HERE;
-      builder.userEmail = INSERT_EMAIL_HERE;
-      builder.authToken = INSERT_AUTH_TOKEN_HERE;
-      builder.authID = INSERT_AUTH_ID_HERE;
-      builder.viaName = INSERT_VIA_NAME;
+      builder.viaName = INSERT_BUSINESS_VIA_NAME_HERE;
    }];
    ```
-
-#### Authentication Types -
-
-A. **Basic Authentication**
-
-1. Basic Authentication is a Guest signup that does not require any verification `auth_type = @"basic"`
-2. This is ideal for informational chatbots or when user verification is handled by a Third Party Service
-3. The `Name` parameter is _required_ while signing up as Basic type
-
-   ```ObjC
-   HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"basic" data:^(HPSignUpBuilder * _Nonnull builder) {
-
-   	builder.userFullName = @"John Appleseed";
-   }];
-   ```
-
-B. **OTP Authentication**
-
-1. An user’s mobile number OTP verification can be done by Haptik. Contact us for enabling server component for this.
-2. The following parameters are required -
-   - User Name
-   - OTP Verified Mobile Number
-   - Token/TicketId for OTP verification
-   - User Email Address
-3. Implementation of OTP authentication flow can vary vastly & depends on specific app use-cases. An example is below -
-
-   ```ObjC
-   HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"otp" data:^(HPSignUpBuilder * _Nonnull builder) {
-
-   	builder.userFullName = @"John Appleseed";
-   	builder.userEmail = @"john@haptik.ai";
-   	builder.userPhoneNumber = @"9879999999";
-   	builder.authID = @"9879999999";	// same as phone number
-   	builder.authToken = @"123456"; // otp code received by user
-   }];
-   ```
+   >  `viaName` is the unique business name of the channel that you wish to open.
 
 ---
 
@@ -296,18 +266,23 @@ B. **OTP Authentication**
 2. This step involves a network request so to maintain state of the application & update a user about current progress, the SDK provides following API.
 
 3. `[[Haptik sharedSDK] signUpWith:completion:]` takes a `HPSignUpObject` instance and _on completion handler_ that is passed the result of signUp attempt
-4. The completion block is invoked on `mainQueue`
-5. Using `success` & `error` objects, any analytics / app state update / general housekeeping can be performed
+4. The `UIViewController` instance returned on signup represents the _Conversation Screen_ for the _viaName_ in the passed `HPSignUpObject`. If `via_name` is incorrect or not passed this will be nil.
+5. The completion block is invoked on `mainQueue`
+6. Using `success` & `error` objects, any analytics / app state update / general housekeeping can be performed
 
    ```ObjC
    [[Haptik sharedSDK] signUpWith:signupObj
                         completion:^(BOOL success, __kindof UIViewController * _Nullable viewController, NSError * _Nullable error) {
 
-   	NSLog(@"Do housekeeping using success & error");
+       NSLog(@"Do housekeeping using success & error");
 
            if (success) {
 
                //redirect the user to a channel
+               
+               if (viewController) {
+                  [self.navigationController pushViewController:viewController animated:YES];
+               }
            }
             else {
                NSLog(@"User Signup Failed!");
@@ -327,13 +302,13 @@ B. **OTP Authentication**
 
 ```ObjC
 if ([[Haptik sharedSDK] isUserSignedUp]) {
-	// perform analytics, state update, etc
+    // perform analytics, state update, etc
    [[Haptik sharedSDK] launchChannelWith:@"INSERT_BUSINESS_VIA_NAME_HERE"
                                  message:@"INSERT_CUSTOM_MESSAGE_TEXT_HERE"
                               controller:visibleViewController];
 }
 else {
-	// Continue with the SignUp flow here
+    // Continue with the SignUp flow here
 }
 ```
 
@@ -341,58 +316,56 @@ else {
 
 ## VIII. Share Functionality
 
-Haptik provides inbuilt share functionality where user can share the client app with others via social media apps or any other medium.
+Haptik provides inbuilt share functionality where user can share their client app with others via social media apps or any other medium.
 
-- When user shares something from inside the HaptikSDK, a **custom content message** gets shared. Client can **override this message** with their own custom content along with their `deeplink` URL.
-
-- Haptik also provides an inbuilt feature where it can take the users **directly to the client application’s App Store Page** to rate the application.
-
-The option to set these values is given in the `Info.plist` file of the application.
-
-> If the values are not added then by default Haptik is shared with its custom text.
-
-You have add a **Dictionary** inside the `HaptikLib` dictionary which you added for credentials during the initialization. Note that the keys should match the provided keys otherwise default behaviour will be implemented.
+You have to add a **Dictionary** inside the `HaptikLib` Info.plist dictionary which you added for credentials during the initialization.
 
 The dictionary should be named `shareAndRate` and the following **key-value** should be present in it:
 
-| Key                  | Value                    |
-| -------------------- | ------------------------ |
-| appStoreUrl          | INSERT_APP_STORE_URL     |
-| shareText            | INSERT_SHARE_TEXT        |
-| shareUrl             | INSERT_SHARE_URL         |
-| iTunesItemIdentifier | INSERT_ITUNES_IDENTIFIER |  |
+| Key                  | Value                    | Usage                                     |
+| -------------------- | ------------------------ |-------------------------------------------|
+| appStoreUrl          | INSERT_APP_STORE_URL     |The App Store link used for rating the app.|
+| shareText            | INSERT_SHARE_TEXT        |This message will be used to share the app.|
+| shareUrl             | INSERT_SHARE_URL         |This url will be added in the shareText.   |
+| iTunesItemIdentifier | INSERT_ITUNES_IDENTIFIER |Itunes ID of your app used for user rating.|
+|
 
-#### Example:
+ Inside the shareText wherever there will be %@ present, it will be replaced by the shareUrl.
 
-```ObjC
+<details open>
+   <summary> <b> Example:</b> </summary>
+
+```XML
 <key>HaptikLib</key>
-	<dict>
-    		<key>clientID</key>
-    		<string>INSERT_CLIENT_ID_HERE</string>
-		<key>baseUrl</key>
-		<string>INSERT_BASE_URL_HERE</string>
-		<key>runEnvironment</key>
-		<string>INSERT_APPROPRIATE_RUN_ENVIRONMENT</string>
+<dict>
+   <key>clientID</key>
+   <string>INSERT_CLIENT_ID_HERE</string>
+   <key>baseUrl</key>
+   <string>INSERT_BASE_URL_HERE</string>
+   <key>runEnvironment</key>
+   <string>INSERT_APPROPRIATE_RUN_ENVIRONMENT</string>
 
-		***
+   ***
 
-		<key>shareAndRate</key>
-		<dict>
-			<key>appStoreUrl</key>
-			<string>INSERT_APP_STORE_URL</string>
-			<key>shareText</key>
-			<string>INSERT_SHARE_TEXT</string>
-			<key>shareUrl</key>
-			<string>INSERT_SHARE_URL</string>
-			<key>iTunesItemIdentifier</key>
-			<string>INSERT_ITUNES_IDENTIFIER</string>
-		</dict>
+   <key>shareAndRate</key>
+   <dict>
+      <key>appStoreUrl</key>
+      <string>INSERT_APP_STORE_URL</string>
+      <key>shareText</key>
+      <string>INSERT_SHARE_TEXT</string>
+      <key>shareUrl</key>
+      <string>INSERT_SHARE_URL</string>
+      <key>iTunesItemIdentifier</key>
+      <string>INSERT_ITUNES_IDENTIFIER</string>
+   </dict>
 
-		***
+   ***
 
-	</dict>
+</dict>
 ```
+</details>
 
-> Inside the shareText wherever there will be %@ present, it will be replaced by the shareUrl.
+> If the values are not added then by default Haptik is shared with its custom text.
 
 ---
+

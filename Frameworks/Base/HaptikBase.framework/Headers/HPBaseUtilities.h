@@ -58,9 +58,14 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString * _Nullable)iTunesItemIdentifier;
 
 /**
- *  Returns the running applications name (CFBundleDisplayName).
+ *  Returns the running applications name (CFBundleName).
  */
 + (NSString *)getRunningApplicationsName;
+
+/**
+*  Returns the running applications bundle identifier.
+*/
++ (NSString *)getRunningApplicationsBundleIdentifier;
 
 /**
  *  Returns a bool incdicating if the current environment is set to production or not.
