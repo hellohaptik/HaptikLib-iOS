@@ -33,6 +33,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (nullable NSError *)deleteUserInfo;
 
+- (BOOL)isUserSignedUp;
+
 @end
 
 NS_ASSUME_NONNULL_END
