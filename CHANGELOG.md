@@ -2,6 +2,18 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.1.1] - (27/12/19) - C iOS
+
+### Enhancements
+
+- Restrict unnecessary push token update API calls
+
+### Bugs
+
+- Conversation closing on disissing Rate us is fixed
+
+---
+
 ## [2.1.0] - (04/12/19) - A iOS
 
 ### Features

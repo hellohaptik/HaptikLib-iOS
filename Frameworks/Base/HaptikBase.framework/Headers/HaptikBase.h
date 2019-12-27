@@ -47,12 +47,8 @@ FOUNDATION_EXPORT const unsigned char HaptikBaseVersionString[];
 #import <HaptikBase/HPDatePicker.h>
 #import <HaptikBase/HPStringPicker.h>
 
-#import <HaptikBase/HPTextField.h>
-#import <HaptikBase/HPUnderlinedTextField.h>
-
 #import <HaptikBase/HPViewController.h>
 
-#import <HaptikBase/HPKeyboardAdjustingTableView.h>
 #import <HaptikBase/HPKeyboardAdjustingScrollView.h>
 
 #import <HaptikBase/HPAnalyticsService.h>
