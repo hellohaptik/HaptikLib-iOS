@@ -29,8 +29,6 @@
 			<key>CleverTapToken</key>
 			<string></string>
 		</dict>
-		<key>apiKey</key>
-		<string>API_KEY_HERE</string>
 		<key>baseUrl</key>
 		<string>BASE_URL_HERE</string>
 		<key>clientID</key>

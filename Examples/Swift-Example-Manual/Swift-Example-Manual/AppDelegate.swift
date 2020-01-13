@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setHaptikTheme()
         
         return true
-    }        
+    }
 
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         
@@ -54,6 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 
+
 //MARK: Helper Methods
 
 extension AppDelegate {
@@ -64,7 +65,7 @@ extension AppDelegate {
             if let controller = rootVC as? UINavigationController {
                 
                 // You need to pass an instance of a viewController from which the user will be taken to the conversationViewController (where the user will be conversing)
-                // on the tap of the Notificationm
+                // on the tap of the Notification
                 Haptik.sharedSDK().didReceiveRemoteNotification(userInfo, controller: controller.visibleViewController!)
                 
             }

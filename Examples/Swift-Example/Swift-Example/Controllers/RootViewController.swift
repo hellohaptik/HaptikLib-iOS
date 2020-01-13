@@ -39,7 +39,7 @@ class RootViewController: UIViewController {
             
             // Option B
             
-            let conversation = try? Haptik.sharedSDK().getConversationFor(viaName: "channel_via_name")
+            let conversation = try? Haptik.sharedSDK().getConversationFor(viaName: "channel_via_name", launchMessage: "message_to_be_sent_from_user_side", hideLaunchMessage: false)
             if let conversation = conversation {
                 present(conversation, animated: true, completion: nil)
             }
