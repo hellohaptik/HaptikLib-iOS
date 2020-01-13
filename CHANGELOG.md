@@ -2,6 +2,20 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.2.0] - (13/01/20) - A iOS
+
+### Features
+- Enabled launch message capabilities
+
+### Bugs
+
+- Fixed User2 put call parsing
+- Corrected message level feedback views on smaller devices
+- Fixed resend message functionality
+- Fixed user analytics crash
+
+---
+
 ## [2.1.1] - (27/12/19) - C iOS
 
 ### Enhancements
