@@ -35,7 +35,7 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 @interface Haptik : NSObject
 
 /*!
-    Returns the Haptik singleton object
+ Returns the Haptik singleton object
  */
 + (instancetype)sharedSDK;
 
@@ -54,7 +54,8 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  
  @code
  
- HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE" data:^(HPSignUpBuilder * _Nonnull builder) {
+ HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE"
+                                                          data:^(HPSignUpBuilder * _Nonnull builder) {
  
      builder.userFullName = @"John Appleseed";
      builder.userPhoneNumber = @"9870000000";
@@ -68,16 +69,16 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
                      completion:^(BOOL success, __kindof UIViewController * _Nullable viewController, NSError * _Nullable error) {
  
      if (success) {
- 
-        //If via name is provided then after signup the SDK will give back an instance of UIViewController that you can directly push the user too.
-        [self.navigationController pushViewController:viewController animated:YES];
+     
+         //If via name is provided then after signup the SDK will give back an instance of UIViewController that you can directly push the user too.
+         [self.navigationController pushViewController:viewController animated:YES];
      }
      else {
- 
+     
          UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oops!"
                                                                         message:error.localizedDescription
                                                                  preferredStyle:UIAlertControllerStyleAlert];
- 
+         
          UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK"
                                                           style:UIAlertActionStyleCancel
                                                         handler:nil];
@@ -113,11 +114,11 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
                             authType:@"User's Auth Type"
                           completion:^(BOOL success) {
  
-     if (success) {
- 
-     } else {
+            if (success) {
+         
+            } else {
 
-     }
+            }
  }];
  
  @endcode
@@ -160,12 +161,12 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  
  [[Haptik sharedSDK] signoutFromHaptik:^(BOOL success, NSError * _Nullable error) {
  
-     if (success) {
+    if (success) {
  
-     }
-     else {
+    }
+    else {
  
-     }
+    }
  }];
  
  @endcode
@@ -216,17 +217,19 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  #import "MyAppDelegate.h"
  
  // For iOS 10.x & later
- - (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response
- withCompletionHandler:(void(^)(void))completionHandler {
+ - (void)userNotificationCenter:(UNUserNotificationCenter *)center  didReceiveNotificationResponse:(UNNotificationResponse *)response
+          withCompletionHandler:(void(^)(void))completionHandler {
  
  ...
  
  BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
  
  if (canBeHandledByHaptik) {
- NSLog(@"do housekeeping");
- [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
- }
+ 
+    NSLog(@"do housekeeping");
+    [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response
+                                                  controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+    }
  }
  
  // For iOS 9.x
@@ -237,9 +240,11 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
  
  if (canBeHandledByHaptik) {
- NSLog(@"do housekeeping");
- [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
- }
+ 
+    NSLog(@"do housekeeping");
+    [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response
+                                                  controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+    }
  }
  
  @endcode
@@ -261,18 +266,19 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  #import "MyAppDelegate.h"
  
  // For iOS 10.x & later
- - (void)userNotificationCenter:(UNUserNotificationCenter *)center
- didReceiveNotificationResponse:(UNNotificationResponse *)response
- withCompletionHandler:(void(^)(void))completionHandler {
+ - (void)userNotificationCenter:(UNUserNotificationCenter *)center      didReceiveNotificationResponse:(UNNotificationResponse *)response
+          withCompletionHandler:(void(^)(void))completionHandler {
  
  ...
  
  BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
  
  if (canBeHandledByHaptik) {
- NSLog(@"do housekeeping");
- [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
- }
+ 
+    NSLog(@"do housekeeping");
+    [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response
+                                                  controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+    }
  }
  
  @endcode
@@ -301,9 +307,11 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
  
  if (canBeHandledByHaptik) {
- NSLog(@"do housekeeping");
- [[Haptik sharedSDK] didReceiveHaptikRemoteNotification:userInfo controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
- }
+ 
+    NSLog(@"do housekeeping");
+    [[Haptik sharedSDK] didReceiveHaptikRemoteNotification:userInfo
+                                                controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+    }
  }
  
  @endcode
@@ -313,6 +321,32 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 
 
 #pragma mark -
+
+/**
+ Allows SDK clients to take user to a specific channel.
+ @param viaName Represents the string key used to uniquely specify channel inside Haptik
+ @param message String message to be sent from user-side on opening channel screen
+ @param hideLaunchMessage If YES,  will display the message as a part of the chat, else it'll send the message without displaying it to the user
+ @param controller The current view controller over which the channel is expected to be pushed
+ 
+ @code
+ 
+ #import "MyViewController.h"
+ 
+ - (void)openChannelInHaptik {
+ 
+ [[Haptik sharedSDK] launchChannelWith:@"mychannelinhaptik"
+                         launchMessage:@"We wish you have a good time using this SDK"
+                     hideLaunchMessage:NO
+                            controller:controller];
+ }
+ 
+ @endcode
+ */
+- (void)launchChannelWith:(NSString *)viaName
+            launchMessage:(nullable NSString *)message
+        hideLaunchMessage:(BOOL)hideLaunchMessage
+               controller:(__kindof UIViewController *)controller;
 
 /*!
  Allows SDK clients to take user to a specific channel.
@@ -326,24 +360,34 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  
  - (void)openChannelInHaptik {
  
-    [[Haptik sharedSDK] launchChannelWith:@"mychannelinhaptik"
-                                  message:@"We wish you have a good time using this SDK"
-                               controller:self];
+ [[Haptik sharedSDK] launchChannelWith:@"mychannelinhaptik"
+                               message:@"We wish you have a good time using this SDK"
+                            controller:self];
  }
  
  @endcode
  */
 - (void)launchChannelWith:(NSString *)viaName
                   message:(nullable NSString *)message
-               controller:(__kindof UIViewController *)controller;
+               controller:(__kindof UIViewController *)controller __attribute__((deprecated("Use launchChannelWith:launchMessage:hideLaunchMessage:controller: instead")));
 
+/// Gets you an instance of the conversation window
+///
+/// @param viaName Represents the key that haptik uses to find your conversation
+/// @param message String message to be sent from user-side on opening channel screen
+/// @param hideLaunchMessage If YES,  will display the message as a part of the chat, else it'lll send the message without displaying it to the user
+/// @param error It requires an NSError object pointer that will be populated in case of a potential fail during the process
+- (__kindof UIViewController * _Nullable)getConversationForViaName:(NSString *)viaName
+                                                     launchMessage:(nullable NSString *)message
+                                                 hideLaunchMessage:(BOOL)hideLaunchMessage
+                                                             error:(NSError * __autoreleasing *)error;
 
 /// Gets you an instance of the conversation window
 ///
 /// @param viaName Represents the key that haptik uses to find your conversation
 /// @param error It requires an NSError object pointer that will be populated in case of a potential fail during the process
 - (__kindof UIViewController * _Nullable)getConversationForViaName:(NSString *)viaName
-                                                             error:(NSError * __autoreleasing *)error;
+                                                             error:(NSError * __autoreleasing *)error __attribute__((deprecated("Use getConversationForViaName:launchMessage:hideLaunchMessage:error: instead")));
 
 
 /*!
@@ -360,17 +404,17 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  - (void)openChannelInHaptikAndTriggerBot {
  
  [[Haptik sharedSDK] launchChannelToTriggerBotFor:@"mychannelinhaptik"
-                                           message:@"MESSAGE_FOR_TRIGGERING_BOT"
-                                            source:@"SOURCE_HERE"
-                                        controller:self];
+                                          message:@"MESSAGE_FOR_TRIGGERING_BOT"
+                                           source:@"SOURCE_HERE"
+                                    mmmcontroller:self];
  }
  
  @endcode
  */
 - (void)launchChannelToTriggerBotFor:(NSString *)viaName
-                               message:(nullable NSString *)message                           
-                                source:(NSString *)source
-               controller:(__kindof UIViewController *)controller;
+                             message:(nullable NSString *)message
+                              source:(NSString *)source
+                          controller:(__kindof UIViewController *)controller;
 
 
 /*!

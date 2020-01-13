@@ -90,6 +90,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// Optional attribute if provided then after signup the SDK will give back an instance of UIViewController that you can directly push the user too.
 @property (nullable, nonatomic, readonly) NSString *viaName;
 
+/// Optioanal attribute if provided the chat will be initiated with this custom launch message
+@property (nullable, nonatomic, readonly) NSString *launchMessage;
+
+/// If YES then the launch message passed will not be visible to the user in the chat.
+/// Message will be sent to the backend in both the cases.
+/// Defaults to NO
+@property (assign) BOOL hideLaunchMessage;
+
 @end
 
 
@@ -110,6 +118,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) NSString *authID;
 
 @property (nonatomic) NSString *viaName;
+
+@property (nonatomic) NSString *launchMessage;
+
+@property (assign) BOOL hideLaunchMessage;
 
 - (HPSignUpObject *)buildWithAuthType:(NSString *)authType;
 

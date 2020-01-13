@@ -12,6 +12,8 @@
 #define HPScreenWidth UIScreen.mainScreen.bounds.size.width
 #define HPScreenHeight UIScreen.mainScreen.bounds.size.height
 
+#define HPScreenPadding MIN(HPScreenWidth*0.02,8)
+
 #pragma mark - HaptikLib Credential Keys
 
 FOUNDATION_EXPORT NSString *const HPCredentialsDict;
