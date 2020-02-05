@@ -61,8 +61,10 @@ class RootViewController: UIViewController {
                 
                 if success {
                     
-                    // From here you can either push to the specific conversation controller if you pass in the via name in the builder
+                    let deviceToken = UserDefaults.standard.object(forKey: "kDeviceToken") as! Data
+                    Haptik.sharedSDK().setDeviceToken(deviceToken)
                     
+                    // From here you can either push to the specific conversation controller if you pass in the via name in the builder
                     if let initialVC = initialVC {
                         self.present(initialVC, animated: true, completion: nil)
                     }

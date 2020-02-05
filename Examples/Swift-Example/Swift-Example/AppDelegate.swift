@@ -9,6 +9,7 @@
 import UIKit
 import HaptikLib
 import HaptikBase
+import UserNotifications;
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -31,13 +32,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }    
+}
 
+
+// MARK: Notification Helpers
+
+extension AppDelegate {
+    
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         
         // You need to pass the Device Token after the user successfully signs up in Haptik. Till that you need to store it in your application.
         
         UserDefaults.standard.set(deviceToken, forKey: "kDeviceToken")
         UserDefaults.standard.synchronize()
+        
+        Haptik.sharedSDK().setDeviceToken(deviceToken)
     }
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
@@ -50,6 +59,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             print("Do Housekeeping")
             handleNotificationInteraction(userInfo as! [String : Any])
+        }
+    }
+    
+    @available(iOS 10.0, *)
+    func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                didReceive response: UNNotificationResponse,
+                                withCompletionHandler completionHandler: @escaping () -> Void) {
+
+        // Check if the notification received belongs to haptik and take action accordingly
+
+        let userInfo = response.notification.request.content.userInfo as! [String : Any]
+        let isHaptikNotification = Haptik.sharedSDK().canHandleNotification(userInfo: userInfo)
+
+        if isHaptikNotification {
+
+            print("Do Housekeeping")
+            handleNotificationInteraction(userInfo)
         }
     }
 }
