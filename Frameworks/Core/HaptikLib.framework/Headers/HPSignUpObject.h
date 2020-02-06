@@ -90,6 +90,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// Optional attribute if provided then after signup the SDK will give back an instance of UIViewController that you can directly push the user too.
 @property (nullable, nonatomic, readonly) NSString *viaName;
 
+/// Optional attribute if provided, this data will be logged in the backend and will be used in the chat flows acording to the business contract.
+@property (nullable, nonatomic, readonly) NSDictionary<NSString *, NSString *> *customData;
+
 /// Optioanal attribute if provided the chat will be initiated with this custom launch message
 @property (nullable, nonatomic, readonly) NSString *launchMessage;
 
@@ -118,6 +121,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) NSString *authID;
 
 @property (nonatomic) NSString *viaName;
+
+@property (nonatomic) NSDictionary<NSString *, NSString *> *customData;
 
 @property (nonatomic) NSString *launchMessage;
 

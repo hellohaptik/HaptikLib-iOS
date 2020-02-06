@@ -183,13 +183,13 @@ ___copy_helper_block_e8_32s40s48w
 ___destroy_helper_block_e8_32s40s48w
 -[HPMessageFeedbackOverlayVC submitFeedback]
 ___44-[HPMessageFeedbackOverlayVC submitFeedback]_block_invoke
-___44-[HPMessageFeedbackOverlayVC submitFeedback]_block_invoke.429
+___44-[HPMessageFeedbackOverlayVC submitFeedback]_block_invoke.399
 ___copy_helper_block_e8_32b
 -[HPMessageFeedbackOverlayVC cancel]
 -[HPMessageFeedbackOverlayVC scrollViewDidScroll:]
 -[HPMessageFeedbackOverlayVC dismiss]
 ___37-[HPMessageFeedbackOverlayVC dismiss]_block_invoke
-___37-[HPMessageFeedbackOverlayVC dismiss]_block_invoke.445
+___37-[HPMessageFeedbackOverlayVC dismiss]_block_invoke.415
 -[HPMessageFeedbackOverlayVC presentFeedbackView]
 ___49-[HPMessageFeedbackOverlayVC presentFeedbackView]_block_invoke
 -[HPMessageFeedbackOverlayVC getTopPaddingForOverlay]
@@ -238,10 +238,10 @@ __OBJC_LABEL_PROTOCOL_$_UITextFieldDelegate
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Feedback Views/Feedback Overlay VC/HPMessageFeedbackOverlayVC.m
 HaptikLib/Views/Message Feedback Views/Feedback Overlay VC/HPMessageFeedbackOverlayVC.m
 __49-[HPMessageFeedbackOverlayVC presentFeedbackView]_block_invoke
-__37-[HPMessageFeedbackOverlayVC dismiss]_block_invoke.445
+__37-[HPMessageFeedbackOverlayVC dismiss]_block_invoke.415
 __37-[HPMessageFeedbackOverlayVC dismiss]_block_invoke
 __copy_helper_block_e8_32b
-__44-[HPMessageFeedbackOverlayVC submitFeedback]_block_invoke.429
+__44-[HPMessageFeedbackOverlayVC submitFeedback]_block_invoke.399
 __44-[HPMessageFeedbackOverlayVC submitFeedback]_block_invoke
 __destroy_helper_block_e8_32s40s48w
 __copy_helper_block_e8_32s40s48w
@@ -265,9 +265,9 @@ __55-[HPMessageFeedbackOverlayVC getSuggestedResponsesView]_block_invoke
 -[HPMessageInputToolbar configureInitialLayoutForComposerType:]
 -[HPMessageInputToolbar updateComposerStateTo:]
 ___47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke
-___47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.230
-___47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.242
-___47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.243
+___47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.200
+___47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.212
+___47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.213
 -[HPMessageInputToolbar setupMic]
 -[HPMessageInputToolbar showBigMicButton]
 ___41-[HPMessageInputToolbar showBigMicButton]_block_invoke
@@ -306,9 +306,9 @@ HaptikLib/Views/Message Composer/Message Input Toolbar/HPMessageInputToolbar.m
 HaptikLib/Views/Message Composer/Message Input Toolbar/HPMessageInputToolbar.h
 __41-[HPMessageInputToolbar hideBigMicButton]_block_invoke
 __41-[HPMessageInputToolbar showBigMicButton]_block_invoke
-__47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.243
-__47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.242
-__47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.230
+__47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.213
+__47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.212
+__47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.200
 __47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke
 +[DDLog sharedInstance]
 ___23+[DDLog sharedInstance]_block_invoke
@@ -746,7 +746,7 @@ ___93+[ChatformViewHelper getContactPickerField:formFields:actionHelper:sendButt
 +[ChatformViewHelper getSendButtonWith:formFields:referenceRect:actionHelper:]
 +[ChatformViewHelper getFinalChatformViewWith:chatMessage:]
 ___block_descriptor_32_e25_B24?08"NSDictionary"16l
-___block_literal_global.270
+___block_literal_global.242
 ___block_descriptor_48_e8_32s40w_e18_v16?0"NSString"8l
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Chatforms/ChatformViewHelper.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/Chatforms/ChatformViewHelper.m
@@ -797,31 +797,31 @@ HaptikLib/Model Objects/Carousel Object/Carousel.h
 ___63+[MessageLogger tryInsertingChatMessageFromBackend:completion:]_block_invoke
 ___copy_helper_block_e8_32s40r48r
 ___destroy_helper_block_e8_32s40r48r
-___63+[MessageLogger tryInsertingChatMessageFromBackend:completion:]_block_invoke.269
+___63+[MessageLogger tryInsertingChatMessageFromBackend:completion:]_block_invoke.241
 ___copy_helper_block_e8_32b40r48r
 +[MessageLogger insertBackendMessage:sourceType:forDate:messageID:sortID:agentName:business:completion:]
 ___104+[MessageLogger insertBackendMessage:sourceType:forDate:messageID:sortID:agentName:business:completion:]_block_invoke
 ___copy_helper_block_e8_32s48s56s64s72s80s88r96r
 ___destroy_helper_block_e8_32s48s56s64s72s80s88r96r
-___104+[MessageLogger insertBackendMessage:sourceType:forDate:messageID:sortID:agentName:business:completion:]_block_invoke.277
+___104+[MessageLogger insertBackendMessage:sourceType:forDate:messageID:sortID:agentName:business:completion:]_block_invoke.249
 +[MessageLogger insertMessageOnBehalfOfBackend:inBusinessWithViaName:]
 ___70+[MessageLogger insertMessageOnBehalfOfBackend:inBusinessWithViaName:]_block_invoke
 +[MessageLogger insertUserMessage:chatMessageType:sourceType:forDate:sendStatus:business:completion:]
 ___101+[MessageLogger insertUserMessage:chatMessageType:sourceType:forDate:sendStatus:business:completion:]_block_invoke
 ___copy_helper_block_e8_32s48s56s64s72r
 ___destroy_helper_block_e8_32s48s56s64s72r
-___101+[MessageLogger insertUserMessage:chatMessageType:sourceType:forDate:sendStatus:business:completion:]_block_invoke.305
+___101+[MessageLogger insertUserMessage:chatMessageType:sourceType:forDate:sendStatus:business:completion:]_block_invoke.277
 ___copy_helper_block_e8_32b40r
 +[MessageLogger insertImageWithMessage:chatMessageType:sourceType:forDate:messageID:sortID:business:completion:]
 ___112+[MessageLogger insertImageWithMessage:chatMessageType:sourceType:forDate:messageID:sortID:business:completion:]_block_invoke
 ___copy_helper_block_e8_32s48s56s64s72s80r
 ___destroy_helper_block_e8_32s48s56s64s72s80r
-___112+[MessageLogger insertImageWithMessage:chatMessageType:sourceType:forDate:messageID:sortID:business:completion:]_block_invoke.307
+___112+[MessageLogger insertImageWithMessage:chatMessageType:sourceType:forDate:messageID:sortID:business:completion:]_block_invoke.279
 +[MessageLogger createSpeechMessageInBusiness:completion:]
 ___58+[MessageLogger createSpeechMessageInBusiness:completion:]_block_invoke
 ___copy_helper_block_e8_40s48r
 ___destroy_helper_block_e8_40s48r
-___58+[MessageLogger createSpeechMessageInBusiness:completion:]_block_invoke.311
+___58+[MessageLogger createSpeechMessageInBusiness:completion:]_block_invoke.283
 +[MessageLogger createSpeedTestMessageInBusiness:withMessage:source:]
 ___69+[MessageLogger createSpeedTestMessageInBusiness:withMessage:source:]_block_invoke
 ___copy_helper_block_e8_32s48s56r
@@ -830,10 +830,10 @@ ___destroy_helper_block_e8_32s48s56r
 ___112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke
 ___copy_helper_block_e8_40s48s56s64s72s80s
 ___destroy_helper_block_e8_40s48s56s64s72s80s
-___112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke.334
+___112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke.306
 +[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]
 ___95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke
-___95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke.341
+___95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke.313
 ___block_descriptor_56_e8_32s40r48r_e5_v8?0l
 ___block_descriptor_56_e8_32bs40r48r_e17_v16?0"NSError"8l
 ___block_descriptor_112_e8_32s48s56s64s72s80s88r96r_e5_v8?0l
@@ -847,36 +847,36 @@ ___block_descriptor_89_e8_40s48s56s64s72s80s_e5_v8?0l
 ___block_descriptor_40_e8_32bs_e17_v16?0"NSError"8l
 ___block_descriptor_96_e8_32s48s56s64s72s80r_e5_v8?0l
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Database Logger/MessageLogger.m
-__95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke.341
+__95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke.313
 HaptikLib/Modules/Messaging Service/Database Logger/MessageLogger.m
 __95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke
-__112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke.334
+__112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke.306
 __destroy_helper_block_e8_40s48s56s64s72s80s
 __copy_helper_block_e8_40s48s56s64s72s80s
 __112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke
 __destroy_helper_block_e8_32s48s56r
 __copy_helper_block_e8_32s48s56r
 __69+[MessageLogger createSpeedTestMessageInBusiness:withMessage:source:]_block_invoke
-__58+[MessageLogger createSpeechMessageInBusiness:completion:]_block_invoke.311
+__58+[MessageLogger createSpeechMessageInBusiness:completion:]_block_invoke.283
 __destroy_helper_block_e8_40s48r
 __copy_helper_block_e8_40s48r
 __58+[MessageLogger createSpeechMessageInBusiness:completion:]_block_invoke
-__112+[MessageLogger insertImageWithMessage:chatMessageType:sourceType:forDate:messageID:sortID:business:completion:]_block_invoke.307
+__112+[MessageLogger insertImageWithMessage:chatMessageType:sourceType:forDate:messageID:sortID:business:completion:]_block_invoke.279
 __destroy_helper_block_e8_32s48s56s64s72s80r
 __copy_helper_block_e8_32s48s56s64s72s80r
 __112+[MessageLogger insertImageWithMessage:chatMessageType:sourceType:forDate:messageID:sortID:business:completion:]_block_invoke
 __copy_helper_block_e8_32b40r
-__101+[MessageLogger insertUserMessage:chatMessageType:sourceType:forDate:sendStatus:business:completion:]_block_invoke.305
+__101+[MessageLogger insertUserMessage:chatMessageType:sourceType:forDate:sendStatus:business:completion:]_block_invoke.277
 __destroy_helper_block_e8_32s48s56s64s72r
 __copy_helper_block_e8_32s48s56s64s72r
 __101+[MessageLogger insertUserMessage:chatMessageType:sourceType:forDate:sendStatus:business:completion:]_block_invoke
 __70+[MessageLogger insertMessageOnBehalfOfBackend:inBusinessWithViaName:]_block_invoke
-__104+[MessageLogger insertBackendMessage:sourceType:forDate:messageID:sortID:agentName:business:completion:]_block_invoke.277
+__104+[MessageLogger insertBackendMessage:sourceType:forDate:messageID:sortID:agentName:business:completion:]_block_invoke.249
 __destroy_helper_block_e8_32s48s56s64s72s80s88r96r
 __copy_helper_block_e8_32s48s56s64s72s80s88r96r
 __104+[MessageLogger insertBackendMessage:sourceType:forDate:messageID:sortID:agentName:business:completion:]_block_invoke
 __copy_helper_block_e8_32b40r48r
-__63+[MessageLogger tryInsertingChatMessageFromBackend:completion:]_block_invoke.269
+__63+[MessageLogger tryInsertingChatMessageFromBackend:completion:]_block_invoke.241
 __destroy_helper_block_e8_32s40r48r
 __copy_helper_block_e8_32s40r48r
 __63+[MessageLogger tryInsertingChatMessageFromBackend:completion:]_block_invoke
@@ -990,7 +990,7 @@ ___copy_helper_block_e8_32s40b48w
 -[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]
 ___76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke
 ___76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke_2
-___76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke.358
+___76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke.330
 ___copy_helper_block_e8_32s40s48s
 ___destroy_helper_block_e8_32s40s48s
 -[MQTTSessionDelegate handleEvent:event:error:]
@@ -1019,7 +1019,7 @@ __47-[MQTTSessionDelegate handleEvent:event:error:]_block_invoke_2
 __47-[MQTTSessionDelegate handleEvent:event:error:]_block_invoke
 __destroy_helper_block_e8_32s40s48s
 __copy_helper_block_e8_32s40s48s
-__76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke.358
+__76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke.330
 __76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke_2
 __76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke
 __copy_helper_block_e8_32s40b48w
@@ -1042,14 +1042,14 @@ ___destroy_helper_block_e8_40s48s56s64s
 +[MessageWrapper forwardMessageToAppropriateChannel:messageString:messageType:actionHelper:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]
 +[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]
 ___162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke
-___162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke.1012
+___162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke.588
 ___162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke_2
 ___copy_helper_block_e8_32s40s56s64s72b
 ___destroy_helper_block_e8_32s40s56s64s72s
 +[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]
 ___160+[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]_block_invoke
 ___160+[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]_block_invoke_2
-___160+[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]_block_invoke.1034
+___160+[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]_block_invoke.610
 +[MessageWrapper performSendingSuccessOperationsWith:messageType:business:data:queueResendAnalytics:completion:]
 ___112+[MessageWrapper performSendingSuccessOperationsWith:messageType:business:data:queueResendAnalytics:completion:]_block_invoke
 ___112+[MessageWrapper performSendingSuccessOperationsWith:messageType:business:data:queueResendAnalytics:completion:]_block_invoke_2
@@ -1083,13 +1083,13 @@ __copy_helper_block_e8_32b40s48s
 __112+[MessageWrapper performSendingSuccessOperationsWith:messageType:business:data:queueResendAnalytics:completion:]_block_invoke_3
 __112+[MessageWrapper performSendingSuccessOperationsWith:messageType:business:data:queueResendAnalytics:completion:]_block_invoke_2
 __112+[MessageWrapper performSendingSuccessOperationsWith:messageType:business:data:queueResendAnalytics:completion:]_block_invoke
-__160+[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]_block_invoke.1034
+__160+[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]_block_invoke.610
 __160+[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]_block_invoke_2
 __160+[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]_block_invoke
 __destroy_helper_block_e8_32s40s56s64s72s
 __copy_helper_block_e8_32s40s56s64s72b
 __162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke_2
-__162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke.1012
+__162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke.588
 __162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke
 __destroy_helper_block_e8_40s48s56s64s
 __copy_helper_block_e8_40s48s56s64b
@@ -1106,7 +1106,7 @@ __105+[MessageWrapper sendMessage:messageType:chatMessageType:sourceType:actionH
 -[MHGalleryImageViewerViewController viewDidLoad]
 ___49-[MHGalleryImageViewerViewController viewDidLoad]_block_invoke
 __MASBoxValue
-___49-[MHGalleryImageViewerViewController viewDidLoad]_block_invoke.966
+___49-[MHGalleryImageViewerViewController viewDidLoad]_block_invoke.540
 ___49-[MHGalleryImageViewerViewController viewDidLoad]_block_invoke_2
 ___49-[MHGalleryImageViewerViewController viewDidLoad]_block_invoke_3
 ___49-[MHGalleryImageViewerViewController viewDidLoad]_block_invoke_4
@@ -1207,7 +1207,7 @@ ___62-[MHGalleryImageViewerViewController setViewMovedUp:withInfo:]_block_invoke
 -[MHImageViewController userDidPan:]
 -[MHImageViewController initWithMHMediaItem:viewController:]
 ___60-[MHImageViewController initWithMHMediaItem:viewController:]_block_invoke
-___60-[MHImageViewController initWithMHMediaItem:viewController:]_block_invoke.1829
+___60-[MHImageViewController initWithMHMediaItem:viewController:]_block_invoke.1403
 -[MHImageViewController setImageForImageViewWithImage:error:]
 -[MHImageViewController changeToErrorImage]
 -[MHImageViewController changePlayButtonToUnPlay]
@@ -1240,8 +1240,8 @@ ___39-[MHImageViewController viewDidAppear:]_block_invoke
 -[MHImageViewController handelImageTap:]
 ___40-[MHImageViewController handelImageTap:]_block_invoke
 ___40-[MHImageViewController handelImageTap:]_block_invoke_2
-___40-[MHImageViewController handelImageTap:]_block_invoke.1979
-___40-[MHImageViewController handelImageTap:]_block_invoke_2.1980
+___40-[MHImageViewController handelImageTap:]_block_invoke.1553
+___40-[MHImageViewController handelImageTap:]_block_invoke_2.1554
 -[MHImageViewController handleDoubleTap:]
 -[MHImageViewController viewForZoomingInScrollView:]
 -[MHImageViewController prepareToResize]
@@ -1398,12 +1398,12 @@ _OBJC_IVAR_$_MHImageViewController._shouldPlayVideo
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHGalleryImageViewerViewController/MHGalleryImageViewerViewController.m
 HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHGalleryImageViewerViewController/MHGalleryImageViewerViewController.m
 HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHGalleryImageViewerViewController/MHGalleryImageViewerViewController.h
-__40-[MHImageViewController handelImageTap:]_block_invoke_2.1980
-__40-[MHImageViewController handelImageTap:]_block_invoke.1979
+__40-[MHImageViewController handelImageTap:]_block_invoke_2.1554
+__40-[MHImageViewController handelImageTap:]_block_invoke.1553
 __40-[MHImageViewController handelImageTap:]_block_invoke_2
 __40-[MHImageViewController handelImageTap:]_block_invoke
 __39-[MHImageViewController viewDidAppear:]_block_invoke
-__60-[MHImageViewController initWithMHMediaItem:viewController:]_block_invoke.1829
+__60-[MHImageViewController initWithMHMediaItem:viewController:]_block_invoke.1403
 __60-[MHImageViewController initWithMHMediaItem:viewController:]_block_invoke
 __62-[MHGalleryImageViewerViewController setViewMovedUp:withInfo:]_block_invoke
 __50-[MHGalleryImageViewerViewController sendMessage:]_block_invoke
@@ -1413,7 +1413,7 @@ __60-[MHGalleryImageViewerViewController viewWillLayoutSubviews]_block_invoke
 __49-[MHGalleryImageViewerViewController viewDidLoad]_block_invoke_4
 __49-[MHGalleryImageViewerViewController viewDidLoad]_block_invoke_3
 __49-[MHGalleryImageViewerViewController viewDidLoad]_block_invoke_2
-__49-[MHGalleryImageViewerViewController viewDidLoad]_block_invoke.966
+__49-[MHGalleryImageViewerViewController viewDidLoad]_block_invoke.540
 _MASBoxValue
 HaptikLib/Helpers/Masonry/MASUtilities.h
 __49-[MHGalleryImageViewerViewController viewDidLoad]_block_invoke
@@ -1521,7 +1521,7 @@ ___46-[MHTransitionShowOverView animateTransition:]_block_invoke
 ___46-[MHTransitionShowOverView animateTransition:]_block_invoke_2
 ___copy_helper_block_e8_32s40s48s56s
 ___destroy_helper_block_e8_32s40s48s56s
-___46-[MHTransitionShowOverView animateTransition:]_block_invoke.166
+___46-[MHTransitionShowOverView animateTransition:]_block_invoke.136
 ___copy_helper_block_e8_32s40s48s56s64s
 ___destroy_helper_block_e8_32s40s48s56s64s
 ___copy_helper_block_e8_32s40s48s56s64s72s80s
@@ -1531,7 +1531,7 @@ ___destroy_helper_block_e8_32s40s48s56s64s72s80s
 ___55-[MHTransitionShowOverView startInteractiveTransition:]_block_invoke
 -[MHTransitionShowOverView finishInteractiveTransition]
 ___55-[MHTransitionShowOverView finishInteractiveTransition]_block_invoke
-___55-[MHTransitionShowOverView finishInteractiveTransition]_block_invoke.235
+___55-[MHTransitionShowOverView finishInteractiveTransition]_block_invoke.205
 -[MHTransitionShowOverView cancelInteractiveTransition]
 ___55-[MHTransitionShowOverView cancelInteractiveTransition]_block_invoke
 ___55-[MHTransitionShowOverView cancelInteractiveTransition]_block_invoke_2
@@ -1593,14 +1593,14 @@ HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/Transitions/MHTransi
 HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/Transitions/MHTransitionShowOverView.h
 __55-[MHTransitionShowOverView cancelInteractiveTransition]_block_invoke_2
 __55-[MHTransitionShowOverView cancelInteractiveTransition]_block_invoke
-__55-[MHTransitionShowOverView finishInteractiveTransition]_block_invoke.235
+__55-[MHTransitionShowOverView finishInteractiveTransition]_block_invoke.205
 __55-[MHTransitionShowOverView finishInteractiveTransition]_block_invoke
 __55-[MHTransitionShowOverView startInteractiveTransition:]_block_invoke
 __destroy_helper_block_e8_32s40s48s56s64s72s80s
 __copy_helper_block_e8_32s40s48s56s64s72s80s
 __destroy_helper_block_e8_32s40s48s56s64s
 __copy_helper_block_e8_32s40s48s56s64s
-__46-[MHTransitionShowOverView animateTransition:]_block_invoke.166
+__46-[MHTransitionShowOverView animateTransition:]_block_invoke.136
 __destroy_helper_block_e8_32s40s48s56s
 __copy_helper_block_e8_32s40s48s56s
 __46-[MHTransitionShowOverView animateTransition:]_block_invoke_2
@@ -1842,16 +1842,16 @@ __38-[MASCompositeConstraint multipliedBy]_block_invoke
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Base Item/BaseItem.m
 +[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBusiness:insertionDate:]
 ___98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBusiness:insertionDate:]_block_invoke
-___98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBusiness:insertionDate:]_block_invoke.247
+___98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBusiness:insertionDate:]_block_invoke.219
 ___98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBusiness:insertionDate:]_block_invoke_2
 ___block_descriptor_48_e8_32s40s_e30_v24?0"NSString"8"NSError"16l
 ___block_descriptor_32_e22_v16?0"NSDictionary"8l
 ___block_descriptor_32_e17_v16?0"NSError"8l
-___block_literal_global.250
+___block_literal_global.222
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Sender Wrapper/HPNativeActions/MessageWrapper+HPNativeActions.m
 __98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBusiness:insertionDate:]_block_invoke_2
 HaptikLib/Modules/Messaging Service/Sender Wrapper/HPNativeActions/MessageWrapper+HPNativeActions.m
-__98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBusiness:insertionDate:]_block_invoke.247
+__98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBusiness:insertionDate:]_block_invoke.219
 __98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBusiness:insertionDate:]_block_invoke
 -[ConversationViewModel(HPComposerBar) didPressLeftButton:]
 -[ConversationViewModel(HPComposerBar) didPressRightButton:]
@@ -2179,7 +2179,7 @@ ___61-[ConversationViewModel addAutoLaunchURLNotificationListener]_block_invoke
 -[ConversationViewModel setQuickReplyCellToAnimate:]
 -[ConversationViewModel handleQuickReplyTappedAnimationForCell:]
 ___64-[ConversationViewModel handleQuickReplyTappedAnimationForCell:]_block_invoke
-___64-[ConversationViewModel handleQuickReplyTappedAnimationForCell:]_block_invoke.1292
+___64-[ConversationViewModel handleQuickReplyTappedAnimationForCell:]_block_invoke.868
 -[ConversationViewModel getCellHeightFor:]
 -[ConversationViewModel initTableView]
 -[ConversationViewModel tableView:numberOfRowsInSection:]
@@ -2242,7 +2242,7 @@ _OBJC_IVAR_$_ConversationViewModel._feedbackManager
 HaptikLib/View Controllers/Conversations/View Model/ConversationViewModel.m
 HaptikLib/View Controllers/Conversations/View Model/ConversationViewModel.h
 __65-[ConversationViewModel scrollViewDidEndDragging:willDecelerate:]_block_invoke
-__64-[ConversationViewModel handleQuickReplyTappedAnimationForCell:]_block_invoke.1292
+__64-[ConversationViewModel handleQuickReplyTappedAnimationForCell:]_block_invoke.868
 __64-[ConversationViewModel handleQuickReplyTappedAnimationForCell:]_block_invoke
 __61-[ConversationViewModel addAutoLaunchURLNotificationListener]_block_invoke
 __70-[ConversationViewModel addUpdateChatMessagesCellNotificationListener]_block_invoke
@@ -2270,17 +2270,17 @@ HaptikLib/Views/Image Views/Conversation Image View/ConversationImageView.m
 HaptikLib/Views/Image Views/Conversation Image View/ConversationImageView.h
 -[MHTransitionDismissMHGallery animateTransition:]
 ___50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke
-___50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke.174
+___50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke.144
 ___50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke_2
 ___50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke_3
-___50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke.183
+___50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke.153
 ___copy_helper_block_e8_32s40s48s56s64s72s
 ___destroy_helper_block_e8_32s40s48s56s64s72s
 -[MHTransitionDismissMHGallery startInteractiveTransition:]
 -[MHTransitionDismissMHGallery updateInteractiveTransition:]
 -[MHTransitionDismissMHGallery finishInteractiveTransition]
 ___59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke
-___59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke.227
+___59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke.197
 ___59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke_2
 ___59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke_3
 ___59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke_4
@@ -2356,14 +2356,14 @@ __59-[MHTransitionDismissMHGallery cancelInteractiveTransition]_block_invoke
 __59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke_4
 __59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke_3
 __59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke_2
-__59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke.227
+__59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke.197
 __59-[MHTransitionDismissMHGallery finishInteractiveTransition]_block_invoke
 __destroy_helper_block_e8_32s40s48s56s64s72s
 __copy_helper_block_e8_32s40s48s56s64s72s
-__50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke.183
+__50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke.153
 __50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke_3
 __50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke_2
-__50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke.174
+__50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke.144
 __50-[MHTransitionDismissMHGallery animateTransition:]_block_invoke
 +[DDTTYLogger initialize_colors_16]
 +[DDTTYLogger initialize_colors_256]
@@ -2463,7 +2463,7 @@ HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/Me
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/MessagePayload.h
 -[MHTransitionShowDetail animateTransition:]
 ___44-[MHTransitionShowDetail animateTransition:]_block_invoke
-___44-[MHTransitionShowDetail animateTransition:]_block_invoke.139
+___44-[MHTransitionShowDetail animateTransition:]_block_invoke.109
 ___44-[MHTransitionShowDetail animateTransition:]_block_invoke_2
 ___44-[MHTransitionShowDetail animateTransition:]_block_invoke_3
 ___44-[MHTransitionShowDetail animateTransition:]_block_invoke_4
@@ -2473,12 +2473,12 @@ ___44-[MHTransitionShowDetail animateTransition:]_block_invoke_5
 ___53-[MHTransitionShowDetail startInteractiveTransition:]_block_invoke
 -[MHTransitionShowDetail finishInteractiveTransition]
 ___53-[MHTransitionShowDetail finishInteractiveTransition]_block_invoke
-___53-[MHTransitionShowDetail finishInteractiveTransition]_block_invoke.204
+___53-[MHTransitionShowDetail finishInteractiveTransition]_block_invoke.174
 ___53-[MHTransitionShowDetail finishInteractiveTransition]_block_invoke_2
-___53-[MHTransitionShowDetail finishInteractiveTransition]_block_invoke.205
+___53-[MHTransitionShowDetail finishInteractiveTransition]_block_invoke.175
 -[MHTransitionShowDetail cancelInteractiveTransition]
 ___53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke
-___53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke.210
+___53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke.180
 ___53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke_2
 ___53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke_3
 ___53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke_4
@@ -2540,18 +2540,18 @@ __53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke_5
 __53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke_4
 __53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke_3
 __53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke_2
-__53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke.210
+__53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke.180
 __53-[MHTransitionShowDetail cancelInteractiveTransition]_block_invoke
-__53-[MHTransitionShowDetail finishInteractiveTransition]_block_invoke.205
+__53-[MHTransitionShowDetail finishInteractiveTransition]_block_invoke.175
 __53-[MHTransitionShowDetail finishInteractiveTransition]_block_invoke_2
-__53-[MHTransitionShowDetail finishInteractiveTransition]_block_invoke.204
+__53-[MHTransitionShowDetail finishInteractiveTransition]_block_invoke.174
 __53-[MHTransitionShowDetail finishInteractiveTransition]_block_invoke
 __53-[MHTransitionShowDetail startInteractiveTransition:]_block_invoke
 __44-[MHTransitionShowDetail animateTransition:]_block_invoke_5
 __44-[MHTransitionShowDetail animateTransition:]_block_invoke_4
 __44-[MHTransitionShowDetail animateTransition:]_block_invoke_3
 __44-[MHTransitionShowDetail animateTransition:]_block_invoke_2
-__44-[MHTransitionShowDetail animateTransition:]_block_invoke.139
+__44-[MHTransitionShowDetail animateTransition:]_block_invoke.109
 __44-[MHTransitionShowDetail animateTransition:]_block_invoke
 -[ImageCollectionViewCell initWithFrame:]
 -[ImageCollectionViewCell initSubviews]
@@ -2566,7 +2566,7 @@ HaptikLib/Views/Collection View Cells/Image Gallery Cell/ImageCollectionViewCell
 -[ChatMessages setSmartAction:]
 +[ChatMessages getMaxMessageIDFromContext:completion:]
 ___54+[ChatMessages getMaxMessageIDFromContext:completion:]_block_invoke
-___54+[ChatMessages getMaxMessageIDFromContext:completion:]_block_invoke.285
+___54+[ChatMessages getMaxMessageIDFromContext:completion:]_block_invoke.253
 ___54+[ChatMessages getMaxMessageIDFromContext:completion:]_block_invoke_2
 +[ChatMessages disableQuickRepliesIn:]
 +[ChatMessages getChatformMessageInBusiness:]
@@ -2580,7 +2580,7 @@ _OBJC_IVAR_$_ChatMessages.feedbackInfo
 HaptikLib/Model Objects/Core Data Objects/Chat Messages/ChatMessages+CoreDataClass.m
 HaptikLib/Model Objects/Core Data Objects/Chat Messages/ChatMessages+CoreDataClass.h
 __54+[ChatMessages getMaxMessageIDFromContext:completion:]_block_invoke_2
-__54+[ChatMessages getMaxMessageIDFromContext:completion:]_block_invoke.285
+__54+[ChatMessages getMaxMessageIDFromContext:completion:]_block_invoke.253
 __54+[ChatMessages getMaxMessageIDFromContext:completion:]_block_invoke
 -[DDContextWhitelistFilterLogFormatter init]
 -[DDContextWhitelistFilterLogFormatter addToWhitelist:]
@@ -3424,14 +3424,12 @@ ___49+[HPUserService performUser2PostWith:completion:]_block_invoke
 ___42+[HPUserService updateUserWithCompletion:]_block_invoke
 ___copy_helper_block_e8_40b
 ___destroy_helper_block_e8_40s
-+[HPUserService upateUserDetailsWithCompletion:]
-___48+[HPUserService upateUserDetailsWithCompletion:]_block_invoke
 +[HPUserService fireUserPutRequestWith:completion:]
 ___51+[HPUserService fireUserPutRequestWith:completion:]_block_invoke
 +[HPUserService fireUser2PutRequestWithoutParsingWith:completion:]
 ___66+[HPUserService fireUser2PutRequestWithoutParsingWith:completion:]_block_invoke
-+[HPUserService updateUserWithRefreshedTokenDict:completion:]
-___61+[HPUserService updateUserWithRefreshedTokenDict:completion:]_block_invoke
++[HPUserService updateUserWith:completion:]
+___43+[HPUserService updateUserWith:completion:]_block_invoke
 +[HPUserService getUser2PutOnlineParametersWithUnreadCount:]
 +[HPUserService parseUserPutSuccessResponseWith:]
 +[HPUserService signoutUserWithCompletion:]
@@ -3448,10 +3446,9 @@ ___block_descriptor_56_e8_40s48bs_e8_v16?0Q8l
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/User Service/HPUserService.m
 HaptikLib/Modules/User Service/HPUserService.m
 __43+[HPUserService signoutUserWithCompletion:]_block_invoke
-__61+[HPUserService updateUserWithRefreshedTokenDict:completion:]_block_invoke
+__43+[HPUserService updateUserWith:completion:]_block_invoke
 __66+[HPUserService fireUser2PutRequestWithoutParsingWith:completion:]_block_invoke
 __51+[HPUserService fireUserPutRequestWith:completion:]_block_invoke
-__48+[HPUserService upateUserDetailsWithCompletion:]_block_invoke
 __destroy_helper_block_e8_40s
 __copy_helper_block_e8_40b
 __42+[HPUserService updateUserWithCompletion:]_block_invoke
@@ -3595,6 +3592,20 @@ SSLServerTrustIsValid
 SSLCertificateTrustChainForServerTrust
 SSLPublicKeyForCertificate
 __50+[MQTTSSLSecurityPolicy defaultPinnedCertificates]_block_invoke
+-[ConversationViewController(LaunchOperations) addLaunchOperationsWithMessage:messageType:conversationType:toBlockOperations:]
+___126-[ConversationViewController(LaunchOperations) addLaunchOperationsWithMessage:messageType:conversationType:toBlockOperations:]_block_invoke
+___126-[ConversationViewController(LaunchOperations) addLaunchOperationsWithMessage:messageType:conversationType:toBlockOperations:]_block_invoke.199
+___126-[ConversationViewController(LaunchOperations) addLaunchOperationsWithMessage:messageType:conversationType:toBlockOperations:]_block_invoke_2
+___126-[ConversationViewController(LaunchOperations) addLaunchOperationsWithMessage:messageType:conversationType:toBlockOperations:]_block_invoke.210
+-[ConversationViewController(LaunchOperations) performHiddenMessageOperations:messageType:]
+___91-[ConversationViewController(LaunchOperations) performHiddenMessageOperations:messageType:]_block_invoke
+/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/LaunchOperations/ConversationViewController+LaunchOperations.m
+__91-[ConversationViewController(LaunchOperations) performHiddenMessageOperations:messageType:]_block_invoke
+HaptikLib/View Controllers/Conversations/LaunchOperations/ConversationViewController+LaunchOperations.m
+__126-[ConversationViewController(LaunchOperations) addLaunchOperationsWithMessage:messageType:conversationType:toBlockOperations:]_block_invoke.210
+__126-[ConversationViewController(LaunchOperations) addLaunchOperationsWithMessage:messageType:conversationType:toBlockOperations:]_block_invoke_2
+__126-[ConversationViewController(LaunchOperations) addLaunchOperationsWithMessage:messageType:conversationType:toBlockOperations:]_block_invoke.199
+__126-[ConversationViewController(LaunchOperations) addLaunchOperationsWithMessage:messageType:conversationType:toBlockOperations:]_block_invoke
 -[SLKTextViewController initWithNibName:bundle:]
 -[SLKTextViewController init]
 -[SLKTextViewController initWithTableViewStyle:]
@@ -4060,7 +4071,7 @@ _OBJC_IVAR_$_SmartCarouselDetailViewController.rightBtn
 _OBJC_IVAR_$_SmartCarouselDetailViewController._didFadeOut
 _OBJC_IVAR_$_SmartCarouselDetailViewController.pageTxt
 _OBJC_IVAR_$_SmartCarouselDetailViewController._delegate
-___block_literal_global.1103
+___block_literal_global.677
 ___block_descriptor_64_e8_32s40w48w_e5_v8?0l
 ___block_descriptor_56_e8_32s40w48w_e56_v40?0q8"UIImage"16"MHTransitionDismissMHGallery"24Q32l
 __OBJC_PROTOCOL_$_iCarouselDataSource
@@ -4094,12 +4105,12 @@ ___destroy_helper_block_e8_32s40s56s
 +[HPSyncService handleEntityType:isForced:completion:]
 ___54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke
 ___54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke_2
-___54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke.320
+___54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke.288
 +[HPSyncService parseSuccessObject:withHeaders:completion:]
 ___59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke
 ___copy_helper_block_e8_32s48s
 ___destroy_helper_block_e8_32s48s
-___59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke.343
+___59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke.311
 +[HPSyncService handleFailureWith:headers:completion:]
 +[HPSyncService getEntityClassNameFrom:]
 +[HPSyncService getTypeFromClassNameFor:]
@@ -4135,11 +4146,11 @@ __51+[HPSyncService mostRecentModifiedAtDateForEntity:]_block_invoke
 __50+[HPSyncService setValue:forKey:forManagedObject:]_block_invoke
 __copy_helper_block_e8_40s
 __40+[HPSyncService updateClass:withObject:]_block_invoke
-__59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke.343
+__59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke.311
 __destroy_helper_block_e8_32s48s
 __copy_helper_block_e8_32s48s
 __59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke
-__54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke.320
+__54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke.288
 __54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke_2
 __54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke
 __destroy_helper_block_e8_32s40s56s
@@ -4665,9 +4676,9 @@ ___61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke
 ___61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke_2
 ___copy_helper_block_e8_32s40r48w
 ___destroy_helper_block_e8_32s40r48w
-___61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke.264
-___61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke_2.265
-___61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke.278
+___61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke.236
+___61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke_2.237
+___61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke.250
 ___copy_helper_block_e8_32r40w
 ___destroy_helper_block_e8_32r40w
 -[HPConversationSpeechExtension toggleASR]
@@ -4702,7 +4713,7 @@ ___block_descriptor_48_e8_32s40r_e8_v12?0B8l
 ___block_descriptor_48_e8_32r40w_e5_v8?0l
 ___block_descriptor_40_e8_32s_e33_v28?0"NSString"8B16"NSError"20l
 ___block_descriptor_32_e23_v16?0"UIAlertAction"8l
-___block_literal_global.388
+___block_literal_global.360
 _OBJC_IVAR_$_HPConversationSpeechExtension._shouldTriggerASRFollowingTTSPlayback
 _OBJC_IVAR_$_HPConversationSpeechExtension._haptikSpeech
 _OBJC_IVAR_$_HPConversationSpeechExtension._speechAPI
@@ -4723,9 +4734,9 @@ __42-[HPConversationSpeechExtension toggleASR]_block_invoke_2
 __42-[HPConversationSpeechExtension toggleASR]_block_invoke
 __destroy_helper_block_e8_32r40w
 __copy_helper_block_e8_32r40w
-__61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke.278
-__61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke_2.265
-__61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke.264
+__61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke.250
+__61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke_2.237
+__61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke.236
 __destroy_helper_block_e8_32s40r48w
 __copy_helper_block_e8_32s40r48w
 __61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke_2
@@ -4748,15 +4759,15 @@ HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyDecoder.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyDecoder.h
 -[ConversationViewController(HPImagePicker) showImagePickerOptions]
 ___67-[ConversationViewController(HPImagePicker) showImagePickerOptions]_block_invoke
-___67-[ConversationViewController(HPImagePicker) showImagePickerOptions]_block_invoke.1008
-___67-[ConversationViewController(HPImagePicker) showImagePickerOptions]_block_invoke.1011
+___67-[ConversationViewController(HPImagePicker) showImagePickerOptions]_block_invoke.584
+___67-[ConversationViewController(HPImagePicker) showImagePickerOptions]_block_invoke.587
 -[ConversationViewController(HPImagePicker) imagePickerController:didFinishPickingMediaWithInfo:]
 -[ConversationViewController(HPImagePicker) imagePickerControllerDidCancel:]
 -[ConversationViewController(HPImagePicker) sendImageToBackend:]
 ___64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke
 ___64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke_2
-___64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke.1050
-___64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke_2.1061
+___64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke.626
+___64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke_2.637
 ___block_descriptor_56_e8_32s40s48w_e23_v16?0"UIAlertAction"8l
 ___block_descriptor_48_e8_32s40s_e23_v16?0"UIAlertAction"8l
 ___block_descriptor_48_e8_32s40w_e47_v32?0"NSString"8"UIImage"16"NSDictionary"24l
@@ -4764,13 +4775,13 @@ ___block_descriptor_40_e8_32s_e30_v24?0"NSString"8"NSError"16l
 __OBJC_PROTOCOL_$_UIImagePickerControllerDelegate
 __OBJC_LABEL_PROTOCOL_$_UIImagePickerControllerDelegate
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Image Picker/ConversationViewController+HPImagePicker.m
-__64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke_2.1061
+__64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke_2.637
 HaptikLib/View Controllers/Conversations/Image Picker/ConversationViewController+HPImagePicker.m
-__64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke.1050
+__64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke.626
 __64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke_2
 __64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke
-__67-[ConversationViewController(HPImagePicker) showImagePickerOptions]_block_invoke.1011
-__67-[ConversationViewController(HPImagePicker) showImagePickerOptions]_block_invoke.1008
+__67-[ConversationViewController(HPImagePicker) showImagePickerOptions]_block_invoke.587
+__67-[ConversationViewController(HPImagePicker) showImagePickerOptions]_block_invoke.584
 __67-[ConversationViewController(HPImagePicker) showImagePickerOptions]_block_invoke
 -[LocationPayload initWithDictionary:]
 -[LocationPayload latitudeKey]
@@ -4882,7 +4893,7 @@ _MHNumberFormatterVideo.numberFormatter
 _MHNumberFormatterVideo.onceToken
 _MHGalleryBundle.bundle
 _MHGalleryBundle.onceToken
-___block_literal_global.133
+___block_literal_global.103
 _CustomLocalizationBlock
 _CustomImageBlock
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHGallery/MHGallery.m
@@ -4992,7 +5003,7 @@ ___74+[TaskboxActionHandler hanldeChatformsOnTapForTask:business:actionHelper:]_
 +[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]
 ___72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke
 ___72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke_2
-___72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke.1051
+___72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke.627
 ___copy_helper_block_e8_32s40s56s
 +[TaskboxActionHandler fireTaskTappedAnalyticsWith:business:indexPath:]
 ___71+[TaskboxActionHandler fireTaskTappedAnalyticsWith:business:indexPath:]_block_invoke
@@ -5005,7 +5016,7 @@ ___block_descriptor_64_e8_32s40s56s_e5_v8?0l
 HaptikLib/Helpers/Conversation Helpers/Action Helpers/Taskbox/TaskboxActionHandler.m
 __71+[TaskboxActionHandler fireTaskTappedAnalyticsWith:business:indexPath:]_block_invoke
 __copy_helper_block_e8_32s40s56s
-__72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke.1051
+__72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke.627
 __72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke_2
 __72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke
 __74+[TaskboxActionHandler hanldeChatformsOnTapForTask:business:actionHelper:]_block_invoke
@@ -5063,20 +5074,13 @@ __58+[ConversationAnalyticsHelper trackConversationPageViewed]_block_invoke
 ___53-[ConversationViewController addReachabilityListener]_block_invoke
 -[ConversationViewController showConversationActionSheet]
 ___57-[ConversationViewController showConversationActionSheet]_block_invoke
-___57-[ConversationViewController showConversationActionSheet]_block_invoke.1316
+___57-[ConversationViewController showConversationActionSheet]_block_invoke.888
 ___57-[ConversationViewController showConversationActionSheet]_block_invoke_2
 ___57-[ConversationViewController showConversationActionSheet]_block_invoke_3
 -[ConversationViewController dismissKeyboard:]
 -[ConversationViewController dismissConversation]
 -[ConversationViewController removeNotificationListeners]
 -[ConversationViewController stopRunningAudioSessions]
--[ConversationViewController performLaunchOperationsWithMessage:messageType:]
-___77-[ConversationViewController performLaunchOperationsWithMessage:messageType:]_block_invoke
-___77-[ConversationViewController performLaunchOperationsWithMessage:messageType:]_block_invoke.1405
-___77-[ConversationViewController performLaunchOperationsWithMessage:messageType:]_block_invoke_2
-___77-[ConversationViewController performLaunchOperationsWithMessage:messageType:]_block_invoke.1415
--[ConversationViewController performHiddenMessageOperations:messageType:]
-___73-[ConversationViewController performHiddenMessageOperations:messageType:]_block_invoke
 -[ConversationViewController startPendingOperations]
 -[ConversationViewController initBusinesslanguages]
 -[ConversationViewController showLanguagePicker]
@@ -5108,12 +5112,8 @@ ___49-[ConversationViewController handleImageViewTap:]_block_invoke
 -[ConversationViewController setActiveBusiness:]
 -[ConversationViewController conversationType]
 -[ConversationViewController setConversationType:]
--[ConversationViewController launchMessage]
--[ConversationViewController setLaunchMessage:]
--[ConversationViewController launchMessageType]
--[ConversationViewController setLaunchMessageType:]
--[ConversationViewController blockOperations]
--[ConversationViewController setBlockOperations:]
+-[ConversationViewController launchOperations]
+-[ConversationViewController setLaunchOperations:]
 -[ConversationViewController observerTokens]
 -[ConversationViewController setObserverTokens:]
 -[ConversationViewController viewModel]
@@ -5140,9 +5140,7 @@ ___49-[ConversationViewController handleImageViewTap:]_block_invoke
 -[ConversationViewController .cxx_destruct]
 _OBJC_IVAR_$_ConversationViewController.activeBusiness
 _OBJC_IVAR_$_ConversationViewController.conversationType
-_OBJC_IVAR_$_ConversationViewController.launchMessage
-_OBJC_IVAR_$_ConversationViewController.launchMessageType
-_OBJC_IVAR_$_ConversationViewController.blockOperations
+_OBJC_IVAR_$_ConversationViewController.launchOperations
 _OBJC_IVAR_$_ConversationViewController.viewModel
 _OBJC_IVAR_$_ConversationViewController._viewVisible
 _OBJC_IVAR_$_ConversationViewController._navigationBarHidden
@@ -5187,14 +5185,9 @@ __76-[ConversationViewController showLanguageLoaderForLanguage:andDismissblock:]
 __48-[ConversationViewController showLanguagePicker]_block_invoke_3
 __48-[ConversationViewController showLanguagePicker]_block_invoke_2
 __48-[ConversationViewController showLanguagePicker]_block_invoke
-__73-[ConversationViewController performHiddenMessageOperations:messageType:]_block_invoke
-__77-[ConversationViewController performLaunchOperationsWithMessage:messageType:]_block_invoke.1415
-__77-[ConversationViewController performLaunchOperationsWithMessage:messageType:]_block_invoke_2
-__77-[ConversationViewController performLaunchOperationsWithMessage:messageType:]_block_invoke.1405
-__77-[ConversationViewController performLaunchOperationsWithMessage:messageType:]_block_invoke
 __57-[ConversationViewController showConversationActionSheet]_block_invoke_3
 __57-[ConversationViewController showConversationActionSheet]_block_invoke_2
-__57-[ConversationViewController showConversationActionSheet]_block_invoke.1316
+__57-[ConversationViewController showConversationActionSheet]_block_invoke.888
 __57-[ConversationViewController showConversationActionSheet]_block_invoke
 __53-[ConversationViewController addReachabilityListener]_block_invoke
 +[HPSharedUtils sharedInstance]
@@ -5263,37 +5256,6 @@ HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRMutex.m
 SRMutexLock
 SRMutexDestroy
 SRMutexInitRecursive
--[SettingsViewController init]
--[SettingsViewController initWithCoder:]
--[SettingsViewController initWithNibName:bundle:]
--[SettingsViewController initFromSmartAction:]
--[SettingsViewController viewDidLoad]
-___37-[SettingsViewController viewDidLoad]_block_invoke
--[SettingsViewController viewWillDisappear:]
--[SettingsViewController closeModal]
--[SettingsViewController productViewControllerDidFinish:]
--[SettingsViewController numberOfSectionsInTableView:]
--[SettingsViewController tableView:titleForHeaderInSection:]
--[SettingsViewController tableView:numberOfRowsInSection:]
--[SettingsViewController tableView:cellForRowAtIndexPath:]
--[SettingsViewController tableView:heightForFooterInSection:]
--[SettingsViewController tableView:viewForFooterInSection:]
--[SettingsViewController tableView:didSelectRowAtIndexPath:]
-___60-[SettingsViewController tableView:didSelectRowAtIndexPath:]_block_invoke
--[SettingsViewController fromSmartAction]
--[SettingsViewController setFromSmartAction:]
--[SettingsViewController table]
--[SettingsViewController setTable:]
--[SettingsViewController pushSwitch]
--[SettingsViewController setPushSwitch:]
--[SettingsViewController .cxx_destruct]
-_OBJC_IVAR_$_SettingsViewController.fromSmartAction
-_OBJC_IVAR_$_SettingsViewController.table
-_OBJC_IVAR_$_SettingsViewController.pushSwitch
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/User Details/Settings/SettingsViewController.m
-HaptikLib/View Controllers/User Details/Settings/SettingsViewController.m
-__60-[SettingsViewController tableView:didSelectRowAtIndexPath:]_block_invoke
-__37-[SettingsViewController viewDidLoad]_block_invoke
 -[TTTAccessibilityElement accessibilityFrame]
 -[TTTAccessibilityElement superview]
 -[TTTAccessibilityElement setSuperview:]
@@ -5550,7 +5512,7 @@ __97-[Haptik(Additions) handleNotificationWithUserInfo:controller:respectBackgro
 __47-[Haptik(Additions) handleSyncOnInitialization]_block_invoke
 -[ConversationViewController(HPFeedBackView) showFeedbackOverlay]
 ___65-[ConversationViewController(HPFeedBackView) showFeedbackOverlay]_block_invoke
-___65-[ConversationViewController(HPFeedBackView) showFeedbackOverlay]_block_invoke.1105
+___65-[ConversationViewController(HPFeedBackView) showFeedbackOverlay]_block_invoke.677
 -[ConversationViewController(HPFeedBackView) submitFeedback]
 ___60-[ConversationViewController(HPFeedBackView) submitFeedback]_block_invoke
 ___60-[ConversationViewController(HPFeedBackView) submitFeedback]_block_invoke_2
@@ -5579,12 +5541,12 @@ ___62-[ConversationViewController(HPFeedBackView) showShareOverlay]_block_invoke
 -[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]
 ___68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke
 ___68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke_2
-___68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke.1365
+___68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke.937
 ___block_descriptor_40_e8_32w_e8_v16?0q8l
 __OBJC_PROTOCOL_$_RSTapRateViewDelegate
 __OBJC_LABEL_PROTOCOL_$_RSTapRateViewDelegate
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/FeedbackView/ConversationViewController+HPFeedBackView.m
-__68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke.1365
+__68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke.937
 HaptikLib/View Controllers/Conversations/FeedbackView/ConversationViewController+HPFeedBackView.m
 __68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke_2
 __68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke
@@ -5602,7 +5564,7 @@ __68-[ConversationViewController(HPFeedBackView) tapDidRateView:rating:]_block_i
 __73-[ConversationViewController(HPFeedBackView) shareToTwitterFromAgentInfo]_block_invoke
 __60-[ConversationViewController(HPFeedBackView) submitFeedback]_block_invoke_2
 __60-[ConversationViewController(HPFeedBackView) submitFeedback]_block_invoke
-__65-[ConversationViewController(HPFeedBackView) showFeedbackOverlay]_block_invoke.1105
+__65-[ConversationViewController(HPFeedBackView) showFeedbackOverlay]_block_invoke.677
 __65-[ConversationViewController(HPFeedBackView) showFeedbackOverlay]_block_invoke
 -[UIView(MASConstraints) mas_installedConstraints]
 -[MASViewConstraint initWithFirstViewAttribute:]
@@ -5710,12 +5672,12 @@ ___52-[TaskboxChildViewController setupBusinessImageView]_block_invoke
 -[TaskboxChildViewController handleTapOnBackButton]
 -[TaskboxChildViewController dismissOverlay]
 ___44-[TaskboxChildViewController dismissOverlay]_block_invoke
-___44-[TaskboxChildViewController dismissOverlay]_block_invoke.516
+___44-[TaskboxChildViewController dismissOverlay]_block_invoke.488
 -[TaskboxChildViewController addPanGestureRecognizer]
 -[TaskboxChildViewController addBackgroundTapGesture]
 -[TaskboxChildViewController didPan:]
 ___37-[TaskboxChildViewController didPan:]_block_invoke
-___37-[TaskboxChildViewController didPan:]_block_invoke.543
+___37-[TaskboxChildViewController didPan:]_block_invoke.515
 ___37-[TaskboxChildViewController didPan:]_block_invoke_2
 -[TaskboxChildViewController handleViewMoreTap:]
 ___48-[TaskboxChildViewController handleViewMoreTap:]_block_invoke
@@ -5782,9 +5744,9 @@ HaptikLib/View Controllers/Conversations/Taskbox Child Controller/TaskboxChildVi
 __52-[TaskboxChildViewController configureCell:forTask:]_block_invoke
 __48-[TaskboxChildViewController handleViewMoreTap:]_block_invoke
 __37-[TaskboxChildViewController didPan:]_block_invoke_2
-__37-[TaskboxChildViewController didPan:]_block_invoke.543
+__37-[TaskboxChildViewController didPan:]_block_invoke.515
 __37-[TaskboxChildViewController didPan:]_block_invoke
-__44-[TaskboxChildViewController dismissOverlay]_block_invoke.516
+__44-[TaskboxChildViewController dismissOverlay]_block_invoke.488
 __44-[TaskboxChildViewController dismissOverlay]_block_invoke
 __52-[TaskboxChildViewController setupBusinessImageView]_block_invoke
 __44-[TaskboxChildViewController viewDidAppear:]_block_invoke
@@ -5941,8 +5903,6 @@ ___destroy_helper_block_e8_32s48s56s
 ___73+[HPFlowCoordinator switchToBusinessViaName:message:with:fromOutsideApp:]_block_invoke
 ___73+[HPFlowCoordinator switchToBusinessViaName:message:with:fromOutsideApp:]_block_invoke_2
 ___73+[HPFlowCoordinator switchToBusinessViaName:message:with:fromOutsideApp:]_block_invoke_3
-+[HPFlowCoordinator segueToUserProfileWith:fromDeepLink:fromSmartAction:]
-___73+[HPFlowCoordinator segueToUserProfileWith:fromDeepLink:fromSmartAction:]_block_invoke
 +[HPFlowCoordinator performCallSmartActionWith:]
 +[HPFlowCoordinator performLinkSmartActionWith:payload:]
 +[HPFlowCoordinator segueToSafariViewControllerWith:currentVC:]
@@ -5959,7 +5919,6 @@ ___block_descriptor_40_e8_32s_e31_v24?0"NSString"8"NSNumber"16l
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Flow Coordinator/HPFlowCoordinator.m
 HaptikLib/Helpers/Flow Coordinator/HPFlowCoordinator.m
 __72+[HPFlowCoordinator performWebViewSmartActionWith:payload:actionHelper:]_block_invoke
-__73+[HPFlowCoordinator segueToUserProfileWith:fromDeepLink:fromSmartAction:]_block_invoke
 __73+[HPFlowCoordinator switchToBusinessViaName:message:with:fromOutsideApp:]_block_invoke_3
 __73+[HPFlowCoordinator switchToBusinessViaName:message:with:fromOutsideApp:]_block_invoke_2
 __73+[HPFlowCoordinator switchToBusinessViaName:message:with:fromOutsideApp:]_block_invoke
@@ -6245,7 +6204,7 @@ ___55-[UIImageView(MHGallery) setThumbWithURL:successBlock:]_block_invoke_2
 ___copy_helper_block_e8_32s40b48s56w
 -[UIImageView(MHGallery) setImageForMHGalleryItem:imageType:successBlock:]
 ___74-[UIImageView(MHGallery) setImageForMHGalleryItem:imageType:successBlock:]_block_invoke
-___74-[UIImageView(MHGallery) setImageForMHGalleryItem:imageType:successBlock:]_block_invoke.118
+___74-[UIImageView(MHGallery) setImageForMHGalleryItem:imageType:successBlock:]_block_invoke.88
 -[UIImageView(MHGallery) setImageForImageView:successBlock:]
 ___60-[UIImageView(MHGallery) setImageForImageView:successBlock:]_block_invoke
 ___block_descriptor_72_e8_32s40bs48s56w_e5_v8?0l
@@ -6254,7 +6213,7 @@ ___block_descriptor_48_e8_32bs40w_e29_v24?0"UIImage"8"NSError"16l
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/UIImageView+MHGallery/UIImageView+MHGallery.m
 __60-[UIImageView(MHGallery) setImageForImageView:successBlock:]_block_invoke
 HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/UIImageView+MHGallery/UIImageView+MHGallery.m
-__74-[UIImageView(MHGallery) setImageForMHGalleryItem:imageType:successBlock:]_block_invoke.118
+__74-[UIImageView(MHGallery) setImageForMHGalleryItem:imageType:successBlock:]_block_invoke.88
 __74-[UIImageView(MHGallery) setImageForMHGalleryItem:imageType:successBlock:]_block_invoke
 __copy_helper_block_e8_32s40b48s56w
 __55-[UIImageView(MHGallery) setThumbWithURL:successBlock:]_block_invoke_2
@@ -6318,10 +6277,10 @@ __46-[SRProxyConnect _fetchPAC:withProxySettings:]_block_invoke
 -[MHTransitionPresentMHGallery animateTransition:]
 ___50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke
 ___50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_2
-___50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke.154
-___50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_2.155
-___50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke.158
-___50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_2.159
+___50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke.124
+___50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_2.125
+___50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke.128
+___50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_2.129
 ___50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_3
 ___50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_4
 ___50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_5
@@ -6391,10 +6350,10 @@ __59-[MHTransitionPresentMHGallery cancelInteractiveTransition]_block_invoke
 __50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_5
 __50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_4
 __50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_3
-__50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_2.159
-__50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke.158
-__50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_2.155
-__50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke.154
+__50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_2.129
+__50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke.128
+__50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_2.125
+__50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke.124
 __50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke_2
 __50-[MHTransitionPresentMHGallery animateTransition:]_block_invoke
 -[HPWalletToWalletPolicy createDestinationInstancesForSourceInstance:entityMapping:manager:error:]
@@ -6563,7 +6522,6 @@ NSStringFromSLKPastableMediaType
 SLKPastableMediaTypeFromNSString
 SLKPointSizeDifferenceForCategory
 __29-[SLKTextView layoutSubviews]_block_invoke
-+[RegularSmartActionHandler presentSettingsScreenOn:]
 +[RegularSmartActionHandler performEmailComposingWith:delegate:controller:]
 +[RegularSmartActionHandler goToAppStorePage]
 +[RegularSmartActionHandler performShareSmartActionWith:]
@@ -6576,13 +6534,13 @@ ___57+[RegularSmartActionHandler performSegueToBusiness:with:]_block_invoke
 ___63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invoke
 ___63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invoke_2
 ___63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invoke_3
-___63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invoke.1139
+___63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invoke.710
 ___block_descriptor_40_e8_32s_e18_v16?0"Business"8l
 ___block_descriptor_40_e8_32s_e37_v28?0B8"NSDictionary"12"NSError"20l
-___block_literal_global.1140
+___block_literal_global.711
 ___block_descriptor_40_e8_32s_e34_v28?0B8"NSString"12"NSString"20l
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Action Helpers/Regular Smart Action/RegularSmartActionHandler.m
-__63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invoke.1139
+__63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invoke.710
 HaptikLib/Helpers/Conversation Helpers/Action Helpers/Regular Smart Action/RegularSmartActionHandler.m
 __63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invoke_3
 __63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invoke_2
@@ -6732,10 +6690,10 @@ HaptikLib/Model Objects/HSL Smart Action/Haptik Item/TabList Item/TabListItem.h
 -[MHTransitionShowShareView animateTransition:]
 ___47-[MHTransitionShowShareView animateTransition:]_block_invoke
 ___47-[MHTransitionShowShareView animateTransition:]_block_invoke_2
-___47-[MHTransitionShowShareView animateTransition:]_block_invoke.172
-___47-[MHTransitionShowShareView animateTransition:]_block_invoke.219
-___47-[MHTransitionShowShareView animateTransition:]_block_invoke_2.222
-___47-[MHTransitionShowShareView animateTransition:]_block_invoke.223
+___47-[MHTransitionShowShareView animateTransition:]_block_invoke.142
+___47-[MHTransitionShowShareView animateTransition:]_block_invoke.189
+___47-[MHTransitionShowShareView animateTransition:]_block_invoke_2.192
+___47-[MHTransitionShowShareView animateTransition:]_block_invoke.193
 -[MHTransitionShowShareView sortObjectsWithFrame:]
 ___50-[MHTransitionShowShareView sortObjectsWithFrame:]_block_invoke
 -[MHTransitionShowShareView transitionDuration:]
@@ -6748,7 +6706,7 @@ ___50-[MHTransitionShowShareView sortObjectsWithFrame:]_block_invoke
 ___block_descriptor_80_e8_32s40s48s56s64s72s_e5_v8?0l
 ___block_descriptor_72_e8_32s40s48s56s64s_e8_v12?0B8l
 ___block_descriptor_32_e11_q24?0816l
-___block_literal_global.225
+___block_literal_global.195
 _OBJC_IVAR_$_MHTransitionShowShareView._interactionInProgress
 _OBJC_IVAR_$_MHTransitionShowShareView._present
 _OBJC_IVAR_$_MHTransitionShowShareView._context
@@ -6756,10 +6714,10 @@ _OBJC_IVAR_$_MHTransitionShowShareView._context
 HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/Transitions/MHTransitionShowShareView.h
 HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/Transitions/MHTransitionShowShareView.m
 __50-[MHTransitionShowShareView sortObjectsWithFrame:]_block_invoke
-__47-[MHTransitionShowShareView animateTransition:]_block_invoke.223
-__47-[MHTransitionShowShareView animateTransition:]_block_invoke_2.222
-__47-[MHTransitionShowShareView animateTransition:]_block_invoke.219
-__47-[MHTransitionShowShareView animateTransition:]_block_invoke.172
+__47-[MHTransitionShowShareView animateTransition:]_block_invoke.193
+__47-[MHTransitionShowShareView animateTransition:]_block_invoke_2.192
+__47-[MHTransitionShowShareView animateTransition:]_block_invoke.189
+__47-[MHTransitionShowShareView animateTransition:]_block_invoke.142
 __47-[MHTransitionShowShareView animateTransition:]_block_invoke_2
 __47-[MHTransitionShowShareView animateTransition:]_block_invoke
 -[Thumbnail initWithDictionary:]
@@ -6980,11 +6938,12 @@ ___19+[Haptik sharedSDK]_block_invoke
 -[Haptik signUpWith:completion:]
 ___32-[Haptik signUpWith:completion:]_block_invoke
 ___32-[Haptik signUpWith:completion:]_block_invoke_2
-___32-[Haptik signUpWith:completion:]_block_invoke.359
+___32-[Haptik signUpWith:completion:]_block_invoke.315
 ___copy_helper_block_e8_32s40b48s
 -[Haptik isUserSignedUp]
 -[Haptik updateUserToken:authID:authType:completion:]
 ___53-[Haptik updateUserToken:authID:authType:completion:]_block_invoke
+___53-[Haptik updateUserToken:authID:authType:completion:]_block_invoke_2
 -[Haptik notifyApplication:launchedWithOptions:]
 -[Haptik signoutFromHaptik:]
 ___28-[Haptik signoutFromHaptik:]_block_invoke
@@ -6992,7 +6951,9 @@ ___28-[Haptik signoutFromHaptik:]_block_invoke_2
 ___28-[Haptik signoutFromHaptik:]_block_invoke_3
 -[Haptik setDeviceToken:]
 ___25-[Haptik setDeviceToken:]_block_invoke
-___25-[Haptik setDeviceToken:]_block_invoke_2
+-[Haptik setDeviceTokenAsString:]
+___33-[Haptik setDeviceTokenAsString:]_block_invoke
+___33-[Haptik setDeviceTokenAsString:]_block_invoke_2
 -[Haptik canHandleNotificationWithUserInfo:]
 -[Haptik didReceiveHaptikNotificationResponse:controller:]
 -[Haptik didReceiveHaptikRemoteNotification:controller:]
@@ -7000,31 +6961,38 @@ ___25-[Haptik setDeviceToken:]_block_invoke_2
 -[Haptik launchChannelWith:launchMessage:hideLaunchMessage:controller:]
 -[Haptik getConversationForViaName:error:]
 -[Haptik getConversationForViaName:launchMessage:hideLaunchMessage:error:]
+-[Haptik syncUserCustomData:completion:]
+___40-[Haptik syncUserCustomData:completion:]_block_invoke
+___40-[Haptik syncUserCustomData:completion:]_block_invoke_2
 -[Haptik launchChannelToTriggerBotFor:message:source:controller:]
 -[Haptik getUnreadCountFor:WithCompletion:]
 ___43-[Haptik getUnreadCountFor:WithCompletion:]_block_invoke
 ___43-[Haptik getUnreadCountFor:WithCompletion:]_block_invoke_2
 ___43-[Haptik getUnreadCountFor:WithCompletion:]_block_invoke_3
--[Haptik getUserDetailsScreen]
 -[Haptik performPostSignupOperations]
 _sharedSDK.shared
 _sharedSDK.onceToken
 ___block_descriptor_56_e8_32s40bs48s_e20_v20?0B8"NSError"12l
-___block_literal_global.421
+___block_descriptor_41_e8_32bs_e5_v8?0l
+___block_literal_global.373
 ___block_descriptor_48_e8_32bs40s_e18_v16?0"Business"8l
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Haptik/Haptik.m
 HaptikLib/Haptik/Haptik.m
 __43-[Haptik getUnreadCountFor:WithCompletion:]_block_invoke_3
 __43-[Haptik getUnreadCountFor:WithCompletion:]_block_invoke_2
 __43-[Haptik getUnreadCountFor:WithCompletion:]_block_invoke
-__25-[Haptik setDeviceToken:]_block_invoke_2
+__40-[Haptik syncUserCustomData:completion:]_block_invoke_2
+__40-[Haptik syncUserCustomData:completion:]_block_invoke
+__33-[Haptik setDeviceTokenAsString:]_block_invoke_2
+__33-[Haptik setDeviceTokenAsString:]_block_invoke
 __25-[Haptik setDeviceToken:]_block_invoke
 __28-[Haptik signoutFromHaptik:]_block_invoke_3
 __28-[Haptik signoutFromHaptik:]_block_invoke_2
 __28-[Haptik signoutFromHaptik:]_block_invoke
+__53-[Haptik updateUserToken:authID:authType:completion:]_block_invoke_2
 __53-[Haptik updateUserToken:authID:authType:completion:]_block_invoke
 __copy_helper_block_e8_32s40b48s
-__32-[Haptik signUpWith:completion:]_block_invoke.359
+__32-[Haptik signUpWith:completion:]_block_invoke.315
 __32-[Haptik signUpWith:completion:]_block_invoke_2
 __32-[Haptik signUpWith:completion:]_block_invoke
 __19+[Haptik sharedSDK]_block_invoke
@@ -7319,8 +7287,8 @@ HaptikLib/Helpers/Conversation Helpers/View Helpers/Feedback View/FeedbackView.m
 -[MHUIImageViewContentViewAnimation initWithFrame:]
 -[MHUIImageViewContentViewAnimation animateToViewMode:forFrame:withDuration:afterDelay:finished:]
 ___97-[MHUIImageViewContentViewAnimation animateToViewMode:forFrame:withDuration:afterDelay:finished:]_block_invoke
-___97-[MHUIImageViewContentViewAnimation animateToViewMode:forFrame:withDuration:afterDelay:finished:]_block_invoke.109
-___97-[MHUIImageViewContentViewAnimation animateToViewMode:forFrame:withDuration:afterDelay:finished:]_block_invoke.117
+___97-[MHUIImageViewContentViewAnimation animateToViewMode:forFrame:withDuration:afterDelay:finished:]_block_invoke.79
+___97-[MHUIImageViewContentViewAnimation animateToViewMode:forFrame:withDuration:afterDelay:finished:]_block_invoke.87
 ___97-[MHUIImageViewContentViewAnimation animateToViewMode:forFrame:withDuration:afterDelay:finished:]_block_invoke_2
 -[MHUIImageViewContentViewAnimation checkImageViewHasImage]
 -[MHUIImageViewContentViewAnimation initToScaleAspectFitToFrame:]
@@ -7349,92 +7317,13 @@ _OBJC_IVAR_$_MHUIImageViewContentViewAnimation._imageView
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHUIImageViewContentViewAnimation/MHUIImageViewContentViewAnimation.m
 HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHUIImageViewContentViewAnimation/MHUIImageViewContentViewAnimation.m
 __97-[MHUIImageViewContentViewAnimation animateToViewMode:forFrame:withDuration:afterDelay:finished:]_block_invoke_2
-__97-[MHUIImageViewContentViewAnimation animateToViewMode:forFrame:withDuration:afterDelay:finished:]_block_invoke.117
-__97-[MHUIImageViewContentViewAnimation animateToViewMode:forFrame:withDuration:afterDelay:finished:]_block_invoke.109
+__97-[MHUIImageViewContentViewAnimation animateToViewMode:forFrame:withDuration:afterDelay:finished:]_block_invoke.87
+__97-[MHUIImageViewContentViewAnimation animateToViewMode:forFrame:withDuration:afterDelay:finished:]_block_invoke.79
 __97-[MHUIImageViewContentViewAnimation animateToViewMode:forFrame:withDuration:afterDelay:finished:]_block_invoke
 +[NSManagedObjectModel(HPAdditions) hpAllModelPaths]
 -[NSManagedObjectModel(HPAdditions) hpModelName]
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Managed Object Model Additions/NSManagedObjectModel+HPAdditions.m
 HaptikLib/Helpers/Core Data/Managed Object Model Additions/NSManagedObjectModel+HPAdditions.m
--[UserDetailsViewController initFromDeepLink:fromSmartAction:]
--[UserDetailsViewController viewDidLoad]
--[UserDetailsViewController viewWillAppear:]
-___44-[UserDetailsViewController viewWillAppear:]_block_invoke
--[UserDetailsViewController viewWillDisappear:]
-___47-[UserDetailsViewController viewWillDisappear:]_block_invoke
--[UserDetailsViewController setupTableViewHeader]
--[UserDetailsViewController keyboardWillShow:]
-___46-[UserDetailsViewController keyboardWillShow:]_block_invoke
--[UserDetailsViewController keyboardWillHide:]
-___46-[UserDetailsViewController keyboardWillHide:]_block_invoke
--[UserDetailsViewController dismissKeyboardOnTap]
--[UserDetailsViewController openSettingsScreen:]
--[UserDetailsViewController editImageAction:]
-___45-[UserDetailsViewController editImageAction:]_block_invoke
-___45-[UserDetailsViewController editImageAction:]_block_invoke_2
-___45-[UserDetailsViewController editImageAction:]_block_invoke.1207
--[UserDetailsViewController imagePickerController:didFinishPickingMediaWithInfo:]
--[UserDetailsViewController imagePickerControllerDidCancel:]
--[UserDetailsViewController showActionSheetPickerFor:]
-___54-[UserDetailsViewController showActionSheetPickerFor:]_block_invoke
--[UserDetailsViewController tableView:heightForRowAtIndexPath:]
--[UserDetailsViewController numberOfSectionsInTableView:]
--[UserDetailsViewController tableView:numberOfRowsInSection:]
--[UserDetailsViewController tableView:cellForRowAtIndexPath:]
--[UserDetailsViewController tableView:didSelectRowAtIndexPath:]
-___63-[UserDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke
-___63-[UserDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.1321
--[UserDetailsViewController textFieldDidEndEditing:]
--[UserDetailsViewController textFieldShouldReturn:]
--[UserDetailsViewController textField:shouldChangeCharactersInRange:replacementString:]
--[UserDetailsViewController getImage:]
--[UserDetailsViewController saveUserImage:withName:]
--[UserDetailsViewController table]
--[UserDetailsViewController setTable:]
--[UserDetailsViewController userProfilePicture]
--[UserDetailsViewController setUserProfilePicture:]
--[UserDetailsViewController tap]
--[UserDetailsViewController setTap:]
--[UserDetailsViewController operatorNamesArray]
--[UserDetailsViewController setOperatorNamesArray:]
--[UserDetailsViewController arrayOfArrays]
--[UserDetailsViewController setArrayOfArrays:]
--[UserDetailsViewController hasChangedUser]
--[UserDetailsViewController setHasChangedUser:]
--[UserDetailsViewController hasChangedUserDetails]
--[UserDetailsViewController setHasChangedUserDetails:]
--[UserDetailsViewController fromDeepLink]
--[UserDetailsViewController setFromDeepLink:]
--[UserDetailsViewController fromSmartAction]
--[UserDetailsViewController setFromSmartAction:]
--[UserDetailsViewController .cxx_destruct]
-_OBJC_IVAR_$_UserDetailsViewController.fromDeepLink
-_OBJC_IVAR_$_UserDetailsViewController.fromSmartAction
-_OBJC_IVAR_$_UserDetailsViewController.hasChangedUser
-_OBJC_IVAR_$_UserDetailsViewController.hasChangedUserDetails
-_OBJC_IVAR_$_UserDetailsViewController.operatorNamesArray
-_OBJC_IVAR_$_UserDetailsViewController.arrayOfArrays
-_OBJC_IVAR_$_UserDetailsViewController.table
-___block_descriptor_32_e20_v20?0B8"NSError"12l
-___block_literal_global.1063
-_OBJC_IVAR_$_UserDetailsViewController.userProfilePicture
-_OBJC_IVAR_$_UserDetailsViewController.tap
-___block_literal_global.1194
-___block_descriptor_56_e8_32s40s48w_e11_v24?0q816l
-___block_descriptor_40_e8_32w_e11_v24?0q816l
-___block_descriptor_48_e8_32s40w_e11_v24?0816l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/User Details/User Details Scene/UserDetailsViewController.m
-HaptikLib/View Controllers/User Details/User Details Scene/UserDetailsViewController.m
-__63-[UserDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.1321
-__63-[UserDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke
-__54-[UserDetailsViewController showActionSheetPickerFor:]_block_invoke
-__45-[UserDetailsViewController editImageAction:]_block_invoke.1207
-__45-[UserDetailsViewController editImageAction:]_block_invoke_2
-__45-[UserDetailsViewController editImageAction:]_block_invoke
-__46-[UserDetailsViewController keyboardWillHide:]_block_invoke
-__46-[UserDetailsViewController keyboardWillShow:]_block_invoke
-__47-[UserDetailsViewController viewWillDisappear:]_block_invoke
-__44-[UserDetailsViewController viewWillAppear:]_block_invoke
 -[ConversationsCustomView messageView]
 -[ConversationsCustomView setMessageView:]
 -[ConversationsCustomView .cxx_destruct]
@@ -7479,9 +7368,9 @@ ___39+[MHGallerySharedManager sharedManager]_block_invoke
 ___74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke
 ___74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke_2
 ___74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke_3
-___74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke.100
-___74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke.102
-___74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke_2.103
+___74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke.70
+___74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke.72
+___74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke_2.73
 -[MHGallerySharedManager isUIViewControllerBasedStatusBarAppearance]
 -[MHGallerySharedManager createThumbURL:successBlock:]
 ___54-[MHGallerySharedManager createThumbURL:successBlock:]_block_invoke
@@ -7496,7 +7385,7 @@ ___67-[MHGallerySharedManager getYoutubeURLforMediaPlayer:successBlock:]_block_i
 -[MHGallerySharedManager getYoutubeURLWithData:]
 -[MHGallerySharedManager getURLForMediaPlayer:successBlock:]
 ___60-[MHGallerySharedManager getURLForMediaPlayer:successBlock:]_block_invoke
-___60-[MHGallerySharedManager getURLForMediaPlayer:successBlock:]_block_invoke.246
+___60-[MHGallerySharedManager getURLForMediaPlayer:successBlock:]_block_invoke.216
 -[MHGallerySharedManager getVimeoURLforMediaPlayer:successBlock:]
 ___65-[MHGallerySharedManager getVimeoURLforMediaPlayer:successBlock:]_block_invoke
 ___65-[MHGallerySharedManager getVimeoURLforMediaPlayer:successBlock:]_block_invoke_2
@@ -7513,7 +7402,7 @@ ___59-[MHGallerySharedManager getVimdeoThumbImage:successBlock:]_block_invoke_2
 ___59-[MHGallerySharedManager getVimdeoThumbImage:successBlock:]_block_invoke_3
 -[MHGallerySharedManager startDownloadingThumbImage:successBlock:]
 ___66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke
-___66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke.302
+___66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke.272
 ___66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke_2
 -[MHGallerySharedManager getMHGalleryObjectsForYoutubeChannel:withTitle:successBlock:]
 ___86-[MHGallerySharedManager getMHGalleryObjectsForYoutubeChannel:withTitle:successBlock:]_block_invoke
@@ -7562,7 +7451,7 @@ HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHGallerySharedManag
 __86-[MHGallerySharedManager getMHGalleryObjectsForYoutubeChannel:withTitle:successBlock:]_block_invoke_2
 __86-[MHGallerySharedManager getMHGalleryObjectsForYoutubeChannel:withTitle:successBlock:]_block_invoke
 __66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke_2
-__66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke.302
+__66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke.272
 __66-[MHGallerySharedManager startDownloadingThumbImage:successBlock:]_block_invoke
 __59-[MHGallerySharedManager getVimdeoThumbImage:successBlock:]_block_invoke_3
 __59-[MHGallerySharedManager getVimdeoThumbImage:successBlock:]_block_invoke_2
@@ -7573,7 +7462,7 @@ __60-[MHGallerySharedManager getYoutubeThumbImage:successBlock:]_block_invoke_2
 __60-[MHGallerySharedManager getYoutubeThumbImage:successBlock:]_block_invoke
 __65-[MHGallerySharedManager getVimeoURLforMediaPlayer:successBlock:]_block_invoke_2
 __65-[MHGallerySharedManager getVimeoURLforMediaPlayer:successBlock:]_block_invoke
-__60-[MHGallerySharedManager getURLForMediaPlayer:successBlock:]_block_invoke.246
+__60-[MHGallerySharedManager getURLForMediaPlayer:successBlock:]_block_invoke.216
 __60-[MHGallerySharedManager getURLForMediaPlayer:successBlock:]_block_invoke
 __67-[MHGallerySharedManager getYoutubeURLforMediaPlayer:successBlock:]_block_invoke_2
 __67-[MHGallerySharedManager getYoutubeURLforMediaPlayer:successBlock:]_block_invoke
@@ -7582,9 +7471,9 @@ __54-[MHGallerySharedManager createThumbURL:successBlock:]_block_invoke_4
 __54-[MHGallerySharedManager createThumbURL:successBlock:]_block_invoke_3
 __54-[MHGallerySharedManager createThumbURL:successBlock:]_block_invoke_2
 __54-[MHGallerySharedManager createThumbURL:successBlock:]_block_invoke
-__74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke_2.103
-__74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke.102
-__74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke.100
+__74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke_2.73
+__74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke.72
+__74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke.70
 __74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke_3
 __74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke_2
 __74-[MHGallerySharedManager getImageFromAssetLibrary:assetType:successBlock:]_block_invoke
@@ -7608,10 +7497,10 @@ ___62+[ChatFormActionHandler showTimePickerFor:title:actionHelper:]_block_invoke
 +[ChatFormActionHandler setDataSourceForDayPickerMultiSelectFormField:dataSource:]
 +[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]
 ___94+[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]_block_invoke
-___94+[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]_block_invoke.1134
+___94+[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]_block_invoke.714
 +[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]
 ___88+[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]_block_invoke
-___88+[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]_block_invoke.1140
+___88+[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]_block_invoke.720
 +[ChatFormActionHandler getShortHandTextforTextField:selectedItems:]
 +[ChatFormActionHandler getOptionsMappingForFormField:forDataSource:]
 +[ChatFormActionHandler getMultiSelectPickerOptions:]
@@ -7645,9 +7534,9 @@ __66+[ChatFormActionHandler fireFormFieldTypesAnalyticsWith:business:]_block_inv
 __117+[ChatFormActionHandler fireFormSubmittedAnalyticsWith:business:totalFields:filledFields:unfilledTypes:unfilledKeys:]_block_invoke
 __72+[ChatFormActionHandler fireFormFieldTappedAnalyticsWith:form:business:]_block_invoke
 __89+[ChatFormActionHandler sendFormWith:formFields:textFields:userEnteredData:actionHelper:]_block_invoke
-__88+[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]_block_invoke.1140
+__88+[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]_block_invoke.720
 __88+[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]_block_invoke
-__94+[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]_block_invoke.1134
+__94+[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]_block_invoke.714
 __94+[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]_block_invoke
 __62+[ChatFormActionHandler showTimePickerFor:title:actionHelper:]_block_invoke
 __69+[ChatFormActionHandler showDateOfBirthPickerFor:title:actionHelper:]_block_invoke
@@ -7655,7 +7544,7 @@ __66+[ChatFormActionHandler showDatePickerFor:formField:actionHelper:]_block_inv
 __65+[ChatFormActionHandler showPickerFor:title:values:actionHelper:]_block_invoke
 -[TabTableItem initWithDictionary:]
 ___35-[TabTableItem initWithDictionary:]_block_invoke
-___35-[TabTableItem initWithDictionary:]_block_invoke.110
+___35-[TabTableItem initWithDictionary:]_block_invoke.82
 -[TabTableItem title]
 -[TabTableItem setTitle:]
 -[TabTableItem price]
@@ -7687,7 +7576,7 @@ _OBJC_IVAR_$_TabTableItem.position
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Tab List Items/TabTableItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Tab List Items/TabTableItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Tab List Items/TabTableItem.h
-__35-[TabTableItem initWithDictionary:]_block_invoke.110
+__35-[TabTableItem initWithDictionary:]_block_invoke.82
 __35-[TabTableItem initWithDictionary:]_block_invoke
 +[NSLayoutConstraint(MASDebugAdditions) layoutRelationDescriptionsByValue]
 ___74+[NSLayoutConstraint(MASDebugAdditions) layoutRelationDescriptionsByValue]_block_invoke
@@ -7783,7 +7672,7 @@ HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/Pa
 -[HPMessageFeedbackView like:]
 ___30-[HPMessageFeedbackView like:]_block_invoke
 ___30-[HPMessageFeedbackView like:]_block_invoke_2
-___30-[HPMessageFeedbackView like:]_block_invoke.374
+___30-[HPMessageFeedbackView like:]_block_invoke.346
 -[HPMessageFeedbackView dislike:]
 ___33-[HPMessageFeedbackView dislike:]_block_invoke
 ___33-[HPMessageFeedbackView dislike:]_block_invoke_2
@@ -7825,7 +7714,7 @@ __33-[HPMessageFeedbackView comment:]_block_invoke
 __33-[HPMessageFeedbackView dislike:]_block_invoke_3
 __33-[HPMessageFeedbackView dislike:]_block_invoke_2
 __33-[HPMessageFeedbackView dislike:]_block_invoke
-__30-[HPMessageFeedbackView like:]_block_invoke.374
+__30-[HPMessageFeedbackView like:]_block_invoke.346
 __30-[HPMessageFeedbackView like:]_block_invoke_2
 __30-[HPMessageFeedbackView like:]_block_invoke
 -[SRIOConsumer resetWithScanner:handler:bytesNeeded:readToCurrentFrame:unmaskBytes:]
@@ -7890,7 +7779,7 @@ HaptikLib/Views/Collection View Cells/Quick Replies Cell/QRCollectionViewCell.h
 +[HPFeedbackManager sendFeedback:withComments:formMessageID:withCompletion:]
 ___76+[HPFeedbackManager sendFeedback:withComments:formMessageID:withCompletion:]_block_invoke
 ___76+[HPFeedbackManager sendFeedback:withComments:formMessageID:withCompletion:]_block_invoke_2
-___76+[HPFeedbackManager sendFeedback:withComments:formMessageID:withCompletion:]_block_invoke.294
+___76+[HPFeedbackManager sendFeedback:withComments:formMessageID:withCompletion:]_block_invoke.266
 +[HPFeedbackManager sendFeedbackForMessage:withCompletion:]
 +[HPFeedbackManager submitComments:andSelectedTags:forMessage:withCompletion:]
 +[HPFeedbackManager getSuggestedResponsesforMessage:]
@@ -7901,7 +7790,7 @@ ___76+[HPFeedbackManager sendFeedback:withComments:formMessageID:withCompletion:
 _OBJC_IVAR_$_HPFeedbackManager._freeFormSessionActive
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Message Feedback Helpers/HPFeedbackManager.m
 HaptikLib/Helpers/Conversation Helpers/Message Feedback Helpers/HPFeedbackManager.m
-__76+[HPFeedbackManager sendFeedback:withComments:formMessageID:withCompletion:]_block_invoke.294
+__76+[HPFeedbackManager sendFeedback:withComments:formMessageID:withCompletion:]_block_invoke.266
 __76+[HPFeedbackManager sendFeedback:withComments:formMessageID:withCompletion:]_block_invoke_2
 __76+[HPFeedbackManager sendFeedback:withComments:formMessageID:withCompletion:]_block_invoke
 -[MHGalleryItem initWithImage:]
@@ -7995,6 +7884,7 @@ __99-[UIView(SLKAdditions) slk_animateLayoutIfNeededWithDuration:bounce:options:
 -[HPSignUpObject authToken]
 -[HPSignUpObject authID]
 -[HPSignUpObject viaName]
+-[HPSignUpObject customData]
 -[HPSignUpObject launchMessage]
 -[HPSignUpObject hideLaunchMessage]
 -[HPSignUpObject setHideLaunchMessage:]
@@ -8015,6 +7905,8 @@ __99-[UIView(SLKAdditions) slk_animateLayoutIfNeededWithDuration:bounce:options:
 -[HPSignUpBuilder setAuthID:]
 -[HPSignUpBuilder viaName]
 -[HPSignUpBuilder setViaName:]
+-[HPSignUpBuilder customData]
+-[HPSignUpBuilder setCustomData:]
 -[HPSignUpBuilder launchMessage]
 -[HPSignUpBuilder setLaunchMessage:]
 -[HPSignUpBuilder hideLaunchMessage]
@@ -8028,6 +7920,7 @@ _OBJC_IVAR_$_HPSignUpObject._userPhoneNumber
 _OBJC_IVAR_$_HPSignUpObject._authToken
 _OBJC_IVAR_$_HPSignUpObject._authID
 _OBJC_IVAR_$_HPSignUpObject._viaName
+_OBJC_IVAR_$_HPSignUpObject._customData
 _OBJC_IVAR_$_HPSignUpObject._launchMessage
 _OBJC_IVAR_$_HPSignUpBuilder._hideLaunchMessage
 _OBJC_IVAR_$_HPSignUpBuilder._userFullName
@@ -8036,6 +7929,7 @@ _OBJC_IVAR_$_HPSignUpBuilder._userPhoneNumber
 _OBJC_IVAR_$_HPSignUpBuilder._authToken
 _OBJC_IVAR_$_HPSignUpBuilder._authID
 _OBJC_IVAR_$_HPSignUpBuilder._viaName
+_OBJC_IVAR_$_HPSignUpBuilder._customData
 _OBJC_IVAR_$_HPSignUpBuilder._launchMessage
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Sign Up Object/HPSignUpObject.m
 HaptikLib/Model Objects/Sign Up Object/HPSignUpObject.m
@@ -8125,7 +8019,7 @@ HaptikLib/Model Objects/HSL Smart Action/HSLSmartAction.h
 ___33+[SmartActionHelper sharedHelper]_block_invoke
 -[SmartActionHelper createButtonViewWithSmartAction:]
 ___53-[SmartActionHelper createButtonViewWithSmartAction:]_block_invoke
-___53-[SmartActionHelper createButtonViewWithSmartAction:]_block_invoke.1055
+___53-[SmartActionHelper createButtonViewWithSmartAction:]_block_invoke.627
 -[SmartActionHelper handleTabHeaderTap:]
 ___40-[SmartActionHelper handleTabHeaderTap:]_block_invoke
 ___40-[SmartActionHelper handleTabHeaderTap:]_block_invoke_2
@@ -8173,7 +8067,7 @@ __38-[SmartActionHelper handleTabCellTap:]_block_invoke
 __40-[SmartActionHelper handleTabHeaderTap:]_block_invoke_3
 __40-[SmartActionHelper handleTabHeaderTap:]_block_invoke_2
 __40-[SmartActionHelper handleTabHeaderTap:]_block_invoke
-__53-[SmartActionHelper createButtonViewWithSmartAction:]_block_invoke.1055
+__53-[SmartActionHelper createButtonViewWithSmartAction:]_block_invoke.627
 __53-[SmartActionHelper createButtonViewWithSmartAction:]_block_invoke
 __33+[SmartActionHelper sharedHelper]_block_invoke
 -[MHImageURL initWithURL:image:]
@@ -8229,7 +8123,7 @@ ___32-[MHDownloadView cancelDownload]_block_invoke
 -[MHShareViewController navigationController:animationControllerForOperation:fromViewController:toViewController:]
 -[MHShareViewController viewDidLoad]
 ___36-[MHShareViewController viewDidLoad]_block_invoke
-___36-[MHShareViewController viewDidLoad]_block_invoke.509
+___36-[MHShareViewController viewDidLoad]_block_invoke.479
 -[MHShareViewController viewDidLayoutSubviews]
 ___46-[MHShareViewController viewDidLayoutSubviews]_block_invoke
 -[MHShareViewController collectionView:layout:sizeForItemAtIndexPath:]
@@ -8273,12 +8167,12 @@ ___70-[MHShareViewController removeBlurBlurBackgorundToolbarFromSuperView:]_bloc
 -[MHShareViewController addDataToDownloadArray:]
 -[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]
 ___74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke
-___74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke.741
+___74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke.711
 ___74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke_2
 ___74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke_3
 ___74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke_4
-___74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke.789
-___74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke.795
+___74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke.759
+___74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke.765
 -[MHShareViewController willAnimateRotationToInterfaceOrientation:duration:]
 ___76-[MHShareViewController willAnimateRotationToInterfaceOrientation:duration:]_block_invoke
 -[MHShareViewController nextBarButtonItem]
@@ -8292,7 +8186,7 @@ ___36-[MHShareViewController saveImages:]_block_invoke
 ___36-[MHShareViewController saveImages:]_block_invoke_2
 -[MHShareViewController collectionView:didSelectItemAtIndexPath:]
 ___65-[MHShareViewController collectionView:didSelectItemAtIndexPath:]_block_invoke
-___65-[MHShareViewController collectionView:didSelectItemAtIndexPath:]_block_invoke.844
+___65-[MHShareViewController collectionView:didSelectItemAtIndexPath:]_block_invoke.814
 -[MHShareViewController didReceiveMemoryWarning]
 -[MHShareViewController collectionView]
 -[MHShareViewController setCollectionView:]
@@ -8362,7 +8256,7 @@ ___block_descriptor_48_e8_32s40w_e29_v24?0"UIImage"8"NSError"16l
 ___block_descriptor_48_e8_32s40w_e30_v16?0"HPImageManagerResult"8l
 ___block_descriptor_48_e8_32s_e28_v16?0"MASConstraintMaker"8l
 ___block_descriptor_32_e27_v24?0"NSURL"8"NSError"16l
-___block_literal_global.835
+___block_literal_global.805
 _OBJC_IVAR_$_MHShareViewController._collectionView
 _OBJC_IVAR_$_MHShareViewController._tableViewShare
 _OBJC_IVAR_$_MHShareViewController._gradientView
@@ -8386,19 +8280,19 @@ _OBJC_IVAR_$_MHShareViewController._sessions
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHShareViewController/MHShareViewController.m
 HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHShareViewController/MHShareViewController.m
 HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHShareViewController/MHShareViewController.h
-__65-[MHShareViewController collectionView:didSelectItemAtIndexPath:]_block_invoke.844
+__65-[MHShareViewController collectionView:didSelectItemAtIndexPath:]_block_invoke.814
 __65-[MHShareViewController collectionView:didSelectItemAtIndexPath:]_block_invoke
 __36-[MHShareViewController saveImages:]_block_invoke_2
 __36-[MHShareViewController saveImages:]_block_invoke
 __39-[MHShareViewController showShareSheet]_block_invoke
 __41-[MHShareViewController cancelShareSheet]_block_invoke
 __76-[MHShareViewController willAnimateRotationToInterfaceOrientation:duration:]_block_invoke
-__74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke.795
-__74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke.789
+__74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke.765
+__74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke.759
 __74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke_4
 __74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke_3
 __74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke_2
-__74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke.741
+__74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke.711
 __74-[MHShareViewController getAllImagesForSelectedRows:saveDataToCameraRoll:]_block_invoke
 __70-[MHShareViewController removeBlurBlurBackgorundToolbarFromSuperView:]_block_invoke_2
 __70-[MHShareViewController removeBlurBlurBackgorundToolbarFromSuperView:]_block_invoke
@@ -8414,7 +8308,7 @@ __56-[MHShareViewController presentSLComposeForServiceType:]_block_invoke_2
 __56-[MHShareViewController presentSLComposeForServiceType:]_block_invoke
 __46-[MHShareViewController sortObjectsWithFrame:]_block_invoke
 __46-[MHShareViewController viewDidLayoutSubviews]_block_invoke
-__36-[MHShareViewController viewDidLoad]_block_invoke.509
+__36-[MHShareViewController viewDidLoad]_block_invoke.479
 __36-[MHShareViewController viewDidLoad]_block_invoke
 __32-[MHDownloadView cancelDownload]_block_invoke
 -[HPConversationOfflineExtension init]
@@ -8486,7 +8380,7 @@ ___35-[ContactPickerField chooseContact]_block_invoke_2
 ___35-[ContactPickerField chooseContact]_block_invoke_3
 -[ContactPickerField contactPicker:didSelectContact:]
 ___53-[ContactPickerField contactPicker:didSelectContact:]_block_invoke
-___53-[ContactPickerField contactPicker:didSelectContact:]_block_invoke.985
+___53-[ContactPickerField contactPicker:didSelectContact:]_block_invoke.559
 -[ContactPickerField setText:]
 -[ContactPickerField textField:shouldChangeCharactersInRange:replacementString:]
 -[ContactPickerField showInvalidPhoneNumberAlert]
@@ -8507,7 +8401,7 @@ __OBJC_LABEL_PROTOCOL_$_CNContactPickerDelegate
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Text Fields/Contact Picker Field/ContactPickerField.m
 HaptikLib/Views/Text Fields/Contact Picker Field/ContactPickerField.m
 HaptikLib/Views/Text Fields/Contact Picker Field/ContactPickerField.h
-__53-[ContactPickerField contactPicker:didSelectContact:]_block_invoke.985
+__53-[ContactPickerField contactPicker:didSelectContact:]_block_invoke.559
 __53-[ContactPickerField contactPicker:didSelectContact:]_block_invoke
 __35-[ContactPickerField chooseContact]_block_invoke_3
 __35-[ContactPickerField chooseContact]_block_invoke_2
@@ -8525,13 +8419,13 @@ __35-[ContactPickerField chooseContact]_block_invoke
 -[HPMessageToolbarContentView leftContentPadding]
 -[HPMessageToolbarContentView hideTextView:]
 ___44-[HPMessageToolbarContentView hideTextView:]_block_invoke
-___44-[HPMessageToolbarContentView hideTextView:]_block_invoke.191
+___44-[HPMessageToolbarContentView hideTextView:]_block_invoke.161
 -[HPMessageToolbarContentView showTextView:]
 ___44-[HPMessageToolbarContentView showTextView:]_block_invoke
 ___44-[HPMessageToolbarContentView showTextView:]_block_invoke_2
 -[HPMessageToolbarContentView showRightButton:]
 ___47-[HPMessageToolbarContentView showRightButton:]_block_invoke
-___47-[HPMessageToolbarContentView showRightButton:]_block_invoke.201
+___47-[HPMessageToolbarContentView showRightButton:]_block_invoke.171
 -[HPMessageToolbarContentView showSmallMicButton:]
 ___50-[HPMessageToolbarContentView showSmallMicButton:]_block_invoke
 ___50-[HPMessageToolbarContentView showSmallMicButton:]_block_invoke_2
@@ -8546,7 +8440,7 @@ ___50-[HPMessageToolbarContentView hideHaptikBranding:]_block_invoke
 ___50-[HPMessageToolbarContentView hideHaptikBranding:]_block_invoke_2
 -[HPMessageToolbarContentView showHaptikBranding:]
 ___50-[HPMessageToolbarContentView showHaptikBranding:]_block_invoke
-___50-[HPMessageToolbarContentView showHaptikBranding:]_block_invoke.208
+___50-[HPMessageToolbarContentView showHaptikBranding:]_block_invoke.178
 -[HPMessageToolbarContentView updateDisplayedText]
 -[HPMessageToolbarContentView setupShadowForMessagingContainerView]
 -[HPMessageToolbarContentView setupGradientLayerForExtensionsContainerView]
@@ -8611,7 +8505,7 @@ _OBJC_IVAR_$_HPMessageToolbarContentView._rightMargin
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Composer/Message Toolbar ContentView/HPMessageToolbarContentView.m
 HaptikLib/Views/Message Composer/Message Toolbar ContentView/HPMessageToolbarContentView.m
 HaptikLib/Views/Message Composer/Message Toolbar ContentView/HPMessageToolbarContentView.h
-__50-[HPMessageToolbarContentView showHaptikBranding:]_block_invoke.208
+__50-[HPMessageToolbarContentView showHaptikBranding:]_block_invoke.178
 __50-[HPMessageToolbarContentView showHaptikBranding:]_block_invoke
 __50-[HPMessageToolbarContentView hideHaptikBranding:]_block_invoke_2
 __50-[HPMessageToolbarContentView hideHaptikBranding:]_block_invoke
@@ -8621,11 +8515,11 @@ __59-[HPMessageToolbarContentView hideExtensionsContainerView:]_block_invoke_2
 __59-[HPMessageToolbarContentView hideExtensionsContainerView:]_block_invoke
 __50-[HPMessageToolbarContentView showSmallMicButton:]_block_invoke_2
 __50-[HPMessageToolbarContentView showSmallMicButton:]_block_invoke
-__47-[HPMessageToolbarContentView showRightButton:]_block_invoke.201
+__47-[HPMessageToolbarContentView showRightButton:]_block_invoke.171
 __47-[HPMessageToolbarContentView showRightButton:]_block_invoke
 __44-[HPMessageToolbarContentView showTextView:]_block_invoke_2
 __44-[HPMessageToolbarContentView showTextView:]_block_invoke
-__44-[HPMessageToolbarContentView hideTextView:]_block_invoke.191
+__44-[HPMessageToolbarContentView hideTextView:]_block_invoke.161
 __44-[HPMessageToolbarContentView hideTextView:]_block_invoke
 -[UIScrollView(SLKAdditions) slk_scrollToTopAnimated:]
 -[UIScrollView(SLKAdditions) slk_scrollToBottomAnimated:]
@@ -8970,6 +8864,7 @@ ___50+[HPStateObservers observeDidReceiveMemoryWarning]_block_invoke
 ___50+[HPStateObservers observeDidReceiveMemoryWarning]_block_invoke_2
 ___block_descriptor_32_e24_v16?0"NSNotification"8l
 ___block_literal_global.32
+___block_descriptor_32_e20_v20?0B8"NSError"12l
 ___block_literal_global.47
 ___block_literal_global.54
 ___block_literal_global.60
@@ -8993,7 +8888,7 @@ __45+[HPStateObservers observeDidFinishLaunching]_block_invoke
 -[MHMediaPreviewCollectionViewCell initWithFrame:]
 -[MHMediaPreviewCollectionViewCell setGalleryItem:]
 ___51-[MHMediaPreviewCollectionViewCell setGalleryItem:]_block_invoke
-___51-[MHMediaPreviewCollectionViewCell setGalleryItem:]_block_invoke.183
+___51-[MHMediaPreviewCollectionViewCell setGalleryItem:]_block_invoke.153
 -[MHMediaPreviewCollectionViewCell saveImage:]
 -[MHMediaPreviewCollectionViewCell thumbnail]
 -[MHMediaPreviewCollectionViewCell setThumbnail:]
@@ -9026,7 +8921,7 @@ _OBJC_IVAR_$_MHMediaPreviewCollectionViewCell._saveImage
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHMediaPreviewCollectionViewCell/MHMediaPreviewCollectionViewCell.m
 HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHMediaPreviewCollectionViewCell/MHMediaPreviewCollectionViewCell.m
 HaptikLib/Views/Custom View Controllers/MHVideoPhotoGallery/MHMediaPreviewCollectionViewCell/MHMediaPreviewCollectionViewCell.h
-__51-[MHMediaPreviewCollectionViewCell setGalleryItem:]_block_invoke.183
+__51-[MHMediaPreviewCollectionViewCell setGalleryItem:]_block_invoke.153
 __51-[MHMediaPreviewCollectionViewCell setGalleryItem:]_block_invoke
 +[ImageActionHelper openImageOnTapFor:withBusiness:andController:]
 +[ImageActionHelper getImagesAndCardsMessagesForBusiness:]

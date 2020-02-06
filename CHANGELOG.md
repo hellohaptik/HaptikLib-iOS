@@ -2,6 +2,18 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.2.1] - (05/02/20) - C iOS
+
+### Features
+- Allow custom data requests before chat initiation
+
+### Enhancements
+- Deprecated user details and settings scene
+
+### Bugs
+- Device Token not parsed correctly is fixed
+---
+
 ## [2.2.0] - (13/01/20) - A iOS
 
 ### Features

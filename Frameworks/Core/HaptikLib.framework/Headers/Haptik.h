@@ -50,7 +50,7 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  SignIn the User with SignUp Data.
  
  @param signUpData   Object of HPSignUpObject
- @param completion   Completion Handler which will have the success or error information.
+ @param completion   Completion Handler which will have the success or error information and is returned on the mainQueue.
  
  @code
  
@@ -105,7 +105,7 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  @param token       Token that need to be updated.
  @param authID      AuthenticationID of the loggedIn user.
  @param authType    AuthenticationType of the loggedIn user.
- @param completion  Completion Handler which will have the success information.
+ @param completion  Completion Handler which will have the success information and is returned on the mainQueue.
  
  @code
  
@@ -155,7 +155,7 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  @method
  Signouts the current user from Haptik
  
- @param completion  Completion Handler which will have the success information.
+ @param completion  Completion Handler which will have the success information and is returned on the mainQueue.
  
  @code
  
@@ -202,6 +202,9 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  */
 - (void)setDeviceToken:(NSData *)deviceToken;
 
+/// This will associate the device token with the current user to allow push notifications to the user.
+/// @param deviceToken   device token as returned from application:didRegisterForRemoteNotificationsWithDeviceToken: converted to an NSString.
+- (void)setDeviceTokenAsString:(NSString *)deviceToken;
 
 /*!
  @method
@@ -326,7 +329,7 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  Allows SDK clients to take user to a specific channel.
  @param viaName Represents the string key used to uniquely specify channel inside Haptik
  @param message String message to be sent from user-side on opening channel screen
- @param hideLaunchMessage If YES,  will display the message as a part of the chat, else it'll send the message without displaying it to the user
+ @param hideLaunchMessage If NO,  will display the message as a part of the chat, else it'll send the message without displaying it to the user
  @param controller The current view controller over which the channel is expected to be pushed
  
  @code
@@ -375,7 +378,7 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 ///
 /// @param viaName Represents the key that haptik uses to find your conversation
 /// @param message String message to be sent from user-side on opening channel screen
-/// @param hideLaunchMessage If YES,  will display the message as a part of the chat, else it'lll send the message without displaying it to the user
+/// @param hideLaunchMessage If NO,  will display the message as a part of the chat, else it'lll send the message without displaying it to the user
 /// @param error It requires an NSError object pointer that will be populated in case of a potential fail during the process
 - (__kindof UIViewController * _Nullable)getConversationForViaName:(NSString *)viaName
                                                      launchMessage:(nullable NSString *)message
@@ -389,6 +392,11 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 - (__kindof UIViewController * _Nullable)getConversationForViaName:(NSString *)viaName
                                                              error:(NSError * __autoreleasing *)error __attribute__((deprecated("Use getConversationForViaName:launchMessage:hideLaunchMessage:error: instead")));
 
+/// Sync custom data for user.
+/// @param data Custom data needed to be updated for the user
+/// @param completion Completion Handler which will have the success and error information and is returned on the mainQueue.
+- (void)syncUserCustomData:(NSDictionary<NSString *, NSString *> *)data
+                completion:(nullable void(^)(BOOL success, NSError * _Nullable error))completion;
 
 /*!
  Allows SDK clients to take user to a specific channel and trigger the Bot
@@ -422,28 +430,10 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  By calling this method you'll get the count of the messages that the user hasn't read in the conversation for the specified channel.
  
  @param viaName Represents the string key used to uniquely specify channel inside Haptik
- @param completion this will be called with  an NSUInteger for number of unread messages,  an optional error object which will be populated in case of failure else nil be returned
+ @param completion this will be called with  an NSUInteger for number of unread messages,  an optional error object which will be populated in case of failure else nil be returned. It's returned on the mainQueue.
  */
 - (void)getUnreadCountFor:(NSString *)viaName
            WithCompletion:(void(^)(NSUInteger unreadCount, NSError * _Nullable error))completion;
-
-
-/*!
- @method
- By calling this method you will get an instance of User Details Screen
- 
- @code
- 
- #import "MyViewController.h"
- 
- UIViewController *viewController = [[Haptik sharedSDK] getUserDetailsScreen];
- if (viewController) {
-     [self.navigationController pushViewController:viewController animated:YES];
- }
- 
- @endcode
- */
-- (nullable __kindof UIViewController *)getUserDetailsScreen;
 
 @end
 
