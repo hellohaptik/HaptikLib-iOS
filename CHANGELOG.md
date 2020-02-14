@@ -2,6 +2,17 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.2.2] - (14/02/20) - D iOS
+
+### Features
+
+###Enhancements
+- Updated documentation
+- Added MQTT Safe checks 
+
+### Bugs
+---
+
 ## [2.2.1] - (05/02/20) - C iOS
 
 ### Features

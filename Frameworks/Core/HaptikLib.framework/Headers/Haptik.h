@@ -2,7 +2,7 @@
 //  Haptik.h
 //  HaptikLib - Haptik Personal Assistant SDK for iOS
 //
-//  Copyright © 2018 Haptik. All rights reserved.
+//  Copyright © 2020 Haptik. All rights reserved.
 //
 //  Usage of this SDK is subject to the Haptik Terms of
 //  Service: https://haptik.ai/terms-conditions
@@ -23,14 +23,11 @@ NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
     
     HaptikLibEnvProduction = 0,
-    HaptikLibEnvStage,
-    HaptikLibEnvDevelopment
+    HaptikLibEnvStage
 };
 
 
-#pragma mark -
-
-
+#pragma mark - HaptikLib Interface
 
 @interface Haptik : NSObject
 
@@ -43,95 +40,12 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 - (instancetype)init NS_UNAVAILABLE;
 
 
-#pragma mark - SDK Signup Helpers
+#pragma mark - Launch Methods
 
-/*!
- @method
- SignIn the User with SignUp Data.
- 
- @param signUpData   Object of HPSignUpObject
- @param completion   Completion Handler which will have the success or error information and is returned on the mainQueue.
- 
- @code
- 
- HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE"
-                                                          data:^(HPSignUpBuilder * _Nonnull builder) {
- 
-     builder.userFullName = @"John Appleseed";
-     builder.userPhoneNumber = @"9870000000";
-     builder.userEmail = @"john@apple.com";
-     builder.authToken = @"";
-     builder.authID = @"";
-     builder.viaName = @"mychannelinhaptik";
- }];
- 
- [[Haptik sharedSDK] signUpWith:signupObj
-                     completion:^(BOOL success, __kindof UIViewController * _Nullable viewController, NSError * _Nullable error) {
- 
-     if (success) {
-     
-         //If via name is provided then after signup the SDK will give back an instance of UIViewController that you can directly push the user too.
-         [self.navigationController pushViewController:viewController animated:YES];
-     }
-     else {
-     
-         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oops!"
-                                                                        message:error.localizedDescription
-                                                                 preferredStyle:UIAlertControllerStyleAlert];
-         
-         UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK"
-                                                          style:UIAlertActionStyleCancel
-                                                        handler:nil];
-         [alert addAction:action];
-         [self presentViewController:alert animated:YES completion:nil];
-     }
- }];
- 
- @endcode
- */
-- (void)signUpWith:(HPSignUpObject *)signUpData
-        completion:(void (^)(BOOL success, __kindof UIViewController * _Nullable viewController, NSError * _Nullable error))completion;
-
-/*!
- @method
- Returns a Bool indicating if the user is already signed up or not.
- */
-- (BOOL)isUserSignedUp;
-
-/*!
- @abstract
- Update user token of logged in user.
- 
- @param token       Token that need to be updated.
- @param authID      AuthenticationID of the loggedIn user.
- @param authType    AuthenticationType of the loggedIn user.
- @param completion  Completion Handler which will have the success information and is returned on the mainQueue.
- 
- @code
- 
- [[Haptik sharedSDK] updateUserToken:@"Updated Auth Token/Code"
-                              authID:@"User's Auth ID"
-                            authType:@"User's Auth Type"
-                          completion:^(BOOL success) {
- 
-            if (success) {
-         
-            } else {
-
-            }
- }];
- 
- @endcode
- */
-- (void)updateUserToken:(NSString *)token
-                 authID:(NSString *)authID
-               authType:(NSString *)authType
-             completion:(void (^)(BOOL success))completion;
-
-
-/*!
+/**
  @method
  Notify the Haptik SDK of application launch
+ 
  @param application Your singleton app object
  @param launchOptions A dictionary indicating the reason the app was launched (if any). The contents of this dictionary may be empty in situations where the user launched the app directly.
  
@@ -149,11 +63,90 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 - (void)notifyApplication:(UIApplication *)application launchedWithOptions:(nullable NSDictionary<UIApplicationLaunchOptionsKey, id> *)launchOptions;
 
 
-#pragma mark - SDK Signout Helpers
+#pragma mark - Signup/Signout Methods
 
-/*!
+/**
  @method
- Signouts the current user from Haptik
+ Returns a Bool indicating if the user is already signed up or not.
+ 
+ @abstract
+ For you to take the user to the conversation screen where the user interracts/chats with the bot/agent, you first need to signup the user into haptik first.
+ This method tells you if currently any user is signed up in haptik or not.
+ 
+ @code
+ 
+    // You can check this from where ever you are taking the user to Haptik's conversation screen
+ 
+     if ([Haptik sharedSDK].isUserSignedUp) {
+         
+         // Take the user to the haptik conversation screen using the unique viaName provided to you.
+     }
+     else {
+         
+         // First signup the user into haptik, post that take the user to the haptik conversation screen using the unique viaName provided to you.
+     }
+ 
+ @endcode
+ */
+- (BOOL)isUserSignedUp;
+
+/**
+ @method
+ Signup the user into haptik with SignUp Data.
+ 
+ @abstract
+ Use this method to signup the user to Haptik. You can pass along meta data for the user during the signup using the HPSignupBuilder.
+ It returns the completion on the mainQueue.
+ 
+ @param signUpData   Object of HPSignUpObject
+ @param completion   Completion Handler which will have the success or error information and is returned on the mainQueue.
+ 
+ @code
+ 
+ HPSignUpObject *signupObj = [HPSignUpObject buildWithAuthType:@"AUTH_TYPE_HERE"
+                                                          data:^(HPSignUpBuilder * _Nonnull builder) {
+ 
+    builder.userFullName = @"John Appleseed";
+    builder.userPhoneNumber = @"9870000000";
+    builder.userEmail = @"john@apple.com";
+    builder.authToken = @"";
+    builder.authID = @"";
+    builder.viaName = @"mychannelinhaptik";
+    builder.launchMessage = @"Hey!";
+    builder.hideLaunchMessage = YES;
+    builder.customData = @{@"Key": @"Value", @"Key": @"Value"};
+ }];
+ 
+ [[Haptik sharedSDK] signUpWith:signupObj
+                     completion:^(BOOL success, __kindof UIViewController * _Nullable viewController, NSError * _Nullable error) {
+ 
+     if (success) {
+ 
+        // If via name is provided then after signup,
+        // the SDK will give back an instance of the haptik's conversation controller that you can directly push the user too.
+ 
+        [self.navigationController pushViewController:viewController animated:YES];
+     }
+     else {
+     
+         // Handle error here
+     }
+ }];
+ 
+ @endcode
+ */
+- (void)signUpWith:(HPSignUpObject *)signUpData
+        completion:(void (^)(BOOL success, __kindof UIViewController * _Nullable viewController, NSError * _Nullable error))completion;
+
+/**
+ @method
+ Signouts the current user from Haptik.
+ 
+ @abstract
+ Use this method to signout the user from Haptik. All of the user's data and chat history will be deleted from the SDK.
+ The Haptik SDK maintains all the user data and chat data until you call signout.
+ You'll probably need to call it whenever you signout the user from your application.
+ It returns the completion on the mainQueue.
  
  @param completion  Completion Handler which will have the success information and is returned on the mainQueue.
  
@@ -174,13 +167,176 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 - (void)signoutFromHaptik:(void (^)(BOOL success, NSError * _Nullable error))completion;
 
 
+#pragma mark - Conversation Helpers
+
+/**
+ @method
+ Take the user to your conversation using the unique viaName provided to you by Haptik.
+ 
+ @abstract
+ It takes an instance of the current view controller and the unique viaName provided to you and pushes the haptik's conversation controller over your navigation stack.
+ You can choose to send a message to haptik from the user side everytime you take the user to the screen. If passed nil or empty no message will be sent.
+ You also have the capability to hide the launch message (pass hideLaunchMessage as YES) from the conversation, but it'll still be sent to haptik's backend.
+ Think of it like a silent message which can be used to give some context to the bot.
+ 
+ Note: If the passed via name is not correct then the operation will fail silently.
+ 
+ @param viaName Represents the string key used to uniquely specify channel inside Haptik
+ @param message String message to be sent from user-side on opening channel screen
+ @param hideLaunchMessage If NO,  will display the message as a part of the chat, else it'll send the message without displaying it to the user
+ @param controller The current view controller over which the channel is expected to be pushed
+ 
+ @code
+ 
+ #import "MyViewController.h"
+ 
+ - (void)pushToHaptikConversation {
+ 
+     [[Haptik sharedSDK] launchChannelWith:@"mychannelinhaptik"
+                             launchMessage:@"Hey!"
+                         hideLaunchMessage:NO
+                                controller:self];
+ }
+ 
+ @endcode
+ */
+- (void)launchChannelWith:(NSString *)viaName
+            launchMessage:(nullable NSString *)message
+        hideLaunchMessage:(BOOL)hideLaunchMessage
+               controller:(__kindof UIViewController *)controller;
+
+/**
+ @method
+ Take the user to your conversation using the unique viaName provided to you by Haptik.
+ 
+ @abstract
+ It takes an instance of the current view controller and the unique viaName provided to you and pushes the haptik's conversation controller over your navigation stack.
+ You can choose to send a message to haptik from the user side everytime you take the user to the screen. If passed nil or empty no message will be sent.
+ 
+ Note: If the passed via name is not correct then the operation will fail silently.
+ 
+ @param viaName Represents the string key used to uniquely specify channel inside Haptik
+ @param message String message to be sent from user-side on opening channel screen
+ @param controller The current view controller over which the channel is expected to be pushed
+ */
+- (void)launchChannelWith:(NSString *)viaName
+                  message:(nullable NSString *)message
+               controller:(__kindof UIViewController *)controller __attribute__((deprecated("Use launchChannelWith:launchMessage:hideLaunchMessage:controller: instead")));
+
+/**
+ @method
+ Gets you an instance of the conversation controller using the unique viaName provided to you by Haptik.
+ 
+ @abstract
+ It gives you an instance of the conversation controller using the unique viaName provided to you. If the viaName is not correct the error object is populated.
+ You can choose to send a message to haptik from the user side everytime you take the user to the screen. If passed nil or empty no message will be sent.
+ You also have the capability to hide the launch message (pass hideLaunchMessage as YES) from the conversation, but it'll still be sent to haptik's backend.
+ Think of it like a silent message which can be used to give some context to the bot.
+ The message sending will be done after you present or push the haptik's conversation screen.
+ 
+ @code
+ 
+ - (void)pushToHaptikConversation {
+     
+     NSError *error;
+     UIViewController *conversation = [[Haptik sharedSDK] getConversationForViaName:@""
+                                                                      launchMessage:@"Hey!"
+                                                                  hideLaunchMessage:NO
+                                                                              error:&error];
+     
+     if (conversation) {
+         [self.navigationController pushViewController:conversation animated:YES];
+     }
+     else {
+         // Handle Error.
+     }
+ }
+
+ @endcode
+ 
+ @param viaName Represents the key that haptik uses to find your conversation
+ @param message String message to be sent from user-side on opening channel screen
+ @param hideLaunchMessage If NO,  will display the message as a part of the chat, else it'lll send the message without displaying it to the user
+ @param error It requires an NSError object pointer that will be populated in case of a potential fail during the process
+ */
+- (__kindof UIViewController * _Nullable)getConversationForViaName:(NSString *)viaName
+                                                     launchMessage:(nullable NSString *)message
+                                                 hideLaunchMessage:(BOOL)hideLaunchMessage
+                                                             error:(NSError * __autoreleasing *)error;
+
+/**
+ @method
+ Gets you an instance of the conversation controller using the unique viaName provided to you by Haptik.
+
+ @abstract
+ It gives you an instance of the conversation controller using the unique viaName provided to you. If the viaName is not correct the error object is populated.
+
+ @code
+
+ - (void)pushToHaptikConversation {
+    
+        NSError *error;
+        UIViewController *conversation = [[Haptik sharedSDK] getConversationForViaName:@""
+                                                                                 error:&error];
+    
+        if (conversation) {
+            [self.navigationController pushViewController:conversation animated:YES];
+        }
+        else {
+            // Handle Error.
+        }
+ }
+
+ @endcode
+
+ @param viaName Represents the key that haptik uses to find your conversation
+ @param error It requires an NSError object pointer that will be populated in case of a potential fail during the process
+ */
+- (__kindof UIViewController * _Nullable)getConversationForViaName:(NSString *)viaName
+                                                             error:(NSError * __autoreleasing *)error __attribute__((deprecated("Use getConversationForViaName:launchMessage:hideLaunchMessage:error: instead")));
+
+/**
+ @method
+ Take the user to your conversation using the unique viaName provided to you by Haptik trigger the Bot.
+ 
+ @abstract
+ It takes an instance of the current view controller and the unique viaName provided to you and pushes the haptik's conversation controller over your navigation stack.
+ The message will be sent silently to haptik (if not empty or nil) to give context to the bot and trigger it.
+ 
+ Note: If the passed via name is not correct then the operation will fail silently.
+ 
+ @code
+ 
+ #import "MyViewController.h"
+ 
+ - (void)openChannelInHaptikAndTriggerBot {
+ 
+     [[Haptik sharedSDK] launchChannelToTriggerBotFor:@"mychannelinhaptik"
+                                              message:@"MESSAGE_FOR_TRIGGERING_BOT"
+                                               source:@"SOURCE_HERE"
+                                        mmmcontroller:self];
+ }
+ 
+ @endcode
+ 
+ @param viaName Represents the string key used to uniquely specify channel inside Haptik
+ @param message String message to be sent to the backend on opening channel screen
+ @param source Represents the source from where the specific channel is launched and the Bot is triggered
+ @param controller The current view controller over which the channel is expected to be presented
+ */
+- (void)launchChannelToTriggerBotFor:(NSString *)viaName
+                             message:(nullable NSString *)message
+                              source:(NSString *)source
+                          controller:(__kindof UIViewController *)controller;
+
+
 #pragma mark - Remote Notifications
 
-/*!
+/**
  @method
  
  @abstract
- Register the device to receive push notifications.
+ Register the device to receive push notifications from haptik conversation
  
  @discussion
  This will associate the device token with the current user to allow push notifications to the user.
@@ -193,20 +349,29 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  
  - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
  
- ...
- 
- [[Haptik sharedSDK] setDeviceToken:deviceToken];
+     ...
+     
+     [[Haptik sharedSDK] setDeviceToken:deviceToken];
  }
  
  @endcode
  */
 - (void)setDeviceToken:(NSData *)deviceToken;
 
-/// This will associate the device token with the current user to allow push notifications to the user.
-/// @param deviceToken   device token as returned from application:didRegisterForRemoteNotificationsWithDeviceToken: converted to an NSString.
+/**
+ @method
+ 
+ @abstract
+ Register the device to receive push notifications from haptik conversation
+ 
+ @discussion
+ This will associate the device token with the current user to allow push notifications to the user.
+ 
+ @param deviceToken device token as returned from application:didRegisterForRemoteNotificationsWithDeviceToken: converted to an NSString.
+ */
 - (void)setDeviceTokenAsString:(NSString *)deviceToken;
 
-/*!
+/**
  @method
  
  @abstract
@@ -222,40 +387,36 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  // For iOS 10.x & later
  - (void)userNotificationCenter:(UNUserNotificationCenter *)center  didReceiveNotificationResponse:(UNNotificationResponse *)response
           withCompletionHandler:(void(^)(void))completionHandler {
- 
- ...
- 
- BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
- 
- if (canBeHandledByHaptik) {
- 
-    NSLog(@"do housekeeping");
-    [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response
-                                                  controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
-    }
+     ...
+     
+     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
+     
+     if (canBeHandledByHaptik) {
+     
+        NSLog(@"do housekeeping");
+        [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response
+                                                      controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+        }
  }
  
  // For iOS 9.x
  - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
  
- ...
- 
- BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
- 
- if (canBeHandledByHaptik) {
- 
-    NSLog(@"do housekeeping");
-    [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response
-                                                  controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+    ...
+    BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
+    
+    if (canBeHandledByHaptik) {
+        NSLog(@"do housekeeping");
     }
+    
+    [[Haptik sharedSDK] didReceiveHaptikRemoteNotification:userInfo controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
  }
  
  @endcode
  */
 - (BOOL)canHandleNotificationWithUserInfo:(NSDictionary<NSString *, id> *)userInfo;
 
-
-/*!
+/**
  @method
  
  @abstract
@@ -272,16 +433,16 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  - (void)userNotificationCenter:(UNUserNotificationCenter *)center      didReceiveNotificationResponse:(UNNotificationResponse *)response
           withCompletionHandler:(void(^)(void))completionHandler {
  
- ...
- 
- BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
- 
- if (canBeHandledByHaptik) {
- 
-    NSLog(@"do housekeeping");
-    [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response
-                                                  controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
-    }
+     ...
+     
+     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
+     
+     if (canBeHandledByHaptik) {
+     
+        NSLog(@"do housekeeping");
+        [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response
+                                                      controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+        }
  }
  
  @endcode
@@ -289,7 +450,7 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 - (void)didReceiveHaptikNotificationResponse:(UNNotificationResponse *)response
                                   controller:(__kindof UIViewController *)controller;
 
-/*!
+/**
  @method
  
  @abstract
@@ -323,111 +484,76 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
                                 controller:(__kindof UIViewController *)controller;
 
 
-#pragma mark -
+#pragma mark - Additional Methods
 
 /**
- Allows SDK clients to take user to a specific channel.
- @param viaName Represents the string key used to uniquely specify channel inside Haptik
- @param message String message to be sent from user-side on opening channel screen
- @param hideLaunchMessage If NO,  will display the message as a part of the chat, else it'll send the message without displaying it to the user
- @param controller The current view controller over which the channel is expected to be pushed
+ @method
+ Updates the user's authentication credentials if expired.
+ 
+ @abstract
+ Update user authentication credentials with the new ones.
+ It returns the completion on the mainQueue.
+ 
+ @param token   Token that need to be updated.
+ @param authID  AuthenticationID of the loggedIn user.
+ @param authType    AuthenticationType of the loggedIn user.
+ @param completion  Completion Handler which will have the success information and is returned on the mainQueue.
  
  @code
  
- #import "MyViewController.h"
+ [[Haptik sharedSDK] updateUserToken:@"Updated Auth Token/Code"
+                              authID:@"User's Auth ID"
+                            authType:@"User's Auth Type"
+                          completion:^(BOOL success) {
  
- - (void)openChannelInHaptik {
- 
- [[Haptik sharedSDK] launchChannelWith:@"mychannelinhaptik"
-                         launchMessage:@"We wish you have a good time using this SDK"
-                     hideLaunchMessage:NO
-                            controller:controller];
- }
+            if (success) {
+         
+            }
+            else {
+
+            }
+ }];
  
  @endcode
  */
-- (void)launchChannelWith:(NSString *)viaName
-            launchMessage:(nullable NSString *)message
-        hideLaunchMessage:(BOOL)hideLaunchMessage
-               controller:(__kindof UIViewController *)controller;
+- (void)updateUserToken:(NSString *)token
+                 authID:(NSString *)authID
+               authType:(NSString *)authType
+             completion:(void (^)(BOOL success))completion;
 
-/*!
- Allows SDK clients to take user to a specific channel.
- @param viaName Represents the string key used to uniquely specify channel inside Haptik
- @param message String message to be sent from user-side on opening channel screen
- @param controller The current view controller over which the channel is expected to be pushed
+/**
+ @method
+ Let's you sync some custom data with the backend for the signed in user to give the bot/agent some context.
+ 
+ @abstract
+ Use this method if you have any requirement to send any related/necessary data to the backend for the bot/agent to take into account for the conversation before taking the user to the conversation screen.
+ The completion is returned on mainQueue.
+ 
+ Note: You can also pass this customData during the signup also by setting it in the HPSignupObject's customData property. This method updates over the key values if already present in the backend else creates them.
  
  @code
  
- #import "MyViewController.h"
- 
- - (void)openChannelInHaptik {
- 
- [[Haptik sharedSDK] launchChannelWith:@"mychannelinhaptik"
-                               message:@"We wish you have a good time using this SDK"
-                            controller:self];
- }
+ [[Haptik sharedSDK] syncUserCustomData:@{@"key": @"value", @"key": @"value"}
+                             completion:^(BOOL success, NSError * _Nullable error) {
+     
+     [[Haptik sharedSDK] launchChannelWith:@"mychannelinhaptik"
+                             launchMessage:@"Hey!"
+                         hideLaunchMessage:NO
+                                controller:self];
+ }];
  
  @endcode
+ 
+ @param data Custom data needed to be updated for the user
+ @param completion Completion Handler which will have the success and error information and is returned on the mainQueue.
  */
-- (void)launchChannelWith:(NSString *)viaName
-                  message:(nullable NSString *)message
-               controller:(__kindof UIViewController *)controller __attribute__((deprecated("Use launchChannelWith:launchMessage:hideLaunchMessage:controller: instead")));
-
-/// Gets you an instance of the conversation window
-///
-/// @param viaName Represents the key that haptik uses to find your conversation
-/// @param message String message to be sent from user-side on opening channel screen
-/// @param hideLaunchMessage If NO,  will display the message as a part of the chat, else it'lll send the message without displaying it to the user
-/// @param error It requires an NSError object pointer that will be populated in case of a potential fail during the process
-- (__kindof UIViewController * _Nullable)getConversationForViaName:(NSString *)viaName
-                                                     launchMessage:(nullable NSString *)message
-                                                 hideLaunchMessage:(BOOL)hideLaunchMessage
-                                                             error:(NSError * __autoreleasing *)error;
-
-/// Gets you an instance of the conversation window
-///
-/// @param viaName Represents the key that haptik uses to find your conversation
-/// @param error It requires an NSError object pointer that will be populated in case of a potential fail during the process
-- (__kindof UIViewController * _Nullable)getConversationForViaName:(NSString *)viaName
-                                                             error:(NSError * __autoreleasing *)error __attribute__((deprecated("Use getConversationForViaName:launchMessage:hideLaunchMessage:error: instead")));
-
-/// Sync custom data for user.
-/// @param data Custom data needed to be updated for the user
-/// @param completion Completion Handler which will have the success and error information and is returned on the mainQueue.
 - (void)syncUserCustomData:(NSDictionary<NSString *, NSString *> *)data
                 completion:(nullable void(^)(BOOL success, NSError * _Nullable error))completion;
 
-/*!
- Allows SDK clients to take user to a specific channel and trigger the Bot
- @param viaName Represents the string key used to uniquely specify channel inside Haptik
- @param message String message to be sent to the backend on opening channel screen
- @param source Represents the source from where the specific channel is launched and the Bot is triggered
- @param controller The current view controller over which the channel is expected to be presented
- 
- @code
- 
- #import "MyViewController.h"
- 
- - (void)openChannelInHaptikAndTriggerBot {
- 
- [[Haptik sharedSDK] launchChannelToTriggerBotFor:@"mychannelinhaptik"
-                                          message:@"MESSAGE_FOR_TRIGGERING_BOT"
-                                           source:@"SOURCE_HERE"
-                                    mmmcontroller:self];
- }
- 
- @endcode
- */
-- (void)launchChannelToTriggerBotFor:(NSString *)viaName
-                             message:(nullable NSString *)message
-                              source:(NSString *)source
-                          controller:(__kindof UIViewController *)controller;
-
-
-/*!
+/**
  @method
- By calling this method you'll get the count of the messages that the user hasn't read in the conversation for the specified channel.
+ Calling this method will get you the count of the messages that the user hasn't read in the conversation identified by the uniquie viaName.
+ The completion is returned on mainQueue.
  
  @param viaName Represents the string key used to uniquely specify channel inside Haptik
  @param completion this will be called with  an NSUInteger for number of unread messages,  an optional error object which will be populated in case of failure else nil be returned. It's returned on the mainQueue.
