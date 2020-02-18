@@ -31,14 +31,12 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 
 @interface Haptik : NSObject
 
-/*!
+/**
  Returns the Haptik singleton object
  */
 + (instancetype)sharedSDK;
 
-
 - (instancetype)init NS_UNAVAILABLE;
-
 
 #pragma mark - Launch Methods
 
@@ -167,7 +165,7 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
 - (void)signoutFromHaptik:(void (^)(BOOL success, NSError * _Nullable error))completion;
 
 
-#pragma mark - Conversation Helpers
+#pragma mark - Conversation
 
 /**
  @method
@@ -377,27 +375,12 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  @abstract
  Specifies to caller that whether passed in notification payload can be processed by Haptik SDK. This will immediately return boolean indicating if the remote notification payload received is from Haptik SDK.
  
- @param userInfo     The received remote notification payload to be processed
+ @param userInfo    The received remote notification payload to be processed
  @return    Returns a BOOL indicating indicating the payload will be handled by HaptikLib
  
  @code
  
  #import "MyAppDelegate.h"
- 
- // For iOS 10.x & later
- - (void)userNotificationCenter:(UNUserNotificationCenter *)center  didReceiveNotificationResponse:(UNNotificationResponse *)response
-          withCompletionHandler:(void(^)(void))completionHandler {
-     ...
-     
-     BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithUserInfo:userInfo];
-     
-     if (canBeHandledByHaptik) {
-     
-        NSLog(@"do housekeeping");
-        [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response
-                                                      controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
-        }
- }
  
  // For iOS 9.x
  - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
@@ -415,6 +398,38 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  @endcode
  */
 - (BOOL)canHandleNotificationWithUserInfo:(NSDictionary<NSString *, id> *)userInfo;
+
+/**
+@method
+
+@abstract
+Specifies to caller that whether passed in notification payload can be processed by Haptik SDK. This will immediately return boolean indicating if the remote notification payload received is from Haptik SDK.
+
+@param response The received remote notification UNNotificationResponse to be processed
+@return Returns a BOOL indicating indicating the payload will be handled by HaptikLib
+
+@code
+
+#import "MyAppDelegate.h"
+
+// For iOS 10.x & later
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center  didReceiveNotificationResponse:(UNNotificationResponse *)response
+         withCompletionHandler:(void(^)(void))completionHandler {
+    ...
+    
+    BOOL canBeHandledByHaptik = [[Haptik sharedSDK] canHandleNotificationWithResponse:response];
+    
+    if (canBeHandledByHaptik) {
+    
+       NSLog(@"do housekeeping");
+       [[Haptik sharedSDK] didReceiveHaptikNotificationResponse:response
+                                                     controller:((UINavigationController *)self.window.rootViewController).visibleViewController];
+       }
+}
+
+@endcode
+*/
+- (BOOL)canHandleNotificationWithResponse:(UNNotificationResponse *)response;
 
 /**
  @method
@@ -482,6 +497,40 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  */
 - (void)didReceiveHaptikRemoteNotification:(NSDictionary<NSString *, id> *)userInfo
                                 controller:(__kindof UIViewController *)controller;
+
+/**
+@method
+
+@abstract
+Prepares the HaptikSDK to handle the notification and gives you back the viaName of the conversation that the message belongs too.
+ 
+@discussion
+This method comes to use If you want to handle the notifications flow by yourself. On tapping the Haptik Notification, if you yourself want to take the user to the conversation, call this method before doing that.
+It returns the viaName of the conversation to which the notification belongs too. Using this extracted viaName, you can take the user to the conversation scree.
+
+@param response     The received remote notification UNNotificationResponse to be processed
+@return Returns the viaName of the conversation where you should take the user. Will return nil if its not an haptik notification
+
+@code
+
+ - (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response
+          withCompletionHandler:(void(^)(void))completionHandler {
+             
+     if ([[Haptik sharedSDK] canHandleNotificationWithResponse:response]) {
+         
+         NSString *viaName = [[Haptik sharedSDK] prepareHaptikNotificationForResponse:response];
+         
+         if (viaName && ![visibleViewController isKindOfClass:HPConversationClass()]) {
+             [[Haptik sharedSDK] launchChannelWith:viaName launchMessage:@"" hideLaunchMessage:NO controller:visibleViewController];
+         }
+     }
+     
+     completionHandler();
+ }
+
+@endcode
+*/
+- (NSString * _Nullable)prepareHaptikNotificationForResponse:(UNNotificationResponse *)response;
 
 
 #pragma mark - Additional Methods
@@ -562,6 +611,24 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
            WithCompletion:(void(^)(NSUInteger unreadCount, NSError * _Nullable error))completion;
 
 @end
+
+
+#pragma mark - Conversation Helpers
+
+/**
+ Represents the Class object of the Haptik's Conversation
+ */
+Class HPConversationClass(void);
+
+/**
+ @abstract
+ Checks if the conversation controller belongs to the viaName. The contoller passed should belong to the HPConversationClass.
+ 
+ @param viaName Represents the string key used to uniquely identify a conversation inside Haptik
+ @param conversationController ViewController of type HPConversationClass
+ @return YES if the conversation is tied to the unique viaName passed, else NO.
+ */
+BOOL HPCheckConversationForViaName(NSString *viaName, __kindof UIViewController *conversationController);
 
 
 NS_ASSUME_NONNULL_END

@@ -5498,6 +5498,7 @@ HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/La
 -[Haptik(Additions) initDDLogger]
 -[Haptik(Additions) handleSyncOnInitialization]
 ___47-[Haptik(Additions) handleSyncOnInitialization]_block_invoke
+-[Haptik(Additions) getViaNameFromHaptikNotificationWith:]
 -[Haptik(Additions) handleNotificationWithUserInfo:controller:respectBackgroundApplicationState:]
 ___97-[Haptik(Additions) handleNotificationWithUserInfo:controller:respectBackgroundApplicationState:]_block_invoke
 -[Haptik(Additions) fetchConversationForViaName:launchMessage:hideLaunchMessage:error:]
@@ -6955,8 +6956,12 @@ ___25-[Haptik setDeviceToken:]_block_invoke
 ___33-[Haptik setDeviceTokenAsString:]_block_invoke
 ___33-[Haptik setDeviceTokenAsString:]_block_invoke_2
 -[Haptik canHandleNotificationWithUserInfo:]
+-[Haptik canHandleNotificationWithResponse:]
 -[Haptik didReceiveHaptikNotificationResponse:controller:]
 -[Haptik didReceiveHaptikRemoteNotification:controller:]
+-[Haptik prepareHaptikNotificationForUserInfo:]
+___47-[Haptik prepareHaptikNotificationForUserInfo:]_block_invoke
+-[Haptik prepareHaptikNotificationForResponse:]
 -[Haptik launchChannelWith:message:controller:]
 -[Haptik launchChannelWith:launchMessage:hideLaunchMessage:controller:]
 -[Haptik getConversationForViaName:error:]
@@ -6975,14 +6980,18 @@ _sharedSDK.onceToken
 ___block_descriptor_56_e8_32s40bs48s_e20_v20?0B8"NSError"12l
 ___block_descriptor_41_e8_32bs_e5_v8?0l
 ___block_literal_global.373
+___block_literal_global.407
 ___block_descriptor_48_e8_32bs40s_e18_v16?0"Business"8l
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Haptik/Haptik.m
 HaptikLib/Haptik/Haptik.m
+HPCheckConversationForViaName
+HPConversationClass
 __43-[Haptik getUnreadCountFor:WithCompletion:]_block_invoke_3
 __43-[Haptik getUnreadCountFor:WithCompletion:]_block_invoke_2
 __43-[Haptik getUnreadCountFor:WithCompletion:]_block_invoke
 __40-[Haptik syncUserCustomData:completion:]_block_invoke_2
 __40-[Haptik syncUserCustomData:completion:]_block_invoke
+__47-[Haptik prepareHaptikNotificationForUserInfo:]_block_invoke
 __33-[Haptik setDeviceTokenAsString:]_block_invoke_2
 __33-[Haptik setDeviceTokenAsString:]_block_invoke
 __25-[Haptik setDeviceToken:]_block_invoke
