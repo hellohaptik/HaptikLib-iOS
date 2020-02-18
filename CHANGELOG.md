@@ -2,6 +2,17 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.2.3] - (17/02/20) - D iOS
+
+### Features
+
+### Enhancements
+- Better Notification Handling
+
+### Bugs
+
+---
+
 ## [2.2.2] - (14/02/20) - D iOS
 
 ### Features
