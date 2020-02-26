@@ -21,15 +21,6 @@
 		7019E74D2347205F008EA97A /* PINOperation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E7442347204C008EA97A /* PINOperation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7019E74E23472060008EA97A /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E7452347204C008EA97A /* PINRemoteImage.framework */; };
 		7019E74F23472060008EA97A /* PINRemoteImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E7452347204C008EA97A /* PINRemoteImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7019E77323472378008EA97A /* SF-UI-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E76A23472378008EA97A /* SF-UI-Text-SemiboldItalic.otf */; };
-		7019E77423472378008EA97A /* SF-UI-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E76B23472378008EA97A /* SF-UI-Text-RegularItalic.otf */; };
-		7019E77523472378008EA97A /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E76C23472378008EA97A /* SF-UI-Text-Bold.otf */; };
-		7019E77623472378008EA97A /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E76D23472378008EA97A /* SF-UI-Text-Regular.otf */; };
-		7019E77723472378008EA97A /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E76E23472378008EA97A /* SF-UI-Text-Light.otf */; };
-		7019E77823472378008EA97A /* SF-UI-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E76F23472378008EA97A /* SF-UI-Text-MediumItalic.otf */; };
-		7019E77923472378008EA97A /* SF-UI-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E77023472378008EA97A /* SF-UI-Text-LightItalic.otf */; };
-		7019E77A23472378008EA97A /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E77123472378008EA97A /* SF-UI-Text-Medium.otf */; };
-		7019E77B23472378008EA97A /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E77223472378008EA97A /* SF-UI-Text-Semibold.otf */; };
 		7019E78123472975008EA97A /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7019E78023472975008EA97A /* HelperExtensions.swift */; };
 		7019E78223472D97008EA97A /* HaptikBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E74023471F5A008EA97A /* HaptikBase.framework */; };
 		7019E78323472D97008EA97A /* HaptikBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E74023471F5A008EA97A /* HaptikBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -67,15 +58,6 @@
 		7019E7442347204C008EA97A /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PINOperation.framework; sourceTree = "<group>"; };
 		7019E7452347204C008EA97A /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PINRemoteImage.framework; sourceTree = "<group>"; };
 		7019E7462347204D008EA97A /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PINCache.framework; sourceTree = "<group>"; };
-		7019E76A23472378008EA97A /* SF-UI-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
-		7019E76B23472378008EA97A /* SF-UI-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-RegularItalic.otf"; sourceTree = "<group>"; };
-		7019E76C23472378008EA97A /* SF-UI-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Bold.otf"; sourceTree = "<group>"; };
-		7019E76D23472378008EA97A /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
-		7019E76E23472378008EA97A /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
-		7019E76F23472378008EA97A /* SF-UI-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-MediumItalic.otf"; sourceTree = "<group>"; };
-		7019E77023472378008EA97A /* SF-UI-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-LightItalic.otf"; sourceTree = "<group>"; };
-		7019E77123472378008EA97A /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
-		7019E77223472378008EA97A /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
 		7019E78023472975008EA97A /* HelperExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,7 +120,6 @@
 		7019E72D23471D4A008EA97A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7019E76923472378008EA97A /* Fonts */,
 				7019E72123471BD1008EA97A /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -178,23 +159,6 @@
 				7019E7452347204C008EA97A /* PINRemoteImage.framework */,
 			);
 			path = Dependencies;
-			sourceTree = "<group>";
-		};
-		7019E76923472378008EA97A /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				7019E76A23472378008EA97A /* SF-UI-Text-SemiboldItalic.otf */,
-				7019E76B23472378008EA97A /* SF-UI-Text-RegularItalic.otf */,
-				7019E76C23472378008EA97A /* SF-UI-Text-Bold.otf */,
-				7019E76D23472378008EA97A /* SF-UI-Text-Regular.otf */,
-				7019E76E23472378008EA97A /* SF-UI-Text-Light.otf */,
-				7019E76F23472378008EA97A /* SF-UI-Text-MediumItalic.otf */,
-				7019E77023472378008EA97A /* SF-UI-Text-LightItalic.otf */,
-				7019E77123472378008EA97A /* SF-UI-Text-Medium.otf */,
-				7019E77223472378008EA97A /* SF-UI-Text-Semibold.otf */,
-			);
-			name = Fonts;
-			path = ../../../Shared/Fonts;
 			sourceTree = "<group>";
 		};
 		7019E77F23472975008EA97A /* Extensions */ = {
@@ -265,18 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7019E77B23472378008EA97A /* SF-UI-Text-Semibold.otf in Resources */,
-				7019E77523472378008EA97A /* SF-UI-Text-Bold.otf in Resources */,
-				7019E77323472378008EA97A /* SF-UI-Text-SemiboldItalic.otf in Resources */,
-				7019E77923472378008EA97A /* SF-UI-Text-LightItalic.otf in Resources */,
 				7019E72523471BD1008EA97A /* LaunchScreen.storyboard in Resources */,
-				7019E77423472378008EA97A /* SF-UI-Text-RegularItalic.otf in Resources */,
-				7019E77823472378008EA97A /* SF-UI-Text-MediumItalic.otf in Resources */,
 				7019E72223471BD1008EA97A /* Assets.xcassets in Resources */,
-				7019E77623472378008EA97A /* SF-UI-Text-Regular.otf in Resources */,
-				7019E77723472378008EA97A /* SF-UI-Text-Light.otf in Resources */,
 				7019E72023471BD0008EA97A /* Main.storyboard in Resources */,
-				7019E77A23472378008EA97A /* SF-UI-Text-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

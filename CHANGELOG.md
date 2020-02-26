@@ -2,6 +2,20 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.3.0] - (26/02/20) - D iOS
+
+### Features
+
+### Enhancements
+- Deprecated MHGallery
+- Deprecated Masonry
+- Fonts made optional to configure
+
+### Bugs
+-  Corrected custom data syncing
+
+---
+
 ## [2.2.3] - (17/02/20) - D iOS
 
 ### Features
@@ -22,6 +36,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Added MQTT Safe checks 
 
 ### Bugs
+
 ---
 
 ## [2.2.1] - (05/02/20) - C iOS
@@ -34,6 +49,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ### Bugs
 - Device Token not parsed correctly is fixed
+
 ---
 
 ## [2.2.0] - (13/01/20) - A iOS

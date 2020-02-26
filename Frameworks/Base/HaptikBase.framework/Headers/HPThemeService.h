@@ -21,16 +21,13 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - Theme Service Initialier
 
 /**
+ @method
  A class method which builds the "HPThemeServiceBuilder" object and initalizes your "HPThemeService" object with the data provided.
- @param builderData : The builder data provided in the block.
  
  @discussion
- If you don't provide custom colors to HPThemeService then HaptikLib will use the default colors.
+ If you don't provide your custom fonts and colors to HPThemeService then HaptikLib will use the default colors and fonts. Defaults are mentioned in the example code below.
  
- It's mandatory to provide all the font's to HPThemeService. Haptik provides it's custom font files that you have to add in your project and register them in your info.plist file.
- HaptikLib will then automatically use them even if you don't pass the names in the builder.
- 
- If you wish to use your own font, pass all the required fonts in the builder, else the SDK will give an assert and exit.
+ @param builderData : The builder data provided in the block.
  
  @code
  
@@ -40,9 +37,11 @@ NS_ASSUME_NONNULL_BEGIN
      builder.businessChatBackground = [UIColor colorWithRed:(240/255.0) green:(240/255.0) blue:(240/255.0) alpha:1];
      builder.businessChatText = [UIColor colorWithRed:(51/255.0) green:(51/255.0) blue:(51/255.0) alpha:1];
      builder.messageTimeStamp = [UIColor colorWithRed:(119/255.0) green:(119/255.0) blue:(119/255.0) alpha:1];
-     builder.lightFont = @"SFUIText-Light";
-     builder.regularFont = @"SFUIText-Regular";
-     builder.mediumFont =  @"SFUIText-Medium";
+     builder.lightFont = @"HelveticaNeue-Light";
+     builder.regularFont = @"HelveticaNeue";
+     builder.mediumFont =  @"HelveticaNeue-Medium";
+     builder.boldFont =  @"HelveticaNeue-Bold";
+     builder.italicFont =  @"HelveticaNeue-Italic";
  }];
  
  @endcode
@@ -75,8 +74,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nullable, nonatomic, readonly) NSString *boldFont;
 
-@property (nullable, nonatomic, readonly) NSString *semiBoldFont;
-
 @property (nullable, nonatomic, readonly) NSString *italicFont;
 
 @end
@@ -104,8 +101,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic) NSString *mediumFont;
 
 @property (nullable, nonatomic) NSString *boldFont;
-
-@property (nullable, nonatomic) NSString *semiBoldFont;
 
 @property (nullable, nonatomic) NSString *italicFont;
 

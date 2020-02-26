@@ -53,13 +53,15 @@ NS_ASSUME_NONNULL_BEGIN
  
  [HPConfiguration shared].themeConfig = [HPThemeService buildWithData:^(HPThemeServiceBuilder * _Nullable builder) {
  
- builder.brandColor = [UIColor colorWithRed:(33/250.0) green:(150/255.0) blue:(243/255.0) alpha:1];
- builder.businessChatBackground = [UIColor colorWithRed:(240/255.0) green:(240/255.0) blue:(240/255.0) alpha:1];
- builder.businessChatText = [UIColor colorWithRed:(51/255.0) green:(51/255.0) blue:(51/255.0) alpha:1];
- builder.messageTimeStamp = [UIColor colorWithRed:(119/255.0) green:(119/255.0) blue:(119/255.0) alpha:1];
- builder.lightFont = @"SFUIText-Light";
- builder.regularFont = @"SFUIText-Regular";
- builder.mediumFont =  @"SFUIText-Medium";
+     builder.brandColor = [UIColor colorWithRed:(33/250.0) green:(150/255.0) blue:(243/255.0) alpha:1];
+     builder.businessChatBackground = [UIColor colorWithRed:(240/255.0) green:(240/255.0) blue:(240/255.0) alpha:1];
+     builder.businessChatText = [UIColor colorWithRed:(51/255.0) green:(51/255.0) blue:(51/255.0) alpha:1];
+     builder.messageTimeStamp = [UIColor colorWithRed:(119/255.0) green:(119/255.0) blue:(119/255.0) alpha:1];
+     builder.lightFont = @"HelveticaNeue-Light";
+     builder.regularFont = @"HelveticaNeue";
+     builder.mediumFont =  @"HelveticaNeue-Medium";
+     builder.boldFont =  @"HelveticaNeue-Bold";
+     builder.italicFont =  @"HelveticaNeue-Italic";
  }];
  
  @endcode
@@ -125,11 +127,6 @@ NS_ASSUME_NONNULL_BEGIN
  *  Gets you the current theme themeConfig's boldFont name. If you haven't set your custom themeConfig, it will return its default value.
  */
 - (NSString *)boldFont;
-
-/**
- *  Gets you the current theme themeConfig's semiBoldFont name. If you haven't set your custom themeConfig, it will return its default value.
- */
-- (NSString *)semiBoldFont;
 
 /**
  *  Gets you the current theme themeConfig's italicFont name. If you haven't set your custom themeConfig, it will return its default value.

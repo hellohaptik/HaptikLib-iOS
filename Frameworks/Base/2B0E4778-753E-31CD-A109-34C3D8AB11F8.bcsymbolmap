@@ -101,6 +101,7 @@ __59+[HPWebService performRequestFor:method:params:completion:]_block_invoke
 +[HPThemeService buildWithData:]
 -[HPThemeService initWithBuilder:]
 -[HPThemeService registerFontsFromBuilder:]
+-[HPThemeService validateProvidedFontName:assertMessage:]
 -[HPThemeService brandColor]
 -[HPThemeService businessChatBackground]
 -[HPThemeService businessChatText]
@@ -109,7 +110,6 @@ __59+[HPWebService performRequestFor:method:params:completion:]_block_invoke
 -[HPThemeService regularFont]
 -[HPThemeService mediumFont]
 -[HPThemeService boldFont]
--[HPThemeService semiBoldFont]
 -[HPThemeService italicFont]
 -[HPThemeService .cxx_destruct]
 -[HPThemeServiceBuilder build]
@@ -129,8 +129,6 @@ __59+[HPWebService performRequestFor:method:params:completion:]_block_invoke
 -[HPThemeServiceBuilder setMediumFont:]
 -[HPThemeServiceBuilder boldFont]
 -[HPThemeServiceBuilder setBoldFont:]
--[HPThemeServiceBuilder semiBoldFont]
--[HPThemeServiceBuilder setSemiBoldFont:]
 -[HPThemeServiceBuilder italicFont]
 -[HPThemeServiceBuilder setItalicFont:]
 -[HPThemeServiceBuilder .cxx_destruct]
@@ -142,7 +140,6 @@ _OBJC_IVAR_$_HPThemeService._lightFont
 _OBJC_IVAR_$_HPThemeService._regularFont
 _OBJC_IVAR_$_HPThemeService._mediumFont
 _OBJC_IVAR_$_HPThemeService._boldFont
-_OBJC_IVAR_$_HPThemeService._semiBoldFont
 _OBJC_IVAR_$_HPThemeService._italicFont
 _OBJC_IVAR_$_HPThemeServiceBuilder._brandColor
 _OBJC_IVAR_$_HPThemeServiceBuilder._businessChatBackground
@@ -152,7 +149,6 @@ _OBJC_IVAR_$_HPThemeServiceBuilder._lightFont
 _OBJC_IVAR_$_HPThemeServiceBuilder._regularFont
 _OBJC_IVAR_$_HPThemeServiceBuilder._mediumFont
 _OBJC_IVAR_$_HPThemeServiceBuilder._boldFont
-_OBJC_IVAR_$_HPThemeServiceBuilder._semiBoldFont
 _OBJC_IVAR_$_HPThemeServiceBuilder._italicFont
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikBase/HaptikBase/Theme Service/HPThemeService.m
 HaptikBase/Theme Service/HPThemeService.m
@@ -1155,7 +1151,6 @@ ___25+[HPConfiguration shared]_block_invoke
 -[HPConfiguration regularFont]
 -[HPConfiguration mediumFont]
 -[HPConfiguration boldFont]
--[HPConfiguration semiBoldFont]
 -[HPConfiguration italicFont]
 -[HPConfiguration navigationItemTintColor]
 -[HPConfiguration configureNavigationBarTintColor:navigationItemTintColor:makeTranslucent:forNavigationController:]
