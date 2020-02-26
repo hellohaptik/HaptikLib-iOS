@@ -111,14 +111,11 @@ extension AppDelegate {
             builder?.businessChatText = UIColor(hexString: "#333333")
             builder?.messageTimeStamp = UIColor(hexString: "#777777")
             
-            // Providing Fonts are Madatory else the SDK will Assert
-            
-            builder?.lightFont = "SFUIText-Light"
-            builder?.regularFont = "SFUIText-Regular"
-            builder?.mediumFont = "SFUIText-Medium"
-            builder?.boldFont = "SFUIText-Bold"
-            builder?.semiBoldFont = "SFUIText-Semibold"
-            builder?.italicFont = "SFUIText-Italic"
+            builder?.lightFont = "HelveticaNeue-Light"
+            builder?.regularFont = "HelveticaNeue"
+            builder?.mediumFont = "HelveticaNeue-Medium"
+            builder?.boldFont = "HelveticaNeue-Bold"
+            builder?.italicFont = "HelveticaNeue-Italic"
         }
     }
 }

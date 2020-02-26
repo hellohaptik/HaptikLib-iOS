@@ -8,15 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		36AD21DB3733FBB10062D87F /* Pods_Swift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E42887D871BEC4EBCAFFC4 /* Pods_Swift_Example.framework */; };
-		7019E75A23472313008EA97A /* SF-UI-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E75123472312008EA97A /* SF-UI-Text-SemiboldItalic.otf */; };
-		7019E75B23472313008EA97A /* SF-UI-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E75223472312008EA97A /* SF-UI-Text-RegularItalic.otf */; };
-		7019E75C23472313008EA97A /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E75323472312008EA97A /* SF-UI-Text-Bold.otf */; };
-		7019E75D23472313008EA97A /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E75423472312008EA97A /* SF-UI-Text-Regular.otf */; };
-		7019E75E23472313008EA97A /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E75523472312008EA97A /* SF-UI-Text-Light.otf */; };
-		7019E75F23472313008EA97A /* SF-UI-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E75623472312008EA97A /* SF-UI-Text-MediumItalic.otf */; };
-		7019E76023472313008EA97A /* SF-UI-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E75723472312008EA97A /* SF-UI-Text-LightItalic.otf */; };
-		7019E76123472313008EA97A /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E75823472313008EA97A /* SF-UI-Text-Medium.otf */; };
-		7019E76223472313008EA97A /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7019E75923472313008EA97A /* SF-UI-Text-Semibold.otf */; };
 		7019E77E2347296C008EA97A /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7019E77D2347296B008EA97A /* HelperExtensions.swift */; };
 		701A85A521C0B656004C49DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701A85A421C0B656004C49DD /* AppDelegate.swift */; };
 		701A85A721C0B656004C49DD /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701A85A621C0B656004C49DD /* RootViewController.swift */; };
@@ -27,15 +18,6 @@
 
 /* Begin PBXFileReference section */
 		09CD2E240BB46EC049F48C5D /* Pods-Swift-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-Example/Pods-Swift-Example.release.xcconfig"; sourceTree = "<group>"; };
-		7019E75123472312008EA97A /* SF-UI-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
-		7019E75223472312008EA97A /* SF-UI-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-RegularItalic.otf"; sourceTree = "<group>"; };
-		7019E75323472312008EA97A /* SF-UI-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Bold.otf"; sourceTree = "<group>"; };
-		7019E75423472312008EA97A /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
-		7019E75523472312008EA97A /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
-		7019E75623472312008EA97A /* SF-UI-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-MediumItalic.otf"; sourceTree = "<group>"; };
-		7019E75723472312008EA97A /* SF-UI-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-LightItalic.otf"; sourceTree = "<group>"; };
-		7019E75823472313008EA97A /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
-		7019E75923472313008EA97A /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
 		7019E77D2347296B008EA97A /* HelperExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperExtensions.swift; sourceTree = "<group>"; };
 		701A85A121C0B656004C49DD /* Swift-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		701A85A421C0B656004C49DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,23 +57,6 @@
 				09CD2E240BB46EC049F48C5D /* Pods-Swift-Example.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		7019E75023472312008EA97A /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				7019E75123472312008EA97A /* SF-UI-Text-SemiboldItalic.otf */,
-				7019E75223472312008EA97A /* SF-UI-Text-RegularItalic.otf */,
-				7019E75323472312008EA97A /* SF-UI-Text-Bold.otf */,
-				7019E75423472312008EA97A /* SF-UI-Text-Regular.otf */,
-				7019E75523472312008EA97A /* SF-UI-Text-Light.otf */,
-				7019E75623472312008EA97A /* SF-UI-Text-MediumItalic.otf */,
-				7019E75723472312008EA97A /* SF-UI-Text-LightItalic.otf */,
-				7019E75823472313008EA97A /* SF-UI-Text-Medium.otf */,
-				7019E75923472313008EA97A /* SF-UI-Text-Semibold.otf */,
-			);
-			name = Fonts;
-			path = ../../../Shared/Fonts;
 			sourceTree = "<group>";
 		};
 		7019E77C2347296B008EA97A /* Extensions */ = {
@@ -145,7 +110,6 @@
 		701A85B921C0BCBE004C49DD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7019E75023472312008EA97A /* Fonts */,
 				701A85AB21C0B658004C49DD /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -236,18 +200,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7019E76223472313008EA97A /* SF-UI-Text-Semibold.otf in Resources */,
-				7019E75C23472313008EA97A /* SF-UI-Text-Bold.otf in Resources */,
-				7019E75A23472313008EA97A /* SF-UI-Text-SemiboldItalic.otf in Resources */,
-				7019E76023472313008EA97A /* SF-UI-Text-LightItalic.otf in Resources */,
 				701A85AC21C0B658004C49DD /* Assets.xcassets in Resources */,
-				7019E75B23472313008EA97A /* SF-UI-Text-RegularItalic.otf in Resources */,
-				7019E75F23472313008EA97A /* SF-UI-Text-MediumItalic.otf in Resources */,
 				701A85D421C0C570004C49DD /* LaunchScreen.storyboard in Resources */,
-				7019E75D23472313008EA97A /* SF-UI-Text-Regular.otf in Resources */,
-				7019E75E23472313008EA97A /* SF-UI-Text-Light.otf in Resources */,
 				701A85AA21C0B656004C49DD /* Main.storyboard in Resources */,
-				7019E76123472313008EA97A /* SF-UI-Text-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

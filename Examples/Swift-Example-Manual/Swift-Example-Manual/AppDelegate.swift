@@ -13,9 +13,9 @@ import UserNotifications;
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         // Required at the Initial Launch of the Application
@@ -66,14 +66,14 @@ extension AppDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter,
                                 didReceive response: UNNotificationResponse,
                                 withCompletionHandler completionHandler: @escaping () -> Void) {
-
+        
         // Check if the notification received belongs to haptik and take action accordingly
-
+        
         let userInfo = response.notification.request.content.userInfo as! [String : Any]
         let isHaptikNotification = Haptik.sharedSDK().canHandleNotification(userInfo: userInfo)
-
+        
         if isHaptikNotification {
-
+            
             print("Do Housekeeping")
             handleNotificationInteraction(userInfo)
         }
@@ -111,14 +111,11 @@ extension AppDelegate {
             builder?.businessChatText = UIColor(hexString: "#333333")
             builder?.messageTimeStamp = UIColor(hexString: "#777777")
             
-            // Providing Fonts are Madatory else the SDK will Assert
-            
-            builder?.lightFont = "SFUIText-Light"
-            builder?.regularFont = "SFUIText-Regular"
-            builder?.mediumFont = "SFUIText-Medium"
-            builder?.boldFont = "SFUIText-Bold"
-            builder?.semiBoldFont = "SFUIText-Semibold"
-            builder?.italicFont = "SFUIText-Italic"
+            builder?.lightFont = "HelveticaNeue-Light"
+            builder?.regularFont = "HelveticaNeue"
+            builder?.mediumFont = "HelveticaNeue-Medium"
+            builder?.boldFont = "HelveticaNeue-Bold"
+            builder?.italicFont = "HelveticaNeue-Italic"
         }
     }
 }
@@ -129,8 +126,7 @@ extension AppDelegate {
 extension AppDelegate: HPAnalyticsServiceDelegate {
     
     func eventTracked(_ eventName: String, forParams params: [AnyHashable : Any]?) {
-     
+        
         // Get all the events tracked here
     }
 }
-
