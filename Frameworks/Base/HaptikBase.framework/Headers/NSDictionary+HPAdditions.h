@@ -10,7 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSDictionary (HPAdditions)
 
-- (NSString *)JSONString;
+- (NSString * _Nullable)JSONString;
 
 
 #pragma mark - Safe Access Helpers
