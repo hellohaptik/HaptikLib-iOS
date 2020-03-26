@@ -46,9 +46,9 @@ __OBJC_PROTOCOL_$_UIBarPositioningDelegate
 __OBJC_LABEL_PROTOCOL_$_UIBarPositioningDelegate
 __OBJC_PROTOCOL_$_UISearchBarDelegate
 __OBJC_LABEL_PROTOCOL_$_UISearchBarDelegate
-Apple clang version 11.0.0 (clang-1100.0.33.12)
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Search /HPPlaceSearchVC.m
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLocation
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Search /HPPlaceSearchVC.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLocation
 HaptikLocation/Place Search /HPPlaceSearchVC.m
 __36-[HPPlaceSearchVC setUpSearchHelper]_block_invoke
 __destroy_helper_block_e8_32w
@@ -75,7 +75,7 @@ __OBJC_PROTOCOL_$_UITableViewDelegate
 __OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
 __OBJC_PROTOCOL_$_UITableViewDataSource
 __OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Search /Search Results Table/HPSearchResultsTable.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Search /Search Results Table/HPSearchResultsTable.m
 HaptikLocation/Place Search /Search Results Table/HPSearchResultsTable.m
 -[HPPlacePickerVC viewDidLoad]
 -[HPPlacePickerVC viewWillAppear:]
@@ -123,7 +123,7 @@ _OBJC_IVAR_$_HPPlacePickerVC._map
 _OBJC_IVAR_$_HPPlacePickerVC._CLHelper
 __OBJC_PROTOCOL_$_MKMapViewDelegate
 __OBJC_LABEL_PROTOCOL_$_MKMapViewDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Picker/HPPlacePickerVC.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Picker/HPPlacePickerVC.m
 HaptikLocation/Place Picker/HPPlacePickerVC.m
 HaptikLocation/Place Picker/HPPlacePickerVC.h
 __destroy_helper_block_e8_32s40w
@@ -137,7 +137,7 @@ ___copy_helper_block_e8_32b
 ___block_descriptor_40_e8_32bs_e50_v36?0B8{CLLocationCoordinate2D=dd}12"NSString"28l
 __OBJC_PROTOCOL_$_HPLocationAPI
 __OBJC_LABEL_PROTOCOL_$_HPLocationAPI
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Location Service/HPLocationService.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Location Service/HPLocationService.m
 __copy_helper_block_e8_32b
 __39-[HPLocationService getLocationPicker:]_block_invoke
 HaptikLocation/Location Service/HPLocationService.m
@@ -172,7 +172,7 @@ _OBJC_IVAR_$_HPCoreLocationHelper._locationHandler
 _OBJC_IVAR_$_HPCoreLocationHelper._manager
 _OBJC_IVAR_$_HPCoreLocationHelper._geoCoder
 _OBJC_IVAR_$_HPCoreLocationHelper._delegateController
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/CoreLocationHelper/HPCoreLocationHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/CoreLocationHelper/HPCoreLocationHelper.m
 HaptikLocation/CoreLocationHelper/HPCoreLocationHelper.m
 HaptikLocation/CoreLocationHelper/HPCoreLocationHelper.h
 __59-[HPCoreLocationHelper reverseGeocodeLocation:withHandler:]_block_invoke
@@ -200,7 +200,7 @@ _OBJC_IVAR_$_HPAddressPane._visibleOffsetRatio
 _OBJC_IVAR_$_HPAddressPane.searchBar
 _OBJC_IVAR_$_HPAddressPane.addressLabel
 _OBJC_IVAR_$_HPAddressPane.confirmButton
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Picker/Address Pane/HPAddressPane.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Picker/Address Pane/HPAddressPane.m
 HaptikLocation/Place Picker/Address Pane/HPAddressPane.m
 HaptikLocation/Place Picker/Address Pane/HPAddressPane.h
 -[HPMapView initWithLoadingScreen:]
@@ -234,7 +234,7 @@ _OBJC_IVAR_$_HPMapView._coverView
 _OBJC_IVAR_$_HPMapView._pin
 __OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
 __OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Picker/Map View/HPMapView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Picker/Map View/HPMapView.m
 HaptikLocation/Place Picker/Map View/HPMapView.m
 HaptikLocation/Place Picker/Map View/HPMapView.h
 __19-[HPMapView goHome]_block_invoke.144
@@ -261,8 +261,8 @@ __OBJC_PROTOCOL_$_MKLocalSearchCompleterDelegate
 __OBJC_LABEL_PROTOCOL_$_MKLocalSearchCompleterDelegate
 _OBJC_IVAR_$_HPPlaceSearchDataHelper._searchResultsHandler
 _OBJC_IVAR_$_HPPlaceSearchDataHelper._searchCompleter
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Search /Search Data Helpers/HPPlaceSearchDataHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLocation/HaptikLocation/Place Search /Search Data Helpers/HPPlaceSearchDataHelper.m
 HaptikLocation/Place Search /Search Data Helpers/HPPlaceSearchDataHelper.m
 HaptikLocation/Place Search /Search Data Helpers/HPPlaceSearchDataHelper.h
 __58-[HPPlaceSearchDataHelper placeForRequest:withCompletion:]_block_invoke
-/Users/iamsimranjot/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikLocation.build/Release-iphoneos/HaptikLocation.build/DerivedSources/HaptikLocation_vers.c
+/Users/hap/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikLocation.build/Release-iphoneos/HaptikLocation.build/DerivedSources/HaptikLocation_vers.c
