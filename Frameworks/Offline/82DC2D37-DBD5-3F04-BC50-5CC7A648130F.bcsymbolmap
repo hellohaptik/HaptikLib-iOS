@@ -1,22 +1,49 @@
 BCSymbolMap Version: 2.0
+Apple clang version 11.0.3 (clang-1103.0.32.29)
+/Users/hap/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikOffline.build/Release-iphoneos/HaptikOffline.build/DerivedSources/HaptikOffline_vers.c
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikOffline
 +[HPOfflineUtils parseJSONAtPath:]
 +[HPOfflineUtils getModelFilePathInBundle:]
 +[HPOfflineUtils getWordDictFilePathInBundle:]
 +[HPOfflineUtils getOutputResponsesPathInBundle:]
 +[HPOfflineUtils getDictionaryFromPath:error:]
-Apple clang version 11.0.0 (clang-1100.0.33.17)
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_CLASSLIST_REFERENCES_$_.67
+_OBJC_SELECTOR_REFERENCES_.69
+__OBJC_$_CLASS_METHODS_HPOfflineUtils
+__OBJC_METACLASS_RO_$_HPOfflineUtils
+__OBJC_CLASS_RO_$_HPOfflineUtils
+_OBJC_LABEL_CLASS_$
 /Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikOffline/HaptikOffline/Utilities/HPOfflineUtils.m
-/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikOffline
 HaptikOffline/Utilities/HPOfflineUtils.m
 -[HPOfflineOutputDict initWithOutputResponsePath:]
 -[HPOfflineOutputDict getResponseForKey:locale:]
 -[HPOfflineOutputDict outputResponses]
 -[HPOfflineOutputDict .cxx_destruct]
+_OBJC_CLASSLIST_SUP_REFS_$_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+__OBJC_METACLASS_RO_$_HPOfflineOutputDict
+__OBJC_$_INSTANCE_METHODS_HPOfflineOutputDict
 _OBJC_IVAR_$_HPOfflineOutputDict._outputResponses
+__OBJC_$_INSTANCE_VARIABLES_HPOfflineOutputDict
+__OBJC_$_PROP_LIST_HPOfflineOutputDict
+__OBJC_CLASS_RO_$_HPOfflineOutputDict
 /Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikOffline/HaptikOffline/Offline Manager/Output Response/HPOfflineOutputDict.m
 HaptikOffline/Offline Manager/Output Response/HPOfflineOutputDict.m
 HaptikOffline/Offline Manager/Output Response/HPOfflineOutputDict.h
 +[TFLErrorUtil saveInterpreterErrorWithCode:description:error:]
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.3
+__OBJC_$_CLASS_METHODS_TFLErrorUtil
+__OBJC_METACLASS_RO_$_TFLErrorUtil
+__OBJC_CLASS_RO_$_TFLErrorUtil
 /Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikOffline/HaptikOffline/TensorFlow/TensorFlowLiteObjC/objc/sources/TFLErrorUtil.m
 HaptikOffline/TensorFlow/TensorFlowLiteObjC/objc/sources/TFLErrorUtil.m
 -[TFLTensor copyData:error:]
@@ -37,12 +64,24 @@ HaptikOffline/TensorFlow/TensorFlowLiteObjC/objc/sources/TFLErrorUtil.m
 -[TFLTensor interpreter]
 -[TFLTensor setInterpreter:]
 -[TFLTensor .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.20
+__OBJC_$_CLASS_METHODS_TFLTensor
+__OBJC_METACLASS_RO_$_TFLTensor
+__OBJC_$_INSTANCE_METHODS_TFLTensor
 _OBJC_IVAR_$_TFLTensor._name
 _OBJC_IVAR_$_TFLTensor._dataType
 _OBJC_IVAR_$_TFLTensor._quantizationParameters
 _OBJC_IVAR_$_TFLTensor._type
 _OBJC_IVAR_$_TFLTensor._index
 _OBJC_IVAR_$_TFLTensor._interpreter
+__OBJC_$_INSTANCE_VARIABLES_TFLTensor
+__OBJC_$_PROP_LIST_TFLTensor
+__OBJC_CLASS_RO_$_TFLTensor
 /Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikOffline/HaptikOffline/TensorFlow/TensorFlowLiteObjC/objc/sources/TFLTensor.m
 HaptikOffline/TensorFlow/TensorFlowLiteObjC/objc/sources/TFLTensor.m
 HaptikOffline/TensorFlow/TensorFlowLiteObjC/objc/apis/TFLTensor.h
@@ -68,9 +107,45 @@ __ZL27TFLInterpreterErrorReporterPvPKcS_
 -[TFLInterpreter interpreter]
 -[TFLInterpreter setInterpreter:]
 __GLOBAL__sub_I_TFLInterpreter.mm
+_OBJC_CLASSLIST_REFERENCES_$_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_CLASSLIST_REFERENCES_$_.14
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_CLASSLIST_REFERENCES_$_.61
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_CLASSLIST_REFERENCES_$_.66
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_CLASSLIST_REFERENCES_$_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_CLASSLIST_REFERENCES_$_.76
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_CLASSLIST_REFERENCES_$_.87
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_SELECTOR_REFERENCES_.91
+__OBJC_METACLASS_RO_$_TFLInterpreter
+__OBJC_$_INSTANCE_METHODS_TFLInterpreter
 _OBJC_IVAR_$_TFLInterpreter._inputTensorCount
 _OBJC_IVAR_$_TFLInterpreter._outputTensorCount
 _OBJC_IVAR_$_TFLInterpreter._interpreter
+__OBJC_$_INSTANCE_VARIABLES_TFLInterpreter
+__OBJC_$_PROP_LIST_TFLInterpreter
+__OBJC_CLASS_RO_$_TFLInterpreter
+_OBJC_SELECTOR_REFERENCES_.130
 /Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikOffline/HaptikOffline/TensorFlow/TensorFlowLiteObjC/objc/sources/TFLInterpreter.mm
 _GLOBAL__sub_I_TFLInterpreter.mm
 __cxx_global_var_init
@@ -80,15 +155,25 @@ TFLInterpreterErrorReporter
 -[TFLInterpreterOptions init]
 -[TFLInterpreterOptions numberOfThreads]
 -[TFLInterpreterOptions setNumberOfThreads:]
+__OBJC_METACLASS_RO_$_TFLInterpreterOptions
+__OBJC_$_INSTANCE_METHODS_TFLInterpreterOptions
 _OBJC_IVAR_$_TFLInterpreterOptions._numberOfThreads
+__OBJC_$_INSTANCE_VARIABLES_TFLInterpreterOptions
+__OBJC_$_PROP_LIST_TFLInterpreterOptions
+__OBJC_CLASS_RO_$_TFLInterpreterOptions
 /Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikOffline/HaptikOffline/TensorFlow/TensorFlowLiteObjC/objc/sources/TFLInterpreterOptions.m
 HaptikOffline/TensorFlow/TensorFlowLiteObjC/objc/apis/TFLInterpreterOptions.h
 HaptikOffline/TensorFlow/TensorFlowLiteObjC/objc/sources/TFLInterpreterOptions.m
 -[TFLQuantizationParameters initWithScale:zeroPoint:]
 -[TFLQuantizationParameters scale]
 -[TFLQuantizationParameters zeroPoint]
+__OBJC_METACLASS_RO_$_TFLQuantizationParameters
+__OBJC_$_INSTANCE_METHODS_TFLQuantizationParameters
 _OBJC_IVAR_$_TFLQuantizationParameters._scale
 _OBJC_IVAR_$_TFLQuantizationParameters._zeroPoint
+__OBJC_$_INSTANCE_VARIABLES_TFLQuantizationParameters
+__OBJC_$_PROP_LIST_TFLQuantizationParameters
+__OBJC_CLASS_RO_$_TFLQuantizationParameters
 /Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikOffline/HaptikOffline/TensorFlow/TensorFlowLiteObjC/objc/sources/TFLQuantizationParameters.m
 HaptikOffline/TensorFlow/TensorFlowLiteObjC/objc/apis/TFLQuantizationParameters.h
 HaptikOffline/TensorFlow/TensorFlowLiteObjC/objc/sources/TFLQuantizationParameters.m
@@ -129,25 +214,107 @@ ___destroy_helper_block_ea4_20s24s28s
 -[HPOfflineBotManager setInterpreterSerialQueue:]
 -[HPOfflineBotManager .cxx_destruct]
 __ZL25previousTraversedNodeName
+_OBJC_CLASSLIST_REFERENCES_$_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_CLASSLIST_REFERENCES_$_.70
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_CLASSLIST_REFERENCES_$_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_CLASSLIST_REFERENCES_$_.82
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_CLASSLIST_REFERENCES_$_.89
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_CLASSLIST_REFERENCES_$_.124
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_CLASSLIST_REFERENCES_$_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.147
 ___block_descriptor_40_ea4_20s24bs28s32s36w_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_SELECTOR_REFERENCES_.152
 ___block_descriptor_28_ea4_20bs24s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.154
 ___block_descriptor_24_ea4_20bs_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.155
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_SELECTOR_REFERENCES_.159
+_OBJC_CLASSLIST_REFERENCES_$_.160
+_OBJC_SELECTOR_REFERENCES_.164
 ___block_descriptor_28_ea4_20s24w_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_CLASSLIST_REFERENCES_$_.167
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_CLASSLIST_REFERENCES_$_.178
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_CLASSLIST_REFERENCES_$_.195
+_OBJC_SELECTOR_REFERENCES_.197
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_SELECTOR_REFERENCES_.201
+_OBJC_SELECTOR_REFERENCES_.203
+_OBJC_CLASSLIST_REFERENCES_$_.204
+_OBJC_SELECTOR_REFERENCES_.206
 ___block_descriptor_41_ea4_20s24s28s_e5_v4?0l
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
 __OBJC_PROTOCOL_$_NSObject
 __OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_HPOfflineBotAPI
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_HPOfflineBotAPI
+__OBJC_$_PROP_LIST_HPOfflineBotAPI
+__OBJC_$_PROTOCOL_METHOD_TYPES_HPOfflineBotAPI
 __OBJC_PROTOCOL_$_HPOfflineBotAPI
 __OBJC_LABEL_PROTOCOL_$_HPOfflineBotAPI
+__OBJC_CLASS_PROTOCOLS_$_HPOfflineBotManager
+__OBJC_METACLASS_RO_$_HPOfflineBotManager
+__OBJC_$_INSTANCE_METHODS_HPOfflineBotManager
 _OBJC_IVAR_$_HPOfflineBotManager.viaName
 _OBJC_IVAR_$_HPOfflineBotManager._wordDict
 _OBJC_IVAR_$_HPOfflineBotManager._outputResponseDict
 _OBJC_IVAR_$_HPOfflineBotManager._interpreter
 _OBJC_IVAR_$_HPOfflineBotManager._interpreterSerialQueue
+__OBJC_$_INSTANCE_VARIABLES_HPOfflineBotManager
+__OBJC_$_PROP_LIST_HPOfflineBotManager
+__OBJC_CLASS_RO_$_HPOfflineBotManager
 /Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikOffline/HaptikOffline/Offline Manager/HPOfflineBotManager.mm
 HaptikOffline/Offline Manager/HPOfflineBotManager.mm
 HaptikOffline/Offline Manager/HPOfflineBotManager.h
-Desktop/BuildArtifacts/Platform_OS/Build/Products/Release-iphoneos/HaptikBase.framework/Headers/HPOfflineBotAPI.h
-/Users/hap
 __destroy_helper_block_ea4_20s24s28s
 __copy_helper_block_ea4_20s24s28s
 __111-[HPOfflineBotManager sendAnalyticsForMessage:intentName:viaName:confidence:acceptedConfidence:handledOffline:]_block_invoke
@@ -173,8 +340,8 @@ distance<float *>
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator
 __distance<float *>
 find<float *, float>
-max_element<float *, std::__1::__less<float, float> >
 max_element<float *>
+max_element<float *, std::__1::__less<float, float> >
 operator()
 -[HPOfflineWordDict initWithWordDictionaryPath:]
 -[HPOfflineWordDict inputLength]
@@ -188,11 +355,24 @@ operator()
 -[HPOfflineWordDict getBotBreakMappings]
 -[HPOfflineWordDict wordDict]
 -[HPOfflineWordDict .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_CLASSLIST_REFERENCES_$_.65
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_CLASSLIST_REFERENCES_$_.72
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.92
+__OBJC_METACLASS_RO_$_HPOfflineWordDict
+__OBJC_$_INSTANCE_METHODS_HPOfflineWordDict
 _OBJC_IVAR_$_HPOfflineWordDict._wordDict
+__OBJC_$_INSTANCE_VARIABLES_HPOfflineWordDict
+__OBJC_$_PROP_LIST_HPOfflineWordDict
+__OBJC_CLASS_RO_$_HPOfflineWordDict
 /Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikOffline/HaptikOffline/Offline Manager/Word Dictionary/HPOfflineWordDict.m
 HaptikOffline/Offline Manager/Word Dictionary/HPOfflineWordDict.m
 HaptikOffline/Offline Manager/Word Dictionary/HPOfflineWordDict.h
-/Users/hap/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikOffline.build/Release-iphoneos/HaptikOffline.build/DerivedSources/HaptikOffline_vers.c
 __ZN12_GLOBAL__N_121CallbackErrorReporterD1Ev
 __ZN12_GLOBAL__N_121CallbackErrorReporterD0Ev
 __ZN12_GLOBAL__N_121CallbackErrorReporter6ReportEPKcPv

@@ -1,4 +1,7 @@
 BCSymbolMap Version: 2.0
+Apple clang version 11.0.3 (clang-1103.0.32.29)
+/Users/hap/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikAnalytics.build/Release-iphoneos/HaptikAnalytics.build/DerivedSources/HaptikAnalytics_vers.c
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikAnalytics
 -[HPAnalytics setupAnalytics]
 -[HPAnalytics enablePersonalization]
 -[HPAnalytics optOutFromAnalytics:]
@@ -8,15 +11,42 @@ BCSymbolMap Version: 2.0
 -[HPAnalytics handleHaptikAnalyticsNotification:]
 -[HPAnalytics setAttributes:]
 -[HPAnalytics queueEvent:withParams:]
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
 __OBJC_PROTOCOL_$_NSObject
 __OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_HPAnalyticsAPI
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_HPAnalyticsAPI
+__OBJC_$_PROTOCOL_METHOD_TYPES_HPAnalyticsAPI
 __OBJC_PROTOCOL_$_HPAnalyticsAPI
 __OBJC_LABEL_PROTOCOL_$_HPAnalyticsAPI
-Apple clang version 11.0.0 (clang-1100.0.33.17)
+__OBJC_CLASS_PROTOCOLS_$_HPAnalytics
+__OBJC_METACLASS_RO_$_HPAnalytics
+__OBJC_$_INSTANCE_METHODS_HPAnalytics
+__OBJC_$_PROP_LIST_HPAnalytics
+__OBJC_CLASS_RO_$_HPAnalytics
+_OBJC_LABEL_CLASS_$
 /Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikAnalytics/HaptikAnalytics/Analytics/HPAnalytics.m
-/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikAnalytics
 HaptikAnalytics/Analytics/HPAnalytics.m
-/Users/hap/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikAnalytics.build/Release-iphoneos/HaptikAnalytics.build/DerivedSources/HaptikAnalytics_vers.c
 +[CleverTapLocalDataStore initializeWithAccountId:]
 +[CleverTapLocalDataStore initProfileCache]
 ___43+[CleverTapLocalDataStore initProfileCache]_block_invoke
