@@ -12,11 +12,11 @@ __OBJC_PROTOCOL_$_NSObject
 __OBJC_LABEL_PROTOCOL_$_NSObject
 __OBJC_PROTOCOL_$_HPAnalyticsAPI
 __OBJC_LABEL_PROTOCOL_$_HPAnalyticsAPI
-Apple clang version 11.0.0 (clang-1100.0.33.12)
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikAnalytics/HaptikAnalytics/Analytics/HPAnalytics.m
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikAnalytics
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikAnalytics/HaptikAnalytics/Analytics/HPAnalytics.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikAnalytics
 HaptikAnalytics/Analytics/HPAnalytics.m
-/Users/iamsimranjot/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikAnalytics.build/Release-iphoneos/HaptikAnalytics.build/DerivedSources/HaptikAnalytics_vers.c
+/Users/hap/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikAnalytics.build/Release-iphoneos/HaptikAnalytics.build/DerivedSources/HaptikAnalytics_vers.c
 +[CleverTapLocalDataStore initializeWithAccountId:]
 +[CleverTapLocalDataStore initProfileCache]
 ___43+[CleverTapLocalDataStore initProfileCache]_block_invoke
@@ -292,7 +292,6 @@ _localRegion
 _appLaunchedReportingDisabled
 _serialEventQueue
 _processingLoginUserIdentifierLockObj
-_userSetLocation
 _appForeground
 _lastLocationPingTime
 _inSerialQueue.queueToken
@@ -343,6 +342,8 @@ _OBJC_IVAR_$_CleverTapAPI._radio
 _OBJC_IVAR_$_CleverTapAPI._wifi
 _OBJC_IVAR_$_CleverTapAPI._currentUserOptedOut
 _OBJC_IVAR_$_CleverTapAPI._enableNetworkInfoReporting
+_userSetLocation.0
+_userSetLocation.1
 /Users/peter/CleverTap/sdk-ios-source/work/CleverTapSDK/CleverTapAPI.m
 /Users/peter/CleverTap/sdk-ios-source/work/CleverTapSDK/CleverTapAPI.h
 __54-[CleverTapAPI didHandleInAppTestFromPushNotificaton:]_block_invoke
@@ -543,8 +544,6 @@ __55-[CleverTapInAppView _slideInContentViewFromDirection:]_block_invoke.241
 __55-[CleverTapInAppView _slideInContentViewFromDirection:]_block_invoke_2
 __55-[CleverTapInAppView _slideInContentViewFromDirection:]_block_invoke.237
 __55-[CleverTapInAppView _slideInContentViewFromDirection:]_block_invoke
-CGRectMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 __38-[CleverTapInAppView removeInAppView:]_block_invoke.48
 __38-[CleverTapInAppView removeInAppView:]_block_invoke.39
 __38-[CleverTapInAppView removeInAppView:]_block_invoke
@@ -892,6 +891,8 @@ __37-[CleverTapQueueManager _doHandshake]_block_invoke
 __35-[CleverTapQueueManager sendQueue:]_block_invoke
 __Block_byref_object_dispose_
 __Block_byref_object_copy_
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 __38-[CleverTapQueueManager persistQueues]_block_invoke
 __43-[CleverTapQueueManager scheduleQueueFlush]_block_invoke
 __50-[CleverTapQueueManager addToQueue:withEventType:]_block_invoke

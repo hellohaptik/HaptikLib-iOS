@@ -18,9 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        // Required at the Initial Launch of the Application
-        Haptik.sharedSDK().notify(application, launchedWithOptions: launchOptions)
-        
         // If you need the callbacks of the analytics data that haptik sends
         HPConfiguration.shared().analyticsCallbackObject = self;
         

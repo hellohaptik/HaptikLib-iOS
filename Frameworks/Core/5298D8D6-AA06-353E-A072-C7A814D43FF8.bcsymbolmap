@@ -14,9 +14,9 @@ BCSymbolMap Version: 2.0
 -[MQTTSession(Synchron) publishAndWaitData:onTopic:retain:qos:timeout:]
 -[MQTTSession(Synchron) closeAndWait]
 -[MQTTSession(Synchron) closeAndWait:]
-Apple clang version 11.0.0 (clang-1100.0.33.12)
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionSynchron.m
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionSynchron.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionSynchron.m
 -[ImageGalleryViewController initWithMessageComposer:URLs:]
 -[ImageGalleryViewController viewDidLoad]
@@ -90,7 +90,7 @@ __OBJC_PROTOCOL_$_UICollectionViewDataSource
 __OBJC_LABEL_PROTOCOL_$_UICollectionViewDataSource
 __OBJC_PROTOCOL_$_UICollectionViewDelegateFlowLayout
 __OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegateFlowLayout
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Image Gallery VC/ImageGalleryViewController.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Image Gallery VC/ImageGalleryViewController.m
 HaptikLib/View Controllers/Image Gallery VC/ImageGalleryViewController.m
 HaptikLib/View Controllers/Image Gallery VC/ImageGalleryViewController.h
 __46-[ImageGalleryViewController willHideKeyboard]_block_invoke_2
@@ -110,12 +110,12 @@ __41-[ImageGalleryViewController viewDidLoad]_block_invoke
 -[HaptikAudio audioAPI]
 -[HaptikAudio .cxx_destruct]
 _OBJC_IVAR_$_HaptikAudio.audioAPI
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Haptik Audio/HaptikAudio.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Haptik Audio/HaptikAudio.m
 HaptikLib/Modules/Haptik Audio/HaptikAudio.m
 HaptikLib/Modules/Haptik Audio/HaptikAudio.h
 +[Forms getFormsDataFrom:context:]
 +[Forms getFormEntityForObjectID:context:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Forms/Forms+CoreDataClass.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Forms/Forms+CoreDataClass.m
 HaptikLib/Model Objects/Core Data Objects/Forms/Forms+CoreDataClass.m
 -[HPMessageFeedbackOverlayVC initForMessage:withCompletion:]
 -[HPMessageFeedbackOverlayVC viewDidAppear:]
@@ -195,7 +195,7 @@ _OBJC_IVAR_$_HPMessageFeedbackOverlayVC._completion
 _OBJC_IVAR_$_HPMessageFeedbackOverlayVC._suggestedResponses
 __OBJC_PROTOCOL_$_UITextFieldDelegate
 __OBJC_LABEL_PROTOCOL_$_UITextFieldDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Feedback Views/Feedback Overlay VC/HPMessageFeedbackOverlayVC.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Feedback Views/Feedback Overlay VC/HPMessageFeedbackOverlayVC.m
 HaptikLib/Views/Message Feedback Views/Feedback Overlay VC/HPMessageFeedbackOverlayVC.m
 __49-[HPMessageFeedbackOverlayVC presentFeedbackView]_block_invoke
 CGPointMake
@@ -265,7 +265,7 @@ _OBJC_IVAR_$_HPMessageInputToolbar.bigMicBottomC
 _HPMessageInputToolbarKeyValueObservingContext
 _OBJC_IVAR_$_HPMessageInputToolbar._toolbarDelegate
 _OBJC_IVAR_$_HPMessageInputToolbar._messageTextViewObserving
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Composer/Message Input Toolbar/HPMessageInputToolbar.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Composer/Message Input Toolbar/HPMessageInputToolbar.m
 HaptikLib/Views/Message Composer/Message Input Toolbar/HPMessageInputToolbar.m
 HaptikLib/Views/Message Composer/Message Input Toolbar/HPMessageInputToolbar.h
 __41-[HPMessageInputToolbar hideBigMicButton]_block_invoke
@@ -412,7 +412,7 @@ ___block_descriptor_28_e4_20s24bs_e5_v4?0l
 __OBJC_PROTOCOL_$_DDLogger
 __OBJC_LABEL_PROTOCOL_$_DDLogger
 __dispatch_queue_label_init.onceToken
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDLog.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDLog.m
 _dispatch_queue_label_init_once
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDLog.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDLog.h
@@ -664,7 +664,7 @@ _OBJC_IVAR_$_iCarousel._pagingEnabled
 _OBJC_IVAR_$_iCarousel._lastTime
 _OBJC_IVAR_$_iCarousel._toggleTime
 _OBJC_IVAR_$_iCarousel._previousTranslation
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/UIViews/iCarousel/iCarousel.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/UIViews/iCarousel/iCarousel.m
 HaptikLib/Views/UIViews/iCarousel/iCarousel.m
 HaptikLib/Views/UIViews/iCarousel/iCarousel.h
 __tg_fabs
@@ -682,7 +682,7 @@ __CGSizeEqualToSize
 -[SendAgainButton setChatMessage:]
 -[SendAgainButton .cxx_destruct]
 _OBJC_IVAR_$_SendAgainButton._chatMessage
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Buttons/Send Again Button/SendAgainButton.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Buttons/Send Again Button/SendAgainButton.m
 HaptikLib/Views/Buttons/Send Again Button/SendAgainButton.m
 HaptikLib/Views/Buttons/Send Again Button/SendAgainButton.h
 +[ChatformViewHelper createChatformViewWith:actionHelper:]
@@ -712,7 +712,7 @@ ___93+[ChatformViewHelper getContactPickerField:formFields:actionHelper:sendButt
 ___block_descriptor_20_e24_c12?04"NSDictionary"8l
 ___block_literal_global.242
 ___block_descriptor_28_e4_20s24w_e17_v8?0"NSString"4l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Chatforms/ChatformViewHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Chatforms/ChatformViewHelper.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/Chatforms/ChatformViewHelper.m
 CGRectMake
 __93+[ChatformViewHelper getContactPickerField:formFields:actionHelper:sendButton:referenceRect:]_block_invoke
@@ -721,7 +721,7 @@ __49+[ChatformViewHelper getCountOfAddressFieldsFor:]_block_invoke
 +[UIResponder(SLKAdditions) slk_currentFirstResponder]
 -[UIResponder(SLKAdditions) slk_findFirstResponder:]
 ____currentFirstResponder
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/UIResponder+SLKAdditions.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/UIResponder+SLKAdditions.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/UIResponder+SLKAdditions.m
 -[Carousel initWithDictionary:]
 -[Carousel cta]
@@ -755,7 +755,7 @@ _OBJC_IVAR_$_Carousel.descTitle
 _OBJC_IVAR_$_Carousel.objectId
 _OBJC_IVAR_$_Carousel.images
 _OBJC_IVAR_$_Carousel.link
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Carousel Object/Carousel.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Carousel Object/Carousel.m
 HaptikLib/Model Objects/Carousel Object/Carousel.m
 HaptikLib/Model Objects/Carousel Object/Carousel.h
 +[MessageLogger tryInsertingChatMessageFromBackend:completion:]
@@ -787,18 +787,14 @@ ___58+[MessageLogger createSpeechMessageInBusiness:completion:]_block_invoke
 ___copy_helper_block_e4_24s28r
 ___destroy_helper_block_e4_24s28r
 ___58+[MessageLogger createSpeechMessageInBusiness:completion:]_block_invoke.283
-+[MessageLogger createSpeedTestMessageInBusiness:withMessage:source:]
-___69+[MessageLogger createSpeedTestMessageInBusiness:withMessage:source:]_block_invoke
-___copy_helper_block_e4_20s28s32r
-___destroy_helper_block_e4_20s28s32r
 +[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]
 ___112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke
 ___copy_helper_block_e4_24s28s32s36s40s44s
 ___destroy_helper_block_e4_24s28s32s36s40s44s
-___112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke.306
+___112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke.289
 +[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]
 ___95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke
-___95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke.313
+___95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke.298
 ___block_descriptor_32_e4_20s24r28r_e5_v4?0l
 ___block_descriptor_32_e4_20bs24r28r_e16_v8?0"NSError"4l
 ___block_descriptor_60_e4_20s28s32s36s40s44s48r52r_e5_v4?0l
@@ -807,21 +803,17 @@ ___block_descriptor_28_e4_20bs24r_e16_v8?0"NSError"4l
 ___block_descriptor_56_e4_20s28s32s36s40s44r_e5_v4?0l
 ___block_descriptor_32_e4_24s28r_e5_v4?0l
 ___block_descriptor_28_e4_20bs24r_e5_v4?0l
-___block_descriptor_40_e4_20s28s32r_e5_v4?0l
 ___block_descriptor_49_e4_24s28s32s36s40s44s_e5_v4?0l
 ___block_descriptor_24_e4_20bs_e16_v8?0"NSError"4l
 ___block_descriptor_52_e4_20s28s32s36s40s44r_e5_v4?0l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Database Logger/MessageLogger.m
-__95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke.313
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Database Logger/MessageLogger.m
+__95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke.298
 HaptikLib/Modules/Messaging Service/Database Logger/MessageLogger.m
 __95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke
-__112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke.306
+__112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke.289
 __destroy_helper_block_e4_24s28s32s36s40s44s
 __copy_helper_block_e4_24s28s32s36s40s44s
 __112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke
-__destroy_helper_block_e4_20s28s32r
-__copy_helper_block_e4_20s28s32r
-__69+[MessageLogger createSpeedTestMessageInBusiness:withMessage:source:]_block_invoke
 __58+[MessageLogger createSpeechMessageInBusiness:completion:]_block_invoke.283
 __destroy_helper_block_e4_24s28r
 __copy_helper_block_e4_24s28r
@@ -935,7 +927,7 @@ _OBJC_IVAR_$_MQTTProperties._maximumPacketSize
 _OBJC_IVAR_$_MQTTProperties._wildcardSubscriptionAvailable
 _OBJC_IVAR_$_MQTTProperties._subscriptionIdentifiersAvailable
 _OBJC_IVAR_$_MQTTProperties._sharedSubscriptionAvailable
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTProperties.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTProperties.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTProperties.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTProperties.h
 +[MQTTSessionDelegate sharedInstance]
@@ -975,7 +967,7 @@ __OBJC_PROTOCOL_$_MQTTSessionDelegate
 __OBJC_LABEL_PROTOCOL_$_MQTTSessionDelegate
 _OBJC_IVAR_$_MQTTSessionDelegate.session
 _OBJC_IVAR_$_MQTTSessionDelegate.typingInBusiness
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTSessionDelegate.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTSessionDelegate.m
 HaptikLib/Modules/MQTT Service/MQTTSessionDelegate.m
 HaptikLib/Modules/MQTT Service/MQTTSessionDelegate.h
 __47-[MQTTSessionDelegate handleEvent:event:error:]_block_invoke_2
@@ -993,7 +985,7 @@ __37+[MQTTSessionDelegate sharedInstance]_block_invoke
 +[MQTTStrict strict]
 +[MQTTStrict setStrict:]
 _internalStrict
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTStrict.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTStrict.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTStrict.m
 +[MessageWrapper sendMessage:messageType:chatMessageType:sourceType:actionHandler:operations:completion:]
 ___105+[MessageWrapper sendMessage:messageType:chatMessageType:sourceType:actionHandler:operations:completion:]_block_invoke
@@ -1035,7 +1027,7 @@ ___block_descriptor_32_e4_20bs24s28s_e5_v4?0l
 ___block_descriptor_28_e4_20bs24s_e16_v8?0"NSError"4l
 ___block_descriptor_32_e4_20s24s28bs_e5_v4?0l
 ___block_descriptor_28_e4_20bs24s_e5_v4?0l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Sender Wrapper/MessageWrapper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Sender Wrapper/MessageWrapper.m
 __113+[MessageWrapper performSendingFailureOperationsWith:messageType:business:error:queueResendAnalytics:completion:]_block_invoke_3
 HaptikLib/Modules/Messaging Service/Sender Wrapper/MessageWrapper.m
 __113+[MessageWrapper performSendingFailureOperationsWith:messageType:business:error:queueResendAnalytics:completion:]_block_invoke_2
@@ -1073,7 +1065,7 @@ _OBJC_IVAR_$_SmartFormTableViewCell.titleLab
 _OBJC_IVAR_$_SmartFormTableViewCell.metaLab
 _OBJC_IVAR_$_SmartFormTableViewCell.captionLab
 _OBJC_IVAR_$_SmartFormTableViewCell.imageView
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Table View Cells/Smart Forms/SmartFormTableViewCell.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Table View Cells/Smart Forms/SmartFormTableViewCell.m
 HaptikLib/Views/Table View Cells/Smart Forms/SmartFormTableViewCell.m
 HaptikLib/Views/Table View Cells/Smart Forms/SmartFormTableViewCell.h
 -[DDAbstractDatabaseLogger init]
@@ -1134,7 +1126,7 @@ ___47-[DDAbstractDatabaseLogger deleteOldLogEntries]_block_invoke
 -[DDAbstractDatabaseLogger flush]
 -[DDAbstractDatabaseLogger .cxx_destruct]
 ___block_descriptor_36_e8_20s_e5_v4?0l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDAbstractDatabaseLogger.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDAbstractDatabaseLogger.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDAbstractDatabaseLogger.m
 __47-[DDAbstractDatabaseLogger deleteOldLogEntries]_block_invoke
 __49-[DDAbstractDatabaseLogger savePendingLogEntries]_block_invoke
@@ -1174,7 +1166,7 @@ __52-[DDAbstractDatabaseLogger createSuspendedSaveTimer]_block_invoke
 _OBJC_IVAR_$_UserDetailsTableViewCell._iconView
 _OBJC_IVAR_$_UserDetailsTableViewCell._textField
 _OBJC_IVAR_$_UserDetailsTableViewCell._customTextLabel
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Table View Cells/User Details Cell/UserDetailsTableViewCell.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Table View Cells/User Details Cell/UserDetailsTableViewCell.m
 HaptikLib/Views/Table View Cells/User Details Cell/UserDetailsTableViewCell.m
 HaptikLib/Views/Table View Cells/User Details Cell/UserDetailsTableViewCell.h
 -[HPConversationDataSource initWithBusiness:viewModel:]
@@ -1245,13 +1237,13 @@ _OBJC_IVAR_$_HPConversationDataSource._deletedPaths
 _OBJC_IVAR_$_HPConversationDataSource._updatedPaths
 _OBJC_IVAR_$_HPConversationDataSource._tableView
 _OBJC_IVAR_$_HPConversationDataSource._lastChatMessage
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Data Source/HPConversationDataSource.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Data Source/HPConversationDataSource.m
 HaptikLib/View Controllers/Conversations/Data Source/HPConversationDataSource.m
 HaptikLib/View Controllers/Conversations/Data Source/HPConversationDataSource.h
 __55-[HPConversationDataSource controllerDidChangeContent:]_block_invoke
 __53-[HPConversationDataSource setQuickRepliesVisiblity:]_block_invoke
 -[BaseItem initWithDictionary:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Base Item/BaseItem.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Base Item/BaseItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Base Item/BaseItem.m
 +[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBusiness:insertionDate:]
 ___98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBusiness:insertionDate:]_block_invoke
@@ -1261,7 +1253,7 @@ ___block_descriptor_28_e4_20s24s_e29_v12?0"NSString"4"NSError"8l
 ___block_descriptor_20_e21_v8?0"NSDictionary"4l
 ___block_descriptor_20_e16_v8?0"NSError"4l
 ___block_literal_global.222
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Sender Wrapper/HPNativeActions/MessageWrapper+HPNativeActions.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Sender Wrapper/HPNativeActions/MessageWrapper+HPNativeActions.m
 __98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBusiness:insertionDate:]_block_invoke_2
 HaptikLib/Modules/Messaging Service/Sender Wrapper/HPNativeActions/MessageWrapper+HPNativeActions.m
 __98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBusiness:insertionDate:]_block_invoke.219
@@ -1274,14 +1266,14 @@ __98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBu
 -[ConversationViewModel(HPComposerBar) textViewFrameChanged]
 __OBJC_PROTOCOL_$_HPMessageInputToolbarDelegate
 __OBJC_LABEL_PROTOCOL_$_HPMessageInputToolbarDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Composer Bar/ConversationViewModel+HPComposerBar.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Composer Bar/ConversationViewModel+HPComposerBar.m
 HaptikLib/View Controllers/Conversations/Composer Bar/ConversationViewModel+HPComposerBar.m
 -[ButtonItem initWithDictionary:]
 -[ButtonItem actionable]
 -[ButtonItem setActionable:]
 -[ButtonItem .cxx_destruct]
 _OBJC_IVAR_$_ButtonItem.actionable
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Button Item/ButtonItem.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Button Item/ButtonItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Button Item/ButtonItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Button Item/ButtonItem.h
 -[MQTTDecoder init]
@@ -1319,12 +1311,12 @@ _OBJC_IVAR_$_MQTTDecoder._offset
 _OBJC_IVAR_$_MQTTDecoder._dataBuffer
 _OBJC_IVAR_$_MQTTDecoder._delegate
 _OBJC_IVAR_$_MQTTDecoder._streams
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTDecoder.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTDecoder.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTDecoder.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTDecoder.h
 __22-[MQTTDecoder dealloc]_block_invoke
 +[FormField(CoreDataProperties) fetchRequest]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Form Field/FormField+CoreDataProperties.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Form Field/FormField+CoreDataProperties.m
 HaptikLib/Model Objects/Core Data Objects/Form Field/FormField+CoreDataProperties.m
 -[DDDispatchQueueLogFormatter init]
 -[DDDispatchQueueLogFormatter initWithMode:]
@@ -1353,7 +1345,7 @@ _OBJC_IVAR_$_DDDispatchQueueLogFormatter._mutex
 _OBJC_IVAR_$_DDDispatchQueueLogFormatter._minQueueLength
 _OBJC_IVAR_$_DDDispatchQueueLogFormatter._maxQueueLength
 _OBJC_IVAR_$_DDDispatchQueueLogFormatter._replacements
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.h
 -[MQTTCFSocketTransport init]
@@ -1401,7 +1393,7 @@ __OBJC_PROTOCOL_$_MQTTCFSocketDecoderDelegate
 __OBJC_LABEL_PROTOCOL_$_MQTTCFSocketDecoderDelegate
 __OBJC_PROTOCOL_$_MQTTCFSocketEncoderDelegate
 __OBJC_LABEL_PROTOCOL_$_MQTTCFSocketEncoderDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCFSocketTransport.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCFSocketTransport.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCFSocketTransport.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCFSocketTransport.h
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTTransport.h
@@ -1421,14 +1413,14 @@ _OBJC_IVAR_$_TabDetailsItem.title
 _OBJC_IVAR_$_TabDetailsItem.subTitle
 _OBJC_IVAR_$_TabDetailsItem.unselectedText
 _OBJC_IVAR_$_TabDetailsItem.tabItems
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Tab List Items/TabDetailsItem.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Tab List Items/TabDetailsItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Tab List Items/TabDetailsItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Tab List Items/TabDetailsItem.h
 -[SmartLabel dataItem]
 -[SmartLabel setDataItem:]
 -[SmartLabel .cxx_destruct]
 _OBJC_IVAR_$_SmartLabel.dataItem
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Labels/Smart Label/SmartLabel.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Labels/Smart Label/SmartLabel.m
 HaptikLib/Views/Labels/Smart Label/SmartLabel.m
 HaptikLib/Views/Labels/Smart Label/SmartLabel.h
 -[HPPlaceholderTextView dealloc]
@@ -1456,7 +1448,7 @@ _OBJC_IVAR_$_HPPlaceholderTextView._placeholderColor
 _OBJC_IVAR_$_HPPlaceholderTextView._form
 _OBJC_IVAR_$_HPPlaceholderTextView._formField
 _OBJC_IVAR_$_HPPlaceholderTextView._formFields
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Text Views/Placeholder Text View/HPPlaceholderTextView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Text Views/Placeholder Text View/HPPlaceholderTextView.m
 HaptikLib/Views/Text Views/Placeholder Text View/HPPlaceholderTextView.m
 HaptikLib/Views/Text Views/Placeholder Text View/HPPlaceholderTextView.h
 __37-[HPPlaceholderTextView textChanged:]_block_invoke
@@ -1467,7 +1459,7 @@ __37-[HPPlaceholderTextView textChanged:]_block_invoke
 -[HPCoreDataController(HPMigrations) migrationManager:mappingModelsForSourceModel:]
 __OBJC_PROTOCOL_$_HPMigrationManagerDelegate
 __OBJC_LABEL_PROTOCOL_$_HPMigrationManagerDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/Migrations/HPCoreDataController+HPMigrations.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/Migrations/HPCoreDataController+HPMigrations.m
 HaptikLib/Helpers/Core Data/Core Data Controller/Migrations/HPCoreDataController+HPMigrations.m
 +[ImageViewHelper createImageMessageViewWith:actionHelper:]
 +[ImageViewHelper getImageViewWithID:withAspectRatio:]
@@ -1478,7 +1470,7 @@ HaptikLib/Helpers/Core Data/Core Data Controller/Migrations/HPCoreDataController
 +[ImageViewHelper downloadAndSetImageOnImageView:fromURl:withActionHelper:]
 ___75+[ImageViewHelper downloadAndSetImageOnImageView:fromURl:withActionHelper:]_block_invoke
 ___block_descriptor_32_e4_20s24s28s_e29_v8?0"HPImageManagerResult"4l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Image & Card View/ImageViewHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Image & Card View/ImageViewHelper.m
 __75+[ImageViewHelper downloadAndSetImageOnImageView:fromURl:withActionHelper:]_block_invoke
 HaptikLib/Helpers/Conversation Helpers/View Helpers/Image & Card View/ImageViewHelper.m
 -[SRDelegateController init]
@@ -1508,7 +1500,7 @@ _OBJC_IVAR_$_SRDelegateController._delegate
 _OBJC_IVAR_$_SRDelegateController._dispatchQueue
 _OBJC_IVAR_$_SRDelegateController._operationQueue
 _OBJC_IVAR_$_SRDelegateController._accessQueue
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Delegate/SRDelegateController.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Delegate/SRDelegateController.m
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Delegate/SRDelegateController.m
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Delegate/SRDelegateController.h
 __45-[SRDelegateController performDelegateBlock:]_block_invoke.28
@@ -1523,7 +1515,7 @@ __36-[SRDelegateController setDelegate:]_block_invoke
 -[TabListInformationButton setInformationURL:]
 -[TabListInformationButton .cxx_destruct]
 _OBJC_IVAR_$_TabListInformationButton._informationURL
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Buttons/TabList Information Button/TabListInformationButton.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Buttons/TabList Information Button/TabListInformationButton.m
 HaptikLib/Views/Buttons/TabList Information Button/TabListInformationButton.m
 HaptikLib/Views/Buttons/TabList Information Button/TabListInformationButton.h
 +[SmartFormHelper sharedInstance]
@@ -1548,7 +1540,7 @@ _OBJC_IVAR_$_SmartFormHelper._queue
 _OBJC_IVAR_$_SmartFormHelper._defaultData
 _OBJC_IVAR_$_SmartFormHelper._defaultDataKeysOnly
 _OBJC_IVAR_$_SmartFormHelper._searchedResultsDict
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Smart Forms/Helper Singleton/SmartFormHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Smart Forms/Helper Singleton/SmartFormHelper.m
 HaptikLib/Helpers/Smart Forms/Helper Singleton/SmartFormHelper.m
 HaptikLib/Helpers/Smart Forms/Helper Singleton/SmartFormHelper.h
 __53+[SmartFormHelper fetchSmartFormFieldDefaultDataFor:]_block_invoke_3
@@ -1652,7 +1644,7 @@ _OBJC_IVAR_$_ConversationViewModel._conversationViewHelper
 _OBJC_IVAR_$_ConversationViewModel._conversationSpeech
 _OBJC_IVAR_$_ConversationViewModel._tasksFetchedResultsController
 _OBJC_IVAR_$_ConversationViewModel._feedbackManager
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/View Model/ConversationViewModel.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/View Model/ConversationViewModel.m
 HaptikLib/View Controllers/Conversations/View Model/ConversationViewModel.m
 HaptikLib/View Controllers/Conversations/View Model/ConversationViewModel.h
 __65-[ConversationViewModel scrollViewDidEndDragging:willDecelerate:]_block_invoke
@@ -1670,7 +1662,7 @@ __59-[ConversationViewModel addConversationTableReloadObserver]_block_invoke
 +[RegularTextMessageViewHelper getStatusViewForStatus:date:dateLabel:containerRect:]
 +[RegularTextMessageViewHelper getMessageFailedStatusLabelWith:containerRect:]
 +[RegularTextMessageViewHelper getResendButtonforAssistantMessageView:withChatMessage:withActionHelper:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Regular Text Message/RegularTextMessageViewHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Regular Text Message/RegularTextMessageViewHelper.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/Regular Text Message/RegularTextMessageViewHelper.m
 -[ConversationImageView objectID]
 -[ConversationImageView setObjectID:]
@@ -1679,7 +1671,7 @@ HaptikLib/Helpers/Conversation Helpers/View Helpers/Regular Text Message/Regular
 -[ConversationImageView .cxx_destruct]
 _OBJC_IVAR_$_ConversationImageView._objectID
 _OBJC_IVAR_$_ConversationImageView._imageURL
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Image Views/Conversation Image View/ConversationImageView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Image Views/Conversation Image View/ConversationImageView.m
 HaptikLib/Views/Image Views/Conversation Image View/ConversationImageView.m
 HaptikLib/Views/Image Views/Conversation Image View/ConversationImageView.h
 +[DDTTYLogger initialize_colors_16]
@@ -1750,7 +1742,7 @@ ___block_descriptor_40_e4_20s24s28s_e5_v4?0l
 l_OBJC_PROTOCOL_REFERENCE_$_NSCopying
 ___block_descriptor_36_e4_20s24s28s32s_e5_v4?0l
 ___block_descriptor_32_e4_20s_e5_v4?0l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDTTYLogger.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDTTYLogger.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDTTYLogger.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDTTYLogger.h
 __29-[DDTTYLogger clearAllColors]_block_invoke_2
@@ -1780,7 +1772,7 @@ __29+[DDTTYLogger sharedInstance]_block_invoke
 -[MessagePayload setMessage:]
 -[MessagePayload .cxx_destruct]
 _OBJC_IVAR_$_MessagePayload.message
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/MessagePayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/MessagePayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/MessagePayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/MessagePayload.h
 -[ImageCollectionViewCell initWithFrame:]
@@ -1789,7 +1781,7 @@ HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/Me
 -[ImageCollectionViewCell setImageView:]
 -[ImageCollectionViewCell .cxx_destruct]
 _OBJC_IVAR_$_ImageCollectionViewCell.imageView
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Collection View Cells/Image Gallery Cell/ImageCollectionViewCell.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Collection View Cells/Image Gallery Cell/ImageCollectionViewCell.m
 HaptikLib/Views/Collection View Cells/Image Gallery Cell/ImageCollectionViewCell.m
 HaptikLib/Views/Collection View Cells/Image Gallery Cell/ImageCollectionViewCell.h
 -[ChatMessages smartAction]
@@ -1806,7 +1798,7 @@ ___54+[ChatMessages getMaxMessageIDFromContext:completion:]_block_invoke_2
 -[ChatMessages .cxx_destruct]
 _OBJC_IVAR_$_ChatMessages._smartAction
 _OBJC_IVAR_$_ChatMessages.feedbackInfo
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Chat Messages/ChatMessages+CoreDataClass.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Chat Messages/ChatMessages+CoreDataClass.m
 HaptikLib/Model Objects/Core Data Objects/Chat Messages/ChatMessages+CoreDataClass.m
 HaptikLib/Model Objects/Core Data Objects/Chat Messages/ChatMessages+CoreDataClass.h
 __54+[ChatMessages getMaxMessageIDFromContext:completion:]_block_invoke_2
@@ -1837,7 +1829,7 @@ _OBJC_IVAR_$_DDContextWhitelistFilterLogFormatter._contextSet
 _OBJC_IVAR_$_DDContextBlacklistFilterLogFormatter._contextSet
 _OBJC_IVAR_$_DDLoggingContextSet._mutex
 _OBJC_IVAR_$_DDLoggingContextSet._set
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/Extensions/DDContextFilterLogFormatter.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/Extensions/DDContextFilterLogFormatter.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/Extensions/DDContextFilterLogFormatter.m
 +[DDOSLogger sharedInstance]
 ___28+[DDOSLogger sharedInstance]_block_invoke
@@ -1845,7 +1837,7 @@ ___28+[DDOSLogger sharedInstance]_block_invoke
 -[DDOSLogger logMessage:]
 -[DDOSLogger loggerName]
 _sharedInstance.DDOSLoggerOnceToken
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDOSLogger.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDOSLogger.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDOSLogger.m
 __28+[DDOSLogger sharedInstance]_block_invoke
 -[BasePayload initWithDictionary:]
@@ -1862,7 +1854,7 @@ _OBJC_IVAR_$_BasePayload.link
 _OBJC_IVAR_$_BasePayload.message
 _OBJC_IVAR_$_BasePayload.gogoMessage
 _OBJC_IVAR_$_BasePayload.athenaSmartAction
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/BasePayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/BasePayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/BasePayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/BasePayload.h
 -[HPMigrationManager progressivelyMigrateURL:ofType:options:toModel:error:]
@@ -1876,10 +1868,10 @@ HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/BasePayload.h
 -[HPMigrationManager setDelegate:]
 -[HPMigrationManager .cxx_destruct]
 _OBJC_IVAR_$_HPMigrationManager._delegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Migration Manager/HPMigrationManager.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Migration Manager/HPMigrationManager.m
 HaptikLib/Helpers/Core Data/Migration Manager/HPMigrationManager.m
 HaptikLib/Helpers/Core Data/Migration Manager/HPMigrationManager.h
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRError.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRError.m
 SRHTTPErrorWithCodeDescription
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRError.m
 SRErrorWithCodeDescriptionUnderlyingError
@@ -1890,7 +1882,7 @@ SRErrorWithDomainCodeDescription
 -[IdentifierPayload setIdentifier:]
 -[IdentifierPayload .cxx_destruct]
 _OBJC_IVAR_$_IdentifierPayload.identifier
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/IdentifierPayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/IdentifierPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/IdentifierPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/IdentifierPayload.h
 -[HPCoreDataController initWithStoreURL:modelURL:sourceStoreType:persistentStoreOptions:]
@@ -1920,7 +1912,7 @@ _OBJC_IVAR_$_HPCoreDataController._managedObjectModel
 _OBJC_IVAR_$_HPCoreDataController._mainContext
 _OBJC_IVAR_$_HPCoreDataController._backgroundContext
 _OBJC_IVAR_$_HPCoreDataController._persistentStoreCoordinator
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/HPCoreDataController.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/HPCoreDataController.m
 HaptikLib/Helpers/Core Data/Core Data Controller/HPCoreDataController.m
 HaptikLib/Helpers/Core Data/Core Data Controller/HPCoreDataController.h
 __copy_helper_block_e4_20b24w
@@ -1936,10 +1928,10 @@ __34-[HPCoreDataController clearData:]_block_invoke
 -[BusinessPayload .cxx_destruct]
 _OBJC_IVAR_$_BusinessPayload.viaName
 _OBJC_IVAR_$_BusinessPayload.items
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/BusinessPayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/BusinessPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/BusinessPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/BusinessPayload.h
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRSIMDHelpers.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRSIMDHelpers.m
 SRMaskBytesSIMD
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRSIMDHelpers.m
 SRMaskBytesManual
@@ -1962,11 +1954,11 @@ _OBJC_IVAR_$_MultiSelectTableViewCell.optionName
 _OBJC_IVAR_$_MultiSelectTableViewCell._option
 _OBJC_IVAR_$_MultiSelectTableViewCell._isSelected
 _OBJC_IVAR_$_MultiSelectTableViewCell.lineView
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Table View Cells/MultiSelect Cell/MultiSelectTableViewCell.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Table View Cells/MultiSelect Cell/MultiSelectTableViewCell.m
 HaptikLib/Views/Table View Cells/MultiSelect Cell/MultiSelectTableViewCell.m
 HaptikLib/Views/Table View Cells/MultiSelect Cell/MultiSelectTableViewCell.h
 +[HPAlertController haptikAlertControllerWithTitle:title:subTitle:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Alert Controller/HPAlert Controller/HPAlertController.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Alert Controller/HPAlert Controller/HPAlertController.m
 HaptikLib/Views/Alert Controller/HPAlert Controller/HPAlertController.m
 -[SmartFormSearchViewController init]
 -[SmartFormSearchViewController initWithCoder:]
@@ -2051,7 +2043,7 @@ __OBJC_PROTOCOL_$_UIBarPositioningDelegate
 __OBJC_LABEL_PROTOCOL_$_UIBarPositioningDelegate
 __OBJC_PROTOCOL_$_UISearchBarDelegate
 __OBJC_LABEL_PROTOCOL_$_UISearchBarDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Smart Forms/SmartFormSearchViewController.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Smart Forms/SmartFormSearchViewController.m
 HaptikLib/View Controllers/Smart Forms/SmartFormSearchViewController.m
 __60-[SmartFormSearchViewController fireSearchActivityAnalytics]_block_invoke
 __65-[SmartFormSearchViewController tableView:cellForRowAtIndexPath:]_block_invoke
@@ -2078,7 +2070,7 @@ __44-[SmartFormSearchViewController viewDidLoad]_block_invoke
 _OBJC_IVAR_$_SharePayload.image
 _OBJC_IVAR_$_SharePayload.showShareOptions
 _OBJC_IVAR_$_SharePayload.whatsappShareMessage
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/SharePayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/SharePayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/SharePayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/SharePayload.h
 -[WebSelfServeViewController initWithInfoURL:]
@@ -2106,9 +2098,9 @@ ___60-[WebSelfServeViewController setupBackgroundViewIfNecessary]_block_invoke
 -[WebSelfServeViewController loadWebView]
 -[WebSelfServeViewController handleTapOnDismissButton]
 -[WebSelfServeViewController getQueryStringParameterFromURLString:forParam:]
--[WebSelfServeViewController webView:shouldStartLoadWithRequest:navigationType:]
--[WebSelfServeViewController webViewDidFinishLoad:]
--[WebSelfServeViewController webView:didFailLoadWithError:]
+-[WebSelfServeViewController webView:decidePolicyForNavigationAction:decisionHandler:]
+-[WebSelfServeViewController webView:didFinishNavigation:]
+-[WebSelfServeViewController webView:didFailNavigation:withError:]
 -[WebSelfServeViewController informationURL]
 -[WebSelfServeViewController setInformationURL:]
 -[WebSelfServeViewController message]
@@ -2134,9 +2126,9 @@ _OBJC_IVAR_$_WebSelfServeViewController.webView
 _OBJC_IVAR_$_WebSelfServeViewController.activityIndicator
 _OBJC_IVAR_$_WebSelfServeViewController.errorLab
 _OBJC_IVAR_$_WebSelfServeViewController.message
-__OBJC_PROTOCOL_$_UIWebViewDelegate
-__OBJC_LABEL_PROTOCOL_$_UIWebViewDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Web Self Serve/WebSelfServeViewController.m
+__OBJC_PROTOCOL_$_WKNavigationDelegate
+__OBJC_LABEL_PROTOCOL_$_WKNavigationDelegate
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Web Self Serve/WebSelfServeViewController.m
 HaptikLib/View Controllers/Web Self Serve/WebSelfServeViewController.m
 HaptikLib/View Controllers/Web Self Serve/WebSelfServeViewController.h
 __60-[WebSelfServeViewController setupBackgroundViewIfNecessary]_block_invoke
@@ -2236,7 +2228,7 @@ _OBJC_IVAR_$_MQTTCoreDataPersistence.maxWindowSize
 _OBJC_IVAR_$_MQTTCoreDataPersistence._managedObjectContext
 _OBJC_IVAR_$_MQTTCoreDataPersistence._fileSize
 _OBJC_IVAR_$_MQTTCoreDataPersistence._fileSystemFreeSize
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCoreDataPersistence.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCoreDataPersistence.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCoreDataPersistence.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTPersistence.h
 __72-[MQTTCoreDataPersistence createFlowforClientId:incomingFlag:messageId:]_block_invoke
@@ -2267,7 +2259,7 @@ __32-[MQTTCoreDataFlow setClientId:]_block_invoke
 __28-[MQTTCoreDataFlow clientId]_block_invoke
 -[NSObject(HPAssociatedObject) setAssociatedObject:]
 -[NSObject(HPAssociatedObject) associatedObject]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Extensions/NSObject/NSObject+HPAssociatedObject.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Extensions/NSObject/NSObject+HPAssociatedObject.m
 HaptikLib/Helpers/Extensions/NSObject/NSObject+HPAssociatedObject.m
 +[SRRunLoopThread sharedThread]
 ___31+[SRRunLoopThread sharedThread]_block_invoke
@@ -2280,12 +2272,12 @@ _sharedThread.thread
 _sharedThread.onceToken
 _OBJC_IVAR_$_SRRunLoopThread._waitGroup
 _OBJC_IVAR_$_SRRunLoopThread._runLoop
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/RunLoop/SRRunLoopThread.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/RunLoop/SRRunLoopThread.m
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/RunLoop/SRRunLoopThread.m
 __31+[SRRunLoopThread sharedThread]_block_invoke
 -[NSURLRequest(SRWebSocket) SR_SSLPinnedCertificates]
 -[NSMutableURLRequest(SRWebSocket) setSR_SSLPinnedCertificates:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/NSURLRequest+SRWebSocket.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/NSURLRequest+SRWebSocket.m
 HaptikLib/Modules/MQTT Service/SocketRocket/NSURLRequest+SRWebSocket.m
 import_NSURLRequest_SRWebSocket
 -[SRIOConsumerPool initWithBufferCapacity:]
@@ -2295,7 +2287,7 @@ import_NSURLRequest_SRWebSocket
 -[SRIOConsumerPool .cxx_destruct]
 _OBJC_IVAR_$_SRIOConsumerPool._poolSize
 _OBJC_IVAR_$_SRIOConsumerPool._bufferedConsumers
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/IOConsumer/SRIOConsumerPool.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/IOConsumer/SRIOConsumerPool.m
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/IOConsumer/SRIOConsumerPool.m
 -[CarouselItem initWithDictionary:]
 -[CarouselItem title]
@@ -2320,10 +2312,10 @@ _OBJC_IVAR_$_CarouselItem.toolName
 _OBJC_IVAR_$_CarouselItem.itemDescription
 _OBJC_IVAR_$_CarouselItem.thumbnail
 _OBJC_IVAR_$_CarouselItem.actionables
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Carousel Item/CarouselItem.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Carousel Item/CarouselItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Carousel Item/CarouselItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Carousel Item/CarouselItem.h
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRHash.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRHash.m
 SRBase64EncodedStringFromData
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRHash.m
 SRSHA1HashFromBytes
@@ -2390,7 +2382,7 @@ _OBJC_IVAR_$_SLKTypingIndicatorView._leftContraint
 _OBJC_IVAR_$_SLKTypingIndicatorView._rightContraint
 __OBJC_PROTOCOL_$_SLKTypingIndicatorProtocol
 __OBJC_LABEL_PROTOCOL_$_SLKTypingIndicatorProtocol
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTypingIndicatorView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTypingIndicatorView.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTypingIndicatorView.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTypingIndicatorView.h
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTypingIndicatorProtocol.h
@@ -2517,7 +2509,7 @@ _OBJC_IVAR_$_DDLogFileInfo._creationDate
 _OBJC_IVAR_$_DDLogFileInfo._modificationDate
 _OBJC_IVAR_$_DDLogFileInfo._fileSize
 _OBJC_IVAR_$_DDLogFileInfo.filePath
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDFileLogger.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDFileLogger.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDFileLogger.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDFileLogger.h
 __36-[DDFileLogger currentLogFileHandle]_block_invoke
@@ -2537,29 +2529,21 @@ __42-[DDLogFileManagerDefault applicationName]_block_invoke
 doesAppRunInBackground
 __45-[DDLogFileManagerDefault sortedLogFileInfos]_block_invoke
 __74-[DDLogFileManagerDefault observeValueForKeyPath:ofObject:change:context:]_block_invoke
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRRandom.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRRandom.m
 SRRandomData
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRRandom.m
 ___SRDefaultBufferSize_block_invoke
 _SRDefaultBufferSize.size
 _SRDefaultBufferSize.onceToken
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/SRConstants.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/SRConstants.m
 __SRDefaultBufferSize_block_invoke
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/SRConstants.m
 SRDefaultBufferSize
 -[HPNativeActionHandler initWithActionType:withActionParams:inBusiness:fromSource:insertionDate:]
 -[HPNativeActionHandler performNativeAppAction]
 ___47-[HPNativeActionHandler performNativeAppAction]_block_invoke
--[HPNativeActionHandler notifyAppropriateChannelWithResults:]
--[HPNativeActionHandler handleSpeedTestAction]
-___46-[HPNativeActionHandler handleSpeedTestAction]_block_invoke
-___46-[HPNativeActionHandler handleSpeedTestAction]_block_invoke_2
 -[HPNativeActionHandler getMessageFromResults:]
--[HPNativeActionHandler saveSpeedTestMessage]
--[HPNativeActionHandler addObservers]
-___37-[HPNativeActionHandler addObservers]_block_invoke
-___37-[HPNativeActionHandler addObservers]_block_invoke_2
--[HPNativeActionHandler clearObservers]
+-[HPNativeActionHandler notifyAppropriateChannelWithResults:]
 -[HPNativeActionHandler fireAnalyticsForActionType:]
 ___52-[HPNativeActionHandler fireAnalyticsForActionType:]_block_invoke
 -[HPNativeActionHandler actionType]
@@ -2575,8 +2559,6 @@ ___52-[HPNativeActionHandler fireAnalyticsForActionType:]_block_invoke
 -[HPNativeActionHandler setSourceType:]
 -[HPNativeActionHandler observerTokens]
 -[HPNativeActionHandler setObserverTokens:]
--[HPNativeActionHandler speedTestChatMessage]
--[HPNativeActionHandler setSpeedTestChatMessage:]
 -[HPNativeActionHandler .cxx_destruct]
 ___block_descriptor_24_e4_20s_e21_v8?0"NSDictionary"4l
 _OBJC_IVAR_$_HPNativeActionHandler._finished
@@ -2587,15 +2569,10 @@ _OBJC_IVAR_$_HPNativeActionHandler._timeStamp
 _OBJC_IVAR_$_HPNativeActionHandler._insertionDate
 _OBJC_IVAR_$_HPNativeActionHandler._sourceType
 _OBJC_IVAR_$_HPNativeActionHandler._observerTokens
-_OBJC_IVAR_$_HPNativeActionHandler._speedTestChatMessage
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Native Action Handler/HPNativeActionHandler.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Native Action Handler/HPNativeActionHandler.m
 HaptikLib/Modules/Messaging Service/Native Action Handler/HPNativeActionHandler.m
 HaptikLib/Modules/Messaging Service/Native Action Handler/HPNativeActionHandler.h
 __52-[HPNativeActionHandler fireAnalyticsForActionType:]_block_invoke
-__37-[HPNativeActionHandler addObservers]_block_invoke_2
-__37-[HPNativeActionHandler addObservers]_block_invoke
-__46-[HPNativeActionHandler handleSpeedTestAction]_block_invoke_2
-__46-[HPNativeActionHandler handleSpeedTestAction]_block_invoke
 __47-[HPNativeActionHandler performNativeAppAction]_block_invoke
 +[HPUserService signUpUserWith:completion:]
 ___43+[HPUserService signUpUserWith:completion:]_block_invoke
@@ -2630,7 +2607,7 @@ ___block_descriptor_28_e4_20bs_e37_v16?04"NSURLResponse"8"NSError"12l
 ___block_descriptor_28_e4_24bs_e7_v8?0I4l
 ___block_descriptor_24_e4_20bs_e37_v16?04"NSURLResponse"8"NSError"12l
 ___block_descriptor_32_e4_24s28bs_e7_v8?0I4l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/User Service/HPUserService.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/User Service/HPUserService.m
 HaptikLib/Modules/User Service/HPUserService.m
 __43+[HPUserService signoutUserWithCompletion:]_block_invoke
 __43+[HPUserService updateUserWith:completion:]_block_invoke
@@ -2663,7 +2640,7 @@ ___51-[SLKTextView(SLKAdditions) slk_insertNewLineBreak]_block_invoke
 -[SLKTextView(SLKAdditions) slk_defaultAttributedStringForText:]
 -[SLKTextView(SLKAdditions) slk_prepareForUndo:]
 ___block_descriptor_40_e4_20s_e5_v4?0l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextView+SLKAdditions.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextView+SLKAdditions.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextView+SLKAdditions.m
 NSMakeRange
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
@@ -2678,7 +2655,7 @@ ___29+[DDASLLogger sharedInstance]_block_invoke
 _sharedInstance.DDASLLoggerOnceToken
 _OBJC_IVAR_$_DDASLLogger._client
 _logMessage:.level_strings
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDASLLogger.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDASLLogger.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDASLLogger.m
 __29+[DDASLLogger sharedInstance]_block_invoke
 -[URLPayload initWithDictionary:]
@@ -2689,7 +2666,7 @@ __29+[DDASLLogger sharedInstance]_block_invoke
 -[URLPayload .cxx_destruct]
 _OBJC_IVAR_$_URLPayload.url
 _OBJC_IVAR_$_URLPayload.webviewHeightPercentage
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/URLPayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/URLPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/URLPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/URLPayload.h
 -[MQTTCFSocketDecoder init]
@@ -2710,7 +2687,7 @@ _OBJC_IVAR_$_MQTTCFSocketDecoder._state
 _OBJC_IVAR_$_MQTTCFSocketDecoder._error
 _OBJC_IVAR_$_MQTTCFSocketDecoder._stream
 _OBJC_IVAR_$_MQTTCFSocketDecoder._delegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCFSocketDecoder.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCFSocketDecoder.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCFSocketDecoder.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCFSocketDecoder.h
 +[MQTTSSLSecurityPolicy defaultPinnedCertificates]
@@ -2741,7 +2718,7 @@ _OBJC_IVAR_$_MQTTSSLSecurityPolicy._validatesDomainName
 _OBJC_IVAR_$_MQTTSSLSecurityPolicy._SSLPinningMode
 _OBJC_IVAR_$_MQTTSSLSecurityPolicy._pinnedCertificates
 _OBJC_IVAR_$_MQTTSSLSecurityPolicy._pinnedPublicKeys
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicy.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicy.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicy.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicy.h
 SSLSecKeyIsEqualToKey
@@ -2757,7 +2734,7 @@ ___126-[ConversationViewController(LaunchOperations) addLaunchOperationsWithMess
 ___126-[ConversationViewController(LaunchOperations) addLaunchOperationsWithMessage:messageType:conversationType:toBlockOperations:]_block_invoke.210
 -[ConversationViewController(LaunchOperations) performHiddenMessageOperations:messageType:]
 ___91-[ConversationViewController(LaunchOperations) performHiddenMessageOperations:messageType:]_block_invoke
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/LaunchOperations/ConversationViewController+LaunchOperations.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/LaunchOperations/ConversationViewController+LaunchOperations.m
 __91-[ConversationViewController(LaunchOperations) performHiddenMessageOperations:messageType:]_block_invoke
 HaptikLib/View Controllers/Conversations/LaunchOperations/ConversationViewController+LaunchOperations.m
 __126-[ConversationViewController(LaunchOperations) addLaunchOperationsWithMessage:messageType:conversationType:toBlockOperations:]_block_invoke.210
@@ -3037,7 +3014,7 @@ __OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
 __OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
 __OBJC_PROTOCOL_$_UIAlertViewDelegate
 __OBJC_LABEL_PROTOCOL_$_UIAlertViewDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextViewController.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextViewController.m
 SLKKeyWindowBounds
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKUIConstants.h
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextViewController.m
@@ -3129,7 +3106,7 @@ _OBJC_IVAR_$_MultiSelectActionSheet.selectedArray
 _OBJC_IVAR_$_MultiSelectActionSheet.optionsArray
 _OBJC_IVAR_$_MultiSelectActionSheet._donePressed
 _OBJC_IVAR_$_MultiSelectActionSheet._cancelPressed
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/UIViews/MultiSelect ActionSheet/MultiSelectActionSheet.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/UIViews/MultiSelect ActionSheet/MultiSelectActionSheet.m
 HaptikLib/Views/UIViews/MultiSelect ActionSheet/MultiSelectActionSheet.m
 HaptikLib/Views/UIViews/MultiSelect ActionSheet/MultiSelectActionSheet.h
 __46-[MultiSelectActionSheet handleTaponOKButton:]_block_invoke_2
@@ -3162,7 +3139,7 @@ _OBJC_IVAR_$_SmartButton.carouselPosition
 _OBJC_IVAR_$_SmartButton.ctaPosition
 _OBJC_IVAR_$_SmartButton.smartView
 _OBJC_IVAR_$_SmartButton.dataItem
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Buttons/Smart Button/SmartButton.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Buttons/Smart Button/SmartButton.m
 HaptikLib/Views/Buttons/Smart Button/SmartButton.m
 HaptikLib/Views/Buttons/Smart Button/SmartButton.h
 -[SmartCarouselDetailViewController initWithPayload:actionHelper:]
@@ -3184,8 +3161,8 @@ ___58-[SmartCarouselDetailViewController sendMessage:withType:]_block_invoke
 -[SmartCarouselDetailViewController scrollToLeft:]
 -[SmartCarouselDetailViewController performFadeOutAnimation]
 -[SmartCarouselDetailViewController gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
--[SmartCarouselDetailViewController webViewDidFinishLoad:]
-___58-[SmartCarouselDetailViewController webViewDidFinishLoad:]_block_invoke
+-[SmartCarouselDetailViewController webView:didFinishNavigation:]
+___65-[SmartCarouselDetailViewController webView:didFinishNavigation:]_block_invoke
 -[SmartCarouselDetailViewController numberOfItemsInCarousel:]
 -[SmartCarouselDetailViewController carousel:viewForItemAtIndex:reusingView:]
 -[SmartCarouselDetailViewController carousel:valueForOption:withDefault:]
@@ -3234,10 +3211,10 @@ __OBJC_PROTOCOL_$_iCarouselDelegate
 __OBJC_LABEL_PROTOCOL_$_iCarouselDelegate
 __OBJC_PROTOCOL_$_MessageSenderDelegate
 __OBJC_LABEL_PROTOCOL_$_MessageSenderDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Carousel Details/Smart Carousel/SmartCarouselDetailViewController.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Carousel Details/Smart Carousel/SmartCarouselDetailViewController.m
 HaptikLib/View Controllers/Carousel Details/Smart Carousel/SmartCarouselDetailViewController.m
 HaptikLib/View Controllers/Carousel Details/Smart Carousel/SmartCarouselDetailViewController.h
-__58-[SmartCarouselDetailViewController webViewDidFinishLoad:]_block_invoke
+__65-[SmartCarouselDetailViewController webView:didFinishNavigation:]_block_invoke
 __58-[SmartCarouselDetailViewController sendMessage:withType:]_block_invoke
 __55-[SmartCarouselDetailViewController addImageScrollView]_block_invoke
 +[HPSyncService initiateSyncWithCompletion:]
@@ -3287,7 +3264,7 @@ ___block_descriptor_32_e4_20s28s_e5_v4?0l
 ___block_descriptor_32_e4_20s24s28bs_e16_v8?0"NSError"4l
 ___block_descriptor_28_e4_24s_e24_v16?0"NSString"48^c12l
 ___block_descriptor_24_e4_20s_e14_v16?048^c12l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Sync Service/HPSyncService.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Sync Service/HPSyncService.m
 HaptikLib/Modules/Sync Service/HPSyncService.m
 __51+[HPSyncService mostRecentModifiedAtDateForEntity:]_block_invoke
 __50+[HPSyncService setValue:forKey:forManagedObject:]_block_invoke
@@ -3315,7 +3292,7 @@ __44+[HPSyncService initiateSyncWithCompletion:]_block_invoke
 -[SRSecurityPolicy evaluateServerTrust:forDomain:]
 -[SRSecurityPolicy certificateChainValidationEnabled]
 _OBJC_IVAR_$_SRSecurityPolicy._certificateChainValidationEnabled
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/SRSecurityPolicy.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/SRSecurityPolicy.m
 HaptikLib/Modules/MQTT Service/SocketRocket/SRSecurityPolicy.m
 -[MQTTSession setCertificates:]
 -[MQTTSession init]
@@ -3538,7 +3515,7 @@ _OBJC_IVAR_$_MQTTSession._unsubscribeHandlers
 _OBJC_IVAR_$_MQTTSession._publishHandlers
 _OBJC_IVAR_$_MQTTSession._securityPolicy
 _OBJC_IVAR_$_MQTTSession._dupTimeout
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSession.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSession.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSession.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSession.h
 __41-[MQTTSession decoder:didReceiveMessage:]_block_invoke.419
@@ -3561,7 +3538,7 @@ _OBJC_IVAR_$_MQTTSSLSecurityPolicyTransport.delegate
 _OBJC_IVAR_$_MQTTSSLSecurityPolicyTransport._securityPolicy
 _OBJC_IVAR_$_MQTTSSLSecurityPolicyTransport._encoder
 _OBJC_IVAR_$_MQTTSSLSecurityPolicyTransport._decoder
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyTransport.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyTransport.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyTransport.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyTransport.h
 +[GCDTimer scheduledTimerWithTimeInterval:repeats:queue:block:]
@@ -3574,7 +3551,7 @@ ___49-[GCDTimer initWithInterval:repeats:queue:block:]_block_invoke
 -[GCDTimer .cxx_destruct]
 ___block_descriptor_29_e4_20s24bs_e5_v4?0l
 _OBJC_IVAR_$_GCDTimer._timer
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/GCDTimer.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/GCDTimer.m
 HaptikLib/Modules/MQTT Service/MQTTClient/GCDTimer.m
 __49-[GCDTimer initWithInterval:repeats:queue:block:]_block_invoke
 -[RegularSmartAction initWithMessage:handler:params:]
@@ -3600,7 +3577,7 @@ _OBJC_IVAR_$_RegularSmartAction.imageName
 _OBJC_IVAR_$_RegularSmartAction.titleText
 _OBJC_IVAR_$_RegularSmartAction.subtitleText
 _OBJC_IVAR_$_RegularSmartAction.paramsDict
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Smart Action Helpers/Regular Smart Action/RegularSmartAction.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Smart Action Helpers/Regular Smart Action/RegularSmartAction.m
 HaptikLib/Helpers/Smart Action Helpers/Regular Smart Action/RegularSmartAction.m
 HaptikLib/Helpers/Smart Action Helpers/Regular Smart Action/RegularSmartAction.h
 NSStringFromSmartAction
@@ -3655,7 +3632,7 @@ _OBJC_IVAR_$_MQTTMessage._data
 _OBJC_IVAR_$_MQTTMessage._returnCode
 _OBJC_IVAR_$_MQTTMessage._connectAcknowledgeFlags
 _OBJC_IVAR_$_MQTTMessage._properties
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTMessage.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTMessage.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTMessage.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTMessage.h
 +[MessageLogger(HPAdditions) insertBackendMessage:business:sourceType:agentName:messageID:date:sortID:smartAction:context:]
@@ -3672,13 +3649,13 @@ ___120+[MessageLogger(HPAdditions) performPostLoggingOperationsInBusiness:smartA
 +[MessageLogger(HPAdditions) startDownloadingAvailableEmojisInMessage:]
 ___71+[MessageLogger(HPAdditions) startDownloadingAvailableEmojisInMessage:]_block_invoke
 ___block_descriptor_24_e4_20s_e29_v8?0"HPImageManagerResult"4l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Database Logger/Additions/MessageLogger+HPAdditions.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Database Logger/Additions/MessageLogger+HPAdditions.m
 __71+[MessageLogger(HPAdditions) startDownloadingAvailableEmojisInMessage:]_block_invoke
 HaptikLib/Modules/Messaging Service/Database Logger/Additions/MessageLogger+HPAdditions.m
 __120+[MessageLogger(HPAdditions) performPostLoggingOperationsInBusiness:smartAction:lastMessageInsertionDate:triggeredFrom:]_block_invoke
 -[HPUserToUserPolicy createDestinationInstancesForSourceInstance:entityMapping:manager:error:]
 -[HPUserToUserPolicy migrateUserDataToHaptikUserFrom:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Migration Policies/User to User/HPUserToUserPolicy.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Migration Policies/User to User/HPUserToUserPolicy.m
 HaptikLib/Helpers/Core Data/Migration Policies/User to User/HPUserToUserPolicy.m
 -[HPConversationSpeechExtension initWithBusiness:conversationDataSource:actionHelper:controller:]
 -[HPConversationSpeechExtension setComposerBar:]
@@ -3735,7 +3712,7 @@ _OBJC_IVAR_$_HPConversationSpeechExtension._composeBar
 _OBJC_IVAR_$_HPConversationSpeechExtension._dataSource
 _OBJC_IVAR_$_HPConversationSpeechExtension._actionHelper
 _OBJC_IVAR_$_HPConversationSpeechExtension._conversationController
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Speech/HPConversationSpeechExtension.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Speech/HPConversationSpeechExtension.m
 HaptikLib/View Controllers/Conversations/Speech/HPConversationSpeechExtension.m
 HaptikLib/View Controllers/Conversations/Speech/HPConversationSpeechExtension.h
 __47-[HPConversationSpeechExtension askPermissions]_block_invoke_2
@@ -3765,7 +3742,7 @@ __61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke
 _OBJC_IVAR_$_MQTTSSLSecurityPolicyDecoder._securityPolicy
 _OBJC_IVAR_$_MQTTSSLSecurityPolicyDecoder._securityDomain
 _OBJC_IVAR_$_MQTTSSLSecurityPolicyDecoder._securityPolicyApplied
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyDecoder.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyDecoder.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyDecoder.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyDecoder.h
 -[ConversationViewController(HPImagePicker) showImagePickerOptions]
@@ -3785,7 +3762,7 @@ ___block_descriptor_28_e4_20s24w_e46_v16?0"NSString"4"UIImage"8"NSDictionary
 ___block_descriptor_24_e4_20s_e29_v12?0"NSString"4"NSError"8l
 __OBJC_PROTOCOL_$_UIImagePickerControllerDelegate
 __OBJC_LABEL_PROTOCOL_$_UIImagePickerControllerDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Image Picker/ConversationViewController+HPImagePicker.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Image Picker/ConversationViewController+HPImagePicker.m
 __64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke_2.637
 HaptikLib/View Controllers/Conversations/Image Picker/ConversationViewController+HPImagePicker.m
 __64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke.626
@@ -3802,7 +3779,7 @@ __67-[ConversationViewController(HPImagePicker) showImagePickerOptions]_block_in
 -[LocationPayload .cxx_destruct]
 _OBJC_IVAR_$_LocationPayload.latitudeKey
 _OBJC_IVAR_$_LocationPayload.longitudeKey
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/LocationPayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/LocationPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/LocationPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/LocationPayload.h
 -[MQTTSSLSecurityPolicyEncoder init]
@@ -3818,7 +3795,7 @@ HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/Lo
 _OBJC_IVAR_$_MQTTSSLSecurityPolicyEncoder._securityPolicy
 _OBJC_IVAR_$_MQTTSSLSecurityPolicyEncoder._securityDomain
 _OBJC_IVAR_$_MQTTSSLSecurityPolicyEncoder._securityPolicyApplied
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyEncoder.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyEncoder.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyEncoder.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSSLSecurityPolicyEncoder.h
 -[ForegroundReconnection initWithMQTTSessionManager:]
@@ -3835,7 +3812,7 @@ ___47-[ForegroundReconnection appDidEnterBackground]_block_invoke
 -[ForegroundReconnection .cxx_destruct]
 _OBJC_IVAR_$_ForegroundReconnection._sessionManager
 _OBJC_IVAR_$_ForegroundReconnection._backgroundTask
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/ForegroundReconnection.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/ForegroundReconnection.m
 HaptikLib/Modules/MQTT Service/MQTTClient/ForegroundReconnection.m
 HaptikLib/Modules/MQTT Service/MQTTClient/ForegroundReconnection.h
 __47-[ForegroundReconnection appDidEnterBackground]_block_invoke
@@ -3847,7 +3824,7 @@ __47-[ForegroundReconnection appDidEnterBackground]_block_invoke
 -[SystemEventItem .cxx_destruct]
 _OBJC_IVAR_$_SystemEventItem.eventName
 _OBJC_IVAR_$_SystemEventItem.payload
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/System Item/SystemEventItem.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/System Item/SystemEventItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/System Item/SystemEventItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/System Item/SystemEventItem.h
 -[Haptik(Analytics) getHaptikAnalyticsAPI]
@@ -3861,7 +3838,7 @@ ___62-[Haptik(Analytics) setDefaulAnalyticsAttributesForHaptikUser]_block_invoke
 -[Haptik(Analytics) handleHaptikAnalyticsNotification:]
 -[Haptik(Analytics) configureAnalyticsSettingsForHaptikUser:]
 -[Haptik(Analytics) setAttributes:class:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Haptik/Analytics/Haptik+Analytics.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Haptik/Analytics/Haptik+Analytics.m
 HaptikLib/Haptik/Analytics/Haptik+Analytics.m
 __62-[Haptik(Analytics) setDefaulAnalyticsAttributesForHaptikUser]_block_invoke_2
 __62-[Haptik(Analytics) setDefaulAnalyticsAttributesForHaptikUser]_block_invoke
@@ -3871,12 +3848,12 @@ _OBJC_IVAR_$_CLIColor._red
 _OBJC_IVAR_$_CLIColor._green
 _OBJC_IVAR_$_CLIColor._blue
 _OBJC_IVAR_$_CLIColor._alpha
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/CLI/CLIColor.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/CLI/CLIColor.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/CLI/CLIColor.m
 +[HSLButtonSmartActionViewHelper createHSLButtonSmartActionViewFor:actionHelper:]
 +[HSLButtonSmartActionViewHelper getSmartButtonViewFromSmartButton:chatMessage:]
 +[HSLButtonSmartActionViewHelper getSmartButtonForSmartAction:withAssistant:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Button Smart Action/HSLButtonSmartActionViewHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Button Smart Action/HSLButtonSmartActionViewHelper.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Button Smart Action/HSLButtonSmartActionViewHelper.m
 -[HaptikBusinessButton initWithFrame:]
 -[HaptikBusinessButton actionString]
@@ -3895,7 +3872,7 @@ _OBJC_IVAR_$_HaptikBusinessButton.businessName
 _OBJC_IVAR_$_HaptikBusinessButton.smartActionParams
 _OBJC_IVAR_$_HaptikBusinessButton.walletSelected
 _OBJC_IVAR_$_HaptikBusinessButton.chatObjectID
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Buttons/Haptik Business Button/HaptikBusinessButton.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Buttons/Haptik Business Button/HaptikBusinessButton.m
 HaptikLib/Views/Buttons/Haptik Business Button/HaptikBusinessButton.m
 HaptikLib/Views/Buttons/Haptik Business Button/HaptikBusinessButton.h
 -[HPCoreDataController(HPContextCoordinator) setupContextNotificationObserving]
@@ -3910,7 +3887,7 @@ ___68-[HPCoreDataController(HPContextCoordinator) remapObject:toContext:]_block_
 -[HPCoreDataController(HPContextCoordinator) backgroundContextDidSave:]
 ___block_descriptor_24_e4_20s_e37_v8?0"HPContextDidSaveNotification"4l
 ___block_descriptor_32_e4_20s24s28r_e5_v4?0l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/Contexts Coordinator/HPCoreDataController+HPContextCoordinator.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/Contexts Coordinator/HPCoreDataController+HPContextCoordinator.m
 HaptikLib/Helpers/Core Data/Core Data Controller/Contexts Coordinator/HPCoreDataController+HPContextCoordinator.m
 __68-[HPCoreDataController(HPContextCoordinator) remapObject:toContext:]_block_invoke
 __67-[HPCoreDataController(HPContextCoordinator) setupQueryGenerations]_block_invoke.17
@@ -3922,59 +3899,9 @@ __79-[HPCoreDataController(HPContextCoordinator) setupContextNotificationObservi
 -[MultipleLocationsPayload setLocations:]
 -[MultipleLocationsPayload .cxx_destruct]
 _OBJC_IVAR_$_MultipleLocationsPayload.locations
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/MultipleLocationsPayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/MultipleLocationsPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/MultipleLocationsPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/MultipleLocationsPayload.h
--[HPSpeedTestTableCell initWithStyle:reuseIdentifier:]
--[HPSpeedTestTableCell createErrorView]
--[HPSpeedTestTableCell createSpeedTestView]
--[HPSpeedTestTableCell getStatsBoard]
--[HPSpeedTestTableCell initTitleLabel]
--[HPSpeedTestTableCell initProgressBar]
--[HPSpeedTestTableCell getPingView]
--[HPSpeedTestTableCell getDownloadView]
--[HPSpeedTestTableCell getUploadView]
--[HPSpeedTestTableCell getConstraintsfor:baselabel:subLabel:]
--[HPSpeedTestTableCell layoutSubviews]
--[HPSpeedTestTableCell setState:]
--[HPSpeedTestTableCell configureCellForMessage:]
--[HPSpeedTestTableCell setFeedbackView:]
--[HPSpeedTestTableCell prepareForReuse]
--[HPSpeedTestTableCell titleLabel]
--[HPSpeedTestTableCell setTitleLabel:]
--[HPSpeedTestTableCell downloadLabel]
--[HPSpeedTestTableCell setDownloadLabel:]
--[HPSpeedTestTableCell uploadLabel]
--[HPSpeedTestTableCell setUploadLabel:]
--[HPSpeedTestTableCell pingLabel]
--[HPSpeedTestTableCell setPingLabel:]
--[HPSpeedTestTableCell progressBar]
--[HPSpeedTestTableCell setProgressBar:]
--[HPSpeedTestTableCell state]
--[HPSpeedTestTableCell testView]
--[HPSpeedTestTableCell setTestView:]
--[HPSpeedTestTableCell errorView]
--[HPSpeedTestTableCell setErrorView:]
--[HPSpeedTestTableCell feedbackView]
--[HPSpeedTestTableCell errorConstraints]
--[HPSpeedTestTableCell setErrorConstraints:]
--[HPSpeedTestTableCell testConstraints]
--[HPSpeedTestTableCell setTestConstraints:]
--[HPSpeedTestTableCell .cxx_destruct]
-_OBJC_IVAR_$_HPSpeedTestTableCell._errorConstraints
-_OBJC_IVAR_$_HPSpeedTestTableCell._testConstraints
-_OBJC_IVAR_$_HPSpeedTestTableCell._titleLabel
-_OBJC_IVAR_$_HPSpeedTestTableCell._progressBar
-_OBJC_IVAR_$_HPSpeedTestTableCell._pingLabel
-_OBJC_IVAR_$_HPSpeedTestTableCell._downloadLabel
-_OBJC_IVAR_$_HPSpeedTestTableCell._uploadLabel
-_OBJC_IVAR_$_HPSpeedTestTableCell._state
-_OBJC_IVAR_$_HPSpeedTestTableCell._feedbackView
-_OBJC_IVAR_$_HPSpeedTestTableCell._testView
-_OBJC_IVAR_$_HPSpeedTestTableCell._errorView
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Speed Test/HPSpeedTestTableCell.m
-HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Speed Test/HPSpeedTestTableCell.m
-HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Speed Test/HPSpeedTestTableCell.h
 +[TaskboxActionHandler handleTaskboxTapForTask:atIndexPath:actionHelper:]
 ___73+[TaskboxActionHandler handleTaskboxTapForTask:atIndexPath:actionHelper:]_block_invoke
 ___copy_helper_block_e4_24s28s32s
@@ -3996,7 +3923,7 @@ ___block_descriptor_36_e4_24s28s32s_e33_v16?0c4"NSString"8"NSString"12l
 ___block_descriptor_28_e4_24s_e34_v12?0"NSString"4"NSDictionary"8l
 ___block_descriptor_28_e4_24s_e29_v12?0"NSString"4"NSError"8l
 ___block_descriptor_36_e4_20s24s32s_e5_v4?0l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Action Helpers/Taskbox/TaskboxActionHandler.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Action Helpers/Taskbox/TaskboxActionHandler.m
 HaptikLib/Helpers/Conversation Helpers/Action Helpers/Taskbox/TaskboxActionHandler.m
 __71+[TaskboxActionHandler fireTaskTappedAnalyticsWith:business:indexPath:]_block_invoke
 __copy_helper_block_e4_20s24s32s
@@ -4026,7 +3953,7 @@ ___125+[ConversationAnalyticsHelper fireAnalyticsEventsFor:message:businessName:
 ___85+[ConversationAnalyticsHelper fireMessageSendingAttemptedAnalyticsFor:success:error:]_block_invoke
 ___block_descriptor_40_e4_20s24s28s32s36s_e5_v4?0l
 ___block_descriptor_37_e4_20s24s28s_e5_v4?0l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Analytics Helper/Conversation Analytics Helper/ConversationAnalyticsHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Analytics Helper/Conversation Analytics Helper/ConversationAnalyticsHelper.m
 __85+[ConversationAnalyticsHelper fireMessageSendingAttemptedAnalyticsFor:success:error:]_block_invoke
 HaptikLib/Helpers/Analytics Helper/Conversation Analytics Helper/ConversationAnalyticsHelper.m
 __125+[ConversationAnalyticsHelper fireAnalyticsEventsFor:message:businessName:businessViaName:messageID:isQREnabled:smartAction:]_block_invoke
@@ -4063,9 +3990,8 @@ __58+[ConversationAnalyticsHelper trackConversationPageViewed]_block_invoke
 ___53-[ConversationViewController addReachabilityListener]_block_invoke
 -[ConversationViewController showConversationActionSheet]
 ___57-[ConversationViewController showConversationActionSheet]_block_invoke
-___57-[ConversationViewController showConversationActionSheet]_block_invoke.888
+___57-[ConversationViewController showConversationActionSheet]_block_invoke.891
 ___57-[ConversationViewController showConversationActionSheet]_block_invoke_2
-___57-[ConversationViewController showConversationActionSheet]_block_invoke_3
 -[ConversationViewController dismissKeyboard:]
 -[ConversationViewController dismissConversation]
 -[ConversationViewController removeNotificationListeners]
@@ -4095,7 +4021,6 @@ ___49-[ConversationViewController carouselViewTapped:]_block_invoke
 ___49-[ConversationViewController carouselViewTapped:]_block_invoke_2
 -[ConversationViewController handleImageViewTap:]
 ___49-[ConversationViewController handleImageViewTap:]_block_invoke
--[ConversationViewController productViewControllerDidFinish:]
 -[ConversationViewController gestureRecognizer:shouldReceiveTouch:]
 -[ConversationViewController activeBusiness]
 -[ConversationViewController setActiveBusiness:]
@@ -4136,7 +4061,6 @@ _OBJC_IVAR_$_ConversationViewController._navigationBarHidden
 _OBJC_IVAR_$_ConversationViewController._titleLable
 _OBJC_IVAR_$_ConversationViewController._connectingTitleView
 _OBJC_IVAR_$_ConversationViewController.observerTokens
-___block_descriptor_28_e4_20s24s_e19_v12?0c4"NSError"8l
 ___block_descriptor_33_e4_20s24s28bs_e5_v4?0l
 ___block_descriptor_32_e4_20s24s28bs_e7_v8?0c4l
 ___block_descriptor_28_e4_20s_e10_v12?0i48l
@@ -4154,13 +4078,11 @@ _OBJC_IVAR_$_ConversationViewController._didClickOnCamera
 _OBJC_IVAR_$_ConversationViewController._businessLanguages
 __OBJC_PROTOCOL_$_MFMailComposeViewControllerDelegate
 __OBJC_LABEL_PROTOCOL_$_MFMailComposeViewControllerDelegate
-__OBJC_PROTOCOL_$_SKStoreProductViewControllerDelegate
-__OBJC_LABEL_PROTOCOL_$_SKStoreProductViewControllerDelegate
 __OBJC_PROTOCOL_$_SmartActionInteractionDelegate
 __OBJC_LABEL_PROTOCOL_$_SmartActionInteractionDelegate
 __OBJC_PROTOCOL_$_UINavigationControllerDelegate
 __OBJC_LABEL_PROTOCOL_$_UINavigationControllerDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/ConversationViewController.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/ConversationViewController.m
 HaptikLib/View Controllers/Conversations/ConversationViewController.m
 HaptikLib/View Controllers/Conversations/ConversationViewController.h
 __49-[ConversationViewController handleImageViewTap:]_block_invoke
@@ -4176,9 +4098,8 @@ __76-[ConversationViewController showLanguageLoaderForLanguage:andDismissblock:]
 __48-[ConversationViewController showLanguagePicker]_block_invoke_3
 __48-[ConversationViewController showLanguagePicker]_block_invoke_2
 __48-[ConversationViewController showLanguagePicker]_block_invoke
-__57-[ConversationViewController showConversationActionSheet]_block_invoke_3
 __57-[ConversationViewController showConversationActionSheet]_block_invoke_2
-__57-[ConversationViewController showConversationActionSheet]_block_invoke.888
+__57-[ConversationViewController showConversationActionSheet]_block_invoke.891
 __57-[ConversationViewController showConversationActionSheet]_block_invoke
 __53-[ConversationViewController addReachabilityListener]_block_invoke
 +[HPSharedUtils sharedInstance]
@@ -4191,14 +4112,12 @@ ___31+[HPSharedUtils sharedInstance]_block_invoke
 -[HPSharedUtils conversationTextView]
 -[HPSharedUtils setUserConversationName:]
 -[HPSharedUtils resetUserConversationName]
--[HPSharedUtils setApplication:]
 -[HPSharedUtils setDataController:]
 -[HPSharedUtils getRegexCleansedStringFor:]
 -[HPSharedUtils regexMatchesForString:]
 -[HPSharedUtils getStringFromDate:]
 -[HPSharedUtils getUserConversationName]
 -[HPSharedUtils dataController]
--[HPSharedUtils application]
 -[HPSharedUtils inboxVC]
 -[HPSharedUtils .cxx_destruct]
 _sharedInstance.once
@@ -4210,9 +4129,8 @@ _OBJC_IVAR_$_HPSharedUtils._dateFormatterGMT
 _OBJC_IVAR_$_HPSharedUtils._conversationTextView
 _OBJC_IVAR_$_HPSharedUtils._userConversationName
 _OBJC_IVAR_$_HPSharedUtils._dataController
-_OBJC_IVAR_$_HPSharedUtils._application
 _OBJC_IVAR_$_HPSharedUtils._inboxVC
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Shared Utils/HPSharedUtils.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Shared Utils/HPSharedUtils.m
 HaptikLib/Helpers/Shared Utils/HPSharedUtils.m
 HaptikLib/Helpers/Shared Utils/HPSharedUtils.h
 __31+[HPSharedUtils sharedInstance]_block_invoke
@@ -4228,20 +4146,20 @@ __31+[HPSharedUtils sharedInstance]_block_invoke
 _OBJC_IVAR_$_SmartSearchResultPayload.uriType
 _OBJC_IVAR_$_SmartSearchResultPayload.identifier
 _OBJC_IVAR_$_SmartSearchResultPayload.url
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Smart Forms/Result Payload/SmartSearchResultPayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Smart Forms/Result Payload/SmartSearchResultPayload.m
 HaptikLib/Model Objects/Smart Forms/Result Payload/SmartSearchResultPayload.m
 HaptikLib/Model Objects/Smart Forms/Result Payload/SmartSearchResultPayload.h
 +[ChatMessages(CoreDataProperties) fetchRequest]
 -[ChatMessages(CoreDataProperties) localMessageTime]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Chat Messages/ChatMessages+CoreDataProperties.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Chat Messages/ChatMessages+CoreDataProperties.m
 HaptikLib/Model Objects/Core Data Objects/Chat Messages/ChatMessages+CoreDataProperties.m
 +[ConversationUtils getImageFor:fromURL:smartAction:objectID:]
 ___62+[ConversationUtils getImageFor:fromURL:smartAction:objectID:]_block_invoke
 ___block_descriptor_28_e4_20s24s_e29_v8?0"HPImageManagerResult"4l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Utils/ConversationUtils.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Utils/ConversationUtils.m
 __62+[ConversationUtils getImageFor:fromURL:smartAction:objectID:]_block_invoke
 HaptikLib/Helpers/Conversation Helpers/Utils/ConversationUtils.m
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRMutex.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRMutex.m
 SRMutexUnlock
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRMutex.m
 SRMutexLock
@@ -4255,7 +4173,7 @@ SRMutexInitRecursive
 -[LaunchBotPayload .cxx_destruct]
 _OBJC_IVAR_$_LaunchBotPayload.viaName
 _OBJC_IVAR_$_LaunchBotPayload.gogoMessageType
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/LaunchBotPayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/LaunchBotPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/LaunchBotPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/LaunchBotPayload.h
 -[Haptik(Additions) validateHaptikLibCredentials]
@@ -4273,14 +4191,14 @@ ___97-[Haptik(Additions) handleNotificationWithUserInfo:controller:respectBackgr
 ___60-[Haptik(Additions) startHaptikNotificationFlow:controller:]_block_invoke
 -[Haptik(Additions) getForcedEntityTypes]
 ___block_descriptor_28_e4_20s24s_e21_v8?0"NSDictionary"4l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Haptik/Additions/Haptik+Additions.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Haptik/Additions/Haptik+Additions.m
 HaptikLib/Haptik/Additions/Haptik+Additions.m
 __60-[Haptik(Additions) startHaptikNotificationFlow:controller:]_block_invoke
 __97-[Haptik(Additions) handleNotificationWithUserInfo:controller:respectBackgroundApplicationState:]_block_invoke
 __47-[Haptik(Additions) handleSyncOnInitialization]_block_invoke
 -[ConversationViewController(HPFeedBackView) showFeedbackOverlay]
 ___65-[ConversationViewController(HPFeedBackView) showFeedbackOverlay]_block_invoke
-___65-[ConversationViewController(HPFeedBackView) showFeedbackOverlay]_block_invoke.677
+___65-[ConversationViewController(HPFeedBackView) showFeedbackOverlay]_block_invoke.675
 -[ConversationViewController(HPFeedBackView) submitFeedback]
 ___60-[ConversationViewController(HPFeedBackView) submitFeedback]_block_invoke
 ___60-[ConversationViewController(HPFeedBackView) submitFeedback]_block_invoke_2
@@ -4309,12 +4227,12 @@ ___62-[ConversationViewController(HPFeedBackView) showShareOverlay]_block_invoke
 -[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]
 ___68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke
 ___68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke_2
-___68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke.937
+___68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke.932
 ___block_descriptor_24_e4_20w_e7_v8?0i4l
 __OBJC_PROTOCOL_$_RSTapRateViewDelegate
 __OBJC_LABEL_PROTOCOL_$_RSTapRateViewDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/FeedbackView/ConversationViewController+HPFeedBackView.m
-__68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke.937
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/FeedbackView/ConversationViewController+HPFeedBackView.m
+__68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke.932
 HaptikLib/View Controllers/Conversations/FeedbackView/ConversationViewController+HPFeedBackView.m
 __68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke_2
 __68-[ConversationViewController(HPFeedBackView) removeAgentInfoOverlay]_block_invoke
@@ -4332,12 +4250,12 @@ __68-[ConversationViewController(HPFeedBackView) tapDidRateView:rating:]_block_i
 __73-[ConversationViewController(HPFeedBackView) shareToTwitterFromAgentInfo]_block_invoke
 __60-[ConversationViewController(HPFeedBackView) submitFeedback]_block_invoke_2
 __60-[ConversationViewController(HPFeedBackView) submitFeedback]_block_invoke
-__65-[ConversationViewController(HPFeedBackView) showFeedbackOverlay]_block_invoke.677
+__65-[ConversationViewController(HPFeedBackView) showFeedbackOverlay]_block_invoke.675
 __65-[ConversationViewController(HPFeedBackView) showFeedbackOverlay]_block_invoke
 +[UIResponder(HPAdditions) currentFirstResponder]
 -[UIResponder(HPAdditions) findFirstResponder:]
 _currentFirstResponder
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Extensions/UIResponder/UIResponder+HPAdditions.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Extensions/UIResponder/UIResponder+HPAdditions.m
 HaptikLib/Helpers/Extensions/UIResponder/UIResponder+HPAdditions.m
 -[TaskboxChildViewController initWithBusiness:tasksFRC:taskboxUIState:isPresented:]
 -[TaskboxChildViewController viewDidAppear:]
@@ -4431,7 +4349,7 @@ _OBJC_IVAR_$_TaskboxChildViewController.panGesture
 ___block_descriptor_32_e4_20w_e5_v4?0l
 _OBJC_IVAR_$_TaskboxChildViewController.isPresented
 _OBJC_IVAR_$_TaskboxChildViewController._delegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Taskbox Child Controller/TaskboxChildViewController.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Taskbox Child Controller/TaskboxChildViewController.m
 HaptikLib/View Controllers/Conversations/Taskbox Child Controller/TaskboxChildViewController.m
 HaptikLib/View Controllers/Conversations/Taskbox Child Controller/TaskboxChildViewController.h
 __52-[TaskboxChildViewController configureCell:forTask:]_block_invoke
@@ -4455,12 +4373,10 @@ __44-[TaskboxChildViewController viewDidAppear:]_block_invoke
 +[HPGenericHelpers getParagraphStyle]
 +[HPGenericHelpers getEmojiTrimmedString:]
 +[HPGenericHelpers getLocationParams]
-+[HPGenericHelpers getAppStoreURL]
-+[HPGenericHelpers getITunesItemIdentifier]
 +[HPGenericHelpers getValidFormattedDateFrom:]
 +[HPGenericHelpers getClientAppName]
 +[HPGenericHelpers resetSyncServiceDefaults]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Generic Helpers/HPGenericHelpers.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Generic Helpers/HPGenericHelpers.m
 HaptikLib/Helpers/Generic Helpers/HPGenericHelpers.m
 +[HSLCarouselViewHelper createHSLCarouselForChatMessage:actionHelper:]
 +[HSLCarouselViewHelper createCarouselViewWithSmartAction:width:height:]
@@ -4484,7 +4400,7 @@ ___66+[HSLCarouselViewHelper getSubtitleDictFor:itemCount:initialRect:]_block_in
 +[HSLCarouselViewHelper getDescriptionDictFor:itemCount:initialRect:]
 ___69+[HSLCarouselViewHelper getDescriptionDictFor:itemCount:initialRect:]_block_invoke
 ___block_descriptor_24_e4_20r_e27_v8?0"NSAttributedString"4l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Smart Carousel View/HSLCarouselViewHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Smart Carousel View/HSLCarouselViewHelper.m
 __69+[HSLCarouselViewHelper getDescriptionDictFor:itemCount:initialRect:]_block_invoke
 HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Smart Carousel View/HSLCarouselViewHelper.m
 __66+[HSLCarouselViewHelper getSubtitleDictFor:itemCount:initialRect:]_block_invoke
@@ -4496,7 +4412,7 @@ __45+[HSLCarouselViewHelper getMetaLabelDictFor:]_block_invoke
 +[RegularSmartActionHelper hasSmartAction:]
 +[RegularSmartActionHelper containsRegularSmartAction:]
 +[RegularSmartActionHelper checkSmartStringsInMessage:smartStrings:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Smart Action Helpers/Regular Smart Action Helper/RegularSmartActionHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Smart Action Helpers/Regular Smart Action Helper/RegularSmartActionHelper.m
 HaptikLib/Helpers/Smart Action Helpers/Regular Smart Action Helper/RegularSmartActionHelper.m
 -[NSManagedObjectContext(HPAdditions) isConcurrenyTypeMain]
 -[NSManagedObjectContext(HPAdditions) performSaveAsyncTask:completion:]
@@ -4515,7 +4431,7 @@ ___copy_helper_block_e4_20b24s28r
 ___block_descriptor_29_e4_20bs24s_e5_v4?0l
 ___block_descriptor_33_e4_20bs24s28bs_e5_v4?0l
 ___block_descriptor_37_e4_20bs24s28r_e5_v4?0l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/Context Additions/NSManagedObjectContext+HPAdditions.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/Context Additions/NSManagedObjectContext+HPAdditions.m
 HaptikLib/Helpers/Core Data/Core Data Controller/Context Additions/NSManagedObjectContext+HPAdditions.m
 __copy_helper_block_e4_20b24s28r
 __73-[NSManagedObjectContext(HPAdditions) performSyncTask:saveChanges:error:]_block_invoke
@@ -4542,6 +4458,10 @@ ___58-[ConversationActionHelper handleRegularSmartActionTapOn:]_block_invoke
 -[ConversationActionHelper handleResendTapOn:]
 -[ConversationActionHelper handleTapOnInfoButton:]
 ___50-[ConversationActionHelper handleTapOnInfoButton:]_block_invoke
+-[ConversationActionHelper handleRateAction]
+___44-[ConversationActionHelper handleRateAction]_block_invoke
+-[ConversationActionHelper handleShareAction]
+-[ConversationActionHelper productViewControllerDidFinish:]
 -[ConversationActionHelper currentBusiness]
 -[ConversationActionHelper controller]
 -[ConversationActionHelper viewModel]
@@ -4550,6 +4470,9 @@ ___50-[ConversationActionHelper handleTapOnInfoButton:]_block_invoke
 -[ConversationActionHelper formFieldsArray]
 -[ConversationActionHelper .cxx_destruct]
 ___block_descriptor_24_e4_20w_e30_v12?0"NSString"4"NSNumber"8l
+___block_descriptor_28_e4_20s24s_e19_v12?0c4"NSError"8l
+__OBJC_PROTOCOL_$_SKStoreProductViewControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_SKStoreProductViewControllerDelegate
 __OBJC_PROTOCOL_$_MFMessageComposeViewControllerDelegate
 __OBJC_LABEL_PROTOCOL_$_MFMessageComposeViewControllerDelegate
 _OBJC_IVAR_$_ConversationActionHelper.currentBusiness
@@ -4558,9 +4481,10 @@ _OBJC_IVAR_$_ConversationActionHelper.viewModel
 _OBJC_IVAR_$_ConversationActionHelper.offlineExtension
 _OBJC_IVAR_$_ConversationActionHelper.chatFormData
 _OBJC_IVAR_$_ConversationActionHelper.formFieldsArray
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Action Helpers/ConversationActionHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Action Helpers/ConversationActionHelper.m
 HaptikLib/Helpers/Conversation Helpers/Action Helpers/ConversationActionHelper.m
 HaptikLib/Helpers/Conversation Helpers/Action Helpers/ConversationActionHelper.h
+__44-[ConversationActionHelper handleRateAction]_block_invoke
 __50-[ConversationActionHelper handleTapOnInfoButton:]_block_invoke
 __58-[ConversationActionHelper handleRegularSmartActionTapOn:]_block_invoke
 -[ChatFormSendButton form]
@@ -4573,7 +4497,7 @@ __58-[ConversationActionHelper handleRegularSmartActionTapOn:]_block_invoke
 _OBJC_IVAR_$_ChatFormSendButton._form
 _OBJC_IVAR_$_ChatFormSendButton._formFields
 _OBJC_IVAR_$_ChatFormSendButton._textFields
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Buttons/Chatform Send Button/ChatFormSendButton.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Buttons/Chatform Send Button/ChatFormSendButton.m
 HaptikLib/Views/Buttons/Chatform Send Button/ChatFormSendButton.m
 HaptikLib/Views/Buttons/Chatform Send Button/ChatFormSendButton.h
 +[HPFlowCoordinator handleBranchCallbackWith:controller:metaData:]
@@ -4601,7 +4525,7 @@ ___block_descriptor_37_e4_20s28s32s_e5_v4?0l
 ___block_descriptor_28_e4_24s_e17_v8?0"Business"4l
 ___block_descriptor_33_e4_24s28s_e17_v8?0"Business"4l
 ___block_descriptor_24_e4_20s_e30_v12?0"NSString"4"NSNumber"8l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Flow Coordinator/HPFlowCoordinator.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Flow Coordinator/HPFlowCoordinator.m
 HaptikLib/Helpers/Flow Coordinator/HPFlowCoordinator.m
 __72+[HPFlowCoordinator performWebViewSmartActionWith:payload:actionHelper:]_block_invoke
 __73+[HPFlowCoordinator switchToBusinessViaName:message:with:fromOutsideApp:]_block_invoke_3
@@ -4624,7 +4548,7 @@ __66+[HPFlowCoordinator handleBranchCallbackWith:controller:metaData:]_block_inv
 _OBJC_IVAR_$_TabListMessagePayload.priceEnabled
 _OBJC_IVAR_$_TabListMessagePayload.expiredMessage
 _OBJC_IVAR_$_TabListMessagePayload.athenaSmartAction
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/TabListMessagePayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/TabListMessagePayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/TabListMessagePayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/TabListMessagePayload.h
 -[RSTapRateView initWithFrame:]
@@ -4652,7 +4576,7 @@ _OBJC_IVAR_$_RSTapRateView._threeStarButton
 _OBJC_IVAR_$_RSTapRateView._fourStarButton
 _OBJC_IVAR_$_RSTapRateView._fiveStarButton
 _OBJC_IVAR_$_RSTapRateView._delegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Stack Views/RS Tap Rate View/RSTapRateView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Stack Views/RS Tap Rate View/RSTapRateView.m
 HaptikLib/Views/Stack Views/RS Tap Rate View/RSTapRateView.m
 HaptikLib/Views/Stack Views/RS Tap Rate View/RSTapRateView.h
 +[MessageNetworkHelper logMessageInBackEndforMessage:withMessageType:businessId:success:failure:]
@@ -4677,7 +4601,7 @@ ___block_descriptor_36_e4_20bs24s28s32bs_e19_v12?04"NSError"8l
 ___block_descriptor_32_e4_20bs24s28bs_e37_v16?04"NSURLResponse"8"NSError"12l
 ___block_descriptor_24_e4_20s_e37_v16?04"NSURLResponse"8"NSError"12l
 ___block_descriptor_24_e4_20bs_e29_v12?0"NSString"4"NSError"8l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Network Helper/MessageNetworkHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Network Helper/MessageNetworkHelper.m
 __60+[MessageNetworkHelper getUnreceivedMessagesWithCompletion:]_block_invoke_2
 HaptikLib/Modules/Messaging Service/Network Helper/MessageNetworkHelper.m
 __60+[MessageNetworkHelper getUnreceivedMessagesWithCompletion:]_block_invoke
@@ -4710,7 +4634,7 @@ ___58-[HPTypingIndicatorView hideTypingIndicatorWithAnimation:]_block_invoke_2
 -[HPTypingIndicatorView .cxx_destruct]
 _OBJC_IVAR_$_HPTypingIndicatorView.dotLayersArray
 _OBJC_IVAR_$_HPTypingIndicatorView._typingLabel
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Composer/Typing Indicator View/HPTypingIndicatorView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Composer/Typing Indicator View/HPTypingIndicatorView.m
 HaptikLib/Views/Message Composer/Typing Indicator View/HPTypingIndicatorView.m
 HaptikLib/Views/Message Composer/Typing Indicator View/HPTypingIndicatorView.h
 __58-[HPTypingIndicatorView hideTypingIndicatorWithAnimation:]_block_invoke_2
@@ -4725,7 +4649,7 @@ __44-[HPTypingIndicatorView showTypingIndicator]_block_invoke
 _OBJC_IVAR_$_NativeItem.nativeAction
 _OBJC_IVAR_$_NativeItem.nativeActionParams
 _OBJC_IVAR_$_NativeItem.nativeActionCallbackType
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Native Item/NativeItem.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Native Item/NativeItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Native Item/NativeItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Native Item/NativeItem.h
 -[Actionable initWithDictionary:]
@@ -4773,7 +4697,7 @@ _OBJC_IVAR_$_Actionable.URIString
 _OBJC_IVAR_$_Actionable.uri
 _OBJC_IVAR_$_Actionable.payloadType
 _OBJC_IVAR_$_Actionable.payload
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Actionable/Actionable.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Actionable/Actionable.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Actionable/Actionable.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Actionable/Actionable.h
 __33-[Actionable initWithDictionary:]_block_invoke
@@ -4798,16 +4722,16 @@ _OBJC_IVAR_$_HaptikSpeech.speechMessageActive
 _OBJC_IVAR_$_HaptikSpeech.speechAPI
 _OBJC_IVAR_$_HaptikSpeech.speechBusiness
 _OBJC_IVAR_$_HaptikSpeech.speechMessage
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Haptik Speech/HaptikSpeech.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Haptik Speech/HaptikSpeech.m
 HaptikLib/Modules/Haptik Speech/HaptikSpeech.m
 HaptikLib/Modules/Haptik Speech/HaptikSpeech.h
 __43-[HaptikSpeech fetchTypeSpeechChatMessage:]_block_invoke
 +[NSRunLoop(SRWebSocket) SR_networkRunLoop]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/NSRunLoop+SRWebSocket.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/NSRunLoop+SRWebSocket.m
 HaptikLib/Modules/MQTT Service/SocketRocket/NSRunLoop+SRWebSocket.m
 import_NSRunLoop_SRWebSocket
 +[Forms(CoreDataProperties) fetchRequest]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Forms/Forms+CoreDataProperties.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Forms/Forms+CoreDataProperties.m
 HaptikLib/Model Objects/Core Data Objects/Forms/Forms+CoreDataProperties.m
 -[SRProxyConnect initWithURL:]
 -[SRProxyConnect dealloc]
@@ -4852,7 +4776,7 @@ _OBJC_IVAR_$_SRProxyConnect._writeQueue
 _OBJC_IVAR_$_SRProxyConnect._url
 _OBJC_IVAR_$_SRProxyConnect._inputStream
 _OBJC_IVAR_$_SRProxyConnect._outputStream
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Proxy/SRProxyConnect.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Proxy/SRProxyConnect.m
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Proxy/SRProxyConnect.m
 __29-[SRProxyConnect _writeData:]_block_invoke
 CFBridgingRelease
@@ -4860,7 +4784,7 @@ CFBridgingRelease
 __46-[SRProxyConnect _fetchPAC:withProxySettings:]_block_invoke
 -[HPWalletToWalletPolicy createDestinationInstancesForSourceInstance:entityMapping:manager:error:]
 -[HPWalletToWalletPolicy migrateUserWalletDataToHaptikWalletFrom:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Migration Policies/Wallet to Wallet/HPWalletToWalletPolicy.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Migration Policies/Wallet to Wallet/HPWalletToWalletPolicy.m
 HaptikLib/Helpers/Core Data/Migration Policies/Wallet to Wallet/HPWalletToWalletPolicy.m
 -[TextItem initWithDictionary:]
 -[TextItem parseReceivedQuickRepliesOptionsFrom:]
@@ -4871,7 +4795,7 @@ HaptikLib/Helpers/Core Data/Migration Policies/Wallet to Wallet/HPWalletToWallet
 -[TextItem .cxx_destruct]
 _OBJC_IVAR_$_TextItem.quickRepliesOptions
 _OBJC_IVAR_$_TextItem.analytics
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Text Item/TextItem.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Text Item/TextItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Text Item/TextItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Text Item/TextItem.h
 -[SLKTextView initWithFrame:textContainer:]
@@ -5017,7 +4941,7 @@ __OBJC_PROTOCOL_$_UITextInput
 __OBJC_LABEL_PROTOCOL_$_UITextInput
 __OBJC_PROTOCOL_$_SLKTextInput
 __OBJC_LABEL_PROTOCOL_$_SLKTextInput
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextView.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextView.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextView.h
 UIEdgeInsetsInsetRect
@@ -5042,7 +4966,7 @@ ___block_descriptor_24_e4_20s_e17_v8?0"Business"4l
 ___block_descriptor_24_e4_20s_e36_v16?0c4"NSDictionary"8"NSError"12l
 ___block_literal_global.711
 ___block_descriptor_24_e4_20s_e33_v16?0c4"NSString"8"NSString"12l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Action Helpers/Regular Smart Action/RegularSmartActionHandler.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Action Helpers/Regular Smart Action/RegularSmartActionHandler.m
 __63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invoke.710
 HaptikLib/Helpers/Conversation Helpers/Action Helpers/Regular Smart Action/RegularSmartActionHandler.m
 __63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invoke_3
@@ -5055,7 +4979,7 @@ __57+[RegularSmartActionHandler performShareSmartActionWith:]_block_invoke
 -[NSString(HPAdditions) trimWhitespacesAndNewline]
 -[NSString(HPAdditions) containsString:]
 -[NSString(HPAdditions) dictionaryValue]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Extensions/NSString/NSString+HPAdditions.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Extensions/NSString/NSString+HPAdditions.m
 HaptikLib/Helpers/Extensions/NSString/NSString+HPAdditions.m
 -[ConversationViewHelper initWithViewModel:actionHelper:]
 -[ConversationViewHelper configureConversationCell:forChatMessage:]
@@ -5076,7 +5000,7 @@ ___73+[ConversationViewHelper getTextViewForDirection:message:isQuickReplies:]_b
 _OBJC_IVAR_$_ConversationViewHelper._heightCache
 _OBJC_IVAR_$_ConversationViewHelper._viewModel
 _OBJC_IVAR_$_ConversationViewHelper._conversationActionHelper
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/ConversationViewHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/ConversationViewHelper.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/ConversationViewHelper.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/ConversationViewHelper.h
 __73+[ConversationViewHelper getTextViewForDirection:message:isQuickReplies:]_block_invoke
@@ -5103,7 +5027,7 @@ _OBJC_IVAR_$_TabListItem.tabs
 _OBJC_IVAR_$_TabListItem.expiry
 _OBJC_IVAR_$_TabListItem.analytics
 _OBJC_IVAR_$_TabListItem.actionables
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/TabList Item/TabListItem.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/TabList Item/TabListItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/TabList Item/TabListItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/TabList Item/TabListItem.h
 -[Thumbnail initWithDictionary:]
@@ -5115,13 +5039,13 @@ HaptikLib/Model Objects/HSL Smart Action/Haptik Item/TabList Item/TabListItem.h
 -[Thumbnail .cxx_destruct]
 _OBJC_IVAR_$_Thumbnail.image
 _OBJC_IVAR_$_Thumbnail.type
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Thumbnail/Thumbnail.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Thumbnail/Thumbnail.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Thumbnail/Thumbnail.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Thumbnail/Thumbnail.h
 +[FeedbackGeneratorHelper generateImpactFeedback:]
 +[FeedbackGeneratorHelper generateSelectionFeedback]
 +[FeedbackGeneratorHelper generateNotificationFeedbackWithNotificationType:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Feedback Generator/FeedbackGeneratorHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Feedback Generator/FeedbackGeneratorHelper.m
 HaptikLib/Helpers/Feedback Generator/FeedbackGeneratorHelper.m
 +[ConversationHeightHelper getViewHeightForChatMessage:]
 +[ConversationHeightHelper getSuggestedHeightForText:attributes:maxWidth:]
@@ -5138,7 +5062,7 @@ HaptikLib/Helpers/Feedback Generator/FeedbackGeneratorHelper.m
 +[ConversationHeightHelper getViewHeightForTabListChatMessage:]
 +[ConversationHeightHelper getViewHeightForTextSmartActionChatMessage:]
 +[ConversationHeightHelper getViewHeightForSystemTypeMessage:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Height Helper/ConversationHeightHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Height Helper/ConversationHeightHelper.m
 HaptikLib/Helpers/Conversation Helpers/Height Helper/ConversationHeightHelper.m
 -[ConversationBaseCell initWithFrame:]
 -[ConversationBaseCell setCustomView:]
@@ -5147,7 +5071,7 @@ HaptikLib/Helpers/Conversation Helpers/Height Helper/ConversationHeightHelper.m
 -[ConversationBaseCell customView]
 -[ConversationBaseCell .cxx_destruct]
 _OBJC_IVAR_$_ConversationBaseCell._customView
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Table View Cells/Conversation Base Cell/ConversationBaseCell.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Table View Cells/Conversation Base Cell/ConversationBaseCell.m
 HaptikLib/Views/Table View Cells/Conversation Base Cell/ConversationBaseCell.m
 HaptikLib/Views/Table View Cells/Conversation Base Cell/ConversationBaseCell.h
 -[MQTTSessionManager initWithPersistence:maxWindowSize:maxMessages:maxSize:maxConnectionRetryInterval:connectInForeground:queue:]
@@ -5275,7 +5199,7 @@ _OBJC_IVAR_$_MQTTSessionManager._maxSize
 _OBJC_IVAR_$_MQTTSessionManager._maxMessages
 _OBJC_IVAR_$_MQTTSessionManager._internalSubscriptions
 _OBJC_IVAR_$_MQTTSessionManager._subscriptionLock
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionManager.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionManager.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionManager.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionManager.h
 __39-[MQTTSessionManager setSubscriptions:]_block_invoke.223
@@ -5296,7 +5220,7 @@ ___63-[NSManagedObjectContext(HPObservers) performMergeChangesFrom:]_block_invok
 -[HPContextDidSaveNotification .cxx_destruct]
 ___block_descriptor_24_e4_20bs_e23_v8?0"NSNotification"4l
 _OBJC_IVAR_$_HPContextDidSaveNotification._notification
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/Context Observers/NSManagedObjectContext+HPObservers.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/Context Observers/NSManagedObjectContext+HPObservers.m
 HaptikLib/Helpers/Core Data/Core Data Controller/Context Observers/NSManagedObjectContext+HPObservers.m
 HaptikLib/Helpers/Core Data/Core Data Controller/Context Observers/NSManagedObjectContext+HPObservers.h
 __63-[NSManagedObjectContext(HPObservers) performMergeChangesFrom:]_block_invoke
@@ -5307,7 +5231,7 @@ __87-[NSManagedObjectContext(HPObservers) addContextDidSaveNotificationObserverU
 -[NSObject(SLKTextInput) slk_text]
 -[NSObject(SLKTextInput) slk_caretRange]
 l_OBJC_PROTOCOL_REFERENCE_$_SLKTextInput
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextInput+Implementation.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextInput+Implementation.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextInput+Implementation.m
 +[SystemEventMessageViewHelper createSystemEventViewWithChatMessage:]
 +[SystemEventMessageViewHelper getDescriptionViewWithText:]
@@ -5317,14 +5241,14 @@ HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextInput+I
 +[SystemEventMessageViewHelper setupAgentView:agentImage:systemEventView:]
 +[SystemEventMessageViewHelper setupDescriptionView:withAgentView:systemEventView:]
 +[SystemEventMessageViewHelper embeddInContainerView:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/System HSL/SystemEventMessageViewHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/System HSL/SystemEventMessageViewHelper.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/System HSL/SystemEventMessageViewHelper.m
 +[Haptik sharedSDK]
 ___19+[Haptik sharedSDK]_block_invoke
 -[Haptik signUpWith:completion:]
 ___32-[Haptik signUpWith:completion:]_block_invoke
 ___32-[Haptik signUpWith:completion:]_block_invoke_2
-___32-[Haptik signUpWith:completion:]_block_invoke.315
+___32-[Haptik signUpWith:completion:]_block_invoke.297
 ___copy_helper_block_e4_20s24b28s
 -[Haptik isUserSignedUp]
 -[Haptik updateUserToken:authID:authType:completion:]
@@ -5364,10 +5288,10 @@ _sharedSDK.shared
 _sharedSDK.onceToken
 ___block_descriptor_32_e4_20s24bs28s_e19_v12?0c4"NSError"8l
 ___block_descriptor_25_e4_20bs_e5_v4?0l
-___block_literal_global.373
-___block_literal_global.407
+___block_literal_global.357
+___block_literal_global.391
 ___block_descriptor_28_e4_20bs24s_e17_v8?0"Business"4l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Haptik/Haptik.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Haptik/Haptik.m
 HaptikLib/Haptik/Haptik.m
 HPCheckConversationForViaName
 HPConversationClass
@@ -5386,7 +5310,7 @@ __28-[Haptik signoutFromHaptik:]_block_invoke
 __53-[Haptik updateUserToken:authID:authType:completion:]_block_invoke_2
 __53-[Haptik updateUserToken:authID:authType:completion:]_block_invoke
 __copy_helper_block_e4_20s24b28s
-__32-[Haptik signUpWith:completion:]_block_invoke.315
+__32-[Haptik signUpWith:completion:]_block_invoke.297
 __32-[Haptik signUpWith:completion:]_block_invoke_2
 __32-[Haptik signUpWith:completion:]_block_invoke
 __19+[Haptik sharedSDK]_block_invoke
@@ -5405,7 +5329,7 @@ ___65-[ConversationViewModel(HPTaskbox) showTaskboxOverlayForUIState:]_block_inv
 ___55-[ConversationViewModel(HPTaskbox) taskboxWillDismiss:]_block_invoke
 __OBJC_PROTOCOL_$_HPTaskboxDelegate
 __OBJC_LABEL_PROTOCOL_$_HPTaskboxDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Taskbox/ConversationViewModel+HPTaskbox.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Taskbox/ConversationViewModel+HPTaskbox.m
 __55-[ConversationViewModel(HPTaskbox) taskboxWillDismiss:]_block_invoke
 HaptikLib/View Controllers/Conversations/Taskbox/ConversationViewModel+HPTaskbox.m
 __65-[ConversationViewModel(HPTaskbox) showTaskboxOverlayForUIState:]_block_invoke
@@ -5437,7 +5361,7 @@ ___50+[HSLTabListViewHelper getCaptionLabForTableItem:]_block_invoke
 +[HSLTabListViewHelper setCaptionLabConstraints:titleLab:]
 +[HSLTabListViewHelper getInformationButton:actionHelper:]
 +[HSLTabListViewHelper setInformationButtonConstraints:cell:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Tab List/HSLTabListViewHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Tab List/HSLTabListViewHelper.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Tab List/HSLTabListViewHelper.m
 __50+[HSLTabListViewHelper getCaptionLabForTableItem:]_block_invoke
 __48+[HSLTabListViewHelper getTitleLabForTableItem:]_block_invoke
@@ -5447,7 +5371,7 @@ ___SRHTTPConnectMessageCreate_block_invoke
 ___SRHTTPConnectMessageCreate_block_invoke_2
 ___block_descriptor_24_e34_v16?0"NSString"4"NSString"8^c12l
 ___block_descriptor_24_e14_v16?048^c12l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRHTTPConnectMessage.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRHTTPConnectMessage.m
 __SRHTTPConnectMessageCreate_block_invoke_2
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRHTTPConnectMessage.m
 __SRHTTPConnectMessageCreate_block_invoke
@@ -5473,7 +5397,7 @@ _OBJC_IVAR_$_HPDefaultTableViewCell.hpImageView
 _OBJC_IVAR_$_HPDefaultTableViewCell.hpTextLabel
 _OBJC_IVAR_$_HPDefaultTableViewCell.hpAccessoryView
 _OBJC_IVAR_$_HPDefaultTableViewCell.separatorView
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Table View Cells/Taskbox Cell/HPDefaultTableViewCell.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Table View Cells/Taskbox Cell/HPDefaultTableViewCell.m
 HaptikLib/Views/Table View Cells/Taskbox Cell/HPDefaultTableViewCell.m
 HaptikLib/Views/Table View Cells/Taskbox Cell/HPDefaultTableViewCell.h
 -[ActionPayload initWithDictionary:]
@@ -5500,7 +5424,7 @@ _OBJC_IVAR_$_ActionPayload.toolName
 _OBJC_IVAR_$_ActionPayload.payloadDescription
 _OBJC_IVAR_$_ActionPayload.menuUrl
 _OBJC_IVAR_$_ActionPayload.actionables
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/ActionPayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/ActionPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/ActionPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/ActionPayload.h
 -[MQTTWebsocketTransport init]
@@ -5537,26 +5461,26 @@ _OBJC_IVAR_$_MQTTWebsocketTransport._pinnedCertificates
 _OBJC_IVAR_$_MQTTWebsocketTransport._websocket
 __OBJC_PROTOCOL_$_SRWebSocketDelegate
 __OBJC_LABEL_PROTOCOL_$_SRWebSocketDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTWebsocketTransport/MQTTWebsocketTransport.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTWebsocketTransport/MQTTWebsocketTransport.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTWebsocketTransport/MQTTWebsocketTransport.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTWebsocketTransport/MQTTWebsocketTransport.h
 +[HSLTextMessageViewHelper createHSLRegularTextMessageViewWith:withActionHelper:]
 +[HSLTextMessageViewHelper getMessageContainerViewFor:text:actionHelper:]
 +[HSLTextMessageViewHelper drawQuickRepliesContainerViewFor:textItem:containerView:actionHelper:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Text Mesage/HSLTextMessageViewHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Text Mesage/HSLTextMessageViewHelper.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Text Mesage/HSLTextMessageViewHelper.m
 +[FormField getFormFieldsForObjectID:context:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Form Field/FormField+CoreDataClass.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Form Field/FormField+CoreDataClass.m
 HaptikLib/Model Objects/Core Data Objects/Form Field/FormField+CoreDataClass.m
 -[HaptikLocation init]
 -[HaptikLocation setUpLocationAPI]
 -[HaptikLocation locationAPI]
 -[HaptikLocation .cxx_destruct]
 _OBJC_IVAR_$_HaptikLocation._locationAPI
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Haptik Location/HaptikLocation.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Haptik Location/HaptikLocation.m
 HaptikLib/Modules/Haptik Location/HaptikLocation.m
 HaptikLib/Modules/Haptik Location/HaptikLocation.h
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRLog.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRLog.m
 SRDebugLog
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRLog.m
 SRErrorLog
@@ -5582,23 +5506,23 @@ _OBJC_IVAR_$_MQTTCFSocketEncoder._error
 _OBJC_IVAR_$_MQTTCFSocketEncoder._stream
 _OBJC_IVAR_$_MQTTCFSocketEncoder._delegate
 _OBJC_IVAR_$_MQTTCFSocketEncoder._buffer
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCFSocketEncoder.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCFSocketEncoder.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCFSocketEncoder.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCFSocketEncoder.h
 +[FeedbackView createFeedbackViewForChatMessage:]
 +[FeedbackView getFeedbackTextViewForText:]
 +[FeedbackView getFeedbackMessageViewFromTextView:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Feedback View/FeedbackView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Feedback View/FeedbackView.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/Feedback View/FeedbackView.m
 +[NSManagedObjectModel(HPAdditions) hpAllModelPaths]
 -[NSManagedObjectModel(HPAdditions) hpModelName]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Managed Object Model Additions/NSManagedObjectModel+HPAdditions.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Managed Object Model Additions/NSManagedObjectModel+HPAdditions.m
 HaptikLib/Helpers/Core Data/Managed Object Model Additions/NSManagedObjectModel+HPAdditions.m
 -[ConversationsCustomView messageView]
 -[ConversationsCustomView setMessageView:]
 -[ConversationsCustomView .cxx_destruct]
 _OBJC_IVAR_$_ConversationsCustomView.messageView
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/UIViews/Conversation Custom View/ConversationsCustomView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/UIViews/Conversation Custom View/ConversationsCustomView.m
 HaptikLib/Views/UIViews/Conversation Custom View/ConversationsCustomView.m
 HaptikLib/Views/UIViews/Conversation Custom View/ConversationsCustomView.h
 -[LocationInfo initWithDictionary:]
@@ -5629,7 +5553,7 @@ _OBJC_IVAR_$_LocationInfo.index
 _OBJC_IVAR_$_LocationInfo.name
 _OBJC_IVAR_$_LocationInfo.latitudeValue
 _OBJC_IVAR_$_LocationInfo.longitudeValue
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Location Info/LocationInfo.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Location Info/LocationInfo.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Location Info/LocationInfo.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Location Info/LocationInfo.h
 +[ChatFormActionHandler handleTextFieldBeginEditing:actionHelper:]
@@ -5651,10 +5575,10 @@ ___62+[ChatFormActionHandler showTimePickerFor:title:actionHelper:]_block_invoke
 +[ChatFormActionHandler setDataSourceForDayPickerMultiSelectFormField:dataSource:]
 +[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]
 ___94+[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]_block_invoke
-___94+[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]_block_invoke.714
+___94+[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]_block_invoke.715
 +[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]
 ___88+[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]_block_invoke
-___88+[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]_block_invoke.720
+___88+[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]_block_invoke.721
 +[ChatFormActionHandler getShortHandTextforTextField:selectedItems:]
 +[ChatFormActionHandler getOptionsMappingForFormField:forDataSource:]
 +[ChatFormActionHandler getMultiSelectPickerOptions:]
@@ -5681,16 +5605,16 @@ ___block_descriptor_28_e4_20s24s_e10_v12?048l
 ___block_descriptor_28_e4_20bs24w_e16_v8?0"NSArray"4l
 ___block_descriptor_32_e4_20s28s_e16_v8?0"NSArray"4l
 ___block_descriptor_44_e4_20s24s28s32s_e5_v4?0l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Action Helpers/Chat Form/ChatFormActionHandler.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Action Helpers/Chat Form/ChatFormActionHandler.m
 __77+[ChatFormActionHandler fireFormDataEnteredAnalyticsWith:formTitle:business:]_block_invoke
 HaptikLib/Helpers/Conversation Helpers/Action Helpers/Chat Form/ChatFormActionHandler.m
 __66+[ChatFormActionHandler fireFormFieldTypesAnalyticsWith:business:]_block_invoke
 __117+[ChatFormActionHandler fireFormSubmittedAnalyticsWith:business:totalFields:filledFields:unfilledTypes:unfilledKeys:]_block_invoke
 __72+[ChatFormActionHandler fireFormFieldTappedAnalyticsWith:form:business:]_block_invoke
 __89+[ChatFormActionHandler sendFormWith:formFields:textFields:userEnteredData:actionHelper:]_block_invoke
-__88+[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]_block_invoke.720
+__88+[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]_block_invoke.721
 __88+[ChatFormActionHandler presentMultiSelectPickerForTextField:title:values:actionHelper:]_block_invoke
-__94+[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]_block_invoke.714
+__94+[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]_block_invoke.715
 __94+[ChatFormActionHandler loadMultiSelectPickerForTextField:title:values:doneBlock:cancelBlock:]_block_invoke
 __62+[ChatFormActionHandler showTimePickerFor:title:actionHelper:]_block_invoke
 __69+[ChatFormActionHandler showDateOfBirthPickerFor:title:actionHelper:]_block_invoke
@@ -5727,7 +5651,7 @@ _OBJC_IVAR_$_TabTableItem.emoji
 _OBJC_IVAR_$_TabTableItem.informationEmoji
 _OBJC_IVAR_$_TabTableItem.informationUrl
 _OBJC_IVAR_$_TabTableItem.position
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Tab List Items/TabTableItem.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Tab List Items/TabTableItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Tab List Items/TabTableItem.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Tab List Items/TabTableItem.h
 __35-[TabTableItem initWithDictionary:]_block_invoke.82
@@ -5743,6 +5667,7 @@ ___43-[HPMessageComposerTextView layoutSubviews]_block_invoke
 -[HPMessageComposerTextView setPlaceholderFont:]
 -[HPMessageComposerTextView numberOfLines]
 -[HPMessageComposerTextView appropriateTextViewHeight]
+-[HPMessageComposerTextView maxHeight]
 -[HPMessageComposerTextView placeholderLabel]
 -[HPMessageComposerTextView placeholder]
 -[HPMessageComposerTextView placeHolderTextColor]
@@ -5782,7 +5707,7 @@ _OBJC_IVAR_$_HPMessageComposerTextView._textViewFont
 _OBJC_IVAR_$_HPMessageComposerTextView._textViewTextColor
 _OBJC_IVAR_$_HPMessageComposerTextView._textViewTintColor
 _OBJC_IVAR_$_HPMessageComposerTextView._maxNumberOfLines
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Composer/Message Composer TextView/HPMessageComposerTextView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Composer/Message Composer TextView/HPMessageComposerTextView.m
 HaptikLib/Views/Message Composer/Message Composer TextView/HPMessageComposerTextView.m
 HaptikLib/Views/Message Composer/Message Composer TextView/HPMessageComposerTextView.h
 __43-[HPMessageComposerTextView layoutSubviews]_block_invoke
@@ -5794,7 +5719,7 @@ __43-[HPMessageComposerTextView layoutSubviews]_block_invoke
 -[PackagePayload .cxx_destruct]
 _OBJC_IVAR_$_PackagePayload.packageName
 _OBJC_IVAR_$_PackagePayload.callbackLink
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/PackagePayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/PackagePayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/PackagePayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/PackagePayload.h
 +[HPMessageFeedbackView addToCell:andMessage:forController:]
@@ -5805,7 +5730,7 @@ HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/Pa
 -[HPMessageFeedbackView like:]
 ___30-[HPMessageFeedbackView like:]_block_invoke
 ___30-[HPMessageFeedbackView like:]_block_invoke_2
-___30-[HPMessageFeedbackView like:]_block_invoke.346
+___30-[HPMessageFeedbackView like:]_block_invoke.344
 -[HPMessageFeedbackView dislike:]
 ___33-[HPMessageFeedbackView dislike:]_block_invoke
 ___33-[HPMessageFeedbackView dislike:]_block_invoke_2
@@ -5831,23 +5756,23 @@ ___48-[HPMessageFeedbackView disableButton:animated:]_block_invoke
 -[HPMessageFeedbackView dislikeButtonConstraint]
 -[HPMessageFeedbackView setDislikeButtonConstraint:]
 -[HPMessageFeedbackView .cxx_destruct]
-_OBJC_IVAR_$_HPMessageFeedbackView._message
 _OBJC_IVAR_$_HPMessageFeedbackView._messageView
 _OBJC_IVAR_$_HPMessageFeedbackView._likeButton
 _OBJC_IVAR_$_HPMessageFeedbackView._dislikeButton
 _OBJC_IVAR_$_HPMessageFeedbackView._commentButton
 _OBJC_IVAR_$_HPMessageFeedbackView._dislikeButtonConstraint
+_OBJC_IVAR_$_HPMessageFeedbackView._message
 ___block_descriptor_32_e4_20s24s28w_e7_v8?0c4l
 _OBJC_IVAR_$_HPMessageFeedbackView._controller
 _OBJC_IVAR_$_HPMessageFeedbackView._isHorizontallyAligned
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Feedback Views/Message Feedback/HPMessageFeedbackView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Feedback Views/Message Feedback/HPMessageFeedbackView.m
 HaptikLib/Views/Message Feedback Views/Message Feedback/HPMessageFeedbackView.m
 __48-[HPMessageFeedbackView disableButton:animated:]_block_invoke
 __33-[HPMessageFeedbackView comment:]_block_invoke
 __33-[HPMessageFeedbackView dislike:]_block_invoke_3
 __33-[HPMessageFeedbackView dislike:]_block_invoke_2
 __33-[HPMessageFeedbackView dislike:]_block_invoke
-__30-[HPMessageFeedbackView like:]_block_invoke.346
+__30-[HPMessageFeedbackView like:]_block_invoke.344
 __30-[HPMessageFeedbackView like:]_block_invoke_2
 __30-[HPMessageFeedbackView like:]_block_invoke
 -[SRIOConsumer resetWithScanner:handler:bytesNeeded:readToCurrentFrame:unmaskBytes:]
@@ -5859,11 +5784,11 @@ __30-[HPMessageFeedbackView like:]_block_invoke
 -[SRIOConsumer unmaskBytes]
 -[SRIOConsumer .cxx_destruct]
 -[SRIOConsumer resetWithScanner:handler:bytesNeeded:readToCurrentFrame:unmaskBytes:].cold.1
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/IOConsumer/SRIOConsumer.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/IOConsumer/SRIOConsumer.m
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/IOConsumer/SRIOConsumer.m
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/IOConsumer/SRIOConsumer.h
 +[Business(CoreDataProperties) fetchRequest]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Business/Business+CoreDataProperties.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Business/Business+CoreDataProperties.m
 HaptikLib/Model Objects/Core Data Objects/Business/Business+CoreDataProperties.m
 -[SmartUIView dataObject]
 -[SmartUIView setDataObject:]
@@ -5887,7 +5812,7 @@ _OBJC_IVAR_$_SmartUIView.ctaPostion
 _OBJC_IVAR_$_SmartUIView.type
 _OBJC_IVAR_$_SmartUIView.dataItem
 _OBJC_IVAR_$_SmartUIView.selectedTabItems
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/UIViews/Smart Action View/SmartUIView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/UIViews/Smart Action View/SmartUIView.m
 HaptikLib/Views/UIViews/Smart Action View/SmartUIView.m
 HaptikLib/Views/UIViews/Smart Action View/SmartUIView.h
 -[QRCollectionViewCell initWithFrame:]
@@ -5903,7 +5828,7 @@ HaptikLib/Views/UIViews/Smart Action View/SmartUIView.h
 _OBJC_IVAR_$_QRCollectionViewCell._customView
 _OBJC_IVAR_$_QRCollectionViewCell._indexPath
 _OBJC_IVAR_$_QRCollectionViewCell._hasAnimated
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Collection View Cells/Quick Replies Cell/QRCollectionViewCell.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Collection View Cells/Quick Replies Cell/QRCollectionViewCell.m
 HaptikLib/Views/Collection View Cells/Quick Replies Cell/QRCollectionViewCell.m
 HaptikLib/Views/Collection View Cells/Quick Replies Cell/QRCollectionViewCell.h
 -[HPFeedbackManager init]
@@ -5921,7 +5846,7 @@ ___76+[HPFeedbackManager sendFeedback:withComments:formMessageID:withCompletion:
 -[HPFeedbackManager freeFormSessionActive]
 -[HPFeedbackManager setFreeFormSessionActive:]
 _OBJC_IVAR_$_HPFeedbackManager._freeFormSessionActive
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Message Feedback Helpers/HPFeedbackManager.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Message Feedback Helpers/HPFeedbackManager.m
 HaptikLib/Helpers/Conversation Helpers/Message Feedback Helpers/HPFeedbackManager.m
 __76+[HPFeedbackManager sendFeedback:withComments:formMessageID:withCompletion:]_block_invoke.266
 __76+[HPFeedbackManager sendFeedback:withComments:formMessageID:withCompletion:]_block_invoke_2
@@ -5957,7 +5882,7 @@ _OBJC_IVAR_$_SmartSearchResult.originalCaption
 _OBJC_IVAR_$_SmartSearchResult.meta
 _OBJC_IVAR_$_SmartSearchResult.imageUrl
 _OBJC_IVAR_$_SmartSearchResult.payload
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Smart Forms/SmartSearchResult.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Smart Forms/SmartSearchResult.m
 HaptikLib/Model Objects/Smart Forms/SmartSearchResult.m
 HaptikLib/Model Objects/Smart Forms/SmartSearchResult.h
 __40-[SmartSearchResult initWithDictionary:]_block_invoke
@@ -5968,7 +5893,7 @@ ___99-[UIView(SLKAdditions) slk_animateLayoutIfNeededWithDuration:bounce:options
 ___99-[UIView(SLKAdditions) slk_animateLayoutIfNeededWithDuration:bounce:options:animations:completion:]_block_invoke.8
 -[UIView(SLKAdditions) slk_constraintsForAttribute:]
 -[UIView(SLKAdditions) slk_constraintForAttribute:firstItem:secondItem:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/UIView+SLKAdditions.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/UIView+SLKAdditions.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/UIView+SLKAdditions.m
 __99-[UIView(SLKAdditions) slk_animateLayoutIfNeededWithDuration:bounce:options:animations:completion:]_block_invoke.8
 __99-[UIView(SLKAdditions) slk_animateLayoutIfNeededWithDuration:bounce:options:animations:completion:]_block_invoke
@@ -6028,7 +5953,7 @@ _OBJC_IVAR_$_HPSignUpBuilder._authID
 _OBJC_IVAR_$_HPSignUpBuilder._viaName
 _OBJC_IVAR_$_HPSignUpBuilder._customData
 _OBJC_IVAR_$_HPSignUpBuilder._launchMessage
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Sign Up Object/HPSignUpObject.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Sign Up Object/HPSignUpObject.m
 HaptikLib/Model Objects/Sign Up Object/HPSignUpObject.m
 HaptikLib/Model Objects/Sign Up Object/HPSignUpObject.h
 +[Business calculateUnreadMessagesWithCompletion:]
@@ -6053,7 +5978,7 @@ ___28-[Business resetUnreadCount]_block_invoke
 -[Business getConfigObjectFor:]
 ___block_descriptor_28_e4_24r_e5_v4?0l
 ___block_descriptor_40_e4_24s28s32s36r_e5_v4?0l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Business/Business+CoreDataClass.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Business/Business+CoreDataClass.m
 HaptikLib/Model Objects/Core Data Objects/Business/Business+CoreDataClass.m
 __28-[Business resetUnreadCount]_block_invoke
 __64+[Business businessWithAttribute:value:context:fetchCompletion:]_block_invoke_2
@@ -6079,7 +6004,7 @@ __50+[Business calculateUnreadMessagesWithCompletion:]_block_invoke
 _OBJC_IVAR_$_FeedbackOverlay._titleLabel
 _OBJC_IVAR_$_FeedbackOverlay._customView
 _OBJC_IVAR_$_FeedbackOverlay._actionButton
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/UIViews/Feedback Overlay/FeedbackOverlay.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/UIViews/Feedback Overlay/FeedbackOverlay.m
 HaptikLib/Views/UIViews/Feedback Overlay/FeedbackOverlay.m
 HaptikLib/Views/UIViews/Feedback Overlay/FeedbackOverlay.h
 -[HSLSmartAction initWithDictionary:]
@@ -6109,7 +6034,7 @@ _OBJC_IVAR_$_HSLSmartAction.type
 _OBJC_IVAR_$_HSLSmartAction.items
 _OBJC_IVAR_$_HSLSmartAction.widthType
 _OBJC_IVAR_$_HSLSmartAction.imageAspectRatio
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/HSLSmartAction.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/HSLSmartAction.m
 HaptikLib/Model Objects/HSL Smart Action/HSLSmartAction.m
 HaptikLib/Model Objects/HSL Smart Action/HSLSmartAction.h
 +[SmartActionHelper sharedHelper]
@@ -6151,7 +6076,7 @@ _sharedHelper.onceToken
 ___block_descriptor_28_e4_20s24s_e17_v8?0"Business"4l
 ___block_descriptor_28_e4_20s24s_e33_v16?0c4"NSString"8"NSString"12l
 _OBJC_IVAR_$_SmartActionHelper.delegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Smart Action Helpers/HSL Smart Action Helper/SmartActionHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Smart Action Helpers/HSL Smart Action Helper/SmartActionHelper.m
 HaptikLib/Helpers/Smart Action Helpers/HSL Smart Action Helper/SmartActionHelper.m
 HaptikLib/Helpers/Smart Action Helpers/HSL Smart Action Helper/SmartActionHelper.h
 __69+[SmartActionHelper handleSendLocationCaseWithActionable:controller:]_block_invoke_2
@@ -6176,7 +6101,7 @@ __33+[SmartActionHelper sharedHelper]_block_invoke
 -[HPConversationOfflineExtension .cxx_destruct]
 _OBJC_IVAR_$_HPConversationOfflineExtension._offlineModuleAvailable
 _OBJC_IVAR_$_HPConversationOfflineExtension._offlineAPI
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Offline/HPConversationOfflineExtension.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Conversations/Offline/HPConversationOfflineExtension.m
 HaptikLib/View Controllers/Conversations/Offline/HPConversationOfflineExtension.m
 HaptikLib/View Controllers/Conversations/Offline/HPConversationOfflineExtension.h
 -[MQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:will:willTopic:willMsg:willQoS:willRetainFlag:protocolLevel:queue:]
@@ -6205,7 +6130,7 @@ HaptikLib/View Controllers/Conversations/Offline/HPConversationOfflineExtension.
 -[MQTTSession(Legacy) publishDataExactlyOnce:onTopic:]
 -[MQTTSession(Legacy) publishDataExactlyOnce:onTopic:retain:]
 -[MQTTSession(Legacy) publishJson:onTopic:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionLegacy.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionLegacy.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionLegacy.m
 -[ContactPickerField initWithController:]
 -[ContactPickerField instantiateSubviews]
@@ -6237,7 +6162,7 @@ ___block_descriptor_28_e4_20s24w_e19_v12?0c4"NSError"8l
 _OBJC_IVAR_$_ContactPickerField._changedText
 __OBJC_PROTOCOL_$_CNContactPickerDelegate
 __OBJC_LABEL_PROTOCOL_$_CNContactPickerDelegate
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Text Fields/Contact Picker Field/ContactPickerField.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Text Fields/Contact Picker Field/ContactPickerField.m
 HaptikLib/Views/Text Fields/Contact Picker Field/ContactPickerField.m
 HaptikLib/Views/Text Fields/Contact Picker Field/ContactPickerField.h
 __53-[ContactPickerField contactPicker:didSelectContact:]_block_invoke.559
@@ -6258,13 +6183,13 @@ __35-[ContactPickerField chooseContact]_block_invoke
 -[HPMessageToolbarContentView leftContentPadding]
 -[HPMessageToolbarContentView hideTextView:]
 ___44-[HPMessageToolbarContentView hideTextView:]_block_invoke
-___44-[HPMessageToolbarContentView hideTextView:]_block_invoke.161
+___44-[HPMessageToolbarContentView hideTextView:]_block_invoke.163
 -[HPMessageToolbarContentView showTextView:]
 ___44-[HPMessageToolbarContentView showTextView:]_block_invoke
 ___44-[HPMessageToolbarContentView showTextView:]_block_invoke_2
 -[HPMessageToolbarContentView showRightButton:]
 ___47-[HPMessageToolbarContentView showRightButton:]_block_invoke
-___47-[HPMessageToolbarContentView showRightButton:]_block_invoke.171
+___47-[HPMessageToolbarContentView showRightButton:]_block_invoke.173
 -[HPMessageToolbarContentView showSmallMicButton:]
 ___50-[HPMessageToolbarContentView showSmallMicButton:]_block_invoke
 ___50-[HPMessageToolbarContentView showSmallMicButton:]_block_invoke_2
@@ -6279,7 +6204,7 @@ ___50-[HPMessageToolbarContentView hideHaptikBranding:]_block_invoke
 ___50-[HPMessageToolbarContentView hideHaptikBranding:]_block_invoke_2
 -[HPMessageToolbarContentView showHaptikBranding:]
 ___50-[HPMessageToolbarContentView showHaptikBranding:]_block_invoke
-___50-[HPMessageToolbarContentView showHaptikBranding:]_block_invoke.178
+___50-[HPMessageToolbarContentView showHaptikBranding:]_block_invoke.180
 -[HPMessageToolbarContentView updateDisplayedText]
 -[HPMessageToolbarContentView setupShadowForMessagingContainerView]
 -[HPMessageToolbarContentView setupGradientLayerForExtensionsContainerView]
@@ -6341,10 +6266,10 @@ _OBJC_IVAR_$_HPMessageToolbarContentView._rightMarginHC
 _OBJC_IVAR_$_HPMessageToolbarContentView._leftMarginHC
 _OBJC_IVAR_$_HPMessageToolbarContentView._leftMargin
 _OBJC_IVAR_$_HPMessageToolbarContentView._rightMargin
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Composer/Message Toolbar ContentView/HPMessageToolbarContentView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Composer/Message Toolbar ContentView/HPMessageToolbarContentView.m
 HaptikLib/Views/Message Composer/Message Toolbar ContentView/HPMessageToolbarContentView.m
 HaptikLib/Views/Message Composer/Message Toolbar ContentView/HPMessageToolbarContentView.h
-__50-[HPMessageToolbarContentView showHaptikBranding:]_block_invoke.178
+__50-[HPMessageToolbarContentView showHaptikBranding:]_block_invoke.180
 __50-[HPMessageToolbarContentView showHaptikBranding:]_block_invoke
 __50-[HPMessageToolbarContentView hideHaptikBranding:]_block_invoke_2
 __50-[HPMessageToolbarContentView hideHaptikBranding:]_block_invoke
@@ -6354,11 +6279,11 @@ __59-[HPMessageToolbarContentView hideExtensionsContainerView:]_block_invoke_2
 __59-[HPMessageToolbarContentView hideExtensionsContainerView:]_block_invoke
 __50-[HPMessageToolbarContentView showSmallMicButton:]_block_invoke_2
 __50-[HPMessageToolbarContentView showSmallMicButton:]_block_invoke
-__47-[HPMessageToolbarContentView showRightButton:]_block_invoke.171
+__47-[HPMessageToolbarContentView showRightButton:]_block_invoke.173
 __47-[HPMessageToolbarContentView showRightButton:]_block_invoke
 __44-[HPMessageToolbarContentView showTextView:]_block_invoke_2
 __44-[HPMessageToolbarContentView showTextView:]_block_invoke
-__44-[HPMessageToolbarContentView hideTextView:]_block_invoke.161
+__44-[HPMessageToolbarContentView hideTextView:]_block_invoke.163
 __44-[HPMessageToolbarContentView hideTextView:]_block_invoke
 -[UIScrollView(SLKAdditions) slk_scrollToTopAnimated:]
 -[UIScrollView(SLKAdditions) slk_scrollToBottomAnimated:]
@@ -6368,7 +6293,7 @@ __44-[HPMessageToolbarContentView hideTextView:]_block_invoke
 -[UIScrollView(SLKAdditions) slk_visibleRect]
 -[UIScrollView(SLKAdditions) slk_bottomRect]
 -[UIScrollView(SLKAdditions) slk_stopScrolling]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/UIScrollView+SLKAdditions.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/UIScrollView+SLKAdditions.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/UIScrollView+SLKAdditions.m
 -[HPSpeechRecognitionView init]
 -[HPSpeechRecognitionView setupSubLayers]
@@ -6378,7 +6303,7 @@ HaptikLib/Views/Custom View Controllers/Slack Text ViewController/UIScrollView+S
 -[HPSpeechRecognitionView setBarLayersArray:]
 -[HPSpeechRecognitionView .cxx_destruct]
 _OBJC_IVAR_$_HPSpeechRecognitionView.barLayersArray
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Composer/Speech Recognition Animation/HPSpeechRecognitionView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Composer/Speech Recognition Animation/HPSpeechRecognitionView.m
 HaptikLib/Views/Message Composer/Speech Recognition Animation/HPSpeechRecognitionView.m
 -[ReconnectTimer initWithRetryInterval:maxRetryInterval:queue:reconnectBlock:]
 -[ReconnectTimer schedule]
@@ -6405,7 +6330,7 @@ _OBJC_IVAR_$_ReconnectTimer._reconnectBlock
 _OBJC_IVAR_$_ReconnectTimer._retryInterval
 _OBJC_IVAR_$_ReconnectTimer._currentRetryInterval
 _OBJC_IVAR_$_ReconnectTimer._maxRetryInterval
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/ReconnectTimer.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/ReconnectTimer.m
 HaptikLib/Modules/MQTT Service/MQTTClient/ReconnectTimer.m
 __26-[ReconnectTimer schedule]_block_invoke
 -[SLKTextInputbar initWithTextViewClass:]
@@ -6543,7 +6468,7 @@ _OBJC_IVAR_$_SLKTextInputbar._rightButtonBottomMarginC
 _OBJC_IVAR_$_SLKTextInputbar._editorContentViewHC
 _OBJC_IVAR_$_SLKTextInputbar._previousOrigin
 _OBJC_IVAR_$_SLKTextInputbar._textViewClass
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextInputbar.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextInputbar.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextInputbar.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextInputbar.h
 +[DDASLLogCapture initialize]
@@ -6562,7 +6487,7 @@ __cancel
 __captureLevel
 _configureAslQuery:.param
 ___block_descriptor_40_e8_36r_e7_v8?0i4l
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDASLLogCapture.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDASLLogCapture.m
 __destroy_helper_block_e8_36r
 __copy_helper_block_e8_36r
 __33+[DDASLLogCapture captureAslLogs]_block_invoke
@@ -6618,7 +6543,7 @@ _OBJC_IVAR_$_MQTTInMemoryPersistence.persistent
 _OBJC_IVAR_$_MQTTInMemoryPersistence.maxSize
 _OBJC_IVAR_$_MQTTInMemoryPersistence.maxMessages
 _OBJC_IVAR_$_MQTTInMemoryPersistence.maxWindowSize
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTInMemoryPersistence.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTInMemoryPersistence.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTInMemoryPersistence.m
 +[QRViewHelper sharedInstance]
 ___30+[QRViewHelper sharedInstance]_block_invoke
@@ -6645,14 +6570,14 @@ _OBJC_IVAR_$_QRViewHelper.quickReplies
 _OBJC_IVAR_$_QRViewHelper.actionHelper
 ___block_descriptor_36_e4_20s24s28w_e5_v4?0l
 _OBJC_IVAR_$_QRViewHelper.smartAction
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Quick Replies/QRViewHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Quick Replies/QRViewHelper.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/Quick Replies/QRViewHelper.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/Quick Replies/QRViewHelper.h
 __64-[QRViewHelper logQuickReplyAnalyticsWithActionable:atPosition:]_block_invoke
 __66-[QRViewHelper collectionView:willDisplayCell:forItemAtIndexPath:]_block_invoke
 __67+[QRViewHelper createQuickRepliesViewFor:actionHelper:smartAction:]_block_invoke
 __30+[QRViewHelper sharedInstance]_block_invoke
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRURLUtilities.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRURLUtilities.m
 SRStreamNetworkServiceTypeFromURLRequest
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRURLUtilities.m
 SRBasicAuthorizationHeaderFromURL
@@ -6660,7 +6585,7 @@ SRURLRequiresSSL
 SRURLOrigin
 +[Tasks getTaskEntityForObjectID:businessID:context:]
 +[Tasks getValidTasksFor:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Tasks/Tasks+CoreDataClass.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Tasks/Tasks+CoreDataClass.m
 HaptikLib/Model Objects/Core Data Objects/Tasks/Tasks+CoreDataClass.m
 -[ChatFormTextField form]
 -[ChatFormTextField setForm:]
@@ -6672,20 +6597,18 @@ HaptikLib/Model Objects/Core Data Objects/Tasks/Tasks+CoreDataClass.m
 _OBJC_IVAR_$_ChatFormTextField._form
 _OBJC_IVAR_$_ChatFormTextField._formField
 _OBJC_IVAR_$_ChatFormTextField._formFields
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Text Fields/Chatform Text Field/ChatFormTextField.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Text Fields/Chatform Text Field/ChatFormTextField.m
 HaptikLib/Views/Text Fields/Chatform Text Field/ChatFormTextField.m
 HaptikLib/Views/Text Fields/Chatform Text Field/ChatFormTextField.h
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Collection View Cells/HSLCarouselCell/HSLCarouselViewCell.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Collection View Cells/HSLCarouselCell/HSLCarouselViewCell.m
 -[SRPinningSecurityPolicy initWithCertificates:]
 -[SRPinningSecurityPolicy evaluateServerTrust:forDomain:]
 -[SRPinningSecurityPolicy pinnedCertificates]
 -[SRPinningSecurityPolicy .cxx_destruct]
 _OBJC_IVAR_$_SRPinningSecurityPolicy._pinnedCertificates
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Security/SRPinningSecurityPolicy.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Security/SRPinningSecurityPolicy.m
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Security/SRPinningSecurityPolicy.m
 +[HPStateObservers initStateNotifiers]
-+[HPStateObservers observeDidFinishLaunching]
-___45+[HPStateObservers observeDidFinishLaunching]_block_invoke
 +[HPStateObservers observeWillEnterForeground]
 ___46+[HPStateObservers observeWillEnterForeground]_block_invoke
 ___46+[HPStateObservers observeWillEnterForeground]_block_invoke_2
@@ -6701,17 +6624,16 @@ ___48+[HPStateObservers observeSignificantTimeChange]_block_invoke_2
 ___50+[HPStateObservers observeDidReceiveMemoryWarning]_block_invoke
 ___50+[HPStateObservers observeDidReceiveMemoryWarning]_block_invoke_2
 ___block_descriptor_20_e23_v8?0"NSNotification"4l
-___block_literal_global.32
 ___block_descriptor_20_e19_v12?0c4"NSError"8l
-___block_literal_global.47
-___block_literal_global.54
+___block_literal_global.35
+___block_literal_global.44
+___block_literal_global.51
 ___block_literal_global.60
-___block_literal_global.69
-___block_literal_global.70
-___block_literal_global.71
-___block_literal_global.74
-___block_literal_global.77
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/State Change Observers/HPStateObservers.m
+___block_literal_global.61
+___block_literal_global.62
+___block_literal_global.65
+___block_literal_global.68
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/State Change Observers/HPStateObservers.m
 __50+[HPStateObservers observeDidReceiveMemoryWarning]_block_invoke_2
 HaptikLib/Helpers/State Change Observers/HPStateObservers.m
 __50+[HPStateObservers observeDidReceiveMemoryWarning]_block_invoke
@@ -6722,12 +6644,11 @@ __45+[HPStateObservers observeDidEnterBackground]_block_invoke_2
 __45+[HPStateObservers observeDidEnterBackground]_block_invoke
 __46+[HPStateObservers observeWillEnterForeground]_block_invoke_2
 __46+[HPStateObservers observeWillEnterForeground]_block_invoke
-__45+[HPStateObservers observeDidFinishLaunching]_block_invoke
 -[SLKInputAccessoryView willMoveToSuperview:]
 -[SLKInputAccessoryView keyboardViewProxy]
 -[SLKInputAccessoryView .cxx_destruct]
 _OBJC_IVAR_$_SLKInputAccessoryView._keyboardViewProxy
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKInputAccessoryView.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKInputAccessoryView.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKInputAccessoryView.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKInputAccessoryView.h
 -[MQTTTransport init]
@@ -6750,7 +6671,7 @@ _OBJC_IVAR_$_MQTTTransport.queue
 _OBJC_IVAR_$_MQTTTransport.delegate
 _OBJC_IVAR_$_MQTTTransport.host
 _OBJC_IVAR_$_MQTTTransport.port
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTTransport.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTTransport.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTTransport.m
 -[DDMultiFormatter init]
 -[DDMultiFormatter formatLogMessage:]
@@ -6769,7 +6690,7 @@ ___46-[DDMultiFormatter isFormattingWithFormatter:]_block_invoke
 -[DDMultiFormatter .cxx_destruct]
 _OBJC_IVAR_$_DDMultiFormatter._queue
 _OBJC_IVAR_$_DDMultiFormatter._formatters
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/Extensions/DDMultiFormatter.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/Extensions/DDMultiFormatter.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/Extensions/DDMultiFormatter.m
 __46-[DDMultiFormatter isFormattingWithFormatter:]_block_invoke
 __39-[DDMultiFormatter removeAllFormatters]_block_invoke
@@ -6826,13 +6747,13 @@ ___block_descriptor_28_e4_20s24s_e27_v8?0"NSAttributedString"4l
 _OBJC_IVAR_$_CarouselDetailViewController.messageSenderDelegate
 _OBJC_IVAR_$_CarouselDetailViewController.business
 _OBJC_IVAR_$_CarouselDetailViewController.positionInView
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Carousel Details/Regular Carousel/CarouselDetailViewController.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/View Controllers/Carousel Details/Regular Carousel/CarouselDetailViewController.m
 HaptikLib/View Controllers/Carousel Details/Regular Carousel/CarouselDetailViewController.m
 HaptikLib/View Controllers/Carousel Details/Regular Carousel/CarouselDetailViewController.h
 __52-[CarouselDetailViewController performCTATapAction:]_block_invoke
 __71-[CarouselDetailViewController configureProductPriceLabelFor:titleLab:]_block_invoke
 +[Tasks(CoreDataProperties) fetchRequest]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Tasks/Tasks+CoreDataProperties.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/Core Data Objects/Tasks/Tasks+CoreDataProperties.m
 HaptikLib/Model Objects/Core Data Objects/Tasks/Tasks+CoreDataProperties.m
 _importCategories
 -[SRWebSocket initWithURLRequest:protocols:securityPolicy:]
@@ -7016,7 +6937,7 @@ _OBJC_IVAR_$_SRWebSocket._receivedHTTPHeaders
 _OBJC_IVAR_$_SRWebSocket._requestCookies
 _OBJC_IVAR_$_SRWebSocket._protocol
 _OBJC_IVAR_$_SRWebSocket._delegateController
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/SRWebSocket.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/SRWebSocket.m
 HaptikLib/Modules/MQTT Service/SocketRocket/SRWebSocket.m
 __33-[SRWebSocket _readFrameContinue]_block_invoke_2
 __36-[SRWebSocket closeWithCode:reason:]_block_invoke
@@ -7072,14 +6993,14 @@ importCategories
 +[RegularSmartActionViewHelper setLinkAttributesOnButton:forSmartAction:]
 +[RegularSmartActionViewHelper setCallAttributesOnButton:forSmartAction:]
 +[RegularSmartActionViewHelper setDefaultAttributesOnButton:forSmartAction:]
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Regular Smart Action/RegularSmartActionViewHelper.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Regular Smart Action/RegularSmartActionViewHelper.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/Regular Smart Action/RegularSmartActionViewHelper.m
 -[OptionsUrlPayload initWithDictionary:]
 -[OptionsUrlPayload optionUrl]
 -[OptionsUrlPayload setOptionUrl:]
 -[OptionsUrlPayload .cxx_destruct]
 _OBJC_IVAR_$_OptionsUrlPayload.optionUrl
-/Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/OptionsUrlPayload.m
+/Users/hap/Documents/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/OptionsUrlPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/OptionsUrlPayload.m
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/OptionsUrlPayload.h
-/Users/iamsimranjot/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikLib.build/Release-iphoneos/HaptikLib.build/DerivedSources/HaptikLib_vers.c
+/Users/hap/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikLib.build/Release-iphoneos/HaptikLib.build/DerivedSources/HaptikLib_vers.c

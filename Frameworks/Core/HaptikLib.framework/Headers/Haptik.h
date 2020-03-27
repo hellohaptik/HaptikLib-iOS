@@ -58,7 +58,7 @@ typedef NS_ENUM(NSUInteger, HaptikLibRunEnvironment) {
  
  @endcode
  */
-- (void)notifyApplication:(UIApplication *)application launchedWithOptions:(nullable NSDictionary<UIApplicationLaunchOptionsKey, id> *)launchOptions;
+- (void)notifyApplication:(UIApplication *)application launchedWithOptions:(nullable NSDictionary<UIApplicationLaunchOptionsKey, id> *)launchOptions  __attribute__((deprecated("This method is no longer required to be implemented and can be removed.")));
 
 
 #pragma mark - Signup/Signout Methods

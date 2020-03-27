@@ -58,7 +58,7 @@ DEPENDENCIES:
   - HaptikLib (from `../../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - FLAnimatedImage
     - libwebp
     - PINCache

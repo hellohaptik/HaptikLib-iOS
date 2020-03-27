@@ -73,11 +73,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (BOOL)isProductionEnvironment;
 
 /**
- *  The method returns the same dictionary(shareAndRate) that the client added in the HaptikLib's Credentials
- *  Dictionay (only HPShareUrl & HPShareText) in their info.plist file with HPShareUrl replaced at respective places.
- *  If the values are not added then by default Haptik is shared with its custom text.
+ *  The method returns the client added HPShareUrl & HPShareText in the HaptikLib's Rate and Share Credentials
+ *  in their info.plist file with HPShareUrl replaced at respective places.
+ *  If HPShareText is empty or not there, will return nil.
  */
-+ (NSDictionary<NSString *,NSString *> *)getApplicationShareInfo;
++ (NSDictionary<NSString *,NSString *> * _Nullable)getApplicationShareInfo;
 
 @end
 

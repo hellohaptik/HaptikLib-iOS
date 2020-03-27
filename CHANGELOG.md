@@ -2,6 +2,21 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.4.0] - (26/03/20) - E iOS
+
+### Features
+
+### Enhancements
+- Removed speed-test native action support
+- Updated UIWebView with WKWebView implementation
+- Rate & Share made optional
+- Deprecated "notifyApplication:" method (no longer required to implement).
+
+### Bugs
+- Fixes composer not taking appropriate height on paste action
+
+---
+
 ## [2.3.0] - (26/02/20) - D iOS
 
 ### Features
