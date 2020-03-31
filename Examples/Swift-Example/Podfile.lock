@@ -7,30 +7,15 @@ PODS:
     - PINRemoteImage/WebP (= 3.0.0-beta.13)
   - HaptikLib/Core (2.4.0):
     - HaptikLib/Base
-  - libwebp (1.0.0):
-    - libwebp/core (= 1.0.0)
-    - libwebp/dec (= 1.0.0)
-    - libwebp/demux (= 1.0.0)
-    - libwebp/dsp (= 1.0.0)
-    - libwebp/enc (= 1.0.0)
-    - libwebp/mux (= 1.0.0)
-    - libwebp/utils (= 1.0.0)
-    - libwebp/webp (= 1.0.0)
-  - libwebp/core (1.0.0):
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
     - libwebp/webp
-  - libwebp/dec (1.0.0):
-    - libwebp/core
-  - libwebp/demux (1.0.0):
-    - libwebp/core
-  - libwebp/dsp (1.0.0):
-    - libwebp/core
-  - libwebp/enc (1.0.0):
-    - libwebp/core
-  - libwebp/mux (1.0.0):
-    - libwebp/core
-  - libwebp/utils (1.0.0):
-    - libwebp/core
-  - libwebp/webp (1.0.0)
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
   - PINCache (3.0.1-beta.6):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
     - PINCache/Core (= 3.0.1-beta.6)
@@ -38,7 +23,7 @@ PODS:
     - PINCache/Core
   - PINCache/Core (3.0.1-beta.6):
     - PINOperation (~> 1.1.0)
-  - PINOperation (1.1.1)
+  - PINOperation (1.1.2)
   - PINRemoteImage (3.0.0-beta.13):
     - PINRemoteImage/FLAnimatedImage (= 3.0.0-beta.13)
     - PINRemoteImage/PINCache (= 3.0.0-beta.13)
@@ -72,9 +57,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   HaptikLib: de60f9cf2706e2ee2699ed2745608b4d59a2bad9
-  libwebp: d7e0c95fe97245c97e08101eba10702ebb0f6101
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
-  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
 
 PODFILE CHECKSUM: af48b7d0fe816286c0ab0aceecab9a38fe7f58a7
