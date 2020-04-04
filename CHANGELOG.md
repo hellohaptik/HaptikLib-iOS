@@ -2,6 +2,20 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.4.1] - (03/04/20) - F iOS
+
+### Features
+
+### Enhancements
+- Shared utilities made thread safe
+- Haptik branding image updated
+
+### Bugs
+- Fixes navigation items showing wrong tint color
+- Fixes background task error in CoreData.
+
+---
+
 ## [2.4.0] - (26/03/20) - E iOS
 
 ### Features
