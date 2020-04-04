@@ -133,11 +133,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (NSString *)italicFont;
 
-/**
- *  Gets you the current tintColor of Navigation Items.
- */
-- (UIColor *)navigationItemTintColor;
-
 
 #pragma mark - Helpers
 
@@ -172,9 +167,6 @@ NS_ASSUME_NONNULL_BEGIN
  Get's you an instance of UINavigationController embedding the passed viewController as it's rootViewController.
  
  @param viewController vieController to embedd as rootViewController
- 
- @discussion
- The returned navigationController comes configured with the theming configurations.
  
  @code
  
