@@ -8,9 +8,10 @@
 
 import UIKit
 import HaptikLib
+import HaptikBase
 
 class RootViewController: UIViewController {
-
+    
     // MARK: Outlets & Attributes
     
     @IBOutlet weak var signupBtn: UIButton!
@@ -27,60 +28,94 @@ class RootViewController: UIViewController {
     
     // MARK: Actions
     
-    @IBAction func signupTapped(_ sender: UIButton) {
+    @IBAction func openHaptikChat(_ sender: UIButton) {
         
         if Haptik.sharedSDK().isUserSignedUp() {
             
-            // Option A
-            
-            /*Haptik.sharedSDK().launchChannel(with: "channel_via_name",
-                                             message: "any_message_you_wanna_start_With",
-                                             controller: self);*/
-            
-            // Option B
-            
-            let conversation = try? Haptik.sharedSDK().getConversationFor(viaName: "channel_via_name", launchMessage: "message_to_be_sent_from_user_side", hideLaunchMessage: false)
-            if let conversation = conversation {
-                present(conversation, animated: true, completion: nil)
-            }
+            triggerSignedUpFlow()
         }
         else {
             
             loadingIndicator.startAnimating()
             signupBtn.isHidden = loadingIndicator.isAnimating
             
-            let signupObject = HPSignUpObject.build(withAuthType: "basic") { (builder) in
+            triggerSignInFlow {[unowned self] (conversation, error) in
                 
-                builder.userFullName = "Simranjot"
-                builder.viaName = "channel_via_name"
-                
-                // You can set more properties on the builder according to the requirements
-            }
-            
-            Haptik.sharedSDK().signUp(with: signupObject) { [unowned self] (success, initialVC, error) in
-                
-                if success {
+                if let _ = error {
                     
-                    let deviceToken = UserDefaults.standard.object(forKey: "kDeviceToken") as! Data
-                    Haptik.sharedSDK().setDeviceToken(deviceToken)
-                    
-                    // From here you can either push to the specific conversation controller if you pass in the via name in the builder
-                    if let initialVC = initialVC {
-                        self.present(initialVC, animated: true, completion: nil)
-                    }
-                    else {
-                        // Handle Error here
-                    }
+                    // Handle error here ...
+                    return;
                 }
-                else {
-                    
-                    // Handle Error here
+                
+                self.setDeviceToken()
+                
+                if let conversation = conversation {
+                    self.presentHaptikConversation(conversation)
                 }
                 
                 self.loadingIndicator.stopAnimating()
                 self.signupBtn.isHidden = self.loadingIndicator.isAnimating
             }
         }
+    }
+}
+
+
+// MARK: Haptik Helper Extension
+
+extension RootViewController {
+    
+    func triggerSignedUpFlow() {
+        
+        // Option A
+        
+        /*Haptik.sharedSDK().launchChannel(with: "channel_via_name",
+         message: "any_message_you_wanna_start_With",
+         controller: self);*/
+        
+        // Option B
+        
+        let conversation = try? Haptik.sharedSDK().getConversationFor(viaName: "reminderschannel",
+                                                                      launchMessage: "",
+                                                                      hideLaunchMessage: false)
+        if let conversation = conversation {
+            presentHaptikConversation(conversation)
+        }
+    }
+    
+    func triggerSignInFlow(completion: @escaping(_ conversation: UIViewController?, _ error: Error?) -> Void) {
+        
+        // Make the signup object which contains the required information used for signup
+        let signupObject = HPSignUpObject.build(withAuthType: "basic") { (builder) in
+            
+            builder.userFullName = "Simranjot"
+            builder.viaName = "reminderschannel"
+            
+            // You can set more properties on the builder according to the requirements
+        }
+        
+        Haptik.sharedSDK().signUp(with: signupObject) { (success, initialVC, error) in
+            completion(initialVC, error);
+        }
+    }
+    
+    func presentHaptikConversation(_ conversationVC: UIViewController) {
+        
+        let navigationController = UINavigationController(rootViewController: conversationVC)
+        
+        HPConfiguration.shared().configureNavigationBarTintColor(UIColor(hexString: "#0050ddff"),
+                                                                 navigationItemTintColor: .white,
+                                                                 makeTranslucent: false,
+                                                                 for: navigationController)
+        
+        present(navigationController, animated: true, completion: nil)
+    }
+    
+    func setDeviceToken() {
+        
+        let deviceToken = UserDefaults.standard.object(forKey: "kDeviceToken") as? Data
+        guard let token = deviceToken else { return }
+        Haptik.sharedSDK().setDeviceToken(token)
     }
 }
 
