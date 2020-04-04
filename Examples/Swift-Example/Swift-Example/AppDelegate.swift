@@ -103,10 +103,10 @@ extension AppDelegate {
         
         HPConfiguration.shared().themeConfig = HPThemeService.build { (builder) in
             
-            builder?.brandColor = UIColor(hexString: "#2196f3")
-            builder?.businessChatBackground = UIColor(hexString: "#f0f0f0")
-            builder?.businessChatText = UIColor(hexString: "#333333")
-            builder?.messageTimeStamp = UIColor(hexString: "#777777")
+            builder?.brandColor = UIColor(hexString: "#0050ddff")
+            builder?.businessChatBackground = UIColor(hexString: "#f0f0f0ff")
+            builder?.businessChatText = UIColor(hexString: "#333333ff")
+            builder?.messageTimeStamp = UIColor(hexString: "#777777ff")
             
             builder?.lightFont = "HelveticaNeue-Light"
             builder?.regularFont = "HelveticaNeue"

@@ -13,9 +13,9 @@ import UserNotifications;
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
+
     var window: UIWindow?
-    
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         // If you need the callbacks of the analytics data that haptik sends
@@ -63,14 +63,14 @@ extension AppDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter,
                                 didReceive response: UNNotificationResponse,
                                 withCompletionHandler completionHandler: @escaping () -> Void) {
-        
+
         // Check if the notification received belongs to haptik and take action accordingly
-        
+
         let userInfo = response.notification.request.content.userInfo as! [String : Any]
         let isHaptikNotification = Haptik.sharedSDK().canHandleNotification(userInfo: userInfo)
-        
+
         if isHaptikNotification {
-            
+
             print("Do Housekeeping")
             handleNotificationInteraction(userInfo)
         }
@@ -103,10 +103,10 @@ extension AppDelegate {
         
         HPConfiguration.shared().themeConfig = HPThemeService.build { (builder) in
             
-            builder?.brandColor = UIColor(hexString: "#2196f3")
-            builder?.businessChatBackground = UIColor(hexString: "#f0f0f0")
-            builder?.businessChatText = UIColor(hexString: "#333333")
-            builder?.messageTimeStamp = UIColor(hexString: "#777777")
+            builder?.brandColor = UIColor(hexString: "#0050ddff")
+            builder?.businessChatBackground = UIColor(hexString: "#f0f0f0ff")
+            builder?.businessChatText = UIColor(hexString: "#333333ff")
+            builder?.messageTimeStamp = UIColor(hexString: "#777777ff")
             
             builder?.lightFont = "HelveticaNeue-Light"
             builder?.regularFont = "HelveticaNeue"
@@ -123,7 +123,7 @@ extension AppDelegate {
 extension AppDelegate: HPAnalyticsServiceDelegate {
     
     func eventTracked(_ eventName: String, forParams params: [AnyHashable : Any]?) {
-        
+     
         // Get all the events tracked here
     }
 }
