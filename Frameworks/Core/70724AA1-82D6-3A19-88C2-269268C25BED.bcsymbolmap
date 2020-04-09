@@ -69,8 +69,8 @@ HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionSynchron.m
 -[ImageGalleryViewController initWithMessageComposer:URLs:]
 -[ImageGalleryViewController viewDidLoad]
 ___41-[ImageGalleryViewController viewDidLoad]_block_invoke
-___copy_helper_block_e4_20w
-___destroy_helper_block_e4_20w
+___copy_helper_block_e8_32w
+___destroy_helper_block_e8_32w
 -[ImageGalleryViewController setupCollectionView]
 -[ImageGalleryViewController setupCloseButton]
 -[ImageGalleryViewController setupMessageComposer]
@@ -90,10 +90,10 @@ ___42-[ImageGalleryViewController sendMessage:]_block_invoke
 -[ImageGalleryViewController willShowKeyboard]
 ___46-[ImageGalleryViewController willShowKeyboard]_block_invoke
 ___46-[ImageGalleryViewController willShowKeyboard]_block_invoke_2
-___copy_helper_block_e4_20s24w
-___destroy_helper_block_e4_20s24w
-___copy_helper_block_e4_20s
-___destroy_helper_block_e4_20s
+___copy_helper_block_e8_32s40w
+___destroy_helper_block_e8_32s40w
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
 -[ImageGalleryViewController willHideKeyboard]
 ___46-[ImageGalleryViewController willHideKeyboard]_block_invoke
 ___46-[ImageGalleryViewController willHideKeyboard]_block_invoke_2
@@ -130,7 +130,7 @@ _OBJC_SELECTOR_REFERENCES_.61
 _OBJC_SELECTOR_REFERENCES_.63
 _OBJC_SELECTOR_REFERENCES_.65
 _OBJC_SELECTOR_REFERENCES_.67
-___block_descriptor_24_e4_20w_e23_v8?0"NSNotification"4l
+___block_descriptor_40_e8_32w_e24_v16?0"NSNotification"8l
 _OBJC_CLASSLIST_REFERENCES_$_.71
 _OBJC_SELECTOR_REFERENCES_.73
 _OBJC_SELECTOR_REFERENCES_.75
@@ -220,7 +220,7 @@ _OBJC_SELECTOR_REFERENCES_.241
 _OBJC_SELECTOR_REFERENCES_.243
 _OBJC_SELECTOR_REFERENCES_.245
 _OBJC_SELECTOR_REFERENCES_.247
-___block_descriptor_24_e4_20w_e5_v4?0l
+___block_descriptor_40_e8_32w_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.250
 _OBJC_SELECTOR_REFERENCES_.252
 _OBJC_SELECTOR_REFERENCES_.254
@@ -229,9 +229,9 @@ _OBJC_SELECTOR_REFERENCES_.258
 _OBJC_SELECTOR_REFERENCES_.260
 _OBJC_SELECTOR_REFERENCES_.262
 _OBJC_SELECTOR_REFERENCES_.264
-___block_descriptor_32_e4_20s24w_e5_v4?0l
+___block_descriptor_56_e8_32s40w_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.266
-___block_descriptor_24_e4_20s_e23_v8?0"NSNotification"4l
+___block_descriptor_40_e8_32s_e24_v16?0"NSNotification"8l
 _OBJC_SELECTOR_REFERENCES_.268
 _OBJC_SELECTOR_REFERENCES_.270
 _OBJC_SELECTOR_REFERENCES_.272
@@ -278,15 +278,15 @@ _OBJC_LABEL_CLASS_$
 HaptikLib/View Controllers/Image Gallery VC/ImageGalleryViewController.m
 __46-[ImageGalleryViewController willHideKeyboard]_block_invoke_2
 __46-[ImageGalleryViewController willHideKeyboard]_block_invoke
-__destroy_helper_block_e4_20s
-__copy_helper_block_e4_20s
-__destroy_helper_block_e4_20s24w
-__copy_helper_block_e4_20s24w
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
+__destroy_helper_block_e8_32s40w
+__copy_helper_block_e8_32s40w
 __46-[ImageGalleryViewController willShowKeyboard]_block_invoke_2
 __46-[ImageGalleryViewController willShowKeyboard]_block_invoke
 __42-[ImageGalleryViewController sendMessage:]_block_invoke
-__destroy_helper_block_e4_20w
-__copy_helper_block_e4_20w
+__destroy_helper_block_e8_32w
+__copy_helper_block_e8_32w
 __41-[ImageGalleryViewController viewDidLoad]_block_invoke
 -[HaptikAudio init]
 -[HaptikAudio initAudioAPI]
@@ -333,8 +333,8 @@ HaptikLib/Model Objects/Core Data Objects/Forms/Forms+CoreDataClass.m
 -[HPMessageFeedbackOverlayVC headerView]
 -[HPMessageFeedbackOverlayVC getSuggestedResponsesView]
 ___55-[HPMessageFeedbackOverlayVC getSuggestedResponsesView]_block_invoke
-___copy_helper_block_e4_20s24s
-___destroy_helper_block_e4_20s24s
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
 -[HPMessageFeedbackOverlayVC getTapViewfor:]
 -[HPMessageFeedbackOverlayVC getCommentBoxView]
 -[HPMessageFeedbackOverlayVC getButtonPanel]
@@ -347,12 +347,12 @@ ___destroy_helper_block_e4_20s24s
 -[HPMessageFeedbackOverlayVC tapGestureListener:]
 -[HPMessageFeedbackOverlayVC adjustViewForKeyboard:]
 ___52-[HPMessageFeedbackOverlayVC adjustViewForKeyboard:]_block_invoke
-___copy_helper_block_e4_20s24s28w
-___destroy_helper_block_e4_20s24s28w
+___copy_helper_block_e8_32s40s48w
+___destroy_helper_block_e8_32s40s48w
 -[HPMessageFeedbackOverlayVC submitFeedback]
 ___44-[HPMessageFeedbackOverlayVC submitFeedback]_block_invoke
 ___44-[HPMessageFeedbackOverlayVC submitFeedback]_block_invoke.399
-___copy_helper_block_e4_20b
+___copy_helper_block_e8_32b
 -[HPMessageFeedbackOverlayVC cancel]
 -[HPMessageFeedbackOverlayVC scrollViewDidScroll:]
 -[HPMessageFeedbackOverlayVC dismiss]
@@ -436,7 +436,7 @@ _OBJC_SELECTOR_REFERENCES_.202
 _OBJC_SELECTOR_REFERENCES_.204
 _OBJC_SELECTOR_REFERENCES_.206
 _OBJC_SELECTOR_REFERENCES_.208
-___block_descriptor_28_e4_20s24s_e10_v12?04I8l
+___block_descriptor_48_e8_32s40s_e11_v24?08Q16l
 _OBJC_CLASSLIST_REFERENCES_$_.212
 _OBJC_SELECTOR_REFERENCES_.214
 _OBJC_SELECTOR_REFERENCES_.216
@@ -513,15 +513,15 @@ _OBJC_SELECTOR_REFERENCES_.379
 _OBJC_SELECTOR_REFERENCES_.381
 _OBJC_SELECTOR_REFERENCES_.383
 _OBJC_SELECTOR_REFERENCES_.385
-___block_descriptor_32_e4_20s24s28w_e5_v4?0l
+___block_descriptor_56_e8_32s40s48w_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.388
 _OBJC_SELECTOR_REFERENCES_.390
 _OBJC_CLASSLIST_REFERENCES_$_.391
 _OBJC_SELECTOR_REFERENCES_.393
 _OBJC_SELECTOR_REFERENCES_.395
-___block_descriptor_24_e4_20s_e7_c8?04l
+___block_descriptor_40_e8_32s_e8_B16?08l
 _OBJC_SELECTOR_REFERENCES_.398
-___block_descriptor_24_e4_20bs_e7_v8?0c4l
+___block_descriptor_40_e8_32bs_e8_v12?0B8l
 _OBJC_SELECTOR_REFERENCES_.402
 _OBJC_SELECTOR_REFERENCES_.404
 _OBJC_SELECTOR_REFERENCES_.406
@@ -532,7 +532,7 @@ _OBJC_SELECTOR_REFERENCES_.414
 _OBJC_SELECTOR_REFERENCES_.417
 _OBJC_SELECTOR_REFERENCES_.419
 _OBJC_SELECTOR_REFERENCES_.421
-___block_descriptor_24_e4_20s_e7_v8?0c4l
+___block_descriptor_40_e8_32s_e8_v12?0B8l
 _OBJC_SELECTOR_REFERENCES_.423
 _OBJC_SELECTOR_REFERENCES_.425
 _OBJC_CLASSLIST_REFERENCES_$_.426
@@ -555,20 +555,16 @@ __OBJC_CLASS_RO_$_HPMessageFeedbackOverlayVC
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Message Feedback Views/Feedback Overlay VC/HPMessageFeedbackOverlayVC.m
 HaptikLib/Views/Message Feedback Views/Feedback Overlay VC/HPMessageFeedbackOverlayVC.m
 __49-[HPMessageFeedbackOverlayVC presentFeedbackView]_block_invoke
-CGPointMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 __37-[HPMessageFeedbackOverlayVC dismiss]_block_invoke.415
 __37-[HPMessageFeedbackOverlayVC dismiss]_block_invoke
-__copy_helper_block_e4_20b
+__copy_helper_block_e8_32b
 __44-[HPMessageFeedbackOverlayVC submitFeedback]_block_invoke.399
 __44-[HPMessageFeedbackOverlayVC submitFeedback]_block_invoke
-__destroy_helper_block_e4_20s24s28w
-__copy_helper_block_e4_20s24s28w
+__destroy_helper_block_e8_32s40s48w
+__copy_helper_block_e8_32s40s48w
 __52-[HPMessageFeedbackOverlayVC adjustViewForKeyboard:]_block_invoke
-UIEdgeInsetsMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
-__destroy_helper_block_e4_20s24s
-__copy_helper_block_e4_20s24s
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40s
 __55-[HPMessageFeedbackOverlayVC getSuggestedResponsesView]_block_invoke
 -[HPMessageInputToolbar initWithComposerType:]
 -[HPMessageInputToolbar dealloc]
@@ -652,9 +648,9 @@ _OBJC_SELECTOR_REFERENCES_.186
 _OBJC_SELECTOR_REFERENCES_.188
 _OBJC_SELECTOR_REFERENCES_.190
 _OBJC_IVAR_$_HPMessageInputToolbar._composerState
-___block_descriptor_24_e4_20w_e7_v8?0c4l
-___block_descriptor_24_e4_20s_e5_v4?0l
-___block_descriptor_28_e4_20s24w_e5_v4?0l
+___block_descriptor_40_e8_32w_e8_v12?0B8l
+___block_descriptor_40_e8_32s_e5_v8?0l
+___block_descriptor_48_e8_32s40w_e5_v8?0l
 _OBJC_IVAR_$_HPMessageInputToolbar.bigMicBottomC
 _OBJC_CLASSLIST_REFERENCES_$_.220
 _OBJC_SELECTOR_REFERENCES_.230
@@ -677,11 +673,10 @@ __47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.213
 __47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.212
 __47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke.200
 __47-[HPMessageInputToolbar updateComposerStateTo:]_block_invoke
-CGSizeMake
 +[DDLog sharedInstance]
 ___23+[DDLog sharedInstance]_block_invoke
-___copy_helper_block_e4_
-___destroy_helper_block_e4_
+___copy_helper_block_e8_
+___destroy_helper_block_e8_
 +[DDLog initialize]
 ___19+[DDLog initialize]_block_invoke
 -[DDLog init]
@@ -703,8 +698,8 @@ ___25-[DDLog removeAllLoggers]_block_invoke
 ___Block_byref_object_copy_
 ___Block_byref_object_dispose_
 ___19-[DDLog allLoggers]_block_invoke
-___copy_helper_block_e4_20s24r
-___destroy_helper_block_e4_20s24r
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
 +[DDLog allLoggersWithLevel]
 -[DDLog allLoggersWithLevel]
 ___28-[DDLog allLoggersWithLevel]_block_invoke
@@ -779,7 +774,7 @@ ___32-[DDAbstractLogger logFormatter]_block_invoke_2
 -[DDAbstractLogger setLogFormatter:]
 ___36-[DDAbstractLogger setLogFormatter:]_block_invoke
 ___36-[DDAbstractLogger setLogFormatter:]_block_invoke_2
-___copy_helper_block_e4_20s24b
+___copy_helper_block_e8_32s40b
 -[DDAbstractLogger loggerQueue]
 -[DDAbstractLogger loggerName]
 -[DDAbstractLogger isOnGlobalLoggingQueue]
@@ -794,9 +789,9 @@ ___copy_helper_block_e4_20s24b
 __dispatch_queue_label_init_once
 _sharedInstance.sharedInstance
 _sharedInstance.onceToken
-___block_descriptor_24_e4__e5_v4?0l
+___block_descriptor_40_e8__e5_v8?0l
 _initialize.DDLogOnceToken
-___block_descriptor_20_e5_v4?0l
+___block_descriptor_32_e5_v8?0l
 ___block_literal_global
 __loggingQueue
 __loggingGroup
@@ -808,9 +803,9 @@ _OBJC_CLASSLIST_REFERENCES_$_.6
 _OBJC_CLASSLIST_REFERENCES_$_.12
 _OBJC_SELECTOR_REFERENCES_.18
 _OBJC_SELECTOR_REFERENCES_.26
-___block_descriptor_32_e4_20s24s_e5_v4?0l
-___block_descriptor_28_e4_20s24s_e5_v4?0l
-___block_descriptor_28_e4_20s24r_e5_v4?0l
+___block_descriptor_56_e8_32s40s_e5_v8?0l
+___block_descriptor_48_e8_32s40s_e5_v8?0l
+___block_descriptor_48_e8_32s40r_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.54
 _OBJC_SELECTOR_REFERENCES_.91
 _OBJC_CLASSLIST_REFERENCES_$_.94
@@ -852,7 +847,7 @@ _OBJC_CLASSLIST_SUP_REFS_$_.280
 _OBJC_CLASSLIST_REFERENCES_$_.289
 _OBJC_SELECTOR_REFERENCES_.294
 _OBJC_SELECTOR_REFERENCES_.296
-___block_descriptor_28_e4_20s24bs_e5_v4?0l
+___block_descriptor_48_e8_32s40bs_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.298
 __OBJC_$_PROTOCOL_REFS_DDLogger
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_DDLogger
@@ -884,7 +879,7 @@ _OBJC_SELECTOR_REFERENCES_.370
 _dispatch_queue_label_init_once
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDLog.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDLog.h
-__copy_helper_block_e4_20s24b
+__copy_helper_block_e8_32s40b
 __36-[DDAbstractLogger setLogFormatter:]_block_invoke_2
 __36-[DDAbstractLogger setLogFormatter:]_block_invoke
 __32-[DDAbstractLogger logFormatter]_block_invoke_2
@@ -902,8 +897,8 @@ __28-[DDLog lt_addLogger:level:]_block_invoke
 __17-[DDLog flushLog]_block_invoke
 __40-[DDLog queueLogMessage:asynchronously:]_block_invoke
 __28-[DDLog allLoggersWithLevel]_block_invoke
-__destroy_helper_block_e4_20s24r
-__copy_helper_block_e4_20s24r
+__destroy_helper_block_e8_32s40r
+__copy_helper_block_e8_32s40r
 __19-[DDLog allLoggers]_block_invoke
 __Block_byref_object_dispose_
 __Block_byref_object_copy_
@@ -911,8 +906,8 @@ __25-[DDLog removeAllLoggers]_block_invoke
 __22-[DDLog removeLogger:]_block_invoke
 __29-[DDLog addLogger:withLevel:]_block_invoke
 __19+[DDLog initialize]_block_invoke
-__destroy_helper_block_e4_
-__copy_helper_block_e4_
+__destroy_helper_block_e8_
+__copy_helper_block_e8_
 __23+[DDLog sharedInstance]_block_invoke
 -[NSObject(iCarousel) numberOfPlaceholdersInCarousel:]
 -[NSObject(iCarousel) carouselWillBeginScrollingAnimation:]
@@ -1197,6 +1192,7 @@ __tg_cos
 __tg_sin
 compareViewDepth
 __CGSizeEqualToSize
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 -[SendAgainButton chatMessage]
 -[SendAgainButton setChatMessage:]
 -[SendAgainButton .cxx_destruct]
@@ -1236,7 +1232,7 @@ ___93+[ChatformViewHelper getContactPickerField:formFields:actionHelper:sendButt
 _OBJC_SELECTOR_REFERENCES_.210
 _OBJC_CLASSLIST_REFERENCES_$_.219
 _OBJC_CLASSLIST_REFERENCES_$_.222
-___block_descriptor_20_e24_c12?04"NSDictionary"8l
+___block_descriptor_32_e25_B24?08"NSDictionary"16l
 ___block_literal_global.242
 _OBJC_CLASSLIST_REFERENCES_$_.247
 _OBJC_CLASSLIST_REFERENCES_$_.248
@@ -1281,7 +1277,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.381
 _OBJC_SELECTOR_REFERENCES_.387
 _OBJC_SELECTOR_REFERENCES_.389
 _OBJC_SELECTOR_REFERENCES_.391
-___block_descriptor_28_e4_20s24w_e17_v8?0"NSString"4l
+___block_descriptor_48_e8_32s40w_e18_v16?0"NSString"8l
 _OBJC_SELECTOR_REFERENCES_.394
 _OBJC_CLASSLIST_REFERENCES_$_.395
 _OBJC_SELECTOR_REFERENCES_.397
@@ -1338,7 +1334,6 @@ __OBJC_METACLASS_RO_$_ChatformViewHelper
 __OBJC_CLASS_RO_$_ChatformViewHelper
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/View Helpers/Chatforms/ChatformViewHelper.m
 HaptikLib/Helpers/Conversation Helpers/View Helpers/Chatforms/ChatformViewHelper.m
-CGRectMake
 __93+[ChatformViewHelper getContactPickerField:formFields:actionHelper:sendButton:referenceRect:]_block_invoke
 __43+[ChatformViewHelper containsSmartFormsIn:]_block_invoke
 __49+[ChatformViewHelper getCountOfAddressFieldsFor:]_block_invoke
@@ -1394,62 +1389,62 @@ __OBJC_CLASS_RO_$_Carousel
 HaptikLib/Model Objects/Carousel Object/Carousel.m
 +[MessageLogger tryInsertingChatMessageFromBackend:completion:]
 ___63+[MessageLogger tryInsertingChatMessageFromBackend:completion:]_block_invoke
-___copy_helper_block_e4_20s24r28r
-___destroy_helper_block_e4_20s24r28r
+___copy_helper_block_e8_32s40r48r
+___destroy_helper_block_e8_32s40r48r
 ___63+[MessageLogger tryInsertingChatMessageFromBackend:completion:]_block_invoke.241
-___copy_helper_block_e4_20b24r28r
+___copy_helper_block_e8_32b40r48r
 +[MessageLogger insertBackendMessage:sourceType:forDate:messageID:sortID:agentName:business:completion:]
 ___104+[MessageLogger insertBackendMessage:sourceType:forDate:messageID:sortID:agentName:business:completion:]_block_invoke
-___copy_helper_block_e4_20s28s32s36s40s44s48r52r
-___destroy_helper_block_e4_20s28s32s36s40s44s48r52r
+___copy_helper_block_e8_32s48s56s64s72s80s88r96r
+___destroy_helper_block_e8_32s48s56s64s72s80s88r96r
 ___104+[MessageLogger insertBackendMessage:sourceType:forDate:messageID:sortID:agentName:business:completion:]_block_invoke.249
 +[MessageLogger insertMessageOnBehalfOfBackend:inBusinessWithViaName:]
 ___70+[MessageLogger insertMessageOnBehalfOfBackend:inBusinessWithViaName:]_block_invoke
 +[MessageLogger insertUserMessage:chatMessageType:sourceType:forDate:sendStatus:business:completion:]
 ___101+[MessageLogger insertUserMessage:chatMessageType:sourceType:forDate:sendStatus:business:completion:]_block_invoke
-___copy_helper_block_e4_20s28s32s36s40r
-___destroy_helper_block_e4_20s28s32s36s40r
+___copy_helper_block_e8_32s48s56s64s72r
+___destroy_helper_block_e8_32s48s56s64s72r
 ___101+[MessageLogger insertUserMessage:chatMessageType:sourceType:forDate:sendStatus:business:completion:]_block_invoke.277
-___copy_helper_block_e4_20b24r
+___copy_helper_block_e8_32b40r
 +[MessageLogger insertImageWithMessage:chatMessageType:sourceType:forDate:messageID:sortID:business:completion:]
 ___112+[MessageLogger insertImageWithMessage:chatMessageType:sourceType:forDate:messageID:sortID:business:completion:]_block_invoke
-___copy_helper_block_e4_20s28s32s36s40s44r
-___destroy_helper_block_e4_20s28s32s36s40s44r
+___copy_helper_block_e8_32s48s56s64s72s80r
+___destroy_helper_block_e8_32s48s56s64s72s80r
 ___112+[MessageLogger insertImageWithMessage:chatMessageType:sourceType:forDate:messageID:sortID:business:completion:]_block_invoke.279
 +[MessageLogger createSpeechMessageInBusiness:completion:]
 ___58+[MessageLogger createSpeechMessageInBusiness:completion:]_block_invoke
-___copy_helper_block_e4_24s28r
-___destroy_helper_block_e4_24s28r
+___copy_helper_block_e8_40s48r
+___destroy_helper_block_e8_40s48r
 ___58+[MessageLogger createSpeechMessageInBusiness:completion:]_block_invoke.283
 +[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]
 ___112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke
-___copy_helper_block_e4_24s28s32s36s40s44s
-___destroy_helper_block_e4_24s28s32s36s40s44s
+___copy_helper_block_e8_40s48s56s64s72s80s
+___destroy_helper_block_e8_40s48s56s64s72s80s
 ___112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke.289
 +[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]
 ___95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke
 ___95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke.298
 _OBJC_CLASSLIST_REFERENCES_$_.226
 _OBJC_CLASSLIST_REFERENCES_$_.235
-___block_descriptor_32_e4_20s24r28r_e5_v4?0l
-___block_descriptor_32_e4_20bs24r28r_e16_v8?0"NSError"4l
+___block_descriptor_56_e8_32s40r48r_e5_v8?0l
+___block_descriptor_56_e8_32bs40r48r_e17_v16?0"NSError"8l
 _OBJC_SELECTOR_REFERENCES_.248
-___block_descriptor_60_e4_20s28s32s36s40s44s48r52r_e5_v4?0l
+___block_descriptor_112_e8_32s48s56s64s72s80s88r96r_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.250
 _OBJC_CLASSLIST_REFERENCES_$_.253
 _OBJC_CLASSLIST_REFERENCES_$_.254
 _OBJC_CLASSLIST_REFERENCES_$_.263
 _OBJC_SELECTOR_REFERENCES_.265
-___block_descriptor_52_e4_20s28s32s36s40r_e5_v4?0l
-___block_descriptor_28_e4_20bs24r_e16_v8?0"NSError"4l
-___block_descriptor_56_e4_20s28s32s36s40s44r_e5_v4?0l
-___block_descriptor_32_e4_24s28r_e5_v4?0l
-___block_descriptor_28_e4_20bs24r_e5_v4?0l
-___block_descriptor_49_e4_24s28s32s36s40s44s_e5_v4?0l
-___block_descriptor_24_e4_20bs_e16_v8?0"NSError"4l
+___block_descriptor_96_e8_32s48s56s64s72r_e5_v8?0l
+___block_descriptor_48_e8_32bs40r_e17_v16?0"NSError"8l
+___block_descriptor_104_e8_32s48s56s64s72s80r_e5_v8?0l
+___block_descriptor_56_e8_40s48r_e5_v8?0l
+___block_descriptor_48_e8_32bs40r_e5_v8?0l
+___block_descriptor_89_e8_40s48s56s64s72s80s_e5_v8?0l
+___block_descriptor_40_e8_32bs_e17_v16?0"NSError"8l
 _OBJC_SELECTOR_REFERENCES_.291
 _OBJC_CLASSLIST_REFERENCES_$_.294
-___block_descriptor_52_e4_20s28s32s36s40s44r_e5_v4?0l
+___block_descriptor_96_e8_32s48s56s64s72s80r_e5_v8?0l
 __OBJC_$_CLASS_METHODS_MessageLogger
 __OBJC_METACLASS_RO_$_MessageLogger
 __OBJC_CLASS_RO_$_MessageLogger
@@ -1458,31 +1453,31 @@ __95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortI
 HaptikLib/Modules/Messaging Service/Database Logger/MessageLogger.m
 __95+[MessageLogger addChatformMessageWith:sourceType:inBusiness:messageID:sortID:date:completion:]_block_invoke
 __112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke.289
-__destroy_helper_block_e4_24s28s32s36s40s44s
-__copy_helper_block_e4_24s28s32s36s40s44s
+__destroy_helper_block_e8_40s48s56s64s72s80s
+__copy_helper_block_e8_40s48s56s64s72s80s
 __112+[MessageLogger updateStatusOfMessage:messageBody:sendStatus:objectId:sortId:messageTime:andSuccess:completion:]_block_invoke
 __58+[MessageLogger createSpeechMessageInBusiness:completion:]_block_invoke.283
-__destroy_helper_block_e4_24s28r
-__copy_helper_block_e4_24s28r
+__destroy_helper_block_e8_40s48r
+__copy_helper_block_e8_40s48r
 __58+[MessageLogger createSpeechMessageInBusiness:completion:]_block_invoke
 __112+[MessageLogger insertImageWithMessage:chatMessageType:sourceType:forDate:messageID:sortID:business:completion:]_block_invoke.279
-__destroy_helper_block_e4_20s28s32s36s40s44r
-__copy_helper_block_e4_20s28s32s36s40s44r
+__destroy_helper_block_e8_32s48s56s64s72s80r
+__copy_helper_block_e8_32s48s56s64s72s80r
 __112+[MessageLogger insertImageWithMessage:chatMessageType:sourceType:forDate:messageID:sortID:business:completion:]_block_invoke
-__copy_helper_block_e4_20b24r
+__copy_helper_block_e8_32b40r
 __101+[MessageLogger insertUserMessage:chatMessageType:sourceType:forDate:sendStatus:business:completion:]_block_invoke.277
-__destroy_helper_block_e4_20s28s32s36s40r
-__copy_helper_block_e4_20s28s32s36s40r
+__destroy_helper_block_e8_32s48s56s64s72r
+__copy_helper_block_e8_32s48s56s64s72r
 __101+[MessageLogger insertUserMessage:chatMessageType:sourceType:forDate:sendStatus:business:completion:]_block_invoke
 __70+[MessageLogger insertMessageOnBehalfOfBackend:inBusinessWithViaName:]_block_invoke
 __104+[MessageLogger insertBackendMessage:sourceType:forDate:messageID:sortID:agentName:business:completion:]_block_invoke.249
-__destroy_helper_block_e4_20s28s32s36s40s44s48r52r
-__copy_helper_block_e4_20s28s32s36s40s44s48r52r
+__destroy_helper_block_e8_32s48s56s64s72s80s88r96r
+__copy_helper_block_e8_32s48s56s64s72s80s88r96r
 __104+[MessageLogger insertBackendMessage:sourceType:forDate:messageID:sortID:agentName:business:completion:]_block_invoke
-__copy_helper_block_e4_20b24r28r
+__copy_helper_block_e8_32b40r48r
 __63+[MessageLogger tryInsertingChatMessageFromBackend:completion:]_block_invoke.241
-__destroy_helper_block_e4_20s24r28r
-__copy_helper_block_e4_20s24r28r
+__destroy_helper_block_e8_32s40r48r
+__copy_helper_block_e8_32s40r48r
 __63+[MessageLogger tryInsertingChatMessageFromBackend:completion:]_block_invoke
 -[MQTTProperties init]
 -[MQTTProperties initFromData:]
@@ -1589,6 +1584,8 @@ __OBJC_CLASS_RO_$_MQTTProperties
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTProperties.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTProperties.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTProperties.h
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 +[MQTTSessionDelegate sharedInstance]
 ___37+[MQTTSessionDelegate sharedInstance]_block_invoke
 -[MQTTSessionDelegate init]
@@ -1597,7 +1594,7 @@ ___27-[MQTTSessionDelegate init]_block_invoke
 -[MQTTSessionDelegate establishConnectionWithCompletion:]
 ___57-[MQTTSessionDelegate establishConnectionWithCompletion:]_block_invoke
 ___57-[MQTTSessionDelegate establishConnectionWithCompletion:]_block_invoke_2
-___copy_helper_block_e4_20s24b28w
+___copy_helper_block_e8_32s40b48w
 -[MQTTSessionDelegate setupSessionFor:]
 -[MQTTSessionDelegate canConnectFor:]
 -[MQTTSessionDelegate resetCurrentSession]
@@ -1605,8 +1602,8 @@ ___copy_helper_block_e4_20s24b28w
 ___76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke
 ___76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke_2
 ___76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke_2.340
-___copy_helper_block_e4_20s24s28s
-___destroy_helper_block_e4_20s24s28s
+___copy_helper_block_e8_32s40s48s
+___destroy_helper_block_e8_32s40s48s
 -[MQTTSessionDelegate handleEvent:event:error:]
 ___47-[MQTTSessionDelegate handleEvent:event:error:]_block_invoke
 ___47-[MQTTSessionDelegate handleEvent:event:error:]_block_invoke_2
@@ -1619,7 +1616,7 @@ ___47-[MQTTSessionDelegate handleEvent:event:error:]_block_invoke_2
 -[MQTTSessionDelegate .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.215
 _OBJC_CLASSLIST_REFERENCES_$_.227
-___block_descriptor_32_e4_20s24bs28w_e5_v4?0l
+___block_descriptor_56_e8_32s40bs48w_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.249
 _OBJC_SELECTOR_REFERENCES_.253
 _OBJC_SELECTOR_REFERENCES_.255
@@ -1633,12 +1630,12 @@ _OBJC_CLASSLIST_REFERENCES_$_.305
 _OBJC_SELECTOR_REFERENCES_.307
 _OBJC_CLASSLIST_REFERENCES_$_.310
 _OBJC_CLASSLIST_REFERENCES_$_.318
-___block_descriptor_25_e4_20s_e40_v12?0"ChatMessages"4"HSLSmartAction"8l
+___block_descriptor_41_e8_32s_e41_v24?0"ChatMessages"8"HSLSmartAction"16l
 _OBJC_SELECTOR_REFERENCES_.337
 _OBJC_SELECTOR_REFERENCES_.348
-___block_descriptor_32_e4_20s24s28s_e5_v4?0l
-___block_descriptor_29_e4_20s24s_e5_v4?0l
-___block_descriptor_28_e4_20s_e5_v4?0l
+___block_descriptor_56_e8_32s40s48s_e5_v8?0l
+___block_descriptor_49_e8_32s40s_e5_v8?0l
+___block_descriptor_48_e8_32s_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.362
 _OBJC_SELECTOR_REFERENCES_.364
 __OBJC_$_CLASS_METHODS_MQTTSessionDelegate
@@ -1659,12 +1656,12 @@ __OBJC_CLASS_RO_$_MQTTSessionDelegate
 HaptikLib/Modules/MQTT Service/MQTTSessionDelegate.m
 __47-[MQTTSessionDelegate handleEvent:event:error:]_block_invoke_2
 __47-[MQTTSessionDelegate handleEvent:event:error:]_block_invoke
-__destroy_helper_block_e4_20s24s28s
-__copy_helper_block_e4_20s24s28s
+__destroy_helper_block_e8_32s40s48s
+__copy_helper_block_e8_32s40s48s
 __76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke_2.340
 __76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke_2
 __76-[MQTTSessionDelegate newMessageWithFeedback:data:onTopic:qos:retained:mid:]_block_invoke
-__copy_helper_block_e4_20s24b28w
+__copy_helper_block_e8_32s40b48w
 __57-[MQTTSessionDelegate establishConnectionWithCompletion:]_block_invoke_2
 __57-[MQTTSessionDelegate establishConnectionWithCompletion:]_block_invoke
 __27-[MQTTSessionDelegate init]_block_invoke
@@ -1680,8 +1677,8 @@ HaptikLib/Modules/MQTT Service/MQTTClient/MQTTStrict.m
 +[MessageWrapper sendMessage:messageType:chatMessageType:sourceType:actionHandler:operations:completion:]
 ___105+[MessageWrapper sendMessage:messageType:chatMessageType:sourceType:actionHandler:operations:completion:]_block_invoke
 ___105+[MessageWrapper sendMessage:messageType:chatMessageType:sourceType:actionHandler:operations:completion:]_block_invoke_2
-___copy_helper_block_e4_24s28s32s36b
-___destroy_helper_block_e4_24s28s32s36s
+___copy_helper_block_e8_40s48s56s64b
+___destroy_helper_block_e8_40s48s56s64s
 +[MessageWrapper resendMessage:actionHandler:]
 +[MessageWrapper shouldSendMessageToOfflineModelForBusiness:isOfflineModuleAvailabe:]
 +[MessageWrapper forwardMessageToAppropriateChannel:messageString:messageType:actionHelper:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]
@@ -1689,8 +1686,8 @@ ___destroy_helper_block_e4_24s28s32s36s
 ___162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke
 ___162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke.588
 ___162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke_2
-___copy_helper_block_e4_20s24s32s36s40b
-___destroy_helper_block_e4_20s24s32s36s40s
+___copy_helper_block_e8_32s40s56s64s72b
+___destroy_helper_block_e8_32s40s56s64s72s
 +[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]
 ___160+[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]_block_invoke
 ___160+[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]_block_invoke_2
@@ -1699,9 +1696,9 @@ ___160+[MessageWrapper forwardMessageToBackend:messageString:messageType:busines
 ___112+[MessageWrapper performSendingSuccessOperationsWith:messageType:business:data:queueResendAnalytics:completion:]_block_invoke
 ___112+[MessageWrapper performSendingSuccessOperationsWith:messageType:business:data:queueResendAnalytics:completion:]_block_invoke_2
 ___112+[MessageWrapper performSendingSuccessOperationsWith:messageType:business:data:queueResendAnalytics:completion:]_block_invoke_3
-___copy_helper_block_e4_20b24s28s
-___copy_helper_block_e4_20b24s
-___copy_helper_block_e4_20s24s28b
+___copy_helper_block_e8_32b40s48s
+___copy_helper_block_e8_32b40s
+___copy_helper_block_e8_32s40s48b
 +[MessageWrapper performSendingFailureOperationsWith:messageType:business:error:queueResendAnalytics:completion:]
 ___113+[MessageWrapper performSendingFailureOperationsWith:messageType:business:error:queueResendAnalytics:completion:]_block_invoke
 ___113+[MessageWrapper performSendingFailureOperationsWith:messageType:business:error:queueResendAnalytics:completion:]_block_invoke_2
@@ -1719,8 +1716,8 @@ _OBJC_SELECTOR_REFERENCES_.536
 _OBJC_SELECTOR_REFERENCES_.538
 _OBJC_CLASSLIST_REFERENCES_$_.539
 _OBJC_SELECTOR_REFERENCES_.543
-___block_descriptor_24_e4_20bs_e5_v4?0l
-___block_descriptor_40_e4_24s28s32s36bs_e24_v12?0"ChatMessages"4c8l
+___block_descriptor_40_e8_32bs_e5_v8?0l
+___block_descriptor_72_e8_40s48s56s64bs_e25_v20?0"ChatMessages"8B16l
 _OBJC_SELECTOR_REFERENCES_.549
 _OBJC_SELECTOR_REFERENCES_.551
 _OBJC_SELECTOR_REFERENCES_.553
@@ -1738,7 +1735,7 @@ _OBJC_SELECTOR_REFERENCES_.574
 _OBJC_SELECTOR_REFERENCES_.576
 _OBJC_SELECTOR_REFERENCES_.578
 _OBJC_SELECTOR_REFERENCES_.580
-___block_descriptor_25_e4_20s_e5_v4?0l
+___block_descriptor_41_e8_32s_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.582
 _OBJC_CLASSLIST_REFERENCES_$_.583
 _OBJC_SELECTOR_REFERENCES_.585
@@ -1746,28 +1743,28 @@ _OBJC_SELECTOR_REFERENCES_.587
 _OBJC_SELECTOR_REFERENCES_.590
 _OBJC_SELECTOR_REFERENCES_.594
 _OBJC_SELECTOR_REFERENCES_.598
-___block_descriptor_40_e4_24s28s32s36bs_e40_v12?0"ChatMessages"4"HSLSmartAction"8l
+___block_descriptor_72_e8_40s48s56s64bs_e41_v24?0"ChatMessages"8"HSLSmartAction"16l
 _OBJC_SELECTOR_REFERENCES_.602
-___block_descriptor_44_e4_20s24s32s36s40bs_e29_v12?0"NSString"4"NSError"8l
+___block_descriptor_80_e8_32s40s56s64s72bs_e30_v24?0"NSString"8"NSError"16l
 _OBJC_SELECTOR_REFERENCES_.606
 _OBJC_CLASSLIST_REFERENCES_$_.607
-___block_descriptor_41_e4_24s28s32s36bs_e21_v8?0"NSDictionary"4l
-___block_descriptor_41_e4_24s28s32s36bs_e16_v8?0"NSError"4l
+___block_descriptor_73_e8_40s48s56s64bs_e22_v16?0"NSDictionary"8l
+___block_descriptor_73_e8_40s48s56s64bs_e17_v16?0"NSError"8l
 _OBJC_SELECTOR_REFERENCES_.614
 _OBJC_SELECTOR_REFERENCES_.616
 _OBJC_SELECTOR_REFERENCES_.618
 _OBJC_SELECTOR_REFERENCES_.620
 _OBJC_SELECTOR_REFERENCES_.622
 _OBJC_SELECTOR_REFERENCES_.624
-___block_descriptor_32_e4_20bs24s28s_e5_v4?0l
-___block_descriptor_28_e4_20bs24s_e16_v8?0"NSError"4l
+___block_descriptor_56_e8_32bs40s48s_e5_v8?0l
+___block_descriptor_48_e8_32bs40s_e17_v16?0"NSError"8l
 _OBJC_SELECTOR_REFERENCES_.626
-___block_descriptor_32_e4_20s24s28bs_e5_v4?0l
+___block_descriptor_56_e8_32s40s48bs_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.628
 _OBJC_CLASSLIST_REFERENCES_$_.629
 _OBJC_SELECTOR_REFERENCES_.631
 _OBJC_SELECTOR_REFERENCES_.633
-___block_descriptor_28_e4_20bs24s_e5_v4?0l
+___block_descriptor_48_e8_32bs40s_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.635
 __OBJC_$_CLASS_METHODS_MessageWrapper
 __OBJC_METACLASS_RO_$_MessageWrapper
@@ -1777,22 +1774,22 @@ __113+[MessageWrapper performSendingFailureOperationsWith:messageType:business:e
 HaptikLib/Modules/Messaging Service/Sender Wrapper/MessageWrapper.m
 __113+[MessageWrapper performSendingFailureOperationsWith:messageType:business:error:queueResendAnalytics:completion:]_block_invoke_2
 __113+[MessageWrapper performSendingFailureOperationsWith:messageType:business:error:queueResendAnalytics:completion:]_block_invoke
-__copy_helper_block_e4_20s24s28b
-__copy_helper_block_e4_20b24s
-__copy_helper_block_e4_20b24s28s
+__copy_helper_block_e8_32s40s48b
+__copy_helper_block_e8_32b40s
+__copy_helper_block_e8_32b40s48s
 __112+[MessageWrapper performSendingSuccessOperationsWith:messageType:business:data:queueResendAnalytics:completion:]_block_invoke_3
 __112+[MessageWrapper performSendingSuccessOperationsWith:messageType:business:data:queueResendAnalytics:completion:]_block_invoke_2
 __112+[MessageWrapper performSendingSuccessOperationsWith:messageType:business:data:queueResendAnalytics:completion:]_block_invoke
 __160+[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]_block_invoke.610
 __160+[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]_block_invoke_2
 __160+[MessageWrapper forwardMessageToBackend:messageString:messageType:businessID:businessName:queueResendAnalytics:tryingToResend:userMessageMainQueue:completion:]_block_invoke
-__destroy_helper_block_e4_20s24s32s36s40s
-__copy_helper_block_e4_20s24s32s36s40b
+__destroy_helper_block_e8_32s40s56s64s72s
+__copy_helper_block_e8_32s40s56s64s72b
 __162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke_2
 __162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke.588
 __162+[MessageWrapper forwardMessageToOfflineModel:userMessage:messageType:offlieAPI:tryingToResend:userMessageMainQueue:business:lastMessageInsertionDate:completion:]_block_invoke
-__destroy_helper_block_e4_24s28s32s36s
-__copy_helper_block_e4_24s28s32s36b
+__destroy_helper_block_e8_40s48s56s64s
+__copy_helper_block_e8_40s48s56s64b
 __105+[MessageWrapper sendMessage:messageType:chatMessageType:sourceType:actionHandler:operations:completion:]_block_invoke_2
 __105+[MessageWrapper sendMessage:messageType:chatMessageType:sourceType:actionHandler:operations:completion:]_block_invoke
 -[SmartFormTableViewCell initWithStyle:reuseIdentifier:]
@@ -1847,9 +1844,7 @@ ___40-[DDAbstractDatabaseLogger saveInterval]_block_invoke
 ___40-[DDAbstractDatabaseLogger saveInterval]_block_invoke_2
 -[DDAbstractDatabaseLogger setSaveInterval:]
 ___44-[DDAbstractDatabaseLogger setSaveInterval:]_block_invoke
-___copy_helper_block_e8_20s
-___destroy_helper_block_e8_20s
-___44-[DDAbstractDatabaseLogger setSaveInterval:]_block_invoke.46
+___44-[DDAbstractDatabaseLogger setSaveInterval:]_block_invoke_2
 -[DDAbstractDatabaseLogger maxAge]
 ___34-[DDAbstractDatabaseLogger maxAge]_block_invoke
 ___34-[DDAbstractDatabaseLogger maxAge]_block_invoke_2
@@ -1867,7 +1862,7 @@ ___45-[DDAbstractDatabaseLogger deleteOnEverySave]_block_invoke
 ___45-[DDAbstractDatabaseLogger deleteOnEverySave]_block_invoke_2
 -[DDAbstractDatabaseLogger setDeleteOnEverySave:]
 ___49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke
-___49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke.49
+___49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke.48
 -[DDAbstractDatabaseLogger savePendingLogEntries]
 ___49-[DDAbstractDatabaseLogger savePendingLogEntries]_block_invoke
 -[DDAbstractDatabaseLogger deleteOldLogEntries]
@@ -1881,7 +1876,6 @@ _OBJC_CLASSLIST_REFERENCES_$_.27
 _OBJC_SELECTOR_REFERENCES_.33
 _OBJC_SELECTOR_REFERENCES_.35
 _OBJC_CLASSLIST_REFERENCES_$_.38
-___block_descriptor_36_e8_20s_e5_v4?0l
 __OBJC_METACLASS_RO_$_DDAbstractDatabaseLogger
 __OBJC_$_INSTANCE_METHODS_DDAbstractDatabaseLogger
 __OBJC_$_INSTANCE_VARIABLES_DDAbstractDatabaseLogger
@@ -1891,7 +1885,7 @@ __OBJC_CLASS_RO_$_DDAbstractDatabaseLogger
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDAbstractDatabaseLogger.m
 __47-[DDAbstractDatabaseLogger deleteOldLogEntries]_block_invoke
 __49-[DDAbstractDatabaseLogger savePendingLogEntries]_block_invoke
-__49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke.49
+__49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke.48
 __49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke
 __45-[DDAbstractDatabaseLogger deleteOnEverySave]_block_invoke_2
 __45-[DDAbstractDatabaseLogger deleteOnEverySave]_block_invoke
@@ -1903,9 +1897,7 @@ __38-[DDAbstractDatabaseLogger setMaxAge:]_block_invoke_2
 __38-[DDAbstractDatabaseLogger setMaxAge:]_block_invoke
 __34-[DDAbstractDatabaseLogger maxAge]_block_invoke_2
 __34-[DDAbstractDatabaseLogger maxAge]_block_invoke
-__44-[DDAbstractDatabaseLogger setSaveInterval:]_block_invoke.46
-__destroy_helper_block_e8_20s
-__copy_helper_block_e8_20s
+__44-[DDAbstractDatabaseLogger setSaveInterval:]_block_invoke_2
 __44-[DDAbstractDatabaseLogger setSaveInterval:]_block_invoke
 __40-[DDAbstractDatabaseLogger saveInterval]_block_invoke_2
 __40-[DDAbstractDatabaseLogger saveInterval]_block_invoke
@@ -2044,11 +2036,11 @@ ___98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inB
 _OBJC_CLASSLIST_REFERENCES_$_.191
 _OBJC_CLASSLIST_REFERENCES_$_.198
 _OBJC_CLASSLIST_REFERENCES_$_.205
-___block_descriptor_28_e4_20s24s_e29_v12?0"NSString"4"NSError"8l
+___block_descriptor_48_e8_32s40s_e30_v24?0"NSString"8"NSError"16l
 _OBJC_CLASSLIST_REFERENCES_$_.213
 _OBJC_CLASSLIST_REFERENCES_$_.214
-___block_descriptor_20_e21_v8?0"NSDictionary"4l
-___block_descriptor_20_e16_v8?0"NSError"4l
+___block_descriptor_32_e22_v16?0"NSDictionary"8l
+___block_descriptor_32_e17_v16?0"NSError"8l
 ___block_literal_global.222
 __OBJC_$_CATEGORY_CLASS_METHODS_MessageWrapper_$_HPNativeActions
 __OBJC_$_CATEGORY_MessageWrapper_$_HPNativeActions
@@ -2123,10 +2115,10 @@ __OBJC_CLASS_PROTOCOLS_$_MQTTDecoder
 __OBJC_METACLASS_RO_$_MQTTDecoder
 __OBJC_$_INSTANCE_METHODS_MQTTDecoder
 _OBJC_IVAR_$_MQTTDecoder._state
-_OBJC_IVAR_$_MQTTDecoder._queue
 _OBJC_IVAR_$_MQTTDecoder._length
 _OBJC_IVAR_$_MQTTDecoder._lengthMultiplier
 _OBJC_IVAR_$_MQTTDecoder._offset
+_OBJC_IVAR_$_MQTTDecoder._queue
 _OBJC_IVAR_$_MQTTDecoder._dataBuffer
 _OBJC_IVAR_$_MQTTDecoder._delegate
 _OBJC_IVAR_$_MQTTDecoder._streams
@@ -2333,9 +2325,13 @@ __37-[HPPlaceholderTextView textChanged:]_block_invoke
 -[HPCoreDataController(HPMigrations) isMigrationNeeded]
 -[HPCoreDataController(HPMigrations) migrate:]
 -[HPCoreDataController(HPMigrations) sourceMetadata:]
+-[HPCoreDataController(HPMigrations) tearStack]
 -[HPCoreDataController(HPMigrations) migrationManager:migrationProgress:]
 -[HPCoreDataController(HPMigrations) migrationManager:mappingModelsForSourceModel:]
-_OBJC_CLASSLIST_REFERENCES_$_.19
+_OBJC_CLASSLIST_REFERENCES_$_.21
+_OBJC_CLASSLIST_REFERENCES_$_.28
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_CLASSLIST_REFERENCES_$_.40
 __OBJC_$_CATEGORY_INSTANCE_METHODS_HPCoreDataController_$_HPMigrations
 __OBJC_$_PROTOCOL_REFS_HPMigrationManagerDelegate
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HPMigrationManagerDelegate
@@ -2361,7 +2357,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.258
 _OBJC_CLASSLIST_REFERENCES_$_.274
 _OBJC_SELECTOR_REFERENCES_.289
 _OBJC_CLASSLIST_REFERENCES_$_.322
-___block_descriptor_32_e4_20s24s28s_e29_v8?0"HPImageManagerResult"4l
+___block_descriptor_56_e8_32s40s48s_e30_v16?0"HPImageManagerResult"8l
 __OBJC_$_CLASS_METHODS_ImageViewHelper
 __OBJC_METACLASS_RO_$_ImageViewHelper
 __OBJC_CLASS_RO_$_ImageViewHelper
@@ -2389,7 +2385,7 @@ ___45-[SRDelegateController performDelegateBlock:]_block_invoke.28
 -[SRDelegateController setAvailableDelegateMethods:]
 -[SRDelegateController accessQueue]
 -[SRDelegateController .cxx_destruct]
-___block_descriptor_32_e4_20bs24r28r_e5_v4?0l
+___block_descriptor_56_e8_32bs40r48r_e5_v8?0l
 __OBJC_METACLASS_RO_$_SRDelegateController
 __OBJC_$_INSTANCE_METHODS_SRDelegateController
 _OBJC_IVAR_$_SRDelegateController._availableDelegateMethods
@@ -2445,8 +2441,8 @@ _OBJC_CLASSLIST_REFERENCES_$_.242
 _OBJC_CLASSLIST_REFERENCES_$_.243
 _OBJC_CLASSLIST_REFERENCES_$_.244
 _OBJC_CLASSLIST_REFERENCES_$_.278
-___block_descriptor_36_e4_20s24s28s_e5_v4?0l
-___block_descriptor_24_e4__e37_v16?04"NSURLResponse"8"NSError"12l
+___block_descriptor_64_e8_32s40s48s_e5_v8?0l
+___block_descriptor_40_e8__e38_v32?08"NSURLResponse"16"NSError"24l
 _OBJC_CLASSLIST_REFERENCES_$_.302
 __OBJC_$_CLASS_METHODS_SmartFormHelper
 __OBJC_METACLASS_RO_$_SmartFormHelper
@@ -2617,7 +2613,7 @@ _OBJC_SELECTOR_REFERENCES_.700
 _OBJC_SELECTOR_REFERENCES_.702
 _OBJC_SELECTOR_REFERENCES_.704
 _OBJC_SELECTOR_REFERENCES_.706
-___block_descriptor_36_e4_20s24w_e5_v4?0l
+___block_descriptor_64_e8_32s40w_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.709
 _OBJC_SELECTOR_REFERENCES_.711
 _OBJC_SELECTOR_REFERENCES_.713
@@ -2699,9 +2695,9 @@ _OBJC_SELECTOR_REFERENCES_.861
 _OBJC_SELECTOR_REFERENCES_.863
 _OBJC_SELECTOR_REFERENCES_.865
 _OBJC_SELECTOR_REFERENCES_.867
-___block_descriptor_40_e4_20w_e5_v4?0l
+___block_descriptor_72_e8_32w_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.870
-___block_descriptor_28_e4_20s24w_e7_v8?0c4l
+___block_descriptor_48_e8_32s40w_e8_v12?0B8l
 _OBJC_SELECTOR_REFERENCES_.873
 _OBJC_CLASSLIST_REFERENCES_$_.874
 _OBJC_SELECTOR_REFERENCES_.876
@@ -2731,7 +2727,7 @@ _OBJC_SELECTOR_REFERENCES_.920
 _OBJC_SELECTOR_REFERENCES_.922
 _OBJC_SELECTOR_REFERENCES_.924
 _OBJC_SELECTOR_REFERENCES_.926
-___block_descriptor_28_e4_20w_e5_v4?0l
+___block_descriptor_48_e8_32w_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.928
 _OBJC_SELECTOR_REFERENCES_.930
 _OBJC_SELECTOR_REFERENCES_.932
@@ -2837,8 +2833,8 @@ ___66-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]_block_in
 ___66-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]_block_invoke.153
 -[DDTTYLogger setForegroundColor:backgroundColor:forTag:]
 ___57-[DDTTYLogger setForegroundColor:backgroundColor:forTag:]_block_invoke
-___copy_helper_block_e4_20s24s28s32s
-___destroy_helper_block_e4_20s24s28s32s
+___copy_helper_block_e8_32s40s48s56s
+___destroy_helper_block_e8_32s40s48s56s
 ___57-[DDTTYLogger setForegroundColor:backgroundColor:forTag:]_block_invoke.162
 -[DDTTYLogger clearColorsForFlag:]
 -[DDTTYLogger clearColorsForFlag:context:]
@@ -2884,10 +2880,10 @@ _OBJC_IVAR_$_DDTTYLogger._colorProfilesDict
 _OBJC_IVAR_$_DDTTYLogger._automaticallyAppendNewlineForCustomFormatters
 _OBJC_CLASSLIST_REFERENCES_$_.138
 _OBJC_CLASSLIST_REFERENCES_$_.148
-___block_descriptor_40_e4_20s24s28s_e5_v4?0l
+___block_descriptor_72_e8_32s40s48s_e5_v8?0l
 __OBJC_PROTOCOL_REFERENCE_$_NSCopying
-___block_descriptor_36_e4_20s24s28s32s_e5_v4?0l
-___block_descriptor_32_e4_20s_e5_v4?0l
+___block_descriptor_64_e8_32s40s48s56s_e5_v8?0l
+___block_descriptor_56_e8_32s_e5_v8?0l
 __OBJC_$_CLASS_METHODS_DDTTYLogger
 __OBJC_CLASS_PROTOCOLS_$_DDTTYLogger
 __OBJC_$_CLASS_PROP_LIST_DDTTYLogger
@@ -2901,6 +2897,7 @@ __OBJC_METACLASS_RO_$_DDTTYLoggerColorProfile
 __OBJC_$_INSTANCE_METHODS_DDTTYLoggerColorProfile
 __OBJC_$_INSTANCE_VARIABLES_DDTTYLoggerColorProfile
 __OBJC_CLASS_RO_$_DDTTYLoggerColorProfile
+_OBJC_CLASSLIST_REFERENCES_$_.336
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDTTYLogger.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDTTYLogger.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDTTYLogger.h
@@ -2915,8 +2912,8 @@ __33-[DDTTYLogger clearColorsForTag:]_block_invoke
 __42-[DDTTYLogger clearColorsForFlag:context:]_block_invoke.167
 __42-[DDTTYLogger clearColorsForFlag:context:]_block_invoke
 __57-[DDTTYLogger setForegroundColor:backgroundColor:forTag:]_block_invoke.162
-__destroy_helper_block_e4_20s24s28s32s
-__copy_helper_block_e4_20s24s28s32s
+__destroy_helper_block_e8_32s40s48s56s
+__copy_helper_block_e8_32s40s48s56s
 __57-[DDTTYLogger setForegroundColor:backgroundColor:forTag:]_block_invoke
 __66-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]_block_invoke.153
 __66-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]_block_invoke
@@ -3116,7 +3113,7 @@ ___34-[HPCoreDataController clearData:]_block_invoke
 ___34-[HPCoreDataController clearData:]_block_invoke.25
 ___34-[HPCoreDataController clearData:]_block_invoke_2
 ___34-[HPCoreDataController clearData:]_block_invoke.38
-___copy_helper_block_e4_20b24w
+___copy_helper_block_e8_32b40w
 -[HPCoreDataController modelURL]
 -[HPCoreDataController storeURL]
 -[HPCoreDataController storeType]
@@ -3127,7 +3124,7 @@ ___copy_helper_block_e4_20b24w
 -[HPCoreDataController persistentStoreCoordinator]
 -[HPCoreDataController setPersistentStoreCoordinator:]
 -[HPCoreDataController .cxx_destruct]
-___block_descriptor_28_e4_20bs24w_e5_v4?0l
+___block_descriptor_48_e8_32bs40w_e5_v8?0l
 __OBJC_METACLASS_RO_$_HPCoreDataController
 __OBJC_$_INSTANCE_METHODS_HPCoreDataController
 _OBJC_IVAR_$_HPCoreDataController._modelURL
@@ -3144,7 +3141,7 @@ __OBJC_CLASS_RO_$_HPCoreDataController
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/HPCoreDataController.m
 HaptikLib/Helpers/Core Data/Core Data Controller/HPCoreDataController.m
 HaptikLib/Helpers/Core Data/Core Data Controller/HPCoreDataController.h
-__copy_helper_block_e4_20b24w
+__copy_helper_block_e8_32b40w
 __34-[HPCoreDataController clearData:]_block_invoke.38
 __34-[HPCoreDataController clearData:]_block_invoke_2
 __34-[HPCoreDataController clearData:]_block_invoke.25
@@ -3223,8 +3220,8 @@ ___44-[SmartFormSearchViewController viewDidLoad]_block_invoke_2
 -[SmartFormSearchViewController performDefaultTapActionFor:]
 -[SmartFormSearchViewController fireSearchResultTappedAnalyticsWith:result:]
 ___76-[SmartFormSearchViewController fireSearchResultTappedAnalyticsWith:result:]_block_invoke
-___copy_helper_block_e4_20s24s28s32w
-___destroy_helper_block_e4_20s24s28s32w
+___copy_helper_block_e8_32s40s48s56w
+___destroy_helper_block_e8_32s40s48s56w
 -[SmartFormSearchViewController performHaptikCheckoutActionsFor:]
 ___65-[SmartFormSearchViewController performHaptikCheckoutActionsFor:]_block_invoke
 ___65-[SmartFormSearchViewController performHaptikCheckoutActionsFor:]_block_invoke_2
@@ -3333,7 +3330,7 @@ _OBJC_SELECTOR_REFERENCES_.712
 _OBJC_CLASSLIST_REFERENCES_$_.713
 _OBJC_SELECTOR_REFERENCES_.725
 _OBJC_CLASSLIST_REFERENCES_$_.726
-___block_descriptor_36_e4_20s24s28s32w_e5_v4?0l
+___block_descriptor_64_e8_32s40s48s56w_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.731
 _OBJC_SELECTOR_REFERENCES_.733
 _OBJC_SELECTOR_REFERENCES_.735
@@ -3344,7 +3341,7 @@ _OBJC_SELECTOR_REFERENCES_.752
 _OBJC_SELECTOR_REFERENCES_.754
 _OBJC_SELECTOR_REFERENCES_.762
 _OBJC_SELECTOR_REFERENCES_.764
-___block_descriptor_28_e4_20s24w_e37_v16?04"NSURLResponse"8"NSError"12l
+___block_descriptor_48_e8_32s40w_e38_v32?08"NSURLResponse"16"NSError"24l
 _OBJC_CLASSLIST_REFERENCES_$_.768
 _OBJC_SELECTOR_REFERENCES_.770
 _OBJC_SELECTOR_REFERENCES_.772
@@ -3384,7 +3381,7 @@ _OBJC_SELECTOR_REFERENCES_.884
 _OBJC_SELECTOR_REFERENCES_.886
 _OBJC_SELECTOR_REFERENCES_.888
 _OBJC_CLASSLIST_REFERENCES_$_.889
-___block_descriptor_24_e4_20s_e27_v8?0"NSAttributedString"4l
+___block_descriptor_40_e8_32s_e28_v16?0"NSAttributedString"8l
 _OBJC_SELECTOR_REFERENCES_.907
 _OBJC_SELECTOR_REFERENCES_.909
 _OBJC_SELECTOR_REFERENCES_.911
@@ -3432,8 +3429,8 @@ __57-[SmartFormSearchViewController searchBar:textDidChange:]_block_invoke
 __88-[SmartFormSearchViewController setSelectedValueWith:andSmartSearchResult:andShouldPop:]_block_invoke
 __65-[SmartFormSearchViewController performHaptikCheckoutActionsFor:]_block_invoke_2
 __65-[SmartFormSearchViewController performHaptikCheckoutActionsFor:]_block_invoke
-__destroy_helper_block_e4_20s24s28s32w
-__copy_helper_block_e4_20s24s28s32w
+__destroy_helper_block_e8_32s40s48s56w
+__copy_helper_block_e8_32s40s48s56w
 __76-[SmartFormSearchViewController fireSearchResultTappedAnalyticsWith:result:]_block_invoke
 __44-[SmartFormSearchViewController viewDidLoad]_block_invoke_2
 __44-[SmartFormSearchViewController viewDidLoad]_block_invoke
@@ -3588,8 +3585,8 @@ ___31-[MQTTCoreDataPersistence sync]_block_invoke
 -[MQTTCoreDataPersistence internalSync]
 -[MQTTCoreDataPersistence allFlowsforClientId:incomingFlag:]
 ___60-[MQTTCoreDataPersistence allFlowsforClientId:incomingFlag:]_block_invoke
-___copy_helper_block_e4_20s24s28r
-___destroy_helper_block_e4_20s24s28r
+___copy_helper_block_e8_32s40s48r
+___destroy_helper_block_e8_32s40s48r
 -[MQTTCoreDataPersistence flowforClientId:incomingFlag:messageId:]
 ___66-[MQTTCoreDataPersistence flowforClientId:incomingFlag:messageId:]_block_invoke
 -[MQTTCoreDataPersistence internalFlowForClientId:incomingFlag:messageId:]
@@ -3633,9 +3630,9 @@ __OBJC_$_PROP_LIST_MQTTCoreDataFlow
 __OBJC_CLASS_RO_$_MQTTCoreDataFlow
 _OBJC_CLASSLIST_REFERENCES_$_.134
 _OBJC_SELECTOR_REFERENCES_.167
-___block_descriptor_33_e4_20s24s28r_e5_v4?0l
+___block_descriptor_57_e8_32s40s48r_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.184
-___block_descriptor_35_e4_20s24s28r_e5_v4?0l
+___block_descriptor_59_e8_32s40s48r_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.210
 _OBJC_CLASSLIST_REFERENCES_$_.261
 _OBJC_CLASSLIST_REFERENCES_$_.273
@@ -3661,8 +3658,8 @@ __OBJC_CLASS_RO_$_MQTTCoreDataPersistence
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTCoreDataPersistence.m
 __72-[MQTTCoreDataPersistence createFlowforClientId:incomingFlag:messageId:]_block_invoke
 __66-[MQTTCoreDataPersistence flowforClientId:incomingFlag:messageId:]_block_invoke
-__destroy_helper_block_e4_20s24s28r
-__copy_helper_block_e4_20s24s28r
+__destroy_helper_block_e8_32s40s48r
+__copy_helper_block_e8_32s40s48r
 __60-[MQTTCoreDataPersistence allFlowsforClientId:incomingFlag:]_block_invoke
 __31-[MQTTCoreDataPersistence sync]_block_invoke
 __53-[MQTTCoreDataPersistence deleteAllFlowsForClientId:]_block_invoke
@@ -3853,6 +3850,7 @@ __OBJC_CLASS_RO_$_SLKTypingIndicatorView
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTypingIndicatorView.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTypingIndicatorView.h
 UIEdgeInsetsEqualToEdgeInsets
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
 -[DDLogFileManagerDefault init]
 -[DDLogFileManagerDefault initWithLogsDirectory:]
 +[DDLogFileManagerDefault automaticallyNotifiesObserversForKey:]
@@ -3890,10 +3888,10 @@ ___42-[DDLogFileManagerDefault applicationName]_block_invoke
 -[DDFileLogger dealloc]
 -[DDFileLogger maximumFileSize]
 ___31-[DDFileLogger maximumFileSize]_block_invoke
-___31-[DDFileLogger maximumFileSize]_block_invoke.324
+___31-[DDFileLogger maximumFileSize]_block_invoke.320
 -[DDFileLogger setMaximumFileSize:]
 ___35-[DDFileLogger setMaximumFileSize:]_block_invoke
-___35-[DDFileLogger setMaximumFileSize:]_block_invoke.329
+___35-[DDFileLogger setMaximumFileSize:]_block_invoke.325
 -[DDFileLogger rollingFrequency]
 ___32-[DDFileLogger rollingFrequency]_block_invoke
 ___32-[DDFileLogger rollingFrequency]_block_invoke_2
@@ -3906,7 +3904,7 @@ ___50-[DDFileLogger scheduleTimerToRollLogFileDueToAge]_block_invoke
 -[DDFileLogger rollLogFileWithCompletionBlock:]
 ___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke
 ___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke_2
-___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke.342
+___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke.338
 -[DDFileLogger rollLogFileNow]
 -[DDFileLogger maybeRollLogFileDueToAge]
 -[DDFileLogger maybeRollLogFileDueToSize]
@@ -3951,7 +3949,7 @@ ___36-[DDFileLogger currentLogFileHandle]_block_invoke
 _OBJC_CLASSLIST_SUP_REFS_$_.17
 _OBJC_CLASSLIST_REFERENCES_$_.81
 _OBJC_CLASSLIST_REFERENCES_$_.120
-___block_descriptor_24_e4_20s_e40_i12?0"DDLogFileInfo"4"DDLogFileInfo"8l
+___block_descriptor_40_e8_32s_e41_q24?0"DDLogFileInfo"8"DDLogFileInfo"16l
 _applicationName._appName
 _applicationName.onceToken
 _OBJC_CLASSLIST_REFERENCES_$_.176
@@ -3974,7 +3972,7 @@ _OBJC_IVAR_$_DDLogFileManagerDefault._defaultFileProtectionLevel
 __OBJC_$_INSTANCE_VARIABLES_DDLogFileManagerDefault
 __OBJC_$_PROP_LIST_DDLogFileManagerDefault
 __OBJC_CLASS_RO_$_DDLogFileManagerDefault
-_OBJC_CLASSLIST_SUP_REFS_$_.275
+_OBJC_CLASSLIST_SUP_REFS_$_.271
 __OBJC_CLASS_PROTOCOLS_$_DDLogFileFormatterDefault
 __OBJC_METACLASS_RO_$_DDLogFileFormatterDefault
 __OBJC_$_INSTANCE_METHODS_DDLogFileFormatterDefault
@@ -3982,22 +3980,20 @@ _OBJC_IVAR_$_DDLogFileFormatterDefault._dateFormatter
 __OBJC_$_INSTANCE_VARIABLES_DDLogFileFormatterDefault
 __OBJC_$_PROP_LIST_DDLogFileFormatterDefault
 __OBJC_CLASS_RO_$_DDLogFileFormatterDefault
-_OBJC_CLASSLIST_REFERENCES_$_.295
-_OBJC_CLASSLIST_SUP_REFS_$_.298
+_OBJC_CLASSLIST_SUP_REFS_$_.294
 _OBJC_IVAR_$_DDFileLogger._maximumFileSize
 _OBJC_IVAR_$_DDFileLogger._rollingFrequency
 _OBJC_IVAR_$_DDFileLogger._automaticallyAppendNewlineForCustomFormatters
 _OBJC_IVAR_$_DDFileLogger.logFileManager
-_OBJC_CLASSLIST_REFERENCES_$_.299
+_OBJC_CLASSLIST_REFERENCES_$_.295
 _OBJC_IVAR_$_DDFileLogger._currentLogFileHandle
-_OBJC_SELECTOR_REFERENCES_.305
 _OBJC_IVAR_$_DDFileLogger._currentLogFileVnode
 _OBJC_IVAR_$_DDFileLogger._rollingTimer
+_OBJC_CLASSLIST_REFERENCES_$_.309
 _OBJC_SELECTOR_REFERENCES_.331
 _OBJC_SELECTOR_REFERENCES_.333
 _OBJC_SELECTOR_REFERENCES_.335
 _OBJC_IVAR_$_DDFileLogger._doNotReuseLogFiles
-_OBJC_CLASSLIST_REFERENCES_$_.361
 _OBJC_SELECTOR_REFERENCES_.372
 _OBJC_SELECTOR_REFERENCES_.374
 _exception_count
@@ -4008,21 +4004,20 @@ __OBJC_$_INSTANCE_METHODS_DDFileLogger
 __OBJC_$_INSTANCE_VARIABLES_DDFileLogger
 __OBJC_$_PROP_LIST_DDFileLogger
 __OBJC_CLASS_RO_$_DDFileLogger
-_OBJC_CLASSLIST_SUP_REFS_$_.450
-_OBJC_SELECTOR_REFERENCES_.452
-_OBJC_SELECTOR_REFERENCES_.454
-_OBJC_SELECTOR_REFERENCES_.466
-_OBJC_CLASSLIST_REFERENCES_$_.469
+_OBJC_CLASSLIST_SUP_REFS_$_.446
+_OBJC_SELECTOR_REFERENCES_.448
+_OBJC_SELECTOR_REFERENCES_.450
+_OBJC_SELECTOR_REFERENCES_.462
+_OBJC_CLASSLIST_REFERENCES_$_.465
+_OBJC_SELECTOR_REFERENCES_.476
+_OBJC_SELECTOR_REFERENCES_.478
 _OBJC_SELECTOR_REFERENCES_.480
 _OBJC_SELECTOR_REFERENCES_.482
 _OBJC_SELECTOR_REFERENCES_.484
-_OBJC_SELECTOR_REFERENCES_.486
 _OBJC_SELECTOR_REFERENCES_.488
 _OBJC_SELECTOR_REFERENCES_.492
-_OBJC_SELECTOR_REFERENCES_.496
-_OBJC_SELECTOR_REFERENCES_.498
-_OBJC_SELECTOR_REFERENCES_.504
-_OBJC_SELECTOR_REFERENCES_.505
+_OBJC_SELECTOR_REFERENCES_.494
+_OBJC_SELECTOR_REFERENCES_.500
 __OBJC_$_CLASS_METHODS_DDLogFileInfo
 __OBJC_METACLASS_RO_$_DDLogFileInfo
 __OBJC_$_INSTANCE_METHODS_DDLogFileInfo
@@ -4040,7 +4035,7 @@ __OBJC_CLASS_RO_$_DDLogFileInfo
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDFileLogger.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDFileLogger.h
 __36-[DDFileLogger currentLogFileHandle]_block_invoke
-__47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke.342
+__47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke.338
 __47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke_2
 __47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke
 __50-[DDFileLogger scheduleTimerToRollLogFileDueToAge]_block_invoke
@@ -4048,9 +4043,9 @@ __36-[DDFileLogger setRollingFrequency:]_block_invoke_2
 __36-[DDFileLogger setRollingFrequency:]_block_invoke
 __32-[DDFileLogger rollingFrequency]_block_invoke_2
 __32-[DDFileLogger rollingFrequency]_block_invoke
-__35-[DDFileLogger setMaximumFileSize:]_block_invoke.329
+__35-[DDFileLogger setMaximumFileSize:]_block_invoke.325
 __35-[DDFileLogger setMaximumFileSize:]_block_invoke
-__31-[DDFileLogger maximumFileSize]_block_invoke.324
+__31-[DDFileLogger maximumFileSize]_block_invoke.320
 __31-[DDFileLogger maximumFileSize]_block_invoke
 __42-[DDLogFileManagerDefault applicationName]_block_invoke
 doesAppRunInBackground
@@ -4089,11 +4084,12 @@ ___52-[HPNativeActionHandler fireAnalyticsForActionType:]_block_invoke
 -[HPNativeActionHandler .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.493
 _OBJC_CLASSLIST_REFERENCES_$_.502
+_OBJC_SELECTOR_REFERENCES_.504
 _OBJC_SELECTOR_REFERENCES_.506
 _OBJC_SELECTOR_REFERENCES_.508
 _OBJC_SELECTOR_REFERENCES_.510
 _OBJC_SELECTOR_REFERENCES_.512
-___block_descriptor_24_e4_20s_e21_v8?0"NSDictionary"4l
+___block_descriptor_40_e8_32s_e22_v16?0"NSDictionary"8l
 _OBJC_CLASSLIST_REFERENCES_$_.520
 _OBJC_CLASSLIST_REFERENCES_$_.527
 _OBJC_SELECTOR_REFERENCES_.531
@@ -4124,8 +4120,8 @@ __47-[HPNativeActionHandler performNativeAppAction]_block_invoke
 +[HPUserService signUpUserWith:completion:]
 ___43+[HPUserService signUpUserWith:completion:]_block_invoke
 ___43+[HPUserService signUpUserWith:completion:]_block_invoke_2
-___copy_helper_block_e4_24s28b
-___destroy_helper_block_e4_24s28s
+___copy_helper_block_e8_40s48b
+___destroy_helper_block_e8_40s48s
 +[HPUserService performUser2PostFor:completion:]
 ___48+[HPUserService performUser2PostFor:completion:]_block_invoke
 +[HPUserService performUser2PostWith:completion:]
@@ -4133,8 +4129,8 @@ ___49+[HPUserService performUser2PostWith:completion:]_block_invoke
 +[HPUserService getSignUpParamsFrom:]
 +[HPUserService updateUserWithCompletion:]
 ___42+[HPUserService updateUserWithCompletion:]_block_invoke
-___copy_helper_block_e4_24b
-___destroy_helper_block_e4_24s
+___copy_helper_block_e8_40b
+___destroy_helper_block_e8_40s
 +[HPUserService fireUserPutRequestWith:completion:]
 ___51+[HPUserService fireUserPutRequestWith:completion:]_block_invoke
 +[HPUserService fireUser2PutRequestWithoutParsingWith:completion:]
@@ -4150,10 +4146,10 @@ ___43+[HPUserService signoutUserWithCompletion:]_block_invoke
 +[HPUserService getUserObjectFromResponse:]
 _OBJC_CLASSLIST_REFERENCES_$_.281
 _OBJC_CLASSLIST_REFERENCES_$_.286
-___block_descriptor_24_e4_20bs_e19_v12?0c4"NSError"8l
-___block_descriptor_32_e4_24s28bs_e19_v12?0c4"NSError"8l
+___block_descriptor_40_e8_32bs_e20_v20?0B8"NSError"12l
+___block_descriptor_56_e8_40s48bs_e20_v20?0B8"NSError"12l
 _OBJC_CLASSLIST_REFERENCES_$_.301
-___block_descriptor_28_e4_20bs_e37_v16?04"NSURLResponse"8"NSError"12l
+___block_descriptor_48_e8_32bs_e38_v32?08"NSURLResponse"16"NSError"24l
 _OBJC_CLASSLIST_REFERENCES_$_.321
 _OBJC_CLASSLIST_REFERENCES_$_.332
 _OBJC_CLASSLIST_REFERENCES_$_.372
@@ -4162,9 +4158,9 @@ _OBJC_CLASSLIST_REFERENCES_$_.386
 _OBJC_SELECTOR_REFERENCES_.392
 _OBJC_SELECTOR_REFERENCES_.396
 _OBJC_CLASSLIST_REFERENCES_$_.397
-___block_descriptor_28_e4_24bs_e7_v8?0I4l
-___block_descriptor_24_e4_20bs_e37_v16?04"NSURLResponse"8"NSError"12l
-___block_descriptor_32_e4_24s28bs_e7_v8?0I4l
+___block_descriptor_48_e8_40bs_e8_v16?0Q8l
+___block_descriptor_40_e8_32bs_e38_v32?08"NSURLResponse"16"NSError"24l
+___block_descriptor_56_e8_40s48bs_e8_v16?0Q8l
 _OBJC_SELECTOR_REFERENCES_.431
 _OBJC_SELECTOR_REFERENCES_.435
 _OBJC_SELECTOR_REFERENCES_.445
@@ -4185,13 +4181,13 @@ __43+[HPUserService signoutUserWithCompletion:]_block_invoke
 __43+[HPUserService updateUserWith:completion:]_block_invoke
 __66+[HPUserService fireUser2PutRequestWithoutParsingWith:completion:]_block_invoke
 __51+[HPUserService fireUserPutRequestWith:completion:]_block_invoke
-__destroy_helper_block_e4_24s
-__copy_helper_block_e4_24b
+__destroy_helper_block_e8_40s
+__copy_helper_block_e8_40b
 __42+[HPUserService updateUserWithCompletion:]_block_invoke
 __49+[HPUserService performUser2PostWith:completion:]_block_invoke
 __48+[HPUserService performUser2PostFor:completion:]_block_invoke
-__destroy_helper_block_e4_24s28s
-__copy_helper_block_e4_24s28b
+__destroy_helper_block_e8_40s48s
+__copy_helper_block_e8_40s48b
 __43+[HPUserService signUpUserWith:completion:]_block_invoke_2
 __43+[HPUserService signUpUserWith:completion:]_block_invoke
 -[SLKTextView(SLKAdditions) slk_clearText:]
@@ -4211,14 +4207,11 @@ ___51-[SLKTextView(SLKAdditions) slk_insertNewLineBreak]_block_invoke
 -[SLKTextView(SLKAdditions) slk_clearAllAttributesInRange:]
 -[SLKTextView(SLKAdditions) slk_defaultAttributedStringForText:]
 -[SLKTextView(SLKAdditions) slk_prepareForUndo:]
-___block_descriptor_40_e4_20s_e5_v4?0l
-_OBJC_CLASSLIST_REFERENCES_$_.40
+___block_descriptor_72_e8_32s_e5_v8?0l
 __OBJC_$_CATEGORY_INSTANCE_METHODS_SLKTextView_$_SLKAdditions
 __OBJC_$_CATEGORY_SLKTextView_$_SLKAdditions
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextView+SLKAdditions.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextView+SLKAdditions.m
-NSMakeRange
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 __51-[SLKTextView(SLKAdditions) slk_insertNewLineBreak]_block_invoke
 __56-[SLKTextView(SLKAdditions) slk_scrollToBottomAnimated:]_block_invoke
 __62-[SLKTextView(SLKAdditions) slk_scrollToCaretPositonAnimated:]_block_invoke
@@ -4305,6 +4298,7 @@ ___50+[MQTTSSLSecurityPolicy defaultPinnedCertificates]_block_invoke
 -[MQTTSSLSecurityPolicy .cxx_destruct]
 _defaultPinnedCertificates._defaultPinnedCertificates
 _defaultPinnedCertificates.onceToken
+_OBJC_CLASSLIST_REFERENCES_$_.19
 __OBJC_$_CLASS_METHODS_MQTTSSLSecurityPolicy
 __OBJC_METACLASS_RO_$_MQTTSSLSecurityPolicy
 __OBJC_$_INSTANCE_METHODS_MQTTSSLSecurityPolicy
@@ -4585,6 +4579,7 @@ _OBJC_IVAR_$_SLKTextViewController._autoCompleting
 _OBJC_IVAR_$_SLKTextViewController._inverted
 _OBJC_IVAR_$_SLKTextViewController._bounces
 _OBJC_IVAR_$_SLKTextViewController._keyboardStatus
+_OBJC_SELECTOR_REFERENCES_.305
 _OBJC_SELECTOR_REFERENCES_.382
 _OBJC_SELECTOR_REFERENCES_.384
 _OBJC_SELECTOR_REFERENCES_.386
@@ -4593,10 +4588,10 @@ _OBJC_CLASSLIST_REFERENCES_$_.401
 _OBJC_CLASSLIST_REFERENCES_$_.414
 _OBJC_SELECTOR_REFERENCES_.416
 _OBJC_CLASSLIST_REFERENCES_$_.417
-___block_descriptor_24_e4_20s_e22_v8?0"UIAlertAction"4l
+___block_descriptor_40_e8_32s_e23_v16?0"UIAlertAction"8l
 _OBJC_SELECTOR_REFERENCES_.426
-___block_descriptor_25_e4_20w_e5_v4?0l
-___block_descriptor_25_e4_20s_e7_v8?0c4l
+___block_descriptor_41_e8_32w_e5_v8?0l
+___block_descriptor_41_e8_32s_e8_v12?0B8l
 _OBJC_SELECTOR_REFERENCES_.434
 _OBJC_SELECTOR_REFERENCES_.436
 _OBJC_SELECTOR_REFERENCES_.438
@@ -4607,13 +4602,12 @@ _OBJC_SELECTOR_REFERENCES_.440
 _OBJC_SELECTOR_REFERENCES_.442
 _OBJC_SELECTOR_REFERENCES_.444
 _OBJC_SELECTOR_REFERENCES_.446
-_OBJC_SELECTOR_REFERENCES_.448
-_OBJC_SELECTOR_REFERENCES_.450
+_OBJC_SELECTOR_REFERENCES_.452
 _OBJC_IVAR_$_SLKTextViewController._scrollViewOffsetBeforeDragging
+_OBJC_SELECTOR_REFERENCES_.454
 _OBJC_IVAR_$_SLKTextViewController._keyboardHeightBeforeDragging
-___block_descriptor_44_e4_20s24r_e5_v4?0l
+___block_descriptor_80_e8_32s40r_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.470
-_OBJC_SELECTOR_REFERENCES_.476
 _OBJC_CLASSLIST_REFERENCES_$_.477
 _OBJC_SELECTOR_REFERENCES_.481
 _OBJC_IVAR_$_SLKTextViewController._externalKeyboardDetected
@@ -4637,7 +4631,7 @@ _OBJC_IVAR_$_SLKTextViewController._foundPrefixRange
 _OBJC_SELECTOR_REFERENCES_.642
 _OBJC_SELECTOR_REFERENCES_.644
 _OBJC_SELECTOR_REFERENCES_.646
-___block_descriptor_24_e4_20s_e45_v20?0"NSString"4"NSString"8{_NSRange=II}12l
+___block_descriptor_40_e8_32s_e46_v40?0"NSString"8"NSString"16{_NSRange=QQ}24l
 _OBJC_CLASSLIST_REFERENCES_$_.674
 _OBJC_CLASSLIST_REFERENCES_$_.682
 _OBJC_CLASSLIST_REFERENCES_$_.683
@@ -4668,7 +4662,7 @@ _OBJC_SELECTOR_REFERENCES_.785
 _OBJC_SELECTOR_REFERENCES_.787
 _OBJC_SELECTOR_REFERENCES_.813
 _OBJC_SELECTOR_REFERENCES_.815
-___block_descriptor_24_e4_20w_e21_v8?0"UIKeyCommand"4l
+___block_descriptor_40_e8_32w_e22_v16?0"UIKeyCommand"8l
 _OBJC_SELECTOR_REFERENCES_.829
 _OBJC_SELECTOR_REFERENCES_.831
 _OBJC_SELECTOR_REFERENCES_.833
@@ -4739,6 +4733,8 @@ __40-[SLKTextViewController willRequestUndo]_block_invoke
 __39-[SLKTextViewController textDidUpdate:]_block_invoke
 __41-[SLKTextViewController dismissKeyboard:]_block_invoke
 __41-[SLKTextViewController presentKeyboard:]_block_invoke
+__CGAffineTransformMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGAffineTransform.h
 __40-[SLKTextViewController viewWillAppear:]_block_invoke
 -[MultiSelectActionSheet initWithFrame:]
 -[MultiSelectActionSheet initWithCoder:]
@@ -5000,10 +4996,10 @@ ___44+[HPSyncService initiateSyncWithCompletion:]_block_invoke
 +[HPSyncService initiateSyncFor:forced:completion:]
 ___51+[HPSyncService initiateSyncFor:forced:completion:]_block_invoke
 ___51+[HPSyncService initiateSyncFor:forced:completion:]_block_invoke_2
-___copy_helper_block_e4_20s24s28s36b
-___destroy_helper_block_e4_20s24s28s36s
-___copy_helper_block_e4_20s24s32b
-___destroy_helper_block_e4_20s24s32s
+___copy_helper_block_e8_32s40s48s64b
+___destroy_helper_block_e8_32s40s48s64s
+___copy_helper_block_e8_32s40s56b
+___destroy_helper_block_e8_32s40s56s
 +[HPSyncService handleEntityType:isForced:completion:]
 ___54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke
 ___54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke_2
@@ -5011,12 +5007,12 @@ ___54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke.288
 +[HPSyncService parseSuccessObject:withHeaders:completion:]
 ___59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke
 ___59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke_2
-___copy_helper_block_e4_20s28s
-___destroy_helper_block_e4_20s28s
+___copy_helper_block_e8_32s48s
+___destroy_helper_block_e8_32s48s
 ___59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke.311
 ___59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke_2.312
-___copy_helper_block_e4_20s28s32s36b
-___destroy_helper_block_e4_20s28s32s36s
+___copy_helper_block_e8_32s48s56s64b
+___destroy_helper_block_e8_32s48s56s64s
 +[HPSyncService handleFailureWith:headers:completion:]
 +[HPSyncService getEntityClassNameFrom:]
 +[HPSyncService getTypeFromClassNameFor:]
@@ -5025,7 +5021,7 @@ ___destroy_helper_block_e4_20s28s32s36s
 +[HPSyncService getRequestForEntityType:URLString:entityTypeString:isForced:]
 +[HPSyncService updateClass:withObject:]
 ___40+[HPSyncService updateClass:withObject:]_block_invoke
-___copy_helper_block_e4_24s
+___copy_helper_block_e8_40s
 +[HPSyncService getManagedObjectFor:withObjectID:]
 +[HPSyncService setValue:forKey:forManagedObject:]
 ___50+[HPSyncService setValue:forKey:forManagedObject:]_block_invoke
@@ -5038,26 +5034,26 @@ ___51+[HPSyncService mostRecentModifiedAtDateForEntity:]_block_invoke_2
 +[HPSyncService shouldSyncForEntity:]
 +[HPSyncService updateLastSuccessfulSyncCheckFor:]
 _OBJC_CLASSLIST_REFERENCES_$_.221
-___block_descriptor_28_e4_20bs24s_e21_v8?0"NSDictionary"4l
-___block_descriptor_40_e4_20s24s28s36bs_e21_v8?0"NSDictionary"4l
-___block_descriptor_36_e4_20s24s32bs_e5_v4?0l
+___block_descriptor_48_e8_32bs40s_e22_v16?0"NSDictionary"8l
+___block_descriptor_72_e8_32s40s48s64bs_e22_v16?0"NSDictionary"8l
+___block_descriptor_64_e8_32s40s56bs_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.275
-___block_descriptor_32_e4_24bs_e21_v8?0"NSDictionary"4l
-___block_descriptor_24_e4_20bs_e21_v8?0"NSDictionary"4l
-___block_descriptor_32_e4_24bs_e37_v16?04"NSURLResponse"8"NSError"12l
-___block_descriptor_32_e4_20s28s_e5_v4?0l
-___block_descriptor_32_e4_20s24s28bs_e16_v8?0"NSError"4l
-___block_descriptor_40_e4_20s28s32s36bs_e5_v4?0l
+___block_descriptor_56_e8_40bs_e22_v16?0"NSDictionary"8l
+___block_descriptor_40_e8_32bs_e22_v16?0"NSDictionary"8l
+___block_descriptor_56_e8_40bs_e38_v32?08"NSURLResponse"16"NSError"24l
+___block_descriptor_56_e8_32s48s_e5_v8?0l
+___block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSError"8l
+___block_descriptor_72_e8_32s48s56s64bs_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.345
-___block_descriptor_28_e4_24s_e24_v16?0"NSString"48^c12l
+___block_descriptor_48_e8_40s_e25_v32?0"NSString"816^B24l
 _OBJC_CLASSLIST_REFERENCES_$_.383
 _OBJC_CLASSLIST_REFERENCES_$_.409
 _OBJC_CLASSLIST_REFERENCES_$_.410
 _OBJC_CLASSLIST_REFERENCES_$_.413
-___block_descriptor_24_e4_20s_e14_v16?048^c12l
+___block_descriptor_40_e8_32s_e15_v32?0816^B24l
 _OBJC_SELECTOR_REFERENCES_.418
 _OBJC_CLASSLIST_REFERENCES_$_.455
-_OBJC_SELECTOR_REFERENCES_.478
+_OBJC_SELECTOR_REFERENCES_.486
 _OBJC_CLASSLIST_REFERENCES_$_.489
 __OBJC_$_CLASS_METHODS_HPSyncService
 __OBJC_METACLASS_RO_$_HPSyncService
@@ -5067,23 +5063,23 @@ HaptikLib/Modules/Sync Service/HPSyncService.m
 __51+[HPSyncService mostRecentModifiedAtDateForEntity:]_block_invoke_2
 __51+[HPSyncService mostRecentModifiedAtDateForEntity:]_block_invoke
 __50+[HPSyncService setValue:forKey:forManagedObject:]_block_invoke
-__copy_helper_block_e4_24s
+__copy_helper_block_e8_40s
 __40+[HPSyncService updateClass:withObject:]_block_invoke
-__destroy_helper_block_e4_20s28s32s36s
-__copy_helper_block_e4_20s28s32s36b
+__destroy_helper_block_e8_32s48s56s64s
+__copy_helper_block_e8_32s48s56s64b
 __59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke_2.312
 __59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke.311
-__destroy_helper_block_e4_20s28s
-__copy_helper_block_e4_20s28s
+__destroy_helper_block_e8_32s48s
+__copy_helper_block_e8_32s48s
 __59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke_2
 __59+[HPSyncService parseSuccessObject:withHeaders:completion:]_block_invoke
 __54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke.288
 __54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke_2
 __54+[HPSyncService handleEntityType:isForced:completion:]_block_invoke
-__destroy_helper_block_e4_20s24s32s
-__copy_helper_block_e4_20s24s32b
-__destroy_helper_block_e4_20s24s28s36s
-__copy_helper_block_e4_20s24s28s36b
+__destroy_helper_block_e8_32s40s56s
+__copy_helper_block_e8_32s40s56b
+__destroy_helper_block_e8_32s40s48s64s
+__copy_helper_block_e8_32s40s48s64b
 __51+[HPSyncService initiateSyncFor:forced:completion:]_block_invoke_2
 __51+[HPSyncService initiateSyncFor:forced:completion:]_block_invoke
 __44+[HPSyncService initiateSyncWithCompletion:]_block_invoke
@@ -5270,8 +5266,7 @@ ___41-[MQTTSession decoder:didReceiveMessage:]_block_invoke.419
 -[MQTTSession .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.476
 _OBJC_SELECTOR_REFERENCES_.490
-_OBJC_SELECTOR_REFERENCES_.494
-_OBJC_SELECTOR_REFERENCES_.500
+_OBJC_SELECTOR_REFERENCES_.498
 _OBJC_CLASSLIST_REFERENCES_$_.513
 _OBJC_SELECTOR_REFERENCES_.515
 _OBJC_SELECTOR_REFERENCES_.517
@@ -5327,6 +5322,7 @@ _OBJC_IVAR_$_MQTTSession._clientId
 _OBJC_IVAR_$_MQTTSession._userName
 _OBJC_IVAR_$_MQTTSession._password
 _OBJC_IVAR_$_MQTTSession._serverKeepAlive
+_OBJC_IVAR_$_MQTTSession._dupTimeout
 _OBJC_IVAR_$_MQTTSession._willTopic
 _OBJC_IVAR_$_MQTTSession._willMsg
 _OBJC_IVAR_$_MQTTSession._sessionExpiryInterval
@@ -5350,7 +5346,6 @@ _OBJC_IVAR_$_MQTTSession._subscribeHandlers
 _OBJC_IVAR_$_MQTTSession._unsubscribeHandlers
 _OBJC_IVAR_$_MQTTSession._publishHandlers
 _OBJC_IVAR_$_MQTTSession._securityPolicy
-_OBJC_IVAR_$_MQTTSession._dupTimeout
 __OBJC_$_INSTANCE_VARIABLES_MQTTSession
 __OBJC_$_PROP_LIST_MQTTSession
 __OBJC_CLASS_RO_$_MQTTSession
@@ -5393,7 +5388,7 @@ ___49-[GCDTimer initWithInterval:repeats:queue:block:]_block_invoke
 -[GCDTimer timer]
 -[GCDTimer setTimer:]
 -[GCDTimer .cxx_destruct]
-___block_descriptor_29_e4_20s24bs_e5_v4?0l
+___block_descriptor_49_e8_32s40bs_e5_v8?0l
 __OBJC_$_CLASS_METHODS_GCDTimer
 __OBJC_METACLASS_RO_$_GCDTimer
 __OBJC_$_INSTANCE_METHODS_GCDTimer
@@ -5477,7 +5472,6 @@ NSStringFromSmartAction
 -[NSMutableData(MQTT) appendVariableLength:]
 -[NSMutableData(MQTT) appendMQTTString:]
 -[NSMutableData(MQTT) appendBinaryData:]
-_OBJC_CLASSLIST_REFERENCES_$_.31
 _OBJC_CLASSLIST_REFERENCES_$_.92
 __OBJC_$_CLASS_METHODS_MQTTMessage
 __OBJC_METACLASS_RO_$_MQTTMessage
@@ -5519,7 +5513,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.398
 _OBJC_CLASSLIST_REFERENCES_$_.420
 _OBJC_CLASSLIST_REFERENCES_$_.431
 _OBJC_CLASSLIST_REFERENCES_$_.436
-___block_descriptor_24_e4_20s_e29_v8?0"HPImageManagerResult"4l
+___block_descriptor_40_e8_32s_e30_v16?0"HPImageManagerResult"8l
 __OBJC_$_CATEGORY_CLASS_METHODS_MessageLogger_$_HPAdditions
 __OBJC_$_CATEGORY_MessageLogger_$_HPAdditions
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/Messaging Service/Database Logger/Additions/MessageLogger+HPAdditions.m
@@ -5538,13 +5532,13 @@ HaptikLib/Helpers/Core Data/Migration Policies/User to User/HPUserToUserPolicy.m
 -[HPConversationSpeechExtension handlePermissionsAndBeginASR]
 ___61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke
 ___61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke_2
-___copy_helper_block_e4_20s24r28w
-___destroy_helper_block_e4_20s24r28w
+___copy_helper_block_e8_32s40r48w
+___destroy_helper_block_e8_32s40r48w
 ___61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke.236
 ___61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke_2.237
 ___61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke.250
-___copy_helper_block_e4_20r24w
-___destroy_helper_block_e4_20r24w
+___copy_helper_block_e8_32r40w
+___destroy_helper_block_e8_32r40w
 -[HPConversationSpeechExtension toggleASR]
 ___42-[HPConversationSpeechExtension toggleASR]_block_invoke
 ___42-[HPConversationSpeechExtension toggleASR]_block_invoke_2
@@ -5573,20 +5567,21 @@ ___47-[HPConversationSpeechExtension askPermissions]_block_invoke_2
 -[HPConversationSpeechExtension .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.207
 _OBJC_CLASSLIST_REFERENCES_$_.225
-___block_descriptor_28_e4_20s24r_e7_v8?0i4l
-___block_descriptor_32_e4_20s24r28w_e5_v4?0l
-___block_descriptor_28_e4_20s24r_e7_v8?0c4l
-___block_descriptor_28_e4_20r24w_e5_v4?0l
+___block_descriptor_48_e8_32s40r_e8_v16?0q8l
+___block_descriptor_56_e8_32s40r48w_e5_v8?0l
+___block_descriptor_48_e8_32s40r_e8_v12?0B8l
+___block_descriptor_48_e8_32r40w_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.282
-___block_descriptor_24_e4_20s_e32_v16?0"NSString"4c8"NSError"12l
+___block_descriptor_40_e8_32s_e33_v28?0"NSString"8B16"NSError"20l
 _OBJC_CLASSLIST_REFERENCES_$_.308
 _OBJC_CLASSLIST_REFERENCES_$_.311
 _OBJC_CLASSLIST_REFERENCES_$_.325
 _OBJC_CLASSLIST_REFERENCES_$_.326
 _OBJC_CLASSLIST_REFERENCES_$_.331
 _OBJC_CLASSLIST_REFERENCES_$_.350
-___block_descriptor_20_e22_v8?0"UIAlertAction"4l
+___block_descriptor_32_e23_v16?0"UIAlertAction"8l
 ___block_literal_global.360
+_OBJC_CLASSLIST_REFERENCES_$_.361
 __OBJC_METACLASS_RO_$_HPConversationSpeechExtension
 __OBJC_$_INSTANCE_METHODS_HPConversationSpeechExtension
 _OBJC_IVAR_$_HPConversationSpeechExtension._shouldTriggerASRFollowingTTSPlayback
@@ -5610,13 +5605,13 @@ __47-[HPConversationSpeechExtension askPermissions]_block_invoke
 __50-[HPConversationSpeechExtension observeASRTiggers]_block_invoke
 __42-[HPConversationSpeechExtension toggleASR]_block_invoke_2
 __42-[HPConversationSpeechExtension toggleASR]_block_invoke
-__destroy_helper_block_e4_20r24w
-__copy_helper_block_e4_20r24w
+__destroy_helper_block_e8_32r40w
+__copy_helper_block_e8_32r40w
 __61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke.250
 __61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke_2.237
 __61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke.236
-__destroy_helper_block_e4_20s24r28w
-__copy_helper_block_e4_20s24r28w
+__destroy_helper_block_e8_32s40r48w
+__copy_helper_block_e8_32s40r48w
 __61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke_2
 __61-[HPConversationSpeechExtension handlePermissionsAndBeginASR]_block_invoke
 -[MQTTSSLSecurityPolicyDecoder init]
@@ -5657,17 +5652,17 @@ _OBJC_CLASSLIST_REFERENCES_$_.541
 _OBJC_CLASSLIST_REFERENCES_$_.542
 _OBJC_CLASSLIST_REFERENCES_$_.547
 _OBJC_CLASSLIST_REFERENCES_$_.566
-___block_descriptor_32_e4_20s24s28w_e22_v8?0"UIAlertAction"4l
+___block_descriptor_56_e8_32s40s48w_e23_v16?0"UIAlertAction"8l
 _OBJC_SELECTOR_REFERENCES_.579
 _OBJC_SELECTOR_REFERENCES_.581
-___block_descriptor_28_e4_20s24s_e22_v8?0"UIAlertAction"4l
+___block_descriptor_48_e8_32s40s_e23_v16?0"UIAlertAction"8l
 _OBJC_CLASSLIST_REFERENCES_$_.600
 _OBJC_CLASSLIST_REFERENCES_$_.612
 _OBJC_CLASSLIST_REFERENCES_$_.615
 _OBJC_CLASSLIST_REFERENCES_$_.618
-___block_descriptor_28_e4_20s24w_e46_v16?0"NSString"4"UIImage"8"NSDictionary"12l
+___block_descriptor_48_e8_32s40w_e47_v32?0"NSString"8"UIImage"16"NSDictionary"24l
 _OBJC_CLASSLIST_REFERENCES_$_.627
-___block_descriptor_24_e4_20s_e29_v12?0"NSString"4"NSError"8l
+___block_descriptor_40_e8_32s_e30_v24?0"NSString"8"NSError"16l
 __OBJC_$_CATEGORY_INSTANCE_METHODS_ConversationViewController_$_HPImagePicker
 __OBJC_$_PROTOCOL_REFS_UIImagePickerControllerDelegate
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIImagePickerControllerDelegate
@@ -5835,8 +5830,8 @@ ___67-[HPCoreDataController(HPContextCoordinator) setupQueryGenerations]_block_i
 ___68-[HPCoreDataController(HPContextCoordinator) remapObject:toContext:]_block_invoke
 -[HPCoreDataController(HPContextCoordinator) mainContextDidSave:]
 -[HPCoreDataController(HPContextCoordinator) backgroundContextDidSave:]
-___block_descriptor_24_e4_20s_e37_v8?0"HPContextDidSaveNotification"4l
-___block_descriptor_32_e4_20s24s28r_e5_v4?0l
+___block_descriptor_40_e8_32s_e38_v16?0"HPContextDidSaveNotification"8l
+___block_descriptor_56_e8_32s40s48r_e5_v8?0l
 __OBJC_$_CATEGORY_INSTANCE_METHODS_HPCoreDataController_$_HPContextCoordinator
 __OBJC_$_CATEGORY_HPCoreDataController_$_HPContextCoordinator
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/Contexts Coordinator/HPCoreDataController+HPContextCoordinator.m
@@ -5860,8 +5855,8 @@ __OBJC_CLASS_RO_$_MultipleLocationsPayload
 HaptikLib/Model Objects/HSL Smart Action/Haptik Item/Payload/Payload Subtypes/MultipleLocationsPayload.m
 +[TaskboxActionHandler handleTaskboxTapForTask:atIndexPath:actionHelper:]
 ___73+[TaskboxActionHandler handleTaskboxTapForTask:atIndexPath:actionHelper:]_block_invoke
-___copy_helper_block_e4_24s28s32s
-___destroy_helper_block_e4_24s28s32s
+___copy_helper_block_e8_40s48s56s
+___destroy_helper_block_e8_40s48s56s
 +[TaskboxActionHandler handleTapFor:task:business:actionHelper:]
 ___64+[TaskboxActionHandler handleTapFor:task:business:actionHelper:]_block_invoke
 +[TaskboxActionHandler hanldeChatformsOnTapForTask:business:actionHelper:]
@@ -5871,18 +5866,20 @@ ___74+[TaskboxActionHandler hanldeChatformsOnTapForTask:business:actionHelper:]_
 ___72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke
 ___72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke_2
 ___72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke.627
-___copy_helper_block_e4_20s24s32s
+___copy_helper_block_e8_32s40s56s
 +[TaskboxActionHandler fireTaskTappedAnalyticsWith:business:indexPath:]
 ___71+[TaskboxActionHandler fireTaskTappedAnalyticsWith:business:indexPath:]_block_invoke
 +[TaskboxActionHandler fireMessageSendingAnalyticsFor:success:error:]
+_OBJC_SELECTOR_REFERENCES_.496
 _OBJC_CLASSLIST_REFERENCES_$_.501
+_OBJC_SELECTOR_REFERENCES_.505
 _OBJC_SELECTOR_REFERENCES_.507
 _OBJC_SELECTOR_REFERENCES_.509
 _OBJC_CLASSLIST_REFERENCES_$_.510
 _OBJC_CLASSLIST_REFERENCES_$_.511
 _OBJC_SELECTOR_REFERENCES_.513
 _OBJC_CLASSLIST_REFERENCES_$_.522
-___block_descriptor_36_e4_24s28s32s_e33_v16?0c4"NSString"8"NSString"12l
+___block_descriptor_64_e8_40s48s56s_e34_v28?0B8"NSString"12"NSString"20l
 _OBJC_CLASSLIST_REFERENCES_$_.538
 _OBJC_CLASSLIST_REFERENCES_$_.553
 _OBJC_CLASSLIST_REFERENCES_$_.571
@@ -5892,25 +5889,26 @@ _OBJC_CLASSLIST_REFERENCES_$_.578
 _OBJC_CLASSLIST_REFERENCES_$_.579
 _OBJC_CLASSLIST_REFERENCES_$_.582
 _OBJC_CLASSLIST_REFERENCES_$_.620
-___block_descriptor_28_e4_24s_e34_v12?0"NSString"4"NSDictionary"8l
-___block_descriptor_28_e4_24s_e29_v12?0"NSString"4"NSError"8l
-___block_descriptor_36_e4_20s24s32s_e5_v4?0l
+___block_descriptor_48_e8_40s_e35_v24?0"NSString"8"NSDictionary"16l
+___block_descriptor_48_e8_40s_e30_v24?0"NSString"8"NSError"16l
+___block_descriptor_64_e8_32s40s56s_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.637
 _OBJC_CLASSLIST_REFERENCES_$_.642
+_OBJC_CLASSLIST_REFERENCES_$_.653
 __OBJC_$_CLASS_METHODS_TaskboxActionHandler
 __OBJC_METACLASS_RO_$_TaskboxActionHandler
 __OBJC_CLASS_RO_$_TaskboxActionHandler
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Conversation Helpers/Action Helpers/Taskbox/TaskboxActionHandler.m
 HaptikLib/Helpers/Conversation Helpers/Action Helpers/Taskbox/TaskboxActionHandler.m
 __71+[TaskboxActionHandler fireTaskTappedAnalyticsWith:business:indexPath:]_block_invoke
-__copy_helper_block_e4_20s24s32s
+__copy_helper_block_e8_32s40s56s
 __72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke.627
 __72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke_2
 __72+[TaskboxActionHandler sendTaskMessageFor:businessName:businesObjectId:]_block_invoke
 __74+[TaskboxActionHandler hanldeChatformsOnTapForTask:business:actionHelper:]_block_invoke
 __64+[TaskboxActionHandler handleTapFor:task:business:actionHelper:]_block_invoke
-__destroy_helper_block_e4_24s28s32s
-__copy_helper_block_e4_24s28s32s
+__destroy_helper_block_e8_40s48s56s
+__copy_helper_block_e8_40s48s56s
 __73+[TaskboxActionHandler handleTaskboxTapForTask:atIndexPath:actionHelper:]_block_invoke
 +[ConversationAnalyticsHelper trackConversationPageViewed]
 ___58+[ConversationAnalyticsHelper trackConversationPageViewed]_block_invoke
@@ -5922,17 +5920,17 @@ ___79+[ConversationAnalyticsHelper trackConversationMenuActivityForAction:busine
 +[ConversationAnalyticsHelper trackSuccessfulMessageSendingForMessage:withMessageType:business:]
 +[ConversationAnalyticsHelper trackMessageSendingStatus:forMessage:withMessageType:business:failureReason:]
 ___107+[ConversationAnalyticsHelper trackMessageSendingStatus:forMessage:withMessageType:business:failureReason:]_block_invoke
-___copy_helper_block_e4_20s24s28s32s36s
-___destroy_helper_block_e4_20s24s28s32s36s
+___copy_helper_block_e8_32s40s48s56s64s
+___destroy_helper_block_e8_32s40s48s56s64s
 +[ConversationAnalyticsHelper fireAnalyticsEventsFor:message:businessName:businessViaName:messageID:isQREnabled:smartAction:]
 ___125+[ConversationAnalyticsHelper fireAnalyticsEventsFor:message:businessName:businessViaName:messageID:isQREnabled:smartAction:]_block_invoke
 +[ConversationAnalyticsHelper fireMessageSendingAttemptedAnalyticsFor:success:error:]
 ___85+[ConversationAnalyticsHelper fireMessageSendingAttemptedAnalyticsFor:success:error:]_block_invoke
 _OBJC_CLASSLIST_REFERENCES_$_.508
-___block_descriptor_40_e4_20s24s28s32s36s_e5_v4?0l
+___block_descriptor_72_e8_32s40s48s56s64s_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.559
 _OBJC_SELECTOR_REFERENCES_.604
-___block_descriptor_37_e4_20s24s28s_e5_v4?0l
+___block_descriptor_65_e8_32s40s48s_e5_v8?0l
 __OBJC_$_CLASS_METHODS_ConversationAnalyticsHelper
 __OBJC_METACLASS_RO_$_ConversationAnalyticsHelper
 __OBJC_CLASS_RO_$_ConversationAnalyticsHelper
@@ -5940,8 +5938,8 @@ __OBJC_CLASS_RO_$_ConversationAnalyticsHelper
 __85+[ConversationAnalyticsHelper fireMessageSendingAttemptedAnalyticsFor:success:error:]_block_invoke
 HaptikLib/Helpers/Analytics Helper/Conversation Analytics Helper/ConversationAnalyticsHelper.m
 __125+[ConversationAnalyticsHelper fireAnalyticsEventsFor:message:businessName:businessViaName:messageID:isQREnabled:smartAction:]_block_invoke
-__destroy_helper_block_e4_20s24s28s32s36s
-__copy_helper_block_e4_20s24s28s32s36s
+__destroy_helper_block_e8_32s40s48s56s64s
+__copy_helper_block_e8_32s40s48s56s64s
 __107+[ConversationAnalyticsHelper trackMessageSendingStatus:forMessage:withMessageType:business:failureReason:]_block_invoke
 __79+[ConversationAnalyticsHelper trackConversationMenuActivityForAction:business:]_block_invoke
 __81+[ConversationAnalyticsHelper trackChannelEnteredActivityForBusiness:fromSource:]_block_invoke
@@ -6103,10 +6101,10 @@ _OBJC_SELECTOR_REFERENCES_.974
 _OBJC_SELECTOR_REFERENCES_.976
 _OBJC_SELECTOR_REFERENCES_.978
 _OBJC_SELECTOR_REFERENCES_.980
-___block_descriptor_33_e4_20s24s28bs_e5_v4?0l
-___block_descriptor_32_e4_20s24s28bs_e7_v8?0c4l
+___block_descriptor_57_e8_32s40s48bs_e5_v8?0l
+___block_descriptor_56_e8_32s40s48bs_e8_v12?0B8l
 _OBJC_SELECTOR_REFERENCES_.984
-___block_descriptor_28_e4_20s_e10_v12?0i48l
+___block_descriptor_48_e8_32s_e11_v24?0q816l
 _OBJC_SELECTOR_REFERENCES_.987
 _OBJC_SELECTOR_REFERENCES_.989
 _OBJC_CLASSLIST_REFERENCES_$_.990
@@ -6132,16 +6130,16 @@ _OBJC_CLASSLIST_REFERENCES_$_.1033
 _OBJC_SELECTOR_REFERENCES_.1035
 _OBJC_SELECTOR_REFERENCES_.1037
 _OBJC_SELECTOR_REFERENCES_.1039
-___block_descriptor_37_e4_20s24s28s32s_e5_v4?0l
-___block_descriptor_32_e4_20s24s28w_e36_v16?0c4"NSDictionary"8"NSError"12l
+___block_descriptor_65_e8_32s40s48s56s_e5_v8?0l
+___block_descriptor_56_e8_32s40s48w_e37_v28?0B8"NSDictionary"12"NSError"20l
 _OBJC_SELECTOR_REFERENCES_.1042
 _OBJC_CLASSLIST_REFERENCES_$_.1043
 _OBJC_SELECTOR_REFERENCES_.1045
 _OBJC_SELECTOR_REFERENCES_.1047
 _OBJC_SELECTOR_REFERENCES_.1049
 _OBJC_SELECTOR_REFERENCES_.1051
-___block_descriptor_41_e4_20s24s28s32s_e5_v4?0l
-___block_descriptor_36_e4_20s24s28w_e36_v16?0c4"NSDictionary"8"NSError"12l
+___block_descriptor_73_e8_32s40s48s56s_e5_v8?0l
+___block_descriptor_64_e8_32s40s48w_e37_v28?0B8"NSDictionary"12"NSError"20l
 _OBJC_CLASSLIST_REFERENCES_$_.1052
 _OBJC_SELECTOR_REFERENCES_.1054
 _OBJC_SELECTOR_REFERENCES_.1056
@@ -6176,7 +6174,7 @@ _OBJC_SELECTOR_REFERENCES_.1110
 _OBJC_CLASSLIST_REFERENCES_$_.1113
 _OBJC_SELECTOR_REFERENCES_.1115
 _OBJC_SELECTOR_REFERENCES_.1117
-___block_descriptor_24_e4_20w_e17_v8?0"NSString"4l
+___block_descriptor_40_e8_32w_e18_v16?0"NSString"8l
 _OBJC_SELECTOR_REFERENCES_.1120
 _OBJC_SELECTOR_REFERENCES_.1122
 _OBJC_SELECTOR_REFERENCES_.1124
@@ -6307,7 +6305,7 @@ __OBJC_$_CATEGORY_ChatMessages_$_CoreDataProperties
 HaptikLib/Model Objects/Core Data Objects/Chat Messages/ChatMessages+CoreDataProperties.m
 +[ConversationUtils getImageFor:fromURL:smartAction:objectID:]
 ___62+[ConversationUtils getImageFor:fromURL:smartAction:objectID:]_block_invoke
-___block_descriptor_28_e4_20s24s_e29_v8?0"HPImageManagerResult"4l
+___block_descriptor_48_e8_32s40s_e30_v16?0"HPImageManagerResult"8l
 __OBJC_$_CLASS_METHODS_ConversationUtils
 __OBJC_METACLASS_RO_$_ConversationUtils
 __OBJC_CLASS_RO_$_ConversationUtils
@@ -6352,16 +6350,15 @@ ___60-[Haptik(Additions) startHaptikNotificationFlow:controller:]_block_invoke
 _OBJC_CLASSLIST_REFERENCES_$_.267
 _OBJC_CLASSLIST_REFERENCES_$_.297
 _OBJC_CLASSLIST_REFERENCES_$_.329
-_OBJC_CLASSLIST_REFERENCES_$_.336
 _OBJC_CLASSLIST_REFERENCES_$_.339
 _OBJC_CLASSLIST_REFERENCES_$_.342
-___block_descriptor_28_e4_20s24s_e21_v8?0"NSDictionary"4l
-_OBJC_CLASSLIST_REFERENCES_$_.380
-_OBJC_CLASSLIST_REFERENCES_$_.385
-_OBJC_CLASSLIST_REFERENCES_$_.405
-_OBJC_CLASSLIST_REFERENCES_$_.416
+_OBJC_CLASSLIST_REFERENCES_$_.348
+___block_descriptor_48_e8_32s40s_e22_v16?0"NSDictionary"8l
+_OBJC_CLASSLIST_REFERENCES_$_.388
+_OBJC_CLASSLIST_REFERENCES_$_.408
 _OBJC_CLASSLIST_REFERENCES_$_.419
-_OBJC_CLASSLIST_REFERENCES_$_.424
+_OBJC_CLASSLIST_REFERENCES_$_.422
+_OBJC_CLASSLIST_REFERENCES_$_.427
 __OBJC_$_CATEGORY_INSTANCE_METHODS_Haptik_$_Additions
 __OBJC_$_CATEGORY_Haptik_$_Additions
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Haptik/Additions/Haptik+Additions.m
@@ -6418,7 +6415,7 @@ _OBJC_SELECTOR_REFERENCES_.731
 _OBJC_CLASSLIST_REFERENCES_$_.732
 _OBJC_CLASSLIST_REFERENCES_$_.750
 _OBJC_CLASSLIST_REFERENCES_$_.762
-___block_descriptor_24_e4_20w_e7_v8?0i4l
+___block_descriptor_40_e8_32w_e8_v16?0q8l
 _OBJC_CLASSLIST_REFERENCES_$_.778
 _OBJC_CLASSLIST_REFERENCES_$_.783
 _OBJC_SELECTOR_REFERENCES_.817
@@ -6566,12 +6563,12 @@ _OBJC_CLASSLIST_REFERENCES_$_.402
 _OBJC_CLASSLIST_REFERENCES_$_.440
 _OBJC_SELECTOR_REFERENCES_.460
 _OBJC_IVAR_$_TaskboxChildViewController.defaultTableHeaderViewHeight
-_OBJC_SELECTOR_REFERENCES_.462
 _OBJC_SELECTOR_REFERENCES_.464
+_OBJC_SELECTOR_REFERENCES_.466
 _OBJC_SELECTOR_REFERENCES_.487
 _OBJC_CLASSLIST_REFERENCES_$_.496
 _OBJC_IVAR_$_TaskboxChildViewController.panGesture
-___block_descriptor_32_e4_20w_e5_v4?0l
+___block_descriptor_56_e8_32w_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.546
 _OBJC_IVAR_$_TaskboxChildViewController.isPresented
 _OBJC_IVAR_$_TaskboxChildViewController._delegate
@@ -6639,8 +6636,8 @@ HaptikLib/Helpers/Generic Helpers/HPGenericHelpers.m
 +[HSLCarouselViewHelper getCTATotalHeightFor:]
 +[HSLCarouselViewHelper getMetaLabelDictFor:]
 ___45+[HSLCarouselViewHelper getMetaLabelDictFor:]_block_invoke
-___copy_helper_block_e4_20r
-___destroy_helper_block_e4_20r
+___copy_helper_block_e8_32r
+___destroy_helper_block_e8_32r
 +[HSLCarouselViewHelper getTitleDictFor:itemCount:initialRect:]
 ___63+[HSLCarouselViewHelper getTitleDictFor:itemCount:initialRect:]_block_invoke
 +[HSLCarouselViewHelper getSubtitleDictFor:itemCount:initialRect:]
@@ -6649,7 +6646,7 @@ ___66+[HSLCarouselViewHelper getSubtitleDictFor:itemCount:initialRect:]_block_in
 ___69+[HSLCarouselViewHelper getDescriptionDictFor:itemCount:initialRect:]_block_invoke
 _OBJC_CLASSLIST_REFERENCES_$_.130
 _OBJC_CLASSLIST_REFERENCES_$_.157
-___block_descriptor_24_e4_20r_e27_v8?0"NSAttributedString"4l
+___block_descriptor_40_e8_32r_e28_v16?0"NSAttributedString"8l
 __OBJC_$_CLASS_METHODS_HSLCarouselViewHelper
 __OBJC_METACLASS_RO_$_HSLCarouselViewHelper
 __OBJC_CLASS_RO_$_HSLCarouselViewHelper
@@ -6658,8 +6655,8 @@ __69+[HSLCarouselViewHelper getDescriptionDictFor:itemCount:initialRect:]_block_
 HaptikLib/Helpers/Conversation Helpers/View Helpers/HSL Smart Carousel View/HSLCarouselViewHelper.m
 __66+[HSLCarouselViewHelper getSubtitleDictFor:itemCount:initialRect:]_block_invoke
 __63+[HSLCarouselViewHelper getTitleDictFor:itemCount:initialRect:]_block_invoke
-__destroy_helper_block_e4_20r
-__copy_helper_block_e4_20r
+__destroy_helper_block_e8_32r
+__copy_helper_block_e8_32r
 __45+[HSLCarouselViewHelper getMetaLabelDictFor:]_block_invoke
 +[RegularSmartActionHelper isRegularTypeMessage:]
 +[RegularSmartActionHelper hasSmartAction:]
@@ -6679,21 +6676,21 @@ ___67-[NSManagedObjectContext(HPAdditions) performAsyncTask:completion:]_block_i
 -[NSManagedObjectContext(HPAdditions) performAsyncTask:saveChanges:completion:]
 ___79-[NSManagedObjectContext(HPAdditions) performAsyncTask:saveChanges:completion:]_block_invoke
 ___79-[NSManagedObjectContext(HPAdditions) performAsyncTask:saveChanges:completion:]_block_invoke_2
-___copy_helper_block_e4_20b24s28b
+___copy_helper_block_e8_32b40s48b
 -[NSManagedObjectContext(HPAdditions) performSyncTask:saveChanges:error:]
 ___73-[NSManagedObjectContext(HPAdditions) performSyncTask:saveChanges:error:]_block_invoke
-___copy_helper_block_e4_20b24s28r
+___copy_helper_block_e8_32b40s48r
 -[NSManagedObjectContext(HPAdditions) saveOrRollBack:]
-___block_descriptor_29_e4_20bs24s_e5_v4?0l
-___block_descriptor_33_e4_20bs24s28bs_e5_v4?0l
-___block_descriptor_37_e4_20bs24s28r_e5_v4?0l
+___block_descriptor_49_e8_32bs40s_e5_v8?0l
+___block_descriptor_57_e8_32bs40s48bs_e5_v8?0l
+___block_descriptor_65_e8_32bs40s48r_e5_v8?0l
 __OBJC_$_CATEGORY_INSTANCE_METHODS_NSManagedObjectContext_$_HPAdditions
 __OBJC_$_CATEGORY_NSManagedObjectContext_$_HPAdditions
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Helpers/Core Data/Core Data Controller/Context Additions/NSManagedObjectContext+HPAdditions.m
 HaptikLib/Helpers/Core Data/Core Data Controller/Context Additions/NSManagedObjectContext+HPAdditions.m
-__copy_helper_block_e4_20b24s28r
+__copy_helper_block_e8_32b40s48r
 __73-[NSManagedObjectContext(HPAdditions) performSyncTask:saveChanges:error:]_block_invoke
-__copy_helper_block_e4_20b24s28b
+__copy_helper_block_e8_32b40s48b
 __79-[NSManagedObjectContext(HPAdditions) performAsyncTask:saveChanges:completion:]_block_invoke_2
 __79-[NSManagedObjectContext(HPAdditions) performAsyncTask:saveChanges:completion:]_block_invoke
 __67-[NSManagedObjectContext(HPAdditions) performAsyncTask:completion:]_block_invoke
@@ -6735,11 +6732,11 @@ _OBJC_CLASSLIST_REFERENCES_$_.525
 _OBJC_CLASSLIST_REFERENCES_$_.565
 _OBJC_CLASSLIST_REFERENCES_$_.602
 _OBJC_CLASSLIST_REFERENCES_$_.626
-___block_descriptor_24_e4_20w_e30_v12?0"NSString"4"NSNumber"8l
+___block_descriptor_40_e8_32w_e31_v24?0"NSString"8"NSNumber"16l
 _OBJC_CLASSLIST_REFERENCES_$_.658
 _OBJC_CLASSLIST_REFERENCES_$_.659
 _OBJC_CLASSLIST_REFERENCES_$_.686
-___block_descriptor_28_e4_20s24s_e19_v12?0c4"NSError"8l
+___block_descriptor_48_e8_32s40s_e20_v20?0B8"NSError"12l
 _OBJC_CLASSLIST_REFERENCES_$_.699
 _OBJC_CLASSLIST_REFERENCES_$_.700
 __OBJC_$_PROTOCOL_REFS_SKStoreProductViewControllerDelegate
@@ -6791,9 +6788,9 @@ HaptikLib/Views/Buttons/Chatform Send Button/ChatFormSendButton.h
 ___66+[HPFlowCoordinator handleBranchCallbackWith:controller:metaData:]_block_invoke
 ___66+[HPFlowCoordinator handleBranchCallbackWith:controller:metaData:]_block_invoke_2
 ___66+[HPFlowCoordinator handleBranchCallbackWith:controller:metaData:]_block_invoke_3
-___copy_helper_block_e4_24s28s
-___copy_helper_block_e4_20s28s32s
-___destroy_helper_block_e4_20s28s32s
+___copy_helper_block_e8_40s48s
+___copy_helper_block_e8_32s48s56s
+___destroy_helper_block_e8_32s48s56s
 +[HPFlowCoordinator pushToBusiness:controller:fromOutsideApp:]
 +[HPFlowCoordinator switchToBusinessViaName:message:with:fromOutsideApp:]
 ___73+[HPFlowCoordinator switchToBusinessViaName:message:with:fromOutsideApp:]_block_invoke
@@ -6807,16 +6804,16 @@ ___73+[HPFlowCoordinator switchToBusinessViaName:message:with:fromOutsideApp:]_b
 ___72+[HPFlowCoordinator performWebViewSmartActionWith:payload:actionHelper:]_block_invoke
 +[HPFlowCoordinator performDeepLinkSmartActionFor:]
 +[HPFlowCoordinator shouldSegueForURIType:metaData:]
-___block_descriptor_33_e4_24s28s_e5_v4?0l
-___block_descriptor_37_e4_20s28s32s_e5_v4?0l
-___block_descriptor_28_e4_24s_e17_v8?0"Business"4l
+___block_descriptor_57_e8_40s48s_e5_v8?0l
+___block_descriptor_65_e8_32s48s56s_e5_v8?0l
+___block_descriptor_48_e8_40s_e18_v16?0"Business"8l
 _OBJC_CLASSLIST_REFERENCES_$_.580
-___block_descriptor_33_e4_24s28s_e17_v8?0"Business"4l
+___block_descriptor_57_e8_40s48s_e18_v16?0"Business"8l
 _OBJC_CLASSLIST_REFERENCES_$_.589
 _OBJC_CLASSLIST_REFERENCES_$_.610
 _OBJC_CLASSLIST_REFERENCES_$_.632
 _OBJC_CLASSLIST_REFERENCES_$_.654
-___block_descriptor_24_e4_20s_e30_v12?0"NSString"4"NSNumber"8l
+___block_descriptor_40_e8_32s_e31_v24?0"NSString"8"NSNumber"16l
 _OBJC_CLASSLIST_REFERENCES_$_.673
 __OBJC_$_CLASS_METHODS_HPFlowCoordinator
 __OBJC_METACLASS_RO_$_HPFlowCoordinator
@@ -6827,9 +6824,9 @@ __72+[HPFlowCoordinator performWebViewSmartActionWith:payload:actionHelper:]_blo
 __73+[HPFlowCoordinator switchToBusinessViaName:message:with:fromOutsideApp:]_block_invoke_3
 __73+[HPFlowCoordinator switchToBusinessViaName:message:with:fromOutsideApp:]_block_invoke_2
 __73+[HPFlowCoordinator switchToBusinessViaName:message:with:fromOutsideApp:]_block_invoke
-__destroy_helper_block_e4_20s28s32s
-__copy_helper_block_e4_20s28s32s
-__copy_helper_block_e4_24s28s
+__destroy_helper_block_e8_32s48s56s
+__copy_helper_block_e8_32s48s56s
+__copy_helper_block_e8_40s48s
 __66+[HPFlowCoordinator handleBranchCallbackWith:controller:metaData:]_block_invoke_3
 __66+[HPFlowCoordinator handleBranchCallbackWith:controller:metaData:]_block_invoke_2
 __66+[HPFlowCoordinator handleBranchCallbackWith:controller:metaData:]_block_invoke
@@ -6886,11 +6883,11 @@ HaptikLib/Views/Stack Views/RS Tap Rate View/RSTapRateView.m
 +[MessageNetworkHelper logMessageInBackEndforMessage:withMessageType:businessId:success:failure:]
 ___97+[MessageNetworkHelper logMessageInBackEndforMessage:withMessageType:businessId:success:failure:]_block_invoke
 ___97+[MessageNetworkHelper logMessageInBackEndforMessage:withMessageType:businessId:success:failure:]_block_invoke_2
-___copy_helper_block_e4_20b24b
-___copy_helper_block_e4_20s24s28s32b36b
+___copy_helper_block_e8_32b40b
+___copy_helper_block_e8_32s40s48s56b64b
 +[MessageNetworkHelper logMessageInBackEndForMessage:forBusinessId:andImage:success:failure:]
 ___93+[MessageNetworkHelper logMessageInBackEndForMessage:forBusinessId:andImage:success:failure:]_block_invoke
-___copy_helper_block_e4_20b24s28s32b
+___copy_helper_block_e8_32b40s48s56b
 +[MessageNetworkHelper logTaskInBackEndforMessage:forBusiness:withMessageType:success:failure:]
 ___95+[MessageNetworkHelper logTaskInBackEndforMessage:forBusiness:withMessageType:success:failure:]_block_invoke
 +[MessageNetworkHelper fetchCustomMessageTypeFor:business:]
@@ -6901,14 +6898,14 @@ ___60+[MessageNetworkHelper getUnreceivedMessagesWithCompletion:]_block_invoke
 ___60+[MessageNetworkHelper getUnreceivedMessagesWithCompletion:]_block_invoke_2
 _OBJC_CLASSLIST_REFERENCES_$_.521
 _OBJC_CLASSLIST_REFERENCES_$_.532
-___block_descriptor_28_e4_20bs24bs_e37_v16?04"NSURLResponse"8"NSError"12l
-___block_descriptor_40_e4_20s24s28s32bs36bs_e5_v4?0l
-___block_descriptor_36_e4_20bs24s28s32bs_e19_v12?04"NSError"8l
-___block_descriptor_32_e4_20bs24s28bs_e37_v16?04"NSURLResponse"8"NSError"12l
+___block_descriptor_48_e8_32bs40bs_e38_v32?08"NSURLResponse"16"NSError"24l
+___block_descriptor_72_e8_32s40s48s56bs64bs_e5_v8?0l
+___block_descriptor_64_e8_32bs40s48s56bs_e20_v24?08"NSError"16l
+___block_descriptor_56_e8_32bs40s48bs_e38_v32?08"NSURLResponse"16"NSError"24l
 _OBJC_CLASSLIST_REFERENCES_$_.592
-___block_descriptor_24_e4_20s_e37_v16?04"NSURLResponse"8"NSError"12l
+___block_descriptor_40_e8_32s_e38_v32?08"NSURLResponse"16"NSError"24l
 _OBJC_CLASSLIST_REFERENCES_$_.609
-___block_descriptor_24_e4_20bs_e29_v12?0"NSString"4"NSError"8l
+___block_descriptor_40_e8_32bs_e30_v24?0"NSString"8"NSError"16l
 __OBJC_$_CLASS_METHODS_MessageNetworkHelper
 __OBJC_METACLASS_RO_$_MessageNetworkHelper
 __OBJC_CLASS_RO_$_MessageNetworkHelper
@@ -6919,10 +6916,10 @@ __60+[MessageNetworkHelper getUnreceivedMessagesWithCompletion:]_block_invoke
 __59+[MessageNetworkHelper fetchCustomMessageTypeFor:business:]_block_invoke_2
 __59+[MessageNetworkHelper fetchCustomMessageTypeFor:business:]_block_invoke
 __95+[MessageNetworkHelper logTaskInBackEndforMessage:forBusiness:withMessageType:success:failure:]_block_invoke
-__copy_helper_block_e4_20b24s28s32b
+__copy_helper_block_e8_32b40s48s56b
 __93+[MessageNetworkHelper logMessageInBackEndForMessage:forBusinessId:andImage:success:failure:]_block_invoke
-__copy_helper_block_e4_20s24s28s32b36b
-__copy_helper_block_e4_20b24b
+__copy_helper_block_e8_32s40s48s56b64b
+__copy_helper_block_e8_32b40b
 __97+[MessageNetworkHelper logMessageInBackEndforMessage:withMessageType:businessId:success:failure:]_block_invoke_2
 __97+[MessageNetworkHelper logMessageInBackEndforMessage:withMessageType:businessId:success:failure:]_block_invoke
 -[HPTypingIndicatorView init]
@@ -7009,7 +7006,7 @@ _OBJC_IVAR_$_Actionable.isDefault
 _OBJC_IVAR_$_Actionable.locationRequired
 _OBJC_IVAR_$_Actionable.actionableText
 _OBJC_CLASSLIST_REFERENCES_$_.67
-___block_descriptor_24_e4_20w_e27_v8?0"NSAttributedString"4l
+___block_descriptor_40_e8_32w_e28_v16?0"NSAttributedString"8l
 _OBJC_IVAR_$_Actionable.emoji
 _OBJC_IVAR_$_Actionable.expiredText
 _OBJC_IVAR_$_Actionable.optionSelectedText
@@ -7045,7 +7042,7 @@ ___43-[HaptikSpeech fetchTypeSpeechChatMessage:]_block_invoke
 -[HaptikSpeech speechMessage]
 -[HaptikSpeech setSpeechMessage:]
 -[HaptikSpeech .cxx_destruct]
-___block_descriptor_28_e4_20bs24w_e21_v8?0"ChatMessages"4l
+___block_descriptor_48_e8_32bs40w_e22_v16?0"ChatMessages"8l
 _OBJC_CLASSLIST_REFERENCES_$_.159
 __OBJC_METACLASS_RO_$_HaptikSpeech
 __OBJC_$_INSTANCE_METHODS_HaptikSpeech
@@ -7099,10 +7096,10 @@ ___29-[SRProxyConnect _writeData:]_block_invoke
 -[SRProxyConnect outputStream]
 -[SRProxyConnect setOutputStream:]
 -[SRProxyConnect .cxx_destruct]
-___block_descriptor_28_e4_20s24w_e45_v16?0"NSData"4"NSURLResponse"8"NSError"12l
+___block_descriptor_48_e8_32s40w_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
 _OBJC_CLASSLIST_REFERENCES_$_.125
 _OBJC_CLASSLIST_REFERENCES_$_.152
-___block_descriptor_36_e4_20s24s28r_e5_v4?0l
+___block_descriptor_64_e8_32s40s48r_e5_v8?0l
 __OBJC_CLASS_PROTOCOLS_$_SRProxyConnect
 __OBJC_METACLASS_RO_$_SRProxyConnect
 __OBJC_$_INSTANCE_METHODS_SRProxyConnect
@@ -7350,13 +7347,13 @@ _OBJC_CLASSLIST_REFERENCES_$_.537
 _OBJC_CLASSLIST_REFERENCES_$_.573
 _OBJC_CLASSLIST_REFERENCES_$_.594
 _OBJC_CLASSLIST_REFERENCES_$_.613
-___block_descriptor_24_e4_20s_e17_v8?0"Business"4l
+___block_descriptor_40_e8_32s_e18_v16?0"Business"8l
 _OBJC_CLASSLIST_REFERENCES_$_.639
 _OBJC_CLASSLIST_REFERENCES_$_.655
 _OBJC_CLASSLIST_REFERENCES_$_.672
-___block_descriptor_24_e4_20s_e36_v16?0c4"NSDictionary"8"NSError"12l
+___block_descriptor_40_e8_32s_e37_v28?0B8"NSDictionary"12"NSError"20l
 ___block_literal_global.711
-___block_descriptor_24_e4_20s_e33_v16?0c4"NSString"8"NSString"12l
+___block_descriptor_40_e8_32s_e34_v28?0B8"NSString"12"NSString"20l
 __OBJC_$_CLASS_METHODS_RegularSmartActionHandler
 __OBJC_METACLASS_RO_$_RegularSmartActionHandler
 __OBJC_CLASS_RO_$_RegularSmartActionHandler
@@ -7399,6 +7396,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.276
 _OBJC_CLASSLIST_REFERENCES_$_.352
 _OBJC_CLASSLIST_REFERENCES_$_.363
 _OBJC_CLASSLIST_REFERENCES_$_.375
+_OBJC_CLASSLIST_REFERENCES_$_.380
 __OBJC_$_CLASS_METHODS_ConversationViewHelper
 __OBJC_METACLASS_RO_$_ConversationViewHelper
 __OBJC_$_INSTANCE_METHODS_ConversationViewHelper
@@ -7596,8 +7594,8 @@ ___39-[MQTTSessionManager setSubscriptions:]_block_invoke.223
 -[MQTTSessionManager .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.117
 _OBJC_CLASSLIST_REFERENCES_$_.122
-___block_descriptor_28_e4_20s24w_e28_v12?0"NSError"4"NSArray"8l
-___block_descriptor_28_e4_20s24w_e16_v8?0"NSError"4l
+___block_descriptor_48_e8_32s40w_e29_v24?0"NSError"8"NSArray"16l
+___block_descriptor_48_e8_32s40w_e17_v16?0"NSError"8l
 __OBJC_CLASS_PROTOCOLS_$_MQTTSessionManager
 __OBJC_METACLASS_RO_$_MQTTSessionManager
 __OBJC_$_INSTANCE_METHODS_MQTTSessionManager
@@ -7609,12 +7607,12 @@ _OBJC_IVAR_$_MQTTSessionManager._will
 _OBJC_IVAR_$_MQTTSessionManager._willRetainFlag
 _OBJC_IVAR_$_MQTTSessionManager._protocolLevel
 _OBJC_IVAR_$_MQTTSessionManager._persistent
+_OBJC_IVAR_$_MQTTSessionManager._port
+_OBJC_IVAR_$_MQTTSessionManager._state
 _OBJC_IVAR_$_MQTTSessionManager._session
 _OBJC_IVAR_$_MQTTSessionManager._host
-_OBJC_IVAR_$_MQTTSessionManager._port
 _OBJC_IVAR_$_MQTTSessionManager._delegate
 _OBJC_IVAR_$_MQTTSessionManager._effectiveSubscriptions
-_OBJC_IVAR_$_MQTTSessionManager._state
 _OBJC_IVAR_$_MQTTSessionManager._lastErrorCode
 _OBJC_IVAR_$_MQTTSessionManager._reconnectTimer
 _OBJC_IVAR_$_MQTTSessionManager._keepalive
@@ -7655,7 +7653,7 @@ ___63-[NSManagedObjectContext(HPObservers) performMergeChangesFrom:]_block_invok
 -[HPContextDidSaveNotification objectsForKey:]
 -[HPContextDidSaveNotification notification]
 -[HPContextDidSaveNotification .cxx_destruct]
-___block_descriptor_24_e4_20bs_e23_v8?0"NSNotification"4l
+___block_descriptor_40_e8_32bs_e24_v16?0"NSNotification"8l
 __OBJC_$_CATEGORY_INSTANCE_METHODS_NSManagedObjectContext_$_HPObservers
 __OBJC_$_CATEGORY_NSManagedObjectContext_$_HPObservers
 __OBJC_METACLASS_RO_$_HPContextDidSaveNotification
@@ -7689,7 +7687,6 @@ HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextInput+I
 +[SystemEventMessageViewHelper embeddInContainerView:]
 _OBJC_CLASSLIST_REFERENCES_$_.257
 _OBJC_CLASSLIST_REFERENCES_$_.306
-_OBJC_CLASSLIST_REFERENCES_$_.309
 _OBJC_CLASSLIST_REFERENCES_$_.312
 __OBJC_$_CLASS_METHODS_SystemEventMessageViewHelper
 __OBJC_METACLASS_RO_$_SystemEventMessageViewHelper
@@ -7702,7 +7699,7 @@ ___19+[Haptik sharedSDK]_block_invoke
 ___32-[Haptik signUpWith:completion:]_block_invoke
 ___32-[Haptik signUpWith:completion:]_block_invoke_2
 ___32-[Haptik signUpWith:completion:]_block_invoke.297
-___copy_helper_block_e4_20s24b28s
+___copy_helper_block_e8_32s40b48s
 -[Haptik isUserSignedUp]
 -[Haptik updateUserToken:authID:authType:completion:]
 ___53-[Haptik updateUserToken:authID:authType:completion:]_block_invoke
@@ -7739,8 +7736,8 @@ ___43-[Haptik getUnreadCountFor:WithCompletion:]_block_invoke_3
 -[Haptik performPostSignupOperations]
 _sharedSDK.shared
 _sharedSDK.onceToken
-___block_descriptor_32_e4_20s24bs28s_e19_v12?0c4"NSError"8l
-___block_descriptor_25_e4_20bs_e5_v4?0l
+___block_descriptor_56_e8_32s40bs48s_e20_v20?0B8"NSError"12l
+___block_descriptor_41_e8_32bs_e5_v8?0l
 ___block_literal_global.357
 ___block_literal_global.391
 _OBJC_CLASSLIST_REFERENCES_$_.392
@@ -7748,7 +7745,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.423
 _OBJC_CLASSLIST_REFERENCES_$_.433
 _OBJC_CLASSLIST_REFERENCES_$_.443
 _OBJC_CLASSLIST_REFERENCES_$_.444
-___block_descriptor_28_e4_20bs24s_e17_v8?0"Business"4l
+___block_descriptor_48_e8_32bs40s_e18_v16?0"Business"8l
 _OBJC_CLASSLIST_REFERENCES_$_.458
 __OBJC_$_CLASS_METHODS_Haptik
 __OBJC_METACLASS_RO_$_Haptik
@@ -7772,7 +7769,7 @@ __28-[Haptik signoutFromHaptik:]_block_invoke_2
 __28-[Haptik signoutFromHaptik:]_block_invoke
 __53-[Haptik updateUserToken:authID:authType:completion:]_block_invoke_2
 __53-[Haptik updateUserToken:authID:authType:completion:]_block_invoke
-__copy_helper_block_e4_20s24b28s
+__copy_helper_block_e8_32s40b48s
 __32-[Haptik signUpWith:completion:]_block_invoke.297
 __32-[Haptik signUpWith:completion:]_block_invoke_2
 __32-[Haptik signUpWith:completion:]_block_invoke
@@ -7847,8 +7844,8 @@ __74+[HSLTabListViewHelper getSubHeaderForDetailItem:header:tabView:iterator:]_b
 __64+[HSLTabListViewHelper getheaderForDetailItem:tabView:iterator:]_block_invoke
 ___SRHTTPConnectMessageCreate_block_invoke
 ___SRHTTPConnectMessageCreate_block_invoke_2
-___block_descriptor_24_e34_v16?0"NSString"4"NSString"8^c12l
-___block_descriptor_24_e14_v16?048^c12l
+___block_descriptor_40_e35_v32?0"NSString"8"NSString"16^B24l
+___block_descriptor_40_e15_v32?0816^B24l
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRHTTPConnectMessage.m
 __SRHTTPConnectMessageCreate_block_invoke_2
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/Utilities/SRHTTPConnectMessage.m
@@ -8129,14 +8126,14 @@ ___117+[ChatFormActionHandler fireFormSubmittedAnalyticsWith:business:totalField
 ___66+[ChatFormActionHandler fireFormFieldTypesAnalyticsWith:business:]_block_invoke
 +[ChatFormActionHandler fireFormDataEnteredAnalyticsWith:formTitle:business:]
 ___77+[ChatFormActionHandler fireFormDataEnteredAnalyticsWith:formTitle:business:]_block_invoke
-___block_descriptor_28_e4_20s24s_e10_v12?0i48l
-___block_descriptor_28_e4_20s24s_e15_v8?0"NSDate"4l
-___block_descriptor_32_e4_20s24s28s_e10_v12?048l
-___block_descriptor_28_e4_20s24s_e10_v12?048l
+___block_descriptor_48_e8_32s40s_e11_v24?0q816l
+___block_descriptor_48_e8_32s40s_e16_v16?0"NSDate"8l
+___block_descriptor_56_e8_32s40s48s_e11_v24?0816l
+___block_descriptor_48_e8_32s40s_e11_v24?0816l
 _OBJC_CLASSLIST_REFERENCES_$_.698
 _OBJC_CLASSLIST_REFERENCES_$_.701
-___block_descriptor_28_e4_20bs24w_e16_v8?0"NSArray"4l
-___block_descriptor_32_e4_20s28s_e16_v8?0"NSArray"4l
+___block_descriptor_48_e8_32bs40w_e17_v16?0"NSArray"8l
+___block_descriptor_56_e8_32s48s_e17_v16?0"NSArray"8l
 _OBJC_SELECTOR_REFERENCES_.727
 _OBJC_CLASSLIST_REFERENCES_$_.754
 _OBJC_CLASSLIST_REFERENCES_$_.759
@@ -8145,7 +8142,7 @@ _OBJC_SELECTOR_REFERENCES_.776
 _OBJC_CLASSLIST_REFERENCES_$_.779
 _OBJC_CLASSLIST_REFERENCES_$_.810
 _OBJC_CLASSLIST_REFERENCES_$_.813
-___block_descriptor_44_e4_20s24s28s32s_e5_v4?0l
+___block_descriptor_80_e8_32s40s48s56s_e5_v8?0l
 __OBJC_$_CLASS_METHODS_ChatFormActionHandler
 __OBJC_METACLASS_RO_$_ChatFormActionHandler
 __OBJC_CLASS_RO_$_ChatFormActionHandler
@@ -8320,7 +8317,7 @@ _OBJC_IVAR_$_HPMessageFeedbackView._dislikeButton
 _OBJC_IVAR_$_HPMessageFeedbackView._commentButton
 _OBJC_IVAR_$_HPMessageFeedbackView._dislikeButtonConstraint
 _OBJC_IVAR_$_HPMessageFeedbackView._message
-___block_descriptor_32_e4_20s24s28w_e7_v8?0c4l
+___block_descriptor_56_e8_32s40s48w_e8_v12?0B8l
 _OBJC_CLASSLIST_REFERENCES_$_.355
 _OBJC_IVAR_$_HPMessageFeedbackView._controller
 _OBJC_IVAR_$_HPMessageFeedbackView._isHorizontallyAligned
@@ -8564,14 +8561,14 @@ HaptikLib/Model Objects/Sign Up Object/HPSignUpObject.m
 HaptikLib/Model Objects/Sign Up Object/HPSignUpObject.h
 +[Business calculateUnreadMessagesWithCompletion:]
 ___50+[Business calculateUnreadMessagesWithCompletion:]_block_invoke
-___copy_helper_block_e4_24r
-___destroy_helper_block_e4_24r
+___copy_helper_block_e8_40r
+___destroy_helper_block_e8_40r
 ___50+[Business calculateUnreadMessagesWithCompletion:]_block_invoke.172
 ___50+[Business calculateUnreadMessagesWithCompletion:]_block_invoke_2
 +[Business businessWithAttribute:value:context:]
 ___48+[Business businessWithAttribute:value:context:]_block_invoke
-___copy_helper_block_e4_24s28s32s36r
-___destroy_helper_block_e4_24s28s32s36r
+___copy_helper_block_e8_40s48s56s64r
+___destroy_helper_block_e8_40s48s56s64r
 +[Business businessWithAttribute:value:context:fetchCompletion:]
 ___64+[Business businessWithAttribute:value:context:fetchCompletion:]_block_invoke
 ___64+[Business businessWithAttribute:value:context:fetchCompletion:]_block_invoke_2
@@ -8582,8 +8579,8 @@ ___28-[Business resetUnreadCount]_block_invoke
 -[Business isChatEmpty]
 -[Business checkIfMessageExistsWithID:]
 -[Business getConfigObjectFor:]
-___block_descriptor_28_e4_24r_e5_v4?0l
-___block_descriptor_40_e4_24s28s32s36r_e5_v4?0l
+___block_descriptor_48_e8_40r_e5_v8?0l
+___block_descriptor_72_e8_40s48s56s64r_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.188
 _OBJC_CLASSLIST_REFERENCES_$_.193
 __OBJC_$_CLASS_METHODS_Business
@@ -8595,13 +8592,13 @@ HaptikLib/Model Objects/Core Data Objects/Business/Business+CoreDataClass.m
 __28-[Business resetUnreadCount]_block_invoke
 __64+[Business businessWithAttribute:value:context:fetchCompletion:]_block_invoke_2
 __64+[Business businessWithAttribute:value:context:fetchCompletion:]_block_invoke
-__destroy_helper_block_e4_24s28s32s36r
-__copy_helper_block_e4_24s28s32s36r
+__destroy_helper_block_e8_40s48s56s64r
+__copy_helper_block_e8_40s48s56s64r
 __48+[Business businessWithAttribute:value:context:]_block_invoke
 __50+[Business calculateUnreadMessagesWithCompletion:]_block_invoke_2
 __50+[Business calculateUnreadMessagesWithCompletion:]_block_invoke.172
-__destroy_helper_block_e4_24r
-__copy_helper_block_e4_24r
+__destroy_helper_block_e8_40r
+__copy_helper_block_e8_40r
 __50+[Business calculateUnreadMessagesWithCompletion:]_block_invoke
 -[FeedbackOverlay initWithFrame:]
 -[FeedbackOverlay initSubviews]
@@ -8737,14 +8734,14 @@ _OBJC_SELECTOR_REFERENCES_.971
 _OBJC_SELECTOR_REFERENCES_.973
 _OBJC_SELECTOR_REFERENCES_.975
 _OBJC_SELECTOR_REFERENCES_.977
-___block_descriptor_28_e4_20s24s_e17_v8?0"Business"4l
+___block_descriptor_48_e8_32s40s_e18_v16?0"Business"8l
 _OBJC_CLASSLIST_REFERENCES_$_.981
 _OBJC_SELECTOR_REFERENCES_.983
 _OBJC_SELECTOR_REFERENCES_.985
 _OBJC_SELECTOR_REFERENCES_.995
 _OBJC_SELECTOR_REFERENCES_.999
 _OBJC_CLASSLIST_REFERENCES_$_.1000
-___block_descriptor_28_e4_20s24s_e33_v16?0c4"NSString"8"NSString"12l
+___block_descriptor_48_e8_32s40s_e34_v28?0B8"NSString"12"NSString"20l
 _OBJC_SELECTOR_REFERENCES_.1015
 _OBJC_SELECTOR_REFERENCES_.1023
 _OBJC_SELECTOR_REFERENCES_.1025
@@ -8861,8 +8858,8 @@ _OBJC_CLASSLIST_REFERENCES_$_.485
 _OBJC_SELECTOR_REFERENCES_.489
 _OBJC_CLASSLIST_REFERENCES_$_.490
 _OBJC_CLASSLIST_REFERENCES_$_.503
-___block_descriptor_29_e4_20s24w_e5_v4?0l
-___block_descriptor_28_e4_20s24w_e19_v12?0c4"NSError"8l
+___block_descriptor_49_e8_32s40w_e5_v8?0l
+___block_descriptor_48_e8_32s40w_e20_v20?0B8"NSError"12l
 _OBJC_CLASSLIST_REFERENCES_$_.518
 _OBJC_CLASSLIST_REFERENCES_$_.551
 _OBJC_IVAR_$_ContactPickerField._changedText
@@ -9057,11 +9054,11 @@ ___26-[ReconnectTimer schedule]_block_invoke
 __OBJC_METACLASS_RO_$_ReconnectTimer
 __OBJC_$_INSTANCE_METHODS_ReconnectTimer
 _OBJC_IVAR_$_ReconnectTimer._timer
-_OBJC_IVAR_$_ReconnectTimer._queue
-_OBJC_IVAR_$_ReconnectTimer._reconnectBlock
 _OBJC_IVAR_$_ReconnectTimer._retryInterval
 _OBJC_IVAR_$_ReconnectTimer._currentRetryInterval
 _OBJC_IVAR_$_ReconnectTimer._maxRetryInterval
+_OBJC_IVAR_$_ReconnectTimer._queue
+_OBJC_IVAR_$_ReconnectTimer._reconnectBlock
 __OBJC_$_INSTANCE_VARIABLES_ReconnectTimer
 __OBJC_$_PROP_LIST_ReconnectTimer
 __OBJC_CLASS_RO_$_ReconnectTimer
@@ -9186,6 +9183,7 @@ _OBJC_IVAR_$_SLKTextInputbar._contentInset
 _OBJC_IVAR_$_SLKTextInputbar._editing
 _OBJC_IVAR_$_SLKTextInputbar._charCountLabelVCs
 _OBJC_IVAR_$_SLKTextInputbar._counterPosition
+_OBJC_CLASSLIST_REFERENCES_$_.390
 _OBJC_IVAR_$_SLKTextInputbar._bounces
 _OBJC_IVAR_$_SLKTextInputbar._editorContentViewHeight
 _OBJC_IVAR_$_SLKTextInputbar._maxCharCount
@@ -9224,18 +9222,14 @@ ___24+[DDASLLogCapture start]_block_invoke
 +[DDASLLogCapture aslMessageReceived:]
 +[DDASLLogCapture captureAslLogs]
 ___33+[DDASLLogCapture captureAslLogs]_block_invoke
-___copy_helper_block_e8_36r
-___destroy_helper_block_e8_36r
 __cancel
 __captureLevel
-___block_descriptor_40_e8_36r_e7_v8?0i4l
+___block_descriptor_56_e8_40r_e8_v12?0i8l
 __OBJC_$_CLASS_METHODS_DDASLLogCapture
 __OBJC_$_CLASS_PROP_LIST_DDASLLogCapture
 __OBJC_METACLASS_RO_$_DDASLLogCapture
 __OBJC_CLASS_RO_$_DDASLLogCapture
 /Users/iamsimranjot/Documents/Projects/haptik-ios-framework/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDASLLogCapture.m
-__destroy_helper_block_e8_36r
-__copy_helper_block_e8_36r
 __33+[DDASLLogCapture captureAslLogs]_block_invoke
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDASLLogCapture.m
 __24+[DDASLLogCapture start]_block_invoke
@@ -9332,7 +9326,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.643
 _OBJC_CLASSLIST_REFERENCES_$_.648
 _OBJC_CLASSLIST_REFERENCES_$_.661
 _OBJC_CLASSLIST_REFERENCES_$_.693
-___block_descriptor_36_e4_20s24s28w_e5_v4?0l
+___block_descriptor_64_e8_32s40s48w_e5_v8?0l
 _OBJC_IVAR_$_QRViewHelper.smartAction
 __OBJC_$_CLASS_METHODS_QRViewHelper
 __OBJC_CLASS_PROTOCOLS_$_QRViewHelper
@@ -9408,16 +9402,16 @@ ___48+[HPStateObservers observeSignificantTimeChange]_block_invoke_2
 +[HPStateObservers observeDidReceiveMemoryWarning]
 ___50+[HPStateObservers observeDidReceiveMemoryWarning]_block_invoke
 ___50+[HPStateObservers observeDidReceiveMemoryWarning]_block_invoke_2
-___block_descriptor_20_e23_v8?0"NSNotification"4l
-___block_descriptor_20_e19_v12?0c4"NSError"8l
-___block_literal_global.35
-___block_literal_global.44
-___block_literal_global.51
+___block_descriptor_32_e24_v16?0"NSNotification"8l
+___block_descriptor_32_e20_v20?0B8"NSError"12l
+___block_literal_global.33
+___block_literal_global.42
+___block_literal_global.49
+___block_literal_global.58
+___block_literal_global.59
 ___block_literal_global.60
-___block_literal_global.61
-___block_literal_global.62
-___block_literal_global.65
-___block_literal_global.68
+___block_literal_global.63
+___block_literal_global.66
 __OBJC_$_CLASS_METHODS_HPStateObservers
 __OBJC_METACLASS_RO_$_HPStateObservers
 __OBJC_CLASS_RO_$_HPStateObservers
@@ -9462,11 +9456,11 @@ HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKInputAccess
 __OBJC_CLASS_PROTOCOLS_$_MQTTTransport
 __OBJC_METACLASS_RO_$_MQTTTransport
 __OBJC_$_INSTANCE_METHODS_MQTTTransport
+_OBJC_IVAR_$_MQTTTransport.port
 _OBJC_IVAR_$_MQTTTransport.state
 _OBJC_IVAR_$_MQTTTransport.queue
 _OBJC_IVAR_$_MQTTTransport.delegate
 _OBJC_IVAR_$_MQTTTransport.host
-_OBJC_IVAR_$_MQTTTransport.port
 __OBJC_$_INSTANCE_VARIABLES_MQTTTransport
 __OBJC_$_PROP_LIST_MQTTTransport.93
 __OBJC_CLASS_RO_$_MQTTTransport
@@ -9547,12 +9541,11 @@ _OBJC_IVAR_$_CarouselDetailViewController.dataObject
 _OBJC_IVAR_$_CarouselDetailViewController.type
 _OBJC_IVAR_$_CarouselDetailViewController.payload
 _OBJC_CLASSLIST_REFERENCES_$_.407
-_OBJC_CLASSLIST_REFERENCES_$_.408
 _OBJC_IVAR_$_CarouselDetailViewController.imgCarousel
 _OBJC_IVAR_$_CarouselDetailViewController.pageControl
 _OBJC_CLASSLIST_REFERENCES_$_.524
 _OBJC_CLASSLIST_REFERENCES_$_.529
-___block_descriptor_28_e4_20s24s_e27_v8?0"NSAttributedString"4l
+___block_descriptor_48_e8_32s40s_e28_v16?0"NSAttributedString"8l
 _OBJC_IVAR_$_CarouselDetailViewController.messageSenderDelegate
 _OBJC_IVAR_$_CarouselDetailViewController.business
 _OBJC_IVAR_$_CarouselDetailViewController.positionInView
@@ -9689,7 +9682,6 @@ ___38-[SRWebSocket safeHandleEvent:stream:]_block_invoke_2
 ___36-[SRWebSocket closeWithCode:reason:]_block_invoke.cold.1
 ___36-[SRWebSocket closeWithCode:reason:]_block_invoke.cold.2
 -[SRWebSocket _handleFrameHeader:curData:].cold.1
--[SRWebSocket _handleFrameHeader:curData:].cold.2
 -[SRWebSocket _readFrameContinue].cold.1
 ___33-[SRWebSocket _readFrameContinue]_block_invoke_2.cold.1
 ___33-[SRWebSocket _readFrameContinue]_block_invoke_2.cold.2
@@ -9699,22 +9691,21 @@ ___33-[SRWebSocket _readFrameContinue]_block_invoke_2.cold.4
 -[SRWebSocket _innerPumpScanner].cold.1
 -[SRWebSocket _sendFrameWithOpcode:data:].cold.1
 -[SRWebSocket safeHandleEvent:stream:].cold.1
-_OBJC_CLASSLIST_REFERENCES_$_.28
-___block_descriptor_24_e4_20w_e53_v16?0"NSError"4"NSInputStream"8"NSOutputStream"12l
+___block_descriptor_40_e8_32w_e54_v32?0"NSError"8"NSInputStream"16"NSOutputStream"24l
 _OBJC_CLASSLIST_REFERENCES_$_.79
-___block_descriptor_24_e4_20s_e79_v10?0"<SRWebSocketDelegate>"4{SRDelegateAvailableMethods=b1b1b1b1b1b1b1b1b1}8l
-___block_descriptor_24_e4_20s_e31_v12?0"SRWebSocket"4"NSData"8l
-___block_descriptor_28_e4_20s24s_e79_v10?0"<SRWebSocketDelegate>"4{SRDelegateAvailableMethods=b1b1b1b1b1b1b1b1b1}8l
-___block_descriptor_24_e4_20r_e5_v4?0l
+___block_descriptor_40_e8_32s_e80_v18?0"<SRWebSocketDelegate>"8{SRDelegateAvailableMethods=b1b1b1b1b1b1b1b1b1}16l
+___block_descriptor_40_e8_32s_e32_v24?0"SRWebSocket"8"NSData"16l
+___block_descriptor_48_e8_32s40s_e80_v18?0"<SRWebSocketDelegate>"8{SRDelegateAvailableMethods=b1b1b1b1b1b1b1b1b1}16l
+___block_descriptor_40_e8_32r_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.197
-___block_descriptor_32_e4_20s24s28s_e79_v10?0"<SRWebSocketDelegate>"4{SRDelegateAvailableMethods=b1b1b1b1b1b1b1b1b1}8l
-___block_descriptor_33_e31_v12?0"SRWebSocket"4"NSData"8l
-___block_descriptor_20_e31_v12?0"SRWebSocket"4"NSData"8l
-___block_descriptor_24_e4_20r_e31_v12?0"SRWebSocket"4"NSData"8l
-___block_descriptor_32_e4_20s24r28r_e46_B20?0"NSObject<OS_dispatch_data>"4L8r^v12L16l
+___block_descriptor_56_e8_32s40s48s_e80_v18?0"<SRWebSocketDelegate>"8{SRDelegateAvailableMethods=b1b1b1b1b1b1b1b1b1}16l
+___block_descriptor_49_e32_v24?0"SRWebSocket"8"NSData"16l
+___block_descriptor_32_e32_v24?0"SRWebSocket"8"NSData"16l
+___block_descriptor_40_e8_32r_e32_v24?0"SRWebSocket"8"NSData"16l
+___block_descriptor_56_e8_32s40r48r_e47_B40?0"NSObject<OS_dispatch_data>"8Q16r^v24Q32l
 _CRLFCRLFBytes
-___block_descriptor_28_e15_L8?0"NSData"4l
-___block_descriptor_24_e4_20s_e46_B20?0"NSObject<OS_dispatch_data>"4L8r^v12L16l
+___block_descriptor_48_e16_Q16?0"NSData"8l
+___block_descriptor_40_e8_32s_e47_B40?0"NSObject<OS_dispatch_data>"8Q16r^v24Q32l
 __OBJC_$_CLASS_METHODS_SRWebSocket
 __OBJC_CLASS_PROTOCOLS_$_SRWebSocket
 __OBJC_METACLASS_RO_$_SRWebSocket
