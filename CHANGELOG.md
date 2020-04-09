@@ -2,6 +2,19 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.4.2] - (09/04/20) - F iOS
+
+### Features
+
+### Enhancements
+
+### Bugs
+
+### Changed
+- Forces DB to reset on inconsistency exeptions.
+
+---
+
 ## [2.4.1] - (03/04/20) - F iOS
 
 ### Features
