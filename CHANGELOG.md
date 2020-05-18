@@ -2,6 +2,31 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.5.0] - (09/04/20) - K iOS
+
+### Features
+- Document upload in chat supported
+- Added restriction to enable camera only option
+- Added Forms as a HSL Smart Action
+
+### Enhancements
+- Added UI Tests for Task Box in Haptik Demo
+- Added UI Tests for Quick Reply in Haptik Demo
+- Handled Reachability edge cases
+- Removed Core-Data warnings
+
+### Bugs
+- Fixes sent form being display on successive launch
+- Fixes contact picker field crash on simulators
+- Lightweight migrations fixed
+- Fixes Multithread violations
+
+### Changed
+- Default carousel width to medium
+- Forms removed form sync
+
+---
+
 ## [2.4.2] - (09/04/20) - F iOS
 
 ### Features
