@@ -14,6 +14,7 @@ FOUNDATION_EXPORT double HaptikBaseVersionNumber;
 //! Project version string for HaptikBase.
 FOUNDATION_EXPORT const unsigned char HaptikBaseVersionString[];
 
+#import <HaptikBase/HPCompatibilityMacros.h>
 
 #import <HaptikBase/HPSpeechAPI.h>
 #import <HaptikBase/HPAudioAPI.h>
@@ -25,7 +26,14 @@ FOUNDATION_EXPORT const unsigned char HaptikBaseVersionString[];
 #import <HaptikBase/HaptikUser.h>
 #import <HaptikBase/HaptikUserInfo.h>
 
-#import <HaptikBase/HPWebService.h>
+#import <HaptikBase/HPCompoundReachability.h>
+#import <HaptikBase/HPNetworkingClient.h>
+#import <HaptikBase/HPURLSessionManager.h>
+#import <HaptikBase/HPHTTPSessionManager.h>
+#import <HaptikBase/HPNetworkReachabilityManager.h>
+#import <HaptikBase/HPSecurityPolicy.h>
+#import <HaptikBase/HPURLRequestSerialization.h>
+#import <HaptikBase/HPURLResponseSerialization.h>
 
 #import <HaptikBase/HPSharedConstants.h>
 
@@ -52,7 +60,6 @@ FOUNDATION_EXPORT const unsigned char HaptikBaseVersionString[];
 #import <HaptikBase/HPKeyboardAdjustingScrollView.h>
 
 #import <HaptikBase/HPAnalyticsService.h>
-#import <HaptikBase/HPReachabilityNotifier.h>
 
 #import <HaptikBase/NSArray+HPAdditions.h>
 #import <HaptikBase/UIView+HPAdditions.h>
