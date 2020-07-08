@@ -2,6 +2,30 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.6.0] - (08/07/20) - O iOS
+
+### Features
+- Taskbox overlay can now be triggerd from backend
+
+### Enhancements
+
+- Added UI Tests for Location in Haptik Demo
+- Added UI Tests for FeedbackViw in Haptik Demo
+- Added UI Tests for Link and message in Haptik Demo
+- Added UI Tests for file upload in Haptik Demo
+- Added UI Tests for Carousel in Haptik Demo
+- Updated analytics for Forms HSL 
+- Updated SSL certificate
+- Added support for `launch_inapp` for URI type `Link`
+
+### Bugs
+
+- Fixes overlapping of keyboard on feedback view
+- Fixes low TTS volume
+- Fixes URL redirections for URI type `LINK` 
+
+---
+
 ## [2.5.0] - (09/04/20) - K iOS
 
 ### Features

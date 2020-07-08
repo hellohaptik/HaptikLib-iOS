@@ -17,6 +17,7 @@ class RootViewController: UIViewController {
     @IBOutlet weak var signupBtn: UIButton!
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
     
+    let demoViaName = "sanqachannel"
     
     // MARK: Controller Lifecycle
     
@@ -75,7 +76,7 @@ extension RootViewController {
         
         // Option B
         
-        let conversation = try? Haptik.sharedSDK().getConversationFor(viaName: "reminderschannel",
+        let conversation = try? Haptik.sharedSDK().getConversationFor(viaName: demoViaName,
                                                                       launchMessage: "",
                                                                       hideLaunchMessage: false)
         if let conversation = conversation {
@@ -88,8 +89,8 @@ extension RootViewController {
         // Make the signup object which contains the required information used for signup
         let signupObject = HPSignUpObject.build(withAuthType: "basic") { (builder) in
             
-            builder.userFullName = "Simranjot"
-            builder.viaName = "reminderschannel"
+            builder.userFullName = "DemoUser"
+            builder.viaName = self.demoViaName
             
             // You can set more properties on the builder according to the requirements
         }
