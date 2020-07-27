@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.6.1] - (27/07/20) - P iOS
+
+### Bugs
+- Fixed network connection error
+
 ## [2.6.0] - (08/07/20) - O iOS
 
 ### Features
