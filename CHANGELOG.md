@@ -2,6 +2,14 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.6.2] - (19/08/20) - R iOS
+
+### Enhancements
+- Added support for multi-line subtitles & description for Carousels.
+
+### Bugs
+- Fixes background thread error in Chatform search.
+
 ## [2.6.1] - (27/07/20) - P iOS
 
 ### Bugs
