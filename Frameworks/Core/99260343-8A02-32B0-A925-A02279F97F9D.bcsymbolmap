@@ -6751,6 +6751,7 @@ HaptikLib/Helpers/Generic Helpers/HPGenericHelpers.m
 +[HSLCarouselViewHelper getSubTitleLabelFor:itemCount:initialRect:]
 +[HSLCarouselViewHelper getDescriptionLabelFor:itemCount:initialRect:]
 +[HSLCarouselViewHelper computeCarouselHeightFor:ofWidth:]
++[HSLCarouselViewHelper getReferenceCarouselItemFromItems:]
 +[HSLCarouselViewHelper getWidthForType:]
 +[HSLCarouselViewHelper getThumbnailHeightFor:width:imageURL:]
 +[HSLCarouselViewHelper getCTATotalHeightFor:]
