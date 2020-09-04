@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.6.3] - (04/09/20) - S iOS
+
+### Bugs
+- Fixes feedback overlay issue
+
 ## [2.6.2] - (19/08/20) - R iOS
 
 ### Enhancements
