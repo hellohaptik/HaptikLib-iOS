@@ -1,11 +1,11 @@
 PODS:
   - FLAnimatedImage (1.0.12)
-  - HaptikLib (2.6.2):
-    - HaptikLib/Core (= 2.6.2)
-  - HaptikLib/Base (2.6.2):
+  - HaptikLib (2.6.3):
+    - HaptikLib/Core (= 2.6.3)
+  - HaptikLib/Base (2.6.3):
     - PINRemoteImage (= 3.0.0-beta.13)
     - PINRemoteImage/WebP (= 3.0.0-beta.13)
-  - HaptikLib/Core (2.6.2):
+  - HaptikLib/Core (2.6.3):
     - HaptikLib/Base
   - libwebp (1.0.0):
     - libwebp/core (= 1.0.0)
@@ -71,7 +71,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
-  HaptikLib: 0ed8c267c064c1a8b5d85f8cf47d7efffc3cabe2
+  HaptikLib: 7a8c4eb127ef4fe727b146dfa7994f5c9a40ddce
   libwebp: d7e0c95fe97245c97e08101eba10702ebb0f6101
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
