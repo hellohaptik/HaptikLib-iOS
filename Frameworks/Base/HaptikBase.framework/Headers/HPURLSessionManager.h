@@ -3,12 +3,12 @@
 
 #import <Foundation/Foundation.h>
 
-#import "HPURLResponseSerialization.h"
-#import "HPURLRequestSerialization.h"
-#import "HPSecurityPolicy.h"
-#import "HPCompatibilityMacros.h"
+#import <HaptikBase/HPURLResponseSerialization.h>
+#import <HaptikBase/HPURLRequestSerialization.h>
+#import <HaptikBase/HPSecurityPolicy.h>
+#import <HaptikBase/HPCompatibilityMacros.h>
 #if !TARGET_OS_WATCH
-#import "HPNetworkReachabilityManager.h"
+#import <HaptikBase/HPNetworkReachabilityManager.h>
 #endif
 
 /**

@@ -1,5 +1,7 @@
 BCSymbolMap Version: 2.0
-Apple clang version 11.0.3 (clang-1103.0.32.62)
+Apple clang version 12.0.0 (clang-1200.0.32.2)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk
+iPhoneOS14.0.sdk
 /Users/hap/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikLib.build/Release-iphoneos/HaptikLib.build/DerivedSources/HaptikLib_vers.c
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikLib
 -[MQTTSession(Synchron) connectAndWaitTimeout:]
@@ -63,7 +65,6 @@ _OBJC_SELECTOR_REFERENCES_.94
 _OBJC_SELECTOR_REFERENCES_.96
 __OBJC_$_CATEGORY_INSTANCE_METHODS_MQTTSession_$_Synchron
 __OBJC_$_CATEGORY_MQTTSession_$_Synchron
-_OBJC_LABEL_CATEGORY_$
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionSynchron.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionSynchron.m
 -[ImageGalleryViewController initWithMessageComposer:URLs:]
@@ -116,8 +117,6 @@ ___46-[ImageGalleryViewController willHideKeyboard]_block_invoke_2
 -[ImageGalleryViewController setToolBarBottomAnchor:]
 -[ImageGalleryViewController .cxx_destruct]
 ___clang_at_available_requires_core_foundation_framework
-___clang_at_available_requires_core_foundation_framework.cold.1
-_OBJC_CLASSLIST_SUP_REFS_$_
 _OBJC_IVAR_$_ImageGalleryViewController.shouldShowMessageComposer
 _OBJC_IVAR_$_ImageGalleryViewController.urlStrings
 _OBJC_SELECTOR_REFERENCES_.44
@@ -271,7 +270,6 @@ __OBJC_$_INSTANCE_METHODS_ImageGalleryViewController
 __OBJC_$_INSTANCE_VARIABLES_ImageGalleryViewController
 __OBJC_$_PROP_LIST_ImageGalleryViewController
 __OBJC_CLASS_RO_$_ImageGalleryViewController
-_OBJC_LABEL_CLASS_$
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikLib/HaptikLib/View Controllers/Image Gallery VC/ImageGalleryViewController.m
 HaptikLib/View Controllers/Image Gallery VC/ImageGalleryViewController.m
 __46-[ImageGalleryViewController willHideKeyboard]_block_invoke_2
@@ -790,10 +788,11 @@ _OBJC_SELECTOR_REFERENCES_.51
 _OBJC_SELECTOR_REFERENCES_.53
 _OBJC_CLASSLIST_REFERENCES_$_.54
 _OBJC_SELECTOR_REFERENCES_.84
+_OBJC_CLASSLIST_REFERENCES_$_.89
 _OBJC_SELECTOR_REFERENCES_.91
-_OBJC_CLASSLIST_REFERENCES_$_.94
-_OBJC_CLASSLIST_REFERENCES_$_.109
-_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_CLASSLIST_REFERENCES_$_.106
+_OBJC_SELECTOR_REFERENCES_.133
 __OBJC_$_CLASS_METHODS_DDLog
 __OBJC_$_CLASS_PROP_LIST_DDLog
 __OBJC_METACLASS_RO_$_DDLog
@@ -802,17 +801,15 @@ _OBJC_IVAR_$_DDLog.__loggers
 __OBJC_$_INSTANCE_VARIABLES_DDLog
 __OBJC_$_PROP_LIST_DDLog
 __OBJC_CLASS_RO_$_DDLog
-_OBJC_CLASSLIST_SUP_REFS_$_.171
 __OBJC_$_CLASS_METHODS_DDLoggerNode
 __OBJC_METACLASS_RO_$_DDLoggerNode
 __OBJC_$_INSTANCE_METHODS_DDLoggerNode
 __OBJC_$_INSTANCE_VARIABLES_DDLoggerNode
 __OBJC_$_PROP_LIST_DDLoggerNode
 __OBJC_CLASS_RO_$_DDLoggerNode
-_OBJC_CLASSLIST_SUP_REFS_$_.194
-_OBJC_CLASSLIST_REFERENCES_$_.195
-_OBJC_CLASSLIST_REFERENCES_$_.202
-_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_CLASSLIST_REFERENCES_$_.192
+_OBJC_CLASSLIST_REFERENCES_$_.199
+_OBJC_SELECTOR_REFERENCES_.203
 __use_dispatch_current_queue_label
 __use_dispatch_get_current_queue
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
@@ -825,10 +822,15 @@ __OBJC_$_INSTANCE_METHODS_DDLogMessage
 __OBJC_$_INSTANCE_VARIABLES_DDLogMessage
 __OBJC_$_PROP_LIST_DDLogMessage
 __OBJC_CLASS_RO_$_DDLogMessage
-_OBJC_CLASSLIST_SUP_REFS_$_.280
-_OBJC_CLASSLIST_REFERENCES_$_.289
+_OBJC_SELECTOR_REFERENCES_.279
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_CLASSLIST_REFERENCES_$_.286
+_OBJC_SELECTOR_REFERENCES_.287
+_OBJC_SELECTOR_REFERENCES_.289
+_OBJC_SELECTOR_REFERENCES_.291
+_OBJC_SELECTOR_REFERENCES_.293
 ___block_descriptor_48_e8_32s40bs_e5_v8?0l
-_OBJC_SELECTOR_REFERENCES_.298
+_OBJC_SELECTOR_REFERENCES_.295
 __OBJC_$_PROTOCOL_REFS_DDLogger
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_DDLogger
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_DDLogger
@@ -842,8 +844,6 @@ __OBJC_$_INSTANCE_METHODS_DDAbstractLogger
 __OBJC_$_INSTANCE_VARIABLES_DDAbstractLogger
 __OBJC_$_PROP_LIST_DDAbstractLogger
 __OBJC_CLASS_RO_$_DDAbstractLogger
-_OBJC_CLASSLIST_SUP_REFS_$_.358
-_OBJC_SELECTOR_REFERENCES_.360
 __OBJC_$_CLASS_METHODS_DDLoggerInformation
 __OBJC_METACLASS_RO_$_DDLoggerInformation
 __OBJC_$_INSTANCE_METHODS_DDLoggerInformation
@@ -851,10 +851,7 @@ __OBJC_$_INSTANCE_VARIABLES_DDLoggerInformation
 __OBJC_$_PROP_LIST_DDLoggerInformation
 __OBJC_CLASS_RO_$_DDLoggerInformation
 __dispatch_queue_label_init.onceToken
-_OBJC_CLASSLIST_REFERENCES_$_.364
-_OBJC_SELECTOR_REFERENCES_.366
-_OBJC_SELECTOR_REFERENCES_.368
-_OBJC_SELECTOR_REFERENCES_.370
+_OBJC_CLASSLIST_REFERENCES_$_.361
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDLog.m
 _dispatch_queue_label_init_once
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDLog.m
@@ -865,7 +862,7 @@ __36-[DDAbstractLogger setLogFormatter:]_block_invoke
 __32-[DDAbstractLogger logFormatter]_block_invoke_2
 __32-[DDAbstractLogger logFormatter]_block_invoke
 _dispatch_queue_label_init
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/dispatch/once.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/dispatch/once.h
 DDExtractFileNameWithoutExtension
 __17-[DDLog lt_flush]_block_invoke
 __16-[DDLog lt_log:]_block_invoke_2
@@ -1104,7 +1101,6 @@ _OBJC_IVAR_$_iCarousel._itemViews
 _OBJC_CLASSLIST_REFERENCES_$_.85
 _OBJC_SELECTOR_REFERENCES_.89
 _OBJC_CLASSLIST_REFERENCES_$_.90
-_OBJC_SELECTOR_REFERENCES_.133
 _OBJC_IVAR_$_iCarousel._itemWidth
 _OBJC_IVAR_$_iCarousel._toggle
 _OBJC_SELECTOR_REFERENCES_.141
@@ -1124,18 +1120,15 @@ _OBJC_IVAR_$_iCarousel._numberOfPlaceholdersToShow
 _OBJC_IVAR_$_iCarousel._previousScrollOffset
 _OBJC_IVAR_$_iCarousel._itemViewPool
 _OBJC_IVAR_$_iCarousel._placeholderViewPool
-_OBJC_SELECTOR_REFERENCES_.203
 _OBJC_IVAR_$_iCarousel._startTime
 _OBJC_IVAR_$_iCarousel._scrollDuration
 _OBJC_SELECTOR_REFERENCES_.252
 _OBJC_IVAR_$_iCarousel._previousItemIndex
 _OBJC_CLASSLIST_REFERENCES_$_.279
 _OBJC_SELECTOR_REFERENCES_.281
-_OBJC_SELECTOR_REFERENCES_.283
 _OBJC_CLASSLIST_REFERENCES_$_.284
 _OBJC_IVAR_$_iCarousel._timer
 _OBJC_CLASSLIST_REFERENCES_$_.293
-_OBJC_SELECTOR_REFERENCES_.295
 _OBJC_SELECTOR_REFERENCES_.297
 _OBJC_CLASSLIST_REFERENCES_$_.300
 _OBJC_SELECTOR_REFERENCES_.302
@@ -1154,7 +1147,10 @@ _OBJC_CLASSLIST_REFERENCES_$_.347
 _OBJC_SELECTOR_REFERENCES_.354
 _OBJC_IVAR_$_iCarousel._previousTranslation
 _OBJC_SELECTOR_REFERENCES_.358
+_OBJC_SELECTOR_REFERENCES_.360
 _OBJC_SELECTOR_REFERENCES_.362
+_OBJC_SELECTOR_REFERENCES_.366
+_OBJC_SELECTOR_REFERENCES_.368
 __OBJC_METACLASS_RO_$_iCarousel
 __OBJC_$_INSTANCE_METHODS_iCarousel
 __OBJC_$_INSTANCE_VARIABLES_iCarousel
@@ -1164,7 +1160,7 @@ __OBJC_CLASS_RO_$_iCarousel
 HaptikLib/Views/UIViews/iCarousel/iCarousel.m
 HaptikLib/Views/UIViews/iCarousel/iCarousel.h
 __tg_fabs
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/tgmath.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/tgmath.h
 __tg_round
 __tg_pow
 __tg_floor
@@ -1174,7 +1170,7 @@ __tg_cos
 __tg_sin
 compareViewDepth
 __CGSizeEqualToSize
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 -[SendAgainButton chatMessage]
 -[SendAgainButton setChatMessage:]
 -[SendAgainButton .cxx_destruct]
@@ -1287,6 +1283,7 @@ ___block_descriptor_64_e8_32bs40r48r56r_e17_v16?0"NSError"8l
 ___block_descriptor_120_e8_32s48s56s64s72s80s88r96r104r_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.198
 _OBJC_CLASSLIST_REFERENCES_$_.201
+_OBJC_CLASSLIST_REFERENCES_$_.202
 _OBJC_CLASSLIST_REFERENCES_$_.211
 ___block_descriptor_96_e8_32s48s56s64s72r_e5_v8?0l
 ___block_descriptor_48_e8_32bs40r_e17_v16?0"NSError"8l
@@ -1436,7 +1433,7 @@ __OBJC_CLASS_RO_$_MQTTProperties
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTProperties.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTProperties.h
 NSMakeRange
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 +[MQTTSessionDelegate sharedInstance]
 ___37+[MQTTSessionDelegate sharedInstance]_block_invoke
 -[MQTTSessionDelegate init]
@@ -1467,7 +1464,6 @@ ___47-[MQTTSessionDelegate handleEvent:event:error:]_block_invoke_2
 -[MQTTSessionDelegate .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.177
 ___block_descriptor_56_e8_32s40bs48w_e5_v8?0l
-_OBJC_CLASSLIST_REFERENCES_$_.199
 _OBJC_CLASSLIST_REFERENCES_$_.214
 _OBJC_CLASSLIST_REFERENCES_$_.219
 _OBJC_CLASSLIST_REFERENCES_$_.238
@@ -1480,8 +1476,6 @@ _OBJC_SELECTOR_REFERENCES_.269
 _OBJC_SELECTOR_REFERENCES_.271
 _OBJC_CLASSLIST_REFERENCES_$_.272
 _OBJC_CLASSLIST_REFERENCES_$_.287
-_OBJC_SELECTOR_REFERENCES_.289
-_OBJC_SELECTOR_REFERENCES_.291
 ___block_descriptor_41_e8_32s_e64_v32?0"ChatMessages"8"HSLSmartAction"16"RegularSmartAction"24l
 _OBJC_SELECTOR_REFERENCES_.303
 _OBJC_SELECTOR_REFERENCES_.305
@@ -1688,7 +1682,6 @@ _OBJC_IVAR_$_SmartFormTableViewCell.metaLab
 _OBJC_IVAR_$_SmartFormTableViewCell.captionLab
 _OBJC_CLASSLIST_REFERENCES_$_.68
 _OBJC_IVAR_$_SmartFormTableViewCell.imageView
-_OBJC_CLASSLIST_REFERENCES_$_.89
 _OBJC_SELECTOR_REFERENCES_.93
 __OBJC_METACLASS_RO_$_SmartFormTableViewCell
 __OBJC_$_INSTANCE_METHODS_SmartFormTableViewCell
@@ -1718,7 +1711,7 @@ ___41-[DDAbstractDatabaseLogger saveThreshold]_block_invoke
 ___41-[DDAbstractDatabaseLogger saveThreshold]_block_invoke_2
 -[DDAbstractDatabaseLogger setSaveThreshold:]
 ___45-[DDAbstractDatabaseLogger setSaveThreshold:]_block_invoke
-___45-[DDAbstractDatabaseLogger setSaveThreshold:]_block_invoke.41
+___45-[DDAbstractDatabaseLogger setSaveThreshold:]_block_invoke.37
 -[DDAbstractDatabaseLogger saveInterval]
 ___40-[DDAbstractDatabaseLogger saveInterval]_block_invoke
 ___40-[DDAbstractDatabaseLogger saveInterval]_block_invoke_2
@@ -1742,7 +1735,7 @@ ___45-[DDAbstractDatabaseLogger deleteOnEverySave]_block_invoke
 ___45-[DDAbstractDatabaseLogger deleteOnEverySave]_block_invoke_2
 -[DDAbstractDatabaseLogger setDeleteOnEverySave:]
 ___49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke
-___49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke.48
+___49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke.44
 -[DDAbstractDatabaseLogger savePendingLogEntries]
 ___49-[DDAbstractDatabaseLogger savePendingLogEntries]_block_invoke
 -[DDAbstractDatabaseLogger deleteOldLogEntries]
@@ -1752,10 +1745,8 @@ ___47-[DDAbstractDatabaseLogger deleteOldLogEntries]_block_invoke
 -[DDAbstractDatabaseLogger logMessage:]
 -[DDAbstractDatabaseLogger flush]
 -[DDAbstractDatabaseLogger .cxx_destruct]
-_OBJC_CLASSLIST_REFERENCES_$_.27
-_OBJC_SELECTOR_REFERENCES_.33
-_OBJC_SELECTOR_REFERENCES_.35
-_OBJC_CLASSLIST_REFERENCES_$_.38
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_CLASSLIST_REFERENCES_$_.34
 __OBJC_METACLASS_RO_$_DDAbstractDatabaseLogger
 __OBJC_$_INSTANCE_METHODS_DDAbstractDatabaseLogger
 __OBJC_$_INSTANCE_VARIABLES_DDAbstractDatabaseLogger
@@ -1765,7 +1756,7 @@ __OBJC_CLASS_RO_$_DDAbstractDatabaseLogger
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDAbstractDatabaseLogger.m
 __47-[DDAbstractDatabaseLogger deleteOldLogEntries]_block_invoke
 __49-[DDAbstractDatabaseLogger savePendingLogEntries]_block_invoke
-__49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke.48
+__49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke.44
 __49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke
 __45-[DDAbstractDatabaseLogger deleteOnEverySave]_block_invoke_2
 __45-[DDAbstractDatabaseLogger deleteOnEverySave]_block_invoke
@@ -1781,7 +1772,7 @@ __44-[DDAbstractDatabaseLogger setSaveInterval:]_block_invoke_2
 __44-[DDAbstractDatabaseLogger setSaveInterval:]_block_invoke
 __40-[DDAbstractDatabaseLogger saveInterval]_block_invoke_2
 __40-[DDAbstractDatabaseLogger saveInterval]_block_invoke
-__45-[DDAbstractDatabaseLogger setSaveThreshold:]_block_invoke.41
+__45-[DDAbstractDatabaseLogger setSaveThreshold:]_block_invoke.37
 __45-[DDAbstractDatabaseLogger setSaveThreshold:]_block_invoke
 __41-[DDAbstractDatabaseLogger saveThreshold]_block_invoke_2
 __41-[DDAbstractDatabaseLogger saveThreshold]_block_invoke
@@ -2201,6 +2192,7 @@ ___57-[HPConversationDataSource lastMessageLocalInsertionDate]_block_invoke
 _OBJC_CLASSLIST_REFERENCES_$_.137
 _OBJC_CLASSLIST_REFERENCES_$_.156
 _OBJC_CLASSLIST_REFERENCES_$_.200
+_OBJC_SELECTOR_REFERENCES_.214
 _OBJC_SELECTOR_REFERENCES_.216
 _OBJC_CLASSLIST_REFERENCES_$_.237
 _OBJC_CLASSLIST_REFERENCES_$_.242
@@ -2291,6 +2283,7 @@ __98+[MessageWrapper(HPNativeActions) forwardNativeActionResult:messageType:inBu
 -[ConversationViewModel(HPComposerBar) textViewFrameChanged]
 _OBJC_SELECTOR_REFERENCES_.124
 _OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
 __OBJC_$_CATEGORY_INSTANCE_METHODS_ConversationViewModel_$_HPComposerBar
 __OBJC_$_PROTOCOL_REFS_HPMessageInputToolbarDelegate
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_HPMessageInputToolbarDelegate
@@ -2389,9 +2382,10 @@ __22-[MQTTDecoder dealloc]_block_invoke
 _OBJC_CLASSLIST_REFERENCES_$_.7
 _OBJC_SELECTOR_REFERENCES_.15
 _OBJC_CLASSLIST_REFERENCES_$_.20
-_OBJC_SELECTOR_REFERENCES_.31
-_OBJC_CLASSLIST_REFERENCES_$_.34
+_OBJC_CLASSLIST_REFERENCES_$_.27
+_OBJC_SELECTOR_REFERENCES_.33
 _OBJC_CLASSLIST_REFERENCES_$_.66
+_OBJC_CLASSLIST_REFERENCES_$_.83
 __OBJC_$_PROTOCOL_REFS_DDLogFormatter
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_DDLogFormatter
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_DDLogFormatter
@@ -2714,6 +2708,7 @@ __37-[HPPlaceholderTextView textChanged:]_block_invoke
 _OBJC_CLASSLIST_REFERENCES_$_.21
 _OBJC_CLASSLIST_REFERENCES_$_.28
 _OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_SELECTOR_REFERENCES_.35
 _OBJC_CLASSLIST_REFERENCES_$_.40
 __OBJC_$_CATEGORY_INSTANCE_METHODS_HPCoreDataController_$_HPMigrations
 __OBJC_$_PROTOCOL_REFS_HPMigrationManagerDelegate
@@ -2737,12 +2732,12 @@ ___75+[ImageViewHelper downloadAndSetImageOnImageView:fromURl:withActionHelper:]
 _OBJC_CLASSLIST_REFERENCES_$_.168
 _OBJC_CLASSLIST_REFERENCES_$_.169
 _OBJC_CLASSLIST_REFERENCES_$_.184
+_OBJC_CLASSLIST_REFERENCES_$_.195
 _OBJC_CLASSLIST_REFERENCES_$_.208
 _OBJC_CLASSLIST_REFERENCES_$_.215
 _OBJC_CLASSLIST_REFERENCES_$_.224
 _OBJC_CLASSLIST_REFERENCES_$_.229
 _OBJC_CLASSLIST_REFERENCES_$_.244
-_OBJC_SELECTOR_REFERENCES_.293
 ___block_descriptor_56_e8_32s40s48s_e30_v16?0"HPImageManagerResult"8l
 __OBJC_$_CLASS_METHODS_ImageViewHelper
 __OBJC_METACLASS_RO_$_ImageViewHelper
@@ -2769,7 +2764,6 @@ ___50+[HPFormHelper fetchSmartFormFieldDefaultDataFor:]_block_invoke_3
 _OBJC_CLASSLIST_REFERENCES_$_.160
 _OBJC_CLASSLIST_REFERENCES_$_.186
 _OBJC_CLASSLIST_REFERENCES_$_.187
-_OBJC_CLASSLIST_REFERENCES_$_.192
 _OBJC_CLASSLIST_REFERENCES_$_.213
 _OBJC_CLASSLIST_REFERENCES_$_.228
 ___block_descriptor_64_e8_32s40s48s_e5_v8?0l
@@ -3123,24 +3117,24 @@ ___28-[DDTTYLogger colorsEnabled]_block_invoke
 ___28-[DDTTYLogger colorsEnabled]_block_invoke_2
 -[DDTTYLogger setColorsEnabled:]
 ___32-[DDTTYLogger setColorsEnabled:]_block_invoke
-___32-[DDTTYLogger setColorsEnabled:]_block_invoke.145
+___32-[DDTTYLogger setColorsEnabled:]_block_invoke.142
 -[DDTTYLogger setForegroundColor:backgroundColor:forFlag:]
 -[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]
 ___66-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]_block_invoke
-___66-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]_block_invoke.153
+___66-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]_block_invoke.150
 -[DDTTYLogger setForegroundColor:backgroundColor:forTag:]
 ___57-[DDTTYLogger setForegroundColor:backgroundColor:forTag:]_block_invoke
-___57-[DDTTYLogger setForegroundColor:backgroundColor:forTag:]_block_invoke.162
+___57-[DDTTYLogger setForegroundColor:backgroundColor:forTag:]_block_invoke.159
 -[DDTTYLogger clearColorsForFlag:]
 -[DDTTYLogger clearColorsForFlag:context:]
 ___42-[DDTTYLogger clearColorsForFlag:context:]_block_invoke
-___42-[DDTTYLogger clearColorsForFlag:context:]_block_invoke.167
+___42-[DDTTYLogger clearColorsForFlag:context:]_block_invoke.164
 -[DDTTYLogger clearColorsForTag:]
 ___33-[DDTTYLogger clearColorsForTag:]_block_invoke
-___33-[DDTTYLogger clearColorsForTag:]_block_invoke.170
+___33-[DDTTYLogger clearColorsForTag:]_block_invoke.167
 -[DDTTYLogger clearColorsForAllFlags]
 ___37-[DDTTYLogger clearColorsForAllFlags]_block_invoke
-___37-[DDTTYLogger clearColorsForAllFlags]_block_invoke.173
+___37-[DDTTYLogger clearColorsForAllFlags]_block_invoke.170
 -[DDTTYLogger clearColorsForAllTags]
 ___36-[DDTTYLogger clearColorsForAllTags]_block_invoke
 ___36-[DDTTYLogger clearColorsForAllTags]_block_invoke_2
@@ -3162,7 +3156,7 @@ _sharedInstance.DDTTYLoggerOnceToken
 _isaXcodeColorTTY
 _isaColorTTY
 _sharedInstance
-_OBJC_CLASSLIST_REFERENCES_$_.112
+_OBJC_CLASSLIST_REFERENCES_$_.109
 _OBJC_IVAR_$_DDTTYLogger._appName
 _OBJC_IVAR_$_DDTTYLogger._appLen
 _OBJC_IVAR_$_DDTTYLogger._app
@@ -3171,10 +3165,10 @@ _OBJC_IVAR_$_DDTTYLogger._pidLen
 _OBJC_IVAR_$_DDTTYLogger._pid
 _OBJC_IVAR_$_DDTTYLogger._colorsEnabled
 _OBJC_IVAR_$_DDTTYLogger._colorProfilesArray
-_OBJC_CLASSLIST_REFERENCES_$_.127
+_OBJC_CLASSLIST_REFERENCES_$_.124
 _OBJC_IVAR_$_DDTTYLogger._colorProfilesDict
 _OBJC_IVAR_$_DDTTYLogger._automaticallyAppendNewlineForCustomFormatters
-_OBJC_CLASSLIST_REFERENCES_$_.138
+_OBJC_CLASSLIST_REFERENCES_$_.135
 ___block_descriptor_72_e8_32s40s48s_e5_v8?0l
 __OBJC_PROTOCOL_REFERENCE_$_NSCopying
 ___block_descriptor_64_e8_32s40s48s56s_e5_v8?0l
@@ -3187,13 +3181,14 @@ __OBJC_$_INSTANCE_METHODS_DDTTYLogger
 __OBJC_$_INSTANCE_VARIABLES_DDTTYLogger
 __OBJC_$_PROP_LIST_DDTTYLogger
 __OBJC_CLASS_RO_$_DDTTYLogger
-_OBJC_CLASSLIST_SUP_REFS_$_.297
-_OBJC_CLASSLIST_REFERENCES_$_.298
+_OBJC_CLASSLIST_REFERENCES_$_.295
+_OBJC_SELECTOR_REFERENCES_.298
 __OBJC_METACLASS_RO_$_DDTTYLoggerColorProfile
 __OBJC_$_INSTANCE_METHODS_DDTTYLoggerColorProfile
 __OBJC_$_INSTANCE_VARIABLES_DDTTYLoggerColorProfile
 __OBJC_CLASS_RO_$_DDTTYLoggerColorProfile
-_OBJC_CLASSLIST_REFERENCES_$_.336
+_OBJC_CLASSLIST_REFERENCES_$_.333
+_OBJC_SELECTOR_REFERENCES_.335
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikLib/HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDTTYLogger.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDTTYLogger.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDTTYLogger.h
@@ -3201,17 +3196,17 @@ __29-[DDTTYLogger clearAllColors]_block_invoke_2
 __29-[DDTTYLogger clearAllColors]_block_invoke
 __36-[DDTTYLogger clearColorsForAllTags]_block_invoke_2
 __36-[DDTTYLogger clearColorsForAllTags]_block_invoke
-__37-[DDTTYLogger clearColorsForAllFlags]_block_invoke.173
+__37-[DDTTYLogger clearColorsForAllFlags]_block_invoke.170
 __37-[DDTTYLogger clearColorsForAllFlags]_block_invoke
-__33-[DDTTYLogger clearColorsForTag:]_block_invoke.170
+__33-[DDTTYLogger clearColorsForTag:]_block_invoke.167
 __33-[DDTTYLogger clearColorsForTag:]_block_invoke
-__42-[DDTTYLogger clearColorsForFlag:context:]_block_invoke.167
+__42-[DDTTYLogger clearColorsForFlag:context:]_block_invoke.164
 __42-[DDTTYLogger clearColorsForFlag:context:]_block_invoke
-__57-[DDTTYLogger setForegroundColor:backgroundColor:forTag:]_block_invoke.162
+__57-[DDTTYLogger setForegroundColor:backgroundColor:forTag:]_block_invoke.159
 __57-[DDTTYLogger setForegroundColor:backgroundColor:forTag:]_block_invoke
-__66-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]_block_invoke.153
+__66-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]_block_invoke.150
 __66-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]_block_invoke
-__32-[DDTTYLogger setColorsEnabled:]_block_invoke.145
+__32-[DDTTYLogger setColorsEnabled:]_block_invoke.142
 __32-[DDTTYLogger setColorsEnabled:]_block_invoke
 __28-[DDTTYLogger colorsEnabled]_block_invoke_2
 __28-[DDTTYLogger colorsEnabled]_block_invoke
@@ -3307,7 +3302,6 @@ _OBJC_IVAR_$_DDContextWhitelistFilterLogFormatter._contextSet
 __OBJC_$_INSTANCE_VARIABLES_DDContextWhitelistFilterLogFormatter
 __OBJC_$_PROP_LIST_DDContextWhitelistFilterLogFormatter
 __OBJC_CLASS_RO_$_DDContextWhitelistFilterLogFormatter
-_OBJC_CLASSLIST_SUP_REFS_$_.74
 __OBJC_CLASS_PROTOCOLS_$_DDContextBlacklistFilterLogFormatter
 __OBJC_METACLASS_RO_$_DDContextBlacklistFilterLogFormatter
 __OBJC_$_INSTANCE_METHODS_DDContextBlacklistFilterLogFormatter
@@ -3315,7 +3309,6 @@ _OBJC_IVAR_$_DDContextBlacklistFilterLogFormatter._contextSet
 __OBJC_$_INSTANCE_VARIABLES_DDContextBlacklistFilterLogFormatter
 __OBJC_$_PROP_LIST_DDContextBlacklistFilterLogFormatter
 __OBJC_CLASS_RO_$_DDContextBlacklistFilterLogFormatter
-_OBJC_CLASSLIST_SUP_REFS_$_.83
 _OBJC_CLASSLIST_REFERENCES_$_.87
 __OBJC_METACLASS_RO_$_DDLoggingContextSet
 __OBJC_$_INSTANCE_METHODS_DDLoggingContextSet
@@ -3484,9 +3477,7 @@ _OBJC_IVAR_$_MultiSelectTableViewCell.checkBox
 _OBJC_CLASSLIST_REFERENCES_$_.81
 _OBJC_IVAR_$_MultiSelectTableViewCell.optionName
 _OBJC_CLASSLIST_REFERENCES_$_.99
-_OBJC_SELECTOR_REFERENCES_.103
 _OBJC_IVAR_$_MultiSelectTableViewCell._option
-_OBJC_CLASSLIST_REFERENCES_$_.106
 _OBJC_CLASSLIST_REFERENCES_$_.115
 _OBJC_CLASSLIST_REFERENCES_$_.122
 _OBJC_IVAR_$_MultiSelectTableViewCell._isSelected
@@ -3706,9 +3697,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.209
 _OBJC_CLASSLIST_REFERENCES_$_.210
 _OBJC_CLASSLIST_REFERENCES_$_.261
 _OBJC_CLASSLIST_REFERENCES_$_.273
-_OBJC_SELECTOR_REFERENCES_.279
 _OBJC_SELECTOR_REFERENCES_.285
-_OBJC_SELECTOR_REFERENCES_.287
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_MQTTPersistence
 __OBJC_$_PROP_LIST_MQTTPersistence
 __OBJC_$_PROTOCOL_METHOD_TYPES_MQTTPersistence
@@ -3970,7 +3959,7 @@ __OBJC_CLASS_RO_$_SLKTypingIndicatorView
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTypingIndicatorView.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTypingIndicatorView.h
 UIEdgeInsetsEqualToEdgeInsets
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
 -[DDLogFileManagerDefault init]
 -[DDLogFileManagerDefault initWithLogsDirectory:]
 +[DDLogFileManagerDefault automaticallyNotifiesObserversForKey:]
@@ -4008,10 +3997,10 @@ ___42-[DDLogFileManagerDefault applicationName]_block_invoke
 -[DDFileLogger dealloc]
 -[DDFileLogger maximumFileSize]
 ___31-[DDFileLogger maximumFileSize]_block_invoke
-___31-[DDFileLogger maximumFileSize]_block_invoke.320
+___31-[DDFileLogger maximumFileSize]_block_invoke.317
 -[DDFileLogger setMaximumFileSize:]
 ___35-[DDFileLogger setMaximumFileSize:]_block_invoke
-___35-[DDFileLogger setMaximumFileSize:]_block_invoke.325
+___35-[DDFileLogger setMaximumFileSize:]_block_invoke.322
 -[DDFileLogger rollingFrequency]
 ___32-[DDFileLogger rollingFrequency]_block_invoke
 ___32-[DDFileLogger rollingFrequency]_block_invoke_2
@@ -4024,7 +4013,7 @@ ___50-[DDFileLogger scheduleTimerToRollLogFileDueToAge]_block_invoke
 -[DDFileLogger rollLogFileWithCompletionBlock:]
 ___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke
 ___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke_2
-___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke.338
+___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke.335
 -[DDFileLogger rollLogFileNow]
 -[DDFileLogger maybeRollLogFileDueToAge]
 -[DDFileLogger maybeRollLogFileDueToSize]
@@ -4066,12 +4055,12 @@ ___36-[DDFileLogger currentLogFileHandle]_block_invoke
 -[DDLogFileInfo reverseCompareByModificationDate:]
 -[DDLogFileInfo filePath]
 -[DDLogFileInfo .cxx_destruct]
-_OBJC_CLASSLIST_SUP_REFS_$_.17
 _OBJC_CLASSLIST_REFERENCES_$_.43
 _OBJC_CLASSLIST_REFERENCES_$_.74
 _OBJC_CLASSLIST_REFERENCES_$_.96
 _OBJC_CLASSLIST_REFERENCES_$_.107
 _OBJC_CLASSLIST_REFERENCES_$_.120
+_OBJC_CLASSLIST_REFERENCES_$_.127
 ___block_descriptor_40_e8_32s_e41_q24?0"DDLogFileInfo"8"DDLogFileInfo"16l
 _applicationName._appName
 _applicationName.onceToken
@@ -4094,7 +4083,6 @@ _OBJC_IVAR_$_DDLogFileManagerDefault._defaultFileProtectionLevel
 __OBJC_$_INSTANCE_VARIABLES_DDLogFileManagerDefault
 __OBJC_$_PROP_LIST_DDLogFileManagerDefault
 __OBJC_CLASS_RO_$_DDLogFileManagerDefault
-_OBJC_CLASSLIST_SUP_REFS_$_.271
 __OBJC_CLASS_PROTOCOLS_$_DDLogFileFormatterDefault
 __OBJC_METACLASS_RO_$_DDLogFileFormatterDefault
 __OBJC_$_INSTANCE_METHODS_DDLogFileFormatterDefault
@@ -4102,32 +4090,21 @@ _OBJC_IVAR_$_DDLogFileFormatterDefault._dateFormatter
 __OBJC_$_INSTANCE_VARIABLES_DDLogFileFormatterDefault
 __OBJC_$_PROP_LIST_DDLogFileFormatterDefault
 __OBJC_CLASS_RO_$_DDLogFileFormatterDefault
-_OBJC_CLASSLIST_SUP_REFS_$_.294
 _OBJC_IVAR_$_DDFileLogger._maximumFileSize
 _OBJC_IVAR_$_DDFileLogger._rollingFrequency
 _OBJC_IVAR_$_DDFileLogger._automaticallyAppendNewlineForCustomFormatters
 _OBJC_IVAR_$_DDFileLogger.logFileManager
-_OBJC_CLASSLIST_REFERENCES_$_.295
 _OBJC_IVAR_$_DDFileLogger._currentLogFileHandle
 _OBJC_IVAR_$_DDFileLogger._currentLogFileVnode
 _OBJC_IVAR_$_DDFileLogger._rollingTimer
-_OBJC_CLASSLIST_REFERENCES_$_.309
-_OBJC_SELECTOR_REFERENCES_.335
+_OBJC_CLASSLIST_REFERENCES_$_.304
 _OBJC_SELECTOR_REFERENCES_.337
+_OBJC_SELECTOR_REFERENCES_.339
 _OBJC_SELECTOR_REFERENCES_.341
-_OBJC_SELECTOR_REFERENCES_.342
-_OBJC_SELECTOR_REFERENCES_.344
-_OBJC_SELECTOR_REFERENCES_.346
-_OBJC_SELECTOR_REFERENCES_.348
-_OBJC_SELECTOR_REFERENCES_.350
 _OBJC_IVAR_$_DDFileLogger._doNotReuseLogFiles
-_OBJC_SELECTOR_REFERENCES_.352
+_OBJC_SELECTOR_REFERENCES_.350
+_OBJC_CLASSLIST_REFERENCES_$_.354
 _OBJC_SELECTOR_REFERENCES_.356
-_OBJC_CLASSLIST_REFERENCES_$_.357
-_OBJC_SELECTOR_REFERENCES_.364
-_OBJC_SELECTOR_REFERENCES_.372
-_OBJC_SELECTOR_REFERENCES_.374
-_OBJC_SELECTOR_REFERENCES_.376
 _exception_count
 _OBJC_IVAR_$_DDFileLogger._logFileManager
 __OBJC_CLASS_PROTOCOLS_$_DDFileLogger
@@ -4136,15 +4113,15 @@ __OBJC_$_INSTANCE_METHODS_DDFileLogger
 __OBJC_$_INSTANCE_VARIABLES_DDFileLogger
 __OBJC_$_PROP_LIST_DDFileLogger
 __OBJC_CLASS_RO_$_DDFileLogger
-_OBJC_CLASSLIST_SUP_REFS_$_.446
-_OBJC_SELECTOR_REFERENCES_.448
-_OBJC_SELECTOR_REFERENCES_.450
-_OBJC_CLASSLIST_REFERENCES_$_.465
-_OBJC_SELECTOR_REFERENCES_.467
+_OBJC_SELECTOR_REFERENCES_.445
+_OBJC_SELECTOR_REFERENCES_.447
+_OBJC_SELECTOR_REFERENCES_.459
+_OBJC_CLASSLIST_REFERENCES_$_.462
 _OBJC_SELECTOR_REFERENCES_.475
-_OBJC_SELECTOR_REFERENCES_.484
-_OBJC_SELECTOR_REFERENCES_.488
-_OBJC_SELECTOR_REFERENCES_.492
+_OBJC_SELECTOR_REFERENCES_.477
+_OBJC_SELECTOR_REFERENCES_.479
+_OBJC_SELECTOR_REFERENCES_.496
+_OBJC_SELECTOR_REFERENCES_.498
 __OBJC_$_CLASS_METHODS_DDLogFileInfo
 __OBJC_METACLASS_RO_$_DDLogFileInfo
 __OBJC_$_INSTANCE_METHODS_DDLogFileInfo
@@ -4162,7 +4139,7 @@ __OBJC_CLASS_RO_$_DDLogFileInfo
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDFileLogger.m
 HaptikLib/EmbeddedFrameworks/CocoaLumberjack/DDFileLogger.h
 __36-[DDFileLogger currentLogFileHandle]_block_invoke
-__47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke.338
+__47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke.335
 __47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke_2
 __47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke
 __50-[DDFileLogger scheduleTimerToRollLogFileDueToAge]_block_invoke
@@ -4170,9 +4147,9 @@ __36-[DDFileLogger setRollingFrequency:]_block_invoke_2
 __36-[DDFileLogger setRollingFrequency:]_block_invoke
 __32-[DDFileLogger rollingFrequency]_block_invoke_2
 __32-[DDFileLogger rollingFrequency]_block_invoke
-__35-[DDFileLogger setMaximumFileSize:]_block_invoke.325
+__35-[DDFileLogger setMaximumFileSize:]_block_invoke.322
 __35-[DDFileLogger setMaximumFileSize:]_block_invoke
-__31-[DDFileLogger maximumFileSize]_block_invoke.320
+__31-[DDFileLogger maximumFileSize]_block_invoke.317
 __31-[DDFileLogger maximumFileSize]_block_invoke
 __42-[DDLogFileManagerDefault applicationName]_block_invoke
 doesAppRunInBackground
@@ -4212,8 +4189,6 @@ ___52-[HPNativeActionHandler fireAnalyticsForActionType:]_block_invoke
 _OBJC_SELECTOR_REFERENCES_.440
 _OBJC_CLASSLIST_REFERENCES_$_.441
 _OBJC_SELECTOR_REFERENCES_.443
-_OBJC_SELECTOR_REFERENCES_.445
-_OBJC_SELECTOR_REFERENCES_.447
 _OBJC_SELECTOR_REFERENCES_.449
 _OBJC_CLASSLIST_REFERENCES_$_.450
 _OBJC_SELECTOR_REFERENCES_.452
@@ -4224,7 +4199,6 @@ _OBJC_SELECTOR_REFERENCES_.460
 ___block_descriptor_40_e8_32s_e22_v16?0"NSDictionary"8l
 _OBJC_CLASSLIST_REFERENCES_$_.468
 _OBJC_CLASSLIST_REFERENCES_$_.475
-_OBJC_SELECTOR_REFERENCES_.479
 _OBJC_CLASSLIST_REFERENCES_$_.496
 _OBJC_CLASSLIST_REFERENCES_$_.497
 _OBJC_CLASSLIST_REFERENCES_$_.511
@@ -4289,11 +4263,19 @@ _OBJC_SELECTOR_REFERENCES_.300
 _OBJC_CLASSLIST_REFERENCES_$_.301
 _OBJC_CLASSLIST_REFERENCES_$_.316
 _OBJC_CLASSLIST_REFERENCES_$_.321
+_OBJC_CLASSLIST_REFERENCES_$_.336
 ___block_descriptor_48_e8_40bs_e8_v16?0Q8l
+_OBJC_SELECTOR_REFERENCES_.344
+_OBJC_SELECTOR_REFERENCES_.348
 ___block_descriptor_48_e8_32bs_e20_v24?08"NSError"16l
 ___block_descriptor_40_e8_32bs_e33_v24?0"NSURLSessionDataTask"816l
 _OBJC_CLASSLIST_REFERENCES_$_.359
 ___block_descriptor_56_e8_40s48bs_e8_v16?0Q8l
+_OBJC_SELECTOR_REFERENCES_.364
+_OBJC_SELECTOR_REFERENCES_.370
+_OBJC_SELECTOR_REFERENCES_.372
+_OBJC_SELECTOR_REFERENCES_.374
+_OBJC_SELECTOR_REFERENCES_.376
 _OBJC_SELECTOR_REFERENCES_.378
 _OBJC_SELECTOR_REFERENCES_.380
 _OBJC_SELECTOR_REFERENCES_.382
@@ -4556,12 +4538,12 @@ ___40-[SLKTextViewController willRequestUndo]_block_invoke
 -[SLKTextViewController setTextInputbarHidden:]
 -[SLKTextViewController setTextInputbarHidden:animated:]
 ___56-[SLKTextViewController setTextInputbarHidden:animated:]_block_invoke
-___56-[SLKTextViewController setTextInputbarHidden:animated:]_block_invoke.429
+___56-[SLKTextViewController setTextInputbarHidden:animated:]_block_invoke.425
 -[SLKTextViewController slk_didPanTextInputBar:]
 ___48-[SLKTextViewController slk_didPanTextInputBar:]_block_invoke
 -[SLKTextViewController slk_handlePanGestureRecognizer:]
 ___56-[SLKTextViewController slk_handlePanGestureRecognizer:]_block_invoke
-___56-[SLKTextViewController slk_handlePanGestureRecognizer:]_block_invoke.457
+___56-[SLKTextViewController slk_handlePanGestureRecognizer:]_block_invoke.453
 -[SLKTextViewController slk_didTapScrollView:]
 -[SLKTextViewController slk_didPanTextView:]
 -[SLKTextViewController slk_performRightAction]
@@ -4635,7 +4617,7 @@ ___57-[SLKTextViewController slk_processTextForAutoCompletion]_block_invoke
 -[SLKTextViewController slk_updateViewConstraints]
 -[SLKTextViewController slk_registerKeyCommands]
 ___48-[SLKTextViewController slk_registerKeyCommands]_block_invoke
-___48-[SLKTextViewController slk_registerKeyCommands]_block_invoke.827
+___48-[SLKTextViewController slk_registerKeyCommands]_block_invoke.824
 ___48-[SLKTextViewController slk_registerKeyCommands]_block_invoke_2
 ___48-[SLKTextViewController slk_registerKeyCommands]_block_invoke_3
 -[SLKTextViewController keyCommands]
@@ -4701,64 +4683,60 @@ ___48-[SLKTextViewController slk_registerKeyCommands]_block_invoke_3
 -[SLKTextViewController .cxx_destruct]
 _SLKKeyWindowBounds
 _OBJC_IVAR_$_SLKTextViewController._scrollView
-_OBJC_CLASSLIST_REFERENCES_$_.46
-_OBJC_CLASSLIST_REFERENCES_$_.101
 _OBJC_IVAR_$_SLKTextViewController._tableView
 _OBJC_IVAR_$_SLKTextViewController._collectionView
-_OBJC_CLASSLIST_REFERENCES_$_.144
-_OBJC_CLASSLIST_REFERENCES_$_.147
 _OBJC_IVAR_$_SLKTextViewController._autoCompletionView
 _OBJC_IVAR_$_SLKTextViewController._autoCompletionHairline
 _OBJC_IVAR_$_SLKTextViewController._textInputbar
-_OBJC_CLASSLIST_REFERENCES_$_.191
 _OBJC_IVAR_$_SLKTextViewController._verticalPanGesture
 _OBJC_IVAR_$_SLKTextViewController._typingIndicatorProxyView
 _OBJC_IVAR_$_SLKTextViewController._presentedInPopover
-_OBJC_CLASSLIST_REFERENCES_$_.262
+_OBJC_CLASSLIST_REFERENCES_$_.207
 _OBJC_IVAR_$_SLKTextViewController._scrollViewProxy
-_OBJC_CLASSLIST_REFERENCES_$_.285
+_OBJC_CLASSLIST_REFERENCES_$_.281
 _OBJC_IVAR_$_SLKTextViewController._singleTapGesture
 _OBJC_IVAR_$_SLKTextViewController._autoCompleting
 _OBJC_IVAR_$_SLKTextViewController._inverted
 _OBJC_IVAR_$_SLKTextViewController._bounces
 _OBJC_IVAR_$_SLKTextViewController._keyboardStatus
-_OBJC_SELECTOR_REFERENCES_.339
+_OBJC_CLASSLIST_REFERENCES_$_.360
 _OBJC_SELECTOR_REFERENCES_.386
 _OBJC_SELECTOR_REFERENCES_.390
-_OBJC_CLASSLIST_REFERENCES_$_.401
-_OBJC_SELECTOR_REFERENCES_.403
-_OBJC_SELECTOR_REFERENCES_.409
-_OBJC_CLASSLIST_REFERENCES_$_.414
-_OBJC_CLASSLIST_REFERENCES_$_.417
-_OBJC_SELECTOR_REFERENCES_.419
+_OBJC_CLASSLIST_REFERENCES_$_.397
+_OBJC_SELECTOR_REFERENCES_.405
+_OBJC_CLASSLIST_REFERENCES_$_.410
+_OBJC_CLASSLIST_REFERENCES_$_.413
 ___block_descriptor_40_e8_32s_e23_v16?0"UIAlertAction"8l
+_OBJC_SELECTOR_REFERENCES_.420
 _OBJC_SELECTOR_REFERENCES_.422
 _OBJC_SELECTOR_REFERENCES_.424
-_OBJC_SELECTOR_REFERENCES_.426
-_OBJC_SELECTOR_REFERENCES_.428
 ___block_descriptor_41_e8_32w_e5_v8?0l
-_OBJC_SELECTOR_REFERENCES_.431
 ___block_descriptor_41_e8_32s_e8_v12?0B8l
-_OBJC_SELECTOR_REFERENCES_.438
+_OBJC_SELECTOR_REFERENCES_.430
 _slk_handlePanGestureRecognizer:.startPoint
 _slk_handlePanGestureRecognizer:.originalFrame
 _slk_handlePanGestureRecognizer:.dragging
+_OBJC_SELECTOR_REFERENCES_.438
 _OBJC_SELECTOR_REFERENCES_.442
 _OBJC_SELECTOR_REFERENCES_.444
 _OBJC_SELECTOR_REFERENCES_.446
+_OBJC_SELECTOR_REFERENCES_.448
 _OBJC_IVAR_$_SLKTextViewController._scrollViewOffsetBeforeDragging
+_OBJC_SELECTOR_REFERENCES_.450
 _OBJC_IVAR_$_SLKTextViewController._keyboardHeightBeforeDragging
 ___block_descriptor_80_e8_32s40r_e5_v8?0l
-_OBJC_SELECTOR_REFERENCES_.459
+_OBJC_SELECTOR_REFERENCES_.455
+_OBJC_SELECTOR_REFERENCES_.457
 _OBJC_SELECTOR_REFERENCES_.461
 _OBJC_SELECTOR_REFERENCES_.463
 _OBJC_SELECTOR_REFERENCES_.465
-_OBJC_CLASSLIST_REFERENCES_$_.470
-_OBJC_CLASSLIST_REFERENCES_$_.477
+_OBJC_CLASSLIST_REFERENCES_$_.466
+_OBJC_CLASSLIST_REFERENCES_$_.473
 _OBJC_IVAR_$_SLKTextViewController._externalKeyboardDetected
 _OBJC_IVAR_$_SLKTextViewController._keyboardUndocked
-_OBJC_CLASSLIST_REFERENCES_$_.500
-_OBJC_CLASSLIST_REFERENCES_$_.523
+_OBJC_CLASSLIST_REFERENCES_$_.519
+_OBJC_SELECTOR_REFERENCES_.521
+_OBJC_SELECTOR_REFERENCES_.523
 _OBJC_SELECTOR_REFERENCES_.525
 _OBJC_SELECTOR_REFERENCES_.527
 _OBJC_SELECTOR_REFERENCES_.529
@@ -4767,44 +4745,51 @@ _OBJC_SELECTOR_REFERENCES_.533
 _OBJC_SELECTOR_REFERENCES_.535
 _OBJC_SELECTOR_REFERENCES_.551
 __OBJC_PROTOCOL_REFERENCE_$_SLKTypingIndicatorProtocol
-_OBJC_CLASSLIST_REFERENCES_$_.619
-_OBJC_SELECTOR_REFERENCES_.625
-_OBJC_SELECTOR_REFERENCES_.627
-_OBJC_CLASSLIST_REFERENCES_$_.628
+_OBJC_CLASSLIST_REFERENCES_$_.615
 _OBJC_IVAR_$_SLKTextViewController._registeredPrefixes
 _OBJC_SELECTOR_REFERENCES_.632
 _OBJC_SELECTOR_REFERENCES_.634
-_OBJC_SELECTOR_REFERENCES_.638
 _OBJC_IVAR_$_SLKTextViewController._foundPrefix
 _OBJC_IVAR_$_SLKTextViewController._foundWord
 _OBJC_IVAR_$_SLKTextViewController._foundPrefixRange
+_OBJC_SELECTOR_REFERENCES_.638
 _OBJC_SELECTOR_REFERENCES_.640
 _OBJC_SELECTOR_REFERENCES_.642
 ___block_descriptor_40_e8_32s_e46_v40?0"NSString"8"NSString"16{_NSRange=QQ}24l
-_OBJC_CLASSLIST_REFERENCES_$_.677
-_OBJC_CLASSLIST_REFERENCES_$_.682
-_OBJC_CLASSLIST_REFERENCES_$_.683
-_OBJC_CLASSLIST_REFERENCES_$_.688
-_OBJC_SELECTOR_REFERENCES_.712
-_OBJC_SELECTOR_REFERENCES_.726
-_OBJC_SELECTOR_REFERENCES_.732
-_OBJC_CLASSLIST_REFERENCES_$_.735
+_OBJC_CLASSLIST_REFERENCES_$_.664
+_OBJC_SELECTOR_REFERENCES_.668
+_OBJC_SELECTOR_REFERENCES_.670
+_OBJC_CLASSLIST_REFERENCES_$_.671
+_OBJC_CLASSLIST_REFERENCES_$_.679
+_OBJC_CLASSLIST_REFERENCES_$_.680
+_OBJC_CLASSLIST_REFERENCES_$_.685
+_OBJC_SELECTOR_REFERENCES_.691
+_OBJC_CLASSLIST_REFERENCES_$_.692
+_OBJC_SELECTOR_REFERENCES_.696
+_OBJC_SELECTOR_REFERENCES_.698
+_OBJC_SELECTOR_REFERENCES_.700
+_OBJC_SELECTOR_REFERENCES_.702
+_OBJC_CLASSLIST_REFERENCES_$_.703
+_OBJC_SELECTOR_REFERENCES_.709
+_OBJC_SELECTOR_REFERENCES_.725
+_OBJC_SELECTOR_REFERENCES_.744
+_OBJC_SELECTOR_REFERENCES_.746
+_OBJC_SELECTOR_REFERENCES_.748
+_OBJC_SELECTOR_REFERENCES_.752
+_OBJC_SELECTOR_REFERENCES_.762
 _OBJC_SELECTOR_REFERENCES_.765
-_OBJC_CLASSLIST_REFERENCES_$_.766
-_OBJC_SELECTOR_REFERENCES_.772
-_OBJC_CLASSLIST_REFERENCES_$_.781
+_OBJC_SELECTOR_REFERENCES_.767
+_OBJC_SELECTOR_REFERENCES_.784
+_OBJC_SELECTOR_REFERENCES_.798
+_OBJC_SELECTOR_REFERENCES_.800
+_OBJC_SELECTOR_REFERENCES_.802
+_OBJC_SELECTOR_REFERENCES_.810
+_OBJC_SELECTOR_REFERENCES_.812
+_OBJC_SELECTOR_REFERENCES_.818
 ___block_descriptor_40_e8_32w_e22_v16?0"UIKeyCommand"8l
-_OBJC_SELECTOR_REFERENCES_.824
-_OBJC_SELECTOR_REFERENCES_.829
-_OBJC_SELECTOR_REFERENCES_.831
-_OBJC_SELECTOR_REFERENCES_.851
-_OBJC_SELECTOR_REFERENCES_.853
-_OBJC_SELECTOR_REFERENCES_.855
-_OBJC_SELECTOR_REFERENCES_.857
-_OBJC_SELECTOR_REFERENCES_.859
-_OBJC_SELECTOR_REFERENCES_.861
-_OBJC_SELECTOR_REFERENCES_.863
-_OBJC_SELECTOR_REFERENCES_.865
+_OBJC_SELECTOR_REFERENCES_.840
+_OBJC_SELECTOR_REFERENCES_.842
+_OBJC_SELECTOR_REFERENCES_.850
 _OBJC_IVAR_$_SLKTextViewController._shakeToClearEnabled
 _OBJC_IVAR_$_SLKTextViewController._keyboardPanningEnabled
 _OBJC_IVAR_$_SLKTextViewController._shouldClearTextAtRightButtonPress
@@ -4847,7 +4832,7 @@ __OBJC_$_INSTANCE_METHODS_SLKTextViewController
 __OBJC_$_INSTANCE_VARIABLES_SLKTextViewController
 __OBJC_$_PROP_LIST_SLKTextViewController
 __OBJC_CLASS_RO_$_SLKTextViewController
-_OBJC_SELECTOR_REFERENCES_.1303
+_OBJC_SELECTOR_REFERENCES_.1307
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikLib/HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextViewController.m
 SLKKeyWindowBounds
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKUIConstants.h
@@ -4855,25 +4840,25 @@ HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextViewCon
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTextViewController.h
 __48-[SLKTextViewController slk_registerKeyCommands]_block_invoke_3
 __48-[SLKTextViewController slk_registerKeyCommands]_block_invoke_2
-__48-[SLKTextViewController slk_registerKeyCommands]_block_invoke.827
+__48-[SLKTextViewController slk_registerKeyCommands]_block_invoke.824
 __48-[SLKTextViewController slk_registerKeyCommands]_block_invoke
 __57-[SLKTextViewController slk_processTextForAutoCompletion]_block_invoke
 __61-[SLKTextViewController slk_willShowOrHideTypeIndicatorView:]_block_invoke
 __51-[SLKTextViewController slk_didShowOrHideKeyboard:]_block_invoke
 __52-[SLKTextViewController slk_willShowOrHideKeyboard:]_block_invoke
 __71-[SLKTextViewController slk_prepareForInterfaceTransitionWithDuration:]_block_invoke
-__56-[SLKTextViewController slk_handlePanGestureRecognizer:]_block_invoke.457
+__56-[SLKTextViewController slk_handlePanGestureRecognizer:]_block_invoke.453
 __56-[SLKTextViewController slk_handlePanGestureRecognizer:]_block_invoke
 __CGPointEqualToPoint
 __48-[SLKTextViewController slk_didPanTextInputBar:]_block_invoke
-__56-[SLKTextViewController setTextInputbarHidden:animated:]_block_invoke.429
+__56-[SLKTextViewController setTextInputbarHidden:animated:]_block_invoke.425
 __56-[SLKTextViewController setTextInputbarHidden:animated:]_block_invoke
 __40-[SLKTextViewController willRequestUndo]_block_invoke
 __39-[SLKTextViewController textDidUpdate:]_block_invoke
 __41-[SLKTextViewController dismissKeyboard:]_block_invoke
 __41-[SLKTextViewController presentKeyboard:]_block_invoke
 __CGAffineTransformMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGAffineTransform.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGAffineTransform.h
 __40-[SLKTextViewController viewWillAppear:]_block_invoke
 -[MultiSelectActionSheet initWithFrame:]
 -[MultiSelectActionSheet initWithCoder:]
@@ -5047,10 +5032,11 @@ _OBJC_IVAR_$_SmartCarouselDetailViewController.actionPayload
 _OBJC_IVAR_$_SmartCarouselDetailViewController.checkoutViewType
 _OBJC_IVAR_$_SmartCarouselDetailViewController.conversationActionHelper
 _OBJC_CLASSLIST_REFERENCES_$_.480
+_OBJC_SELECTOR_REFERENCES_.484
 _OBJC_SELECTOR_REFERENCES_.486
+_OBJC_SELECTOR_REFERENCES_.488
 _OBJC_SELECTOR_REFERENCES_.490
-_OBJC_SELECTOR_REFERENCES_.496
-_OBJC_SELECTOR_REFERENCES_.498
+_OBJC_SELECTOR_REFERENCES_.492
 _OBJC_CLASSLIST_REFERENCES_$_.507
 _OBJC_SELECTOR_REFERENCES_.517
 _OBJC_SELECTOR_REFERENCES_.519
@@ -5082,21 +5068,17 @@ _OBJC_IVAR_$_SmartCarouselDetailViewController.rightBtn
 _OBJC_IVAR_$_SmartCarouselDetailViewController._didFadeOut
 _OBJC_IVAR_$_SmartCarouselDetailViewController.pageTxt
 _OBJC_CLASSLIST_REFERENCES_$_.653
-_OBJC_SELECTOR_REFERENCES_.668
-_OBJC_SELECTOR_REFERENCES_.670
 _OBJC_SELECTOR_REFERENCES_.672
 _OBJC_SELECTOR_REFERENCES_.674
-_OBJC_CLASSLIST_REFERENCES_$_.679
-_OBJC_SELECTOR_REFERENCES_.691
 _OBJC_SELECTOR_REFERENCES_.695
 _OBJC_CLASSLIST_REFERENCES_$_.707
-_OBJC_SELECTOR_REFERENCES_.709
 _OBJC_CLASSLIST_REFERENCES_$_.712
 _OBJC_SELECTOR_REFERENCES_.714
+_OBJC_SELECTOR_REFERENCES_.726
 _OBJC_IVAR_$_SmartCarouselDetailViewController._delegate
+_OBJC_SELECTOR_REFERENCES_.732
 _OBJC_CLASSLIST_REFERENCES_$_.737
 _OBJC_CLASSLIST_REFERENCES_$_.748
-_OBJC_SELECTOR_REFERENCES_.752
 _OBJC_CLASSLIST_REFERENCES_$_.774
 _OBJC_SELECTOR_REFERENCES_.776
 _OBJC_CLASSLIST_REFERENCES_$_.784
@@ -5190,8 +5172,9 @@ ___block_descriptor_48_e8_40s_e25_v32?0"NSString"816^B24l
 _OBJC_CLASSLIST_REFERENCES_$_.383
 _OBJC_CLASSLIST_REFERENCES_$_.386
 _OBJC_CLASSLIST_REFERENCES_$_.412
-_OBJC_SELECTOR_REFERENCES_.420
+_OBJC_SELECTOR_REFERENCES_.426
 _OBJC_CLASSLIST_REFERENCES_$_.427
+_OBJC_SELECTOR_REFERENCES_.431
 _OBJC_SELECTOR_REFERENCES_.435
 _OBJC_SELECTOR_REFERENCES_.439
 _OBJC_SELECTOR_REFERENCES_.441
@@ -5403,15 +5386,10 @@ ___41-[MQTTSession decoder:didReceiveMessage:]_block_invoke.419
 -[MQTTSession setSecurityPolicy:]
 -[MQTTSession .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.91
-_OBJC_CLASSLIST_REFERENCES_$_.397
 _OBJC_SELECTOR_REFERENCES_.401
 _OBJC_SELECTOR_REFERENCES_.453
-_OBJC_SELECTOR_REFERENCES_.455
-_OBJC_SELECTOR_REFERENCES_.457
 _OBJC_CLASSLIST_REFERENCES_$_.476
 _OBJC_CLASSLIST_REFERENCES_$_.513
-_OBJC_SELECTOR_REFERENCES_.521
-_OBJC_SELECTOR_REFERENCES_.523
 _OBJC_CLASSLIST_REFERENCES_$_.560
 _OBJC_SELECTOR_REFERENCES_.566
 _OBJC_SELECTOR_REFERENCES_.657
@@ -5642,10 +5620,12 @@ ___120+[MessageLogger(HPAdditions) performPostLoggingOperationsInBusiness:smartA
 +[MessageLogger(HPAdditions) isQuickRepliesEnabledFor:smartAction:]
 +[MessageLogger(HPAdditions) startDownloadingAvailableEmojisInMessage:]
 ___71+[MessageLogger(HPAdditions) startDownloadingAvailableEmojisInMessage:]_block_invoke
-_OBJC_CLASSLIST_REFERENCES_$_.207
 _OBJC_CLASSLIST_REFERENCES_$_.310
 _OBJC_CLASSLIST_REFERENCES_$_.337
 _OBJC_CLASSLIST_REFERENCES_$_.340
+_OBJC_SELECTOR_REFERENCES_.342
+_OBJC_SELECTOR_REFERENCES_.346
+_OBJC_SELECTOR_REFERENCES_.352
 _OBJC_CLASSLIST_REFERENCES_$_.370
 _OBJC_CLASSLIST_REFERENCES_$_.375
 ___block_descriptor_40_e8_32s_e30_v16?0"HPImageManagerResult"8l
@@ -5703,9 +5683,9 @@ _OBJC_CLASSLIST_REFERENCES_$_.157
 ___block_descriptor_48_e8_32s40r_e8_v16?0q8l
 ___block_descriptor_56_e8_32s40r48w_e5_v8?0l
 ___block_descriptor_48_e8_32s40r_e8_v12?0B8l
+_OBJC_CLASSLIST_REFERENCES_$_.191
 _OBJC_CLASSLIST_REFERENCES_$_.231
 ___block_descriptor_40_e8_32s_e33_v28?0"NSString"8B16"NSError"20l
-_OBJC_CLASSLIST_REFERENCES_$_.281
 ___block_descriptor_32_e23_v16?0"UIAlertAction"8l
 ___block_literal_global.310
 __OBJC_METACLASS_RO_$_HPConversationSpeechExtension
@@ -5773,6 +5753,7 @@ ___64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invo
 ___64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke_2
 ___64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke.577
 ___64-[ConversationViewController(HPImagePicker) sendImageToBackend:]_block_invoke_2.588
+_OBJC_CLASSLIST_REFERENCES_$_.477
 _OBJC_CLASSLIST_REFERENCES_$_.493
 _OBJC_CLASSLIST_REFERENCES_$_.494
 _OBJC_CLASSLIST_REFERENCES_$_.499
@@ -5890,7 +5871,6 @@ ___62-[Haptik(Analytics) setDefaulAnalyticsAttributesForHaptikUser]_block_invoke
 -[Haptik(Analytics) handleHaptikAnalyticsNotification:]
 -[Haptik(Analytics) configureAnalyticsSettingsForHaptikUser:]
 -[Haptik(Analytics) setAttributes:class:]
-_OBJC_CLASSLIST_REFERENCES_$_.333
 __OBJC_$_CATEGORY_INSTANCE_METHODS_Haptik_$_Analytics
 __OBJC_$_CATEGORY_Haptik_$_Analytics
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikLib/HaptikLib/Haptik/Analytics/Haptik+Analytics.m
@@ -5913,7 +5893,6 @@ HaptikLib/EmbeddedFrameworks/CocoaLumberjack/CLI/CLIColor.m
 +[HSLButtonSmartActionViewHelper createHSLButtonSmartActionViewFor:actionHelper:]
 +[HSLButtonSmartActionViewHelper getSmartButtonViewFromSmartButton:chatMessage:]
 +[HSLButtonSmartActionViewHelper getSmartButtonForSmartAction:withAssistant:]
-_OBJC_CLASSLIST_REFERENCES_$_.135
 __OBJC_$_CLASS_METHODS_HSLButtonSmartActionViewHelper
 __OBJC_METACLASS_RO_$_HSLButtonSmartActionViewHelper
 __OBJC_CLASS_RO_$_HSLButtonSmartActionViewHelper
@@ -5991,7 +5970,6 @@ ___copy_helper_block_e8_32s40s56s
 +[TaskboxActionHandler fireTaskTappedAnalyticsWith:business:indexPath:]
 ___71+[TaskboxActionHandler fireTaskTappedAnalyticsWith:business:indexPath:]_block_invoke
 +[TaskboxActionHandler fireMessageSendingAnalyticsFor:success:error:]
-_OBJC_CLASSLIST_REFERENCES_$_.519
 _OBJC_CLASSLIST_REFERENCES_$_.530
 ___block_descriptor_64_e8_40s48s56s_e34_v28?0B8"NSString"12"NSString"20l
 _OBJC_CLASSLIST_REFERENCES_$_.546
@@ -6040,6 +6018,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.536
 ___block_descriptor_72_e8_32s40s48s56s64s_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.567
 _OBJC_SELECTOR_REFERENCES_.615
+_OBJC_SELECTOR_REFERENCES_.627
 ___block_descriptor_65_e8_32s40s48s_e5_v8?0l
 __OBJC_$_CLASS_METHODS_ConversationAnalyticsHelper
 __OBJC_METACLASS_RO_$_ConversationAnalyticsHelper
@@ -6152,32 +6131,36 @@ _OBJC_IVAR_$_ConversationViewController.viewModel
 _OBJC_CLASSLIST_REFERENCES_$_.559
 _OBJC_IVAR_$_ConversationViewController._viewVisible
 _OBJC_CLASSLIST_REFERENCES_$_.607
+_OBJC_SELECTOR_REFERENCES_.625
 _OBJC_IVAR_$_ConversationViewController._navigationBarHidden
 _OBJC_CLASSLIST_REFERENCES_$_.665
 _OBJC_IVAR_$_ConversationViewController._titleLable
+_OBJC_CLASSLIST_REFERENCES_$_.682
 _OBJC_CLASSLIST_REFERENCES_$_.687
 _OBJC_CLASSLIST_REFERENCES_$_.704
 _OBJC_SELECTOR_REFERENCES_.706
+_OBJC_SELECTOR_REFERENCES_.712
 _OBJC_CLASSLIST_REFERENCES_$_.715
 _OBJC_CLASSLIST_REFERENCES_$_.718
 _OBJC_IVAR_$_ConversationViewController._connectingTitleView
 _OBJC_CLASSLIST_REFERENCES_$_.741
 _OBJC_CLASSLIST_REFERENCES_$_.742
-_OBJC_SELECTOR_REFERENCES_.746
-_OBJC_SELECTOR_REFERENCES_.748
-_OBJC_SELECTOR_REFERENCES_.762
 _OBJC_SELECTOR_REFERENCES_.781
 _OBJC_CLASSLIST_REFERENCES_$_.810
-_OBJC_SELECTOR_REFERENCES_.812
 _OBJC_CLASSLIST_REFERENCES_$_.813
-_OBJC_SELECTOR_REFERENCES_.818
 _OBJC_IVAR_$_ConversationViewController.observerTokens
 _OBJC_SELECTOR_REFERENCES_.822
+_OBJC_SELECTOR_REFERENCES_.824
 _OBJC_CLASSLIST_REFERENCES_$_.825
 _OBJC_SELECTOR_REFERENCES_.827
 _OBJC_CLASSLIST_REFERENCES_$_.828
 _OBJC_CLASSLIST_REFERENCES_$_.840
-_OBJC_SELECTOR_REFERENCES_.842
+_OBJC_SELECTOR_REFERENCES_.851
+_OBJC_SELECTOR_REFERENCES_.855
+_OBJC_SELECTOR_REFERENCES_.859
+_OBJC_SELECTOR_REFERENCES_.861
+_OBJC_SELECTOR_REFERENCES_.863
+_OBJC_SELECTOR_REFERENCES_.865
 _OBJC_SELECTOR_REFERENCES_.867
 _OBJC_SELECTOR_REFERENCES_.869
 _OBJC_SELECTOR_REFERENCES_.871
@@ -6456,16 +6439,18 @@ ___97-[Haptik(Additions) handleNotificationWithUserInfo:controller:respectBackgr
 -[Haptik(Additions) startHaptikNotificationFlow:controller:]
 ___60-[Haptik(Additions) startHaptikNotificationFlow:controller:]_block_invoke
 -[Haptik(Additions) getForcedEntityTypes]
+_OBJC_CLASSLIST_REFERENCES_$_.226
 _OBJC_CLASSLIST_REFERENCES_$_.248
-_OBJC_CLASSLIST_REFERENCES_$_.288
-_OBJC_CLASSLIST_REFERENCES_$_.294
+_OBJC_CLASSLIST_REFERENCES_$_.274
+_OBJC_CLASSLIST_REFERENCES_$_.277
+_OBJC_CLASSLIST_REFERENCES_$_.290
+_OBJC_CLASSLIST_REFERENCES_$_.296
 ___block_descriptor_48_e8_32s40s_e22_v16?0"NSDictionary"8l
-_OBJC_CLASSLIST_REFERENCES_$_.335
-_OBJC_CLASSLIST_REFERENCES_$_.360
+_OBJC_CLASSLIST_REFERENCES_$_.332
+_OBJC_CLASSLIST_REFERENCES_$_.357
+_OBJC_CLASSLIST_REFERENCES_$_.368
 _OBJC_CLASSLIST_REFERENCES_$_.371
-_OBJC_CLASSLIST_REFERENCES_$_.379
-_OBJC_SELECTOR_REFERENCES_.391
-_OBJC_SELECTOR_REFERENCES_.393
+_OBJC_CLASSLIST_REFERENCES_$_.376
 __OBJC_$_CATEGORY_INSTANCE_METHODS_Haptik_$_Additions
 __OBJC_$_CATEGORY_Haptik_$_Additions
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikLib/HaptikLib/Haptik/Additions/Haptik+Additions.m
@@ -6519,10 +6504,8 @@ _OBJC_CLASSLIST_REFERENCES_$_.602
 _OBJC_CLASSLIST_REFERENCES_$_.626
 _OBJC_CLASSLIST_REFERENCES_$_.633
 _OBJC_CLASSLIST_REFERENCES_$_.666
-_OBJC_CLASSLIST_REFERENCES_$_.671
 ___block_descriptor_48_e8_32s40w_e33_v24?0"NSURLSessionDataTask"816l
 ___block_descriptor_32_e42_v24?0"NSURLSessionDataTask"8"NSError"16l
-_OBJC_CLASSLIST_REFERENCES_$_.685
 _OBJC_CLASSLIST_REFERENCES_$_.693
 _OBJC_CLASSLIST_REFERENCES_$_.696
 _OBJC_CLASSLIST_REFERENCES_$_.699
@@ -6531,13 +6514,11 @@ _OBJC_CLASSLIST_REFERENCES_$_.708
 ___block_descriptor_40_e8_32w_e8_v16?0q8l
 _OBJC_CLASSLIST_REFERENCES_$_.724
 _OBJC_CLASSLIST_REFERENCES_$_.729
-_OBJC_SELECTOR_REFERENCES_.767
-_OBJC_SELECTOR_REFERENCES_.784
-_OBJC_SELECTOR_REFERENCES_.798
-_OBJC_SELECTOR_REFERENCES_.800
 _OBJC_CLASSLIST_REFERENCES_$_.814
 _OBJC_SELECTOR_REFERENCES_.816
 _OBJC_CLASSLIST_REFERENCES_$_.817
+_OBJC_SELECTOR_REFERENCES_.829
+_OBJC_SELECTOR_REFERENCES_.831
 _OBJC_CLASSLIST_REFERENCES_$_.858
 _OBJC_CLASSLIST_REFERENCES_$_.861
 _OBJC_CLASSLIST_REFERENCES_$_.864
@@ -6665,7 +6646,6 @@ _OBJC_IVAR_$_TaskboxChildViewController.sheetContainerHeightC
 _OBJC_IVAR_$_TaskboxChildViewController.tasksTable
 _OBJC_CLASSLIST_REFERENCES_$_.218
 _OBJC_IVAR_$_TaskboxChildViewController.viewMore
-_OBJC_CLASSLIST_REFERENCES_$_.296
 _OBJC_CLASSLIST_REFERENCES_$_.303
 _OBJC_CLASSLIST_REFERENCES_$_.312
 _OBJC_IVAR_$_TaskboxChildViewController.tasksTableHeaderView
@@ -6679,7 +6659,7 @@ _OBJC_SELECTOR_REFERENCES_.433
 _OBJC_CLASSLIST_REFERENCES_$_.442
 _OBJC_IVAR_$_TaskboxChildViewController.panGesture
 ___block_descriptor_56_e8_32w_e5_v8?0l
-_OBJC_SELECTOR_REFERENCES_.477
+_OBJC_SELECTOR_REFERENCES_.467
 _OBJC_CLASSLIST_REFERENCES_$_.492
 _OBJC_IVAR_$_TaskboxChildViewController.isPresented
 _OBJC_IVAR_$_TaskboxChildViewController._delegate
@@ -6727,8 +6707,6 @@ _OBJC_CLASSLIST_REFERENCES_$_.645
 _OBJC_CLASSLIST_REFERENCES_$_.654
 _OBJC_CLASSLIST_REFERENCES_$_.689
 _OBJC_CLASSLIST_REFERENCES_$_.694
-_OBJC_SELECTOR_REFERENCES_.698
-_OBJC_SELECTOR_REFERENCES_.702
 _OBJC_SELECTOR_REFERENCES_.704
 _OBJC_CLASSLIST_REFERENCES_$_.734
 _OBJC_CLASSLIST_REFERENCES_$_.747
@@ -6802,7 +6780,6 @@ HaptikLib/Helpers/Smart Action Helpers/Regular Smart Action Helper/RegularSmartA
 -[ConversationViewController(HPDocumentPicker) presentAlertWithMessage:]
 _OBJC_CLASSLIST_REFERENCES_$_.193
 _OBJC_CLASSLIST_REFERENCES_$_.271
-_OBJC_CLASSLIST_REFERENCES_$_.274
 __OBJC_$_CATEGORY_INSTANCE_METHODS_ConversationViewController_$_HPDocumentPicker
 __OBJC_$_PROTOCOL_REFS_UIDocumentPickerDelegate
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIDocumentPickerDelegate
@@ -6890,6 +6867,7 @@ ___44-[ConversationActionHelper handleRateAction]_block_invoke
 -[ConversationActionHelper formFieldsArray]
 -[ConversationActionHelper form]
 -[ConversationActionHelper .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.523
 _OBJC_CLASSLIST_REFERENCES_$_.524
 _OBJC_CLASSLIST_REFERENCES_$_.534
 _OBJC_CLASSLIST_REFERENCES_$_.616
@@ -6899,7 +6877,6 @@ ___block_descriptor_40_e8_32w_e31_v24?0"NSString"8"NSNumber"16l
 _OBJC_CLASSLIST_REFERENCES_$_.672
 _OBJC_CLASSLIST_REFERENCES_$_.673
 _OBJC_CLASSLIST_REFERENCES_$_.678
-_OBJC_SELECTOR_REFERENCES_.696
 _OBJC_CLASSLIST_REFERENCES_$_.697
 _OBJC_CLASSLIST_REFERENCES_$_.700
 ___block_descriptor_48_e8_32s40s_e20_v20?0B8"NSError"12l
@@ -7185,6 +7162,7 @@ _OBJC_IVAR_$_Actionable.uri
 _OBJC_IVAR_$_Actionable.payloadType
 _OBJC_IVAR_$_Actionable.payload
 _OBJC_CLASSLIST_REFERENCES_$_.108
+_OBJC_CLASSLIST_REFERENCES_$_.112
 _OBJC_CLASSLIST_REFERENCES_$_.116
 __OBJC_$_CLASS_METHODS_Actionable
 __OBJC_METACLASS_RO_$_Actionable
@@ -7427,8 +7405,10 @@ _OBJC_IVAR_$_SLKTextView._dynamicTypeEnabled
 _OBJC_IVAR_$_SLKTextView._placeholderLabel
 _OBJC_IVAR_$_SLKTextView._maxNumberOfLines
 _OBJC_CLASSLIST_REFERENCES_$_.104
+_OBJC_CLASSLIST_REFERENCES_$_.138
 _OBJC_CLASSLIST_REFERENCES_$_.166
 _OBJC_IVAR_$_SLKTextView._undoManagerEnabled
+_OBJC_CLASSLIST_REFERENCES_$_.262
 _OBJC_IVAR_$_SLKTextView._trackpadEnabled
 _OBJC_CLASSLIST_REFERENCES_$_.323
 _OBJC_IVAR_$_SLKTextView._didFlashScrollIndicators
@@ -7438,11 +7418,11 @@ _OBJC_CLASSLIST_REFERENCES_$_.343
 _OBJC_CLASSLIST_REFERENCES_$_.362
 _OBJC_IVAR_$_SLKTextView._registeredFormattingTitles
 _OBJC_IVAR_$_SLKTextView._registeredFormattingSymbols
-_OBJC_CLASSLIST_REFERENCES_$_.428
-_OBJC_SELECTOR_REFERENCES_.430
-_OBJC_CLASSLIST_REFERENCES_$_.437
+_OBJC_CLASSLIST_REFERENCES_$_.434
 _OBJC_IVAR_$_SLKTextView._registeredKeyCommands
+_OBJC_CLASSLIST_REFERENCES_$_.443
 _OBJC_IVAR_$_SLKTextView._registeredKeyCallbacks
+_OBJC_SELECTOR_REFERENCES_.451
 _OBJC_IVAR_$_SLKTextView._placeholderNumberOfLines
 _OBJC_IVAR_$_SLKTextView._loupeVisible
 _OBJC_IVAR_$_SLKTextView._initialFontSize
@@ -7503,6 +7483,7 @@ ___63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invok
 ___63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invoke_3
 ___63+[RegularSmartActionHandler performLocationSmartActionTapWith:]_block_invoke.656
 _OBJC_CLASSLIST_REFERENCES_$_.495
+_OBJC_CLASSLIST_REFERENCES_$_.500
 _OBJC_CLASSLIST_REFERENCES_$_.527
 _OBJC_CLASSLIST_REFERENCES_$_.540
 _OBJC_CLASSLIST_REFERENCES_$_.545
@@ -7559,8 +7540,9 @@ _OBJC_CLASSLIST_REFERENCES_$_.205
 _OBJC_CLASSLIST_REFERENCES_$_.220
 _OBJC_CLASSLIST_REFERENCES_$_.246
 _OBJC_CLASSLIST_REFERENCES_$_.251
+_OBJC_CLASSLIST_REFERENCES_$_.285
+_OBJC_CLASSLIST_REFERENCES_$_.298
 _OBJC_CLASSLIST_REFERENCES_$_.328
-_OBJC_CLASSLIST_REFERENCES_$_.354
 __OBJC_$_CLASS_METHODS_ConversationViewHelper
 __OBJC_METACLASS_RO_$_ConversationViewHelper
 __OBJC_$_INSTANCE_METHODS_ConversationViewHelper
@@ -8003,7 +7985,6 @@ _sharedSDK.shared
 _sharedSDK.onceToken
 ___block_descriptor_56_e8_32s40bs48s_e20_v20?0B8"NSError"12l
 ___block_descriptor_41_e8_32bs_e5_v8?0l
-_OBJC_CLASSLIST_REFERENCES_$_.290
 ___block_literal_global.309
 ___block_literal_global.343
 _OBJC_CLASSLIST_REFERENCES_$_.344
@@ -8012,7 +7993,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.385
 _OBJC_CLASSLIST_REFERENCES_$_.388
 _OBJC_CLASSLIST_REFERENCES_$_.396
 ___block_descriptor_48_e8_32bs40s_e18_v16?0"Business"8l
-_OBJC_CLASSLIST_REFERENCES_$_.410
+_OBJC_SELECTOR_REFERENCES_.409
 __OBJC_$_CLASS_METHODS_Haptik
 __OBJC_METACLASS_RO_$_Haptik
 __OBJC_$_INSTANCE_METHODS_Haptik
@@ -8053,7 +8034,6 @@ ___65-[ConversationViewModel(HPTaskbox) showTaskboxOverlayForUIState:]_block_inv
 -[ConversationViewModel(HPTaskbox) didSelectTask:]
 -[ConversationViewModel(HPTaskbox) taskboxWillDismiss:]
 ___55-[ConversationViewModel(HPTaskbox) taskboxWillDismiss:]_block_invoke
-_OBJC_CLASSLIST_REFERENCES_$_.124
 _OBJC_CLASSLIST_REFERENCES_$_.197
 __OBJC_$_CATEGORY_INSTANCE_METHODS_ConversationViewModel_$_HPTaskbox
 __OBJC_$_PROTOCOL_REFS_HPTaskboxDelegate
@@ -8530,7 +8510,7 @@ _OBJC_IVAR_$_HPMessageFeedbackView._dislikeButtonConstraint
 _OBJC_IVAR_$_HPMessageFeedbackView._message
 _OBJC_CLASSLIST_REFERENCES_$_.270
 ___block_descriptor_56_e8_32s40s48w_e8_v12?0B8l
-_OBJC_CLASSLIST_REFERENCES_$_.286
+_OBJC_CLASSLIST_REFERENCES_$_.289
 _OBJC_IVAR_$_HPMessageFeedbackView._controller
 _OBJC_IVAR_$_HPMessageFeedbackView._isHorizontallyAligned
 __OBJC_$_CLASS_METHODS_HPMessageFeedbackView
@@ -8564,6 +8544,7 @@ __OBJC_$_INSTANCE_VARIABLES_SRIOConsumer
 __OBJC_$_PROP_LIST_SRIOConsumer
 __OBJC_CLASS_RO_$_SRIOConsumer
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/Internal/IOConsumer/SRIOConsumer.m
+-[SRIOConsumer resetWithScanner:handler:bytesNeeded:readToCurrentFrame:unmaskBytes:].cold.1
 HaptikLib/Modules/MQTT Service/SocketRocket/Internal/IOConsumer/SRIOConsumer.m
 +[Business(CoreDataProperties) fetchRequest]
 __OBJC_$_CATEGORY_CLASS_METHODS_Business_$_CoreDataProperties
@@ -8909,8 +8890,11 @@ ___block_descriptor_48_e8_32s40w_e18_v16?0"NSString"8l
 _OBJC_CLASSLIST_REFERENCES_$_.369
 _OBJC_CLASSLIST_REFERENCES_$_.393
 _OBJC_SELECTOR_REFERENCES_.395
+_OBJC_SELECTOR_REFERENCES_.403
 _OBJC_SELECTOR_REFERENCES_.407
+_OBJC_SELECTOR_REFERENCES_.419
 _OBJC_CLASSLIST_REFERENCES_$_.420
+_OBJC_SELECTOR_REFERENCES_.428
 __OBJC_$_CLASS_METHODS_HPFormViewHelper
 __OBJC_METACLASS_RO_$_HPFormViewHelper
 __OBJC_CLASS_RO_$_HPFormViewHelper
@@ -9002,12 +8986,9 @@ _OBJC_CLASSLIST_REFERENCES_$_.603
 _OBJC_CLASSLIST_REFERENCES_$_.614
 _OBJC_CLASSLIST_REFERENCES_$_.702
 _OBJC_CLASSLIST_REFERENCES_$_.721
-_OBJC_SELECTOR_REFERENCES_.725
 _OBJC_CLASSLIST_REFERENCES_$_.740
-_OBJC_SELECTOR_REFERENCES_.744
 _OBJC_CLASSLIST_REFERENCES_$_.755
-_OBJC_SELECTOR_REFERENCES_.802
-_OBJC_SELECTOR_REFERENCES_.810
+_OBJC_SELECTOR_REFERENCES_.772
 _OBJC_SELECTOR_REFERENCES_.814
 _OBJC_CLASSLIST_REFERENCES_$_.823
 _OBJC_CLASSLIST_REFERENCES_$_.843
@@ -9106,6 +9087,7 @@ HaptikLib/View Controllers/Conversations/Offline/HPConversationOfflineExtension.
 -[MQTTSession(Legacy) publishDataExactlyOnce:onTopic:]
 -[MQTTSession(Legacy) publishDataExactlyOnce:onTopic:retain:]
 -[MQTTSession(Legacy) publishJson:onTopic:]
+_OBJC_CLASSLIST_REFERENCES_$_.46
 __OBJC_$_CATEGORY_INSTANCE_METHODS_MQTTSession_$_Legacy
 __OBJC_$_CATEGORY_MQTTSession_$_Legacy
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/MQTTClient/MQTTSessionLegacy.m
@@ -9139,13 +9121,10 @@ _OBJC_CLASSLIST_REFERENCES_$_.358
 _OBJC_CLASSLIST_REFERENCES_$_.381
 _OBJC_CLASSLIST_REFERENCES_$_.382
 _OBJC_CLASSLIST_REFERENCES_$_.391
-_OBJC_SELECTOR_REFERENCES_.405
+_OBJC_SELECTOR_REFERENCES_.393
 _OBJC_CLASSLIST_REFERENCES_$_.408
-_OBJC_CLASSLIST_REFERENCES_$_.413
-_OBJC_CLASSLIST_REFERENCES_$_.434
 _OBJC_CLASSLIST_REFERENCES_$_.455
 _OBJC_CLASSLIST_REFERENCES_$_.456
-_OBJC_CLASSLIST_REFERENCES_$_.466
 ___block_descriptor_49_e8_32s40w_e5_v8?0l
 ___block_descriptor_48_e8_32s40w_e20_v20?0B8"NSError"12l
 _OBJC_IVAR_$_ContactPickerField._changedText
@@ -9249,6 +9228,7 @@ _OBJC_IVAR_$_HPMessageToolbarContentView.typingIndicatorRC
 _OBJC_IVAR_$_HPMessageToolbarContentView.rightButtonWC
 _OBJC_IVAR_$_HPMessageToolbarContentView.smallMicButtonWC
 _OBJC_IVAR_$_HPMessageToolbarContentView.textViewHeightC
+_OBJC_CLASSLIST_REFERENCES_$_.144
 _OBJC_IVAR_$_HPMessageToolbarContentView._messagingContainerView
 _OBJC_IVAR_$_HPMessageToolbarContentView._extensionsContainerView
 _OBJC_IVAR_$_HPMessageToolbarContentView._recognitionAnimationView
@@ -9587,6 +9567,7 @@ __OBJC_$_INSTANCE_VARIABLES_MQTTInMemoryFlow
 __OBJC_$_PROP_LIST_MQTTInMemoryFlow
 __OBJC_CLASS_RO_$_MQTTInMemoryFlow
 _clientIds
+_OBJC_CLASSLIST_REFERENCES_$_.94
 __OBJC_CLASS_PROTOCOLS_$_MQTTInMemoryPersistence
 __OBJC_METACLASS_RO_$_MQTTInMemoryPersistence
 __OBJC_$_INSTANCE_METHODS_MQTTInMemoryPersistence
@@ -9620,6 +9601,7 @@ ___64-[QRViewHelper logQuickReplyAnalyticsWithActionable:atPosition:]_block_invo
 -[QRViewHelper smartAction]
 -[QRViewHelper setSmartAction:]
 -[QRViewHelper .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.465
 _OBJC_IVAR_$_QRViewHelper.quickReplies
 _OBJC_IVAR_$_QRViewHelper.actionHelper
 _OBJC_CLASSLIST_REFERENCES_$_.595
@@ -9866,7 +9848,7 @@ _importCategories
 +[SRWebSocket automaticallyNotifiesObserversOfReadyState]
 -[SRWebSocket open]
 ___19-[SRWebSocket open]_block_invoke
-___19-[SRWebSocket open]_block_invoke.69
+___19-[SRWebSocket open]_block_invoke.66
 -[SRWebSocket _connectionDoneWithError:readStream:writeStream:]
 ___63-[SRWebSocket _connectionDoneWithError:readStream:writeStream:]_block_invoke
 ___63-[SRWebSocket _connectionDoneWithError:readStream:writeStream:]_block_invoke_2
@@ -9910,7 +9892,7 @@ ___35-[SRWebSocket handleCloseWithData:]_block_invoke
 ___43-[SRWebSocket _handleFrameWithData:opCode:]_block_invoke
 ___43-[SRWebSocket _handleFrameWithData:opCode:]_block_invoke_2
 ___43-[SRWebSocket _handleFrameWithData:opCode:]_block_invoke_3
-___43-[SRWebSocket _handleFrameWithData:opCode:]_block_invoke.250
+___43-[SRWebSocket _handleFrameWithData:opCode:]_block_invoke.248
 -[SRWebSocket _handleFrameHeader:curData:]
 ___42-[SRWebSocket _handleFrameHeader:curData:]_block_invoke
 -[SRWebSocket _readFrameContinue]
@@ -9920,7 +9902,7 @@ ___33-[SRWebSocket _readFrameContinue]_block_invoke_2
 ___28-[SRWebSocket _readFrameNew]_block_invoke
 -[SRWebSocket _pumpWriting]
 ___27-[SRWebSocket _pumpWriting]_block_invoke
-___27-[SRWebSocket _pumpWriting]_block_invoke.303
+___27-[SRWebSocket _pumpWriting]_block_invoke.301
 -[SRWebSocket _addConsumerWithScanner:callback:]
 -[SRWebSocket _addConsumerWithDataLength:callback:readToCurrentFrame:unmaskBytes:]
 -[SRWebSocket _addConsumerWithScanner:callback:dataLength:]
@@ -9933,12 +9915,12 @@ ___47-[SRWebSocket _readUntilBytes:length:callback:]_block_invoke
 -[SRWebSocket _innerPumpScanner]
 ___32-[SRWebSocket _innerPumpScanner]_block_invoke
 ___32-[SRWebSocket _innerPumpScanner]_block_invoke_2
-___32-[SRWebSocket _innerPumpScanner]_block_invoke.341
+___32-[SRWebSocket _innerPumpScanner]_block_invoke.339
 -[SRWebSocket _pumpScanner]
 -[SRWebSocket _sendFrameWithOpcode:data:]
 -[SRWebSocket stream:handleEvent:]
 ___34-[SRWebSocket stream:handleEvent:]_block_invoke
-___34-[SRWebSocket stream:handleEvent:]_block_invoke.365
+___34-[SRWebSocket stream:handleEvent:]_block_invoke.363
 ___34-[SRWebSocket stream:handleEvent:]_block_invoke_2
 -[SRWebSocket safeHandleEvent:stream:]
 ___38-[SRWebSocket safeHandleEvent:stream:]_block_invoke
@@ -9985,7 +9967,6 @@ ___block_descriptor_49_e32_v24?0"SRWebSocket"8"NSData"16l
 ___block_descriptor_32_e32_v24?0"SRWebSocket"8"NSData"16l
 ___block_descriptor_40_e8_32r_e32_v24?0"SRWebSocket"8"NSData"16l
 ___block_descriptor_56_e8_32s40r48r_e47_B40?0"NSObject<OS_dispatch_data>"8Q16r^v24Q32l
-_OBJC_CLASSLIST_REFERENCES_$_.313
 _CRLFCRLFBytes
 ___block_descriptor_48_e16_Q16?0"NSData"8l
 ___block_descriptor_40_e8_32s_e47_B40?0"NSObject<OS_dispatch_data>"8Q16r^v24Q32l
@@ -10039,30 +10020,46 @@ __OBJC_$_INSTANCE_VARIABLES_SRWebSocket
 __OBJC_$_PROP_LIST_SRWebSocket
 __OBJC_CLASS_RO_$_SRWebSocket
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikLib/HaptikLib/Modules/MQTT Service/SocketRocket/SRWebSocket.m
+-[SRWebSocket safeHandleEvent:stream:].cold.1
 HaptikLib/Modules/MQTT Service/SocketRocket/SRWebSocket.m
-__33-[SRWebSocket _readFrameContinue]_block_invoke_2
-__36-[SRWebSocket closeWithCode:reason:]_block_invoke
+-[SRWebSocket _sendFrameWithOpcode:data:].cold.1
+-[SRWebSocket _innerPumpScanner].cold.1
+-[SRWebSocket _addConsumerWithDataLength:callback:readToCurrentFrame:unmaskBytes:].cold.1
+__33-[SRWebSocket _readFrameContinue]_block_invoke_2.cold.4
+__33-[SRWebSocket _readFrameContinue]_block_invoke_2.cold.3
+__33-[SRWebSocket _readFrameContinue]_block_invoke_2.cold.2
+__33-[SRWebSocket _readFrameContinue]_block_invoke_2.cold.1
+-[SRWebSocket _readFrameContinue].cold.1
+-[SRWebSocket _handleFrameHeader:curData:].cold.1
+__36-[SRWebSocket closeWithCode:reason:]_block_invoke.cold.2
+__36-[SRWebSocket closeWithCode:reason:]_block_invoke.cold.1
+-[SRWebSocket closeWithCode:reason:].cold.1
+-[SRWebSocket didConnect].cold.1
+-[SRWebSocket open].cold.1
+-[SRWebSocket assertOnWorkQueue].cold.1
+-[SRWebSocket initWithURLRequest:protocols:securityPolicy:].cold.1
 HaptikLib/Modules/MQTT Service/SocketRocket/SRWebSocket.h
 __38-[SRWebSocket safeHandleEvent:stream:]_block_invoke_2
 __38-[SRWebSocket safeHandleEvent:stream:]_block_invoke
 __34-[SRWebSocket stream:handleEvent:]_block_invoke_2
-__34-[SRWebSocket stream:handleEvent:]_block_invoke.365
+__34-[SRWebSocket stream:handleEvent:]_block_invoke.363
 __34-[SRWebSocket stream:handleEvent:]_block_invoke
 CFSwapInt64BigToHost
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h
 CFSwapInt16BigToHost
-__32-[SRWebSocket _innerPumpScanner]_block_invoke.341
+__32-[SRWebSocket _innerPumpScanner]_block_invoke.339
 __32-[SRWebSocket _innerPumpScanner]_block_invoke_2
 __32-[SRWebSocket _innerPumpScanner]_block_invoke
 validate_dispatch_data_partial_string
 __47-[SRWebSocket _readUntilBytes:length:callback:]_block_invoke
 __37-[SRWebSocket _cleanupSelfReference:]_block_invoke
-__27-[SRWebSocket _pumpWriting]_block_invoke.303
+__27-[SRWebSocket _pumpWriting]_block_invoke.301
 __27-[SRWebSocket _pumpWriting]_block_invoke
 __28-[SRWebSocket _readFrameNew]_block_invoke
+__33-[SRWebSocket _readFrameContinue]_block_invoke_2
 __33-[SRWebSocket _readFrameContinue]_block_invoke
 __42-[SRWebSocket _handleFrameHeader:curData:]_block_invoke
-__43-[SRWebSocket _handleFrameWithData:opCode:]_block_invoke.250
+__43-[SRWebSocket _handleFrameWithData:opCode:]_block_invoke.248
 __43-[SRWebSocket _handleFrameWithData:opCode:]_block_invoke_3
 __43-[SRWebSocket _handleFrameWithData:opCode:]_block_invoke_2
 __43-[SRWebSocket _handleFrameWithData:opCode:]_block_invoke
@@ -10079,11 +10076,12 @@ __30-[SRWebSocket _failWithError:]_block_invoke_2
 __30-[SRWebSocket _failWithError:]_block_invoke
 __39-[SRWebSocket _closeWithProtocolError:]_block_invoke_2
 __39-[SRWebSocket _closeWithProtocolError:]_block_invoke
+__36-[SRWebSocket closeWithCode:reason:]_block_invoke
 __30-[SRWebSocket _readHTTPHeader]_block_invoke
 __36-[SRWebSocket _HTTPHeadersDidFinish]_block_invoke
 __63-[SRWebSocket _connectionDoneWithError:readStream:writeStream:]_block_invoke_2
 __63-[SRWebSocket _connectionDoneWithError:readStream:writeStream:]_block_invoke
-__19-[SRWebSocket open]_block_invoke.69
+__19-[SRWebSocket open]_block_invoke.66
 __19-[SRWebSocket open]_block_invoke
 importCategories
 +[RegularSmartActionViewHelper createRegularSmartActionViewFor:actionHelper:]

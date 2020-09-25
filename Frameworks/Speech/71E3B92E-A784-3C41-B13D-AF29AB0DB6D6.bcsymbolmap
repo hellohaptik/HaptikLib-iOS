@@ -1,5 +1,7 @@
 BCSymbolMap Version: 2.0
-Apple clang version 11.0.3 (clang-1103.0.32.62)
+Apple clang version 12.0.0 (clang-1200.0.32.2)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk
+iPhoneOS14.0.sdk
 /Users/hap/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikSpeech.build/Release-iphoneos/HaptikSpeech.build/DerivedSources/HaptikSpeech_vers.c
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikSpeech
 -[HPPollyTTS init]
@@ -12,7 +14,6 @@ Apple clang version 11.0.3 (clang-1103.0.32.62)
 -[HPPollyTTS queuePlayer]
 -[HPPollyTTS setQueuePlayer:]
 -[HPPollyTTS .cxx_destruct]
-_OBJC_CLASSLIST_SUP_REFS_$_
 _OBJC_SELECTOR_REFERENCES_
 _OBJC_CLASSLIST_REFERENCES_$_
 _OBJC_SELECTOR_REFERENCES_.10
@@ -72,7 +73,6 @@ _OBJC_IVAR_$_HPPollyTTS._queuePlayer
 __OBJC_$_INSTANCE_VARIABLES_HPPollyTTS
 __OBJC_$_PROP_LIST_HPPollyTTS
 __OBJC_CLASS_RO_$_HPPollyTTS
-_OBJC_LABEL_CLASS_$
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikSpeech/HaptikSpeech/Audio Service/TTS Helpers/PollyTTS/HPPollyTTS.m
 HaptikSpeech/Audio Service/TTS Helpers/PollyTTS/HPPollyTTS.m
 -[HPNativeTTS init]
@@ -204,7 +204,7 @@ EZOutputConverterInputCallback
 __destroy_helper_block_e4_
 __copy_helper_block_e4_
 __24+[EZOutput sharedOutput]_block_invoke
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/dispatch/once.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/dispatch/once.h
 -[EZAudioFFT dealloc]
 -[EZAudioFFT initWithMaximumBufferSize:sampleRate:]
 -[EZAudioFFT initWithMaximumBufferSize:sampleRate:delegate:]
@@ -278,10 +278,10 @@ __OBJC_CLASS_RO_$_EZAudioUtilities
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikSpeech/HaptikSpeech/Helpers/EZAudio/EZAudioUtilities.m
 HaptikSpeech/Helpers/EZAudio/EZAudioUtilities.m
 isprint
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/_ctype.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/_ctype.h
 __istype
 CFSwapInt32HostToBig
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h
 +[EZAudioDevice currentInputDevice]
 +[EZAudioDevice currentOutputDevice]
 +[EZAudioDevice inputDevices]

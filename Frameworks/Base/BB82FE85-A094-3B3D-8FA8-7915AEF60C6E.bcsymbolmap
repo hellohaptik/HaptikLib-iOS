@@ -1,5 +1,7 @@
 BCSymbolMap Version: 2.0
-Apple clang version 11.0.3 (clang-1103.0.32.62)
+Apple clang version 12.0.0 (clang-1200.0.32.2)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk
+iPhoneOS14.0.sdk
 /Users/hap/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikBase.build/Release-iphoneos/HaptikBase.build/DerivedSources/HaptikBase_vers.c
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikBase
 +[HPImageFactory downloadImageWithURLString:completion:]
@@ -65,11 +67,10 @@ _OBJC_SELECTOR_REFERENCES_.81
 __OBJC_$_CLASS_METHODS_HPImageFactory
 __OBJC_METACLASS_RO_$_HPImageFactory
 __OBJC_CLASS_RO_$_HPImageFactory
-_OBJC_LABEL_CLASS_$
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikBase/HaptikBase/HP Image Factory/Image Factory/HPImageFactory.m
 HaptikBase/HP Image Factory/Image Factory/HPImageFactory.m
 CGRectMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 __54+[HPImageFactory downloadHaptikImageNamed:completion:]_block_invoke
 __destroy_helper_block_e4_20s
 __copy_helper_block_e4_20b
@@ -82,7 +83,6 @@ _OBJC_SELECTOR_REFERENCES_.8
 _OBJC_SELECTOR_REFERENCES_.10
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UIButton_$_HPAdditions
 __OBJC_$_CATEGORY_UIButton_$_HPAdditions
-_OBJC_LABEL_CATEGORY_$
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikBase/HaptikBase/Extensions/UIButton Addtions/UIButton+HPAdditions.m
 HaptikBase/Extensions/UIButton Addtions/UIButton+HPAdditions.m
 +[ActionSheetStringPicker showPickerWithTitle:rows:initialSelection:doneBlock:cancelBlock:origin:]
@@ -188,7 +188,6 @@ HaptikBase/Progress HUD/Progress State View/HPProgressStateView.m
 -[HPFSMEngine setCurrentStateID:]
 -[HPFSMEngine localReachability]
 -[HPFSMEngine .cxx_destruct]
-_OBJC_CLASSLIST_SUP_REFS_$_
 _OBJC_CLASSLIST_REFERENCES_$_.11
 _OBJC_CLASSLIST_REFERENCES_$_.12
 _OBJC_CLASSLIST_REFERENCES_$_.13
@@ -319,7 +318,6 @@ ___destroy_helper_block_e4_
 -[HaptikUserInfo set_attributes:]
 -[HaptikUserInfo .cxx_destruct]
 ___clang_at_available_requires_core_foundation_framework
-___clang_at_available_requires_core_foundation_framework.cold.1
 _sharedInstance.once
 _sharedInstance.sharedInstance
 ___block_descriptor_24_e4__e5_v4?0l
@@ -341,7 +339,7 @@ HaptikBase/Haptik User Configs/Haptik User Info/HaptikUserInfo.m
 __destroy_helper_block_e4_
 __copy_helper_block_e4_
 __32+[HaptikUserInfo sharedInstance]_block_invoke
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/dispatch/once.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/dispatch/once.h
 +[UIColor(HPAdditions) bodyTextColor]
 +[UIColor(HPAdditions) disabledTextColor]
 +[UIColor(HPAdditions) lightHaptikGrayColor]
@@ -763,7 +761,6 @@ _OBJC_SELECTOR_REFERENCES_.92
 _OBJC_SELECTOR_REFERENCES_.96
 _OBJC_CLASSLIST_REFERENCES_$_.99
 _OBJC_CLASSLIST_REFERENCES_$_.100
-_OBJC_CLASSLIST_SUP_REFS_$_.102
 _OBJC_CLASSLIST_REFERENCES_$_.105
 _OBJC_SELECTOR_REFERENCES_.112
 _OBJC_CLASSLIST_REFERENCES_$_.113
@@ -860,7 +857,6 @@ _OBJC_SELECTOR_REFERENCES_.298
 _OBJC_SELECTOR_REFERENCES_.304
 _OBJC_SELECTOR_REFERENCES_.306
 _OBJC_SELECTOR_REFERENCES_.312
-_OBJC_CLASSLIST_SUP_REFS_$_.313
 _OBJC_SELECTOR_REFERENCES_.315
 _OBJC_SELECTOR_REFERENCES_.317
 _OBJC_SELECTOR_REFERENCES_.319
@@ -898,7 +894,6 @@ _OBJC_IVAR_$_HPHTTPRequestSerializer._timeoutInterval
 __OBJC_$_INSTANCE_VARIABLES_HPHTTPRequestSerializer
 __OBJC_$_PROP_LIST_HPHTTPRequestSerializer
 __OBJC_CLASS_RO_$_HPHTTPRequestSerializer
-_OBJC_CLASSLIST_SUP_REFS_$_.461
 _OBJC_SELECTOR_REFERENCES_.463
 _OBJC_SELECTOR_REFERENCES_.465
 _OBJC_CLASSLIST_REFERENCES_$_.466
@@ -946,7 +941,6 @@ _OBJC_IVAR_$_HPStreamingMultipartFormData._bodyStream
 __OBJC_$_INSTANCE_VARIABLES_HPStreamingMultipartFormData
 __OBJC_$_PROP_LIST_HPStreamingMultipartFormData
 __OBJC_CLASS_RO_$_HPStreamingMultipartFormData
-_OBJC_CLASSLIST_SUP_REFS_$_.573
 _OBJC_SELECTOR_REFERENCES_.575
 _OBJC_SELECTOR_REFERENCES_.577
 _OBJC_SELECTOR_REFERENCES_.579
@@ -992,7 +986,6 @@ __OBJC_$_INSTANCE_METHODS_HPMultipartBodyStream
 __OBJC_$_INSTANCE_VARIABLES_HPMultipartBodyStream
 __OBJC_$_PROP_LIST_HPMultipartBodyStream
 __OBJC_CLASS_RO_$_HPMultipartBodyStream
-_OBJC_CLASSLIST_SUP_REFS_$_.680
 _OBJC_SELECTOR_REFERENCES_.682
 _OBJC_SELECTOR_REFERENCES_.684
 _OBJC_CLASSLIST_REFERENCES_$_.685
@@ -1028,7 +1021,6 @@ __OBJC_$_PROP_LIST_HPHTTPBodyPart
 __OBJC_CLASS_RO_$_HPHTTPBodyPart
 _OBJC_SELECTOR_REFERENCES_.742
 _OBJC_SELECTOR_REFERENCES_.744
-_OBJC_CLASSLIST_SUP_REFS_$_.745
 _OBJC_CLASSLIST_REFERENCES_$_.748
 _OBJC_SELECTOR_REFERENCES_.750
 _OBJC_SELECTOR_REFERENCES_.754
@@ -1046,7 +1038,6 @@ __OBJC_CLASS_RO_$_HPJSONRequestSerializer
 _OBJC_SELECTOR_REFERENCES_.765
 _OBJC_SELECTOR_REFERENCES_.767
 _OBJC_SELECTOR_REFERENCES_.769
-_OBJC_CLASSLIST_SUP_REFS_$_.770
 _OBJC_CLASSLIST_REFERENCES_$_.773
 _OBJC_SELECTOR_REFERENCES_.775
 _OBJC_SELECTOR_REFERENCES_.777
@@ -1509,7 +1500,7 @@ _OBJC_SELECTOR_REFERENCES_.572
 HaptikBase/HPPickerViews/Action Sheet Pickers/AbstractActionSheetPicker.m
 HaptikBase/HPPickerViews/Action Sheet Pickers/AbstractActionSheetPicker.h
 UIInterfaceOrientationIsPortrait
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h
 __66-[AbstractActionSheetPicker addCustomButtonWithTitle:actionBlock:]_block_invoke
 isIPhone4
 -[HPRadialGradientLayer drawInContext:]
@@ -1692,7 +1683,6 @@ _OBJC_IVAR_$_HPHTTPResponseSerializer._acceptableContentTypes
 __OBJC_$_INSTANCE_VARIABLES_HPHTTPResponseSerializer
 __OBJC_$_PROP_LIST_HPHTTPResponseSerializer
 __OBJC_CLASS_RO_$_HPHTTPResponseSerializer
-_OBJC_CLASSLIST_SUP_REFS_$_.168
 _OBJC_CLASSLIST_REFERENCES_$_.177
 _OBJC_CLASSLIST_REFERENCES_$_.183
 _OBJC_CLASSLIST_REFERENCES_$_.191
@@ -1707,14 +1697,12 @@ __OBJC_$_INSTANCE_METHODS_HPJSONResponseSerializer
 __OBJC_$_INSTANCE_VARIABLES_HPJSONResponseSerializer
 __OBJC_$_PROP_LIST_HPJSONResponseSerializer
 __OBJC_CLASS_RO_$_HPJSONResponseSerializer
-_OBJC_CLASSLIST_SUP_REFS_$_.215
 _OBJC_CLASSLIST_REFERENCES_$_.222
 _OBJC_SELECTOR_REFERENCES_.224
 __OBJC_$_CLASS_METHODS_HPXMLParserResponseSerializer
 __OBJC_METACLASS_RO_$_HPXMLParserResponseSerializer
 __OBJC_$_INSTANCE_METHODS_HPXMLParserResponseSerializer
 __OBJC_CLASS_RO_$_HPXMLParserResponseSerializer
-_OBJC_CLASSLIST_SUP_REFS_$_.232
 _OBJC_CLASSLIST_REFERENCES_$_.235
 _OBJC_IVAR_$_HPPropertyListResponseSerializer._format
 _OBJC_IVAR_$_HPPropertyListResponseSerializer._readOptions
@@ -1733,7 +1721,6 @@ _OBJC_SELECTOR_REFERENCES_.256
 _OBJC_SELECTOR_REFERENCES_.258
 __OBJC_$_CATEGORY_CLASS_METHODS_UIImage_$_HPNetworkingSafeImageLoading
 __OBJC_$_CATEGORY_UIImage_$_HPNetworkingSafeImageLoading
-_OBJC_CLASSLIST_SUP_REFS_$_.261
 _OBJC_CLASSLIST_REFERENCES_$_.282
 _OBJC_SELECTOR_REFERENCES_.302
 _OBJC_IVAR_$_HPImageResponseSerializer._imageScale
@@ -1748,7 +1735,6 @@ _OBJC_SELECTOR_REFERENCES_.314
 _OBJC_SELECTOR_REFERENCES_.316
 _OBJC_CLASSLIST_REFERENCES_$_.317
 _OBJC_SELECTOR_REFERENCES_.318
-_OBJC_CLASSLIST_SUP_REFS_$_.319
 _OBJC_SELECTOR_REFERENCES_.321
 _OBJC_IVAR_$_HPCompoundResponseSerializer._responseSerializers
 __OBJC_$_CLASS_METHODS_HPCompoundResponseSerializer
@@ -2231,7 +2217,6 @@ _OBJC_CLASSLIST_REFERENCES_$_.30
 ___block_descriptor_24_e4_20w_e37_"HPNetworkReachabilityManager"8?0i4l
 ___block_descriptor_28_e4_20s24bs_e5_v4?0l
 _OBJC_CLASSLIST_REFERENCES_$_.61
-_OBJC_CLASSLIST_SUP_REFS_$_.66
 __OBJC_$_CLASS_METHODS_HPNetworkReachabilityManager
 __OBJC_METACLASS_RO_$_HPNetworkReachabilityManager
 __OBJC_$_INSTANCE_METHODS_HPNetworkReachabilityManager
@@ -2403,7 +2388,6 @@ _OBJC_IVAR_$_CKDateItem._selectedTextColor
 __OBJC_$_INSTANCE_VARIABLES_CKDateItem
 __OBJC_$_PROP_LIST_CKDateItem
 __OBJC_CLASS_RO_$_CKDateItem
-_OBJC_CLASSLIST_SUP_REFS_$_.120
 _OBJC_CLASSLIST_REFERENCES_$_.133
 _OBJC_CLASSLIST_REFERENCES_$_.138
 _OBJC_CLASSLIST_REFERENCES_$_.145
@@ -2560,10 +2544,37 @@ __OBJC_$_INSTANCE_VARIABLES_HPSimplePing
 __OBJC_$_PROP_LIST_HPSimplePing
 __OBJC_CLASS_RO_$_HPSimplePing
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikBase/HaptikBase/Networking/Compound Reachability/Ping/Simple Ping/HPSimplePing.m
-HostResolveCallback
+HostResolveCallback.cold.3
 HaptikBase/Networking/Compound Reachability/Ping/Simple Ping/HPSimplePing.m
-SocketReadCallback
+HostResolveCallback.cold.2
+HostResolveCallback.cold.1
+-[HPSimplePing start].cold.3
+-[HPSimplePing start].cold.2
+-[HPSimplePing start].cold.1
+SocketReadCallback.cold.5
+SocketReadCallback.cold.4
+SocketReadCallback.cold.3
+SocketReadCallback.cold.2
+SocketReadCallback.cold.1
+-[HPSimplePing startWithHostAddress].cold.5
+-[HPSimplePing startWithHostAddress].cold.4
+-[HPSimplePing startWithHostAddress].cold.3
+-[HPSimplePing startWithHostAddress].cold.2
+-[HPSimplePing startWithHostAddress].cold.1
+-[HPSimplePing readData].cold.2
+-[HPSimplePing readData].cold.1
+-[HPSimplePing validatePingResponsePacket:sequenceNumber:].cold.1
+-[HPSimplePing sendPingWithData:].cold.4
+-[HPSimplePing sendPingWithData:].cold.3
+-[HPSimplePing sendPingWithData:].cold.2
+-[HPSimplePing sendPingWithData:].cold.1
+-[HPSimplePing pingPacketWithType:payload:requiresChecksum:].cold.1
+-[HPSimplePing didFailWithError:].cold.1
+-[HPSimplePing dealloc].cold.2
+-[HPSimplePing dealloc].cold.1
 HaptikBase/Networking/Compound Reachability/Ping/Simple Ping/HPSimplePing.h
+HostResolveCallback
+SocketReadCallback
 in_cksum
 -[HaptikUser encodeWithCoder:]
 -[HaptikUser initWithCoder:]
@@ -3202,7 +3213,6 @@ __OBJC_$_CLASS_METHODS__HPURLSessionTaskSwizzling
 __OBJC_METACLASS_RO_$__HPURLSessionTaskSwizzling
 __OBJC_$_INSTANCE_METHODS__HPURLSessionTaskSwizzling
 __OBJC_CLASS_RO_$__HPURLSessionTaskSwizzling
-_OBJC_CLASSLIST_SUP_REFS_$_.310
 _OBJC_CLASSLIST_REFERENCES_$_.322
 _OBJC_CLASSLIST_REFERENCES_$_.327
 _OBJC_CLASSLIST_REFERENCES_$_.332
@@ -3311,7 +3321,6 @@ _OBJC_SELECTOR_REFERENCES_.735
 _OBJC_CLASSLIST_REFERENCES_$_.736
 _OBJC_SELECTOR_REFERENCES_.738
 _OBJC_SELECTOR_REFERENCES_.740
-_OBJC_LABEL_NONLAZY_CLASS_$
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikBase/HaptikBase/Networking/AFNetworking/HPURLSessionManager.m
 __url_session_manager_processing_queue_block_invoke
 HaptikBase/Networking/AFNetworking/HPURLSessionManager.m
