@@ -2,6 +2,14 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.6.4] - (25/09/20) - U iOS
+
+### Enhancements
+- Fix compatibility issue with Xcode12
+
+### Bugs
+- Fixes cell background color issue on RNHaptikLib
+
 ## [2.6.3] - (04/09/20) - S iOS
 
 ### Bugs
