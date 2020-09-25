@@ -7,7 +7,7 @@
 #endif
 #import <TargetConditionals.h>
 
-#import "HPURLSessionManager.h"
+#import <HaptikBase/HPURLSessionManager.h>
 
 /**
  `HPHTTPSessionManager` is a subclass of `HPURLSessionManager` with convenience methods for making HTTP requests. When a `baseURL` is provided, requests made with the `GET` / `POST` / et al. convenience methods can be made with relative paths.

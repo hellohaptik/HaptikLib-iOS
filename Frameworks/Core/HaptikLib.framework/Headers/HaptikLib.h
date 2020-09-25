@@ -9,8 +9,8 @@
 //
 
 
-#import "Haptik.h"
-#import "HPSignUpObject.h"
+#import <HaptikLib/Haptik.h>
+#import <HaptikLib/HPSignUpObject.h>
 
 FOUNDATION_EXPORT double HaptikLibVersionNumber;
 

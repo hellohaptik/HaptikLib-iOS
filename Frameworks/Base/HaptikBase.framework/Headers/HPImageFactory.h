@@ -7,9 +7,9 @@
 //
 
 
-#import "HPImageManagerResult.h"
+#import <HaptikBase/HPImageManagerResult.h>
 
-#import "HPSharedConstants.h"
+#import <HaptikBase/HPSharedConstants.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

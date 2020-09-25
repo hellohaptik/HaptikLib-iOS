@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HaptikLib"
-  s.version      = "2.6.3"
+  s.version      = "2.6.4"
   s.summary      = "Say goodbye to App Fatigue. Instantly enable 100+ chatbots across various daily tasks"
 
   s.description  = <<-DESC
@@ -37,8 +37,8 @@ Pod::Spec.new do |s|
   # Haptik Base Module Subspec
   s.subspec 'Base' do |base|
     base.ios.deployment_target = '9.0'
-    base.dependency    'PINRemoteImage', '3.0.0-beta.13'
-    base.dependency    'PINRemoteImage/WebP', '3.0.0-beta.13'
+    base.dependency    'PINRemoteImage', '3.0.1'
+    base.dependency    'PINRemoteImage/WebP', '3.0.1'
     base.vendored_frameworks = "Frameworks/Base/HaptikBase.framework"
   end
 

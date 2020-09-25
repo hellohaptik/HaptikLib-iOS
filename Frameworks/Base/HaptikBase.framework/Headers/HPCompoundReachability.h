@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "HPNetworkReachabilityManager.h"
+#import <HaptikBase/HPNetworkReachabilityManager.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

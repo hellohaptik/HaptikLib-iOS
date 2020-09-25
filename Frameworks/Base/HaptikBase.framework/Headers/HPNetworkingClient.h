@@ -6,7 +6,7 @@
 //  Copyright © 2020 Haptik. All rights reserved.
 //
 
-#import "HPHTTPSessionManager.h"
+#import <HaptikBase/HPHTTPSessionManager.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

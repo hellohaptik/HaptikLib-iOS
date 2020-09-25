@@ -7,7 +7,7 @@
 //
 
 
-#import "HPImageManagerResult.h"
+#import <HaptikBase/HPImageManagerResult.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
