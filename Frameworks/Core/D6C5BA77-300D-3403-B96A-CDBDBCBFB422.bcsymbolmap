@@ -1,7 +1,7 @@
 BCSymbolMap Version: 2.0
-Apple clang version 12.0.0 (clang-1200.0.32.2)
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk
-iPhoneOS14.0.sdk
+Apple clang version 12.0.0 (clang-1200.0.32.27)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk
+iPhoneOS14.2.sdk
 /Users/hap/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikLib.build/Release-iphoneos/HaptikLib.build/DerivedSources/HaptikLib_vers.c
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikLib
 -[MQTTSession(Synchron) connectAndWaitTimeout:]
@@ -862,7 +862,7 @@ __36-[DDAbstractLogger setLogFormatter:]_block_invoke
 __32-[DDAbstractLogger logFormatter]_block_invoke_2
 __32-[DDAbstractLogger logFormatter]_block_invoke
 _dispatch_queue_label_init
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/dispatch/once.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/dispatch/once.h
 DDExtractFileNameWithoutExtension
 __17-[DDLog lt_flush]_block_invoke
 __16-[DDLog lt_log:]_block_invoke_2
@@ -1160,7 +1160,7 @@ __OBJC_CLASS_RO_$_iCarousel
 HaptikLib/Views/UIViews/iCarousel/iCarousel.m
 HaptikLib/Views/UIViews/iCarousel/iCarousel.h
 __tg_fabs
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/tgmath.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/tgmath.h
 __tg_round
 __tg_pow
 __tg_floor
@@ -1170,7 +1170,7 @@ __tg_cos
 __tg_sin
 compareViewDepth
 __CGSizeEqualToSize
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 -[SendAgainButton chatMessage]
 -[SendAgainButton setChatMessage:]
 -[SendAgainButton .cxx_destruct]
@@ -1433,7 +1433,7 @@ __OBJC_CLASS_RO_$_MQTTProperties
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTProperties.m
 HaptikLib/Modules/MQTT Service/MQTTClient/MQTTProperties.h
 NSMakeRange
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 +[MQTTSessionDelegate sharedInstance]
 ___37+[MQTTSessionDelegate sharedInstance]_block_invoke
 -[MQTTSessionDelegate init]
@@ -2547,7 +2547,6 @@ ___destroy_helper_block_e8_32s40s48s56s
 ___64+[HPFormActionHandler fireFormFieldTypesAnalyticsWith:business:]_block_invoke
 +[HPFormActionHandler fireFormDataEnteredAnalyticsWith:formTitle:business:]
 ___75+[HPFormActionHandler fireFormDataEnteredAnalyticsWith:formTitle:business:]_block_invoke
-_OBJC_SELECTOR_REFERENCES_.504
 _OBJC_SELECTOR_REFERENCES_.506
 _OBJC_SELECTOR_REFERENCES_.508
 _OBJC_SELECTOR_REFERENCES_.510
@@ -2555,15 +2554,14 @@ _OBJC_SELECTOR_REFERENCES_.512
 _OBJC_SELECTOR_REFERENCES_.540
 _OBJC_SELECTOR_REFERENCES_.542
 _OBJC_SELECTOR_REFERENCES_.546
-_OBJC_SELECTOR_REFERENCES_.563
-_OBJC_SELECTOR_REFERENCES_.565
-_OBJC_CLASSLIST_REFERENCES_$_.568
-_OBJC_CLASSLIST_REFERENCES_$_.569
-_OBJC_SELECTOR_REFERENCES_.573
-_OBJC_CLASSLIST_REFERENCES_$_.574
+_OBJC_CLASSLIST_REFERENCES_$_.573
+_OBJC_SELECTOR_REFERENCES_.575
+_OBJC_SELECTOR_REFERENCES_.577
+_OBJC_CLASSLIST_REFERENCES_$_.578
+_OBJC_SELECTOR_REFERENCES_.584
 ___block_descriptor_48_e8_32s40s_e11_v24?0q816l
-_OBJC_SELECTOR_REFERENCES_.583
-_OBJC_CLASSLIST_REFERENCES_$_.586
+_OBJC_CLASSLIST_REFERENCES_$_.590
+_OBJC_SELECTOR_REFERENCES_.596
 _OBJC_CLASSLIST_REFERENCES_$_.611
 _OBJC_SELECTOR_REFERENCES_.613
 ___block_descriptor_48_e8_32s40s_e16_v16?0"NSDate"8l
@@ -2938,6 +2936,7 @@ _OBJC_SELECTOR_REFERENCES_.497
 _OBJC_SELECTOR_REFERENCES_.499
 _OBJC_SELECTOR_REFERENCES_.501
 _OBJC_CLASSLIST_REFERENCES_$_.502
+_OBJC_SELECTOR_REFERENCES_.504
 _OBJC_CLASSLIST_REFERENCES_$_.505
 _OBJC_CLASSLIST_REFERENCES_$_.506
 _OBJC_CLASSLIST_REFERENCES_$_.509
@@ -2957,10 +2956,13 @@ _OBJC_SELECTOR_REFERENCES_.555
 _OBJC_SELECTOR_REFERENCES_.557
 _OBJC_SELECTOR_REFERENCES_.559
 _OBJC_SELECTOR_REFERENCES_.561
-_OBJC_SELECTOR_REFERENCES_.575
-_OBJC_SELECTOR_REFERENCES_.577
+_OBJC_SELECTOR_REFERENCES_.563
+_OBJC_SELECTOR_REFERENCES_.565
+_OBJC_SELECTOR_REFERENCES_.573
 _OBJC_SELECTOR_REFERENCES_.579
 _OBJC_SELECTOR_REFERENCES_.581
+_OBJC_SELECTOR_REFERENCES_.583
+_OBJC_CLASSLIST_REFERENCES_$_.586
 _OBJC_CLASSLIST_REFERENCES_$_.591
 _OBJC_SELECTOR_REFERENCES_.593
 _OBJC_SELECTOR_REFERENCES_.595
@@ -3959,7 +3961,7 @@ __OBJC_CLASS_RO_$_SLKTypingIndicatorView
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTypingIndicatorView.m
 HaptikLib/Views/Custom View Controllers/Slack Text ViewController/SLKTypingIndicatorView.h
 UIEdgeInsetsEqualToEdgeInsets
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
 -[DDLogFileManagerDefault init]
 -[DDLogFileManagerDefault initWithLogsDirectory:]
 +[DDLogFileManagerDefault automaticallyNotifiesObserversForKey:]
@@ -4858,7 +4860,7 @@ __39-[SLKTextViewController textDidUpdate:]_block_invoke
 __41-[SLKTextViewController dismissKeyboard:]_block_invoke
 __41-[SLKTextViewController presentKeyboard:]_block_invoke
 __CGAffineTransformMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGAffineTransform.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGAffineTransform.h
 __40-[SLKTextViewController viewWillAppear:]_block_invoke
 -[MultiSelectActionSheet initWithFrame:]
 -[MultiSelectActionSheet initWithCoder:]
@@ -5047,12 +5049,12 @@ _OBJC_IVAR_$_SmartCarouselDetailViewController.scroller
 _OBJC_CLASSLIST_REFERENCES_$_.541
 _OBJC_CLASSLIST_REFERENCES_$_.552
 _OBJC_CLASSLIST_REFERENCES_$_.557
+_OBJC_CLASSLIST_REFERENCES_$_.568
 _OBJC_CLASSLIST_REFERENCES_$_.580
 _OBJC_CLASSLIST_REFERENCES_$_.581
 _OBJC_IVAR_$_SmartCarouselDetailViewController.imagesCarousel
 _OBJC_SELECTOR_REFERENCES_.591
 _OBJC_CLASSLIST_REFERENCES_$_.592
-_OBJC_SELECTOR_REFERENCES_.596
 _OBJC_CLASSLIST_REFERENCES_$_.597
 _OBJC_IVAR_$_SmartCarouselDetailViewController.leftLayer
 _OBJC_SELECTOR_REFERENCES_.601
@@ -5764,8 +5766,8 @@ _OBJC_CLASSLIST_REFERENCES_$_.553
 _OBJC_CLASSLIST_REFERENCES_$_.556
 _OBJC_CLASSLIST_REFERENCES_$_.563
 _OBJC_CLASSLIST_REFERENCES_$_.566
+_OBJC_CLASSLIST_REFERENCES_$_.569
 ___block_descriptor_48_e8_32s40w_e47_v32?0"NSString"8"UIImage"16"NSDictionary"24l
-_OBJC_CLASSLIST_REFERENCES_$_.578
 ___block_descriptor_40_e8_32s_e30_v24?0"NSString"8"NSError"16l
 __OBJC_$_CATEGORY_INSTANCE_METHODS_ConversationViewController_$_HPImagePicker
 __OBJC_$_PROTOCOL_REFS_UIImagePickerControllerDelegate
@@ -6497,7 +6499,6 @@ _OBJC_CLASSLIST_REFERENCES_$_.517
 _OBJC_CLASSLIST_REFERENCES_$_.526
 _OBJC_CLASSLIST_REFERENCES_$_.549
 _OBJC_CLASSLIST_REFERENCES_$_.554
-_OBJC_CLASSLIST_REFERENCES_$_.573
 _OBJC_CLASSLIST_REFERENCES_$_.584
 _OBJC_CLASSLIST_REFERENCES_$_.587
 _OBJC_CLASSLIST_REFERENCES_$_.602
@@ -6870,6 +6871,7 @@ ___44-[ConversationActionHelper handleRateAction]_block_invoke
 _OBJC_CLASSLIST_REFERENCES_$_.523
 _OBJC_CLASSLIST_REFERENCES_$_.524
 _OBJC_CLASSLIST_REFERENCES_$_.534
+_OBJC_CLASSLIST_REFERENCES_$_.574
 _OBJC_CLASSLIST_REFERENCES_$_.616
 _OBJC_CLASSLIST_REFERENCES_$_.635
 _OBJC_CLASSLIST_REFERENCES_$_.651
@@ -7044,7 +7046,6 @@ _OBJC_CLASSLIST_REFERENCES_$_.542
 _OBJC_CLASSLIST_REFERENCES_$_.551
 ___block_descriptor_40_e8_32s_e33_v24?0"NSURLSessionDataTask"816l
 ___block_descriptor_40_e8_32bs_e30_v24?0"NSString"8"NSError"16l
-_OBJC_SELECTOR_REFERENCES_.584
 __OBJC_$_CLASS_METHODS_MessageNetworkHelper
 __OBJC_METACLASS_RO_$_MessageNetworkHelper
 __OBJC_CLASS_RO_$_MessageNetworkHelper
@@ -10045,7 +10046,7 @@ __34-[SRWebSocket stream:handleEvent:]_block_invoke_2
 __34-[SRWebSocket stream:handleEvent:]_block_invoke.363
 __34-[SRWebSocket stream:handleEvent:]_block_invoke
 CFSwapInt64BigToHost
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h
 CFSwapInt16BigToHost
 __32-[SRWebSocket _innerPumpScanner]_block_invoke.339
 __32-[SRWebSocket _innerPumpScanner]_block_invoke_2

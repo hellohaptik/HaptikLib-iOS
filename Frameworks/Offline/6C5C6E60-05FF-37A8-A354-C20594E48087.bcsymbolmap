@@ -1,7 +1,7 @@
 BCSymbolMap Version: 2.0
-Apple clang version 12.0.0 (clang-1200.0.32.2)
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk
-iPhoneOS14.0.sdk
+Apple clang version 12.0.0 (clang-1200.0.32.27)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk
+iPhoneOS14.2.sdk
 /Users/hap/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikOffline.build/Release-iphoneos/HaptikOffline.build/DerivedSources/HaptikOffline_vers.c
 /Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikOffline
 +[HPOfflineUtils parseJSONAtPath:]

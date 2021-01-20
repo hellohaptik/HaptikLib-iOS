@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.6.5] - (20/01/21) - Test 1 - CIA Down Under AI iOS
+
+### Bugs
+- Fix calendar date selection limit
+
 ## [2.6.4] - (25/09/20) - U iOS
 
 ### Enhancements
