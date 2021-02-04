@@ -1,10 +1,10 @@
 PODS:
-  - HaptikLib (2.6.5):
-    - HaptikLib/Core (= 2.6.5)
-  - HaptikLib/Base (2.6.5):
+  - HaptikLib (2.6.6):
+    - HaptikLib/Core (= 2.6.6)
+  - HaptikLib/Base (2.6.6):
     - PINRemoteImage (= 3.0.1)
     - PINRemoteImage/WebP (= 3.0.1)
-  - HaptikLib/Core (2.6.5):
+  - HaptikLib/Core (2.6.6):
     - HaptikLib/Base
   - libwebp (1.1.0):
     - libwebp/demux (= 1.1.0)
@@ -49,7 +49,7 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  HaptikLib: 0ce3c42ffc25cb63e5818b9dd04210a0e96fd36d
+  HaptikLib: 0b3cc36b7b59fb55d6e951abae9e4f92dbf9584f
   libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
   PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
   PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
