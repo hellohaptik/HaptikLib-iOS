@@ -1,9 +1,9 @@
 BCSymbolMap Version: 2.0
-Apple clang version 12.0.0 (clang-1200.0.32.27)
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk
-iPhoneOS14.2.sdk
-/Users/hap/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikAnalytics.build/Release-iphoneos/HaptikAnalytics.build/DerivedSources/HaptikAnalytics_vers.c
-/Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikAnalytics
+Apple clang version 12.0.0 (clang-1200.0.32.28)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk
+iPhoneOS14.3.sdk
+/Users/Ketan/Desktop/BuildArtifacts/Platform_OS/Build/Intermediates.noindex/HaptikAnalytics.build/Release-iphoneos/HaptikAnalytics.build/DerivedSources/HaptikAnalytics_vers.c
+/Users/Ketan/Documents/Repo/Haptik/Source Libraries/HaptikAnalytics
 -[HPAnalytics setupAnalytics]
 -[HPAnalytics enablePersonalization]
 -[HPAnalytics optOutFromAnalytics:]
@@ -46,7 +46,7 @@ __OBJC_METACLASS_RO_$_HPAnalytics
 __OBJC_$_INSTANCE_METHODS_HPAnalytics
 __OBJC_$_PROP_LIST_HPAnalytics
 __OBJC_CLASS_RO_$_HPAnalytics
-/Users/hap/Documents/Haptik-Lib/Source Libraries/HaptikAnalytics/HaptikAnalytics/Analytics/HPAnalytics.m
+/Users/Ketan/Documents/Repo/Haptik/Source Libraries/HaptikAnalytics/HaptikAnalytics/Analytics/HPAnalytics.m
 HaptikAnalytics/Analytics/HPAnalytics.m
 +[CleverTapLocalDataStore initializeWithAccountId:]
 +[CleverTapLocalDataStore initProfileCache]
@@ -323,7 +323,6 @@ _localRegion
 _appLaunchedReportingDisabled
 _serialEventQueue
 _processingLoginUserIdentifierLockObj
-_userSetLocation
 _appForeground
 _lastLocationPingTime
 _inSerialQueue.queueToken
@@ -374,6 +373,8 @@ _OBJC_IVAR_$_CleverTapAPI._radio
 _OBJC_IVAR_$_CleverTapAPI._wifi
 _OBJC_IVAR_$_CleverTapAPI._currentUserOptedOut
 _OBJC_IVAR_$_CleverTapAPI._enableNetworkInfoReporting
+_userSetLocation.0
+_userSetLocation.1
 /Users/peter/CleverTap/sdk-ios-source/work/CleverTapSDK/CleverTapAPI.m
 /Users/peter/CleverTap/sdk-ios-source/work/CleverTapSDK/CleverTapAPI.h
 __54-[CleverTapAPI didHandleInAppTestFromPushNotificaton:]_block_invoke
@@ -574,8 +575,6 @@ __55-[CleverTapInAppView _slideInContentViewFromDirection:]_block_invoke.241
 __55-[CleverTapInAppView _slideInContentViewFromDirection:]_block_invoke_2
 __55-[CleverTapInAppView _slideInContentViewFromDirection:]_block_invoke.237
 __55-[CleverTapInAppView _slideInContentViewFromDirection:]_block_invoke
-CGRectMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 __38-[CleverTapInAppView removeInAppView:]_block_invoke.48
 __38-[CleverTapInAppView removeInAppView:]_block_invoke.39
 __38-[CleverTapInAppView removeInAppView:]_block_invoke
@@ -1004,6 +1003,8 @@ _OBJC_IVAR_$_CleverTapEventDetail._count
 +[CleverTapValidator cleanObjectValue:context:]
 +[CleverTapValidator isRestrictedEventName:]
 /Users/peter/CleverTap/sdk-ios-source/work/CleverTapSDK/CleverTapValidator.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 +[CleverTapPreferences getIntForKey:withResetValue:]
 +[CleverTapPreferences putInt:forKey:]
 +[CleverTapPreferences getStringForKey:withResetValue:]
