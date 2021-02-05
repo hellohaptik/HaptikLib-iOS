@@ -2,7 +2,7 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [2.6.6] - (04/02/21) - Test 2 - CIA Down Under AI iOS
+## [2.6.6] - (05/02/21) - Test 2 - CIA Down Under AI iOS
 
 ### Bugs
 - Fix memory crash
