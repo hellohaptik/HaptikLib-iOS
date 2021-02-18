@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.6.7] - (05/02/21) - Test 3 - CIA Down Under AI iOS
+
+### Bugs
+- Fix form data caching
+
 ## [2.6.6] - (05/02/21) - Test 2 - CIA Down Under AI iOS
 
 ### Bugs
